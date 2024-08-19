@@ -1,105 +1,217 @@
-import {Resend} from 'resend';
-import ContactFormEmail from "emails/contactFormEmail";
+import React, { useState, useRef } from 'react';
+import GoogleRecaptcha, { GoogleRecaptchaRef } from '@components/recaptcha/google-recaptcha';
+import { useToast } from "@/components/ui/use-toast";
 
-export default async function ContactForm() {
-    async function sendEmail(formData: FormData) {
-        'use server';
-        const name = formData.get("name") as string
-        const email = formData.get("email") as string
-        const message = formData.get("message") as string
+export default function ContactForm() {
+    const [formErrors, setFormErrors] = useState<string[]>([]);
+    const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
+    const formRef = useRef<HTMLFormElement>(null);
+    const recaptchaRef = useRef<GoogleRecaptchaRef>(null);
+    const { toast } = useToast();
+
+    const handleRecaptchaVerify = (token: string | null) => {
+        setRecaptchaToken(token);
+    };
+
+    const resetForm = () => {
+        if (formRef.current) {
+            formRef.current.reset();
+        }
+        if (recaptchaRef.current) {
+            recaptchaRef.current.reset();
+        }
+        setRecaptchaToken(null);
+    };
+
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        const formData = new FormData(event.currentTarget);
+
+        const errors = validateForm(formData);
+
+        if (errors.length > 0) {
+            setFormErrors(errors);
+            return;
+        }
+
+        if (!recaptchaToken) {
+            toast({
+                title: "Erreur",
+                description: "Veuillez cocher la case reCAPTCHA.",
+                variant: "destructive",
+                duration: 5000,
+            });
+            return;
+        }
+
+        const formBody = new URLSearchParams();
+        formData.forEach((value, key) => {
+            formBody.append(key, value.toString());
+        });
+        formBody.append('g-recaptcha-response', recaptchaToken);
+
         try {
-            const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY_AGENCY)
-            await resend.emails.send({
-                from: "johan27000@gmail.com",
-                to: "johan27000@gmail.com",
-                subject: "Form Submission",
-                react: ContactFormEmail({name, email, message})
-            })
+            const response = await fetch('/api/send-email', {
+                method: 'POST',
+                body: formBody.toString(),
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+            });
 
-            return {
-                error: null,
-                success: true
+            if (response.ok) {
+                setFormErrors([]);
+                toast({
+                    title: "Succès",
+                    description: "Le formulaire a été envoyé avec succès !",
+                    variant: "success",
+                    duration: 5000,
+                });
+                resetForm();
+            } else {
+                const errorData = await response.json();
+                setFormErrors([errorData.error]);
+                if (errorData.errorCodes) {
+                    errorData.errorCodes.forEach((code: string) => {
+                        console.error('reCAPTCHA Error Code:', code);
+                    });
+                }
+                toast({
+                    title: "Erreur",
+                    description: errorData.error || "Une erreur est survenue lors de l'envoi du formulaire.",
+                    variant: "destructive",
+                    duration: 5000,
+                });
             }
         } catch (error) {
-            console.log(error)
-            return {
-                error: (error as Error).message,
-                success: false
-            }
+            console.error("Erreur lors de l'envoi de l'email:", error);
+            setFormErrors([(error as Error).message]);
+            toast({
+                title: "Erreur",
+                description: "Une erreur inattendue est survenue. Veuillez réessayer plus tard.",
+                variant: "destructive",
+                duration: 5000,
+            });
         }
+    };
+
+    function validateForm(formData: FormData): string[] {
+        const errors = [];
+
+        if (!formData.get("name")) {
+            errors.push("Veuillez entrer votre nom.");
+        }
+        if (!formData.get("email") || !/\S+@\S+\.\S+/.test(formData.get("email") as string)) {
+            errors.push("Veuillez entrer une adresse email valide.");
+        }
+        if (!formData.get("phone") || !/^\d{10}$/.test(formData.get("phone") as string)) {
+            errors.push("Veuillez entrer un numéro de téléphone valide.");
+        }
+        if (!formData.get("message")) {
+            errors.push("Veuillez entrer votre message.");
+        }
+
+        return errors;
     }
 
     return (
-        <section id="pricing">
+        <section id="contact" className="relative min-h-screen">
             <div
-                className="wrapper image-wrapper bg-image bg-overlay"
-                style={{backgroundImage: "url(/img/photos/bg36.jpg)"}}>
-                <div className="container py-15 py-md-17">
-                    <div className="row">
-                        <div className="col-xl-9 mx-auto">
-                            <div className="card border-0 bg-white-900">
-                                <div className="card-body py-lg-13 px-lg-16">
-                                    <h2 className="display-5 mb-3 text-center">Request Photography Pricing</h2>
-                                    <p className="lead fs-lg text-center mb-10">
-                                        For more information please get in touch using the form below:
+                className="bg-cover bg-center bg-no-repeat"
+                style={{ backgroundImage: "url(/img/photos/bg36.jpg)" }}
+            >
+                <div className="container mx-auto py-20 md:py-24 flex items-center justify-center">
+                    <div className="flex justify-center">
+                        <div className="max-w-3xl mx-auto">
+                            <div className="bg-white bg-opacity-95 shadow-xl rounded-lg">
+                                <div className="p-8 md:p-12">
+                                    <h2 className="text-xl md:text-3xl font-bold mb-4 text-center">Contactez-nous</h2>
+                                    <p className="text-sm md:text-xl mb-3">
+                                        Nous serions ravis d'entendre parler de votre projet. Contactez-nous pour discuter de vos besoins.
                                     </p>
-                                    <form className="contact-form needs-validation" noValidate action={sendEmail}>
-                                        <div className="messages"></div>
-                                        <div className="row gx-4">
-                                            <div className="col-md-6">
-                                                <div className="form-floating mb-4">
-                                                    <input
-                                                        required
-                                                        type="text"
-                                                        name="name"
-                                                        id="form_name"
-                                                        placeholder="Name"
-                                                        className="form-control bg-white-700 border-0"
-                                                    />
-                                                    <label htmlFor="form_name">Name *</label>
-                                                    <div className="valid-feedback">Looks good!</div>
-                                                    <div className="invalid-feedback">Please enter your name.</div>
-                                                </div>
+
+                                    {formErrors.length > 0 && (
+                                        <div className="mb-6">
+                                            {formErrors.map((error, index) => (
+                                                <p key={index} className="text-red-500">
+                                                    {error}
+                                                </p>
+                                            ))}
+                                        </div>
+                                    )}
+
+                                    <form ref={formRef} className="contact-form needs-validation" noValidate onSubmit={handleSubmit}>
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                            <div className="relative">
+                                                <label htmlFor="form_name" className="block text-xs font-medium text-gray-700">
+                                                    Nom <span className="text-red-500">*</span>
+                                                </label>
+                                                <input
+                                                    required
+                                                    type="text"
+                                                    name="name"
+                                                    id="form_name"
+                                                    placeholder="Nom"
+                                                    className="w-full px-4 py-3 border border-gray-300 bg-white bg-opacity-70 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                                                />
                                             </div>
 
-                                            <div className="col-md-6">
-                                                <div className="form-floating mb-4">
-                                                    <input
-                                                        required
-                                                        type="email"
-                                                        name="email"
-                                                        id="form_email"
-                                                        placeholder="jane.doe@example.com"
-                                                        className="form-control bg-white-700 border-0"
-                                                    />
-                                                    <label htmlFor="form_email">Email *</label>
-                                                    <div className="valid-feedback">Looks good!</div>
-                                                    <div className="invalid-feedback">Please provide a valid email
-                                                        address.
-                                                    </div>
-                                                </div>
+                                            <div className="relative">
+                                                <label htmlFor="form_email" className="block text-xs font-medium text-gray-700">
+                                                    Email <span className="text-red-500">*</span>
+                                                </label>
+                                                <input
+                                                    required
+                                                    type="email"
+                                                    name="email"
+                                                    id="form_email"
+                                                    placeholder="votre.nom@exemple.com"
+                                                    className="w-full px-4 py-3 border border-gray-300 bg-white bg-opacity-70 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                                                />
                                             </div>
+                                        </div>
 
-                                            <div className="col-12">
-                                                <div className="form-floating mb-4">
-                          <textarea
-                              required
-                              name="message"
-                              id="form_message"
-                              placeholder="Your message"
-                              className="form-control bg-white-700 border-0"
-                              style={{height: 150}}
-                          />
-                                                    <label htmlFor="form_message">Message *</label>
-                                                    <div className="valid-feedback">Looks good!</div>
-                                                    <div className="invalid-feedback">Please enter your messsage.</div>
-                                                </div>
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                                            <div className="relative">
+                                                <label htmlFor="form_phone" className="block text-xs font-medium text-gray-700">
+                                                    Numéro de Téléphone <span className="text-red-500">*</span>
+                                                </label>
+                                                <input
+                                                    required
+                                                    type="tel"
+                                                    name="phone"
+                                                    id="form_phone"
+                                                    placeholder="Numéro de Téléphone"
+                                                    pattern="[0-9]{10}"
+                                                    className="w-full px-4 py-3 border border-gray-300 bg-white bg-opacity-70 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                                                />
                                             </div>
+                                        </div>
 
-                                            <div className="col-12 text-center">
-                                                <input type="submit" className="btn btn-primary rounded-pill btn-send"
-                                                       value="Send message"/>
-                                            </div>
+                                        <div className="relative mt-6">
+                                            <label htmlFor="form_message" className="block text-xs font-medium text-gray-700">
+                                                Message <span className="text-red-500">*</span>
+                                            </label>
+                                            <textarea
+                                                required
+                                                name="message"
+                                                id="form_message"
+                                                placeholder="Votre message"
+                                                className="w-full px-4 py-3 h-20 border border-gray-300 bg-white bg-opacity-70 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                                            ></textarea>
+                                        </div>
+
+                                        <div className="text-center mt-8">
+                                            <GoogleRecaptcha ref={recaptchaRef} onVerify={handleRecaptchaVerify} />
+                                        </div>
+
+                                        <div className="text-center mt-8">
+                                            <button
+                                                type="submit"
+                                                className="rounded-full bg-indigo-600 text-white py-3 px-6 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                                            >
+                                                Envoyer le message
+                                            </button>
                                         </div>
                                     </form>
                                 </div>
