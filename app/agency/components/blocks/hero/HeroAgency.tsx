@@ -4,7 +4,7 @@ export default function HeroAgency() {
   return (
     <section
       className="wrapper image-wrapper bg-image bg-overlay bg-overlay-300"
-      style={{ backgroundImage: "url(/img/photos/bg16.png)" }}>
+      style={{ backgroundImage: "url(/img/agency/bgasp.png)" }}>
       <div className="container pt-17 pb-19 pt-md-18 pb-md-17 text-center">
         <div className="row">
           <div className="col-lg-8 col-xl-7 col-xxl-6 mx-auto">

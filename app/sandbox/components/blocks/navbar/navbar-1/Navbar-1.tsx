@@ -17,6 +17,7 @@ import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
 import BlogNavItem from "../components/blog-nav-item";
 import DemosNavItem from "../components/demos-nav-item";
+import DemosAspNavItem from "../components/demos-asp-nav-item";
 import PagesNavItem from "../components/pages-nav-item";
 import BlocksNavItem from "../components/blocks-nav-item";
 import ProjectsNavItem from "../components/projects-nav-item";
@@ -65,7 +66,7 @@ export default function NavbarOne({
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100">
-        <NextLink href="/sandbox" title={<img alt="logo" src={`/img/${logo}.png`} srcSet={`/img/${logo}@2x.png 2x`} />} />
+        <NextLink href="/sandbox" title={<img alt="logo" src={`../../img/agency/logo-dark.png`} srcSet={`/img/${logo}@2x.png 2x`} />} />
       </div>
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -83,7 +84,8 @@ export default function NavbarOne({
 
             {/* ===================== demos nav item ===================== */}
             <DemosNavItem />
-
+            {/* ===================== demos nav item ===================== */}
+            <DemosAspNavItem />
             {/*  ===================== pages nav item  ===================== */}
             <PagesNavItem />
 

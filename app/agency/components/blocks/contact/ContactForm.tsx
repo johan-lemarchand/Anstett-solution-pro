@@ -118,7 +118,7 @@ export default function ContactForm() {
         <section id="contact" className="relative min-h-screen">
             <div
                 className="bg-cover bg-center bg-no-repeat"
-                style={{ backgroundImage: "url(/img/photos/bg36.jpg)" }}
+                style={{ backgroundImage: "url(/img/agency/bgemail.png)" }}
             >
                 <div className="container mx-auto py-20 md:py-24 flex items-center justify-center">
                     <div className="flex justify-center">

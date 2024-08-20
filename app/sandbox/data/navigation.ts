@@ -36,6 +36,44 @@ const demos = [
   { id: 34, url: "/sandbox/themes/demo-34", title: "Demo XXI", thumnail: "mi34" }
 ];
 
+
+const demosasp = [
+  { id: 1, url: "/sandbox/themes-asp/demo-asp-1", title: "Demo I", thumnail: "mi1" },
+  { id: 2, url: "/sandbox/themes-asp/demo-asp-2", title: "Demo II", thumnail: "mi2" },
+  { id: 3, url: "/sandbox/themes-asp/demo-asp-3", title: "Demo III", thumnail: "mi3" },
+  { id: 4, url: "/sandbox/themes-asp/demo-asp-4", title: "Demo VI", thumnail: "mi4" },
+  { id: 5, url: "/sandbox/themes-asp/demo-asp-5", title: "Demo V", thumnail: "mi5" },
+  { id: 6, url: "/sandbox/themes-asp/demo-asp-6", title: "Demo VI", thumnail: "mi6" },
+  { id: 7, url: "/sandbox/themes-asp/demo-asp-7", title: "Demo VII", thumnail: "mi7" },
+  { id: 8, url: "/sandbox/themes-asp/demo-asp-8", title: "Demo VIII", thumnail: "mi8" },
+  { id: 9, url: "/sandbox/themes-asp/demo-asp-9", title: "Demo IX", thumnail: "mi9" },
+  { id: 10, url: "/sandbox/themes-asp/demo-asp-10", title: "Demo X", thumnail: "mi10" },
+  { id: 11, url: "/sandbox/themes-asp/demo-asp-11", title: "Demo XI", thumnail: "mi11" },
+  { id: 12, url: "/sandbox/themes-asp/demo-asp-12", title: "Demo XII", thumnail: "mi12" },
+  { id: 13, url: "/sandbox/themes-asp/demo-asp-13", title: "Demo XIII", thumnail: "mi13" },
+  { id: 14, url: "/sandbox/themes-asp/demo-asp-14", title: "Demo XIV", thumnail: "mi14" },
+  { id: 15, url: "/sandbox/themes-asp/demo-asp-15", title: "Demo XV", thumnail: "mi15" },
+  { id: 16, url: "/sandbox/themes-asp/demo-asp-16", title: "Demo XVI", thumnail: "mi16" },
+  { id: 17, url: "/sandbox/themes-asp/demo-asp-17", title: "Demo XVII", thumnail: "mi17" },
+  { id: 18, url: "/sandbox/themes-asp/demo-asp-18", title: "Demo XVIII", thumnail: "mi18" },
+  { id: 19, url: "/sandbox/themes-asp/demo-asp-19", title: "Demo XIX", thumnail: "mi19" },
+  { id: 20, url: "/sandbox/themes-asp/demo-asp-20", title: "Demo XX", thumnail: "mi20" },
+  { id: 21, url: "/sandbox/themes-asp/demo-asp-21", title: "Demo XXI", thumnail: "mi21" },
+  { id: 22, url: "/sandbox/themes-asp/demo-asp-22", title: "Demo XXI", thumnail: "mi22" },
+  { id: 23, url: "/sandbox/themes-asp/demo-asp-23", title: "Demo XXI", thumnail: "mi23" },
+  { id: 24, url: "/sandbox/themes-asp/demo-asp-24", title: "Demo XXI", thumnail: "mi24" },
+  { id: 25, url: "/sandbox/themes-asp/demo-asp-25", title: "Demo XXI", thumnail: "mi25" },
+  { id: 26, url: "/sandbox/themes-asp/demo-asp-26", title: "Demo XXI", thumnail: "mi26" },
+  { id: 27, url: "/sandbox/themes-asp/demo-asp-27", title: "Demo XXI", thumnail: "mi27" },
+  { id: 28, url: "/sandbox/themes-asp/demo-asp-28", title: "Demo XXI", thumnail: "mi28" },
+  { id: 29, url: "/sandbox/themes-asp/demo-asp-29", title: "Demo XXI", thumnail: "mi29" },
+  { id: 30, url: "/sandbox/themes-asp/demo-asp-30", title: "Demo XXI", thumnail: "mi30" },
+  { id: 31, url: "/sandbox/themes-asp/demo-asp-31", title: "Demo XXI", thumnail: "mi31" },
+  { id: 32, url: "/sandbox/themes-asp/demo-asp-32", title: "Demo XXI", thumnail: "mi32" },
+  { id: 33, url: "/sandbox/themes-asp/demo-asp-33", title: "Demo XXI", thumnail: "mi33" },
+  { id: 34, url: "/sandbox/themes-asp/demo-asp-34", title: "Demo XXI", thumnail: "mi34" }
+];
+
 // pages navigations
 const pages = [
   {
@@ -218,6 +256,7 @@ const blocksNavigation = [
 
 export {
   demos,
+  demosasp,
   pages,
   blogsNavigation,
   blocksNavigation,
