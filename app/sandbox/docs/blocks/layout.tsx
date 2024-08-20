@@ -8,23 +8,23 @@ import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
 import NextLink from "app/sandbox/components/reuseable/links/NextLink";
 
 const filters = [
-  { id: 1, title: "About", url: "/docs/blocks/about" },
-  { id: 2, title: "Blog", url: "/docs/blocks/blog" },
-  { id: 3, title: "Call to Action", url: "/docs/blocks/call-to-action" },
-  { id: 4, title: "Clients", url: "/docs/blocks/clients" },
-  { id: 5, title: "Contact", url: "/docs/blocks/contact" },
-  { id: 6, title: "Facts", url: "/docs/blocks/facts" },
-  { id: 7, title: "FAQ", url: "/docs/blocks/faq" },
-  { id: 8, title: "Features", url: "/docs/blocks/features" },
-  { id: 9, title: "Footer", url: "/docs/blocks/footer" },
-  { id: 10, title: "Hero", url: "/docs/blocks/hero" },
+  { id: 1, title: "About", url: "/sandbox/docs/blocks/about" },
+  { id: 2, title: "Blog", url: "/sandbox/docs/blocks/blog" },
+  { id: 3, title: "Call to Action", url: "/sandbox/docs/blocks/call-to-action" },
+  { id: 4, title: "Clients", url: "/sandbox/docs/blocks/clients" },
+  { id: 5, title: "Contact", url: "/sandbox/docs/blocks/contact" },
+  { id: 6, title: "Facts", url: "/sandbox/docs/blocks/facts" },
+  { id: 7, title: "FAQ", url: "/sandbox/docs/blocks/faq" },
+  { id: 8, title: "Features", url: "/sandbox/docs/blocks/features" },
+  { id: 9, title: "Footer", url: "/sandbox/docs/blocks/footer" },
+  { id: 10, title: "Hero", url: "/sandbox/docs/blocks/hero" },
   // { id: 11, title: 'Misc', url: '/docs/blocks/misc' },
-  { id: 12, title: "Navbar", url: "/docs/blocks/navbar" },
-  { id: 13, title: "Portfolio", url: "/docs/blocks/portfolio" },
-  { id: 14, title: "Pricing", url: "/docs/blocks/pricing" },
-  { id: 15, title: "Process", url: "/docs/blocks/process" },
-  { id: 16, title: "Team", url: "/docs/blocks/team" },
-  { id: 17, title: "Testimonials", url: "/docs/blocks/testimonials" }
+  { id: 12, title: "Navbar", url: "/sandbox/docs/blocks/navbar" },
+  { id: 13, title: "Portfolio", url: "/sandbox/docs/blocks/portfolio" },
+  { id: 14, title: "Pricing", url: "/sandbox/docs/blocks/pricing" },
+  { id: 15, title: "Process", url: "/sandbox/docs/blocks/process" },
+  { id: 16, title: "Team", url: "/sandbox/docs/blocks/team" },
+  { id: 17, title: "Testimonials", url: "/sandbox/docs/blocks/testimonials" }
 ];
 
 export default function BlockLayout({ children }: PropsWithChildren) {

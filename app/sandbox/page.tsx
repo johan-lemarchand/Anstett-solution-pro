@@ -19,7 +19,7 @@ import PenTool from "app/sandbox/icons/solid-duo/PenTool";
 import Devices from "app/sandbox/icons/solid-mono/Devices";
 import GlobeTwo from "app/sandbox/icons/solid-mono/GlobeTwo";
 
-export default function Home() {
+export default function SandboxHome() {
   // USED FOR HERO AREA TEXT CHANGE FREQUENTLY
   useReplaceMe();
 

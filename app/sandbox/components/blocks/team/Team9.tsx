@@ -2,7 +2,7 @@ import Image from "next/image";
 // GLOBAL CUSTOM COMPONENTS
 import NextLink from "app/sandbox/components/reuseable/links/NextLink";
 // IMAGES
-import image from "../../../../public/img/photos/bg12.jpg";
+import image from "../../../../../public/img/photos/bg12.jpg";
 
 export default function Team9() {
   return (

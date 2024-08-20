@@ -11,9 +11,9 @@ import { BlogCard2, BlogCard3 } from "app/sandbox/components/reuseable/blog-card
 // CUSTOM DATA
 import { blogs } from "./data";
 // IMPORT IMAGES
-import blogOneImage from "../../../../public/img/photos/b1.jpg";
-import blogTwoImage from "../../../../public/img/photos/b2.jpg";
-import blogThreeImage from "../../../../public/img/photos/b3.jpg";
+import blogOneImage from "../../../../../public/img/photos/b1.jpg";
+import blogTwoImage from "../../../../../public/img/photos/b2.jpg";
+import blogThreeImage from "../../../../../public/img/photos/b3.jpg";
 
 export default function BlogOne() {
   return (

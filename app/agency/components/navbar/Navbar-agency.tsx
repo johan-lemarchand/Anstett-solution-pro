@@ -25,6 +25,9 @@ export default function NavAgency({
   const sticky = useSticky(350);
   const navbarRef = useRef<HTMLElement | null>(null);
 
+  // Vérifier si l'application est en cours d'exécution en localhost
+  const isLocalhost = typeof window !== 'undefined' && window.location.hostname === 'localhost';
+
   // dynamically added navbar classname
   const fixedClassName = `navbar navbar-expand-lg center-logo transparent position-absolute navbar-light navbar-clone fixed`;
 
@@ -75,6 +78,17 @@ export default function NavAgency({
                   className="btn-close btn-close-white d-lg-none"
                 />
               </div>
+
+              {/* Ajout du lien rapide vers /sandbox visible uniquement en localhost */}
+              {isLocalhost && (
+                <div className="offcanvas-body">
+                  <ul className="navbar-nav">
+                    <li className="nav-item">
+                      <NextLink href="/sandbox" title="Sandbox" className="nav-link" />
+                    </li>
+                  </ul>
+                </div>
+              )}
 
               {/* ============= show contact info in the small device sidebar ============= */}
               <div className="offcanvas-body d-lg-none order-4 mt-auto">
