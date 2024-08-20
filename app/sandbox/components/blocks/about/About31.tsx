@@ -10,7 +10,7 @@ export default function About31() {
     <div className="container py-15 py-md-17">
       <div className="row">
         <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
-          <h2 className="display-2 mb-4">What makes us different?</h2>
+          <h2 className="display-2 mb-4">En quoi sommes-nous différents ?</h2>
           <p className="lead fs-lg mb-11">
             Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non
             magna.
@@ -35,7 +35,7 @@ export default function About31() {
         <Box image="mi2" className="col-lg-7 position-relative order-lg-2" />
 
         <div className="col-lg-4 me-auto">
-          <h2 className="display-5 mb-2 mt-xxl-n10">Development</h2>
+          <h2 className="display-5 mb-2 mt-xxl-n10">Développement</h2>
           <p className="mb-8">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh fermentum.</p>
 
           <ListItem Icon={Devices} title="Responsive Website" />

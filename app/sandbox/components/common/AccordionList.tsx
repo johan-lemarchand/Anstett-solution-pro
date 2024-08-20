@@ -5,19 +5,19 @@ const accordions = [
   {
     no: "One",
     expand: true,
-    heading: "Professional Design",
+    heading: "Design professionnel",
     body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
   },
   {
     no: "Two",
     expand: false,
-    heading: "Top-Notch Support",
+    heading: "Un support de qualité",
     body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
   },
   {
     no: "Three",
     expand: false,
-    heading: "Header and Slider Options",
+    heading: "Composant de carrousel",
     body: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
   }
 ];

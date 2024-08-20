@@ -120,7 +120,7 @@ export default function BlogDetailsTemplate() {
                   Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                   mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio sem nec elit purus.
                 </p>
-                <footer className="blockquote-footer">Very important person</footer>
+                <footer className="blockquote-footer">Personnage très important</footer>
               </blockquote>
 
               <h3 className="h2 mb-4">Sit Vulputate Bibendum Purus</h3>
@@ -175,13 +175,13 @@ export default function BlogDetailsTemplate() {
               <h6>
                 <NextLink title="Nikolas Brooten" href="#" className="link-dark" />
               </h6>
-              <span className="post-meta fs-15">Sales Manager</span>
+              <span className="post-meta fs-15">Directeur des ventes</span>
             </div>
           </div>
 
           <div className="mt-3 mt-md-0 ms-auto">
             <Link href="#" className="btn btn-sm btn-soft-ash rounded-pill btn-icon btn-icon-start mb-0">
-              <i className="uil uil-file-alt" /> All Posts
+              <i className="uil uil-file-alt" /> Tous les postes
             </Link>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function BlogDetailsTemplate() {
 
         <hr />
 
-        <h3 className="mb-6">You Might Also Like</h3>
+        <h3 className="mb-6">Vous pourriez aussi aimer</h3>
 
         <div className="swiper-container blog grid-view mb-16">
           <Carousel
@@ -212,7 +212,7 @@ export default function BlogDetailsTemplate() {
         <hr />
 
         <div id="comments">
-          <h3 className="mb-6">5 Comments</h3>
+          <h3 className="mb-6">5 Commentaires</h3>
           <BlogCommentList />
         </div>
 
@@ -221,7 +221,7 @@ export default function BlogDetailsTemplate() {
         <form className="comment-form">
           <div className="form-floating mb-4">
             <input type="text" className="form-control" placeholder="Name*" id="c-name" />
-            <label htmlFor="c-name">Name *</label>
+            <label htmlFor="c-name">Nom *</label>
           </div>
 
           <div className="form-floating mb-4">
@@ -236,11 +236,11 @@ export default function BlogDetailsTemplate() {
 
           <div className="form-floating mb-4">
             <textarea name="textarea" placeholder="Comment" className="form-control" style={{ height: 150 }} />
-            <label>Comment *</label>
+            <label>Commentaire *</label>
           </div>
 
           <button type="submit" className="btn btn-primary rounded-pill mb-0">
-            Submit
+            Envoyer
           </button>
         </form>
       </div>

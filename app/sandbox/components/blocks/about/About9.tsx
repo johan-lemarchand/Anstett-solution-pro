@@ -17,10 +17,10 @@ export default function About9() {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="display-4 mb-3">Who Are We?</h2>
+        <h2 className="display-4 mb-3">Qui sommes-nous ?</h2>
         <p className="lead fs-lg">
-          We are a digital and branding company that believes in the power of{" "}
-          <span className="underline">creative strategy</span> and along with great design.
+        Nous sommes une entreprise spécialisée dans le digital et le branding, convaincue du pouvoir d'une {" "}
+          <span className="underline">stratégie créative </span> associée à un design de qualité.
         </p>
         <p className="mb-6">
           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus

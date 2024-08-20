@@ -14,11 +14,11 @@ export default function About6() {
       <div className="col-lg-6">
         <Megaphone className="icon-svg-md mb-4" />
 
-        <h2 className="display-4 mb-3">Who Are We?</h2>
+        <h2 className="display-4 mb-3">Qui sommes-nous ?</h2>
 
         <p className="lead fs-lg">
-          We are a digital and branding company that believes in the power of creative strategy and along with great
-          design.
+          Nous sommes une entreprise spécialisée dans le digital et le branding, 
+          convaincue du pouvoir d'une stratégie créative associée à un design de qualité.
         </p>
 
         <p className="mb-6">

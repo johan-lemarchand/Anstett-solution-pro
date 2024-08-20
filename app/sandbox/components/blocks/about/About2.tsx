@@ -11,8 +11,8 @@ export default function About2() {
       </div>
 
       <div className="col-lg-5 offset-lg-1">
-        <h2 className="fs-15 text-uppercase text-muted mb-3">Who Are We?</h2>
-        <h3 className="display-4 mb-6">Company that believes in the power of creative strategy.</h3>
+        <h2 className="fs-15 text-uppercase text-muted mb-3">Qui sommes-nous ?</h2>
+        <h3 className="display-4 mb-6">Une Entreprise qui croit au pouvoir de la stratégie créative.</h3>
 
         <p className="mb-6">
           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus

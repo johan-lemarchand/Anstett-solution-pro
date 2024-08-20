@@ -9,7 +9,7 @@ export default function About4() {
       </div>
 
       <div className="col-lg-5">
-        <h3 className="display-4 mb-7">A few reasons why our valued customers choose us.</h3>
+        <h3 className="display-4 mb-7">Quelques raisons pour lesquelles nos clients nous choisissent.</h3>
         <AccordionList />
       </div>
     </div>

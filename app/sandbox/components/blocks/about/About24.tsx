@@ -34,7 +34,7 @@ export default function About24() {
 
           <div className="col-lg-6">
             <h2 className="display-5 mb-5">
-              Hi, I'm Julia, a documentary wedding and couples photographer currently working from and based in London.
+            Bonjour, je m’appelle Julia, photographe de mariage et de couple travaillant actuellement à Londres.
             </h2>
             <p className="mb-6">
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
@@ -58,7 +58,7 @@ export default function About24() {
 
         <div className="row gx-md-8 gx-xl-12 gy-6 mt-8">
           <div className="col-lg-4">
-            <h3>My Skills</h3>
+            <h3>Mes talents</h3>
             <p>
               Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna vel consectetur purus sit
               amet fermentum.
@@ -75,7 +75,7 @@ export default function About24() {
           </div>
 
           <div className="col-lg-4">
-            <h3>Why Choose Me?</h3>
+            <h3>Pourquoi me choisir?</h3>
             <p>
               Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Donec
               ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies. Cras mattis consectetur

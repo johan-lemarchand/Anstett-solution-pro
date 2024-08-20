@@ -7,19 +7,19 @@ const services = [
   {
     id: 1,
     Icon: Shipment,
-    title: "Free Shipping",
+    title: "Livraison gratuite",
     description: "Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem."
   },
   {
     id: 2,
     Icon: PushCart,
-    title: "30 Days Return",
+    title: "Retour sous 30 jours",
     description: "Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem."
   },
   {
     id: 3,
     Icon: Verify,
-    title: "2-Years Warranty",
+    title: "Garantie de 2 ans",
     description: "Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem."
   }
 ];

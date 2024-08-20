@@ -37,8 +37,8 @@ export default function About28() {
         </div>
 
         <div className="col-lg-6">
-          <h2 className="fs-15 text-uppercase text-muted mb-3">Who Are We?</h2>
-          <h3 className="display-3 ls-sm mb-5">Company that believes in the power of creative strategy.</h3>
+          <h2 className="fs-15 text-uppercase text-muted mb-3">Qui sommes-nous ?</h2>
+          <h3 className="display-3 ls-sm mb-5">Entreprise qui croit au pouvoir de la stratégie créative.</h3>
           <p className="mb-6">
             Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
             dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur

@@ -14,11 +14,11 @@ export default function About34() {
           </div>
 
           <div className="col-lg-6">
-            <h2 className="display-2 mb-3">More about me</h2>
+            <h2 className="display-2 mb-3">Plus à mon sujet</h2>
 
             <p className="lead fs-24">
-              👋 Hello! I'm Camille, a multidisciplinary product designer 🧸 based in New York City 🚕. I’m very
-              passionate about the work 💌 that I do.
+            👋 Bonjour! Je suis Camille, une designer de produits multidisciplinaire 🧸 basée à New York 🚕. Je suis très
+            Je suis passionnée par le travail 💌 que je fais.
             </p>
 
             <p>
@@ -32,22 +32,22 @@ export default function About34() {
             </p>
 
             <Link href="#" className="btn btn-primary btn-icon btn-icon-end mt-2">
-              Learn More <i className="uil uil-arrow-up-right" />
+              En savoir plus <i className="uil uil-arrow-up-right" />
             </Link>
           </div>
         </div>
 
         <div className="row gx-md-8 gx-xl-12 gy-10">
           <div className="col-lg-5 mx-auto">
-            <h2 className="display-2 mb-3">My experiences</h2>
+            <h2 className="display-2 mb-3">Mes expériences</h2>
 
             <p className="lead fs-24 pe-xxl-8">
-              I've had the pleasure to work with companies 🏢 across a variety of industries 🏛️ I'm always interested in
-              new ✨ and exciting adventures 🧨
+            J’ai eu le plaisir de travailler avec des entreprises 🏢 dans une variété d’industries 🏛️ Je suis toujours intéressé par
+            de nouvelles rencontres ✨ et des aventures passionnantes 🧨
             </p>
 
             <Link href="#" className="btn btn-primary btn-icon btn-icon-end mt-2">
-              Download Resume <i className="uil uil-arrow-up-right" />
+            Téléchargez mon CV. <i className="uil uil-arrow-up-right" />
             </Link>
           </div>
 

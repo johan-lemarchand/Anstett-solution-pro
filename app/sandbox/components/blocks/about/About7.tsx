@@ -10,9 +10,9 @@ export default function About7() {
       </div>
 
       <div className="col-lg-5">
-        <h3 className="display-4 mt-xxl-8 mb-3">Why Choose Us?</h3>
+        <h3 className="display-4 mt-xxl-8 mb-3">Pourquoi nous choisir?</h3>
         <p className="lead fs-lg lh-sm mb-6">
-          Find out everything you need to know about creating a business process model.
+          Découvrez tout ce qu'il faut savoir pour créer un modèle de processus métier.
         </p>
 
         <AccordionList />

@@ -41,7 +41,7 @@ export default function ProjectDetailsContent({
               </li>
 
               <li>
-                <h5 className="mb-1">Client Name</h5>
+                <h5 className="mb-1">Nom du client</h5>
                 <p>Cool House</p>
               </li>
             </ul>

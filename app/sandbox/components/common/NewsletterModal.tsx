@@ -27,7 +27,7 @@ export default function NewsletterModal() {
               </div>
             </div>
 
-            <h3>Join the mailing list and get %10 off</h3>
+            <h3>Rejoindre la liste de diffusion et obtenir %10</h3>
 
             <p className="mb-6">
               Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.
@@ -53,7 +53,7 @@ export default function NewsletterModal() {
                             placeholder="Email Address"
                             id="mce-EMAIL"
                           />
-                          <label htmlFor="mce-EMAIL">Email Address</label>
+                          <label htmlFor="mce-EMAIL">Adresse e-mail</label>
                           <input
                             type="submit"
                             name="subscribe"

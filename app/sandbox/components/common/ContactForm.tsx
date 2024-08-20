@@ -6,18 +6,18 @@ export default function ContactForm() {
         <div className="col-md-6">
           <div className="form-floating mb-4">
             <input required type="text" name="name" id="form_name" placeholder="Jane" className="form-control" />
-            <label htmlFor="form_name">First Name *</label>
+            <label htmlFor="form_name">Prénom *</label>
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> Please enter your first name. </div>
+            <div className="invalid-feedback"> Veuillez entrez votre prénom. </div>
           </div>
         </div>
 
         <div className="col-md-6">
           <div className="form-floating mb-4">
             <input required type="text" name="surname" placeholder="Doe" id="form_lastname" className="form-control" />
-            <label htmlFor="form_lastname">Last Name *</label>
+            <label htmlFor="form_lastname">Nom *</label>
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> Please enter your last name. </div>
+            <div className="invalid-feedback"> Veuillez entrer votre nom. </div>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ export default function ContactForm() {
             />
             <label htmlFor="form_email">Email *</label>
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> Please provide a valid email address. </div>
+            <div className="invalid-feedback"> assurez-vous de fournir un email valide. </div>
           </div>
         </div>
 
@@ -41,15 +41,15 @@ export default function ContactForm() {
           <div className="form-select-wrapper mb-4">
             <select className="form-select" id="form-select" name="department" required>
               <option disabled value="">
-                Select a department
+                Sélectionnez un département
               </option>
-              <option value="Sales">Sales</option>
+              <option value="Sales">Ventes</option>
               <option value="Marketing">Marketing</option>
-              <option value="Customer Support">Customer Support</option>
+              <option value="Customer Support">Service client</option>
             </select>
 
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> Please select a department. </div>
+            <div className="invalid-feedback"> Veuillez sélectionner un département. </div>
           </div>
         </div>
 
@@ -66,14 +66,14 @@ export default function ContactForm() {
 
             <label htmlFor="form_message">Message *</label>
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> Please enter your messsage. </div>
+            <div className="invalid-feedback"> Veuillez saisir votre message. </div>
           </div>
         </div>
 
         <div className="col-12 text-center">
           <input type="submit" value="Send message" className="btn btn-primary rounded-pill btn-send mb-3" />
           <p className="text-muted">
-            <strong>*</strong> These fields are required.
+            <strong>*</strong> Ces champs sont obligatoires.
           </p>
         </div>
       </div>

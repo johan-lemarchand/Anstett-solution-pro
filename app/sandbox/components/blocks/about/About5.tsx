@@ -11,7 +11,7 @@ export default function About5() {
       </div>
 
       <div className="col-lg-5">
-        <h3 className="display-4 mb-6 pe-xxl-6">We bring rapid solutions to make the life of our customers easier.</h3>
+        <h3 className="display-4 mb-6 pe-xxl-6">Nous apportons des solutions rapides pour faciliter la vie de nos clients.</h3>
         <ProgressList />
       </div>
     </Fragment>

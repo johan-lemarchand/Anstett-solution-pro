@@ -17,7 +17,7 @@ export default function ShareButton({ btnSize = "" }: ShareButtonProps) {
         aria-expanded="false"
         data-bs-toggle="dropdown"
         className={`btn ${btnSize} btn-red rounded-pill btn-icon btn-icon-start dropdown-toggle mb-0 me-0`}>
-        <i className="uil uil-share-alt" /> Share
+        <i className="uil uil-share-alt" /> Partager
       </button>
 
       <div className="dropdown-menu">
