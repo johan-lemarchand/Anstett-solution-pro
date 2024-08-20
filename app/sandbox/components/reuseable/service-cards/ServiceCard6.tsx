@@ -26,7 +26,7 @@ export default function ServiceCard6({
           <IconBox icon={icon} className={iconBoxClassNames} />
           <h4>{title}</h4>
           <p className="mb-3">{description}</p>
-          <NextLink title="Learn More" href={linkUrl} className="more hover" />
+          <NextLink title="En savoir plus" href={linkUrl} className="plus sur" />
         </div>
       </div>
     </div>

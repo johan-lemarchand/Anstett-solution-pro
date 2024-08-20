@@ -43,11 +43,11 @@ const tags = [
 ];
 
 const archieve = [
-  { id: 1, title: 'February 2019', url: '#' },
-  { id: 2, title: 'January 2019', url: '#' },
-  { id: 3, title: 'December 2018', url: '#' },
-  { id: 4, title: 'November 2018', url: '#' },
-  { id: 5, title: 'October 2018', url: '#' }
+  { id: 1, title: 'Février 2019', url: '#' },
+  { id: 2, title: 'Janvier 2019', url: '#' },
+  { id: 3, title: 'Décembre 2018', url: '#' },
+  { id: 4, title: 'Novembre 2018', url: '#' },
+  { id: 5, title: 'Octobre 2018', url: '#' }
 ];
 
 export default { popularPosts, tags, archieve, categories };

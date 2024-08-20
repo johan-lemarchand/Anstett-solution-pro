@@ -16,7 +16,7 @@ export default function BlogSidebar({ thumbnail }: BlogSidebarProps) {
   return (
     <Fragment>
       <div className="widget">
-        <h4 className="widget-title mb-3">About Us</h4>
+        <h4 className="widget-title mb-3">À propos de nous</h4>
         {thumbnail && (
           <figure className="rounded mb-4">
             <img className="img-fluid" src={thumbnail} alt="" />
@@ -32,7 +32,7 @@ export default function BlogSidebar({ thumbnail }: BlogSidebarProps) {
 
       {/* ========== popular posts section ========== */}
       <div className="widget">
-        <h4 className="widget-title mb-3">Popular Posts</h4>
+        <h4 className="widget-title mb-3">Publications populaires</h4>
 
         <ul className="image-list">
           {data.popularPosts.map(({ id, title, image, comment, date }) => (
@@ -64,7 +64,7 @@ export default function BlogSidebar({ thumbnail }: BlogSidebarProps) {
 
       {/* ========== categories section ========== */}
       <div className="widget">
-        <h4 className="widget-title mb-3">Categories</h4>
+        <h4 className="widget-title mb-3">Catégories</h4>
 
         <ul className="unordered-list bullet-primary text-reset">
           {data.categories.map(({ id, title, post, url }) => (

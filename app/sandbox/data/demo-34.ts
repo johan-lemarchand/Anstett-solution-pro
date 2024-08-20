@@ -25,10 +25,10 @@ export const demos = [
 export const filterList = [
   { id: 1, title: 'All', value: '*' },
   { id: 2, title: 'Services', value: '.services' },
-  { id: 3, title: 'About', value: '.about' },
+  { id: 3, title: 'À propos', value: '.about' },
   { id: 4, title: 'Contact', value: '.contact' },
-  { id: 5, title: 'Pricing', value: '.pricing' },
-  { id: 6, title: 'Projects', value: '.projects' }
+  { id: 5, title: 'Prix', value: '.pricing' },
+  { id: 6, title: 'Projets', value: '.projects' }
 ];
 
 export const innerPages = [

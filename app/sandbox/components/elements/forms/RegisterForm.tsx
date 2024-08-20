@@ -27,7 +27,7 @@ export default function RegisterForm() {
             className="form-control"
             onChange={(e) => setName(e.target.value)}
           />
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Nom</label>
         </div>
 
         <div className="form-floating mb-4">
@@ -55,7 +55,7 @@ export default function RegisterForm() {
             <i className={`uil  ${visiblePassword ? "uil-eye-slash" : "uil-eye"}`} />
           </span>
 
-          <label htmlFor="loginPassword">Password</label>
+          <label htmlFor="loginPassword">Mot de passe</label>
         </div>
 
         <div className="form-floating password-field mb-4">
@@ -71,16 +71,16 @@ export default function RegisterForm() {
             <i className={`uil  ${visiblePassword ? "uil-eye-slash" : "uil-eye"}`} />
           </span>
 
-          <label htmlFor="password-confirm">Confirm Password</label>
+          <label htmlFor="password-confirm">Confirmez le mot de passe</label>
         </div>
 
         <button type="submit" className="btn btn-primary rounded-pill btn-login w-100 mb-2">
-          Sign Up
+          S'enregistrer
         </button>
       </form>
 
       <p className="mb-0">
-        Already have an account? <NextLink title="Sign in" href="/login" className="hover" />
+        Vous avez déjà un compte ? <NextLink title="Sign in" href="/login" className="hover" />
       </p>
 
       <div className="divider-icon my-4">or</div>

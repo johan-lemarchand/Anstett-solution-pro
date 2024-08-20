@@ -26,7 +26,7 @@ export default function ServiceCard5({
 
         <h4>{title}</h4>
         <p className="mb-2">{description}</p>
-        <NextLink title="Learn More" href={url} className="more hover link-purple" />
+        <NextLink title="En savoir plus" href={url} className="plus sur link-purple" />
       </div>
     </div>
   );

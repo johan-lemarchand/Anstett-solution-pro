@@ -16,8 +16,8 @@ export default function LoginForm() {
 
   return (
     <Fragment>
-      <h2 className="mb-3 text-start">Welcome Back</h2>
-      <p className="lead mb-6 text-start">Fill your email and password to sign in.</p>
+      <h2 className="mb-3 text-start">Vous revoilà</h2>
+      <p className="lead mb-6 text-start">Veuillez indiquer votre email et votre mot de passe pour vous connecter.</p>
 
       <form onSubmit={handleSubmit} className="text-start mb-3">
         <div className="form-floating mb-4">
@@ -45,7 +45,7 @@ export default function LoginForm() {
             <i className={`uil  ${visiblePassword ? "uil-eye-slash" : "uil-eye"}`} />
           </span>
 
-          <label htmlFor="loginPassword">Password</label>
+          <label htmlFor="loginPassword">Mot de passe</label>
         </div>
 
         <button type="submit" className="btn btn-primary rounded-pill btn-login w-100 mb-2">
@@ -58,10 +58,10 @@ export default function LoginForm() {
       </p>
 
       <p className="mb-0">
-        Don&apos;t have an account? <NextLink title="Sign up" href="/register" className="hover" />
+        vous n'avez pas encore de compte ? <NextLink title="Sign up" href="/register" className="hover" />
       </p>
 
-      <div className="divider-icon my-4">or</div>
+      <div className="divider-icon my-4">ou</div>
 
       <nav className="nav social justify-content-center text-center">
         <a href="#" target="__blank" className="btn btn-circle btn-sm btn-google">

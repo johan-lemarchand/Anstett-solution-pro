@@ -9,25 +9,25 @@ const facilities = [
   {
     id: 1,
     Icon: Target,
-    title: 'Career Growth',
+    title: 'Avancement professionnel',
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
   },
   {
     id: 2,
     Icon: VideoCall,
-    title: 'Work From Anywhere',
+    title: 'Travailler n\'importe où',
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
   },
   {
     id: 3,
     Icon: Wallet,
-    title: 'Smart Salary',
+    title: 'Salaire Attractif',
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
   },
   {
     id: 4,
     Icon: Alarm,
-    title: 'Flexible Hours',
+    title: 'Horaires flexibles',
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
   }
 ];
@@ -36,13 +36,13 @@ const services = [
   {
     id: 1,
     Icon: Share,
-    title: 'Our Mission',
+    title: 'Nos missions',
     description: 'Curabitur blandit lacus porttitor ridiculus mus.'
   },
   {
     id: 2,
     Icon: PartnerShip,
-    title: 'Our Values',
+    title: 'Nos valeurs',
     description: 'Curabitur blandit lacus porttitor ridiculus mus.'
   }
 ];
@@ -52,28 +52,28 @@ const designJobList = [
     id: 1,
     link: '#',
     avatar: 'GD',
-    time: 'Full Time',
+    time: 'Temps plein',
     avatarColor: 'bg-red',
     location: 'San Francisco, US',
-    title: 'Senior Graphic Designer'
+    title: 'Graphiste senior'
   },
   {
     id: 2,
     link: '#',
     avatar: 'UX',
     time: 'Remote',
-    location: 'Anywhere',
-    title: 'UI/UX Designer',
+    location: 'N\'importe où',
+    title: 'Concepteur UI/UX',
     avatarColor: 'bg-green'
   },
   {
     id: 3,
     link: '#',
     avatar: 'AN',
-    time: 'Full Time',
+    time: 'Temps plein',
     avatarColor: 'bg-yellow',
     location: 'Birmingham, UK',
-    title: 'Multimedia Artist & Animator'
+    title: 'Artiste et animateur multimédia'
   }
 ];
 
@@ -82,27 +82,27 @@ const developmentJobList = [
     id: 1,
     link: '#',
     avatar: 'FD',
-    time: 'Part Time',
+    time: 'Temps partiel',
     location: 'Sydney, AU',
     avatarColor: 'bg-purple',
-    title: 'Front End Developer'
+    title: 'Développeur front-end'
   },
   {
     id: 2,
     link: '#',
     avatar: 'MD',
-    time: 'Full Time',
+    time: 'Temps plein',
     avatarColor: 'bg-orange',
-    title: 'Mobile Developer',
+    title: 'Développeur mobile',
     location: 'San Francisco, US'
   },
   {
     id: 3,
     link: '#',
     avatar: 'NT',
-    time: 'Full Time',
+    time: 'Temps plein',
     avatarColor: 'bg-pink',
-    title: '.NET Developer',
+    title: '.Développeur.NET',
     location: 'Manchester, UK'
   }
 ];

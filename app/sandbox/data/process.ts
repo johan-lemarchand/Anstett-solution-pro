@@ -17,18 +17,18 @@ export const processList1 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "Collect Ideas",
+    title: "Collecter des idées",
     subtitle: "Nulla vitae elit libero pharetra augue dapibus."
   },
   {
     no: "2",
-    title: "Data Analysis",
+    title: "Analyse de données",
     className: "ms-lg-13 mt-6",
     subtitle: "Vivamus sagittis lacus vel augue laoreet."
   },
   {
     no: "3",
-    title: "Finalize Product",
+    title: "Finaliser le produit",
     className: "mx-lg-6 mt-6",
     subtitle: "Cras mattis consectetur purus sit amet."
   }
@@ -43,17 +43,17 @@ export const processList2 = [
   },
   {
     no: "02",
-    title: "Prepare",
+    title: "Élaborer",
     subtitle: "Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis."
   },
   {
     no: "03",
-    title: "Retouch",
+    title: "Retouche",
     subtitle: "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero."
   },
   {
     no: "04",
-    title: "Finalize",
+    title: "Finaliser",
     subtitle: "Integer posuere erat, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo."
   }
 ];
@@ -63,18 +63,18 @@ export const processList3 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "Collect Ideas",
+    title: "Collecter des idées",
     subtitle: "Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus."
   },
   {
     no: "2",
-    title: "Data Analysis",
+    title: "Analyse des données",
     className: "ms-lg-13 mt-6",
     subtitle: "Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna."
   },
   {
     no: "3",
-    title: "Finalize Product",
+    title: "Finaliser le produit",
     className: "mx-lg-6 mt-6",
     subtitle: "Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed."
   }
@@ -84,17 +84,17 @@ export const processList3 = [
 export const processList4 = [
   {
     no: "1",
-    title: "Collect Ideas",
+    title: "Collecter des idées",
     subtitle: "Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus."
   },
   {
     no: "2",
-    title: "Data Analysis",
+    title: "Analyse des données",
     subtitle: "Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna."
   },
   {
     no: "3",
-    title: "Finalize Product",
+    title: "Finaliser le produit",
     subtitle: "Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed."
   }
 ];
@@ -104,19 +104,19 @@ export const processList5 = [
   {
     Icon: Shield,
     color: "red",
-    title: "1. Secured Transactions",
+    title: "1. Transactions Sécurisées",
     subtitle: "Etiam porta malesuada magna mollis euismod sem."
   },
   {
     Icon: Savings,
     color: "green",
-    title: "2. Budget Planning",
+    title: "2. Planification du budget",
     subtitle: "Etiam porta malesuada magna mollis euismod sem."
   },
   {
     Icon: Loading,
     color: "yellow",
-    title: "3. Up to Date",
+    title: "3. Mis à jour",
     subtitle: "Etiam porta malesuada magna mollis euismod sem."
   }
 ];
@@ -127,14 +127,14 @@ export const processList6 = [
     id: 1,
     color: "green",
     Icon: CloudComputing,
-    title: "1. Download",
+    title: "1. Téléchargement",
     description: "Nulla vitae elit libero elit non porta eget."
   },
   {
     id: 2,
     color: "red",
     Icon: SmartphoneTwo,
-    title: "2. Set Profile",
+    title: "2. Création de Profile",
     description: "Nulla vitae elit libero elit non porta eget."
   },
   {
@@ -151,19 +151,19 @@ export const processList7 = [
   {
     id: 1,
     Icon: LightBulb,
-    title: "Collect Ideas",
+    title: "Collecter des idées",
     description: "Nulla vitae elit libero pharetra augue dapibus."
   },
   {
     id: 2,
     Icon: PieChartTwo,
-    title: "Data Analysis",
+    title: "Analyse des données",
     description: "Vivamus sagittis lacus augue laoreet vel."
   },
   {
     id: 3,
     Icon: Design,
-    title: "Magic Touch",
+    title: "Touche de magie",
     description: "Cras mattis consectetur purus sit amet."
   }
 ];
@@ -174,7 +174,7 @@ export const processList8 = [
     id: 1,
     Icon: Shield,
     iconColor: "yellow",
-    title: "Secured Transactions",
+    title: "Transactions Sécurisées",
     className: "d-flex flex-row mb-5",
     description: "Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus."
   },
@@ -182,7 +182,7 @@ export const processList8 = [
     id: 2,
     Icon: Savings,
     iconColor: "green",
-    title: "Bills Planning",
+    title: "Fatuations",
     className: "d-flex flex-row mb-5",
     description: "Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna."
   },
@@ -190,7 +190,7 @@ export const processList8 = [
     id: 3,
     Icon: Loading,
     iconColor: "red",
-    title: "Always up to date",
+    title: "Constamment à jour",
     className: "d-flex flex-row",
     description: "Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed."
   }
@@ -202,13 +202,13 @@ export const processList9 = [
     no: "01",
     className: "",
     color: "purple",
-    title: "Collect Ideas",
+    title: "Collecter des idées",
     subtitle: "Nulla vitae elit libero pharetra augue dapibus. Fusce dapibus, tellus ac cursus commodo."
   },
   {
     no: "02",
     color: "green",
-    title: "Data Analysis",
+    title: "Analyse de données",
     className: "mt-8 ms-lg-10",
     subtitle: "Vivamus sagittis lacus vel augue laoreet tortor mauris condimentum fermentum."
   },
@@ -216,7 +216,7 @@ export const processList9 = [
     no: "03",
     color: "orange",
     className: "mt-8",
-    title: "Finalize Product",
+    title: "Finaliser le produit",
     subtitle: "Cras mattis consectetur purus sit amet massa justo sit amet risus consectetur magna elit."
   }
 ];
@@ -226,29 +226,29 @@ export const processList10 = [
   {
     id: 1,
     Icon: Bulb,
-    title: "1. Collect Ideas",
+    title: "1. Collecter des idées",
     description: "Etiam porta malesuada magna mollis euismod consectetur leo elit."
   },
   {
     id: 2,
     Icon: Compare,
-    title: "2. Data Analysis",
+    title: "2. Analyse de données",
     description: "Etiam porta malesuada magna mollis euismod consectetur leo elit."
   },
   {
     id: 1,
     Icon: DeliveryBox,
-    title: "3. Finalize Product",
+    title: "3. Finaliser le produit",
     description: "Etiam porta malesuada magna mollis euismod consectetur leo elit."
   }
 ];
 
 // used in the process-15 block
 export const processList11 = [
-  { id: 1, title: "Creative Ideas", description: "Nulla vitae elit libero a augue donec id elit non mi porta." },
-  { id: 2, title: "Magic Touch", description: "Nulla vitae elit libero a augue donec id elit non mi porta." },
-  { id: 3, title: "Data Analysis", description: "Nulla vitae elit libero a augue donec id elit non mi porta." },
-  { id: 4, title: "Finalize Product", description: "Nulla vitae elit libero a augue donec id elit non mi porta." }
+  { id: 1, title: "Idées originales", description: "Nulla vitae elit libero a augue donec id elit non mi porta." },
+  { id: 2, title: "Touche de magie", description: "Nulla vitae elit libero a augue donec id elit non mi porta." },
+  { id: 3, title: "Analyse de données", description: "Nulla vitae elit libero a augue donec id elit non mi porta." },
+  { id: 4, title: "Finaliser le produit", description: "Nulla vitae elit libero a augue donec id elit non mi porta." }
 ];
 
 // used in the about-25 block
@@ -260,17 +260,17 @@ export const processList12 = [
   },
   {
     no: "2",
-    title: "Prepare",
+    title: "Élaborer",
     description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
   },
   {
     no: "3",
-    title: "Retouch",
+    title: "Retouche",
     description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
   },
   {
     no: "4",
-    title: "Finalize",
+    title: "Finaliser",
     description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
   }
 ];

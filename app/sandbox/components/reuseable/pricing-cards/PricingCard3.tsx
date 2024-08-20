@@ -39,7 +39,7 @@ export default function PricingCard3(props: PricingCard3Props) {
 
         <ul className="icon-list bullet-primary mt-7 mb-8">
           <ListItem>
-            <strong>{projects}</strong> Projects
+            <strong>{projects}</strong> Projets
           </ListItem>
 
           <ListItem>
@@ -47,11 +47,11 @@ export default function PricingCard3(props: PricingCard3Props) {
           </ListItem>
 
           <ListItem>
-            <strong>{storage}MB</strong> Storage
+            <strong>{storage}MB</strong> Stockage
           </ListItem>
 
           <ListItem>
-            Weekly <strong>Reports</strong>
+            Rapports <strong>hebdomadaires</strong>
           </ListItem>
 
           <ListItem>

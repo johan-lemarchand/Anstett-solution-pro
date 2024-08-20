@@ -21,42 +21,42 @@ const serviceList = [
     id: 1,
     Icon: Telephone,
     color: color.blue,
-    title: '24/7 Support',
+    title: 'Support 24/7',
     description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
   },
   {
     id: 2,
     Icon: Shield,
     color: color.yellow,
-    title: 'Secure Payments',
+    title: 'Paiements sécurisés',
     description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
   },
   {
     id: 3,
     color: color.orange,
     Icon: CloudComputingTwo,
-    title: 'Daily Updates',
+    title: 'Mises à jour quotidiennes',
     description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
   },
   {
     id: 4,
     Icon: Analytics,
     color: color.pink,
-    title: 'Market Research',
+    title: 'Étude de marché',
     description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
   },
   {
     id: 5,
     Icon: ChatTwo,
     color: color.green,
-    title: 'Social Engagement',
+    title: 'Engagement sociétal',
     description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
   },
   {
     id: 6,
     Icon: Megaphone,
     color: color.purple,
-    title: 'Content Marketing',
+    title: 'Marketing de contenu',
     description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
   }
 ];
@@ -65,19 +65,19 @@ const processList = [
   {
     id: 1,
     Icon: LightBulb,
-    title: 'Collect Ideas',
+    title: 'Collecter des idées',
     description: 'Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus.'
   },
   {
     id: 2,
     Icon: PieChartTwo,
-    title: 'Data Analysis',
+    title: 'Analyse de données',
     description: 'Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna.'
   },
   {
     id: 3,
     Icon: Design,
-    title: 'Magic Touch',
+    title: 'Touche de magie',
     description: 'Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed.'
   }
 ];
@@ -87,7 +87,7 @@ const abouts = [
     id: 1,
     Icon: Target,
     color: color.blue,
-    title: 'Our Vision',
+    title: 'Notre vision',
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus
         tellus.`
   },
@@ -95,14 +95,14 @@ const abouts = [
     id: 2,
     Icon: AwardTwo,
     color: color.green,
-    title: 'Our Mission',
+    title: 'Notre mission',
     description: `Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere  consectetur.`
   },
   {
     id: 3,
     Icon: Loyalty,
     color: color.yellow,
-    title: 'Our Values',
+    title: 'Nos valeurs',
     description: `Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.`
   }
 ];
@@ -111,22 +111,22 @@ const pricingList = [
   {
     price: 9,
     plan: 'Basic',
-    features: ['2 Projects', '100K API Access', '100MB Storage', 'Weekly Reports', '7/24 Support']
+    features: ['2 Projets', '100K Accès API ', '100MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
   },
   {
     price: 19,
     plan: 'Premium',
-    features: ['5 Projects', '200K API Access', '300MB Storage', 'Weekly Reports', '7/24 Support']
+    features: ['5 Projets', '200K Accès API', '300MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
   },
   {
     price: 29,
-    plan: 'Corporate',
-    features: ['20 Projects', '300K API Access', '500MB Storage', 'Weekly Reports', '7/24 Support']
+    plan: 'Entreprises',
+    features: ['20 Projets', '300K Accès API', '500MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
   },
   {
     price: 49,
-    plan: 'Community',
-    features: ['90 Projects', '900K API Access', '900MB Storage', 'Weekly Reports', '7/24 Support']
+    plan: 'Collectif',
+    features: ['90 Projets', '900K Accès API', '900MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
   }
 ];
 
@@ -134,25 +134,25 @@ const faqList = [
   {
     id: 1,
     Icon: CheckList,
-    title: 'Can I cancel my subscription?',
+    title: 'Puis-je annuler mon abonnement?',
     description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
   },
   {
     id: 2,
     Icon: Wallet,
-    title: 'Which payment methods do you accept?',
+    title: 'Quels modes de paiement acceptez-vous ?',
     description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
   },
   {
     id: 3,
     Icon: Insurance,
-    title: 'How can I manage my Account?',
+    title: 'Comment puis-je gérer mon compte?',
     description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
   },
   {
     id: 4,
     Icon: Padlock,
-    title: 'Is my credit card information secure?',
+    title: 'Les renseignements relatifs à ma carte de crédit sont-ils sécurisés?',
     description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
   }
 ];

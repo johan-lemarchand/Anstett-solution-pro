@@ -22,17 +22,17 @@ export const aboutList2 = [
 export const aboutList3 = [
   {
     id: 1,
-    title: 'Our Vision',
+    title: 'Notre vision',
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.`
   },
   {
     id: 2,
-    title: 'Our Mission',
+    title: 'Notre mission',
     description: `Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.`
   },
   {
     id: 3,
-    title: 'Our Values',
+    title: 'Nos valeurs',
     description: `Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.`
   }
 ];
@@ -43,28 +43,28 @@ export const aboutList4 = [
     id: 1,
     Icon: Lamp,
     color: 'fuchsia',
-    title: 'Creativity',
+    title: 'Créativité',
     description: 'Curabitur blandit lacus porttitor ridiculus mus.'
   },
   {
     id: 2,
     Icon: Bulb,
     color: 'violet',
-    title: 'Innovative Thinking',
+    title: 'Réflexion innovante',
     description: 'Curabitur blandit lacus porttitor ridiculus mus.'
   },
   {
     id: 3,
     Icon: Puzzle,
     color: 'orange',
-    title: 'Rapid Solutions',
+    title: 'Solutions rapides',
     description: 'Curabitur blandit lacus porttitor ridiculus mus.'
   },
   {
     id: 4,
     Icon: Headphone,
     color: 'green',
-    title: 'Top-Notch Support',
+    title: 'Assistance de premier ordre',
     description: 'Curabitur blandit lacus porttitor ridiculus mus.'
   }
 ];

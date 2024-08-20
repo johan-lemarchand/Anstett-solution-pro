@@ -24,35 +24,35 @@ const testimonialList = [
     id: 1,
     name: 'Coriss Ambady',
     image: '/img/avatars/te1.jpg',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financière',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis.`
   },
   {
     id: 2,
     name: 'Cory Zamora',
     image: '/img/avatars/te2.jpg',
-    designation: 'Marketing Specialist',
+    designation: 'Spécialiste en marketing',
     review: `Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia.`
   },
   {
     id: 3,
     name: 'Nikolas Brooten',
     image: '/img/avatars/te3.jpg',
-    designation: 'Sales Manager',
+    designation: 'Directeur des ventes',
     review: `Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum. Donec sed odio dui.`
   },
   {
     id: 4,
     name: 'Coriss Ambady',
     image: '/img/avatars/te4.jpg',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financière',
     review: `Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor`
   },
   {
     id: 5,
     name: 'Laura Widerski',
     image: '/img/avatars/te5.jpg',
-    designation: 'Sales Specialist',
+    designation: 'Spécialiste des ventes',
     review: `Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient.`
   },
   {

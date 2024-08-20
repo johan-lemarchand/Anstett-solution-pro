@@ -1,13 +1,13 @@
 const breadcrumb = [
   { id: 1, title: 'Home', url: '/' },
   { id: 2, title: 'Shop', url: '/shop' },
-  { id: 3, title: 'Cart', url: '/cart' }
+  { id: 3, title: 'Panier', url: '/cart' }
 ];
 
 const tableHeading = [
-  { id: 1, title: 'Product' },
-  { id: 2, title: 'Price' },
-  { id: 3, title: 'Quantity' },
+  { id: 1, title: 'Produit' },
+  { id: 2, title: 'Prix' },
+  { id: 3, title: 'Quantité' },
   { id: 4, title: 'Total' }
 ];
 
@@ -16,7 +16,7 @@ const cartList = [
     size: 43,
     quantity: 1,
     salePrice: 45,
-    color: 'Black',
+    color: 'Noir',
     regularPrice: 55,
     title: 'Nike Air Sneakers',
     image: '/img/photos/sth1.jpg',
@@ -26,7 +26,7 @@ const cartList = [
     size: 43,
     quantity: 1,
     salePrice: 0,
-    color: 'Misc',
+    color: 'Divers',
     regularPrice: 55,
     title: 'Headphones',
     image: '/img/photos/sth2.jpg',
@@ -35,7 +35,7 @@ const cartList = [
   {
     quantity: 1,
     salePrice: 0,
-    color: 'Black',
+    color: 'Noir',
     regularPrice: 55,
     title: 'Apple Watch',
     image: '/img/photos/sth3.jpg',
@@ -45,19 +45,19 @@ const cartList = [
 
 const orderSummeryRow = [
   {
-    name: 'Subtotal',
+    name: 'Sous-total',
     value: { amount: 135.99, parentClass: 'pe-0 text-end', childClass: 'price' }
   },
   {
-    name: 'Discount',
+    name: 'Réduction',
     value: { amount: 6.8, parentClass: 'pe-0 text-end', childClass: 'price text-red' }
   },
   {
-    name: 'Shipping',
+    name: 'Livraison',
     value: { amount: 10, parentClass: 'pe-0 text-end', childClass: 'price' }
   },
   {
-    name: 'Grand Total',
+    name: 'Total',
     value: { amount: 152.79, parentClass: 'pe-0 text-end', childClass: 'price text-dark fw-bold' }
   }
 ];

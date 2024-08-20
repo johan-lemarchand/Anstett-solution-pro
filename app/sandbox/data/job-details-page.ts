@@ -1,7 +1,7 @@
 const jobMeta = [
-  { id: 1, icon: 'uil-clock', title: 'Full time' },
+  { id: 1, icon: 'uil-clock', title: 'Temps plein' },
   { id: 2, icon: 'uil-location-arrow', title: 'Manchester, UK' },
-  { id: 3, icon: 'uil-building', title: 'Design Department' }
+  { id: 3, icon: 'uil-building', title: 'Service de conception' }
 ];
 
 const responsiblities = [
@@ -18,54 +18,54 @@ const jobList = [
   {
     id: 1,
     company: 'SD',
-    time: 'Full Time',
+    time: 'Temps plein',
     avatarColor: 'bg-red',
     location: 'San Francisco, US',
-    title: 'Senior Graphic Designer',
+    title: 'Graphiste senior',
     badgeColor: 'bg-pale-blue text-blue'
   },
   {
     id: 2,
     company: 'UX',
-    time: 'Remote',
-    location: 'Anywhere',
-    title: 'UI/UX Designer',
+    time: 'À distance',
+    location: 'n\'importe où',
+    title: 'Designer UI/UX',
     avatarColor: 'bg-green',
     badgeColor: 'bg-pale-aqua text-aqua'
   },
   {
     id: 3,
     company: 'AN',
-    time: 'Full Time',
+    time: 'Temps plein',
     avatarColor: 'bg-yellow',
     location: 'Birmingham, UK',
     badgeColor: 'bg-pale-blue text-blue',
-    title: 'Multimedia Artist & Animator'
+    title: 'Artiste et animateur multimédia'
   },
   {
     id: 4,
     company: 'FD',
-    time: 'Part Time',
+    time: 'Temps partiel',
     location: 'Sydney, AU',
     avatarColor: 'bg-purple',
-    title: 'Front End Developer',
+    title: 'Développeur front-end',
     badgeColor: 'bg-pale-violet text-violet'
   },
   {
     id: 5,
     company: 'MD',
-    time: 'Full Time',
+    time: 'Temps plein',
     avatarColor: 'bg-orange',
-    title: 'Mobile Developer',
+    title: 'Développeur mobile',
     location: 'San Francisco, US',
     badgeColor: 'bg-pale-blue text-blue'
   },
   {
     id: 6,
     company: 'MD',
-    time: 'Full Time',
+    time: 'Temps plein',
     avatarColor: 'bg-pink',
-    title: '.NET Developer',
+    title: 'Développeur.NET',
     location: 'Manchester, UK',
     badgeColor: 'bg-pale-blue text-blue'
   }

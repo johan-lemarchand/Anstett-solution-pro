@@ -19,7 +19,7 @@ export default function Input({ label, errorMsg, id, ...props }: InputProps) {
       </label>
 
       {errorMsg && (
-        <div className="invalid-feedback">{errorMsg || "Valid first name is required."}</div>
+        <div className="invalid-feedback">{errorMsg || "Un prénom valide est requis."}</div>
       )}
     </div>
   );
