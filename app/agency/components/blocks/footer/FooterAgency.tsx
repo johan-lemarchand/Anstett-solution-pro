@@ -4,7 +4,7 @@ import NextLink from "../../../../sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
 import footerNav from "../../../../sandbox/data/footer";
 
-export default function Footer11() {
+export default function FooterAgency() {
   return (
     <footer className="bg-light">
       <div className="container pb-13 pb-md-15">
