@@ -3,8 +3,8 @@ import { Fragment } from "react";
 import NavbarAgency from "@components/navbar";
 import HeroAgency from "@components/blocks/hero/HeroAgency";
 import FactsAgency from "@components/blocks/facts/FactsAgency";
-import { About20 } from "app/sandbox/components/blocks/about";
-import { Footer11 } from "app/sandbox/components/blocks/footer";
+import AboutAgency  from "@components/blocks/about/AboutAgency";
+import FooterAgency from "@components/blocks/footer/FooterAgency";
 import ContactAgency from "@components/blocks/contact/ContactAgency";
 import { Portfolio10 } from "app/sandbox/components/blocks/portfolio";
 import { Testimonial16 } from "app/sandbox/components/blocks/testimonial";
@@ -67,7 +67,7 @@ export default function homeAgency() {
             <Portfolio10 />
 
             {/* ========== what make us section ========== */}
-            <About20 />
+            <AboutAgency />
           </div>
         </section>
 
@@ -76,7 +76,7 @@ export default function homeAgency() {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer11 />
+      <FooterAgency />
     </Fragment>
   );
 }

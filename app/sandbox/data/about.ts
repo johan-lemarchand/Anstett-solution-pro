@@ -68,3 +68,34 @@ export const aboutList4 = [
     description: 'Curabitur blandit lacus porttitor ridiculus mus.'
   }
 ];
+
+export const aboutListAgency = [
+  {
+    id: 1,
+    Icon: Lamp,
+    color: 'fuchsia',
+    title: 'Votre visibilité',
+    description: 'Augmentez votre visibilité en ligne avec des landing pages conçues sur mesure. Optimisées pour capturer l\'attention et générer des conversions, elles transforment vos visiteurs en futurs clients.'
+  },
+  {
+    id: 2,
+    Icon: Bulb,
+    color: 'violet',
+    title: 'Prise de rendez-vous simplifiée',
+    description: 'Avec notre module de rendez-vous, consultez et indiquez vos disponibilités en un clin d\'œil.'
+  },
+  {
+    id: 3,
+    Icon: Puzzle,
+    color: 'orange',
+    title: 'Module E-commerce',
+    description: 'Mettez toutes les chances de votre côté pour augmenter vos ventes grâce à notre module. Attirez plus de visiteurs, convertissez-les en clients et développez votre chiffre d\'affaires rapidement.'
+  },
+  {
+    id: 4,
+    Icon: Headphone,
+    color: 'green',
+    title: 'Gardez vos clients engagés',
+    description: 'Maintenez l\'intérêt de vos clients avec un suivi personnalisé et des campagnes d\'email efficaces. Restez connecté et boostez la fidélité grâce à des communications pertinentes et bien ciblées.'
+  }
+];
