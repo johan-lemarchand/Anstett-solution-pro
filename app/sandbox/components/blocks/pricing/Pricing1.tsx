@@ -20,12 +20,11 @@ export default function Pricing1({ bulletBg, roundShape = false, roundedButton =
   return (
     <div className="row gy-6 mb-14 mb-md-18">
       <div className="col-lg-4">
-        <h2 className="fs-16 text-uppercase text-muted mt-lg-18 mb-3">Our Pricing</h2>
-        <h3 className="display-4 mb-3">We offer great and premium prices.</h3>
+        <h2 className="fs-16 text-uppercase text-muted mt-lg-18 mb-3">Nos tarifs</h2>
+        <h3 className="display-4 mb-3">Nous offrons des prix très intéressants </h3>
 
         <p>
-          Enjoy a <NextLink title="free 30-day trial" href="#" className="hover" /> and experience the full service. No
-          credit card required!
+          Profiter d'un<NextLink title="free 30-day trial" href="#" className="hover" /> et profitez du service complet!. pas de carte de crédit requise !
         </p>
 
         <NextLink href="#" title="See All Prices" className="btn btn-primary rounded-pill mt-2" />
@@ -33,12 +32,12 @@ export default function Pricing1({ bulletBg, roundShape = false, roundedButton =
 
       <div className="col-lg-7 offset-lg-1 pricing-wrapper">
         <div className="pricing-switcher-wrapper switcher justify-content-start justify-content-lg-end">
-          <p className="mb-0 pe-3">Monthly</p>
+          <p className="mb-0 pe-3">Mensuel</p>
 
           <Switch value={activeYearly} onChange={setActiveYearly} />
 
           <p className="mb-0 ps-3">
-            Yearly <span className="text-red">(Save 30%)</span>
+            Annuel <span className="text-red">(Économisez 30 %)</span>
           </p>
         </div>
 

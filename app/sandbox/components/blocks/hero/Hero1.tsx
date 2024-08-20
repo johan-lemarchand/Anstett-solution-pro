@@ -15,11 +15,11 @@ export default function Hero1() {
           </div>
 
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start">
-            <h1 className="display-1 mb-5 mx-md-n5 mx-lg-0">Grow Your Business with Our Solutions.</h1>
+            <h1 className="display-1 mb-5 mx-md-n5 mx-lg-0">Développez votre entreprise avec nos solutions.</h1>
             <p className="lead fs-lg mb-7">
-              We help our clients to increase their website traffic, rankings and visibility in search results.
+            Nous aidons nos clients à augmenter le trafic de leur site web, les classements et la visibilité dans les résultats de recherche.
             </p>
-            <a className="btn btn-primary rounded-pill me-2">Try It For Free</a>
+            <a className="btn btn-primary rounded-pill me-2">Essayer gratuitement</a>
           </div>
         </div>
       </div>

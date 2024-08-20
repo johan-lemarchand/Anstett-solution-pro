@@ -9,7 +9,7 @@ export default function Footer1() {
       <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
         <div className="d-lg-flex flex-row align-items-lg-center">
           <h3 className="display-4 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white">
-            Join our community by using our services and grow your business.
+          Rejoignez notre communauté en utilisant nos services et développez votre entreprise.
           </h3>
 
           <NextLink href="#" title="Try It For Free" className="btn btn-primary rounded-pill mb-0 text-nowrap" />
@@ -23,8 +23,8 @@ export default function Footer1() {
               <img className="mb-4" src="/img/logo-light.png" srcSet="/img/logo-light@2x.png 2x" alt="" />
 
               <p className="mb-4">
-                © 2022 Sandbox. <br className="d-none d-lg-block" />
-                All rights reserved.
+                © 2024 Anstett Solutions Pro. <br className="d-none d-lg-block" />
+                Tous droits réservés.
               </p>
 
               <SocialLinks className="nav social social-white" />
@@ -33,8 +33,8 @@ export default function Footer1() {
 
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Get in Touch</h4>
-              <address className="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
+              <h4 className="widget-title text-white mb-3">Contactez-nous</h4>
+              <address className="pe-xl-15 pe-xxl-17">26e rue de kaltenhouse 67240 Oberhoffen-sur-moder</address>
               <NextLink title="info@email.com" href="mailto:#" />
               <br /> 00 (123) 456 78 90
             </div>
@@ -42,7 +42,7 @@ export default function Footer1() {
 
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Learn More</h4>
+              <h4 className="widget-title text-white mb-3">En savoir plus</h4>
               <ul className="list-unstyled  mb-0">
                 {footerNav.map(({ title, url }) => (
                   <li key={title}>
@@ -55,8 +55,8 @@ export default function Footer1() {
 
           <div className="col-md-12 col-lg-3">
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Our Newsletter</h4>
-              <p className="mb-5">Subscribe to our newsletter to get our news &amp; deals delivered to you.</p>
+              <h4 className="widget-title text-white mb-3">Notre newsletter</h4>
+              <p className="mb-5">Abonnez-vous à notre newsletter pour recevoir nos actualités &amp; ainsi que nos offres.</p>
 
               <div className="newsletter-wrapper">
                 <div id="mc_embed_signup2">
@@ -77,7 +77,7 @@ export default function Footer1() {
                           className="required email form-control"
                         />
 
-                        <label htmlFor="mce-EMAIL2">Email Address</label>
+                        <label htmlFor="mce-EMAIL2">Adresse email</label>
                         <input
                           value="Join"
                           type="submit"

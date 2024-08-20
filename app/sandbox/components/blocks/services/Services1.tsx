@@ -8,9 +8,9 @@ export default function Services1() {
       <div className="container pt-14 pt-md-16">
         <div className="row text-center">
           <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">What We Do?</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">Que faisons-nous?</h2>
             <h3 className="display-4 mb-10 px-xl-10">
-              The service we offer is specifically designed to meet your needs.
+              Le service que nous offrons est spécialement conçu pour répondre à vos besoins.
             </h3>
           </div>
         </div>

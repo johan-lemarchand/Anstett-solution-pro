@@ -15,8 +15,8 @@ export default function About1() {
       </div>
 
       <div className="col-lg-5">
-        <h2 className="fs-16 text-uppercase text-muted mb-3">Why Choose Us?</h2>
-        <h3 className="display-4 mb-7">We bring solutions to make life easier for our clients.</h3>
+        <h2 className="fs-16 text-uppercase text-muted mb-3">Pourquoi nous choisir?.</h2>
+        <h3 className="display-4 mb-7">Nous apportons des solutions pour faciliter la vie de nos clients.</h3>
 
         <AccordionList />
       </div>

@@ -13,8 +13,8 @@ export default function Process1() {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="fs-16 text-uppercase text-muted mb-3">Our Strategy</h2>
-        <h3 className="display-4 mb-5">Here are 3 working steps to organize our business projects.</h3>
+        <h2 className="fs-16 text-uppercase text-muted mb-3">Notre stratégie</h2>
+        <h3 className="display-4 mb-5">Voici 3 étapes de travail pour organiser nos projets.</h3>
 
         <p>
           Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna

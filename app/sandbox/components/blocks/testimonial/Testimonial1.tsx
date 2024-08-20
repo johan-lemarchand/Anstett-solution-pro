@@ -19,9 +19,9 @@ export default function Testimonial1() {
           </div>
 
           <div className="col-lg-5">
-            <h2 className="fs-16 text-uppercase text-muted mb-3 mt-lg-n6">Our Community</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3 mt-lg-n6">Notre communauté</h2>
             <h3 className="display-4 mb-5">
-              Don't take our word for it. See what customers are saying about us.
+              Ne nous croyez pas sur parole. Voyez ce que les clients disent de nous.
             </h3>
             <p>
               Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel

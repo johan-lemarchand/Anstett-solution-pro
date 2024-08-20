@@ -15,9 +15,9 @@ export default function CTA1() {
           </div>
 
           <div className="col-lg-5">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">Analyze Now</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">Analyser maintenant</h2>
             <h3 className="display-4 mb-5">
-              Wonder how much faster your website can go? Easily check your SEO Score now.
+              Vous vous demandez à quel point votre site peut aller plus vite? Vérifiez facilement votre score SEO maintenant.
             </h3>
 
             <p className="mb-7">
@@ -36,9 +36,9 @@ export default function CTA1() {
                       placeholder="Enter Website URL"
                       id="seo-check"
                     />
-                    <label htmlFor="seo-check">Enter Website URL</label>
+                    <label htmlFor="seo-check">Entrez l’URL du site Web</label>
                     <button className="btn btn-primary" type="button">
-                      Check
+                      Vérifier
                     </button>
                   </div>
                 </form>
