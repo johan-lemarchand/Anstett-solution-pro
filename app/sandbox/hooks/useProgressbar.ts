@@ -16,6 +16,9 @@ export default function useProgressbar() {
     const pline = document.querySelectorAll(".progressbar.line");
     const pcircle = document.querySelectorAll(".progressbar.semi-circle");
 
+    const progressBarInstances: any[] = [];
+    const waypoints: any[] = [];
+
     pline.forEach((e) => {
       const line = new ProgressBar.Line(e, {
         strokeWidth: 6,
@@ -46,10 +49,8 @@ export default function useProgressbar() {
         handler: () => line.animate(value)
       });
 
-      return () => {
-        line.destroy();
-        waypoint.destroy();
-      };
+      progressBarInstances.push(line);
+      waypoints.push(waypoint);
     });
 
     pcircle.forEach((e) => {
@@ -71,12 +72,15 @@ export default function useProgressbar() {
         handler: () => circle.animate(value)
       });
 
-      return () => {
-        circle.destroy();
-        waypoint.destroy();
-      };
+      progressBarInstances.push(circle);
+      waypoints.push(waypoint);
     });
+
+    return () => {
+      progressBarInstances.forEach(instance => instance.destroy());
+      waypoints.forEach(waypoint => waypoint.destroy());
+    };
   }, []);
 
-  return;
+  return null;
 }
