@@ -23,10 +23,9 @@ export default function Services27() {
             </div>
 
             <div className="col-lg-5 offset-lg-1">
-              <h2 className="display-5 mb-3">My Services</h2>
+              <h2 className="display-5 mb-3">Mes Services</h2>
               <p className="lead fs-lg">
-                I would like to give you a unique photography experience, capture your products with excellent
-                composition and lighting skills.
+              Je vous propose une expérience photographique unique, mettant en valeur vos produits grâce à une maîtrise exceptionnelle de la composition et de l'éclairage.
               </p>
               <p>
                 Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -35,7 +34,7 @@ export default function Services27() {
                 ligula mollis metus auctor fringilla.
               </p>
 
-              <NextLink title="More Details" href="#" className="btn btn-primary rounded-pill mt-2" />
+              <NextLink title="Plus de détails" href="#" className="btn btn-primary rounded-pill mt-2" />
             </div>
           </div>
         </div>
@@ -56,7 +55,7 @@ const Card = ({ image, title, className = "" }: CardProps) => (
       </Link>
 
       <figcaption>
-        <h5 className="from-top mb-0">View Gallery</h5>
+        <h5 className="from-top mb-0">Voir la Galerie</h5>
       </figcaption>
     </figure>
 

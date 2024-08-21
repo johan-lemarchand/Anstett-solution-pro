@@ -57,7 +57,7 @@ export default function Pricing() {
                     <div>
                       <h4>{title}</h4>
                       <p className="mb-2">{description}</p>
-                      <NextLink title="Learn More" href={linkUrl} className="more hover" />
+                      <NextLink title="En savoir plus" href={linkUrl} className="more hover" />
                     </div>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ export default function Pricing() {
             </div>
 
             {/* ========== happy customers section ========== */}
-            <h2 className="display-4 mb-3 text-center">Happy Customers</h2>
+            <h2 className="display-4 mb-3 text-center">Clients satisfaits</h2>
             <p className="lead text-center mb-6 px-md-16 px-lg-0">
             La satisfaction du client est notre objectif principal. Voyez ce que nos clients disent de nous.
             </p>

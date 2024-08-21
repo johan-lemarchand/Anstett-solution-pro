@@ -5,7 +5,7 @@ import Search from 'icons/Search';
   linkUrl='#'
   Icon={Search}
   linkType='yellow'
-  linkText='Learn More'
+  linkText='En savoir plus'
   title='SEO Services'
   description='Nulla vitae elit libero, a pharetra augue.'
 />

@@ -63,7 +63,7 @@ export default function Career() {
           </div>
 
           <div className="text-center mt-10">
-            <NextLink title="Join Our Team" href="#" className="btn btn-primary rounded-pill" />
+            <NextLink title="Rejoindre notre équipe" href="#" className="btn btn-primary rounded-pill" />
           </div>
         </div>
       </section>
@@ -117,7 +117,7 @@ export default function Career() {
                 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur.
               </p>
 
-              <NextLink title="Get in Touch" href="#" className="btn btn-primary rounded-pill" />
+              <NextLink title="Prendre contact" href="#" className="btn btn-primary rounded-pill" />
             </div>
           </div>
         </div>

@@ -31,12 +31,12 @@ export default function Hero29() {
             />
 
             <h1 className="display-1 fs-50 mb-4">
-              Manage all your bills, accounts and budgets in{" "}
-              <span className="text-gradient gradient-7">one place.</span>
+              Gérez toutes vos factures, comptes et budgets en{" "}
+              <span className="text-gradient gradient-7">un seul endroit.</span>
             </h1>
 
             <p className="lead fs-24 lh-sm mb-7">
-              Sandbox is available to download from both App Store and Google Play Store.
+              Anstett Solutions Pro est disponible en téléchargement sur l’App Store et le Google Play Store.
             </p>
 
             <div

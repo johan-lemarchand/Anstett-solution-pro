@@ -13,16 +13,15 @@ export default function Hero12() {
             </h1>
 
             <p className="lead fs-lg mb-7" style={slideInDownAnimate("900ms")}>
-              We specialize in web, mobile and identity design. We love to turn ideas into beautiful things.
+            Nous nous concentrons sur le web, le mobile et le design. Notre passion est de convertir les idées en belles choses.
             </p>
-
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>
-                <NextLink href="#" title="See Projects" className="btn btn-primary rounded me-2" />
+                <NextLink href="#" title="Voir les projets" className="btn btn-primary rounded me-2" />
               </span>
 
               <span style={slideInDownAnimate("1500ms")}>
-                <NextLink href="#" title="Learn More" className="btn btn-yellow rounded" />
+                <NextLink href="#" title="En savoir plus" className="btn btn-yellow rounded" />
               </span>
             </div>
           </div>

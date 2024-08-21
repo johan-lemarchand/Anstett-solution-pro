@@ -15,14 +15,14 @@ export default function Services9() {
       </div>
 
       <div className="col-lg-5">
-        <h2 className="fs-15 text-uppercase text-muted mb-3">What We Do?</h2>
-        <h3 className="display-4 mb-5">The service we offer is specifically designed to meet your needs.</h3>
+        <h2 className="fs-15 text-uppercase text-muted mb-3">Que faisons-nous?</h2>
+        <h3 className="display-4 mb-5">Le service que nous offrons est spécialement conçu pour répondre à vos besoins.</h3>
         <p>
           Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius
           blandit sit amet non magna. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque
           nisl consectetur et.
         </p>
-        <NextLink title="More Details" href="#" className="btn btn-navy rounded-pill mt-3" />
+        <NextLink title="Plus de détails" href="#" className="btn btn-navy rounded-pill mt-3" />
       </div>
     </div>
   );

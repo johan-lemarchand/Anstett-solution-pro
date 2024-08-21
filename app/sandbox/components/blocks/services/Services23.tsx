@@ -6,9 +6,9 @@ export default function Services23() {
       <div className="container py-15 py-md-17">
         <div className="row text-center mb-10">
           <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">What We Do?</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">Que faisons-nous?</h2>
             <h3 className="display-3 px-xl-10 mb-0">
-              The service we offer is specifically designed to meet your needs.
+              Le service que nous offrons est spécialement conçu pour répondre à vos besoins.
             </h3>
           </div>
         </div>
@@ -89,7 +89,7 @@ const ColumnTwo = ({ title, className = "" }: ColumnTwoProps) => {
         ))}
       </ul>
 
-      <NextLink title="More Details" href="#" className="btn btn-soft-primary rounded-pill mt-2 mb-0" />
+      <NextLink title="Plus de détails" href="#" className="btn btn-soft-primary rounded-pill mt-2 mb-0" />
     </div>
   );
 };

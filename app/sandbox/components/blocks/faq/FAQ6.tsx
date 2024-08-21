@@ -11,7 +11,7 @@ export default function FAQ6() {
           <div className="col-lg-6 mb-0">
             <h2 className="fs-16 text-uppercase text-primary mb-4">FAQ</h2>
             <h3 className="display-3 mb-4">
-              If you don't see an answer to your question, you can send us an email from our contact form.
+              Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un courriel depuis notre formulaire de contact.
             </h3>
             <p className="mb-6">
               Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam

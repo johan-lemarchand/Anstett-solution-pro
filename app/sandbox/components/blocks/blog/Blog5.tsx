@@ -17,7 +17,7 @@ export default function Blog5() {
             <div className="col-xl-7 col-xxl-6 mx-auto text-center">
               <i className="icn-flower text-leaf fs-30 opacity-25"></i>
               <h2 className="display-5 text-center mt-2 mb-10">
-                Here are the latest posts from my blog that grabbed the most attention.
+                Voici les derniers articles de mon blog qui ont attiré le plus d’attention.
               </h2>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function Blog5() {
                       </Link>
 
                       <figcaption>
-                        <h5 className="from-top mb-0">Read More</h5>
+                        <h5 className="from-top mb-0">En savoir plus</h5>
                       </figcaption>
                     </figure>
 

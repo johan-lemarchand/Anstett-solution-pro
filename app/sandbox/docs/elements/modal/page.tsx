@@ -109,7 +109,7 @@ export default function Modal() {
                       </div>
                     </div>
 
-                    <h3>Join the mailing list and get %10 off</h3>
+                    <h3>Rejoindre la liste de diffusion et obtenir - %10</h3>
 
                     <p className="mb-6">
                       Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor
@@ -133,11 +133,11 @@ export default function Modal() {
                                     type="email"
                                     name="EMAIL"
                                     className="required email form-control"
-                                    placeholder="Email Address"
+                                    placeholder="Adresse e-mail"
                                     id="mce-EMAIL"
                                   />
                                   <label htmlFor="mce-EMAIL" className="text-start">
-                                    Email Address
+                                    Adresse e-mail
                                   </label>
                                   <input
                                     type="submit"

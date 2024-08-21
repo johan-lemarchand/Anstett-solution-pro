@@ -33,9 +33,9 @@ export default function Facts6() {
       </div>
 
       <div className="col-lg-5">
-        <h2 className="display-4 mb-3">Join Our Community</h2>
+        <h2 className="display-4 mb-3">Rejoindre notre communauté</h2>
         <p className="lead fs-lg lh-sm">
-          We have considered our business solutions to support you on every stage of your growth.
+        Nous avons pensé nos solutions pour vous accompagner dans toutes les étapes de votre croissance.
         </p>
         <p className="mb-0">
           Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac,

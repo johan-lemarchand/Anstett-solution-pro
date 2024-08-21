@@ -17,7 +17,7 @@ export default function Process10() {
       </div>
 
       <div className="col-lg-5">
-        <h3 className="display-4 mb-7">Our three process steps on creating awesome projects.</h3>
+        <h3 className="display-4 mb-7">Nos trois étapes pour créer des projets impressionnants.</h3>
         {processList.map((item) => (
           <ProcessList2 {...item} key={item.no} className="icon btn btn-circle btn-soft-primary pe-none me-5" />
         ))}

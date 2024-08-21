@@ -38,7 +38,7 @@ export const processList1 = [
 export const processList2 = [
   {
     no: "01",
-    title: "Concept",
+    title: "Conceptualiser",
     subtitle: "Nulla vitae elit libero elit non porta gravida eget metus cras. Aenean eu leo quam. Pellentesque ornare."
   },
   {
@@ -48,7 +48,7 @@ export const processList2 = [
   },
   {
     no: "03",
-    title: "Retouche",
+    title: "Retoucher",
     subtitle: "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero."
   },
   {
@@ -116,7 +116,7 @@ export const processList5 = [
   {
     Icon: Loading,
     color: "yellow",
-    title: "3. Mis à jour",
+    title: "3. Mise à jour",
     subtitle: "Etiam porta malesuada magna mollis euismod sem."
   }
 ];
@@ -182,7 +182,7 @@ export const processList8 = [
     id: 2,
     Icon: Savings,
     iconColor: "green",
-    title: "Fatuations",
+    title: "Faturations",
     className: "d-flex flex-row mb-5",
     description: "Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna."
   },

@@ -31,7 +31,7 @@ export default function About25() {
                 nulla sed consectetur. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur.
               </p>
 
-              <NextLink title="Learn More" href="#" className="btn btn-primary rounded-pill mt-2" />
+              <NextLink title="En savoir plus" href="#" className="btn btn-primary rounded-pill mt-2" />
             </div>
           </div>
 

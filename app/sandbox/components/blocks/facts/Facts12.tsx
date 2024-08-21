@@ -14,8 +14,8 @@ export default function Facts12() {
           <div className="container">
             <div className="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
               <div className="col-lg-4 text-center text-lg-start">
-                <h3 className="display-4 mb-3 pe-xxl-15">We are proud of our works</h3>
-                <p className="lead fs-lg mb-0 pe-xxl-10">We bring solutions to make life easier for our customers.</p>
+                <h3 className="display-4 mb-3 pe-xxl-15">Nous sommes fiers de nos projets</h3>
+                <p className="lead fs-lg mb-0 pe-xxl-10">Nous apportons des solutions pour faciliter la vie de nos clients.</p>
               </div>
 
               <div className="col-lg-8 mt-lg-2">
@@ -25,7 +25,7 @@ export default function Facts12() {
                     <h3 className="counter">
                       <CountUp end={1000} suffix="+" />
                     </h3>
-                    <p className="mb-0">Completed Projects</p>
+                    <p className="mb-0">Projets réalisés</p>
                   </div>
 
                   <div className="col-md-4">
@@ -33,7 +33,7 @@ export default function Facts12() {
                     <h3 className="counter">
                       <CountUp end={4} suffix="x" />
                     </h3>
-                    <p className="mb-0">Revenue Growth</p>
+                    <p className="mb-0">Croissance du chiffre</p>
                   </div>
 
                   <div className="col-md-4">
@@ -41,7 +41,7 @@ export default function Facts12() {
                     <h3 className="counter">
                       <CountUp end={99.7} suffix="%" />
                     </h3>
-                    <p className="mb-0">Customer Satisfaction</p>
+                    <p className="mb-0">Satisfaction client</p>
                   </div>
                 </div>
               </div>

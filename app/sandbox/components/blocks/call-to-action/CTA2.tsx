@@ -9,14 +9,13 @@ export default function CTA2() {
         <div className="row">
           <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
             <h3 className="display-4 mb-8 px-lg-12">
-              We are trusted by over 5000+ clients. Join them now and grow your business.
-            </h3>
+            Plus de 5000 clients nous font confiance. Rejoignez-les dès maintenant et développez votre entreprise.</h3>
           </div>
         </div>
 
         <div className="d-flex justify-content-center">
-          <NextLink href="#" title="Get Started" className="btn btn-primary rounded mx-1" />
-          <NextLink href="#" title="Free Trial" className="btn btn-green rounded mx-1" />
+          <NextLink href="#" title="Démarrer" className="btn btn-primary rounded mx-1" />
+          <NextLink href="#" title="Essai gratuit" className="btn btn-green rounded mx-1" />
         </div>
       </div>
     </section>

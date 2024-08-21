@@ -52,25 +52,25 @@ export default function Hero30() {
 
           <div data-cues="slideInDown" data-group="page-title">
             <h1 className="display-1 fs-64 mb-5 mx-md-10 mx-lg-0">
-              We are a digital web agency specializing on <br />
-              <span className="rotator-fade text-primary">web design.,SEO services.,e-commerce.,Google Adwords.</span>
+            Nous sommes une agence web numérique spécialisée dans <br />
+            <span className="rotator-fade text-primary">web design. ,SEO services. ,e-commerce. ,Google Adwords.</span>
             </h1>
 
             <p className="lead fs-24 mb-8">
-              We are an award winning digital web agency that strongly believes in the power of creative ideas.
+            Nous sommes une agence web numérique primée qui croit fermement au pouvoir des idées créatives.
             </p>
           </div>
 
           <div className="d-flex justify-content-center" data-cues="slideInDown" data-delay="600">
             <span>
               <Link href="#" className="btn btn-lg btn-primary rounded-xl mx-1">
-                See Projects
+                Voir les projets
               </Link>
             </span>
 
             <span>
               <Link href="#" className="btn btn-lg btn-fuchsia rounded-xl mx-1">
-                Contact Us
+                Contactez-nous
               </Link>
             </span>
           </div>

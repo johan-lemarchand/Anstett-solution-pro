@@ -24,11 +24,11 @@ export default function TextAnimations() {
       descriptionClass="lead"
       description={
         <>
-          Add animations to text easily with pure HTML interface. For further plugin documentation please visit{" "}
+          Ajouter des animations au texte facilement avec une interface HTML pure. Pour plus de documentation sur le plugin, veuillez visiter{" "}
           <a href="https://github.com/tameemsafi/typewriterjs" target="_blank" className="hover more" rel="noreferrer">
             TypewriterJS docs
           </a>{" "}
-          or{" "}
+          ou{" "}
           <a href="https://adrianklimek.github.io/replaceme/" target="_blank" className="hover more" rel="noreferrer">
             ReplaceMe.js docs
           </a>

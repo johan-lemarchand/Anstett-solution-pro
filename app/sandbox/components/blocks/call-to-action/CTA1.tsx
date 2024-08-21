@@ -6,7 +6,7 @@ export default function CTA1() {
           <div className="col-lg-7 order-lg-2">
             <figure>
               <img
-                alt="analyze now"
+                alt="Analyser maintenant"
                 className="w-auto"
                 src="/img/illustrations/i3.png"
                 srcSet="/img/illustrations/i3@2x.png 2x"

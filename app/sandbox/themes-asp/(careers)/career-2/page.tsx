@@ -150,7 +150,7 @@ export default function CareerTwo() {
               <h3 className="display-4 mb-7 px-lg-5 px-xl-0 px-xxl-5">
               Nous sommes une communauté de plus de 5000 membres. Rejoignez-nous et construisez l’avenir avec nous.
               </h3>
-              <NextLink title="Contact Us" href="#" className="btn btn-lg btn-primary rounded-pill" />
+              <NextLink title="Contactez-nous" href="#" className="btn btn-lg btn-primary rounded-pill" />
             </div>
           </div>
         </div>

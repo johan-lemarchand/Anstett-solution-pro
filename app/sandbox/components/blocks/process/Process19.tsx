@@ -37,10 +37,10 @@ export default function Process19() {
             alt=""
           />
 
-          <h2 className="fs-16 text-uppercase text-muted mb-3">How It Works</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">Comment ça marche</h2>
           <h3 className="display-3 mb-8 px-xl-6">
-            Download the app, create your profile and <span className="text-gradient gradient-7">voilà</span>, you're
-            all set!
+            Téléchargez l’application, créez votre profil et <span className="text-gradient gradient-7">voilà</span>, vous êtes
+            tout est prêt !
           </h3>
         </div>
       </div>
@@ -57,13 +57,13 @@ export default function Process19() {
             <div className="w-100 d-lg-none" />
 
             <div className="col-md-6 col-lg-4 order-lg-first">
-              <Item no="01" title="Download Application" className="mb-8" />
-              <Item no="02" title="Quick Registration" />
+              <Item no="01" title="Télécharger l'application" className="mb-8" />
+              <Item no="02" title="Inscription rapide" />
             </div>
 
             <div className="col-md-6 col-lg-4">
-              <Item no="03" title="Track Your Spending" className="mb-8" />
-              <Item no="04" title="Have Total Control" />
+              <Item no="03" title="Suivi de vos dépenses" className="mb-8" />
+              <Item no="04" title="Une maîtrise totale" />
             </div>
           </div>
         </div>

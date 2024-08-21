@@ -11,9 +11,9 @@ export default function Blog3() {
     <Fragment>
       <div className="row text-center">
         <div className="col-lg-10 col-xl-10 col-xxl-8 mx-auto">
-          <h2 className="fs-15 text-uppercase text-muted mb-3">Case Studies</h2>
+          <h2 className="fs-15 text-uppercase text-muted mb-3">Cas pratiques</h2>
           <h3 className="display-4 mb-9">
-            Check out some of our awesome projects with creative ideas and great design.
+           Découvrez quelques-uns de nos projets géniaux avec des idées créatives et un design exceptionnel.
           </h3>
         </div>
       </div>

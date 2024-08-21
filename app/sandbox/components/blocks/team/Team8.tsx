@@ -14,10 +14,10 @@ export default function Team8() {
         <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div className="col-lg-4">
             <h2 className="fs-15 text-uppercase text-line text-primary text-center mb-3">
-              Meet the Team
+              Découvrir l'équipe
             </h2>
             <h3 className="display-5 mb-5">
-              Save your time and money by choosing our professional team.
+              Économisez votre temps et votre argent en choisissant notre équipe professionnelle.
             </h3>
             <p>
               Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac
@@ -25,7 +25,7 @@ export default function Team8() {
             </p>
 
             <NextLink
-              title="See All Members"
+              title="Voir tous les membres"
               href="#"
               className="btn btn-primary rounded-pill mt-3"
             />

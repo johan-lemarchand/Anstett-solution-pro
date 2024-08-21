@@ -18,8 +18,8 @@ export default function Footer5() {
               />
 
               <p className="mb-4">
-                © 2022 Sandbox. <br className="d-none d-lg-block" />
-                All rights reserved.
+                © 2024 Anstett Solutions Pro. <br className="d-none d-lg-block" />
+                Tous droits réservés.
               </p>
 
               <SocialLinks className="nav social social-white" />
@@ -28,18 +28,18 @@ export default function Footer5() {
 
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Get in Touch</h4>
+              <h4 className="widget-title text-white mb-3">Prendre contact</h4>
               <address className="pe-xl-15 pe-xxl-17">
-                Moonshine St. 14/05 Light City, London, United Kingdom
+                26 E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder
               </address>
-              <NextLink title="info@email.com" href="mailto:#" />
-              <br /> 00 (123) 456 78 90
+              <NextLink title="anstett.solutions.pro@gmail.com" href="mailto:#" />
+              <br /> 06 42 18 55 95
             </div>
           </div>
 
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Learn More</h4>
+              <h4 className="widget-title text-white mb-3">En savoir plus</h4>
               <ul className="list-unstyled  mb-0">
                 {footerNav.map(({ title, url }) => (
                   <li key={title}>
@@ -52,9 +52,9 @@ export default function Footer5() {
 
           <div className="col-md-12 col-lg-3">
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Our Newsletter</h4>
+              <h4 className="widget-title text-white mb-3">Notre newsletter</h4>
               <p className="mb-5">
-                Subscribe to our newsletter to get our news &amp; deals delivered to you.
+              Abonnez-vous à notre newsletter &amp; pour recevoir nos nouvelles et nos offres.
               </p>
 
               <div className="newsletter-wrapper">
@@ -72,13 +72,13 @@ export default function Footer5() {
                           type="email"
                           name="EMAIL"
                           id="mce-EMAIL2"
-                          placeholder="Email Address"
+                          placeholder="Adresse e-mail"
                           className="required email form-control"
                         />
 
-                        <label htmlFor="mce-EMAIL2">Email Address</label>
+                        <label htmlFor="mce-EMAIL2">Adresse e-mail</label>
                         <input
-                          value="Join"
+                          value="Envoyer"
                           type="submit"
                           name="subscribe"
                           id="mc-embedded-subscribe2"

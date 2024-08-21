@@ -14,9 +14,9 @@ export default function Facts16() {
         <div className="container py-17">
           <div className="row text-center">
             <div className="col-xl-11 col-xxl-10 mx-auto">
-              <h2 className="fs-16 text-uppercase text-muted mb-3">Company Facts</h2>
+              <h2 className="fs-16 text-uppercase text-muted mb-3">Informations sur la société</h2>
               <h3 className="display-4 mb-10 px-lg-20 px-xl-20">
-                Save your time and money by choosing our professional team.
+              Économisez votre temps et votre argent en choisissant notre équipe professionnelle.
               </h3>
               <div className="row gy-6 text-center">
                 {factList9.map(({ id, value, title, description, color }) => (

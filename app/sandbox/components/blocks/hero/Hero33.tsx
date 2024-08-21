@@ -31,11 +31,11 @@ export default function Hero33() {
               </h1>
 
               <p className="lead fs-24 px-md-10 px-lg-0 mx-lg-n10 mx-xl-0 mb-8">
-                I’m very passionate about the work that I do, and if you are curious you can find my works on{" "}
+              Je suis très passionné par le travail que je fais, et si vous êtes curieux vous pouvez trouver mes œuvres sur{" "}
                 <a href="#" className="hover" style={{ color: "var(--bs-dribbble)" }}>
                   Dribbble
                 </a>
-                , my portfolio on{" "}
+                , mon portfolio sur{" "}
                 <a href="#" className="hover" style={{ color: "var(--bs-behance)" }}>
                   Behance
                 </a>
@@ -43,7 +43,7 @@ export default function Hero33() {
               </p>
 
               <a href="#" className="btn btn-lg btn-primary btn-icon btn-icon-end">
-                See My Works <i className="uil uil-arrow-up-right" />
+              voir mes oeuvres <i className="uil uil-arrow-up-right" />
               </a>
             </div>
           </div>

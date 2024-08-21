@@ -145,7 +145,7 @@ const List = ({ color, title }: ListProps) => {
         <p>Grâce à vos retours, nous affinons constamment nos solutions pour garantir qu’elles sont alignées avec vos objectifs et apportent les résultats escomptés.</p>
         </li>
       </ul>
-      <NextLink title="Learn More" href="#" className={`btn btn-${color} mt-2`} />
+      <NextLink title="En savoir plus" href="#" className={`btn btn-${color} mt-2`} />
     </div>
   );
 };
@@ -175,7 +175,7 @@ const List2 = ({ color, title }: ListProps) => {
         </li>
       </ul>
 
-      <NextLink title="Learn More" href="#" className={`btn btn-${color} mt-2`} />
+      <NextLink title="En savoir plus" href="#" className={`btn btn-${color} mt-2`} />
     </div>
   );
 };
@@ -202,7 +202,7 @@ const List3 = ({ color, title }: ListProps) => {
         </li>
       </ul>
 
-      <NextLink title="Learn More" href="#" className={`btn btn-${color} mt-2`} />
+      <NextLink title="En savoir plus" href="#" className={`btn btn-${color} mt-2`} />
     </div>
   );
 };

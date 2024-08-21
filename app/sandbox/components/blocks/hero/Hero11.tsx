@@ -19,20 +19,20 @@ export default function Hero11() {
         <div className="row gx-0 gy-12 align-items-center">
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-6 content text-center text-lg-start">
             <h1 className="display-2 mb-5 text-white" style={slideInDownAnimate("600ms")}>
-              Crafting project specific solutions with expertise.
+              Élaborer des solutions spécifiques au projet avec expertise.
             </h1>
 
             <p className="lead fs-lg lh-sm mb-7 pe-xl-10" style={slideInDownAnimate("900ms")}>
-              We’re a creative company that focuses on establishing long-term relationships with customers.
+              Nous sommes une entreprise créative qui se concentre sur l’établissement de relations à long terme avec les clients.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>
-                <NextLink title="Explore Now" href="#" className="btn btn-lg btn-white rounded-pill me-2" />
+                <NextLink title="Découvrir maintenant" href="#" className="btn btn-lg btn-white rounded-pill me-2" />
               </span>
 
               <span style={slideInDownAnimate("1500ms")}>
-                <NextLink title="Contact Us" href="#" className="btn btn-lg btn-outline-white rounded-pill" />
+                <NextLink title="Contactez-nous" href="#" className="btn btn-lg btn-outline-white rounded-pill" />
               </span>
             </div>
           </div>

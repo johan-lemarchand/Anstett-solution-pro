@@ -106,9 +106,9 @@ export default function Navbar2({
                 {/* ============= show contact info in the small device sidebar ============= */}
                 <div className="offcanvas-footer d-lg-none">
                   <div>
-                    <NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
+                    <NextLink title="anstett.solutions.pro@gmail.com" className="link-inverse" href="mailto:first.last@email.com" />
                     <br />
-                    <NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
+                    <NextLink href="tel:0642185595" title="06 42 18 55 95" />
                     <br />
                     <SocialLinks />
                   </div>

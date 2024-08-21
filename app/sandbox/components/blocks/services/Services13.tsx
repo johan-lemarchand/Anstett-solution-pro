@@ -15,7 +15,7 @@ export default function Services13() {
         <div className="row">
           <div className="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
             <h3 className="display-4 text-white mb-10">
-              The service we offer is specifically designed to meet your needs.
+            Le service que nous offrons est spécialement conçu pour répondre à vos besoins.
             </h3>
           </div>
         </div>

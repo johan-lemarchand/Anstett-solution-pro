@@ -81,7 +81,7 @@ export const processList = [
   {
     id: 2,
     Icon: Puzzle,
-    title: 'Prepare',
+    title: 'Préparation',
     description: 'Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.'
   },
   {
@@ -93,7 +93,7 @@ export const processList = [
   {
     id: 4,
     Icon: DeliveryBox,
-    title: 'Finaliser',
+    title: 'Finalisation',
     description: 'Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.'
   }
 ];

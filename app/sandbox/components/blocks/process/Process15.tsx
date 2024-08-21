@@ -15,8 +15,8 @@ export default function Process15() {
       </div>
 
       <div className="col-lg-5">
-        <h3 className="fs-16 text-uppercase text-muted mb-3">How It Works?</h3>
-        <h3 className="display-4 mb-6">Find out everything about creating a business model.</h3>
+        <h3 className="fs-16 text-uppercase text-muted mb-3">Comment ça marche?</h3>
+        <h3 className="display-4 mb-6">Découvrez tout sur la création d’un business model.</h3>
 
         <div className="row gy-4">
           {processList11.map(({ id, title, description }) => (

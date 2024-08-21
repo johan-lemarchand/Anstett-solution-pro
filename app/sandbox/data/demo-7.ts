@@ -1,8 +1,8 @@
 const countList = [
-  { id: 1, amount: 7518, color: 'btn-soft-purple', title: 'Projects Done', icon: 'uil-presentation-check' },
-  { id: 2, amount: 3472, color: 'btn-soft-red', title: 'Happy Customers', icon: 'uil-users-alt' },
-  { id: 3, amount: 4537, color: 'btn-soft-yellow', title: 'Expert Employees', icon: 'uil-user-check' },
-  { id: 4, amount: 2184, color: 'btn-soft-aqua', title: 'Awards Won', icon: 'uil-trophy' }
+  { id: 1, amount: 7518, color: 'btn-soft-purple', title: 'Projets réalisés', icon: 'uil-presentation-check' },
+  { id: 2, amount: 3472, color: 'btn-soft-red', title: 'Clients satisfaits', icon: 'uil-users-alt' },
+  { id: 3, amount: 4537, color: 'btn-soft-yellow', title: 'Collaborateurs experts', icon: 'uil-user-check' },
+  { id: 4, amount: 2184, color: 'btn-soft-aqua', title: 'Prix remportés', icon: 'uil-trophy' }
 ];
 
 const carouselImages = [

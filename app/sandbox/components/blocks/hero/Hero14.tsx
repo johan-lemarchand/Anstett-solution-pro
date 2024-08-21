@@ -13,7 +13,7 @@ export default function Hero14() {
             <p className="lead fs-25 my-3">
               We are an award winning branding design agency that strongly believes in the power of creative ideas.
             </p>
-            <NextLink title="Learn More" href="#" className="more hover" />
+            <NextLink title="En savoir plus" href="#" className="more hover" />
           </div>
         </div>
 

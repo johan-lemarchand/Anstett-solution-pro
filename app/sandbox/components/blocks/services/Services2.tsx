@@ -11,7 +11,7 @@ export default function Services2() {
             <figure>
               <img
                 className="w-auto"
-                alt="our solutions"
+                alt="Nos solutions"
                 src="/img/illustrations/i8.png"
                 srcSet="/img/illustrations/i8@2x.png 2x"
               />

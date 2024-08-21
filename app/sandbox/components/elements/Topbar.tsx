@@ -21,7 +21,7 @@ export default function Topbar({ bgColor, textColor }: TopbarProps) {
             <i className="uil uil-location-pin-alt" />
           </div>
 
-          <address className="mb-0">Moonshine St. 14/05 Light City</address>
+          <address className="mb-0">26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
         </div>
 
         <div className="d-flex flex-row align-items-center me-6 ms-auto">
@@ -29,7 +29,7 @@ export default function Topbar({ bgColor, textColor }: TopbarProps) {
             <i className="uil uil-phone-volume" />
           </div>
 
-          <p className="mb-0">00 (123) 456 78 90</p>
+          <p className="mb-0">06 42 18 55 95</p>
         </div>
 
         <div className="d-flex flex-row align-items-center">

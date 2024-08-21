@@ -31,9 +31,9 @@ export default function Pricing() {
           <div className="container pt-10 pb-20 pt-md-14 pb-md-22 text-center">
             <div className="row">
               <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                <h1 className="display-1 mb-3">Our Pricing</h1>
+                <h1 className="display-1 mb-3">Nos tarifs</h1>
                 <p className="lead mb-0 px-xl-10 px-xxl-13">
-                  We offer great prices, premium products and quality service for your business.
+                Nous offrons des prix avantageux, des produits de qualité supérieure et un service de qualité pour votre entreprise.
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function Pricing() {
                     <div>
                       <h4>{title}</h4>
                       <p className="mb-2">{description}</p>
-                      <NextLink title="Learn More" href={linkUrl} className="more hover" />
+                      <NextLink title="En savoir plus" href={linkUrl} className="more hover" />
                     </div>
                   </div>
                 </div>
@@ -66,9 +66,9 @@ export default function Pricing() {
 
             {/* ========== faq section ========== */}
             <div className="row">
-              <h2 className="display-4 mb-3 text-center">Pricing FAQ</h2>
+              <h2 className="display-4 mb-3 text-center">Questions fréquentes sur la tarification</h2>
               <p className="lead text-center mb-10 px-md-16 px-lg-0">
-                If you don&apos;t see an answer to your question, you can send us an email from our contact form.
+                Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un e-mail depuis notre formulaire de contact.
               </p>
 
               <div className="row mb-14 mb-md-18">
@@ -85,9 +85,9 @@ export default function Pricing() {
             </div>
 
             {/* ========== happy customers section ========== */}
-            <h2 className="display-4 mb-3 text-center">Happy Customers</h2>
+            <h2 className="display-4 mb-3 text-center">Clients satisfaits</h2>
             <p className="lead text-center mb-6 px-md-16 px-lg-0">
-              Customer satisfaction is our major goal. See what our customers are saying about us.
+              La satisfaction client est notre objectif principal. Voir ce que nos clients disent de nous.
             </p>
 
             <div className="position-relative">

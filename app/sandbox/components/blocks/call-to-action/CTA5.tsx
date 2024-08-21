@@ -8,9 +8,9 @@ export default function CTA5() {
           <div className="col-md-9 col-lg-7 col-xl-7 mx-auto text-center">
             <Puzzle />
 
-            <h2 className="display-4 mb-3">Join Our Community</h2>
+            <h2 className="display-4 mb-3">Rejoindre notre communauté</h2>
             <p className="lead fs-lg mb-6 px-xl-10 px-xxl-15">
-              We are trusted by over 5000+ clients. Join them by using our services and grow your business.
+            Plus de 5000 clients nous font confiance. Joignez-vous à eux en utilisant nos services et développez votre entreprise.
             </p>
           </div>
         </div>
@@ -33,16 +33,16 @@ export default function CTA5() {
                         name="EMAIL"
                         id="mce-EMAIL2"
                         autoComplete="off"
-                        placeholder="Email Address"
+                        placeholder="Adresse e-mail"
                         className="required email form-control"
                       />
                       <label htmlFor="mce-EMAIL2" className="text-start">
-                        Email Address
+                        Adresse e-mail
                       </label>
 
                       <input
                         type="submit"
-                        value="Join"
+                        value="Envoyer"
                         name="subscribe"
                         id="mc-embedded-subscribe2"
                         className="btn btn-primary"

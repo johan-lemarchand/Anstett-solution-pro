@@ -12,7 +12,7 @@ export default function Testimonial8() {
 
   return (
     <div>
-      <h2 className="display-4 text-center mb-8">Happy Customers</h2>
+      <h2 className="display-4 text-center mb-8">Clients satisfaits</h2>
 
       <div className="grid">
         <div className="row isotope gy-6">

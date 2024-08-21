@@ -20,7 +20,7 @@ export default function Banner3() {
               <i className="icn-caret-right" />
             </a>
             <h2 className="display-4 px-lg-10 px-xl-13 px-xxl-10 mb-10 text-white">
-              Find out everything you need to know about creating a business process model.
+            Apprenez tout ce dont vous avez besoin sur la création d'un modèle de processus métier.
             </h2>
           </div>
         </div>

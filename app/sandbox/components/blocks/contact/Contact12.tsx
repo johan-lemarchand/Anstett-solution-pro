@@ -9,9 +9,9 @@ export default function Contact12() {
             <div className="col-xl-9 mx-auto">
               <div className="card border-0 bg-white-900">
                 <div className="card-body py-lg-13 px-lg-16">
-                  <h2 className="display-5 mb-3 text-center">Request Photography Pricing</h2>
+                  <h2 className="display-5 mb-3 text-center">Demande de prix pour la photographie</h2>
                   <p className="lead fs-lg text-center mb-10">
-                    For more information please get in touch using the form below:
+                  Pour plus d’informations, veuillez nous contacter en utilisant le formulaire ci-dessous :
                   </p>
                   <form className="contact-form needs-validation" method="post" noValidate>
                     <div className="messages"></div>
@@ -26,9 +26,9 @@ export default function Contact12() {
                             placeholder="Name"
                             className="form-control bg-white-700 border-0"
                           />
-                          <label htmlFor="form_name">Name *</label>
+                          <label htmlFor="form_name">Nom *</label>
                           <div className="valid-feedback">Looks good!</div>
-                          <div className="invalid-feedback">Please enter your name.</div>
+                          <div className="invalid-feedback">Veuillez entrer votre nom.</div>
                         </div>
                       </div>
 
@@ -44,7 +44,7 @@ export default function Contact12() {
                           />
                           <label htmlFor="form_email">Email *</label>
                           <div className="valid-feedback">Looks good!</div>
-                          <div className="invalid-feedback">Please provide a valid email address.</div>
+                          <div className="invalid-feedback">Assurez-vous de fournir un email valide.</div>
                         </div>
                       </div>
 
@@ -60,12 +60,12 @@ export default function Contact12() {
                           />
                           <label htmlFor="form_message">Message *</label>
                           <div className="valid-feedback">Looks good!</div>
-                          <div className="invalid-feedback">Please enter your messsage.</div>
+                          <div className="invalid-feedback">Veuillez saisir votre message.</div>
                         </div>
                       </div>
 
                       <div className="col-12 text-center">
-                        <input type="submit" className="btn btn-primary rounded-pill btn-send" value="Send message" />
+                        <input type="submit" className="btn btn-primary rounded-pill btn-send" value="Envoyer" />
                       </div>
                     </div>
                   </form>

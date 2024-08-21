@@ -8,8 +8,8 @@ export default function Portfolio9() {
       <div className="container py-14 pt-md-18 pb-md-16">
         <div className="row align-items-center mb-10">
           <div className="col-md-8 col-lg-9 col-xl-8 col-xxl-7 pe-xl-20">
-            <h2 className="display-4 mb-3">Latest Projects</h2>
-            <p className="lead fs-20 mb-0">Check out some of my latest projects with creative ideas.</p>
+            <h2 className="display-4 mb-3">Nouveaux projets</h2>
+            <p className="lead fs-20 mb-0">Découvrez quelques-uns de mes derniers projets avec des idées créatives.</p>
           </div>
 
           <div className="col-md-4 col-lg-3 ms-md-auto text-md-end mt-5 mt-md-0">
@@ -28,7 +28,7 @@ export default function Portfolio9() {
                   felis euismod semper. Fusce dapibus tellus cursus.
                 </p>
 
-                <NextLink title="See Project" href="#" className="more hover link-violet" />
+                <NextLink title="Nouveaux projets" href="#" className="more hover link-violet" />
               </div>
 
               <div className="col-lg-7 offset-lg-1 align-self-end">
@@ -50,7 +50,7 @@ export default function Portfolio9() {
                   Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta
                   felis euismod semper. Fusce dapibus tellus cursus.
                 </p>
-                <NextLink title="See Project" href="#" className="more hover link-blue" />
+                <NextLink title="Nouveaux projets" href="#" className="more hover link-blue" />
               </div>
 
               <div className="col-lg-7">
@@ -72,7 +72,7 @@ export default function Portfolio9() {
                   Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque id
                   ligula felis.
                 </p>
-                <NextLink title="See Project" href="#" className="more hover link-leaf mb-8" />
+                <NextLink title="Nouveaux projets" href="#" className="more hover link-leaf mb-8" />
               </div>
 
               <img className="card-img-bottom" src="/img/photos/f3.png" srcSet="/img/photos/f3@2x.png 2x" alt="" />
@@ -88,7 +88,7 @@ export default function Portfolio9() {
                   Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta
                   felis euismod semper.
                 </p>
-                <NextLink title="See Project" href="#" className="more hover link-pink mb-8" />
+                <NextLink title="Nouveaux projets" href="#" className="more hover link-pink mb-8" />
               </div>
 
               <img className="card-img-bottom" src="/img/photos/f4.png" srcSet="/img/photos/f4@2x.png 2x" alt="" />

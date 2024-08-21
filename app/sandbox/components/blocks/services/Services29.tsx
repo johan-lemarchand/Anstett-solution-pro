@@ -6,9 +6,9 @@ export default function Services29() {
       <div className="container py-15 py-md-17">
         <div className="row text-center">
           <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
-            <h2 className="fs-15 text-uppercase text-muted mb-3">What We Do?</h2>
+            <h2 className="fs-15 text-uppercase text-muted mb-3">Que faisons-nous?</h2>
             <h3 className="display-3 ls-sm mb-9 px-xl-11">
-              The service we offer is specifically designed to meet your needs.
+            Le service que nous offrons est spécialement conçu pour répondre à vos besoins.
             </h3>
           </div>
         </div>

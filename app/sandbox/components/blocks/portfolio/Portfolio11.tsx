@@ -9,9 +9,9 @@ export default function Portfolio11() {
       <div className="container py-15 py-md-17">
         <div className="row">
           <div className="col-lg-11 col-xl-10 mx-auto mb-10">
-            <h2 className="fs-16 text-uppercase text-muted text-center mb-3">Our Projects</h2>
+            <h2 className="fs-16 text-uppercase text-muted text-center mb-3">Nos réalisations</h2>
             <h3 className="display-3 text-center px-lg-5 px-xl-10 px-xxl-16 mb-0">
-              Check out some of our awesome projects with creative ideas and great design.
+              Découvrez quelques-uns de nos projets géniaux avec des idées créatives et un design exceptionnel.
             </h3>
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function Portfolio11() {
         </div>
 
         <div className="text-center mt-10">
-          <NextLink title="Start a Project" href="#" className="btn btn-lg btn-primary rounded-pill" />
+          <NextLink title="Démarrer un projet" href="#" className="btn btn-lg btn-primary rounded-pill" />
         </div>
       </div>
     </section>

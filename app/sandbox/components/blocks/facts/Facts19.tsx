@@ -10,10 +10,10 @@ export default function Facts19() {
       </div>
 
       <div className="col-lg-5 ms-lg-auto">
-        <h2 className="display-2 mb-3 text-white">Our Solutions</h2>
+        <h2 className="display-2 mb-3 text-white">Nos solutions</h2>
 
         <p className="lead fs-lg pe-lg-5">
-          We carefully consider our solutions to support each and every stage of your growth.
+        Nous étudions attentivement nos solutions pour soutenir chaque étape de votre croissance.
         </p>
 
         <p className="mb-6">

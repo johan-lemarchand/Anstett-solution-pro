@@ -22,8 +22,8 @@ export default function Process17() {
         <div className="row gx-0">
           <div className="col-lg-6 ms-auto">
             <div className="pt-13 pb-15 pb-md-17 py-lg-16 ps-lg-15 pe-xxl-16">
-              <h2 className="fs-15 text-uppercase text-muted mb-3">How It Works?</h2>
-              <h3 className="display-3 ls-sm mb-7">Here are the 3 working steps on success.</h3>
+              <h2 className="fs-15 text-uppercase text-muted mb-3">Comment ça marche?</h2>
+              <h3 className="display-3 ls-sm mb-7">Voici les 3 étapes de travail pour réussir.</h3>
 
               {data.processList.map(({ id, Icon, title, description }) => (
                 <div className="d-flex flex-row mb-5" key={id}>

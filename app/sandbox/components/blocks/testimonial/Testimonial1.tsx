@@ -30,7 +30,7 @@ export default function Testimonial1() {
             </p>
             <NextLink
               href="#"
-              title="All Testimonials"
+              title="Tous les avis"
               className="btn btn-primary rounded-pill mt-3"
             />
           </div>

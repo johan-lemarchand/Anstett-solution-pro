@@ -79,7 +79,7 @@ export default function AboutTwo() {
 
             <div className="col-lg-6">
               <h3 className="display-5 mb-5">
-                The full service we are offering is specifically designed to meet your business needs and projects.
+              Le service complet que nous offrons est spécialement conçu pour répondre à vos besoins et projets.
               </h3>
 
               <p>
@@ -181,7 +181,7 @@ export default function AboutTwo() {
             </div>
 
             <div className="col-lg-5">
-              <h3 className="display-4 mb-7">Got any questions? Don't hesitate to get in touch.</h3>
+              <h3 className="display-4 mb-7">Vous avez des questions? N’hésitez pas à communiquer avec nous.</h3>
               <div className="d-flex flex-row">
                 <div>
                   <div className="icon text-primary fs-28 me-4 mt-n1">
@@ -189,8 +189,8 @@ export default function AboutTwo() {
                   </div>
                 </div>
                 <div>
-                  <h5 className="mb-1">Address</h5>
-                  <address>Moonshine St. 14/05 Light City, London</address>
+                  <h5 className="mb-1">Adresse</h5>
+                  <address> 26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
                 </div>
               </div>
               <div className="d-flex flex-row">
@@ -200,8 +200,8 @@ export default function AboutTwo() {
                   </div>
                 </div>
                 <div>
-                  <h5 className="mb-1">Phone</h5>
-                  <p>00 (123) 456 78 90</p>
+                  <h5 className="mb-1">Téléphone</h5>
+                  <p>06 42 18 55 95</p>
                 </div>
               </div>
               <div className="d-flex flex-row">

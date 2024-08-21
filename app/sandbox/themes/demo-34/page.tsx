@@ -71,7 +71,7 @@ export default function Demo34() {
                     <CountUp end={21} />
                   </h3>
                 </div>
-                <h2 className="display-3 mb-3 text-center mb-0">Functional, impressive and rich demos to start with</h2>
+                <h2 className="display-3 mb-3 text-center mb-0">Démos fonctionnelles, impressionnantes et riches en contenu pour commencer</h2>
               </div>
             </div>
 
@@ -570,19 +570,19 @@ export default function Demo34() {
               <div className="col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                 <img src="/img/demos/icon.png" srcSet="/img/demos/icon@2x.png 2x" alt="" />
                 <h2 className="display-3 mt-3 mb-3 px-lg-8">
-                  Think unique and be creative. Make a difference with Sandbox.
+                Pensez unique et soyez créatif. Faites la différence avec Anstett Solutions Pro.
                 </h2>
 
                 <p className="lead fs-lg mb-6">
-                  Everything you need to create your next unique and professional website, including impressive and
-                  ready-made blocks and pages.
+                Tout ce dont vous avez besoin pour créer votre prochain site web unique et professionnel, avec des
+                Blocs et pages prêts à l’emploi.
                 </p>
                 <a
                   href="https://1.envato.market/Ea4VxK"
                   target="_blank"
                   className="btn btn-lg btn-primary rounded-pill mb-10"
                   rel="noreferrer">
-                  Buy Sandbox
+                  Acheter Anstett Solutions Pro
                 </a>
               </div>
             </div>

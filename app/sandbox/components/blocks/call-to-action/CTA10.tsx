@@ -4,9 +4,9 @@ export default function CTA10() {
       <div className="container py-14 py-md-16">
         <div className="row mb-8">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Analyze Now</h2>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">Analyser maintenant</h2>
             <h3 className="display-4 mb-0">
-              Wonder how much faster your website can go? Easily check your SEO Score now.
+              Vous vous demandez à quel point votre site peut aller plus vite? Vérifiez facilement votre score SEO maintenant.
             </h3>
           </div>
         </div>
@@ -16,9 +16,9 @@ export default function CTA10() {
             <form action="#">
               <div className="form-floating input-group">
                 <input type="url" className="form-control border-0" placeholder="Enter Website URL" id="analyze" />
-                <label htmlFor="analyze">Enter Website URL</label>
+                <label htmlFor="analyze">Entrez l’URL du site Web</label>
                 <button className="btn btn-primary" type="button">
-                  Analyze
+                  Analyser
                 </button>
               </div>
             </form>

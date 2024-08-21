@@ -22,9 +22,9 @@ export default function Process2() {
       </div>
 
       <div className="col-lg-5 col-xl-4 offset-lg-1">
-        <h2 className="display-4 mb-3">How It Works?</h2>
+        <h2 className="display-4 mb-3">Comment ça marche?</h2>
         <p className="lead fs-lg mb-6">
-          So here are three working steps why our valued customers choose us.
+          Voici trois étapes de travail pour expliquer pourquoi nos clients nous choisissent.
         </p>
 
         {processList3.map((item) => (

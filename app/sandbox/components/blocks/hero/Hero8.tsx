@@ -34,7 +34,7 @@ export default function Hero8() {
                       <h3 className="counter mb-0 text-nowrap">
                         <CountUp end={25000} suffix="+" />
                       </h3>
-                      <p className="fs-14 lh-sm mb-0 text-nowrap">Happy Clients</p>
+                      <p className="fs-14 lh-sm mb-0 text-nowrap">Clients satisfaits</p>
                     </div>
                   </div>
                 </div>
@@ -44,20 +44,20 @@ export default function Hero8() {
 
           <div className="col-lg-6 text-center text-lg-start">
             <h1 className="display-2 mb-5" style={slideInDownAnimate("600ms")}>
-              Crafting project specific solutions with expertise.
+              Élaborer des solutions spécifiques au projet avec expertise.
             </h1>
 
             <p className="lead fs-lg lh-sm mb-7 pe-xl-10" style={slideInDownAnimate("900ms")}>
-              We're a company that focuses on establishing long-term relationships with customers.
+              Nous sommes une entreprise qui se concentre sur l’établissement de relations à long terme avec les clients.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>
-                <NextLink title="Explore Now" href="#" className="btn btn-lg btn-primary rounded-pill me-2" />
+                <NextLink title="Découvrir maintenant" href="#" className="btn btn-lg btn-primary rounded-pill me-2" />
               </span>
 
               <span style={slideInDownAnimate("1500ms")}>
-                <NextLink title="Contact Us" href="#" className="btn btn-lg btn-outline-primary rounded-pill" />
+                <NextLink title="Contactez-nous" href="#" className="btn btn-lg btn-outline-primary rounded-pill" />
               </span>
             </div>
           </div>

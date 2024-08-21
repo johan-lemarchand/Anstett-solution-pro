@@ -10,14 +10,14 @@ export default function Contact13() {
       </div>
 
       <div className="col-lg-5 ms-auto">
-        <h2 className="fs-16 text-uppercase text-primary mb-3">Let’s Talk</h2>
-        <h3 className="display-4 mb-3">Let's make something great together. We are trusted by over 5000+ clients.</h3>
+        <h2 className="fs-16 text-uppercase text-primary mb-3">Parlons-en</h2>
+        <h3 className="display-4 mb-3">Créons quelque chose de grand ensemble. Nous avons la confiance de plus de 5000 clients.</h3>
         <p>
           Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis
           interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
           sit amet risus.
         </p>
-        <NextLink title="Join Us" href="#" className="btn btn-primary rounded mt-2" />
+        <NextLink title="Rejoignez-nous" href="#" className="btn btn-primary rounded mt-2" />
       </div>
     </div>
   );

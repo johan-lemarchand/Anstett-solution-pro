@@ -17,7 +17,7 @@ const navigations = [
     title: "Usage",
     id: "collapse-usage",
     children: [
-      { title: "Get Started", url: "/docs" },
+      { title: "Commencer", url: "/docs" },
       // { title: 'Forms', url: '#' },
       { title: "FAQ", url: "/docs/faq" },
       { title: "Changelog", url: "/docs/changelog" },

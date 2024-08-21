@@ -40,17 +40,16 @@ export default function Testimonial24() {
       </div>
 
       <div className="col-lg-5">
-        <h2 className="display-2 mb-2 mt-lg-n6">Our Community</h2>
+        <h2 className="display-2 mb-2 mt-lg-n6">Notre communauté</h2>
         <p className="lead fs-lg mb-4">
-          Customer satisfaction is our major goal. See what our clients are saying about our services.
-        </p>
+        La satisfaction du client est notre objectif principal. Voyez ce que nos clients disent de nos services.</p>
         <p>
           Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
           et. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Vestibulum id ligula porta
           felis euismod.
         </p>
 
-        <NextLink href="#" title="All Testimonials" className="btn btn-primary rounded-xl mt-3" />
+        <NextLink href="#" title="Tous les avis" className="btn btn-primary rounded-xl mt-3" />
       </div>
     </div>
   );

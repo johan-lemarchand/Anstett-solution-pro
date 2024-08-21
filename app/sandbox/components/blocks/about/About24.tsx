@@ -93,7 +93,7 @@ export default function About24() {
           </div>
 
           <div className="col-lg-4">
-            <h3>My Process</h3>
+            <h3>Ma méthode</h3>
 
             {processList.map((item) => (
               <ProcessList2

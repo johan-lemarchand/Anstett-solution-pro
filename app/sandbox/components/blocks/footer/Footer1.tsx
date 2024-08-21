@@ -12,7 +12,7 @@ export default function Footer1() {
           Rejoignez notre communauté en utilisant nos services et développez votre entreprise.
           </h3>
 
-          <NextLink href="#" title="Try It For Free" className="btn btn-primary rounded-pill mb-0 text-nowrap" />
+          <NextLink href="#" title="Essayez gratuitement" className="btn btn-primary rounded-pill mb-0 text-nowrap" />
         </div>
 
         <hr className="mt-11 mb-12" />
@@ -35,8 +35,8 @@ export default function Footer1() {
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Contactez-nous</h4>
               <address className="pe-xl-15 pe-xxl-17">26e rue de kaltenhouse 67240 Oberhoffen-sur-moder</address>
-              <NextLink title="info@email.com" href="mailto:#" />
-              <br /> 00 (123) 456 78 90
+              <NextLink title="anstett.solutions.pro@gmail.com" href="mailto:#" />
+              <br /> 06 42 18 55 95
             </div>
           </div>
 
@@ -73,13 +73,13 @@ export default function Footer1() {
                           type="email"
                           name="EMAIL"
                           id="mce-EMAIL2"
-                          placeholder="Email Address"
+                          placeholder="Adresse e-mail"
                           className="required email form-control"
                         />
 
                         <label htmlFor="mce-EMAIL2">Adresse email</label>
                         <input
-                          value="Join"
+                          value="Envoyer"
                           type="submit"
                           name="subscribe"
                           id="mc-embedded-subscribe2"

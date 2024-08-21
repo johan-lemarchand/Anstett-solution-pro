@@ -11,14 +11,14 @@ export default function Hero32() {
             data-interval="-200"
             data-group="page-title"
             className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-            <h2 className="h6 text-uppercase ls-xl text-white mb-5">Hello! We are Sandbox</h2>
+            <h2 className="h6 text-uppercase ls-xl text-white mb-5">Bonjour! Nous sommes Anstett Solutions Pro</h2>
 
             <h1 className="display-1 fs-68 lh-xxs mb-8 text-white">
-              We have considered our solutions to{" "}
+            Nous avons examiné nos solutions à{" "}
               <span className="underline-2 underline-gradient-6">
-                <em>assist</em>
+                <em>chaque</em>
               </span>{" "}
-              every stage of your growth.
+              étape de votre croissance.
             </h1>
 
             <div
@@ -27,7 +27,7 @@ export default function Hero32() {
               data-group="page-title-buttons"
               className="d-flex justify-content-center mb-4">
               <span>
-                <NextLink title="Explore Now" href="#" className="btn btn-lg btn-white" />
+                <NextLink title="Découvrir maintenant" href="#" className="btn btn-lg btn-white" />
               </span>
             </div>
           </div>

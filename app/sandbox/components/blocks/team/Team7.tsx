@@ -12,8 +12,8 @@ export default function Team7() {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="fs-15 text-uppercase text-muted mb-3">Our Team</h2>
-        <h3 className="display-4 mb-5">Save your time by choosing our professional team.</h3>
+        <h2 className="fs-15 text-uppercase text-muted mb-3">Notre équipe</h2>
+        <h3 className="display-4 mb-5">Gagnez du temps en choisissant notre équipe professionnelle.</h3>
         <p className="mb-6">
           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
           justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel

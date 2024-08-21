@@ -19,7 +19,7 @@ export default function Ads1() {
         <div className="row gx-md-8 gx-lg-12 gy-6 gy-lg-0 mb-13">
           <div className="col-lg-6">
             <h1 className="display-2 mb-0 text-white">
-              We are an award winning digital web design agency that strongly believes in the power of creative ideas.
+            Nous sommes une agence de conception web numérique primée qui croit fermement au pouvoir des idées créatives.
             </h1>
           </div>
 
@@ -30,7 +30,7 @@ export default function Ads1() {
               eu leo. Maecenas faucibus mollis elit interdum. Duis mollis, est non commodo luctus.
             </p>
 
-            <NextLink title="Learn More" href="#" className="more link-white hover" />
+            <NextLink title="En savoir plus" href="#" className="more link-white hover" />
           </div>
         </div>
       </div>

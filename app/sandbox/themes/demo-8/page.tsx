@@ -57,7 +57,7 @@ export default function Demo8() {
             <Facts2
               subtitle={
                 <Fragment>
-                  Just sit back and relax while we <span className="underline">take care</span> of your business needs.
+                  Asseyez-vous et détendez-vous pendant que nous <span className="underline">prenons soin</span> de vos besoins commerciaux.
                 </Fragment>
               }
             />

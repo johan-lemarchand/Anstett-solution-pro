@@ -8,9 +8,9 @@ export default function Services24() {
       <div className="container pt-12 pt-lg-8 pb-14 pb-md-17">
         <div className="row text-center">
           <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">What We Do?</h2>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">Que faisons-nous?</h2>
             <h3 className="display-3 mb-10 px-xxl-10">
-              The service we offer is specifically designed to meet your needs.
+              Le service que nous offrons est spécialement conçu pour répondre à vos besoins..
             </h3>
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function Services24() {
                 </figure>
                 <h3>{title}</h3>
                 <p className="mb-2">{description}</p>
-                <NextLink title="Learn More" href="#" className="more hover" />
+                <NextLink title="En savoir plus" href="#" className="more hover" />
               </div>
             </div>
           ))}

@@ -9,13 +9,13 @@ export default function Testimonial25() {
       <div className="card-body py-14 px-lg-0">
         <div className="row text-center">
           <div className="col-lg-9 col-xl-8 mx-auto">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">Happy Customers</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">Clients satisfaits</h2>
             <h3 className="display-2 ls-sm mb-10 px-xxl-10">
-              Don't take our word for it. See what our{" "}
+            Voyez ce que nos{" "}
               <span className="underline-3 style-1 primary">
-                <em>customers</em>
+                <em>clients</em>
               </span>{" "}
-              are saying about us.
+              Disent de nous.
             </h3>
           </div>
         </div>

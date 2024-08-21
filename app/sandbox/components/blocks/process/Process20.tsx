@@ -27,9 +27,9 @@ export default function Process20() {
       </div>
 
       <div className="col-lg-5 text-inverse">
-        <h2 className="display-2 mb-3 text-white">Our Working Process</h2>
+        <h2 className="display-2 mb-3 text-white">Notre processus de travail</h2>
         <p className="lead fs-lg pe-lg-5">
-          Find out everything you need to know and more about how we create our business process models.
+          Découvrez tout ce que vous devez savoir et plus sur la façon dont nous créons nos modèles de processus d’affaires.
         </p>
 
         <p>
@@ -42,7 +42,7 @@ export default function Process20() {
           lacinia bibendum nulla.
         </p>
 
-        <NextLink title="Learn More" href="#" className="btn btn-white rounded-xl mb-0" />
+        <NextLink title="En savoir plus" href="#" className="btn btn-white rounded-xl mb-0" />
       </div>
     </div>
   );

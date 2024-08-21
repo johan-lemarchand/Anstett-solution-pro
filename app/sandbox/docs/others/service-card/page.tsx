@@ -45,7 +45,7 @@ export default function ServiceCards() {
                       <Icon />
                       <h4>{title}</h4>
                       <p className="mb-2">{description}</p>
-                      <NextLink title="Learn More" href={link} className={`more hover link-${linkType}`} />
+                      <NextLink title="En savoir plus" href={link} className={`more hover link-${linkType}`} />
                     </div>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ export default function ServiceCards() {
                   <IconBox icon={icon} className="icon btn btn-circle btn-lg btn-primary pe-none mb-5" />
                   <h4>{title}</h4>
                   <p className="mb-3">{description}</p>
-                  <NextLink title="Learn More" href={linkUrl} className="more hover" />
+                  <NextLink title="En savoir plus" href={linkUrl} className="more hover" />
                 </div>
               ))}
             </div>
@@ -211,7 +211,7 @@ export default function ServiceCards() {
                       <IconBox icon={item.icon} className="icon btn btn-circle btn-lg btn-primary pe-none mb-5" />
                       <h4>{item.title}</h4>
                       <p className="mb-3">{item.description}</p>
-                      <NextLink title="Learn More" href={item.linkUrl} className="more hover" />
+                      <NextLink title="En savoir plus" href={item.linkUrl} className="more hover" />
                     </div>
                   </div>
                 </div>

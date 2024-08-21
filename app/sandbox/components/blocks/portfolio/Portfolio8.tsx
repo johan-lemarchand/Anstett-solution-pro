@@ -9,8 +9,8 @@ export default function Portfolio8() {
       <div className="container py-14 py-md-17">
         <div className="row mb-8 text-center">
           <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Our Projects</h2>
-            <h3 className="display-4">Check out some of our awesome projects with creative ideas and great design.</h3>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">Nos projets</h2>
+            <h3 className="display-4">Découvrez quelques-uns de nos projets géniaux avec des idées créatives et un design exceptionnel.</h3>
           </div>
         </div>
 

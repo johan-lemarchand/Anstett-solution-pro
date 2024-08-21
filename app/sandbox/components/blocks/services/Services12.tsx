@@ -11,9 +11,9 @@ export default function Services12() {
     <Fragment>
       <div className="row">
         <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
-          <h2 className="fs-15 text-uppercase text-muted mb-3">Why Choose Sandbox?</h2>
+          <h2 className="fs-15 text-uppercase text-muted mb-3">Pourquoi choisir Anstett Solutions Pro?</h2>
           <h3 className="display-4 mb-10 px-xl-10 px-xxl-15">
-            Here are a few reasons why our customers choose Sandbox.
+          Voici quelques raisons pour lesquelles nos clients nous choisissent.
           </h3>
         </div>
       </div>
@@ -32,7 +32,7 @@ export default function Services12() {
               <Rocket className="icon-svg-md text-yellow me-4" />
             </div>
             <div>
-              <h4 className="mb-1">Easy Usage</h4>
+              <h4 className="mb-1">Simplicité d'utilisation</h4>
               <p>Duis mollis commodo luctus cursus commodo tortor mauris.</p>
             </div>
           </a>
@@ -50,7 +50,7 @@ export default function Services12() {
               <Savings className="icon-svg-md text-green me-4" />
             </div>
             <div>
-              <h4 className="mb-1">Fast Transactions</h4>
+              <h4 className="mb-1">Transactions rapides</h4>
               <p>Vivamus sagittis lacus augue fusce dapibus tellus nibh.</p>
             </div>
           </a>
@@ -68,7 +68,7 @@ export default function Services12() {
               <Shield className="icon-svg-md text-red me-4" />
             </div>
             <div>
-              <h4 className="mb-1">Secure Payments</h4>
+              <h4 className="mb-1">Paiements sécurisés</h4>
               <p>Vestibulum ligula porta felis maecenas faucibus mollis.</p>
             </div>
           </a>
@@ -107,7 +107,7 @@ export default function Services12() {
               </div>
             </div>
 
-            <List title="Easy Usage" color="yellow" />
+            <List title="Simplicité d'utilisation" color="yellow" />
           </div>
         </div>
 
@@ -147,7 +147,7 @@ export default function Services12() {
               </div>
             </div>
 
-            <List title="Fast Transactions" color="green" />
+            <List title="Transactions rapides" color="green" />
           </div>
         </div>
 
@@ -187,7 +187,7 @@ export default function Services12() {
               </div>
             </div>
 
-            <List title="Secure Payments" color="red" />
+            <List title="Paiements sécurisés" color="red" />
           </div>
         </div>
       </div>
@@ -218,7 +218,7 @@ const List = ({ color, title }: ListProps) => {
         </li>
       </ul>
 
-      <NextLink title="Learn More" href="#" className={`btn btn-${color} mt-2`} />
+      <NextLink title="En savoir plus" href="#" className={`btn btn-${color} mt-2`} />
     </div>
   );
 };

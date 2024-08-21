@@ -8,9 +8,9 @@ export default function Facts14() {
     <Fragment>
       <div className="row text-center mb-7">
         <div className="col-lg-11 col-xl-10 col-xxl-9 mx-auto">
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Join Our Community</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">Rejoindre notre communauté</h2>
           <h3 className="display-3 px-lg-12 px-xxl-14">
-            We are trusted by over 5000+ clients. Join them now and grow your business.
+          Plus de 5000 clients nous font confiance. Rejoignez-les dès maintenant et développez votre entreprise.
           </h3>
         </div>
       </div>

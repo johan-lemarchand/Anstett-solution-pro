@@ -17,7 +17,7 @@ export default function Contact7() {
           <div className="col-lg-6">
             <TeleMarketer className="icon-svg-md mb-4" />
 
-            <h2 className="display-4 mb-8">Convaincu? Faisons quelque chose de grand ensemble.</h2>
+            <h2 className="display-4 mb-8">Convaincu? Créons quelque chose de grand ensemble.</h2>
             <div className="d-flex flex-row">
               <div>
                 <IconBox className="icon text-primary fs-28 me-6 mt-n1" icon="uil-location-pin-alt" />

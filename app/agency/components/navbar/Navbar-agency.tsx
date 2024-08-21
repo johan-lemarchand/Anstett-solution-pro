@@ -94,9 +94,9 @@ export default function NavAgency({
               <div className="offcanvas-body d-lg-none order-4 mt-auto">
                 <div className="offcanvas-footer">
                   <div>
-                    <NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
+                    <NextLink title="anstett.solutions.pro@gmail.com" className="link-inverse" href="mailto:first.last@email.com" />
                     <br />
-                    <NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
+                    <NextLink href="tel:06 42 18 55 95" title="06 42 18 55 95" />
                     <br />
                     <SocialLinks />
                   </div>

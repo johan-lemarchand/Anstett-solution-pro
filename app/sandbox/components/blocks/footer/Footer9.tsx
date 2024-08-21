@@ -14,8 +14,8 @@ export default function Footer9() {
               <img className="mb-4" src="/img/logo-light.png" srcSet="/img/logo-light@2x.png 2x" alt="" />
 
               <p className="mb-4">
-                © 2022 Sandbox. <br className="d-none d-lg-block" />
-                All rights reserved.
+                © 2024 Anstett Solutions Pro. <br className="d-none d-lg-block" />
+                Tous droits réservés.
               </p>
 
               <SocialLinks className="nav social social-white" />
@@ -24,7 +24,7 @@ export default function Footer9() {
 
           <div className="col-md-4 col-lg-2 offset-lg-2">
             <div className="widget">
-              <h4 className="widget-title mb-3 text-white">Need Help?</h4>
+              <h4 className="widget-title mb-3 text-white">Besoin d'aide?</h4>
               <ul className="list-unstyled  mb-0">
                 {helps.map(({ title, url }) => (
                   <li key={title}>
@@ -37,7 +37,7 @@ export default function Footer9() {
 
           <div className="col-md-4 col-lg-2">
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Learn More</h4>
+              <h4 className="widget-title text-white mb-3">En savoir plus</h4>
               <ul className="list-unstyled  mb-0">
                 {footerNav.map(({ title, url }) => (
                   <li key={title}>
@@ -50,10 +50,10 @@ export default function Footer9() {
 
           <div className="col-md-4 col-lg-2">
             <div className="widget">
-              <h4 className="widget-title mb-3 text-white">Get in Touch</h4>
-              <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
-              <NextLink title="info@email.com" href="mailto:#" />
-              <br /> 00 (123) 456 78 90
+              <h4 className="widget-title mb-3 text-white">Prendre contact</h4>
+              <address>26 E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
+              <NextLink title="anstett.solutions.pro@gmail.com" href="mailto:#" />
+              <br /> 06 42 18 55 95
             </div>
           </div>
         </div>

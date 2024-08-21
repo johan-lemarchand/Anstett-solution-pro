@@ -16,13 +16,13 @@ export default function Hero3() {
         <div className="row gx-0 gy-10 align-items-center">
           <div className="col-lg-6">
             <h1 className="display-1 text-white mb-4" style={slideInDownAnimate("600ms")}>
-              Sandbox focuses on <br />
+              Anstett Solutions Pro se concentre sur <br />
               <span className="text-primary text-nowrap">
                 <Typewriter
                   options={{
                     loop: true,
                     autoStart: true,
-                    strings: ["customer satisfaction", "business needs", "creative ideas"]
+                    strings: ["la satisfaction client", "vos besoins professionnels", "des idées novatrices"]
                   }}
                 />
               </span>
@@ -31,11 +31,11 @@ export default function Hero3() {
             <p
               className="lead fs-24 lh-sm text-white mb-7 pe-md-18 pe-lg-0 pe-xxl-15"
               style={slideInDownAnimate("900ms")}>
-              We carefully consider our solutions to support each and every stage of your growth.
+              Nous étudions attentivement nos solutions pour soutenir chaque étape de votre croissance.
             </p>
 
             <div style={slideInDownAnimate("1200ms")}>
-              <a className="btn btn-lg btn-primary rounded">Get Started</a>
+              <a className="btn btn-lg btn-primary rounded">Commencer</a>
             </div>
           </div>
 

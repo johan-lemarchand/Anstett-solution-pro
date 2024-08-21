@@ -37,7 +37,7 @@ export default function Demo10() {
             <Services6
               rowClassNames="mb-14 mb-md-17"
               colOne={<Tiles8 hiddenShape />}
-              title="Ayez un contrôle parfait."
+              title="Opter pour un contrôle parfait."
               description="Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor
               fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
               tellus ac cursus commodo."

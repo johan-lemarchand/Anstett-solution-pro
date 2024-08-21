@@ -33,7 +33,7 @@ export default function Services17() {
 
             <ListColumn list={aboutList1} bulletColor="leaf" />
 
-            <NextLink title="More Details" href="#" className="btn btn-soft-leaf rounded-pill mt-6 mb-0" />
+            <NextLink title="Plus de détails" href="#" className="btn btn-soft-leaf rounded-pill mt-6 mb-0" />
           </div>
         </div>
 
@@ -59,7 +59,7 @@ export default function Services17() {
 
             <ListColumn list={aboutList1} bulletColor="leaf" />
 
-            <NextLink title="More Details" href="#" className="btn btn-soft-leaf rounded-pill mt-6 mb-0" />
+            <NextLink title="Plus de détails" href="#" className="btn btn-soft-leaf rounded-pill mt-6 mb-0" />
           </div>
         </div>
       </div>

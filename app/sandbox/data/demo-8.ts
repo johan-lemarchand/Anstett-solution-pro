@@ -65,13 +65,13 @@ const pricingList = [
     monthlyPrice: 19,
     yearlyPrice: 199,
     planName: 'Premium',
-    features: ['5 Projets', '100K API Access', '200MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
+    features: ['5 Projets', '100K API Access', '200MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   },
   {
     monthlyPrice: 49,
     yearlyPrice: 499,
     planName: 'Entreprises',
-    features: ['20 Projets', '300K API Access', '500MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
+    features: ['20 Projets', '300K API Access', '500MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   }
 ];
 

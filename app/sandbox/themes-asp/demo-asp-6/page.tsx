@@ -24,7 +24,7 @@ export default function Demo6() {
         <Navbar
           navOtherClass="navbar-other ms-lg-4"
           navClassName="navbar navbar-expand-lg classic transparent navbar-light"
-          button={<NextLink title="Free Trial" href="#" className="btn btn-sm btn-primary rounded" />}
+          button={<NextLink title="Essai gratuit" href="#" className="btn btn-sm btn-primary rounded" />}
         />
       </header>
 

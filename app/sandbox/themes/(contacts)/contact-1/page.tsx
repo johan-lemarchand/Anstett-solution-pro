@@ -33,7 +33,7 @@ export default function Contact() {
           <div className="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
             <div className="row">
               <div className="col-lg-8 mx-auto">
-                <h1 className="display-1 mb-3 text-white">Get in Touch</h1>
+                <h1 className="display-1 mb-3 text-white">Prendre contact</h1>
                 <Breadcrumb className="text-white" data={breadcrumb} />
               </div>
             </div>
@@ -66,10 +66,10 @@ export default function Contact() {
                             </div>
                           </div>
                           <div className="align-self-start justify-content-start">
-                            <h5 className="mb-1">Address</h5>
+                            <h5 className="mb-1">Adresse</h5>
                             <address>
-                              Moonshine St. 14/05 Light City, <br className="d-none d-md-block" />
-                              London, United Kingdom
+                            26E rue de Kaltenhouse  <br className="d-none d-md-block" />
+                            67240 Oberhoffen-Sur-Moder
                             </address>
                           </div>
                         </div>
@@ -81,10 +81,9 @@ export default function Contact() {
                             </div>
                           </div>
                           <div>
-                            <h5 className="mb-1">Phone</h5>
+                            <h5 className="mb-1">Téléphone</h5>
                             <p>
-                              00 (123) 456 78 90 <br />
-                              00 (987) 654 32 10
+                              06 42 18 55 95 <br />
                             </p>
                           </div>
                         </div>

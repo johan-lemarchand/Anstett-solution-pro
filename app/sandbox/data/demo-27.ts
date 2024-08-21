@@ -111,22 +111,22 @@ const pricingList = [
   {
     price: 9,
     plan: 'Basic',
-    features: ['2 Projets', '100K Accès API ', '100MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
+    features: ['2 Projets', '100K Accès API ', '100MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   },
   {
     price: 19,
     plan: 'Premium',
-    features: ['5 Projets', '200K Accès API', '300MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
+    features: ['5 Projets', '200K Accès API', '300MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   },
   {
     price: 29,
     plan: 'Entreprises',
-    features: ['20 Projets', '300K Accès API', '500MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
+    features: ['20 Projets', '300K Accès API', '500MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   },
   {
     price: 49,
     plan: 'Collectif',
-    features: ['90 Projets', '900K Accès API', '900MB Stockage', 'Rapports hebdomadaires', 'Support 7/24']
+    features: ['90 Projets', '900K Accès API', '900MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   }
 ];
 

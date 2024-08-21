@@ -26,7 +26,7 @@ export default function ContactThree() {
           <div className="container pt-18 pt-md-20 pb-21 pb-md-21 text-center">
             <div className="row">
               <div className="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
-                <h1 className="display-1 text-white mb-3">Get in Touch</h1>
+                <h1 className="display-1 text-white mb-3">Prendre contact</h1>
                 <p className="lead px-xl-10 px-xxl-10">
                   Have any questions? Reach out to us from our contact form and we will get back to you shortly.
                 </p>
@@ -63,8 +63,8 @@ export default function ContactThree() {
                         </div>
                       </div>
                       <div>
-                        <h5 className="mb-1">Address</h5>
-                        <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
+                        <h5 className="mb-1">Adresse</h5>
+                        <address>26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
                       </div>
                     </div>
 
@@ -75,10 +75,10 @@ export default function ContactThree() {
                         </div>
                       </div>
                       <div>
-                        <h5 className="mb-1">Phone</h5>
+                        <h5 className="mb-1">Téléphone</h5>
                         <p>
-                          00 (123) 456 78 90 <br />
-                          00 (987) 654 32 10
+                          06 42 18 55 95 <br />
+                          
                         </p>
                       </div>
                     </div>

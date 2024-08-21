@@ -59,7 +59,7 @@ export default function PricingCard3(props: PricingCard3Props) {
           </ListItem>
         </ul>
 
-        <NextLink title="Choose Plan" href="#" className="btn btn-primary rounded-xl" />
+        <NextLink title="Choisir la formule" href="#" className="btn btn-primary rounded-xl" />
       </div>
     </div>
   );

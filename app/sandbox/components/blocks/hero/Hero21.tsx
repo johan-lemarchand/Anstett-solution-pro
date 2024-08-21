@@ -25,22 +25,22 @@ export default function Hero21() {
 
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start">
             <h1 className="display-1 fs-54 mb-5 mx-md-n5 mx-lg-0 mt-7">
-              A digital agency <br className="d-md-none" />
-              specializing on <br className="d-md-none" />
-              <span className="rotator-fade text-primary">mobile design,web design,3D animation</span>
+              Une agence digitale <br className="d-md-none" />
+              se spécialisant sur <br className="d-md-none" />
+              <span className="rotator-fade text-primary">le mobile design,web design,3D animation</span>
             </h1>
 
             <p className="lead fs-lg mb-7">
-              We are an award winning design agency that strongly believes in the power of creative ideas.
+            Nous sommes une agence de design primée qui croit fermement au pouvoir des idées créatives.
             </p>
 
             <span>
-              <a className="btn btn-lg btn-primary rounded-pill me-2">Get Started</a>
+              <a className="btn btn-lg btn-primary rounded-pill me-2">Commencer</a>
             </span>
           </div>
         </div>
 
-        <p className="text-center mb-8">Trusted by over 2K+ clients across the world</p>
+        <p className="text-center mb-8">Approuvé par plus de 2k+ clients à travers le monde</p>
         <div className="row row-cols-4 row-cols-md-4 row-cols-lg-7 row-cols-xl-7 gy-10 mb-2 d-flex align-items-center justify-content-center">
           {clientList.map((item) => (
             <div className="col" key={item}>

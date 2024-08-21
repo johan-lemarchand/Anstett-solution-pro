@@ -36,10 +36,9 @@ export default function Footer3({ hiddenNewsletter }: Footer3Props) {
             <div className="card-body p-9 p-xl-11">
               <div className="row align-items-center gy-6">
                 <div className="col-lg-7">
-                  <h3 className="display-5 text-white">Subscribe to our newsletter</h3>
+                  <h3 className="display-5 text-white">Inscrivez-vous à notre newsletter</h3>
                   <p className="lead pe-lg-12 mb-0 text-white">
-                    Subscribe to our newsletter to get our news &amp; deals delivered to you. Dont worry, we hate spam
-                    and we respect your privacy.
+                    Abonnez-vous à notre newsletter  &amp; pour recevoir nos nouvelles et nos offres.
                   </p>
                 </div>
 
@@ -59,11 +58,11 @@ export default function Footer3({ hiddenNewsletter }: Footer3Props) {
                               type="email"
                               name="EMAIL"
                               id="mce-EMAIL2"
-                              placeholder="Email Address"
+                              placeholder="Adresse e-mail"
                               className="required email form-control"
                             />
                             <label htmlFor="mce-EMAIL2" className="position-absolute">
-                              Email Address
+                              Adresse e-mail
                             </label>
                             <input
                               type="submit"
@@ -96,27 +95,27 @@ export default function Footer3({ hiddenNewsletter }: Footer3Props) {
         <div className="row gy-6 gy-lg-0">
           <div className="col-lg-4">
             <div className="widget">
-              <h3 className="h2 mb-3 ">Join the Community</h3>
+              <h3 className="h2 mb-3 ">Rejoindre la communauté</h3>
               <p className="lead mb-5">
-                Lets make something great together. We are trusted by over 5000+ clients. Join them by using our
-                services and grow your business.
+              Nous voulons faire quelque chose de grand ensemble. Plus de 5000 clients font confiance à notre entreprise. Rejoignez-les en utilisant notre
+              services.
               </p>
-              <NextLink title="Join Us" href="#" className="btn  btn-primary rounded-pill" />
+              <NextLink title="Rejoignez-nous" href="#" className="btn  btn-primary rounded-pill" />
             </div>
           </div>
 
-          <div className="col-md-4 col-lg-2 offset-lg-2">{widget(helps, "Need Help?")}</div>
+          <div className="col-md-4 col-lg-2 offset-lg-2">{widget(helps, "Besoin d'aide?")}</div>
 
-          <div className="col-md-4 col-lg-2">{widget(learnMore, "Learn More")}</div>
+          <div className="col-md-4 col-lg-2">{widget(learnMore, "En savoir plus")}</div>
 
           <div className="col-md-4 col-lg-2">
             <div className="widget">
-              <h4 className="widget-title  mb-3">Get in Touch</h4>
-              <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
-              <a href="mailto:first.last@email.com" className="link-body">
-                info@email.com
+              <h4 className="widget-title  mb-3">Prendre contact</h4>
+              <address>26 E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
+              <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                anstett.solutions.pro@gmail.com
               </a>
-              <br /> 00 (123) 456 78 90
+              <br /> 06 42 18 55 95
             </div>
           </div>
         </div>
@@ -124,7 +123,7 @@ export default function Footer3({ hiddenNewsletter }: Footer3Props) {
         <hr className="mt-13 mt-md-15 mb-7" />
 
         <div className="d-md-flex align-items-center justify-content-between">
-          <p className="mb-2 mb-lg-0">© 2022 Sandbox. All rights reserved.</p>
+          <p className="mb-2 mb-lg-0">© 2024 Anstett Solutions Pro. Tous droits réservés.</p>
           <SocialLinks className="nav social  text-md-end" />
         </div>
       </div>

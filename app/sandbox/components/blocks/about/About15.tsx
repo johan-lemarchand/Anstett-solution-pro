@@ -27,7 +27,7 @@ export default function About15() {
 
         <ListColumn list={aboutList1} bulletColor="primary" />
 
-        <NextLink title="More Details" href="#" className="btn btn-soft-primary rounded-pill mt-6 mb-0" />
+        <NextLink title="Plus de détails" href="#" className="btn btn-soft-primary rounded-pill mt-6 mb-0" />
       </div>
     </div>
   );

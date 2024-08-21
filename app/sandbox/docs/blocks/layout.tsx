@@ -88,16 +88,16 @@ export default function BlockLayout({ children }: PropsWithChildren) {
           <div className="row">
             <div className="col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
               <h2 className="display-3 text-white mt-3 mb-3 px-lg-8">
-                Think unique and be creative. Make a difference with Sandbox.
+              Pensez unique et soyez créatif. Faites la différence avec Anstett Solutions Pro.
               </h2>
 
               <p className="lead fs-lg mb-6">
-                Everything you need to create your next unique and professional website, including impressive and
-                ready-made blocks and pages.
+                Tout ce dont vous avez besoin pour créer votre prochain site web unique et professionnel, y compris des
+                Blocs et pages prêts à l’emploi.
               </p>
 
               <a href="#" target="_blank" className="btn btn-lg btn-white rounded-pill mb-10" rel="noreferrer">
-                Buy Sandbox
+              Acheter Anstett Solutions Pro
               </a>
             </div>
           </div>

@@ -38,7 +38,7 @@ export default function About18() {
           style={{ bottom: "10%", left: "-10%" }}>
           <div className="card-body p-6">
             <div className="progressbar semi-circle fuchsia mb-3" data-value="80" />
-            <h4 className="mb-0">Time Saved</h4>
+            <h4 className="mb-0">Temps gagné</h4>
           </div>
         </div>
       </div>

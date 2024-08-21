@@ -177,7 +177,7 @@ const blogsNavigation = [
 // documentation pages links
 const documentationNavigation = {
   usage: [
-    { id: 1, title: "Get Started", url: "/sandbox/docs" },
+    { id: 1, title: "Commencer", url: "/sandbox/docs" },
     // { id: 2, title: 'Forms', url: '#' },
     { id: 3, title: "FAQ", url: "/sandbox/docs/faq" },
     { id: 4, title: "Changelog", url: "/sandbox/docs/changelog" },

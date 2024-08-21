@@ -48,7 +48,7 @@ export default function ContactTwo() {
               </div>
 
               <div className="col-lg-5">
-                <h2 className="display-4 mb-8">Convaincu? Faisons quelque chose de grand ensemble.</h2>
+                <h2 className="display-4 mb-8">Convaincu? Créons quelque chose de grand ensemble.</h2>
                 <div className="d-flex flex-row">
                   <div>
                     <div className="icon text-primary fs-28 me-6 mt-n1">

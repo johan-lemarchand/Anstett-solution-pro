@@ -26,7 +26,7 @@ export default function Contact4() {
           condimentum nibh, ut fermentum massa justo sit amet risus.
         </p>
 
-        <NextLink title="Join Us" href="#" className="btn btn-primary rounded-pill mt-2" />
+        <NextLink title="Rejoignez-nous" href="#" className="btn btn-primary rounded-pill mt-2" />
       </div>
     </div>
   );

@@ -4,17 +4,17 @@ export default function CTA12() {
   return (
     <div className="row">
       <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
-        <h2 className="fs-16 text-uppercase text-white mb-3">Join Our Community</h2>
+        <h2 className="fs-16 text-uppercase text-white mb-3">Rejoindre notre communauté</h2>
 
         <h3 className="display-3 text-white mb-6">
-          We are{" "}
+        Nous sommes{" "}
           <span className="underline-2 underline-gradient-6">
-            <em>trusted</em>
+            <em>digne de confiance</em>
           </span>{" "}
-          by over 5000+ clients. Join them now and grow your business.
+          par plus de 5000 clients. Rejoignez-les maintenant et développez votre entreprise.
         </h3>
 
-        <NextLink title="Join Us" href="#" className="btn btn-white" />
+        <NextLink title="Rejoignez-nous" href="#" className="btn btn-white" />
       </div>
     </div>
   );

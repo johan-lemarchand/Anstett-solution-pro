@@ -16,8 +16,8 @@ export default function About() {
         <div className="container pt-10 pt-md-14 text-center">
           <div className="row">
             <div className="col-xl-6 mx-auto">
-              <h1 className="display-1 mb-4">Hello! This is Sandbox</h1>
-              <p className="lead fs-lg mb-0">A company turning ideas into beautiful things.</p>
+              <h1 className="display-1 mb-4">Bonjour! C’est Anstett Solutions Pro</h1>
+              <p className="lead fs-lg mb-0">Une entreprise qui transforme les idées en belles choses.</p>
             </div>
           </div>
         </div>

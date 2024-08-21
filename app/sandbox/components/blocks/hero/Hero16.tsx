@@ -29,7 +29,7 @@ export default function Hero16() {
                     <h3 className="counter mb-0 text-nowrap">
                       <CountUp end={250} suffix="+" />
                     </h3>
-                    <p className="fs-14 lh-sm mb-0 text-nowrap">Projects Done</p>
+                    <p className="fs-14 lh-sm mb-0 text-nowrap">Projets réalisés</p>
                   </div>
                 </div>
               </div>
@@ -38,21 +38,21 @@ export default function Hero16() {
 
           <div className="col-lg-6 offset-lg-1 col-xxl-5 text-center text-lg-start">
             <h1 className="display-1 mb-5" style={slideInDownAnimate("600ms")}>
-              I'm User Interface Designer &amp; Developer.
+            Je suis concepteur et développeur d’interface utilisateur.
             </h1>
 
             <p className="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0" style={slideInDownAnimate("900ms")}>
-              Hello! I'm Julia, a freelance user interface designer &amp; developer based in London. I’m very passionate
-              about the work that I do.
+            Bonjour! Je m’appelle Julia, je suis conceptrice et développeur d’interfaces utilisateur indépendante à Londres. Je suis très passionnée.
+            sur le travail que je fais.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>
-                <NextLink title="See My Works" href="#" className="btn btn-lg btn-primary rounded-pill me-2" />
+                <NextLink title="Voir mes oeuvres" href="#" className="btn btn-lg btn-primary rounded-pill me-2" />
               </span>
 
               <span style={slideInDownAnimate("1500ms")}>
-                <NextLink title="Contact Me" href="#" className="btn btn-lg btn-outline-primary rounded-pill" />
+                <NextLink title="Contactez moi" href="#" className="btn btn-lg btn-outline-primary rounded-pill" />
               </span>
             </div>
           </div>

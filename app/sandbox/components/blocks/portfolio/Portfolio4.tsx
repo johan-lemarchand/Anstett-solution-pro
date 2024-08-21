@@ -12,8 +12,8 @@ export default function Portfolio4() {
             <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
               <i className="icn-flower text-leaf fs-30 opacity-25"></i>
               <h2 className="display-5 text-center mt-2 mb-10">
-                Some of wonderful love stories <br className="d-none d-md-block" /> I witnessed and had the chance to
-                capture
+              Quelques-unes des histoires d’amour merveilleuses <br className="d-none d-md-block" /> J’ai été témoin et j’ai eu la chance de
+              capturer
               </h2>
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function Portfolio4() {
                     </Link>
 
                     <figcaption>
-                      <h5 className="from-top mb-0">View Gallery</h5>
+                      <h5 className="from-top mb-0">Afficher la Galerie</h5>
                     </figcaption>
                   </figure>
 

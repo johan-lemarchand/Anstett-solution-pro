@@ -28,12 +28,12 @@ export default function CTA13() {
           <div className="row">
             <div className="col-lg-9 col-xxl-8 mx-auto">
               <h1 className="display-1 fs-70 mx-lg-n10 mx-xl-0 mb-5">
-                Got a 👾 project in mind? Let's work together. ✌️
+              Vous avez un 👾 projet en tête? Travaillons ensemble. ✌️
               </h1>
 
               <p className="lead fs-24 px-md-12 px-lg-0 mx-lg-n10 mx-xl-0 mb-8">
-                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me and I
-                will get back to you shortly.
+              Je propose des solutions rapides pour simplifier la vie de mes clients. 
+              Si vous avez des questions, n'hésitez pas à me contacter, et je vous répondrai rapidement.
               </p>
 
               <Link href="#" className="btn btn-lg btn-primary btn-icon btn-icon-end">

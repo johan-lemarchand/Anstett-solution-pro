@@ -46,7 +46,7 @@ export default function ProjectDetailsContent({
               </li>
             </ul>
 
-            <NextLink title="See Project" href="#" className="more hover" />
+            <NextLink title="Nouveaux projets" href="#" className="more hover" />
           </div>
         </div>
       </div>

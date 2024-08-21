@@ -11,7 +11,7 @@ export default function Portfolio2() {
       <div className="container pb-9 pb-md-14">
         <div className="row">
           <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
-            <h3 className="display-4 mb-8">Our Recent Projects</h3>
+            <h3 className="display-4 mb-8">Nos derniers projets</h3>
           </div>
         </div>
 

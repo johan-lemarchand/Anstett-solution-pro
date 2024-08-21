@@ -16,18 +16,18 @@ export default function Hero28() {
           <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto text-center">
             <h2 className="fs-17 text-uppercase text-muted mb-3">Hello! I'm Julia</h2>
             <h3 className="display-1 mb-5 px-xl-12">
-              I’m a corporate <em>brand designer</em> based in New York City.
+            Je suis un <em>designer de marque</em> basé à New York.
             </h3>
             <p className="lead fs-22">
-              I’m very passionate about the work that I do, and if you are curious you can find my works on{" "}
+            Je suis très passionné par le travail que je fais, et si vous êtes curieux vous pouvez trouver mes œuvres sur{" "}
               <Link href="#" className="hover" style={{ color: "var(--bs-dribbble)" }}>
                 Dribbble
               </Link>
-              , my portfolio on{" "}
+              , mon portfolio sur{" "}
               <a href="#" className="hover" style={{ color: "var(--bs-behance)" }}>
                 Behance
               </a>
-              , and my shots on{" "}
+              , et mes photos sur{" "}
               <a href="#" className="hover" style={{ color: "var(--bs-instagram)" }}>
                 Instagram
               </a>

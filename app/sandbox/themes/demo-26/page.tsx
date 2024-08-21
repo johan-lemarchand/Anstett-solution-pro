@@ -17,7 +17,7 @@ export default function Demo26() {
     <Fragment>
       {/* ========== header ========== */}
       <header className="wrapper bg-soft-primary">
-        <Navbar button={<NextLink href="#" title="Free Trial" className="btn btn-sm btn-primary rounded" />} />
+        <Navbar button={<NextLink href="#" title="Essai gratuit" className="btn btn-sm btn-primary rounded" />} />
       </header>
 
       {/* ========== main content ========== */}

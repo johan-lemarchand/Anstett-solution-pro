@@ -10,10 +10,10 @@ export default function Team9() {
       <div className="container pt-15 pt-md-17">
         <div className="row">
           <div className="col-xl-9 col-xxl-8 mx-auto text-center">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Our Team</h2>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">Notre équipe</h2>
 
             <h3 className="display-3 px-lg-18 px-xl-12 px-xxl-15 mb-6">
-              Save your time and money by choosing our professional team.
+              Économisez votre temps et votre argent en choisissant notre équipe professionnelle.
             </h3>
 
             <p className="mb-8 px-lg-10 px-xl-0">
@@ -21,7 +21,7 @@ export default function Team9() {
               consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.
             </p>
 
-            <NextLink title="Read More" href="#" className="btn btn-primary" />
+            <NextLink title="En savoir plus" href="#" className="btn btn-primary" />
           </div>
         </div>
       </div>

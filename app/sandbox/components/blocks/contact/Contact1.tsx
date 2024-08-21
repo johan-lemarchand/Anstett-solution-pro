@@ -18,7 +18,7 @@ export default function Contact1() {
 
       <div className="col-lg-5 col-xl-4 offset-lg-1">
         <h2 className="fs-16 text-uppercase text-line text-primary mb-3">Se mettre en contact</h2>
-        <h2 className="display-4 mb-8">Convaincu? Faisons quelque chose de grand ensemble.</h2>
+        <h2 className="display-4 mb-8">Convaincu? Créons quelque chose de grand ensemble.</h2>
 
         <div className="d-flex flex-row">
           <div>

@@ -50,7 +50,7 @@ export default function NewsletterModal() {
                             type="email"
                             name="EMAIL"
                             className="required email form-control"
-                            placeholder="Email Address"
+                            placeholder="Adresse e-mail"
                             id="mce-EMAIL"
                           />
                           <label htmlFor="mce-EMAIL">Adresse e-mail</label>

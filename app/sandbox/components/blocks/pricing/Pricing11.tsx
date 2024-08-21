@@ -17,23 +17,23 @@ export default function Pricing11() {
   return (
     <div className="row gy-6">
       <div className="col-lg-4">
-        <h2 className="display-2 mt-lg-18 mb-3">Our Pricing</h2>
-        <p className="lead fs-lg mb-3">We offer great prices, premium and quality products for your business.</p>
+        <h2 className="display-2 mt-lg-18 mb-3">Nos tarifs</h2>
+        <p className="lead fs-lg mb-3">Nous offrons des prix très intéressants.</p>
         <p>
-          Enjoy a <NextLink title="free 30-day trial" href="#" className="hover" />
-          and experience the full service. No credit card required!
+          Profitez de <NextLink title="30 jours d'essai gratuit" href="#" className="hover" />
+          et profitez du service complet! pas de carte de crédit requise !
         </p>
-        <NextLink title="See All Prices" href="#" className="btn btn-primary rounded-xl mt-2" />
+        <NextLink title="Voir tous les tarifs" href="#" className="btn btn-primary rounded-xl mt-2" />
       </div>
 
       <div className="col-lg-7 offset-lg-1 pricing-wrapper">
         <div className="pricing-switcher-wrapper switcher justify-content-start justify-content-lg-end">
-          <p className="mb-0 pe-3">Monthly</p>
+          <p className="mb-0 pe-3">Mensuel</p>
 
           <Switch value={activeYearly} onChange={setActiveYearly} />
 
           <p className="mb-0 ps-3">
-            Yearly <span className="text-red">(Save 30%)</span>
+          Annuel <span className="text-red">(Économisez 30%)</span>
           </p>
         </div>
 

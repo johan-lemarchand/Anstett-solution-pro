@@ -71,7 +71,7 @@ export default function ContactForm() {
         </div>
 
         <div className="col-12 text-center">
-          <input type="submit" value="Send message" className="btn btn-primary rounded-pill btn-send mb-3" />
+          <input type="submit" value="Envoyer" className="btn btn-primary rounded-pill btn-send mb-3" />
           <p className="text-muted">
             <strong>*</strong> Ces champs sont obligatoires.
           </p>

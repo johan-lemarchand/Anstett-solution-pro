@@ -21,10 +21,10 @@ export default function Demo5() {
           button={
             <div className="d-flex align-items-center gap-3">
               <a className="nav-link" data-bs-toggle="modal" data-bs-target="#modal-signin">
-                Sign In
+              Connectez-vous
               </a>
               <button className="btn btn-sm btn-primary rounded" data-bs-toggle="modal" data-bs-target="#modal-signup">
-                Sign Up
+              S'inscrire
               </button>
             </div>
           }
@@ -44,7 +44,7 @@ export default function Demo5() {
               bulletColor="red"
               colOne={<Tiles7 />}
               rowClassNames="mb-14 mb-md-18"
-              title="We have considered our solutions to support every stage of growth."
+              title="Nous avons pensé à nos solutions pour accompagner chaque étape de croissance."
               description="Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor
               fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
               tellus ac cursus commodo."
@@ -55,7 +55,7 @@ export default function Demo5() {
               colOne={<Tiles8 />}
               bulletColor="green"
               rowClassNames="mb-14 mb-md-18"
-              title="We make spending stress free so you have the perfect control."
+              title="Gérez vos dépenses sans stress pour que vous ayez le contrôle parfait."
               description="Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor
               fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
               tellus ac cursus commodo."
@@ -65,7 +65,7 @@ export default function Demo5() {
             <Services6
               colOne={<Tiles9 />}
               bulletColor="yellow"
-              title="We bring solutions to manage your finance the way works best."
+              title="Nous apportons des solutions pour gérer vos finances de la meilleure façon."
               description="Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor
               fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
               tellus ac cursus commodo."
