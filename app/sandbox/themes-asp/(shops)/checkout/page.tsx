@@ -24,16 +24,16 @@ export default function Checkout() {
             {/* ========== shipping section ========== */}
             <div className="col-lg-8">
               <div className="alert alert-blue alert-icon mb-6" role="alert">
-                <i className="uil uil-exclamation-circle"></i> Already have an account?{" "}
+                <i className="uil uil-exclamation-circle"></i> Vous avez déjà un compte ?{" "}
                 <a
                   href="#"
                   data-bs-toggle="modal"
                   data-bs-dismiss="modal"
                   className="alert-link hover"
                   data-bs-target="#modal-signin">
-                  Sign in
+                  Connectez-vous
                 </a>{" "}
-                for faster checkout experience.
+                Pour une expérience de paiement plus rapide.
               </div>
 
               <h3 className="mb-4">Billing address</h3>
@@ -89,7 +89,7 @@ export default function Checkout() {
                 <Checkbox id="save-info" label="Save this information for next time" />
 
                 <hr className="mt-7 mb-6" />
-                <h3 className="mb-4">Payment</h3>
+                <h3 className="mb-4">Paiement</h3>
 
                 <div className="mt-3 mb-6">
                   <Checkbox required id="credit" type="radio" defaultChecked label="Credit card" name="paymentMethod" />
@@ -125,7 +125,7 @@ export default function Checkout() {
 
             {/* ========== order summary section ========== */}
             <div className="col-lg-4">
-              <h3 className="mb-4">Order Summary</h3>
+              <h3 className="mb-4">Récapitulatif de commande</h3>
 
               <div className="shopping-cart mb-7">
                 {orderProducts.map((item) => (
@@ -134,15 +134,15 @@ export default function Checkout() {
               </div>
 
               <hr className="my-4" />
-              <h3 className="mb-2">Shipping</h3>
+              <h3 className="mb-2">Expédition</h3>
 
               <div className="mb-5">
                 <div className="form-check mb-2">
                   <input id="standard" name="shippingMethod" type="radio" className="form-check-input" required />
                   <label className="form-check-label" htmlFor="standard">
-                    Free - Standard delivery
+                    Gratuit - Livraison standard
                   </label>
-                  <small className="text-muted d-block">Shipment may take 5-6 business days</small>
+                  <small className="text-muted d-block">Expédition sous 5-6 jours ouvrables</small>
                 </div>
 
                 <div className="form-check">
@@ -155,9 +155,9 @@ export default function Checkout() {
                     className="form-check-input"
                   />
                   <label className="form-check-label" htmlFor="express">
-                    $10 - Express delivery
+                    10€ - Livraison express
                   </label>
-                  <small className="text-muted d-block">Shipment may take 2-3 business days</small>
+                  <small className="text-muted d-block">Expédition sous 2-3 jours ouvrables</small>
                 </div>
               </div>
 
@@ -183,7 +183,7 @@ export default function Checkout() {
               </div>
 
               <button type="submit" className="btn btn-primary rounded w-100 mt-4">
-                Place Order
+                Passer commande
               </button>
             </div>
           </div>

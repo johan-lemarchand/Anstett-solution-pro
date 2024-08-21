@@ -39,12 +39,12 @@ export default function BlogDetailsThree() {
                   <ul className="post-meta text-white">
                     <li className="post-date">
                       <i className="uil uil-calendar-alt" />
-                      <span>5 Jul 2022</span>
+                      <span>5 juillet 2002</span>
                     </li>
 
                     <li className="post-author">
                       <i className="uil uil-user" />
-                      <NextLink href="#" className="text-reset" title={<span>By Sandbox</span>} />
+                      <NextLink href="#" className="text-reset" title={<span>Anstett Solutions Pro</span>} />
                     </li>
 
                     <li className="post-comments">
@@ -54,7 +54,7 @@ export default function BlogDetailsThree() {
                         className="text-reset"
                         title={
                           <Fragment>
-                            3 <span>Comments</span>
+                            3 <span>Commentaires</span>
                           </Fragment>
                         }
                       />

@@ -30,7 +30,7 @@ export default function Block({ id, children, className = "", container = true }
               className="collapse-link collapsed stretched-link"
               data-bs-toggle="collapse"
               href={`#collapse-snippet-${id}`}>
-              View example's code
+              Voir l’exemple
             </a>
           </div>
 

@@ -18,7 +18,7 @@ export default function Register() {
         <div className="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
           <div className="row">
             <div className="col-lg-8 mx-auto">
-              <h1 className="display-1 mb-3">Sign Up</h1>
+              <h1 className="display-1 mb-3">S'inscrire</h1>
               <Breadcrumb data={breadcrumb} />
             </div>
           </div>
@@ -32,8 +32,8 @@ export default function Register() {
             <div className="col-lg-7 col-xl-6 col-xxl-5 mx-auto mt-n20">
               <div className="card">
                 <div className="card-body p-11 text-center">
-                  <h2 className="mb-3 text-start">Sign up to Sandbox</h2>
-                  <p className="lead mb-6 text-start">Registration takes less than a minute.</p>
+                  <h2 className="mb-3 text-start">Inscrivez-vous à Anstett Solutions Pro</h2>
+                  <p className="lead mb-6 text-start">Le processus d’inscription prend moins d’une minute.</p>
                   <RegisterForm />
                 </div>
               </div>

@@ -16,19 +16,19 @@ export default function Footer2() {
             <div className="row mb-3">
               <div className="col-md-4">
                 <div className="widget">
-                  <h4 className="widget-title">Address</h4>
+                  <h4 className="widget-title">Adresse</h4>
                   <address>
-                    Moonshine St. 14/05 <br className="d-none d-md-block" /> Light City, London, UK
+                    26E rue de Kaltenhouse <br className="d-none d-md-block" /> 67240 Oberhoffen-Sur-Moder
                   </address>
                 </div>
               </div>
 
               <div className="col-md-4">
                 <div className="widget">
-                  <h4 className="widget-title">Phone</h4>
+                  <h4 className="widget-title">Téléphone</h4>
                   <p>
-                    00 (123) 456 78 90 <br />
-                    00 (987) 654 32 10
+                    06 42 18 55 95 <br />
+        
                   </p>
                 </div>
               </div>
@@ -37,19 +37,19 @@ export default function Footer2() {
                 <div className="widget">
                   <h4 className="widget-title">E-mail</h4>
 
-                  <a href="mailto:sandbox@email.com" className="link-body">
-                    sandbox@email.com
+                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                    anstett.solutions.pro@gmail.com
                   </a>
                   <br className="d-none d-md-block" />
 
-                  <a href="mailto:help@sandbox.com" className="link-body">
-                    help@sandbox.com
+                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                    anstett.solutions.pro@gmail.com
                   </a>
                 </div>
               </div>
             </div>
 
-            <p>© 2022 Sandbox. All rights reserved.</p>
+            <p>© 2024 Anstett Solutions Pro. Tous droits réservés.</p>
 
             <SocialLinks className="nav social justify-content-center" />
           </div>

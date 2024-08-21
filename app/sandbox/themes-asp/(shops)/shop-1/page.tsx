@@ -36,7 +36,7 @@ export default function Shop() {
         <div className="container py-14 py-md-16">
           <div className="row align-items-center mb-10 position-relative zindex-1">
             <div className="col-md-8 col-lg-9 col-xl-8 col-xxl-7 pe-xl-20">
-              <h2 className="display-6">New Arrivals</h2>
+              <h2 className="display-6">Nouveautés</h2>
               <Breadcrumb className="mb-0" />
             </div>
 

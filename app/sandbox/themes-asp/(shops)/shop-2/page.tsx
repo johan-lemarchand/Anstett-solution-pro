@@ -34,8 +34,8 @@ export default function ShopTwo() {
             <div className="col-lg-9 order-lg-2">
               <div className="row align-items-center mb-10 position-relative zindex-1">
                 <div className="col-md-7 col-xl-8 pe-xl-20">
-                  <h2 className="display-6 mb-1">New Arrivals</h2>
-                  <p className="mb-0 text-muted">Showing 1–9 of 30 results</p>
+                  <h2 className="display-6 mb-1">Nouveautés</h2>
+                  <p className="mb-0 text-muted">Affichage de 1-9 sur 30 résultats</p>
                 </div>
 
                 <div className="col-md-4 col-lg-3 ms-md-auto text-md-end mt-5 mt-md-0">

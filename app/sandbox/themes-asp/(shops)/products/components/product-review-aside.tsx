@@ -12,7 +12,7 @@ export default function ProductReviewAside() {
   return (
     <aside className="col-lg-4 sidebar">
       <div className="widget mt-1">
-        <h4 className="widget-title mb-3">Ratings Distribution</h4>
+        <h4 className="widget-title mb-3">Évaluer la livraison</h4>
 
         <div className="mb-5">
           <span className="ratings four" />
@@ -30,10 +30,10 @@ export default function ProductReviewAside() {
       </div>
 
       <div className="widget mt-10">
-        <h4 className="widget-title mb-3">Review this product</h4>
+        <h4 className="widget-title mb-3">Évaluer ce produit</h4>
         <p className="mb-5">Aenean eu leo quam ornare sem lacinia quam.</p>
         <a href="#" className="btn btn-primary rounded w-100">
-          Write a Review
+          Écrire un avis
         </a>
       </div>
     </aside>

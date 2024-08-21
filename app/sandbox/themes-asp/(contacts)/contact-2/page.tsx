@@ -30,7 +30,7 @@ export default function ContactTwo() {
           <div className="container pt-10 pb-19 pt-md-14 pb-md-20 text-center">
             <div className="row">
               <div className="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
-                <h1 className="display-1 mb-3">Get in Touch</h1>
+                <h1 className="display-1 mb-3">Prendre contact</h1>
                 <Breadcrumb data={breadcrumb} />
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function ContactTwo() {
               </div>
 
               <div className="col-lg-5">
-                <h2 className="display-4 mb-8">Convinced yet? Let's make something great together.</h2>
+                <h2 className="display-4 mb-8">Convaincu? Faisons quelque chose de grand ensemble.</h2>
                 <div className="d-flex flex-row">
                   <div>
                     <div className="icon text-primary fs-28 me-6 mt-n1">
@@ -57,10 +57,10 @@ export default function ContactTwo() {
                   </div>
 
                   <div>
-                    <h5 className="mb-1">Address</h5>
+                    <h5 className="mb-1">Adresse</h5>
                     <address>
-                      Moonshine St. 14/05 Light City, <br className="d-none d-md-block" />
-                      London, United Kingdom
+                      26E rue de Kaltenhouse, <br className="d-none d-md-block" />
+                      67240 Oberhoffen-Sur-Moder
                     </address>
                   </div>
                 </div>
@@ -73,8 +73,8 @@ export default function ContactTwo() {
                   </div>
 
                   <div>
-                    <h5 className="mb-1">Phone</h5>
-                    <p>00 (123) 456 78 90</p>
+                    <h5 className="mb-1">Téléphone</h5>
+                    <p>06 42 18 55 95</p>
                   </div>
                 </div>
 
@@ -88,8 +88,8 @@ export default function ContactTwo() {
                   <div>
                     <h5 className="mb-1">E-mail</h5>
                     <p className="mb-0">
-                      <a href="mailto:sandbox@email.com" className="link-body">
-                        sandbox@email.com
+                      <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                        anstett.solutions.pro@gmail.com
                       </a>
                     </p>
                   </div>
@@ -100,9 +100,9 @@ export default function ContactTwo() {
             {/* ========== contact form section ========== */}
             <div className="row">
               <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                <h2 className="display-4 mb-3 text-center">Drop Us a Line</h2>
+                <h2 className="display-4 mb-3 text-center">Écrivez-nous</h2>
                 <p className="lead text-center mb-10">
-                  Reach out to us from our contact form and we will get back to you shortly.
+                 Contactez-nous à partir de notre formulaire de contact et nous vous répondrons sous peu.
                 </p>
 
                 <ContactForm />

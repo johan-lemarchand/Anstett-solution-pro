@@ -38,7 +38,7 @@ export default function Terms() {
           <div className="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
             <div className="row">
               <div className="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
-                <h1 className="display-1 mb-3">Terms and Conditions</h1>
+                <h1 className="display-1 mb-3">Conditions générales</h1>
                 <Breadcrumb data={breadcrumb} />
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function Terms() {
               <Element name="terms-conditions" className="wrapper pt-16">
                 <div className="card">
                   <div className="card-body p-10">
-                    <h2 className="mb-3">1. Terms and Conditions</h2>
+                    <h2 className="mb-3">1. Conditions générales</h2>
                     <p>
                       Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque
                       nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet,
@@ -107,7 +107,7 @@ export default function Terms() {
               <Element name="privacy-policy" className="wrapper pt-16">
                 <div className="card">
                   <div className="card-body p-10">
-                    <h2 className="mb-3">2. Privacy Policy</h2>
+                    <h2 className="mb-3">2. Politique de confidentialité</h2>
                     <p>
                       Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque
                       nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet,
@@ -148,7 +148,7 @@ export default function Terms() {
               <Element name="user-policy" className="wrapper pt-16">
                 <div className="card">
                   <div className="card-body p-10">
-                    <h2 className="mb-3">3. User Policy</h2>
+                    <h2 className="mb-3">3. Charte des Utilisateurs</h2>
                     <p>
                       Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque
                       nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet,
@@ -251,7 +251,7 @@ export default function Terms() {
               <Element name="account-billing" className="wrapper py-16">
                 <div className="card">
                   <div className="card-body p-10">
-                    <h2 className="mb-3">6. Account &amp; Billing</h2>
+                    <h2 className="mb-3">6. Compte et&amp; Facturation</h2>
                     <p>
                       Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque
                       nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet,

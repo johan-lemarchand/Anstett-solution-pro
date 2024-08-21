@@ -15,8 +15,8 @@ export default function CareerTwo() {
         <div className="container pt-10 pb-17 pt-md-14 text-center">
           <div className="row">
             <div className="col-lg-8 mx-auto mb-5">
-              <h2 className="fs-15 text-uppercase text-muted mb-3">Join Our Team</h2>
-              <h3 className="display-1 mb-6">Join our team to help shape the future of development.</h3>
+              <h2 className="fs-15 text-uppercase text-muted mb-3">Rejoindre notre équipe</h2>
+              <h3 className="display-1 mb-6">Rejoignez notre équipe pour façonner l’avenir du développement.</h3>
               <NextLink title="Explore Positions" href="#" className="btn btn-lg btn-primary rounded-pill" />
             </div>
           </div>
@@ -73,8 +73,8 @@ export default function CareerTwo() {
             </div>
 
             <div className="col-lg-6">
-              <h2 className="fs-16 text-uppercase text-muted mb-3 mt-md-n5">What Makes Us Different?</h2>
-              <h3 className="display-3 mb-5">We bring solutions to make life easier for our customers.</h3>
+              <h2 className="fs-16 text-uppercase text-muted mb-3 mt-md-n5">Qu'est-ce qui nous différencie?</h2>
+              <h3 className="display-3 mb-5">Nous apportons des solutions pour faciliter la vie de nos clients.</h3>
               <p className="mb-6">
                 Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient
                 montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada
@@ -96,9 +96,9 @@ export default function CareerTwo() {
           {/* ========== job position section ========== */}
           <div className="row text-center">
             <div className="col-xl-10 mx-auto">
-              <h2 className="fs-15 text-uppercase text-muted mb-3">Job Positions</h2>
+              <h2 className="fs-15 text-uppercase text-muted mb-3">Offres d'emploi</h2>
               <h3 className="display-4 mb-10 px-xxl-15">
-                We’re always searching for amazing people to join our team. Take a look at our current openings.
+              Nous sommes toujours à la recherche de personnes formidables pour rejoindre notre équipe. Jetez un coup d’œil aux postes vacants.
               </h3>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function CareerTwo() {
               </div>
 
               <div className="job-list">
-                <h3 className="mb-4">Development</h3>
+                <h3 className="mb-4">Développement</h3>
 
                 {data.developmentJobList.map((item) => (
                   <JobPostCard2 {...item} key={item.id} />
@@ -146,9 +146,9 @@ export default function CareerTwo() {
         <div className="container py-14 py-md-16">
           <div className="row">
             <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center">
-              <h2 className="fs-15 text-uppercase text-muted mb-3">Can't find the right position?</h2>
+              <h2 className="fs-15 text-uppercase text-muted mb-3">Vous ne trouvez pas la bonne offre?</h2>
               <h3 className="display-4 mb-7 px-lg-5 px-xl-0 px-xxl-5">
-                We are a community with 5000+ team members. Join and build the future with us.
+              Nous sommes une communauté de plus de 5000 membres. Rejoignez-nous et construisez l’avenir avec nous.
               </h3>
               <NextLink title="Contact Us" href="#" className="btn btn-lg btn-primary rounded-pill" />
             </div>

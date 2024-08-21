@@ -18,7 +18,7 @@ export default function Login() {
         <div className="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
           <div className="row">
             <div className="col-lg-8 mx-auto">
-              <h1 className="display-1 mb-3">Sign In</h1>
+              <h1 className="display-1 mb-3">S'inscrire</h1>
               <Breadcrumb data={breadcrumb} />
             </div>
           </div>

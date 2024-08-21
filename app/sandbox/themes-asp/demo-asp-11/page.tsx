@@ -72,9 +72,9 @@ export default function Demo11() {
             {/* ========== title section ========== */}
             <div className="row text-center">
               <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                <h2 className="fs-15 text-uppercase text-primary mb-3">Our Pricing</h2>
+                <h2 className="fs-15 text-uppercase text-primary mb-3">Nos tarifs</h2>
                 <h3 className="display-4 mb-10 px-xl-10">
-                  We offer great prices, premium products and quality service for your business.
+                  Nous offrons des prix avantageux, des produits de qualité supérieure et un service de qualité pour votre entreprise.
                 </h3>
               </div>
             </div>

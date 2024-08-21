@@ -59,7 +59,7 @@ export default function ProjectDetails() {
 
             <div className="row mb-12">
               <div className="col-lg-10 mx-auto">
-                <h2 className="display-6 mb-4">About the Project</h2>
+                <h2 className="display-6 mb-4">Concernant le projet</h2>
                 <p>
                   Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
                   mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante

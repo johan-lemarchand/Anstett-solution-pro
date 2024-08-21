@@ -11,7 +11,7 @@ export default function Blank() {
 
       <main className="content-wrapper">
         <div className="container">
-          <h1>This is blank page</h1>
+          <h1>Cette page est vide</h1>
         </div>
       </main>
     </Fragment>

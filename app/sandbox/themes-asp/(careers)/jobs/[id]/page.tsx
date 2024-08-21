@@ -49,7 +49,7 @@ export default function JobDetails({ params }: Props) {
               <div className="blog single mt-n17">
                 <div className="card shadow-lg">
                   <div className="card-body">
-                    <h2 className="h1 mb-3">Job Description</h2>
+                    <h2 className="h1 mb-3">Description du poste</h2>
                     <p>
                       Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
                       sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis
@@ -73,7 +73,7 @@ export default function JobDetails({ params }: Props) {
 
                     <ListColumn rowClass="gx-xl-8" list={data.responsiblities} />
 
-                    <h3 className="h2 mb-3 mt-9">Requirements</h3>
+                    <h3 className="h2 mb-3 mt-9">Conditions</h3>
                     <p>
                       Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo
                       odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque
@@ -83,7 +83,7 @@ export default function JobDetails({ params }: Props) {
                     <ListColumn rowClass="gx-xl-8 mb-10" list={data.requirements} />
 
                     <a href="mailto:apply@email.com" className="btn btn-primary rounded-pill">
-                      Apply Now
+                    Postulez dès maintenant
                     </a>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ export default function JobDetails({ params }: Props) {
         <div className="container py-14 py-md-16">
           <div className="row align-items-center mb-6">
             <div className="col-md-8 col-lg-9 col-xl-8 col-xxl-7 pe-xl-20">
-              <h2 className="display-6 mb-0">More Job Openings</h2>
+              <h2 className="display-6 mb-0">Plus d’offres</h2>
             </div>
 
             <div className="col-md-4 col-lg-3 ms-md-auto text-md-end mt-5 mt-md-0">

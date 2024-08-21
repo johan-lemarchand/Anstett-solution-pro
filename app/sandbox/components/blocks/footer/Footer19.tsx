@@ -24,35 +24,34 @@ export default function Footer19() {
           <div className="col-xl-10 mx-auto">
             <div className="row mb-3">
               {/* address widget column */}
-              <Widget title="Address">
+              <Widget title="Adresse">
                 <address>
-                  Moonshine St. 14/05 <br className="d-none d-md-block" /> Light City, London, UK
+                26E rue de Kaltenhouse <br className="d-none d-md-block" /> 67240 Oberhoffen-Sur-Moder
                 </address>
               </Widget>
 
               {/* phone widget column */}
-              <Widget title="Phone">
+              <Widget title="Téléphone">
                 <p>
-                  00 (123) 456 78 90 <br />
-                  00 (987) 654 32 10
+                  06 42 18 55 95 <br />
                 </p>
               </Widget>
 
               {/* email widget column */}
               <Widget title="E-mail">
                 <p>
-                  <a href="mailto:sandbox@email.com" className="link-body">
-                    sandbox@email.com
+                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                    anstett.solutions.pro@gmail.com
                   </a>{" "}
                   <br className="d-none d-md-block" />
-                  <a href="mailto:help@sandbox.com" className="link-body">
-                    help@sandbox.com
+                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                    anstett.solutions.pro@gmail.com
                   </a>
                 </p>
               </Widget>
             </div>
 
-            <p>© 2023 Sandbox. All rights reserved.</p>
+            <p>© 2024 Anstett Solutions Pro. Tous droits réservés.</p>
 
             {/* social link list */}
             <SocialLinks className="nav social justify-content-center" />

@@ -75,7 +75,7 @@ export const blogs = [
   {
     id: 3,
     category: 'Meeting',
-    date: '26 Feb 2022',
+    date: '26 février 2022',
     image: '/img/photos/b6.jpg',
     title: 'Ultricies fusce porta elit',
     description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.`
@@ -87,21 +87,21 @@ export const testimonials = [
     id: 1,
     image: 'te1',
     name: 'Coriss Ambady',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financier',
     review: `Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio.`
   },
   {
     id: 2,
     image: 'te2',
     name: 'Cory Zamora',
-    designation: 'Marketing Specialist',
+    designation: 'Spécialiste en marketing',
     review: `Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio.`
   },
   {
     id: 3,
     image: 'te3',
     name: 'Barclay Widerski',
-    designation: 'Sales Specialist',
+    designation: 'Spécialiste des ventes',
     review: `Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio.`
   }
 ];

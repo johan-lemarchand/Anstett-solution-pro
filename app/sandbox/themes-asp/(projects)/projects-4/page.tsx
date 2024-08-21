@@ -31,9 +31,9 @@ export default function ProjectsFour() {
           <div className="container pt-10 pt-md-14">
             <div className="row">
               <div className="col-md-8 col-lg-7 col-xl-6 col-xxl-5">
-                <h1 className="display-1 mb-3">Projects</h1>
+                <h1 className="display-1 mb-3">Projets</h1>
                 <p className="lead fs-lg pe-lg-15 pe-xxl-12">
-                  Check out some of our awesome projects with creative ideas and great design.
+                  Découvrez quelques-uns de nos projets géniaux avec des idées créatives et un design exceptionnel.
                 </p>
               </div>
             </div>

@@ -27,9 +27,9 @@ export default function ProjectsTwo() {
           <div className="container pt-10 pt-md-14 text-center">
             <div className="row">
               <div className="col-md-8 col-lg-7 col-xl-6 col-xxl-5 mx-auto">
-                <h1 className="display-1 mb-3">Projects</h1>
+                <h1 className="display-1 mb-3">Projets</h1>
                 <p className="lead fs-lg px-lg-10 px-xxl-8">
-                  Check out some of our awesome projects with creative ideas and great design.
+                  Découvrez quelques-uns de nos projets géniaux avec des idées créatives et un design exceptionnel.
                 </p>
               </div>
             </div>

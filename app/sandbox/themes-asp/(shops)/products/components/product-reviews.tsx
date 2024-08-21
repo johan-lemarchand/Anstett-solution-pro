@@ -10,7 +10,7 @@ export default function ProductReviews() {
     <div className="col-lg-8">
       <div className="row align-items-center mb-10 position-relative zindex-1">
         <div className="col-md-7 col-xl-8 pe-xl-20">
-          <h2 className="display-6 mb-0">Ratings &amp; Reviews</h2>
+          <h2 className="display-6 mb-0">Notes &amp; Avis</h2>
         </div>
 
         <div className="col-md-5 col-xl-4 ms-md-auto text-md-end mt-5 mt-md-0">

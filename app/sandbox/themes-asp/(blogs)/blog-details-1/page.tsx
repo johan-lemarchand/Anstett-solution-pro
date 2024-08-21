@@ -34,7 +34,7 @@ export default function BlogDetailsOne() {
 
                     <li className="post-author">
                       <i className="uil uil-user" />
-                      <NextLink href="#" className="text-reset" title={<span>By Sandbox</span>} />
+                      <NextLink href="#" className="text-reset" title={<span>Anstett Solutions Pro</span>} />
                     </li>
 
                     <li className="post-comments">
@@ -44,7 +44,7 @@ export default function BlogDetailsOne() {
                         className="text-reset"
                         title={
                           <Fragment>
-                            3 <span>Comments</span>
+                            3 <span>Commentaires</span>
                           </Fragment>
                         }
                       />

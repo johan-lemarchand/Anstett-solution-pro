@@ -25,7 +25,7 @@ export default function Demo9() {
               data-bs-toggle="modal"
               data-bs-target="#modal-signin"
               className="btn btn-sm btn-primary rounded-pill">
-              Sign In
+              S'inscrire
             </a>
           }
         />

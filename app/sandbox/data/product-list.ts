@@ -93,7 +93,7 @@ const products = [
     sale: false,
     salePrice: 0,
     regularPrice: 55,
-    category: 'ACCESSORIES',
+    category: 'Accessoires',
     title: 'Apple Watch Milano Loop',
     image: 'sh9',
     id: '62f3bc72a762dfc6c8b9d711'

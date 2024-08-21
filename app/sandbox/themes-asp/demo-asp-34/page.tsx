@@ -29,9 +29,9 @@ export default function Demo34() {
         <div className="container">
           <div className="alert-inner d-flex justify-content-center align-items-center p-0">
             <p className="mb-0">
-              HTML version of Sandbox is released! Grab a copy{" "}
+            La version HTML d'Anstett Solutions Pro est disponible! Prenez une copie{" "}
               <a
-                href="https://sandbox.elemisthemes.com"
+                href=""
                 className="link-white hover d-inline-flex align-items-center"
                 target="_blank">
                 here <i className="uil uil-arrow-up-right" />
@@ -47,11 +47,11 @@ export default function Demo34() {
           logoAlt="logo-purple"
           button={
             <a
-              href="https://1.envato.market/Ea4VxK"
+              href=""
               className="btn btn-primary rounded-pill"
               target="_blank"
               rel="noreferrer">
-              Purchase Now
+              Acheter maintenant
             </a>
           }
         />
@@ -71,7 +71,7 @@ export default function Demo34() {
                     <CountUp end={21} />
                   </h3>
                 </div>
-                <h2 className="display-3 mb-3 text-center mb-0">Functional, impressive and rich demos to start with</h2>
+                <h2 className="display-3 mb-3 text-center mb-0">Des démos fonctionnelles, impressionnantes et riches en contenue</h2>
               </div>
             </div>
 
@@ -127,7 +127,7 @@ export default function Demo34() {
                             target="_blank"
                             rel="noreferrer"
                             className={`btn btn-sm btn-${color} rounded-pill mt-1`}>
-                            See Demo
+                            Voir la démo
                           </a>
                         </div>
                       </div>
@@ -218,7 +218,7 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">Modern Portfolio Layouts</h4>
                     <p className="mb-0">
-                      Build and manage an eye-catching and impressive portfolio fast and without effort.
+                    Créez et gérez un portfolio accrocheur et impressionnant rapidement et sans effort.
                     </p>
                   </div>
                 </div>
@@ -233,7 +233,7 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">Useful Blog Layouts</h4>
                     <p className="mb-0">
-                      Create an attractive and stunning journal to tell the world your wonderful stories.
+                    Créez un blog attrayant et éblouissant pour raconter au monde vos histoires merveilleuses.
                     </p>
                   </div>
                 </div>
@@ -248,7 +248,7 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">Cool Features & Elements</h4>
                     <p className="mb-0">
-                      Sandbox includes amazing features and elements to create rich and attractive pages.
+                      Anstett Solutions Pro inclut des fonctionnalités et des éléments étonnants pour créer des pages riches et attrayantes.
                     </p>
                   </div>
                 </div>
@@ -313,7 +313,7 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">13 Headers & 5 Footers</h4>
                     <p className="mb-0">
-                      Choose from various gorgeous header and footer styles to serve you best for your needs.
+                    Choisissez parmi divers styles d'entête et d'enpied magnifiques pour vous servir au mieux pour vos besoins.
                     </p>
                   </div>
                 </div>
@@ -328,7 +328,7 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">Color & Font Options</h4>
                     <p className="mb-0">
-                      You can either use the included color and fonts or easily add your own choices.
+                    Vous pouvez utiliser les couleurs et polices incluses ou ajouter facilement vos propres choix.
                     </p>
                   </div>
                 </div>
@@ -342,7 +342,7 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">Fully Responsive Layout</h4>
                     <p className="mb-0">
-                      Sandbox adapts to different screen sizes therefore it is compatible with any device.
+                      Anstett Soltions Pro s’adapte à différentes tailles d’écran, il est donc compatible avec tous les appareils.
                     </p>
                   </div>
                 </div>
@@ -545,10 +545,10 @@ export default function Demo34() {
               <div className="col-md-10 offset-md-1 col-lg-6 offset-lg-6 text-center text-lg-start">
                 <div className="ps-xl-1 ps-xxl-5 pe-xxl-10">
                   <h2 className="fs-15 ls-xl text-uppercase text-muted mb-3">Fully Responsive</h2>
-                  <h3 className="display-3 mb-5">Responsive images & texts no matter the screen size.</h3>
+                  <h3 className="display-3 mb-5">Images et textes réactifs, peu importe la taille de l’écran.</h3>
                   <p className="lead mb-8">
-                    Sandbox is responsive so the layout will adapt to different screen sizes that will make your website
-                    compatible with any device such as smart phones, tablets and computers.
+                    Anstett Solutions Pro est réactif, donc la mise en page s’adaptera aux différentes tailles d’écran qui feront de votre site web
+                    Compatible avec tous les appareils tels que les téléphones, les tablettes et les ordinateurs.
                   </p>
 
                   <img
@@ -570,19 +570,18 @@ export default function Demo34() {
               <div className="col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                 <img src="/img/demos/icon.png" srcSet="/img/demos/icon@2x.png 2x" alt="" />
                 <h2 className="display-3 mt-3 mb-3 px-lg-8">
-                  Think unique and be creative. Make a difference with Sandbox.
+                Pensez unique et soyez créatif. Faites la différence avec Anstett Solutions Pro.
                 </h2>
 
                 <p className="lead fs-lg mb-6">
-                  Everything you need to create your next unique and professional website, including impressive and
-                  ready-made blocks and pages.
+                  Tout ce dont vous avez besoin pour créer votre prochain site web unique et professionnel prêts à l’emploi.
                 </p>
                 <a
                   href="https://1.envato.market/Ea4VxK"
                   target="_blank"
                   className="btn btn-lg btn-primary rounded-pill mb-10"
                   rel="noreferrer">
-                  Buy Sandbox
+                  Acheter Anstett Solutions Pro
                 </a>
               </div>
             </div>
