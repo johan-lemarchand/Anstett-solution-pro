@@ -11,7 +11,7 @@ export default function Footer5() {
           <div className="col-md-4 col-lg-3">
             <div className="widget">
               <img
-                alt="sandbox"
+                alt="Anstett Solutions Pro"
                 className="mb-4"
                 src="/img/logo-light.png"
                 srcSet="/img/logo-light@2x.png 2x"
@@ -54,7 +54,7 @@ export default function Footer5() {
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Notre newsletter</h4>
               <p className="mb-5">
-              Abonnez-vous à notre newsletter &amp; pour recevoir nos nouvelles et nos offres.
+                Abonnez-vous à notre newsletter &amp; pour recevoir nos nouvelles et nos offres.
               </p>
 
               <div className="newsletter-wrapper">

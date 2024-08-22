@@ -5,7 +5,7 @@ import RegisterForm from "app/sandbox/components/elements/forms/RegisterForm";
 // CUSTOM DATA
 const breadcrumb = [
   { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "Sign Up", url: "#" }
+  { id: 2, title: "S'inscrire", url: "#" }
 ];
 
 export default function Register() {

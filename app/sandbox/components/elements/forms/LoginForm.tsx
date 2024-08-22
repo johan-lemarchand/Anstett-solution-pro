@@ -49,16 +49,16 @@ export default function LoginForm() {
         </div>
 
         <button type="submit" className="btn btn-primary rounded-pill btn-login w-100 mb-2">
-          Sign In
+          Connexion 
         </button>
       </form>
 
       <p className="mb-1">
-        <NextLink title="Forgot Password?" href="/register" className="hover" />
+        <NextLink title="Mot de passe oublié?" href="/register" className="hover" />
       </p>
 
       <p className="mb-0">
-        vous n'avez pas encore de compte ? <NextLink title="Sign up" href="/register" className="hover" />
+        vous n'avez pas encore de compte ? <NextLink title="S'inscrire" href="/register" className="hover" />
       </p>
 
       <div className="divider-icon my-4">ou</div>

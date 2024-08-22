@@ -50,22 +50,22 @@ export default function Cart() {
                 <div className="col-md-8 col-lg-7">
                   <div className="form-floating input-group">
                     <input type="url" className="form-control" placeholder="Enter promo code" id="seo-check" />
-                    <label htmlFor="seo-check">Enter promo code</label>
+                    <label htmlFor="seo-check">Saisissez le code promo</label>
                     <button className="btn btn-primary" type="button">
-                      Apply
+                      Appliquer
                     </button>
                   </div>
                 </div>
 
                 <div className="col-md-4 col-lg-5 ms-auto ms-lg-0 text-md-end">
-                  <button className="btn btn-primary rounded">Update Cart</button>
+                  <button className="btn btn-primary rounded">Mettre à jour</button>
                 </div>
               </div>
             </div>
 
             {/* ========== order summary section ========== */}
             <div className="col-lg-4">
-              <h3 className="mb-4">Order Summary</h3>
+              <h3 className="mb-4">Récapitulatif De Commande</h3>
               <div className="table-responsive">
                 <table className="table table-order">
                   <tbody>
@@ -87,7 +87,7 @@ export default function Cart() {
                 </table>
               </div>
 
-              <button className="btn btn-primary rounded w-100 mt-4">Proceed to Checkout</button>
+              <button className="btn btn-primary rounded w-100 mt-4">Passer la commande</button>
             </div>
           </div>
         </div>

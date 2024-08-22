@@ -60,7 +60,7 @@ export default function ProductCard(props: ProductCardProps) {
         </a>
 
         {newProduct && badge("New!", "bg-aqua")}
-        {sale && badge("Sale!", "bg-pink")}
+        {sale && badge("Promo!", "bg-pink")}
       </figure>
 
       <div className="post-header">

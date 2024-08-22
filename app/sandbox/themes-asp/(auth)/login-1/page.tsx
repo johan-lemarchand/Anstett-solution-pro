@@ -5,7 +5,7 @@ import LoginForm from "app/sandbox/components/elements/forms/LoginForm";
 // CUSTOM DATA
 const breadcrumb = [
   { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "Sign In", url: "#" }
+  { id: 2, title: "Connexion", url: "#" }
 ];
 
 export default function Login() {

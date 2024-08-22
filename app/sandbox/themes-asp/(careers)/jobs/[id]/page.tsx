@@ -27,7 +27,7 @@ export default function JobDetails({ params }: Props) {
           <div className="row">
             <div className="col-md-10 col-xl-8 mx-auto">
               <div className="post-header">
-                <h1 className="display-1 mb-5">Multimedia Artist &amp; Animator</h1>
+                <h1 className="display-1 mb-5">Artiste multimédia &amp; Animateur 2D/3D</h1>
                 <ul className="post-meta fs-17 mb-5">
                   {data.jobMeta.map(({ id, title, icon }) => (
                     <li key={id}>
@@ -64,7 +64,7 @@ export default function JobDetails({ params }: Props) {
                       tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.
                     </p>
 
-                    <h3 className="h2 mb-3 mt-9">Responsibilities</h3>
+                    <h3 className="h2 mb-3 mt-9">Responsabilités</h3>
                     <p>
                       Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo
                       odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque
@@ -102,7 +102,7 @@ export default function JobDetails({ params }: Props) {
             </div>
 
             <div className="col-md-4 col-lg-3 ms-md-auto text-md-end mt-5 mt-md-0">
-              <NextLink title="Explore Positions" href="#" className="btn btn-primary rounded-pill mb-0" />
+              <NextLink title="Explorer les offres" href="#" className="btn btn-primary rounded-pill mb-0" />
             </div>
           </div>
 

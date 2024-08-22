@@ -57,7 +57,7 @@ import NextLink from 'components/reuseable/links/NextLink';
   navClassName="navbar navbar-expand-lg classic transparent navbar-light"
   button={
     <a href="#" data-bs-toggle="modal" data-bs-target="#modal-signin" className="btn btn-sm btn-primary rounded-pill">
-      Sign In
+      Connexion
     </a>
   }
 />
@@ -73,7 +73,7 @@ import NextLink from 'components/reuseable/links/NextLink';
   navClassName="navbar navbar-expand-lg classic transparent navbar-dark"
   button={
     <a href="#" data-bs-toggle="modal" data-bs-target="#modal-signin" className="btn btn-sm btn-white rounded-pill">
-      Sign In
+      Connexion
     </a>
   }
 />
@@ -88,7 +88,7 @@ import NextLink from 'components/reuseable/links/NextLink';
   navClassName="navbar navbar-expand-lg classic navbar-light navbar-bg-light"
   button={
     <a href="#" data-bs-toggle="modal" data-bs-target="#modal-signin" className="btn btn-sm btn-primary rounded-pill">
-      Sign In
+      Connexion
     </a>
   }
 />
@@ -104,7 +104,7 @@ import NextLink from 'components/reuseable/links/NextLink';
   navClassName="navbar navbar-expand-lg classic navbar-dark navbar-bg-dark"
   button={
     <a href="#" data-bs-toggle="modal" data-bs-target="#modal-signin" className="btn btn-sm btn-primary rounded-pill">
-      Sign In
+      Connexion
     </a>
   }
 />
@@ -120,7 +120,7 @@ import NextLink from 'components/reuseable/links/NextLink';
   navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light"
   button={
     <a href="#" data-bs-toggle="modal" data-bs-target="#modal-signin" className="btn btn-sm btn-primary rounded-pill">
-      Sign In
+      Connexion
     </a>
   }
 />

@@ -80,7 +80,7 @@ export default function RegisterForm() {
       </form>
 
       <p className="mb-0">
-        Vous avez déjà un compte ? <NextLink title="Sign in" href="/login" className="hover" />
+        Vous avez déjà un compte ? <NextLink title="Connexion" href="/login" className="hover" />
       </p>
 
       <div className="divider-icon my-4">or</div>

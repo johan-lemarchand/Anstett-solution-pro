@@ -119,7 +119,7 @@ const signinMarkup = `import Signin from 'components/blocks/navbar/partials/Sign
   data-bs-toggle="modal"
   data-bs-target="#modal-signin"
 >
-  Sign In
+  Connexion
 </button>
 
 <Signin />
@@ -132,7 +132,7 @@ const signupMarkup = `import Signup from 'components/blocks/navbar/partials/Sign
   data-bs-toggle="modal"
   data-bs-target="#modal-signup"
 >
-  Sign Up
+  Connexion
 </button>
 
 <Signup />

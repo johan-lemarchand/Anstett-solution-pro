@@ -10,11 +10,11 @@ import products from "app/sandbox/data/product-list";
 export default function Shop() {
   // filter options
   const options = [
-    { id: 1, title: "Sort by popularity", value: "popular" },
-    { id: 2, title: "Sort by average rating", value: "rating" },
-    { id: 3, title: "Sort by newness", value: "new" },
-    { id: 4, title: "Sort by price: low to high", value: "low-to-high" },
-    { id: 5, title: "Sort by price: high to low", value: "high-to-low" }
+    { id: 1, title: "Trier par popularité", value: "popular" },
+    { id: 2, title: "Trier par note moyenne", value: "rating" },
+    { id: 3, title: "Trier par nouveauté", value: "new" },
+    { id: 4, title: "Trier par prix: croissant", value: "low-to-high" },
+    { id: 5, title: "Trier par prix: décroissant", value: "high-to-low" }
   ];
 
   return (
@@ -36,7 +36,7 @@ export default function Shop() {
         <div className="container py-14 py-md-16">
           <div className="row align-items-center mb-10 position-relative zindex-1">
             <div className="col-md-8 col-lg-9 col-xl-8 col-xxl-7 pe-xl-20">
-              <h2 className="display-6">New Arrivals</h2>
+              <h2 className="display-6">Nouveautés</h2>
               <Breadcrumb className="mb-0" />
             </div>
 

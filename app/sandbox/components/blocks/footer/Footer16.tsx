@@ -92,7 +92,7 @@ export default function Footer16() {
             </div>
 
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Categories</h4>
+              <h4 className="widget-title text-white mb-3">Catégories</h4>
               <ul className="unordered-list text-reset bullet-white ">
                 {categories.map(({ id, post, title, url }) => (
                   <li key={id}>

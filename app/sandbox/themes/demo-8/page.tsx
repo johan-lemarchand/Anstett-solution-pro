@@ -28,7 +28,7 @@ export default function Demo8() {
               data-bs-toggle="modal"
               data-bs-target="#modal-signin"
               className="btn btn-sm btn-primary rounded-pill">
-              Sign In
+               Connexion
             </a>
           }
         />

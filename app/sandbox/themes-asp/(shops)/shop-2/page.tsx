@@ -11,11 +11,11 @@ import products from "app/sandbox/data/product-list";
 export default function ShopTwo() {
   // filter options
   const options = [
-    { id: 1, title: "Sort by popularity", value: "popular" },
-    { id: 2, title: "Sort by average rating", value: "rating" },
-    { id: 3, title: "Sort by newness", value: "new" },
-    { id: 4, title: "Sort by price: low to high", value: "low-to-high" },
-    { id: 5, title: "Sort by price: high to low", value: "high-to-low" }
+    { id: 1, title: "Trier par popularité", value: "popular" },
+    { id: 2, title: "Trier par note moyenne", value: "rating" },
+    { id: 3, title: "Trier par nouveauté", value: "new" },
+    { id: 4, title: "Trier par prix: croissant", value: "low-to-high" },
+    { id: 5, title: "Trier par prix: décroissant", value: "high-to-low" }
   ];
 
   return (

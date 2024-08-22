@@ -115,7 +115,7 @@ const jobList = [
     avatarColor: 'bg-yellow',
     location: 'Birmingham, UK',
     badgeColor: 'bg-pale-blue text-blue',
-    title: 'Multimedia Artist & Animator'
+    title: 'Artiste multimédia et animateur 2D/3D'
   },
   {
     id: 4,

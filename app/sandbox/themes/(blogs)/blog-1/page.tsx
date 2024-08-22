@@ -31,7 +31,7 @@ export default function BlogOne() {
               <div className="col-md-7 col-lg-6 col-xl-5 mx-auto">
                 <h1 className="display-1 mb-3">Business News</h1>
                 <p className="lead px-lg-5 px-xxl-8">
-                  Welcome to our journal. Here you can find the latest company news and business articles.
+                  Bienvenue dans notre revue. Vous trouverez ici les dernières nouvelles de l’entreprise et des articles d’affaires.
                 </p>
               </div>
             </div>

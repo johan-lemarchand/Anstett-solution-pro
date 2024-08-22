@@ -28,7 +28,7 @@ export default function ContactThree() {
               <div className="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
                 <h1 className="display-1 text-white mb-3">Prendre contact</h1>
                 <p className="lead px-xl-10 px-xxl-10">
-                  Have any questions? Reach out to us from our contact form and we will get back to you shortly.
+                  Vous avez des questions? Contactez-nous à partir de notre formulaire et nous vous répondrons sous peu.
                 </p>
               </div>
             </div>

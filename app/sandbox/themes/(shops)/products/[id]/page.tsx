@@ -53,7 +53,7 @@ export default function ProductDetails() {
       {/* ========== liked products section ========== */}
       <section className="wrapper bg-gray">
         <div className="container py-14 py-md-16">
-          <h3 className="h2 mb-6 text-center">You Might Also Like</h3>
+          <h3 className="h2 mb-6 text-center">Vous Aimerez Aussi</h3>
 
           <div className="swiper-container blog grid-view shop mb-6">
             <Carousel navigation={false} breakpoints={carouselBreakpoints}>

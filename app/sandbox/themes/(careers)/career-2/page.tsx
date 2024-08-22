@@ -17,7 +17,7 @@ export default function CareerTwo() {
             <div className="col-lg-8 mx-auto mb-5">
               <h2 className="fs-15 text-uppercase text-muted mb-3">Rejoindre notre équipe</h2>
               <h3 className="display-1 mb-6">Rejoignez notre équipe pour façonner l’avenir du développement.</h3>
-              <NextLink title="Explore Positions" href="#" className="btn btn-lg btn-primary rounded-pill" />
+              <NextLink title="Explorer les offres" href="#" className="btn btn-lg btn-primary rounded-pill" />
             </div>
           </div>
         </div>
