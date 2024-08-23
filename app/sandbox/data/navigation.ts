@@ -223,34 +223,33 @@ const documentationNavigation = {
     { id: 27, title: "Typography", url: "/sandbox/docs/elements/typography" }
   ]
 };
-
 // blocks pages links
 const blocksNavigation = [
-  { id: 1, url: "/sandbox/docs/blocks/about", title: "About", thumnail: "/img/sandbox/demos/block1.svg" },
-  { id: 2, url: "/sandbox/docs/blocks/blog", title: "Blog", thumnail: "/img/sandbox/demos/block2.svg" },
+  { id: 1, url: "/sandbox/docs/blocks/about", title: "About", thumnail: "/img/demos/block1.svg" },
+  { id: 2, url: "/sandbox/docs/blocks/blog", title: "Blog", thumnail: "/img/demos/block2.svg" },
   {
     id: 3,
     url: "/sandbox/docs/blocks/call-to-action",
     title: "Call to Action",
-    thumnail: "/img/sandbox/demos/block3.svg"
+    thumnail: "/img/demos/block3.svg"
   },
-  { id: 4, url: "/sandbox/docs/blocks/clients", title: "Clients", thumnail: "/img/sandbox/demos/block4.svg" },
-  { id: 5, url: "/sandbox/docs/blocks/contact", title: "Contact", thumnail: "/img/sandbox/demos/block5.svg" },
-  { id: 6, url: "/sandbox/docs/blocks/facts", title: "Facts", thumnail: "/img/sandbox/demos/block6.svg" },
-  { id: 7, url: "/sandbox/docs/blocks/faq", title: "FAQ", thumnail: "/img/sandbox/demos/block7.svg" },
-  { id: 8, url: "/sandbox/docs/blocks/features", title: "Features", thumnail: "/img/sandbox/demos/block8.svg" },
-  { id: 9, url: "/sandbox/docs/blocks/footer", title: "Footer", thumnail: "/img/sandbox/demos/block9.svg" },
-  { id: 10, url: "/sandbox/docs/blocks/hero", title: "Hero", thumnail: "/img/sandbox/demos/block10.svg" },
-  { id: 11, url: "/sandbox/docs/blocks/navbar", title: "Navbar", thumnail: "/img/sandbox/demos/block11.svg" },
-  { id: 12, url: "/sandbox/docs/blocks/portfolio", title: "Portfolio", thumnail: "/img/sandbox/demos/block12.svg" },
-  { id: 13, url: "/sandbox/docs/blocks/pricing", title: "Pricing", thumnail: "/img/sandbox/demos/block13.svg" },
-  { id: 14, url: "/sandbox/docs/blocks/process", title: "Process", thumnail: "/img/sandbox/demos/block14.svg" },
-  { id: 15, url: "/sandbox/docs/blocks/team", title: "Team", thumnail: "/img/sandbox/demos/block15.svg" },
+  { id: 4, url: "/sandbox/docs/blocks/clients", title: "Clients", thumnail: "/img/demos/block4.svg" },
+  { id: 5, url: "/sandbox/docs/blocks/contact", title: "Contact", thumnail: "/img/demos/block5.svg" },
+  { id: 6, url: "/sandbox/docs/blocks/facts", title: "Facts", thumnail: "/img/demos/block6.svg" },
+  { id: 7, url: "/sandbox/docs/blocks/faq", title: "FAQ", thumnail: "/img/demos/block7.svg" },
+  { id: 8, url: "/sandbox/docs/blocks/features", title: "Features", thumnail: "/img/demos/block8.svg" },
+  { id: 9, url: "/sandbox/docs/blocks/footer", title: "Footer", thumnail: "/img/demos/block9.svg" },
+  { id: 10, url: "/sandbox/docs/blocks/hero", title: "Hero", thumnail: "/img/demos/block10.svg" },
+  { id: 11, url: "/sandbox/docs/blocks/navbar", title: "Navbar", thumnail: "/img/demos/block11.svg" },
+  { id: 12, url: "/sandbox/docs/blocks/portfolio", title: "Portfolio", thumnail: "/img/demos/block12.svg" },
+  { id: 13, url: "/sandbox/docs/blocks/pricing", title: "Pricing", thumnail: "/img/demos/block13.svg" },
+  { id: 14, url: "/sandbox/docs/blocks/process", title: "Process", thumnail: "/img/demos/block14.svg" },
+  { id: 15, url: "/sandbox/docs/blocks/team", title: "Team", thumnail: "/img/demos/block15.svg" },
   {
     id: 16,
     url: "/sandbox/docs/blocks/testimonials",
     title: "Testimonials",
-    thumnail: "/img/sandbox/demos/block16.svg"
+    thumnail: "/img/demos/block16.svg"
   }
 ];
 

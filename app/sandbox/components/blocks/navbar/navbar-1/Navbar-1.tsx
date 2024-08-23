@@ -23,6 +23,7 @@ import BlocksNavItem from "../components/blocks-nav-item";
 import ProjectsNavItem from "../components/projects-nav-item";
 import DocumentationNavItem from "../components/documentation-nav-item";
 
+
 // ===================================================================
 interface NavbarProps {
   info?: boolean;
@@ -55,7 +56,7 @@ export default function NavbarOne({
   useNestedDropdown();
   const sticky = useSticky(350);
   const navbarRef = useRef<HTMLElement | null>(null);
-
+  const IsHome = typeof window !== 'undefined' && window.location.pathname === '/';
   // dynamically render the logo
   const logo = sticky ? "logo-dark" : logoAlt ?? "logo-dark";
 
@@ -66,26 +67,28 @@ export default function NavbarOne({
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100">
-        <NextLink href="/sandbox" title={<img alt="logo" src={`../../img/agency/logo-dark.png`} srcSet={`/img/${logo}@2x.png 2x`} />} />
+        <NextLink href="/" title={<img alt="logo" src={`../../img/agency/logo-dark.png`} srcSet={`/img/${logo}@2x.png 2x`} />} />
       </div>
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         <div className="offcanvas-header d-lg-none">
-          <h3 className="text-white fs-30 mb-0">Sandbox</h3>
+          <h3 className="text-white fs-30 mb-0">Anstett Solutions Pro</h3>
           <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-white" />
         </div>
 
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav">
             {/* Ajout du bouton rapide */}
-            <li className="nav-item">
-              <NextLink href="/" title="Retour Agency" className="nav-link" />
-            </li>
+            {!IsHome && (
+                <li className="nav-item">
+                  <NextLink href="/" title="Retour" className="nav-link" />
+                </li>
+            )}          
 
             {/* ===================== demos nav item ===================== */}
             <DemosNavItem />
             {/* ===================== demos nav item ===================== */}
-            <DemosAspNavItem />
+            {/*<DemosAspNavItem />*/}
             {/*  ===================== pages nav item  ===================== */}
             <PagesNavItem />
 
@@ -99,7 +102,7 @@ export default function NavbarOne({
             <BlocksNavItem />
 
             {/* ===================== documentation nav item ===================== */}
-            <DocumentationNavItem />
+            {/*<DocumentationNavItem />*/}
           </ul>
 
           {/* ============= show contact info in the small device sidebar ============= */}

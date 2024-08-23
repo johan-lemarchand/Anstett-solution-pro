@@ -44,8 +44,8 @@ export default function Footer19() {
                     anstett.solutions.pro@gmail.com
                   </a>{" "}
                   <br className="d-none d-md-block" />
-                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
-                    anstett.solutions.pro@gmail.com
+                  <a href="mailto:exemple.second.mail@gmail.com" className="link-body">
+                      exemple.second.mail@gmail.com
                   </a>
                 </p>
               </Widget>

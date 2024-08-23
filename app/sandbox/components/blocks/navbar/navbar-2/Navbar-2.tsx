@@ -73,7 +73,7 @@ export default function Navbar2({
               data-bs-scroll="true"
               className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
               <div className="offcanvas-header d-lg-none">
-                <h3 className="text-white fs-30 mb-0">Sandbox</h3>
+                <h3 className="text-white fs-30 mb-0">Anstett Solutions Pro</h3>
                 <button
                   type="button"
                   aria-label="Close"
@@ -84,6 +84,10 @@ export default function Navbar2({
 
               <div className="offcanvas-body d-flex flex-column h-100">
                 <ul className="navbar-nav">
+                  {/* Ajout du bouton rapide */}
+                  <li className="nav-item">
+                    <NextLink href="/" title="Retour" className="nav-link" />
+                  </li>
                   {/* ===================== demos nav item ===================== */}
                   <DemosNavItem />
 
@@ -100,7 +104,7 @@ export default function Navbar2({
                   <BlocksNavItem />
 
                   {/* ===================== documentation nav item ===================== */}
-                  <DocumentationNavItem />
+                  {/*<DocumentationNavItem />*/}
                 </ul>
 
                 {/* ============= show contact info in the small device sidebar ============= */}

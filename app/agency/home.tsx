@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
 import NavbarAgency from "@components/navbar";
+import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
+import NextLink from "app/sandbox/components/reuseable/links/NextLink";
 import HeroAgency from "@components/blocks/hero/HeroAgency";
 import FactsAgency from "@components/blocks/facts/FactsAgency";
 import AboutAgency  from "@components/blocks/about/AboutAgency";
@@ -18,7 +20,12 @@ export default function homeAgency() {
     <Fragment>
       {/* ========== header ========== */}
         <header className="wrapper bg-soft-primary">
-            <NavbarAgency logoAlt="logo-dark" stickyBox={false}/>
+          {/*<NavbarAgency logoAlt="logo-dark" stickyBox={false}/>*/}
+          <Navbar
+              search
+              navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light"
+              button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          />
         </header>
         {/* ========== main content ========== */}
         <main className="content-wrapper">
