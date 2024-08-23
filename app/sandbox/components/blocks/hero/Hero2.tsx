@@ -25,7 +25,7 @@ export default function Hero2() {
         </h1>
 
         <p className="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0" style={slideInDownAnimate("900ms")}>
-          Nous avons pensé à nos solutions pour accompagner chaque étape de votre croissance.
+          Nous avons pensé nos solutions pour accompagner chaque étape de votre croissance.
         </p>
 
         <div className="d-flex justify-content-center justify-content-lg-start">

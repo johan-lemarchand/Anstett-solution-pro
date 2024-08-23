@@ -44,7 +44,7 @@ export default function Demo5() {
               bulletColor="red"
               colOne={<Tiles7 />}
               rowClassNames="mb-14 mb-md-18"
-              title="Nous avons pensé à nos solutions pour accompagner chaque étape de croissance."
+              title="Nous avons pensé nos solutions pour accompagner chaque étape de croissance."
               description="Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor
               fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
               tellus ac cursus commodo."
@@ -55,7 +55,7 @@ export default function Demo5() {
               colOne={<Tiles8 />}
               bulletColor="green"
               rowClassNames="mb-14 mb-md-18"
-              title="Opter pour un contrôle parfait."
+              title="Optez pour un contrôle parfait."
               description="Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor
               fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
               tellus ac cursus commodo."

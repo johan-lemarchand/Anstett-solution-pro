@@ -20,7 +20,7 @@ export default function Hero9() {
         <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0">
             <h1 className="display-1 mb-5 mx-md-10 mx-lg-0" style={slideInDownAnimate("600ms")}>
-              Anstett Solutions Pro est sans effort et puissant avec <br />
+              Anstett Solutions Pro vos projets sans effort mais puissant avec <br />
               <span className="typer text-primary text-nowrap">
                 <Typewriter options={OPTIONS} />
               </span>

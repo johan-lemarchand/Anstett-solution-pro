@@ -16,7 +16,7 @@ export default function Demo33() {
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary my-1">
         <Navbar
-          button={<NextLink title="Contact Me" href="#" className="btn btn-sm btn-primary" />}
+          button={<NextLink title="Contactez-moi" href="#" className="btn btn-sm btn-primary" />}
           navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light"
         />
       </header>

@@ -9,7 +9,7 @@ export default function Process11() {
       <div className="row mb-8 text-center">
         <div className="col-lg-8 col-xl-7 col-xxl-6 mx-auto">
           <h2 className="fs-16 text-uppercase text-primary mb-3">Stratégie d'entreprise</h2>
-          <h3 className="display-4">JInstallez-vous confortablement et détendez-vous pendant que nous prenons soin de vos besoins professionnels.</h3>
+          <h3 className="display-4">Installez-vous confortablement et détendez-vous pendant que nous prenons soin de vos besoins professionnels.</h3>
         </div>
       </div>
 

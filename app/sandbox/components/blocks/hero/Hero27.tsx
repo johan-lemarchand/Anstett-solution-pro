@@ -14,7 +14,7 @@ export default function Hero27() {
             data-interval="-200"
             data-delay="500">
             <h2 className="display-1 fs-56 mb-4 mt-0 mt-lg-5 ls-xs pe-xl-5 pe-xxl-0">
-            Nous apportons des solutions pour rendre la vie <span className="underline-3 style-3 yellow">plus facile</span>
+            Nous apportons des solutions pour vous rendre la vie <span className="underline-3 style-3 yellow">plus facile</span>
             </h2>
             <p className="lead fs-23 lh-sm mb-7 pe-lg-5 pe-xl-5 pe-xxl-0">
             Nous sommes une entreprise créative qui se concentre sur les relations à long terme avec les clients.

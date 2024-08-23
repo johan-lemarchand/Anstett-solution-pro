@@ -12,7 +12,7 @@ export default function CTA9() {
             <h2 className="display-4 text-white mt-2 mb-7">
               Je suis là pour immortaliser vos moments. Vous cherchez un photographe attentionné, amusant et passionné?
             </h2>
-            <NextLink title="Contact Me" href="#" className="btn btn-white rounded-pill mb-5" />
+            <NextLink title="Contactez-moi" href="#" className="btn btn-white rounded-pill mb-5" />
           </div>
         </div>
       </div>

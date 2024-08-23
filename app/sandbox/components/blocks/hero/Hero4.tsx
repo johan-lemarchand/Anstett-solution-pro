@@ -18,7 +18,7 @@ export default function Hero4() {
               Installez-vous confortablement et détendez-vous pendant que nous prenons soin de vos besoins professionnels.
               </h1>
               <p className="lead fs-25 lh-sm mb-7 pe-md-10" style={slideInDownAnimate("900ms")}>
-              Nous assurons un contrôle parfait de vos dépenses, sans stress.
+              Nous assurons un contrôle parfait de vos projets, sans stress.
               </p>
 
               <div

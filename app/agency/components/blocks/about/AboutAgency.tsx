@@ -29,7 +29,7 @@ export default function AboutAgency() {
 
       <div className="col-lg-6">
         <h3 className="display-3 mb-8">
-          Passé à la  <span className="underline-3 style-2 yellow">vitesse supérieure</span>
+          Passez à la  <span className="underline-3 style-2 yellow">vitesse supérieure</span>
         </h3>
 
         <div className="row gy-6">

@@ -37,7 +37,7 @@ export default function CTA13() {
               </p>
 
               <Link href="#" className="btn btn-lg btn-primary btn-icon btn-icon-end">
-                Contact Me <i className="uil uil-arrow-up-right" />
+                Contactez-moi <i className="uil uil-arrow-up-right" />
               </Link>
             </div>
           </div>
