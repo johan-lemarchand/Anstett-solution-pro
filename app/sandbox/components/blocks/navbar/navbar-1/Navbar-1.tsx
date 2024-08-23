@@ -67,12 +67,12 @@ export default function NavbarOne({
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100">
-        <NextLink href="/" title={<img alt="logo" src={`../../img/agency/logo-dark.png`} srcSet={`/img/${logo}@2x.png 2x`} />} />
+        <NextLink href="/" title={<img alt="logo" src={`../../img/agency/${logo}.png`} srcSet={`/img/${logo}@2x.png 2x`} />} />
       </div>
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         <div className="offcanvas-header d-lg-none">
-          <h3 className="text-white fs-30 mb-0">Anstett Solutions Pro</h3>
+          <h3 className="text-white fs-30 mb-0">Anstett Solutions</h3>
           <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-white" />
         </div>
 
