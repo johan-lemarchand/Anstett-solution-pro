@@ -14,11 +14,11 @@ export default function Pricing3() {
     <div className="row gy-6 mb-16 mb-md-18">
       <div className="col-lg-4">
         <h2 className="fs-16 text-uppercase text-line text-primary mt-lg-18 mb-3">Nos tarifs</h2>
-        <h3 className="display-4 mb-3">Nous offrons des prix très intéressants.</h3>
+        <h3 className="display-4 mb-3">Nous offrons des prix attractifs.</h3>
 
         <p>
-         Profitez de  <NextLink title="30 jours d'essai gratuit" href="#" className="hover" /> et profitez du service complet! 
-         pas de carte de crédit requise !
+         Profitez de  <NextLink title="30 jours d'essai" href="#" className="hover" /> et du service complet! 
+         Pas de carte de crédit requise !
         </p>
 
         <NextLink href="#" title="Voir tous les tarifs" className="btn btn-primary rounded mt-2" />

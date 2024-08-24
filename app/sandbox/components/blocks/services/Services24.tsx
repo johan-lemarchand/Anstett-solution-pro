@@ -10,7 +10,7 @@ export default function Services24() {
           <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
             <h2 className="fs-16 text-uppercase text-primary mb-3">Que faisons-nous?</h2>
             <h3 className="display-3 mb-10 px-xxl-10">
-              Le service que nous offrons est spécialement conçu pour répondre à vos besoins..
+              Le service que nous offrons est spécialement conçu pour répondre à vos besoins.
             </h3>
           </div>
         </div>

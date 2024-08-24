@@ -57,7 +57,7 @@ export default function Footer18() {
           <div className="col-md-12 col-lg-3">
             <div className="widget">
               <h4 className="widget-title ls-sm mb-3">Notre newsletter</h4>
-              <p className="mb-5">Abonnez-vous à notre newsletter pour recevoir nos nouvelles et nos offres.</p>
+              <p className="mb-5">Abonnez-vous à notre newsletter pour recevoir nos nouvelles &amp; nos offres.</p>
               <div className="newsletter-wrapper">
                 <div id="mc_embed_signup2">
                   <form

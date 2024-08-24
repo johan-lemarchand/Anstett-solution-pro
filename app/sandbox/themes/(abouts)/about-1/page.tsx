@@ -17,7 +17,7 @@ export default function About() {
           <div className="row">
             <div className="col-xl-6 mx-auto">
               <h1 className="display-1 mb-4">Bonjour! C’est Anstett Solutions Pro</h1>
-              <p className="lead fs-lg mb-0">Une entreprise qui transforme les idées en belles choses.</p>
+              <p className="lead fs-lg mb-0">Une entreprise qui transforme les idées en créations remarquables.</p>
             </div>
           </div>
         </div>

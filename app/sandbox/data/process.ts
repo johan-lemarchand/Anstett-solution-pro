@@ -17,7 +17,7 @@ export const processList1 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "Collecter des idées",
+    title: "Collecte  d'idées",
     subtitle: "Nulla vitae elit libero pharetra augue dapibus."
   },
   {
@@ -28,7 +28,7 @@ export const processList1 = [
   },
   {
     no: "3",
-    title: "Finaliser le produit",
+    title: "Finalisation du produit",
     className: "mx-lg-6 mt-6",
     subtitle: "Cras mattis consectetur purus sit amet."
   }
@@ -63,7 +63,7 @@ export const processList3 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "Collecter des idées",
+    title: "Collecte  d'idées",
     subtitle: "Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus."
   },
   {
@@ -74,7 +74,7 @@ export const processList3 = [
   },
   {
     no: "3",
-    title: "Finaliser le produit",
+    title: "Finalisation du produit",
     className: "mx-lg-6 mt-6",
     subtitle: "Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed."
   }
@@ -84,7 +84,7 @@ export const processList3 = [
 export const processList4 = [
   {
     no: "1",
-    title: "Collecter des idées",
+    title: "Collecte  d'idées",
     subtitle: "Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus."
   },
   {
@@ -94,7 +94,7 @@ export const processList4 = [
   },
   {
     no: "3",
-    title: "Finaliser le produit",
+    title: "Finalisation du produit",
     subtitle: "Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed."
   }
 ];
@@ -134,14 +134,14 @@ export const processList6 = [
     id: 2,
     color: "red",
     Icon: SmartphoneTwo,
-    title: "2. Création de Profile",
+    title: "2. Création de Profil",
     description: "Nulla vitae elit libero elit non porta eget."
   },
   {
     id: 3,
     color: "aqua",
     Icon: Rocket,
-    title: "3. Start",
+    title: "3. C'est parti!",
     description: "Nulla vitae elit libero elit non porta eget."
   }
 ];
@@ -151,7 +151,7 @@ export const processList7 = [
   {
     id: 1,
     Icon: LightBulb,
-    title: "Collecter des idées",
+    title: "Collecte  d'idées",
     description: "Nulla vitae elit libero pharetra augue dapibus."
   },
   {
@@ -182,7 +182,7 @@ export const processList8 = [
     id: 2,
     Icon: Savings,
     iconColor: "green",
-    title: "Faturations",
+    title: "Facturations",
     className: "d-flex flex-row mb-5",
     description: "Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna."
   },
@@ -202,7 +202,7 @@ export const processList9 = [
     no: "01",
     className: "",
     color: "purple",
-    title: "Collecter des idées",
+    title: "Collecte  d'idées",
     subtitle: "Nulla vitae elit libero pharetra augue dapibus. Fusce dapibus, tellus ac cursus commodo."
   },
   {
@@ -216,7 +216,7 @@ export const processList9 = [
     no: "03",
     color: "orange",
     className: "mt-8",
-    title: "Finaliser le produit",
+    title: "Finalisation du produit",
     subtitle: "Cras mattis consectetur purus sit amet massa justo sit amet risus consectetur magna elit."
   }
 ];
@@ -226,7 +226,7 @@ export const processList10 = [
   {
     id: 1,
     Icon: Bulb,
-    title: "1. Collecter des idées",
+    title: "1. Collecte  d'idées",
     description: "Etiam porta malesuada magna mollis euismod consectetur leo elit."
   },
   {
@@ -238,7 +238,7 @@ export const processList10 = [
   {
     id: 1,
     Icon: DeliveryBox,
-    title: "3. Finaliser le produit",
+    title: "3. Finalisation du produit",
     description: "Etiam porta malesuada magna mollis euismod consectetur leo elit."
   }
 ];
@@ -248,7 +248,7 @@ export const processList11 = [
   { id: 1, title: "Idées originales", description: "Nulla vitae elit libero a augue donec id elit non mi porta." },
   { id: 2, title: "Touche de magie", description: "Nulla vitae elit libero a augue donec id elit non mi porta." },
   { id: 3, title: "Analyse de données", description: "Nulla vitae elit libero a augue donec id elit non mi porta." },
-  { id: 4, title: "Finaliser le produit", description: "Nulla vitae elit libero a augue donec id elit non mi porta." }
+  { id: 4, title: "Finalisation du produit", description: "Nulla vitae elit libero a augue donec id elit non mi porta." }
 ];
 
 // used in the about-25 block

@@ -10,7 +10,7 @@ export default function FAQ3() {
           <div className="col-lg-6">
             <h3 className="display-4 mb-4">Questions fréquemment posées</h3>
             <p className="lead fs-lg mb-0">
-            Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un courriel depuis notre formulaire de contact.
+            Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un email depuis notre formulaire de contact.
             </p>
           </div>
 

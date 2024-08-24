@@ -16,8 +16,7 @@ export default function Hero31() {
             </h1>
 
             <p className="lead fs-24 lh-sm mb-7">
-              Nous sommes une entreprise créative qui valorise la qualité et se concentre sur l’établissement de relations à long terme avec
-              clients.
+            Nous sommes une entreprise innovante qui privilégie la qualité de ses services et s'engage à bâtir des relations durables avec ses clients.
             </p>
 
             <div>

@@ -10,7 +10,7 @@ export default function Services17() {
         <div className="row mb-8 text-center">
           <div className="col-lg-8 col-xl-7 mx-auto">
             <h2 className="fs-16 text-uppercase text-primary mb-3">Ce que l'on fait</h2>
-            <h3 className="display-4">Nous rendons vos projets sans stress pour que vous ayez le contrôle parfait.</h3>
+            <h3 className="display-4">Nous rendons vos projets sans stress pour avoir un contrôle parfait.</h3>
           </div>
         </div>
 

@@ -7,7 +7,7 @@ export default function Facts20() {
         <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
           <h2 className="fs-16 text-uppercase text-muted mb-3">Rejoindre notre communauté</h2>
           <h3 className="display-2 ls-sm">
-          Nous sommes{" "}
+          Nous sommes reconnus{" "}
             <span className="underline-3 style-1 primary">
               <em>digne de confiance</em>
             </span>{" "}

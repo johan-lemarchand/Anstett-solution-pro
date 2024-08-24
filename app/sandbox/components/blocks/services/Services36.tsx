@@ -6,7 +6,7 @@ export default function Services36() {
   return (
     <div className="row d-flex align-items-start gy-10 mb-18 mb-md-20">
       <div className="col-lg-5 position-lg-sticky" style={{ top: "8rem" }}>
-        <h3 className="display-2 mb-5">Le service nous offrons est spécialement conçu pour répondre à vos besoins.</h3>
+        <h3 className="display-2 mb-5">Le service que j'offre est spécialement conçu pour répondre à vos besoins.</h3>
 
         <p className="mb-7">
           Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Integer

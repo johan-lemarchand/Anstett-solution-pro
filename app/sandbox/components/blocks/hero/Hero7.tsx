@@ -9,12 +9,11 @@ export default function Hero7() {
         <div className="row text-center">
           <div className="col-lg-9 col-xxl-7 mx-auto">
             <h2 className="display-1 mb-4" style={zoomInAnimate("0ms")}>
-              Creative. Intelligent. Incroyable.
+            Créatif. Intelligent. Incroyable.
             </h2>
 
             <p className="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10 mb-7" style={zoomInAnimate("500ms")}>
-            Nous sommes une agence de conception web et mobile primée qui croit fermement au pouvoir de la créativité
-            idées.
+            Nous sommes une agence de conception web et mobile primée qui croit fermement au pouvoir de la créativité.
             </p>
           </div>
         </div>

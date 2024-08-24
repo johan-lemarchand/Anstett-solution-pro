@@ -20,7 +20,7 @@ export default function Services11() {
         <h2 className="display-4 mb-3">Que faisons-nous?</h2>
         <p className="lead fs-lg mb-8 pe-xxl-2">
         Le service complet que nous offrons est <span className="underline">spécifiquement</span> conçu pour répondre à vos
-        besoins et projets de votre entreprises.
+        besoins et projets d'entreprise.
         </p>
 
         <div className="row gx-xl-10 gy-6">

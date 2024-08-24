@@ -11,7 +11,7 @@ export default function Contact5() {
       <div className="col-lg-5">
         <h2 className="display-4 mb-3">Parlons-en</h2>
         <p className="lead fs-lg">
-        Créons quelque chose de grand ensemble. Nous avons la confiance de plus de 5000 clients. Rejoignez-les par
+        Créons quelque chose de grand ensemble. Nous avons la confiance de plus de 5000 clients. Rejoignez-les pour
         utiliser nos services et faire croître votre entreprise.
         </p>
 

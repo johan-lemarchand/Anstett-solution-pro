@@ -46,7 +46,7 @@ export default function Footer20() {
                 <h3 className="h2 mb-3 text-white">Rejoindre la communauté</h3>
 
                 <p className="mb-5">
-                Créons quelque chose de grand ensemble. Nous avons la confiance de plus de 5000 clients. Rejoignez-les en utilisant notre
+                Créons quelque chose de grand ensemble. Nous avons la confiance de plus de 5000 clients. Rejoignez-les en utilisant nos
                 services et développez votre entreprise.
                 </p>
                 <p className="mb-1">© 2024 Anstett Solutions Pro. Tous droits réservés.</p>

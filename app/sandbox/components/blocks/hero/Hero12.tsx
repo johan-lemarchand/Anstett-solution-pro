@@ -9,11 +9,11 @@ export default function Hero12() {
         <div className="row gx-lg-8 gx-xl-12 gy-10 mb-5 align-items-center">
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0">
             <h1 className="display-1 mb-5 mx-md-n5 mx-lg-0" style={slideInDownAnimate("600ms")}>
-              Creative. Smart. Awesome.
+            Créatif. Intelligent. Incroyable.
             </h1>
 
             <p className="lead fs-lg mb-7" style={slideInDownAnimate("900ms")}>
-            Nous nous concentrons sur le web, le mobile et le design. Notre passion est de convertir les idées en belles choses.
+            Nous nous concentrons sur le web, le mobile et le design. Notre passion est de convertir les idées en créations remarquables.
             </p>
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>

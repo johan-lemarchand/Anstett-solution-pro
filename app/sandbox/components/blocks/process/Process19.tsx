@@ -39,8 +39,7 @@ export default function Process19() {
 
           <h2 className="fs-16 text-uppercase text-muted mb-3">Comment ça marche</h2>
           <h3 className="display-3 mb-8 px-xl-6">
-            Téléchargez l’application, créez votre profil et <span className="text-gradient gradient-7">voilà</span>, vous êtes
-            tout est prêt !
+            Téléchargez l’application, créez votre profil et <span className="text-gradient gradient-7">voilà</span>, c'est prêt !
           </h3>
         </div>
       </div>

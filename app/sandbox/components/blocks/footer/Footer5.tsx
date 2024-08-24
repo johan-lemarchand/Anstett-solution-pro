@@ -54,7 +54,7 @@ export default function Footer5() {
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Notre newsletter</h4>
               <p className="mb-5">
-                Abonnez-vous à notre newsletter &amp; pour recevoir nos nouvelles et nos offres.
+                Abonnez-vous à notre newsletter pour recevoir nos nouvelles &amp; nos offres.
               </p>
 
               <div className="newsletter-wrapper">

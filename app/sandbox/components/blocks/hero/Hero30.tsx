@@ -52,8 +52,8 @@ export default function Hero30() {
 
           <div data-cues="slideInDown" data-group="page-title">
             <h1 className="display-1 fs-64 mb-5 mx-md-10 mx-lg-0">
-            Nous sommes une agence web numérique spécialisée dans <br />
-            <span className="rotator-fade text-primary">web design. ,SEO services. ,e-commerce. ,Google Adwords.</span>
+            Nous sommes une agence web numérique spécialisée dans<br />
+            <span className="rotator-fade text-primary">Le web design. le SEO. l'e-commerce,Google Adwords</span>
             </h1>
 
             <p className="lead fs-24 mb-8">

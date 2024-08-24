@@ -30,7 +30,7 @@ export default function Footer7() {
             <div className="widget">
               <h3 className="h2 mb-3 ">Rejoindre la communauté</h3>
               <p className="lead mb-5">
-              Nous voulons faire quelque chose de grand ensemble. Plus de 5000 clients nous font confiance. Rejoignez-les en utilisant notre
+              Nous voulons faire quelque chose de grand ensemble. Plus de 5000 clients nous font confiance. Rejoignez-les en utilisant nos
               services et développez votre entreprise.
               </p>
               <NextLink title="Rejoignez-nous" href="#" className="btn  btn-primary rounded-pill" />

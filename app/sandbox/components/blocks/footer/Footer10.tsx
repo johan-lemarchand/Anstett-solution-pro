@@ -31,7 +31,7 @@ export default function Footer10() {
               <h3 className="h2 mb-3 text-white">Rejoindre la communauté</h3>
               <p className="lead mb-5">
               Nous voulons faire quelque chose de grand ensemble. Plus de 5000 clients nous font confiance. 
-              Rejoignez-les en utilisant notre
+              Rejoignez-les en utilisant nos
               services et développez votre entreprise.
               </p>
               <NextLink title="Rejoignez-nous" href="#" className="btn btn-white rounded-pill" />

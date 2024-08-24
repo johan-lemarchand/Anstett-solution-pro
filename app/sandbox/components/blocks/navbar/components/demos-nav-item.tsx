@@ -29,7 +29,7 @@ export default function DemosNavItem() {
 
           <span className="d-none d-lg-flex">
             <i className="uil uil-direction" />
-            <strong>Scroll to view more</strong>
+            <strong>Défiler pour voir plus</strong>
           </span>
         </li>
       </ul>

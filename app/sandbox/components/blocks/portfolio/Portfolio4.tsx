@@ -12,8 +12,7 @@ export default function Portfolio4() {
             <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
               <i className="icn-flower text-leaf fs-30 opacity-25"></i>
               <h2 className="display-5 text-center mt-2 mb-10">
-              Quelques-unes des histoires d’amour merveilleuses <br className="d-none d-md-block" /> J’ai été témoin et j’ai eu la chance de
-              capturer
+              Quelques-unes des merveilleuses histoires d’amour<br className="d-none d-md-block" /> dont j’ai été témoin et que j’ai eu la chance de capturer.
               </h2>
             </div>
           </div>

@@ -19,7 +19,7 @@ export default function Hero28() {
             Je suis un <em>designer de marque</em> basé à New York.
             </h3>
             <p className="lead fs-22">
-            Je suis très passionné par le travail que je fais, et si vous êtes curieux vous pouvez trouver mes œuvres sur{" "}
+            Je suis profondément passionnée par le travail que je réalise et si vous êtes curieux vous pouvez trouver mes œuvres sur{" "}
               <Link href="#" className="hover" style={{ color: "var(--bs-dribbble)" }}>
                 Dribbble
               </Link>

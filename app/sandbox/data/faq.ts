@@ -10,7 +10,7 @@ export const accordionList1 = [
     {
       no: "Two",
       expand: false,
-      heading: "Quels modes de paiement acceptez-vous ?",
+      heading: "Quels modes de paiement acceptez-vous?",
       body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
     },
     {
@@ -36,7 +36,7 @@ export const accordionList1 = [
     {
       no: "Six",
       expand: false,
-      heading: "Proposez-vous un essai gratuit ?",
+      heading: "Proposez-vous un essai gratuit?",
       body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
     }
   ]
@@ -59,7 +59,7 @@ export const accordionList2 = [
   {
     no: "Three",
     expand: false,
-    heading: "Proposez-vous un essai gratuit ?",
+    heading: "Proposez-vous un essai gratuit?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   },
   {
@@ -87,7 +87,7 @@ export const accordionList3 = [
   {
     no: "Three",
     expand: false,
-    heading: "Proposez-vous un essai gratuit ?",
+    heading: "Proposez-vous un essai gratuit?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   },
   {

@@ -29,7 +29,7 @@ export default function Process20() {
       <div className="col-lg-5 text-inverse">
         <h2 className="display-2 mb-3 text-white">Notre processus de travail</h2>
         <p className="lead fs-lg pe-lg-5">
-          Découvrez tout ce que vous devez savoir et plus sur la façon dont nous créons nos modèles de processus d’affaires.
+          Découvrez tout ce qu'il faut savoir et plus encore sur la façon dont nous créons nos modèles de processus d’affaires.
         </p>
 
         <p>

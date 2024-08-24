@@ -62,7 +62,7 @@ export default function ServicesTwo() {
             </div>
 
             <div className="col-lg-5">
-              <h3 className="display-4 mb-5">Nous rendons vos dépenses sans stress pour que vous ayez le contrôle parfait.</h3>
+              <h3 className="display-4 mb-5">Nous rendons vos dépenses sans stress pour avoir un contrôle parfait.</h3>
 
               <p className="mb-6">
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
@@ -83,7 +83,7 @@ export default function ServicesTwo() {
             <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
               <h2 className="fs-15 text-uppercase text-muted mb-3">Nos tarifs</h2>
               <h3 className="display-4 mb-15 mb-md-6 px-lg-10">
-                Nous offrons des prix avantageux, des produits de qualité supérieure et un service de qualité pour votre entreprise.
+                Nous offrons des prix avantageux, des produits de qualité supérieure et un service optimal pour votre entreprise.
               </h3>
             </div>
           </div>

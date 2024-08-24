@@ -38,7 +38,7 @@ export default function Footer3({ hiddenNewsletter }: Footer3Props) {
                 <div className="col-lg-7">
                   <h3 className="display-5 text-white">Inscrivez-vous à notre newsletter</h3>
                   <p className="lead pe-lg-12 mb-0 text-white">
-                    Abonnez-vous à notre newsletter  &amp; pour recevoir nos nouvelles et nos offres.
+                    Abonnez-vous à notre newsletter pour recevoir nos nouvelles &amp; nos offres.
                   </p>
                 </div>
 
@@ -97,7 +97,7 @@ export default function Footer3({ hiddenNewsletter }: Footer3Props) {
             <div className="widget">
               <h3 className="h2 mb-3 ">Rejoindre la communauté</h3>
               <p className="lead mb-5">
-              Nous voulons faire quelque chose de grand ensemble. Plus de 5000 clients font confiance à notre entreprise. Rejoignez-les en utilisant notre
+              Nous voulons faire quelque chose de grand ensemble. Plus de 5000 clients font confiance à notre entreprise. Rejoignez-les en utilisant nos
               services.
               </p>
               <NextLink title="Rejoignez-nous" href="#" className="btn  btn-primary rounded-pill" />

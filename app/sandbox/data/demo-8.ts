@@ -85,19 +85,19 @@ const accordions = [
   {
     no: 'Two',
     expand: false,
-    heading: 'Existe-t-il des rabais ?',
+    heading: 'Existe-t-il des rabais?',
     body: 'Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.'
   },
   {
     no: 'Three',
     expand: false,
-    heading: 'Proposez-vous un essai gratuit ?',
+    heading: 'Proposez-vous un essai gratuit?',
     body: 'Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.'
   },
   {
     no: 'Four',
     expand: false,
-    heading: 'Comment puis-je réinitialiser mon mot de passe ?',
+    heading: 'Comment puis-je réinitialiser mon mot de passe?',
     body: 'Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.'
   }
 ];

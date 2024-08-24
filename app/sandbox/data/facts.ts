@@ -16,7 +16,7 @@ export const factList2 = [
   { id: 1, amount: 7518, title: 'Projets Réalisés' },
   { id: 2, amount: 3472, title: 'Clients Satisfaits' },
   { id: 3, amount: 2184, title: 'Employés Spécialisés' },
-  { id: 4, amount: 4523, title: 'Prix Décernés' }
+  { id: 4, amount: 423, title: 'Prix Décernés' }
 ];
 
 // used in the facts-4 block
@@ -31,7 +31,7 @@ export const factList4 = [
   { id: 1, value: 7518, Icon: Check, title: 'Projets Réalisés' },
   { id: 2, value: 3472, Icon: User, title: 'Clients Satisfaits' },
   { id: 3, value: 2184, Icon: BriefcaseTwo, title: 'Employés Spécialisés' },
-  { id: 4, value: 4523, Icon: AwardTwo, title: 'Prix Décernés' }
+  { id: 4, value: 253, Icon: AwardTwo, title: 'Prix Décernés' }
 ];
 
 // used in the facts-7, facts-10, facts-11 block
@@ -45,7 +45,7 @@ export const factList5 = [
 export const factList6 = [
   { id: 1, title: 'Projets Réalisés', amount: 7518 },
   { id: 2, title: 'Clients Satisfaits', amount: 3472 },
-  { id: 3, title: 'Employés Spécialisés', amount: 2184 },
+  { id: 3, title: 'Prix Décernés', amount: 184 },
   { id: 4, title: 'Employés Spécialisés', amount: 4523 }
 ];
 

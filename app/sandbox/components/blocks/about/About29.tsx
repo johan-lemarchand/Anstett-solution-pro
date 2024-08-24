@@ -15,8 +15,7 @@ export default function About29() {
         </h2>
 
         <p className="lead fs-lg">
-        Je suis Julia, une créatrice de marque basée à New York. Je suis très passionnée par le travail que
-        Je fais.
+        Je suis Julia, une créatrice de marque basée à New York. Je suis profondément passionnée par le travail que je réalise.
         </p>
 
         <p>

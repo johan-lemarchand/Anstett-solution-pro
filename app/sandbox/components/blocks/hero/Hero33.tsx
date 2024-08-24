@@ -31,7 +31,7 @@ export default function Hero33() {
               </h1>
 
               <p className="lead fs-24 px-md-10 px-lg-0 mx-lg-n10 mx-xl-0 mb-8">
-              Je suis très passionné par le travail que je fais, et si vous êtes curieux vous pouvez trouver mes œuvres sur{" "}
+              Je suis très passionné par le travail que je fais et si vous êtes curieux vous pouvez trouver mes œuvres sur{" "}
                 <a href="#" className="hover" style={{ color: "var(--bs-dribbble)" }}>
                   Dribbble
                 </a>

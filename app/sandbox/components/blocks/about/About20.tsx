@@ -30,7 +30,7 @@ export default function About20() {
       <div className="col-lg-6">
         <h2 className="fs-16 text-uppercase text-muted mb-3">En quoi sommes-nous différents ?</h2>
         <h3 className="display-3 mb-8">
-          Nous apportons <span className="underline-3 style-2 yellow">des solutions</span> Pour faciliter la vie de nos clients.
+          Nous apportons <span className="underline-3 style-2 yellow">des solutions</span> pour faciliter la vie de nos clients.
         </h3>
 
         <div className="row gy-6">

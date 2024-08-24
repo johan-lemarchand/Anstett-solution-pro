@@ -17,7 +17,7 @@ export default function Services33() {
             <span className="underline-3 style-1 primary">
               <em>conçu</em>
             </span>{" "}
-            répondre à vos besoins commerciaux.
+            pour répondre à vos besoins commerciaux.
           </h3>
         </div>
       </div>
@@ -84,7 +84,7 @@ export default function Services33() {
             <LayoutTwo />
           </div>
 
-          <h3 className="h1 post-title ls-sm mb-3">Web Design & Development</h3>
+          <h3 className="h1 post-title ls-sm mb-3">Web Design & Développement</h3>
 
           <p>
             Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis

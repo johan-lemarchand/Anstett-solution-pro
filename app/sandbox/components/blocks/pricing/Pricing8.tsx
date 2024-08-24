@@ -16,7 +16,7 @@ export default function Pricing8() {
         <div className="col-md-11 col-lg-9 col-xl-8 mx-auto">
           <h2 className="fs-16 text-uppercase text-muted mb-3">Nos tarifs</h2>
           <h3 className="display-4 mb-10 px-xxl-10">
-          Nous offrons des prix avantageux, des produits de qualité supérieure et un service de qualité pour votre entreprise.
+          Nous offrons des prix avantageux, des produits de qualité supérieure et un service optimal pour votre entreprise.
           </h3>
         </div>
       </div>

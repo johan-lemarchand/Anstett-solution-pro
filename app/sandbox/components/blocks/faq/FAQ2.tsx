@@ -14,7 +14,7 @@ export default function FAQ2({ titleColor = "primary" }: Faq2Props) {
           <div className="col-lg-11 col-xxl-10 mx-auto text-center">
             <h2 className={`fs-15 text-uppercase text-${titleColor} mb-3`}>FAQ</h2>
             <h3 className="display-4 mb-10 px-lg-12 px-xl-10 px-xxl-15">
-              Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un courriel depuis notre formulaire de contact.
+              Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un email depuis notre formulaire de contact.
             </h3>
           </div>
         </div>

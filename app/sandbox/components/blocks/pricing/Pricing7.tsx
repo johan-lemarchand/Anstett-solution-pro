@@ -15,10 +15,10 @@ export default function Pricing7() {
       <div className="col-lg-4">
         <h2 className="display-4 mt-lg-18 mb-3">Nos tarifs</h2>
         <p className="lead fs-lg">
-          Nous offrons <span className="underline">des prix</span>, très intéressants.
+          Nous offrons des prix <span className="underline">attractifs.</span>
         </p>
         <p className="mb-5">
-          Profitez de <NextLink title="30 jours d'essai gratuit" href="#" className="hover" /> et profitez du service complet pas de carte de crédit requise !
+          Profitez de <NextLink title="30 jours d'essai" href="#" className="hover" /> et du service complet! Pas de carte de crédit requise !
         </p>
 
         <NextLink href="#" title="Voir tous les tarifs" className="btn btn-primary rounded-pill mt-2" />

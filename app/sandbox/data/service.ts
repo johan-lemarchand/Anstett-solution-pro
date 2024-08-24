@@ -283,7 +283,7 @@ export const serviceList8 = [
   {
     id: 3,
     Icon: SettingsThree,
-    title: 'Development',
+    title: 'Développement',
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
   },
   {

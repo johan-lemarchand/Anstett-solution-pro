@@ -54,7 +54,7 @@ const processList = [
   {
     no: '1',
     className: 'me-lg-6',
-    title: 'Collecter des idées',
+    title: 'Collecte  d\'idées',
     subtitle: 'Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus.'
   },
   {
@@ -65,7 +65,7 @@ const processList = [
   },
   {
     no: '3',
-    title: 'Finaliser le produit',
+    title: 'Finalisation du produit',
     className: 'mx-lg-6 mt-6',
     subtitle: 'Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed.'
   }

@@ -22,7 +22,7 @@ export const processList = [
   {
     id: '02',
     color: color.fuchsia,
-    title: 'Analyse des données',
+    title: 'Analyser des données',
     description: 'Cras mattis consectetur purus sit amet.',
     className: 'card rounded-xl ms-lg-13 mt-6 bg-pale-fuchsia'
   },

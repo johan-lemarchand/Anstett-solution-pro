@@ -23,7 +23,7 @@ export default function Hero34() {
               </span>
             </h1>
             <p className="lead fs-23 mb-7" style={slideInDownAnimate("900ms")}>
-              Créez un site web performant et SEO en quelques minutes avec Anstett Solutions Pro.
+              Créez un site web performant et optimisé pour le SEO en quelques minutes avec Anstett Solutions Pro.            
             </p>
             <div
               className="d-flex justify-content-center justify-content-lg-start mb-4"

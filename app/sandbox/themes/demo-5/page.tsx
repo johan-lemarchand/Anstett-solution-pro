@@ -55,7 +55,7 @@ export default function Demo5() {
               colOne={<Tiles8 />}
               bulletColor="green"
               rowClassNames="mb-14 mb-md-18"
-              title="Gérez vos dépenses sans stress pour que vous ayez le contrôle parfait."
+              title="Gérez vos dépenses sans stress pour avoir un contrôle parfait."
               description="Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor
               fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
               tellus ac cursus commodo."

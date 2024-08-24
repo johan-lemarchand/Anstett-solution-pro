@@ -9,7 +9,7 @@ export default function Portfolio15() {
       <div className="container">
         <div className="row">
           <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
-            <h2 className="display-2 mb-4">Creative. Smart. Awesome.</h2>
+            <h2 className="display-2 mb-4">Créatif. Intelligent. Génial.</h2>
             <p className="lead fs-lg mb-11">
               Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus
               eget urna.

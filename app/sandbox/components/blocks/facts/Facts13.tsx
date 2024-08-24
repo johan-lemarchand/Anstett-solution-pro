@@ -14,7 +14,7 @@ export default function Facts13() {
             <h2 className="fs-16 text-uppercase text-muted mb-3">Épargner temps et argent</h2>
             <h3 className="display-3 mb-0 pe-xl-10 pe-xxl-15">
             Gagnez du temps et de l’argent en choisissant notre <span className="underline-3 style-2 yellow">équipe</span>{" "}
-            professionnel.
+            professionnelle.
             </h3>
           </div>
 

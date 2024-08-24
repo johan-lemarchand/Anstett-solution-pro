@@ -7,7 +7,7 @@ export default function CTA12() {
         <h2 className="fs-16 text-uppercase text-white mb-3">Rejoindre notre communauté</h2>
 
         <h3 className="display-3 text-white mb-6">
-        Nous sommes{" "}
+        Nous sommes reconnus{" "}
           <span className="underline-2 underline-gradient-6">
             <em>digne de confiance</em>
           </span>{" "}

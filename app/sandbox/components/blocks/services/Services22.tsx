@@ -33,7 +33,7 @@ export default function Services22() {
             </div>
 
             <div>
-              <h4 className="mb-1">Collecter des idées</h4>
+              <h4 className="mb-1">Collecte  d'idées</h4>
               <p>Duis mollis commodo luctus cursus commodo tortor mauris.</p>
             </div>
           </a>
@@ -71,7 +71,7 @@ export default function Services22() {
             </div>
 
             <div>
-              <h4 className="mb-1">Produit Finale </h4>
+              <h4 className="mb-1">Produit Final</h4>
               <p>Vestibulum ligula porta felis maecenas faucibus mollis.</p>
             </div>
           </a>
@@ -88,7 +88,7 @@ export default function Services22() {
               </figure>
             </div>
 
-            <List title="Collecter des idées" color="fuchsia" />
+            <List title="Collecte  d'idées" color="fuchsia" />
           </div>
         </div>
 

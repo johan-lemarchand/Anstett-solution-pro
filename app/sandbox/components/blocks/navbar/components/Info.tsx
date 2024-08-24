@@ -43,7 +43,7 @@ export default function Info({
         </div>
 
         <div className="widget mb-8">
-          <h4 className="widget-title text-white mb-3">Contact Info</h4>
+          <h4 className="widget-title text-white mb-3">Information de contact</h4>
           {address ? (
             <address>{address}</address>
           ) : (
@@ -72,7 +72,7 @@ export default function Info({
         </div>
 
         <div className="widget">
-          <h4 className="widget-title text-white mb-3">Follow Us</h4>
+          <h4 className="widget-title text-white mb-3">Suivez-nous</h4>
           <SocialLinks className="nav social social-white" />
         </div>
       </div>

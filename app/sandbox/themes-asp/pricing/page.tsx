@@ -33,7 +33,7 @@ export default function Pricing() {
               <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
                 <h1 className="display-1 mb-3">Nos tarifs</h1>
                 <p className="lead mb-0 px-xl-10 px-xxl-13">
-                Nous offrons des prix avantageux, des produits de qualité supérieure et un service de qualité pour votre entreprise.
+                Nous offrons des prix avantageux, des produits de qualité supérieure et un service optimal pour votre entreprise.
                 </p>
               </div>
             </div>

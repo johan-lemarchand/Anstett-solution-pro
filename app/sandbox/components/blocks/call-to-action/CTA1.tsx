@@ -6,7 +6,7 @@ export default function CTA1() {
           <div className="col-lg-7 order-lg-2">
             <figure>
               <img
-                alt="Analyser maintenant"
+                alt="Analysez maintenant"
                 className="w-auto"
                 src="/img/illustrations/i3.png"
                 srcSet="/img/illustrations/i3@2x.png 2x"
@@ -15,7 +15,7 @@ export default function CTA1() {
           </div>
 
           <div className="col-lg-5">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">Analyser maintenant</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">Analysez maintenant</h2>
             <h3 className="display-4 mb-5">
               Vous vous demandez à quel point votre site peut aller plus vite? Vérifiez facilement votre score SEO maintenant.
             </h3>

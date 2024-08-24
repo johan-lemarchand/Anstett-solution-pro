@@ -42,7 +42,7 @@ export default function Hero16() {
             </h1>
 
             <p className="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0" style={slideInDownAnimate("900ms")}>
-            Bonjour! Je m’appelle Julia, je suis conceptrice et développeur d’interfaces utilisateur indépendante à Londres. Je suis très passionnée.
+            Bonjour! Je m’appelle Julia, je suis conceptrice et développeur d’interfaces utilisateur indépendante à Londres. Je suis très passionnée
             sur le travail que je fais.
             </p>
 

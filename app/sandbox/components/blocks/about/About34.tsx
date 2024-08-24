@@ -17,8 +17,7 @@ export default function About34() {
             <h2 className="display-2 mb-3">Plus à mon sujet</h2>
 
             <p className="lead fs-24">
-            👋 Bonjour! Je suis Camille, une designer de produits multidisciplinaire 🧸 basée à New York 🚕. Je suis très
-            Je suis passionnée par le travail 💌 que je fais.
+            👋 Bonjour ! Je suis Camille, une designer de produits multidisciplinaire 🧸 basée à New York 🚕. Je suis profondément passionnée par le travail que je réalise 💌.
             </p>
 
             <p>
@@ -42,7 +41,7 @@ export default function About34() {
             <h2 className="display-2 mb-3">Mes expériences</h2>
 
             <p className="lead fs-24 pe-xxl-8">
-            J’ai eu le plaisir de travailler avec des entreprises 🏢 dans une variété d’industries 🏛️ Je suis toujours intéressé par
+            J’ai eu le plaisir de travailler avec des entreprises 🏢 dans une variété d’industries 🏛️ Je suis toujours intéressée par
             de nouvelles rencontres ✨ et des aventures passionnantes 🧨
             </p>
 

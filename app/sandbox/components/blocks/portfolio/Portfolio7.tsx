@@ -8,7 +8,7 @@ export default function Portfolio7() {
           <div className="col-md-8 col-lg-8 col-xl-7 col-xxl-6 pe-lg-17">
             <h2 className="display-4 mb-3">Projets récents</h2>
             <p className="lead fs-lg">
-              Nous aimons transformer les idées en <span className="underline">en belles réalisations</span>.
+              Nous aimons transformer les idées en <span className="underline">belles réalisations</span>.
             </p>
           </div>
         </div>

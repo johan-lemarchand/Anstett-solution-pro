@@ -11,7 +11,7 @@ export default function CTA4() {
             <h2 className="fs-16 text-uppercase text-white mb-3 text-line">Rejoindre notre communauté</h2>
             <h3 className="display-4 mb-5 mb-6 text-white pe-xxl-18">
             Plus de 5000 clients nous font confiance. Rejoignez-les en utilisant nos services et développez votre
-            affaires.
+            affaire.
             </h3>
 
             <NextLink href="#" title="Rejoignez-nous" className="btn btn-white rounded mb-0 text-nowrap" />

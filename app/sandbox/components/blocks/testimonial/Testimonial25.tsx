@@ -15,7 +15,7 @@ export default function Testimonial25() {
               <span className="underline-3 style-1 primary">
                 <em>clients</em>
               </span>{" "}
-              Disent de nous.
+              disent de nous.
             </h3>
           </div>
         </div>

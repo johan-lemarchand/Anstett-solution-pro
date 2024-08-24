@@ -20,14 +20,15 @@ export default function Hero9() {
         <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0">
             <h1 className="display-1 mb-5 mx-md-10 mx-lg-0" style={slideInDownAnimate("600ms")}>
-              Anstett Solutions Pro vos projets sans effort mais puissant avec <br />
+              Anstett Solutions Pro,
+              des projets puissants avec <br />
               <span className="typer text-primary text-nowrap">
                 <Typewriter options={OPTIONS} />
               </span>
             </h1>
 
             <p className="lead fs-lg mb-7" style={slideInDownAnimate("900ms")}>
-            Atteignez vos objectifs d’épargne.Vos dépenses, revenus récurrents et ponctuels en un seul endroit.</p>
+            Atteignez vos objectifs d’épargne. Vos dépenses, revenus récurrents et ponctuels en un seul endroit.</p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>

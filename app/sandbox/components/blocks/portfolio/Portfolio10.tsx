@@ -13,7 +13,7 @@ export default function Portfolio10() {
         <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center">
           <h2 className="fs-16 text-uppercase text-muted mb-3">Dernières réalisations</h2>
           <h3 className="display-3 mb-10">
-          Découvrez quelques-uns de nos projets géniaux avec des idées <span className="underline-3 style-2 yellow">creative</span>{" "}
+          Découvrez quelques-uns de nos projets géniaux avec des idées <span className="underline-3 style-2 yellow">créatives</span>{" "}
           et design.
           </h3>
         </div>

@@ -56,7 +56,7 @@ export default function Footer1() {
           <div className="col-md-12 col-lg-3">
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Notre newsletter</h4>
-              <p className="mb-5">Abonnez-vous à notre newsletter pour recevoir nos actualités &amp; ainsi que nos offres.</p>
+              <p className="mb-5">Abonnez-vous à notre newsletter pour recevoir nos actualités &amp; nos offres.</p>
 
               <div className="newsletter-wrapper">
                 <div id="mc_embed_signup2">

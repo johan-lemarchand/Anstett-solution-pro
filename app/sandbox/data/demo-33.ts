@@ -101,19 +101,19 @@ export const timelines = [
   {
     id: 1,
     duration: 'NOV 2017 - PRÉSENT',
-    title: 'Directeur de création à Malory House',
+    title: 'Directrice de création à Malory House',
     description: `Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non euismod id nulla.`
   },
   {
     id: 2,
     duration: 'SEP 2015 - AVR 2017',
-    title: 'Directeur de création à Malory House',
+    title: 'Directrice des Opérations à Malory House',
     description: `Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis eu pede mollis pretium. Pellentesque ut neque.`
   },
   {
     id: 3,
     duration: 'MAI 2011 - SEPTEMBRE 2015',
-    title: 'Directeur de création à Malory House',
+    title: 'Directrice du Développement Stratégique à Malory House',
     description: `Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.`
   }
 ];

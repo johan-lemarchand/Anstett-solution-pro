@@ -8,12 +8,12 @@ export default function Hero26() {
           <div className="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="900">
             <h1 className="display-1 mb-4 me-xl-5 mt-lg-n10">
             Développez votre entreprise avec <br className="d-none d-md-block d-lg-none" />
-            <span className="text-primary">Nos solutions marketing</span>
+            <span className="text-primary">nos solutions marketing</span>
             </h1>
 
             <p className="lead fs-24 lh-sm mb-7 pe-xxl-15">
-            Nous aidons nos clients à augmenter le trafic de leur site web <br className="d-none d-md-block d-lg-none" />,
-            Classement et visibilité dans les résultats de recherche.
+            Nous aidons nos clients à augmenter le trafic de leur site web<br className="d-none d-md-block d-lg-none" />,
+            classement et visibilité dans les résultats de recherche.
             </p>
 
             <div className="d-inline-flex me-2">

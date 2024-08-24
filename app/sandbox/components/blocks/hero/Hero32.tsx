@@ -14,7 +14,7 @@ export default function Hero32() {
             <h2 className="h6 text-uppercase ls-xl text-white mb-5">Bonjour! Nous sommes Anstett Solutions Pro</h2>
 
             <h1 className="display-1 fs-68 lh-xxs mb-8 text-white">
-            Nous avons examiné nos solutions à{" "}
+            Nous avons examiné nos solutions pour{" "}
               <span className="underline-2 underline-gradient-6">
                 <em>chaque</em>
               </span>{" "}

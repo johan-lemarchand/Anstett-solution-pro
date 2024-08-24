@@ -29,7 +29,7 @@ export default function Portfolio5() {
           <div className="row">
             <div className="col-lg-10 col-xl-8 col-xxl-7 mx-auto mb-8">
               <h2 className="display-5 mb-3">Mes clichés sélectionnés</h2>
-              <p className="lead fs-lg">La photographie est ma passion et j’aime transformer Les idées en un instant unique.</p>
+              <p className="lead fs-lg">La photographie est ma passion et j’aime transformer vos idées en un instant unique.</p>
             </div>
           </div>
 

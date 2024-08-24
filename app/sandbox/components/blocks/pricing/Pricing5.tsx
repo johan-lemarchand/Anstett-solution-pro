@@ -12,9 +12,9 @@ export default function Pricing5() {
   return (
     <div className="row gy-6 align-items-center mb-14 mb-md-18">
       <div className="col-lg-4">
-        <h3 className="display-4 mb-5">Nous offrons des prix très intéressants </h3>
+        <h3 className="display-4 mb-5">Nous offrons des prix attractifs </h3>
         <p className="lead fs-lg mb-5">
-          Profitez de <span className="underline">30 jours d'essai gratuit</span> et profitez du service complet! pas de carte de crédit requise !
+          Profitez de <span className="underline">30 jours d'essai</span> et du service complet! Pas de carte de crédit requise !
         </p>
 
         <NextLink title="Voir tous les tarifs" href="#" className="btn btn-primary rounded-pill mt-2" />

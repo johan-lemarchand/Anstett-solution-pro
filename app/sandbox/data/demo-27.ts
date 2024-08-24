@@ -65,7 +65,7 @@ const processList = [
   {
     id: 1,
     Icon: LightBulb,
-    title: 'Collecter des idées',
+    title: 'Collecte  d\'idées',
     description: 'Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus.'
   },
   {
@@ -140,7 +140,7 @@ const faqList = [
   {
     id: 2,
     Icon: Wallet,
-    title: 'Quels modes de paiement acceptez-vous ?',
+    title: 'Quels modes de paiement acceptez-vous?',
     description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.`
   },
   {

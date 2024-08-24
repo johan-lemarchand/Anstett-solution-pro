@@ -29,12 +29,12 @@ export default function Demo34() {
         <div className="container">
           <div className="alert-inner d-flex justify-content-center align-items-center p-0">
             <p className="mb-0">
-              HTML version of Sandbox is released! Grab a copy{" "}
+            La version HTML d'Anstett Solutions Pro est disponible! Prenez une copie{" "}
               <a
                 href="https://sandbox.elemisthemes.com"
                 className="link-white hover d-inline-flex align-items-center"
                 target="_blank">
-                here <i className="uil uil-arrow-up-right" />
+                ici <i className="uil uil-arrow-up-right" />
               </a>
             </p>
           </div>

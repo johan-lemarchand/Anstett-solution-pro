@@ -13,7 +13,7 @@ export default function Hero5() {
             </h1>
 
             <p className="lead fs-lg px-xl-12 px-xxl-6 mb-7" style={slideInDownAnimate("300ms")}>
-              Atteignez facilement vos objectifs d’épargne. Ayez toutes vos dépenses et revenus récurrents et ponctuels en un seul endroit.
+              Atteignez facilement vos objectifs d’épargne. Ayez toutes vos dépenses, revenus récurrents et ponctuels en un seul endroit.
             </p>
 
             <div className="d-flex justify-content-center" style={slideInDownAnimate("600ms")}>

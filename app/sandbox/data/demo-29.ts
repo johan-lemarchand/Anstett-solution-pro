@@ -52,7 +52,7 @@ export const abouts = [
     id: 4,
     Icon: Devices,
     color: color.yellow,
-    title: 'Synchronisés entre appareils',
+    title: 'Synchronisation entre appareils',
     description: `Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna.`
   },
   {

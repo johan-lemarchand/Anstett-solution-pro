@@ -104,7 +104,7 @@ const faq = [
   },
   {
     id: 2,
-    title: 'Quels modes de paiement acceptez-vous ?',
+    title: 'Quels modes de paiement acceptez-vous?',
     description: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod maecenas.`
   },
   {

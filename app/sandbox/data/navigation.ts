@@ -86,7 +86,7 @@ const pages = [
   },
   {
     id: 22,
-    title: "About",
+    title: "À propos",
     children: [
       { id: 221, title: "About I", url: "/sandbox/themes/about-1" },
       { id: 222, title: "About II", url: "/sandbox/themes/about-2" }
@@ -94,7 +94,7 @@ const pages = [
   },
   {
     id: 23,
-    title: "Shop",
+    title: "E-Commerce",
     children: [
       { id: 231, title: "Shop I", url: "/sandbox/themes/shop-1" },
       { id: 232, title: "Shop II", url: "/sandbox/themes/shop-2" },
@@ -114,7 +114,7 @@ const pages = [
   },
   {
     id: 25,
-    title: "Career",
+    title: "Carrière",
     children: [
       { id: 251, title: "Job Listing I", url: "/sandbox/themes/career-1" },
       { id: 252, title: "Job Listing II", url: "/sandbox/themes/career-2" },
@@ -123,14 +123,14 @@ const pages = [
   },
   {
     id: 26,
-    title: "Utility",
+    title: "Module Connexion",
     children: [
       { id: 261, title: "404 Not Found", url: "/asdasdasdasd" },
       { id: 262, title: "Login I", url: "/sandbox/themes/login-1" },
       { id: 263, title: "Login II", url: "/sandbox/themes/login-2" },
       { id: 264, title: "Register I", url: "/sandbox/themes/register-1" },
       { id: 265, title: "Register II", url: "/sandbox/themes/register-2" },
-      { id: 266, title: "Terms & Condition", url: "/sandbox/themes/terms" }
+      { id: 266, title: "Terms & Conditions", url: "/sandbox/themes/terms" }
     ]
   }
 ];
@@ -138,7 +138,7 @@ const pages = [
 // projects pages link
 const projectsNavigation = [
   {
-    title: "PROJECT PAGES",
+    title: "Projets",
     children: [
       { id: 1, title: "Project I", url: "/sandbox/themes/projects-1" },
       { id: 2, title: "Project II", url: "/sandbox/themes/projects-2" },
@@ -147,7 +147,7 @@ const projectsNavigation = [
     ]
   },
   {
-    title: "SINGLE PROJECTS",
+    title: "Page D'exemple",
     children: [
       { id: 1, title: "Single Project I", url: "/sandbox/themes/single-project-1" },
       { id: 2, title: "Single Project II", url: "/sandbox/themes/single-project-2" },

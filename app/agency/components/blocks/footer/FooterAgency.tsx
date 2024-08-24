@@ -47,7 +47,7 @@ export default function FooterAgency() {
           <div className="col-md-12 col-lg-3">
             <div className="widget">
               <h4 className="widget-title mb-3">Notre newsletter</h4>
-              <p className="mb-5">Abonnez-vous à notre newsletter &amp; pour recevoir nos nouvelles et nos offres.</p>
+              <p className="mb-5">Abonnez-vous à notre newsletter pour recevoir nos nouvelles &amp; nos offres.</p>
 
               <div className="newsletter-wrapper">
                 <div id="mc_embed_signup2">

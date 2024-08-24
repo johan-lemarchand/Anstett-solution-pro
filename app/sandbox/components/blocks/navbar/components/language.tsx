@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // language list
-const supportLanguage = ["En", "Bn", "Es", "De"];
+const supportLanguage = ["Fr","En", "Bn", "Es", "De"];
 
 export default function Language() {
   const [language, setLanguage] = useState(supportLanguage[0]);
