@@ -22,7 +22,7 @@ export default function Demo3() {
         <Navbar
           search
           logoAlt="logo-light"
-          navClassName="navbar navbar-expand-lg center-nav transparent navbar-dark"
+          navClassName="navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed"
           button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded" />}
         />
       </header>

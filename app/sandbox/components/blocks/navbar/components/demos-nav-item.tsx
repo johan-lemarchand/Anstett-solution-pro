@@ -20,6 +20,7 @@ export default function DemosNavItem() {
                     src={`/img/demos/${thumnail}.jpg`}
                     srcSet={`/img/demos/${thumnail}@2x.jpg 2x`}
                     className="rounded lift d-none d-lg-block"
+                    width="185" height="135"
                   />
                   <span className="d-lg-none">{title}</span>
                 </Link>

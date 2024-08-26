@@ -51,7 +51,7 @@ export default function Demo34() {
               className="btn btn-primary rounded-pill"
               target="_blank"
               rel="noreferrer">
-              Purchase Now
+              Commander maintenant
             </a>
           }
         />
