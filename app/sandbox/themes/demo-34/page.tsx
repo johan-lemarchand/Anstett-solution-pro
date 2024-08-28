@@ -31,7 +31,7 @@ export default function Demo34() {
             <p className="mb-0">
             La version HTML d'Anstett Solutions Pro est disponible! Prenez une copie{" "}
               <a
-                href="https://sandbox.elemisthemes.com"
+                href="#"
                 className="link-white hover d-inline-flex align-items-center"
                 target="_blank">
                 ici <i className="uil uil-arrow-up-right" />
@@ -47,7 +47,7 @@ export default function Demo34() {
           logoAlt="logo-purple"
           button={
             <a
-              href="https://1.envato.market/Ea4VxK"
+              href="#"
               className="btn btn-primary rounded-pill"
               target="_blank"
               rel="noreferrer">
@@ -138,7 +138,7 @@ export default function Demo34() {
             </div>
 
             <div className="text-center mt-12">
-              <NextLink title="Voir toutes les démos" href="#" className="btn btn-primary rounded-pill" />
+              <NextLink title="Voir toutes les démos" href="#" className="btn btn-primary rounded-pill btn-demo" />
             </div>
           </div>
 
@@ -578,7 +578,7 @@ export default function Demo34() {
                 Blocs et pages prêts à l’emploi.
                 </p>
                 <a
-                  href="https://1.envato.market/Ea4VxK"
+                  href="#"
                   target="_blank"
                   className="btn btn-lg btn-primary rounded-pill mb-10"
                   rel="noreferrer">
