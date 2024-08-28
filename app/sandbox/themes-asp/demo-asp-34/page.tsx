@@ -29,9 +29,9 @@ export default function Demo34() {
         <div className="container">
           <div className="alert-inner d-flex justify-content-center align-items-center p-0">
             <p className="mb-0">
-            La version HTML d'Anstett Solutions Pro est disponible! Prenez une copie{" "}
+            La version HTML d'Anstett Solutions Pro estrenez une copie{" "}
               <a
-                href=""
+                href="#"
                 className="link-white hover d-inline-flex align-items-center"
                 target="_blank">
                 here <i className="uil uil-arrow-up-right" />
@@ -85,27 +85,23 @@ export default function Demo34() {
                           <div className="row gx-4 gx-md-7">
                             <div className="col-6">
                               <figure className="itooltip itooltip-yellow mt-9" title="Click to see the demo">
-                                <a href={link} target="_blank" rel="noreferrer">
                                   <img
                                     alt=""
                                     className="shadow-lg rounded-top"
                                     src={`/img/demos/${images[0]}.jpg`}
                                     srcSet={`/img/demos/${images[0]}@2x.jpg 2x`}
                                   />
-                                </a>
                               </figure>
                             </div>
 
                             <div className="col-6">
                               <figure className="itooltip itooltip-yellow" title="Click to see the demo">
-                                <a href={link} target="_blank" rel="noreferrer">
                                   <img
                                     alt=""
                                     className="shadow-lg rounded-bottom"
                                     src={`/img/demos/${images[1]}.jpg`}
                                     srcSet={`/img/demos/${images[1]}@2x.jpg 2x`}
                                   />
-                                </a>
                               </figure>
                             </div>
                           </div>
@@ -138,7 +134,7 @@ export default function Demo34() {
             </div>
 
             <div className="text-center mt-12">
-              <NextLink title="Voir toutes les démos" href="#" className="btn btn-primary rounded-pill" />
+              <NextLink title="Voir toutes les démos" href="#" className="btn btn-primary rounded-pill btn-demo" />
             </div>
           </div>
 

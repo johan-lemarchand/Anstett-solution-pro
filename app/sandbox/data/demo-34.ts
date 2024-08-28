@@ -2,21 +2,21 @@ export const demos = [
   {
     id: 'XVIII',
     color: 'navy',
-    link: '/sandbox/themes/demo-18',
+    link: '/themes/demo-18',
     images: ['d18-1', 'd18-2'],
     features: ['Network, Marketing', 'SVG icons', '3D illustrations', 'Gradient image']
   },
   {
     id: 'XIX',
     color: 'fuchsia',
-    link: '/sandbox/themes/demo-19',
+    link: '/themes/demo-19',
     images: ['d19-1', 'd19-2'],
     features: ['Agency, Startup', 'Gradient image', 'SVG icons', 'Colorful design']
   },
   {
     id: 'XX',
     color: 'purple',
-    link: '/sandbox/themes/demo-20',
+    link: '/themes/demo-20',
     images: ['d20-1', 'd20-2'],
     features: ['Agency, Startup', 'Framed layout', 'Illustrations', 'Video background']
   }

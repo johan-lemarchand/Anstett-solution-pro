@@ -12,9 +12,9 @@ import { Portfolio10 } from "app/sandbox/components/blocks/portfolio";
 import { Testimonial16 } from "app/sandbox/components/blocks/testimonial";
 import ServicesAgency2  from "@components/blocks/services/ServicesAgency2";
 import ServicesAgency from "@components/blocks/services/ServicesAgency";
-
 import Carousel from "app/sandbox/components/reuseable/Carousel";
- 
+
+
 export default function homeAgency() {
   return (
     <Fragment>
@@ -24,7 +24,7 @@ export default function homeAgency() {
           <Navbar
               search
               navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light"
-              button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+              button={<NextLink title="Contact" href="#navContact" className="btn btn-sm btn-primary rounded-pill" />}
           />
         </header>
         {/* ========== main content ========== */}
