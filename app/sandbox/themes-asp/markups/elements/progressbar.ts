@@ -4,15 +4,15 @@ const lineMarkup = `<ul className="progress-list">
   <div className="progressbar line blue" data-value="100" />
 </li>
 <li>
-  <p>Strategy</p>
+  <p>Stratégie</p>
   <div className="progressbar line green" data-value="80" />
 </li>
 <li>
-  <p>Development</p>
+  <p>Développement</p>
   <div className="progressbar line red" data-value="85" />
 </li>
 <li>
-  <p>Stabilization</p>
+  <p>Stabilisation</p>
   <div className="progressbar line yellow" data-value="75" />
 </li>
 </ul>

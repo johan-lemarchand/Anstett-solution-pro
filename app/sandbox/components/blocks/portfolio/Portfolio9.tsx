@@ -13,7 +13,7 @@ export default function Portfolio9() {
           </div>
 
           <div className="col-md-4 col-lg-3 ms-md-auto text-md-end mt-5 mt-md-0">
-            <NextLink title="See All Projects" href="#" className="btn btn-outline-primary rounded-pill mb-0" />
+            <NextLink title="Voir tous les projets" href="#" className="btn btn-outline-primary rounded-pill mb-0" />
           </div>
         </div>
 

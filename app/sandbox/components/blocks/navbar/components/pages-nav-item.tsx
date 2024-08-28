@@ -21,7 +21,7 @@ export default function PagesNavItem() {
           );
         })}
 
-        {/*<ListItemLink href="/pricing" title="Pricing" linkClassName="dropdown-item" />*/}
+        <ListItemLink href="/sandbox/themes/pricing" title="Pricing" linkClassName="dropdown-item" />
       </ul>
     </li>
   );

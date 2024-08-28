@@ -12,16 +12,16 @@ export default function Block({ id, markup, children }: BlockProps) {
     <section id={`snippet-${id}`} className="wrapper bg-light wrapper-border">
       {children}
 
-      <div className="container pb-15 pb-md-17 position-relative" style={{ zIndex: 3 }}>
+      {/*<div className="container pb-15 pb-md-17 position-relative" style={{ zIndex: 3 }}>
         <div className="card">
-          {/* <div className="card-footer border-0 position-relative">
+           <div className="card-footer border-0 position-relative">
             <a
               className="collapse-link collapsed stretched-link"
               data-bs-toggle="collapse"
               href={`#collapse-snippet-${id}`}>
                 Voir l’exemple
             </a>
-          </div> */}
+          </div> 
 
           <div id={`collapse-snippet-${id}`} className="card-footer bg-dark p-0 accordion-collapse collapse">
             <div className="code-wrapper">
@@ -31,7 +31,7 @@ export default function Block({ id, markup, children }: BlockProps) {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
     </section>
   );
 }

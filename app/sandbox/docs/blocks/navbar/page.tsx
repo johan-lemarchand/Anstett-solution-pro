@@ -7,7 +7,7 @@ import * as all from "app/sandbox/themes/markups/elements/navbar";
 export default function Navbar() {
   return (
     <Fragment>
-      <section className="wrapper bg-light">
+      {/*<section className="wrapper bg-light">
         <div className="container pt-15 pt-md-17">
           <div className="alert alert-blue alert-icon" role="alert">
             <i className="uil uil-exclamation-circle"></i> Disable dropdown hover by adding{" "}
@@ -27,7 +27,7 @@ export default function Navbar() {
             to add a link to dropdown parent.
           </div>
         </div>
-      </section>
+      </section>*/}
 
       <Block id={1} markup={all.markup1}>
         <div className="container pt-12">

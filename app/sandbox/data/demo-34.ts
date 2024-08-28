@@ -2,21 +2,21 @@ export const demos = [
   {
     id: 'XVIII',
     color: 'navy',
-    link: '/demo-18',
+    link: '/sandbox/themes/demo-18',
     images: ['d18-1', 'd18-2'],
     features: ['Network, Marketing', 'SVG icons', '3D illustrations', 'Gradient image']
   },
   {
     id: 'XIX',
     color: 'fuchsia',
-    link: '/demo-19',
+    link: '/sandbox/themes/demo-19',
     images: ['d19-1', 'd19-2'],
     features: ['Agency, Startup', 'Gradient image', 'SVG icons', 'Colorful design']
   },
   {
     id: 'XX',
     color: 'purple',
-    link: '/demo-20',
+    link: '/sandbox/themes/demo-20',
     images: ['d20-1', 'd20-2'],
     features: ['Agency, Startup', 'Framed layout', 'Illustrations', 'Video background']
   }
@@ -47,7 +47,7 @@ export const innerPages = [
 ];
 
 export const facts = [
-  { id: 1, value: 250, title: 'UI elements' },
-  { id: 2, value: 130, title: 'Pre-made blocks' },
-  { id: 3, value: 100, title: 'Neatly coded pages' }
+  { id: 1, value: 250, title: 'Éléments UI' },
+  { id: 2, value: 130, title: 'Blocs préconstruit' },
+  { id: 3, value: 100, title: 'Pages conçues avec soin' }
 ];

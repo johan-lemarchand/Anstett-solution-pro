@@ -4,9 +4,9 @@ import useProgressbar from "app/sandbox/hooks/useProgressbar";
 // CUSTOM DATA
 const list = [
   { id: 1, percent: 100, title: "Marketing", color: "blue" },
-  { id: 2, percent: 80, title: "Strategy", color: "yellow" },
-  { id: 3, percent: 85, title: "Development", color: "orange" },
-  { id: 4, percent: 90, title: "Data Analysis", color: "green" }
+  { id: 2, percent: 80, title: "Stratégie", color: "yellow" },
+  { id: 3, percent: 85, title: "Développement", color: "orange" },
+  { id: 4, percent: 90, title: "Analyse de données", color: "green" }
 ];
 
 export default function ProgressList() {

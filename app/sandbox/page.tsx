@@ -293,21 +293,21 @@ export default function SandboxHome() {
                     <h3 className="counter fs-50 text-primary mb-1">
                       <CountUp end={250} suffix="+" />
                     </h3>
-                    <p className="fs-18 mb-0">UI elements</p>
+                    <p className="fs-18 mb-0">Éléments UI</p>
                   </div>
 
                   <div className="col-md-4">
                     <h3 className="counter fs-50 text-primary mb-1">
                       <CountUp end={130} suffix="+" />
                     </h3>
-                    <p className="fs-18 mb-0">Pre-made blocks</p>
+                    <p className="fs-18 mb-0">Blocs préconstruit</p>
                   </div>
 
                   <div className="col-md-4">
                     <h3 className="counter fs-50 text-primary mb-1">
                       <CountUp end={100} suffix="+" />
                     </h3>
-                    <p className="fs-18 mb-0">Neatly coded pages</p>
+                    <p className="fs-18 mb-0">Pages conçues avec soin</p>
                   </div>
                 </div>
               </div>
@@ -369,7 +369,7 @@ export default function SandboxHome() {
                   </div>
 
                   <div>
-                    <h4 className="mb-1">Modern Portfolio Layouts</h4>
+                    <h4 className="mb-1">Configurations modernes de portfolio</h4>
                     <p className="mb-0">
                     Créez et maintenez sans effort un portfolio visuellement magnifique et impactant.
                     </p>

@@ -64,4 +64,17 @@ const card6Markup = `import { ServiceCard6 } from 'components/reuseable/service-
 />
 `;
 
-export { card1Markup, card2Markup, card3Markup, card4Markup, card5Markup, card6Markup };
+const card1AgencyMarkup = `import { ServiceCard1Agency } from 'components/reuseable/service-cards';
+import Search from 'icons/Search';
+
+<ServiceCard1Agency
+  linkUrl='#'
+  Icon={Search}
+  linkType='yellow'
+  linkText='En savoir plus'
+  title='SEO Services'
+  description='Nulla vitae elit libero, a pharetra augue.'
+/>
+`;
+
+export { card1Markup, card2Markup, card3Markup, card4Markup, card5Markup, card6Markup,card1AgencyMarkup };

@@ -23,20 +23,20 @@ const serviceList2 = [
   },
   {
     id: 2,
-    title: "Strategy",
+    title: "Stratégie",
     Icon: <Target className="icon-svg-md text-green mb-3" />,
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
   },
   {
     id: 3,
-    title: "Development",
+    title: "Développement",
     Icon: <SettingsThree />,
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
   },
   {
     id: 4,
     Icon: <BarChart />,
-    title: "Data Analysis",
+    title: "Analyse de données",
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
   }
 ];

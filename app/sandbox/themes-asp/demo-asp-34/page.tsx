@@ -138,7 +138,7 @@ export default function Demo34() {
             </div>
 
             <div className="text-center mt-12">
-              <NextLink title="See All Demos" href="#" className="btn btn-primary rounded-pill" />
+              <NextLink title="Voir toutes les démos" href="#" className="btn btn-primary rounded-pill" />
             </div>
           </div>
 
@@ -216,7 +216,7 @@ export default function Demo34() {
                   </div>
 
                   <div>
-                    <h4 className="mb-1">Modern Portfolio Layouts</h4>
+                    <h4 className="mb-1">Configurations modernes de portfolio</h4>
                     <p className="mb-0">
                     Créez et gérez un portfolio accrocheur et impressionnant rapidement et sans effort.
                     </p>
@@ -478,7 +478,7 @@ export default function Demo34() {
               <div className="col-lg-8 col-xl-7 mx-auto">
                 <h2 className="fs-15 ls-xl text-uppercase text-muted">Inner Pages</h2>
                 <h2 className="display-3 mt-3 mb-3 mb-0">
-                  Handcrafted and carefully put together pages to choose from.
+                  Pages faites à la main et soigneusement assemblées.
                 </h2>
               </div>
             </div>

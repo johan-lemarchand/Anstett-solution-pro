@@ -26,7 +26,7 @@ export default function FactsAgency() {
 
               <div className="col-md-6">
                 <div className="progressbar semi-circle orange" data-value="80" />
-                <h4 className="mb-0">Increased Revenue</h4>
+                <h4 className="mb-0">Visibilité accrue</h4>
               </div>
             </div>
           </div>

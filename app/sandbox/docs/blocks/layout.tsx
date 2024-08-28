@@ -48,9 +48,9 @@ export default function BlockLayout({ children }: PropsWithChildren) {
           <div className="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
             <div className="row">
               <div className="col-md-9 col-lg-7 col-xl-5 mx-auto">
-                <h1 className="display-1 mb-3">Blocks - {find ? find.title : "Title"}</h1>
+                <h1 className="display-1 mb-3">Bloc - {find ? find.title : "Title"}</h1>
                 <p className="lead px-xxl-10">
-                  Copy any custom block snippet below and paste it on your page to build your website easily.
+                  Une présentation de nos différents blocs - {find ? find.title : "Title"}
                 </p>
               </div>
             </div>
