@@ -37,10 +37,10 @@ export default function useProgressbar() {
               color: "inherit",
               position: "absolute",
               right: isCircle ? "0" : "0",
-              top: isCircle ? "0" : "-30px", // Changé de "50%" à "0" pour les cercles
+              top: isCircle ? "0" : "-30px",
               padding: 0,
               margin: 0,
-              transform: "none", // Supprimé la transformation
+              transform: "none",
               fontWeight: "500"
             },
             autoStyleContainer: false
@@ -65,8 +65,6 @@ export default function useProgressbar() {
         progressBarInstances.push(progressBar);
         waypoints.push(waypoint);
         e.setAttribute('data-initialized', 'true');
-
-        // Ajout d'un style supplémentaire pour les cercles semi-circulaires
         if (isCircle) {
           const textElement = e.querySelector('.progressbar-text');
           if (textElement instanceof HTMLElement) {
