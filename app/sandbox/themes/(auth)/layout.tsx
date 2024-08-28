@@ -10,7 +10,7 @@ import NextLink from "app/sandbox/components/reuseable/links/NextLink";
 export default function AuthLayout({ children }: PropsWithChildren) {
   const pathname = usePathname();
 
-  const routeSecond = ["/login-2", "/register-2"].includes(pathname);
+  const routeSecond = ["/login-2", "/register-2"].includes(pathname ?? '');
 
   return (
     <Fragment>
