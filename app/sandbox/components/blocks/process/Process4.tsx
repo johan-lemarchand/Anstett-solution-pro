@@ -27,9 +27,9 @@ export default function Process4() {
 
         <div className="row text-center mt-12">
           <div className="col-lg-9 mx-auto">
-            <h2 className="fs-15 text-uppercase text-muted mb-3">Our Process</h2>
+            <h2 className="fs-15 text-uppercase text-muted mb-3">Notre procédé</h2>
             <h3 className="display-4 mb-0 text-center px-xl-10 px-xxl-15">
-              Find out everything you need to know about creating a business process model
+             Apprenez tout ce dont vous avez besoin sur la création d'un modèle de processus métier.
             </h3>
 
             <div className="row gx-lg-8 gx-xl-12 process-wrapper text-center mt-9">

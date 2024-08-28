@@ -24,7 +24,7 @@ export default function BlogCard3({ title, category, description, link, image }:
           </Link>
 
           <figcaption>
-            <h5 className="from-top mb-0">Read More</h5>
+            <h5 className="from-top mb-0">En savoir plus</h5>
           </figcaption>
         </figure>
 
@@ -48,7 +48,7 @@ export default function BlogCard3({ title, category, description, link, image }:
           <ul className="post-meta d-flex mb-0">
             <li className="post-date">
               <i className="uil uil-calendar-alt" />
-              <span>14 Apr 2022</span>
+              <span>14 Avril 2022</span>
             </li>
 
             <li className="post-comments">

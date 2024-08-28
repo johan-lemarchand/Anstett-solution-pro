@@ -56,11 +56,11 @@ export default function ProductCard(props: ProductCardProps) {
         </a>
 
         <a className="item-cart">
-          <i className="uil uil-shopping-bag" /> Add to Cart
+          <i className="uil uil-shopping-bag" /> Ajouter au panier
         </a>
 
         {newProduct && badge("New!", "bg-aqua")}
-        {sale && badge("Sale!", "bg-pink")}
+        {sale && badge("Promo!", "bg-pink")}
       </figure>
 
       <div className="post-header">

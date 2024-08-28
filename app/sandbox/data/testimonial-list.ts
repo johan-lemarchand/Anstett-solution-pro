@@ -2,25 +2,25 @@
 export const testimonialList1 = [
   {
     name: 'Coriss Ambady',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financier',
     review: 'Cum sociis natoque penatibus et magnis dis parturient montes.',
     columnClasses: 'col-xl-5 align-self-end'
   },
   {
     name: 'Cory Zamora',
-    designation: 'Marketing Specialist',
+    designation: 'Spécialiste en marketing',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod.`,
     columnClasses: 'align-self-end'
   },
   {
     name: 'Barclay Widerski',
-    designation: 'Sales Specialist',
+    designation: 'Spécialiste des ventes',
     review: `Donec id elit non porta gravida at eget metus. Duis mollis est luctus commodo nisi erat.`,
     columnClasses: 'col-xl-5 offset-xl-1'
   },
   {
     name: 'Jackie Sanders',
-    designation: 'Investment Planner',
+    designation: 'Planificateur d\'Investissements',
     review: `Nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo pellentesque.`,
     columnClasses: 'align-self-start'
   }
@@ -30,28 +30,28 @@ export const testimonialList2 = [
   {
     name: 'Coriss Ambady',
     image: '/img/avatars/te7.jpg',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financier',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
       Vestibulum ligula porta felis euismod semper. Cras justo odio.`
   },
   {
     name: 'Cory Zamora',
     image: '/img/avatars/te8.jpg',
-    designation: 'Marketing Specialist',
+    designation: 'Spécialiste en marketing',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
       Vestibulum ligula porta felis euismod semper. Cras justo odio.`
   },
   {
     name: 'Barclay Widerski',
     image: '/img/avatars/te9.jpg',
-    designation: 'Sales Specialist',
+    designation: 'Spécialiste des ventes',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
       Vestibulum ligula porta felis euismod semper. Cras justo odio.`
   },
   {
     name: 'Jackie Sanders',
     image: '/img/avatars/te10.jpg',
-    designation: 'Investment Planner',
+    designation: 'Planificateur d\'Investissements',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio.`
   }
 ];
@@ -62,7 +62,7 @@ export const testimonialList3 = [
     id: 1,
     name: 'Coriss Ambady',
     image: '/img/avatars/te1.jpg',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financier',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
     felis euismod semper. Cras justo odio consectetur adipiscing dapibus.`
   },
@@ -70,7 +70,7 @@ export const testimonialList3 = [
     id: 2,
     name: 'Cory Zamora',
     image: '/img/avatars/te2.jpg',
-    designation: 'Marketing Specialist',
+    designation: 'Spécialiste en marketing',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
     felis euismod semper. Cras justo odio consectetur adipiscing dapibus.`
   },
@@ -78,7 +78,7 @@ export const testimonialList3 = [
     id: 3,
     name: 'Barclay Widerski',
     image: '/img/avatars/te3.jpg',
-    designation: 'Sales Specialist',
+    designation: 'Spécialiste des ventes',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
     felis euismod semper. Cras justo odio consectetur adipiscing dapibus.`
   }
@@ -89,25 +89,25 @@ export const testimonialList4 = [
   {
     id: 1,
     name: 'Coriss Ambady',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financier',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.`
   },
   {
     id: 2,
     name: 'Cory Zamora',
-    designation: 'Marketing Specialist',
+    designation: 'Spécialiste en marketing',
     review: `Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet purus fermentum.`
   },
   {
     id: 3,
     name: 'Nikolas Brooten',
-    designation: 'Sales Manager',
+    designation: 'Directeur commercial',
     review: `Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor eu rutrum. Nulla vitae libero.`
   },
   {
     id: 4,
     name: 'Coriss Ambady',
-    designation: 'Marketing Manager',
+    designation: 'Directeur marketing',
     review: `Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus eu tincidunt auctor nullam rutrum.`
   }
 ];
@@ -117,21 +117,21 @@ export const testimonialList5 = [
   {
     id: 1,
     name: 'Coriss Ambady',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financier',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis
     euismod semper. Cras justo odio.`
   },
   {
     id: 2,
     name: 'Cory Zamora',
-    designation: 'Marketing Specialist',
+    designation: 'Spécialiste en marketing',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis
     euismod semper. Cras justo odio.`
   },
   {
     id: 3,
     name: 'Nikolas Brooten',
-    designation: 'Sales Manager',
+    designation: 'Directeur des ventes',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis
     euismod semper. Cras justo odio.`
   }
@@ -167,31 +167,31 @@ export const testimonialList7 = [
   {
     id: 1,
     name: 'Coriss Ambady',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financier',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio.`
   },
   {
     id: 2,
     name: 'Cory Zamora',
-    designation: 'Marketing Specialist',
+    designation: 'Spécialiste en marketing',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio.`
   },
   {
     id: 3,
     name: 'Nikolas Brooten',
-    designation: 'Sales Specialist',
+    designation: 'Spécialiste des ventes',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio.`
   },
   {
     id: 4,
     name: 'Jackie Sanders',
-    designation: 'Investment Planner',
+    designation: 'Planificateur d\'Investissements',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio.`
   },
   {
     id: 5,
     name: 'Laura Widerski',
-    designation: 'Sales Specialist',
+    designation: 'Spécialiste des ventes',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio.`
   }
 ];

@@ -21,20 +21,20 @@ export default function Hero2() {
 
       <div className="col-lg-5 mt-lg-n10 text-center text-lg-start">
         <h1 className="display-1 mb-5" style={slideInDownAnimate("600ms")}>
-          We bring solutions to make life easier for our customers.
+          Nous apportons des solutions pour faciliter la vie de nos clients.
         </h1>
 
         <p className="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0" style={slideInDownAnimate("900ms")}>
-          We have considered our solutions to support every stage of your growth.
+          Nous avons pensé nos solutions pour accompagner chaque étape de votre croissance.
         </p>
 
         <div className="d-flex justify-content-center justify-content-lg-start">
           <span style={slideInDownAnimate("1200ms")}>
-            <NextLink title="Explore Now" href="#" className="btn btn-lg btn-primary rounded-pill me-2" />
+            <NextLink title="Découvrir maintenant" href="#" className="btn btn-lg btn-primary rounded-pill me-2" />
           </span>
 
           <span style={slideInDownAnimate("1500ms")}>
-            <NextLink title="Free Trial" href="#" className="btn btn-lg btn-outline-primary rounded-pill" />
+            <NextLink title="Essai gratuit" href="#" className="btn btn-lg btn-outline-primary rounded-pill" />
           </span>
         </div>
       </div>

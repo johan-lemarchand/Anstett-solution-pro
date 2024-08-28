@@ -10,11 +10,11 @@ export default function Services30() {
     <div className="row gx-lg-0 gy-10 align-items-center">
       <div className="col-lg-5 offset-lg-1 order-lg-2">
         <h2 className="display-3 mb-3">
-          My areas of <em>expertise</em>
+          Mes domaines<em> d’expertise</em>
         </h2>
 
         <p className="lead fs-lg">
-          The full service I am offering is specifically designed to meet your business needs.
+        Le service complet que j’offre est conçu spécifiquement pour répondre aux besoins de votre entreprise.
         </p>
 
         <p>
@@ -24,7 +24,7 @@ export default function Services30() {
         </p>
 
         <Link href="#" className="btn btn-primary rounded-pill mt-3">
-          More Details
+          Plus de détails
         </Link>
       </div>
 
@@ -36,12 +36,12 @@ export default function Services30() {
                 <div className="card shadow-lg mb-6">
                   <div className="card-body">
                     <Edit className="icon-svg-sm solid-duo text-purple-aqua mb-3" />
-                    <h3>Content Marketing</h3>
+                    <h3>Contenu marketing</h3>
                     <p className="mb-2">
                       Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.
                     </p>
                     <Link href="#" className="more hover link-primary">
-                      Learn More
+                    En savoir plus
                     </Link>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Services30() {
                       Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.
                     </p>
                     <Link href="#" className="more hover link-primary">
-                      Learn More
+                      En savoir plus
                     </Link>
                   </div>
                 </div>
@@ -70,12 +70,12 @@ export default function Services30() {
                 <div className="card shadow-lg mb-6 mb-md-0">
                   <div className="card-body">
                     <Lamp className="icon-svg-sm solid-duo text-purple-aqua mb-3" />
-                    <h3>Identity & Branding</h3>
+                    <h3>Identité et image de marque</h3>
                     <p className="mb-2">
                       Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.
                     </p>
                     <Link href="#" className="more hover link-primary">
-                      Learn More
+                      En savoir plus
                     </Link>
                   </div>
                 </div>
@@ -85,12 +85,12 @@ export default function Services30() {
                 <div className="card shadow-lg mb-md-6 mt-lg-6">
                   <div className="card-body">
                     <DeliveryBox className="icon-svg-sm solid-duo text-purple-aqua mb-3" />
-                    <h3>Product Design</h3>
+                    <h3>Conception de produits</h3>
                     <p className="mb-2">
                       Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.
                     </p>
                     <Link href="#" className="more hover link-primary">
-                      Learn More
+                      En savoir plus
                     </Link>
                   </div>
                 </div>

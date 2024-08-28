@@ -28,7 +28,7 @@ export default function BlogCard4(props: BlogCard4Props) {
           </Link>
 
           <figcaption>
-            <h5 className="from-top mb-0">Read More</h5>
+            <h5 className="from-top mb-0">En savoir plus</h5>
           </figcaption>
         </figure>
 

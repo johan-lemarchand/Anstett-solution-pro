@@ -10,9 +10,9 @@ export default function CTA9() {
           <div className="col-xl-10 col-xxl-8 mx-auto text-center">
             <i className="icn-flower text-white fs-30 opacity-50" />
             <h2 className="display-4 text-white mt-2 mb-7">
-              I'm here to capture your moments. Looking for a caring, fun, passionate photographer?
+              Je suis là pour immortaliser vos moments. Vous cherchez un photographe attentionné, amusant et passionné?
             </h2>
-            <NextLink title="Contact Me" href="#" className="btn btn-white rounded-pill mb-5" />
+            <NextLink title="Contactez-moi" href="#" className="btn btn-white rounded-pill mb-5" />
           </div>
         </div>
       </div>

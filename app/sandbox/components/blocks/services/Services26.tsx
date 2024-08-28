@@ -10,8 +10,8 @@ export default function Services26() {
           <div className="col-lg-12 col-xl-10 col-xxl-7 mx-auto text-center">
             <i className="icn-flower text-leaf fs-30 opacity-25" />
             <h2 className="display-5 text-center mt-2 mb-10">
-              I absolutely love shooting weddings and couples because there are so many feelings to capture.
-            </h2>
+            J’adore photographier les mariages et les couples parce qu’il y a tellement de sentiments à capturer.
+          </h2>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ export default function Services26() {
                   </Link>
 
                   <figcaption>
-                    <h5 className="from-top mb-0">View Gallery</h5>
+                    <h5 className="from-top mb-0">Regardez la Galerie</h5>
                   </figcaption>
                 </figure>
 

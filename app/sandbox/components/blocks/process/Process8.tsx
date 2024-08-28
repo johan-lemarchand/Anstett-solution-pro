@@ -10,8 +10,8 @@ export default function Process8() {
       </div>
 
       <div className="col-lg-5">
-        <h2 className="fs-15 text-uppercase text-line text-primary mb-3">How It Works?</h2>
-        <h3 className="display-5 mb-7 pe-xxl-5">Everything you need on creating a business process.</h3>
+        <h2 className="fs-15 text-uppercase text-line text-primary mb-3">Comment ça marche?</h2>
+        <h3 className="display-5 mb-7 pe-xxl-5">Tout ce dont vous avez besoin pour créer un processus d’affaires.</h3>
 
         {processList7.map(({ id, title, description, Icon }, i) => {
           const lastItem = i === processList7.length - 1;

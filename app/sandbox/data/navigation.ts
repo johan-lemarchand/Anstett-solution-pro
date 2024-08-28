@@ -1,39 +1,77 @@
 // demos links
 const demos = [
-  { id: 1, url: "/demo-1", title: "Demo I", thumnail: "mi1" },
-  { id: 2, url: "/demo-2", title: "Demo II", thumnail: "mi2" },
-  { id: 3, url: "/demo-3", title: "Demo III", thumnail: "mi3" },
-  { id: 4, url: "/demo-4", title: "Demo VI", thumnail: "mi4" },
-  { id: 5, url: "/demo-5", title: "Demo V", thumnail: "mi5" },
-  { id: 6, url: "/demo-6", title: "Demo VI", thumnail: "mi6" },
-  { id: 7, url: "/demo-7", title: "Demo VII", thumnail: "mi7" },
-  { id: 8, url: "/demo-8", title: "Demo VIII", thumnail: "mi8" },
-  { id: 9, url: "/demo-9", title: "Demo IX", thumnail: "mi9" },
-  { id: 10, url: "/demo-10", title: "Demo X", thumnail: "mi10" },
-  { id: 11, url: "/demo-11", title: "Demo XI", thumnail: "mi11" },
-  { id: 12, url: "/demo-12", title: "Demo XII", thumnail: "mi12" },
-  { id: 13, url: "/demo-13", title: "Demo XIII", thumnail: "mi13" },
-  { id: 14, url: "/demo-14", title: "Demo XIV", thumnail: "mi14" },
-  { id: 15, url: "/demo-15", title: "Demo XV", thumnail: "mi15" },
-  { id: 16, url: "/demo-16", title: "Demo XVI", thumnail: "mi16" },
-  { id: 17, url: "/demo-17", title: "Demo XVII", thumnail: "mi17" },
-  { id: 18, url: "/demo-18", title: "Demo XVIII", thumnail: "mi18" },
-  { id: 19, url: "/demo-19", title: "Demo XIX", thumnail: "mi19" },
-  { id: 20, url: "/demo-20", title: "Demo XX", thumnail: "mi20" },
-  { id: 21, url: "/demo-21", title: "Demo XXI", thumnail: "mi21" },
-  { id: 22, url: "/demo-22", title: "Demo XXI", thumnail: "mi22" },
-  { id: 23, url: "/demo-23", title: "Demo XXI", thumnail: "mi23" },
-  { id: 24, url: "/demo-24", title: "Demo XXI", thumnail: "mi24" },
-  { id: 25, url: "/demo-25", title: "Demo XXI", thumnail: "mi25" },
-  { id: 26, url: "/demo-26", title: "Demo XXI", thumnail: "mi26" },
-  { id: 27, url: "/demo-27", title: "Demo XXI", thumnail: "mi27" },
-  { id: 28, url: "/demo-28", title: "Demo XXI", thumnail: "mi28" },
-  { id: 29, url: "/demo-29", title: "Demo XXI", thumnail: "mi29" },
-  { id: 30, url: "/demo-30", title: "Demo XXI", thumnail: "mi30" },
-  { id: 31, url: "/demo-31", title: "Demo XXI", thumnail: "mi31" },
-  { id: 32, url: "/demo-32", title: "Demo XXI", thumnail: "mi32" },
-  { id: 33, url: "/demo-33", title: "Demo XXI", thumnail: "mi33" },
-  { id: 34, url: "/demo-34", title: "Demo XXI", thumnail: "mi34" }
+  { id: 1, url: "/themes/demo-1", title: "Demo I", thumnail: "mi1" },
+  { id: 2, url: "/themes/demo-2", title: "Demo II", thumnail: "mi2" },
+  { id: 3, url: "/themes/demo-3", title: "Demo III", thumnail: "mi3" },
+  { id: 4, url: "/themes/demo-4", title: "Demo VI", thumnail: "mi4" },
+  { id: 5, url: "/themes/demo-5", title: "Demo V", thumnail: "mi5" },
+  { id: 6, url: "/themes/demo-6", title: "Demo VI", thumnail: "mi6" },
+  { id: 7, url: "/themes/demo-7", title: "Demo VII", thumnail: "mi7" },
+  { id: 8, url: "/themes/demo-8", title: "Demo VIII", thumnail: "mi8" },
+  { id: 9, url: "/themes/demo-9", title: "Demo IX", thumnail: "mi9" },
+  { id: 10, url: "/themes/demo-10", title: "Demo X", thumnail: "mi10" },
+  { id: 11, url: "/themes/demo-11", title: "Demo XI", thumnail: "mi11" },
+  { id: 12, url: "/themes/demo-12", title: "Demo XII", thumnail: "mi12" },
+  { id: 13, url: "/themes/demo-13", title: "Demo XIII", thumnail: "mi13" },
+  { id: 14, url: "/themes/demo-14", title: "Demo XIV", thumnail: "mi14" },
+  { id: 15, url: "/themes/demo-15", title: "Demo XV", thumnail: "mi15" },
+  { id: 16, url: "/themes/demo-16", title: "Demo XVI", thumnail: "mi16" },
+  { id: 17, url: "/themes/demo-17", title: "Demo XVII", thumnail: "mi17" },
+  { id: 18, url: "/themes/demo-18", title: "Demo XVIII", thumnail: "mi18" },
+  { id: 19, url: "/themes/demo-19", title: "Demo XIX", thumnail: "mi19" },
+  { id: 20, url: "/themes/demo-20", title: "Demo XX", thumnail: "mi20" },
+  { id: 21, url: "/themes/demo-21", title: "Demo XXI", thumnail: "mi21" },
+  { id: 22, url: "/themes/demo-22", title: "Demo XXI", thumnail: "mi22" },
+  { id: 23, url: "/themes/demo-23", title: "Demo XXI", thumnail: "mi23" },
+  { id: 24, url: "/themes/demo-24", title: "Demo XXI", thumnail: "mi24" },
+  { id: 25, url: "/themes/demo-25", title: "Demo XXI", thumnail: "mi25" },
+  { id: 26, url: "/themes/demo-26", title: "Demo XXI", thumnail: "mi26" },
+  { id: 27, url: "/themes/demo-27", title: "Demo XXI", thumnail: "mi27" },
+  { id: 28, url: "/themes/demo-28", title: "Demo XXI", thumnail: "mi28" },
+  { id: 29, url: "/themes/demo-29", title: "Demo XXI", thumnail: "mi29" },
+  { id: 30, url: "/themes/demo-30", title: "Demo XXI", thumnail: "mi30" },
+  { id: 31, url: "/themes/demo-31", title: "Demo XXI", thumnail: "mi31" },
+  { id: 32, url: "/themes/demo-32", title: "Demo XXI", thumnail: "mi32" },
+  { id: 33, url: "/themes/demo-33", title: "Demo XXI", thumnail: "mi33" },
+  { id: 34, url: "/themes/demo-34", title: "Demo XXI", thumnail: "mi34" }
+];
+
+
+const demosasp = [
+  { id: 1, url: "/themes-asp/demo-asp-1", title: "Demo I", thumnail: "mi1" },
+  { id: 2, url: "/themes-asp/demo-asp-2", title: "Demo II", thumnail: "mi2" },
+  { id: 3, url: "/themes-asp/demo-asp-3", title: "Demo III", thumnail: "mi3" },
+  { id: 4, url: "/themes-asp/demo-asp-4", title: "Demo VI", thumnail: "mi4" },
+  { id: 5, url: "/themes-asp/demo-asp-5", title: "Demo V", thumnail: "mi5" },
+  { id: 6, url: "/themes-asp/demo-asp-6", title: "Demo VI", thumnail: "mi6" },
+  { id: 7, url: "/themes-asp/demo-asp-7", title: "Demo VII", thumnail: "mi7" },
+  { id: 8, url: "/themes-asp/demo-asp-8", title: "Demo VIII", thumnail: "mi8" },
+  { id: 9, url: "/themes-asp/demo-asp-9", title: "Demo IX", thumnail: "mi9" },
+  { id: 10, url: "/themes-asp/demo-asp-10", title: "Demo X", thumnail: "mi10" },
+  { id: 11, url: "/themes-asp/demo-asp-11", title: "Demo XI", thumnail: "mi11" },
+  { id: 12, url: "/themes-asp/demo-asp-12", title: "Demo XII", thumnail: "mi12" },
+  { id: 13, url: "/themes-asp/demo-asp-13", title: "Demo XIII", thumnail: "mi13" },
+  { id: 14, url: "/themes-asp/demo-asp-14", title: "Demo XIV", thumnail: "mi14" },
+  { id: 15, url: "/themes-asp/demo-asp-15", title: "Demo XV", thumnail: "mi15" },
+  { id: 16, url: "/themes-asp/demo-asp-16", title: "Demo XVI", thumnail: "mi16" },
+  { id: 17, url: "/themes-asp/demo-asp-17", title: "Demo XVII", thumnail: "mi17" },
+  { id: 18, url: "/themes-asp/demo-asp-18", title: "Demo XVIII", thumnail: "mi18" },
+  { id: 19, url: "/themes-asp/demo-asp-19", title: "Demo XIX", thumnail: "mi19" },
+  { id: 20, url: "/themes-asp/demo-asp-20", title: "Demo XX", thumnail: "mi20" },
+  { id: 21, url: "/themes-asp/demo-asp-21", title: "Demo XXI", thumnail: "mi21" },
+  { id: 22, url: "/themes-asp/demo-asp-22", title: "Demo XXI", thumnail: "mi22" },
+  { id: 23, url: "/themes-asp/demo-asp-23", title: "Demo XXI", thumnail: "mi23" },
+  { id: 24, url: "/themes-asp/demo-asp-24", title: "Demo XXI", thumnail: "mi24" },
+  { id: 25, url: "/themes-asp/demo-asp-25", title: "Demo XXI", thumnail: "mi25" },
+  { id: 26, url: "/themes-asp/demo-asp-26", title: "Demo XXI", thumnail: "mi26" },
+  { id: 27, url: "/themes-asp/demo-asp-27", title: "Demo XXI", thumnail: "mi27" },
+  { id: 28, url: "/themes-asp/demo-asp-28", title: "Demo XXI", thumnail: "mi28" },
+  { id: 29, url: "/themes-asp/demo-asp-29", title: "Demo XXI", thumnail: "mi29" },
+  { id: 30, url: "/themes-asp/demo-asp-30", title: "Demo XXI", thumnail: "mi30" },
+  { id: 31, url: "/themes-asp/demo-asp-31", title: "Demo XXI", thumnail: "mi31" },
+  { id: 32, url: "/themes-asp/demo-asp-32", title: "Demo XXI", thumnail: "mi32" },
+  { id: 33, url: "/themes-asp/demo-asp-33", title: "Demo XXI", thumnail: "mi33" },
+  { id: 34, url: "/themes-asp/demo-asp-34", title: "Demo XXI", thumnail: "mi34" }
 ];
 
 // pages navigations
@@ -42,57 +80,57 @@ const pages = [
     id: 21,
     title: "Services",
     children: [
-      { id: 211, title: "Services I", url: "/services-1" },
-      { id: 212, title: "Services II", url: "/services-2" }
+      { id: 211, title: "Services I", url: "/themes/services-1" },
+      { id: 212, title: "Services II", url: "/themes/services-2" }
     ]
   },
   {
     id: 22,
-    title: "About",
+    title: "À propos",
     children: [
-      { id: 221, title: "About I", url: "/about-1" },
-      { id: 222, title: "About II", url: "/about-2" }
+      { id: 221, title: "About I", url: "/themes/about-1" },
+      { id: 222, title: "About II", url: "/themes/about-2" }
     ]
   },
   {
     id: 23,
-    title: "Shop",
+    title: "E-Commerce",
     children: [
-      { id: 231, title: "Shop I", url: "/shop-1" },
-      { id: 232, title: "Shop II", url: "/shop-2" },
-      { id: 233, title: "Product Page", url: "/products/1" },
-      { id: 234, title: "Shopping Cart", url: "/cart" },
-      { id: 235, title: "Checkout", url: "/checkout" }
+      { id: 231, title: "Shop I", url: "/themes/shop-1" },
+      { id: 232, title: "Shop II", url: "/themes/shop-2" },
+      { id: 233, title: "Product Page", url: "/themes/products/1" },
+      { id: 234, title: "Shopping Cart", url: "/themes/cart" },
+      { id: 235, title: "Checkout", url: "/themes/checkout" }
     ]
   },
   {
     id: 24,
     title: "Contact",
     children: [
-      { id: 241, title: "Contact I", url: "/contact-1" },
-      { id: 242, title: "Contact II", url: "/contact-2" },
-      { id: 243, title: "Contact III", url: "/contact-3" }
+      { id: 241, title: "Contact I", url: "/themes/contact-1" },
+      { id: 242, title: "Contact II", url: "/themes/contact-2" },
+      { id: 243, title: "Contact III", url: "/themes/contact-3" }
     ]
   },
   {
     id: 25,
-    title: "Career",
+    title: "Carrière",
     children: [
-      { id: 251, title: "Job Listing I", url: "/career-1" },
-      { id: 252, title: "Job Listing II", url: "/career-2" },
-      { id: 253, title: "Job Description", url: "/jobs/1" }
+      { id: 251, title: "Job Listing I", url: "/themes/career-1" },
+      { id: 252, title: "Job Listing II", url: "/themes/career-2" },
+      { id: 253, title: "Job Description", url: "/themes/jobs/1" }
     ]
   },
   {
     id: 26,
-    title: "Utility",
+    title: "Module Connexion",
     children: [
       { id: 261, title: "404 Not Found", url: "/asdasdasdasd" },
-      { id: 262, title: "Login I", url: "/login-1" },
-      { id: 263, title: "Login II", url: "/login-2" },
-      { id: 264, title: "Register I", url: "/register-1" },
-      { id: 265, title: "Register II", url: "/register-2" },
-      { id: 266, title: "Terms & Condition", url: "/terms" }
+      { id: 262, title: "Login I", url: "/themes/login-1" },
+      { id: 263, title: "Login II", url: "/themes/login-2" },
+      { id: 264, title: "Register I", url: "/themes/register-1" },
+      { id: 265, title: "Register II", url: "/themes/register-2" },
+      { id: 266, title: "Terms & Conditions", url: "/themes/terms" }
     ]
   }
 ];
@@ -100,38 +138,38 @@ const pages = [
 // projects pages link
 const projectsNavigation = [
   {
-    title: "PROJECT PAGES",
+    title: "Projets",
     children: [
-      { id: 1, title: "Project I", url: "/projects-1" },
-      { id: 2, title: "Project II", url: "/projects-2" },
-      { id: 3, title: "Project III", url: "/projects-3" },
-      { id: 4, title: "Project VI", url: "/projects-4" }
+      { id: 1, title: "Project I", url: "/themes/projects-1" },
+      { id: 2, title: "Project II", url: "/themes/projects-2" },
+      { id: 3, title: "Project III", url: "/themes/projects-3" },
+      { id: 4, title: "Project VI", url: "/themes/projects-4" }
     ]
   },
   {
-    title: "SINGLE PROJECTS",
+    title: "Page D'exemple",
     children: [
-      { id: 1, title: "Single Project I", url: "/single-project-1" },
-      { id: 2, title: "Single Project II", url: "/single-project-2" },
-      { id: 3, title: "Single Project III", url: "/single-project-3" },
-      { id: 4, title: "Single Project VI", url: "/single-project-4" }
+      { id: 1, title: "Single Project I", url: "/themes/single-project-1" },
+      { id: 2, title: "Single Project II", url: "/themes/single-project-2" },
+      { id: 3, title: "Single Project III", url: "/themes/single-project-3" },
+      { id: 4, title: "Single Project VI", url: "/themes/single-project-4" }
     ]
   }
 ];
 
 // blog pages links
 const blogsNavigation = [
-  { id: 1, url: "/blog-1", title: "Blog without Sidebar" },
-  { id: 2, url: "/blog-2", title: "Blog with Sidebar" },
-  { id: 3, url: "/blog-3", title: "Blog with Left Sidebar" },
+  { id: 1, url: "/themes/blog-1", title: "Blog without Sidebar" },
+  { id: 2, url: "/themes/blog-2", title: "Blog with Sidebar" },
+  { id: 3, url: "/themes/blog-3", title: "Blog with Left Sidebar" },
   {
     id: 4,
     url: null,
     title: "Blog Posts",
     children: [
-      { id: 41, url: "/blog-details-1", title: "Post without Sidebar" },
-      { id: 42, url: "/blog-details-2", title: "Post with Sidebar" },
-      { id: 43, url: "/blog-details-3", title: "Post with Left Sidebar" }
+      { id: 41, url: "/themes/blog-details-1", title: "Post without Sidebar" },
+      { id: 42, url: "/themes/blog-details-2", title: "Post with Sidebar" },
+      { id: 43, url: "/themes/blog-details-3", title: "Post with Left Sidebar" }
     ]
   }
 ];
@@ -139,7 +177,7 @@ const blogsNavigation = [
 // documentation pages links
 const documentationNavigation = {
   usage: [
-    { id: 1, title: "Get Started", url: "/docs" },
+    { id: 1, title: "Commencer", url: "/docs" },
     // { id: 2, title: 'Forms', url: '#' },
     { id: 3, title: "FAQ", url: "/docs/faq" },
     { id: 4, title: "Changelog", url: "/docs/changelog" },
@@ -185,7 +223,6 @@ const documentationNavigation = {
     { id: 27, title: "Typography", url: "/docs/elements/typography" }
   ]
 };
-
 // blocks pages links
 const blocksNavigation = [
   { id: 1, url: "/docs/blocks/about", title: "About", thumnail: "/img/demos/block1.svg" },
@@ -218,6 +255,7 @@ const blocksNavigation = [
 
 export {
   demos,
+  demosasp,
   pages,
   blogsNavigation,
   blocksNavigation,

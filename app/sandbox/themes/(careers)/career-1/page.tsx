@@ -23,8 +23,8 @@ export default function Career() {
         <div className="container pt-10 pb-18 pb-md-20 pt-md-14 pb-lg-21 text-center">
           <div className="row">
             <div className="col-lg-8 mx-auto mb-11">
-              <h1 className="fs-15 text-uppercase text-primary mb-3">Join Our Team</h1>
-              <h3 className="display-1">We bring solutions to make life easier for our customers.</h3>
+              <h1 className="fs-15 text-uppercase text-primary mb-3">Rejoindre notre équipe</h1>
+              <h3 className="display-1">Nous apportons des solutions pour faciliter la vie de nos clients.</h3>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function Career() {
           </div>
 
           <div className="text-center mt-10">
-            <NextLink title="Join Our Team" href="#" className="btn btn-primary rounded-pill" />
+            <NextLink title="Rejoindre L'équipe" href="#" className="btn btn-primary rounded-pill" />
           </div>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function Career() {
             <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
               <h1 className="fs-15 text-uppercase text-primary mb-3">Happy Team</h1>
               <h3 className="display-4 mb-10 px-xl-10 px-xxl-15">
-                Dont take our word for it. See what our team members say about us.
+              Ne nous croyez pas notre parole. Voyez ce que les membres de notre équipe disent de nous.
               </h3>
             </div>
           </div>
@@ -97,9 +97,9 @@ export default function Career() {
         <div className="container py-14 py-md-16">
           <div className="row text-center">
             <div className="col-xl-10 mx-auto">
-              <h1 className="fs-15 text-uppercase text-primary mb-3">Job Positions</h1>
+              <h1 className="fs-15 text-uppercase text-primary mb-3">Offres d'emploi</h1>
               <h3 className="display-4 mb-10 px-xxl-15">
-                We’re always searching for amazing people to join our team. Take a look at our current openings.
+                  Nous sommes toujours à la recherche de personnes formidables pour rejoindre notre équipe. Jetez un coup d’œil aux postes vacants.
               </h3>
             </div>
           </div>
@@ -112,12 +112,12 @@ export default function Career() {
 
           <div className="row mt-11">
             <div className="col-lg-6 col-xl-5 mx-auto text-center">
-              <h2 className="display-6 mb-3">Can&apos;t find the right position?</h2>
+              <h2 className="display-6 mb-3">Comment trouver le bon poste ?</h2>
               <p className="lead mb-5 px-md-16 px-lg-3">
                 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur.
               </p>
 
-              <NextLink title="Get in Touch" href="#" className="btn btn-primary rounded-pill" />
+              <NextLink title="Prendre contact" href="#" className="btn btn-primary rounded-pill" />
             </div>
           </div>
         </div>

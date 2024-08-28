@@ -33,7 +33,7 @@ export default function Contact() {
           <div className="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
             <div className="row">
               <div className="col-lg-8 mx-auto">
-                <h1 className="display-1 mb-3 text-white">Get in Touch</h1>
+                <h1 className="display-1 mb-3 text-white">Prendre contact</h1>
                 <Breadcrumb className="text-white" data={breadcrumb} />
               </div>
             </div>
@@ -66,10 +66,10 @@ export default function Contact() {
                             </div>
                           </div>
                           <div className="align-self-start justify-content-start">
-                            <h5 className="mb-1">Address</h5>
+                            <h5 className="mb-1">Adresse</h5>
                             <address>
-                              Moonshine St. 14/05 Light City, <br className="d-none d-md-block" />
-                              London, United Kingdom
+                            26E rue de Kaltenhouse  <br className="d-none d-md-block" />
+                            67240 Oberhoffen-Sur-Moder
                             </address>
                           </div>
                         </div>
@@ -81,10 +81,9 @@ export default function Contact() {
                             </div>
                           </div>
                           <div>
-                            <h5 className="mb-1">Phone</h5>
+                            <h5 className="mb-1">Téléphone</h5>
                             <p>
-                              00 (123) 456 78 90 <br />
-                              00 (987) 654 32 10
+                              06 42 18 55 95 <br />
                             </p>
                           </div>
                         </div>
@@ -98,13 +97,13 @@ export default function Contact() {
                           <div>
                             <h5 className="mb-1">E-mail</h5>
                             <p className="mb-0">
-                              <a href="mailto:sandbox@email.com" className="link-body">
-                                sandbox@email.com
+                              <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                                anstett.solutions.pro@gmail.com
                               </a>
                             </p>
                             <p className="mb-0">
-                              <a href="mailto:help@sandbox.com" className="link-body">
-                                help@sandbox.com
+                              <a href="mailto:help-anstett.solutions.pro@gmail.com" className="link-body">
+                                help-anstett.solutions.pro@gmail.com
                               </a>
                             </p>
                           </div>
@@ -119,9 +118,9 @@ export default function Contact() {
             {/* ========== contact form section ========== */}
             <div className="row">
               <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                <h2 className="display-4 mb-3 text-center">Drop Us a Line</h2>
+                <h2 className="display-4 mb-3 text-center">Laissez-nous un message</h2>
                 <p className="lead text-center mb-10">
-                  Reach out to us from our contact form and we will get back to you shortly.
+                  Contactez-nous à partir de notre formulaire et nous vous répondrons sous peu.
                 </p>
 
                 <ContactForm />

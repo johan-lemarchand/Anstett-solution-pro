@@ -11,8 +11,8 @@ export default function Blog7() {
       <div className="container py-15 py-md-17">
         <div className="row text-center">
           <div className="col-lg-10 col-xl-7 col-xxl-6 mx-auto">
-            <h2 className="fs-15 text-uppercase text-muted mb-3">Case Studies</h2>
-            <h3 className="display-3 ls-sm mb-10">Our awesome projects with creative ideas and great design.</h3>
+            <h2 className="fs-15 text-uppercase text-muted mb-3">Cas pratiques</h2>
+            <h3 className="display-3 ls-sm mb-10">Nos projets impressionnants avec des idées créatives et un grand design.</h3>
           </div>
         </div>
 

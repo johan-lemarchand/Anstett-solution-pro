@@ -45,13 +45,13 @@ export default function BlogCard2({ cardTop, title, category, description, link 
             <li className="post-author">
               <Link href="#">
                 <i className="uil uil-user" />
-                <span>By Sandbox</span>
+                <span>Anstett Solutions Pro</span>
               </Link>
             </li>
 
             <li className="post-comments">
               <Link href="#">
-                <i className="uil uil-comment" /> 3<span> Comments</span>
+                <i className="uil uil-comment" /> 3<span> Commentaires</span>
               </Link>
             </li>
 

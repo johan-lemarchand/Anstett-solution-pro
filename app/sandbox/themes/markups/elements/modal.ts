@@ -77,11 +77,11 @@ const subscriptionMarkup = `<button
                         type="email"
                         name="EMAIL"
                         className="required email form-control"
-                        placeholder="Email Address"
+                        placeholder="Adresse e-mail"
                         id="mce-EMAIL"
                       />
                       <label htmlFor="mce-EMAIL" className="text-start">
-                        Email Address
+                        Adresse e-mail
                       </label>
                       <input
                         type="submit"
@@ -119,7 +119,7 @@ const signinMarkup = `import Signin from 'components/blocks/navbar/partials/Sign
   data-bs-toggle="modal"
   data-bs-target="#modal-signin"
 >
-  Sign In
+  Connexion
 </button>
 
 <Signin />
@@ -132,7 +132,7 @@ const signupMarkup = `import Signup from 'components/blocks/navbar/partials/Sign
   data-bs-toggle="modal"
   data-bs-target="#modal-signup"
 >
-  Sign Up
+  Connexion
 </button>
 
 <Signup />

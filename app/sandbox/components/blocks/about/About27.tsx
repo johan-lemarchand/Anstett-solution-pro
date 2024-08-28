@@ -10,8 +10,8 @@ export default function About26() {
       </div>
 
       <div className="col-lg-5 ms-auto">
-        <h2 className="fs-16 text-uppercase text-grape mb-3">Why Choose Us?</h2>
-        <h3 className="display-4 mb-8">So here a few reasons why our valued customers choose us.</h3>
+        <h2 className="fs-16 text-uppercase text-grape mb-3">Pourquoi nous choisir?</h2>
+        <h3 className="display-4 mb-8">Voici donc quelques raisons pour lesquelles nos clients nous choisissent.</h3>
 
         <div className="row gy-6">
           {data.abouts.map(({ id, Icon, title, description }) => (

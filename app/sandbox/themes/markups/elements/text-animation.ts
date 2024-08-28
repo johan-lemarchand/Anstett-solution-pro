@@ -4,14 +4,14 @@ const typerMarkup = `import Typewriter from 'typewriter-effect';
   options={{
     loop: true,
     autoStart: true,
-    strings: ['easy usage', 'fast transactions', 'secure payments']
+    strings: ['simplicité d'utilisation', 'transactions rapides', 'paiements sécurisés']
   }}
 />
 `;
 
-const replaceMeMarkup = `<span class="rotator-fade text-primary">easy usage,fast transactions,secure payments</span>
+const replaceMeMarkup = `<span class="rotator-fade text-primary">simplicité d'utilisation,transactions rapides,paiements sécurisés</span>
 
-<span class="rotator-zoom text-primary">easy usage,fast transactions,secure payments</span>
+<span class="rotator-zoom text-primary">simplicité d'utilisation,transactions rapides,paiements sécurisés</span>
 `;
 
 export { typerMarkup, replaceMeMarkup };

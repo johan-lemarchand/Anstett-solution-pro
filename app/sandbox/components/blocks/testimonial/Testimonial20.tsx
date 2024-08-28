@@ -8,9 +8,9 @@ export default function Testimonial20() {
       <div className="card-body py-14 px-lg-0">
         <div className="row text-center">
           <div className="col-lg-8 offset-lg-2">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Happy Customers</h2>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">Clients satisfaits</h2>
             <h3 className="display-4 mb-10 px-xxl-10">
-              Don't take our word for it. See what customers are saying about us.
+            Ne nous croyez pas sur parole. Voyez ce que les clients disent de nous.
             </h3>
           </div>
         </div>

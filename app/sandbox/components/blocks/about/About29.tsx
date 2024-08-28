@@ -11,12 +11,11 @@ export default function About29() {
 
       <div className="col-lg-6">
         <h2 className="display-3 mb-3">
-          More <em>about</em> me
+          En savoir plus <em>sur moi</em>
         </h2>
 
         <p className="lead fs-lg">
-          I'm Julia Sandbox, a corporate brand designer based in New York City. I’m very passionate about the work that
-          I do.
+        Je suis Julia, une créatrice de marque basée à New York. Je suis profondément passionnée par le travail que je réalise.
         </p>
 
         <p>
@@ -31,7 +30,7 @@ export default function About29() {
         </p>
 
         <Link href="#" className="btn btn-primary rounded-pill mt-2">
-          Learn More
+          En savoir plus
         </Link>
       </div>
     </div>

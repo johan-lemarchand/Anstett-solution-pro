@@ -47,7 +47,7 @@ export default function ReviewCard({ createdAt, actions, user, review }: ReviewC
       <p>{review.body}</p>
 
       <div className="d-flex flex-row align-items-center pb-3">
-        <p className="text-muted fs-15 mb-0 me-5">Was this review helpful?</p>
+        <p className="text-muted fs-15 mb-0 me-5">Avez-vous trouvé cet avis utile?</p>
 
         <div>
           <NextLink

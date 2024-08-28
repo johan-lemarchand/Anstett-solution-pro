@@ -34,10 +34,10 @@ export default function Testimonial23() {
             alt=""
           />
 
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Happy Customers</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">Clients satisfaits</h2>
           <h3 className="display-3 mb-11 px-xl-10 px-xxl-13">
-            Don't take our word for it. See what <span className="text-gradient gradient-7">customers</span> are saying
-            about us.
+          Ne nous prenez pas au mot. Voyez ce que les <span className="text-gradient gradient-7">clients</span> disent
+          à propos de nous.
           </h3>
         </div>
       </div>

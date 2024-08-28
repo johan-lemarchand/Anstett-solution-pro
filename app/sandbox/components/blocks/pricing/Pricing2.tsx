@@ -26,9 +26,9 @@ export default function Pricing2({ className }: Pricing2Props) {
       />
 
       <div className="pricing-switcher-wrapper switcher">
-        <p className="mb-0 pe-3">Monthly</p>
+        <p className="mb-0 pe-3">Mensuel</p>
         <Switch value={activeYearly} onChange={setActiveYearly} />
-        <p className="mb-0 ps-3">Yearly</p>
+        <p className="mb-0 ps-3">Annuel</p>
       </div>
 
       <div className="row gy-6 mt-3 mt-md-5">

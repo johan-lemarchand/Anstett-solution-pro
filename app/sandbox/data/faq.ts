@@ -4,19 +4,19 @@ export const accordionList1 = [
     {
       no: "One",
       expand: false,
-      heading: "Can I cancel my subscription?",
+      heading: "Puis-je annuler mon abonnement?",
       body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
     },
     {
       no: "Two",
       expand: false,
-      heading: "Which payment methods do you accept?",
+      heading: "Quels modes de paiement acceptez-vous?",
       body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
     },
     {
       no: "Three",
       expand: false,
-      heading: "How can I manage my Account?",
+      heading: "Comment puis-je gérer mon compte?",
       body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
     }
   ],
@@ -24,19 +24,19 @@ export const accordionList1 = [
     {
       no: "Four",
       expand: false,
-      heading: "How do I get my subscription receipt?",
+      heading: "Comment puis-je obtenir mon reçu d’abonnement?",
       body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
     },
     {
       no: "Five",
       expand: false,
-      heading: "Are there any discounts for people in need?",
+      heading: "Existe-t-il des rabais pour les personnes dans le besoin?",
       body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
     },
     {
       no: "Six",
       expand: false,
-      heading: "Do you offer a free trial edit?",
+      heading: "Proposez-vous un essai gratuit?",
       body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
     }
   ]
@@ -47,25 +47,25 @@ export const accordionList2 = [
   {
     no: "One",
     expand: false,
-    heading: "How do I get my subscription receipt?",
+    heading: "Comment puis-je obtenir mon reçu d’abonnement?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   },
   {
     no: "Two",
     expand: false,
-    heading: "Are there any discounts for people in need?",
+    heading: "Existe-t-il des rabais pour les personnes dans le besoin?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   },
   {
     no: "Three",
     expand: false,
-    heading: "Do you offer a free trial edit?",
+    heading: "Proposez-vous un essai gratuit?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   },
   {
     no: "Four",
     expand: false,
-    heading: "How do I reset my Account password?",
+    heading: "Comment puis-je réinitialiser mon mot de passe?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   }
 ];
@@ -75,25 +75,25 @@ export const accordionList3 = [
   {
     no: "One",
     expand: false,
-    heading: "How do I get my subscription receipt?",
+    heading: "Comment puis-je obtenir mon reçu d’abonnement?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   },
   {
     no: "Two",
     expand: false,
-    heading: "Are there any discounts for people in need?",
+    heading: "Existe-t-il des rabais pour les personnes dans le besoin?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   },
   {
     no: "Three",
     expand: false,
-    heading: "Do you offer a free trial edit?",
+    heading: "Proposez-vous un essai gratuit?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   },
   {
     no: "Four",
     expand: false,
-    heading: "How do I reset my Account password?",
+    heading: "Comment puis-je réinitialiser mon mot de passe?",
     body: `Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.`
   }
 ];

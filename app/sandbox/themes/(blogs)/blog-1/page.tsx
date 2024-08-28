@@ -11,9 +11,9 @@ import { BlogCard2, BlogCard3 } from "app/sandbox/components/reuseable/blog-card
 // CUSTOM DATA
 import { blogs } from "./data";
 // IMPORT IMAGES
-import blogOneImage from "../../../../public/img/photos/b1.jpg";
-import blogTwoImage from "../../../../public/img/photos/b2.jpg";
-import blogThreeImage from "../../../../public/img/photos/b3.jpg";
+import blogOneImage from "../../../../../public/img/photos/b1.jpg";
+import blogTwoImage from "../../../../../public/img/photos/b2.jpg";
+import blogThreeImage from "../../../../../public/img/photos/b3.jpg";
 
 export default function BlogOne() {
   return (
@@ -31,7 +31,7 @@ export default function BlogOne() {
               <div className="col-md-7 col-lg-6 col-xl-5 mx-auto">
                 <h1 className="display-1 mb-3">Business News</h1>
                 <p className="lead px-lg-5 px-xxl-8">
-                  Welcome to our journal. Here you can find the latest company news and business articles.
+                  Bienvenue dans notre revue. Vous trouverez ici les dernières nouvelles de l’entreprise et des articles d’affaires.
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function BlogOne() {
                         </a>
 
                         <figcaption>
-                          <h5 className="from-top mb-0">Read More</h5>
+                          <h5 className="from-top mb-0">En savoir plus</h5>
                         </figcaption>
                       </figure>
                     }

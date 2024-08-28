@@ -16,7 +16,7 @@ export default function Signin() {
               type="button"
               className="btn-close"
               data-bs-dismiss="modal"
-              aria-label="Close"
+              aria-label="Fermer"
             />
 
             <LoginForm />

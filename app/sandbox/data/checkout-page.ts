@@ -36,19 +36,19 @@ const orderProducts = [
 
 const orderSummeryRow = [
   {
-    name: 'Subtotal',
+    name: 'Sous-total',
     value: { amount: 135.99, parentClass: 'pe-0 text-end', childClass: 'price' }
   },
   {
-    name: 'Discount',
+    name: 'Réduction',
     value: { amount: 6.8, parentClass: 'pe-0 text-end', childClass: 'price text-red' }
   },
   {
-    name: 'Shipping',
+    name: 'Livraison',
     value: { amount: 10, parentClass: 'pe-0 text-end', childClass: 'price' }
   },
   {
-    name: 'Grand Total',
+    name: 'Total',
     value: { amount: 152.79, parentClass: 'pe-0 text-end', childClass: 'price text-dark fw-bold' }
   }
 ];

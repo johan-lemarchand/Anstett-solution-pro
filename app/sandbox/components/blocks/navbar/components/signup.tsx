@@ -12,8 +12,8 @@ export default function Signup() {
               data-bs-dismiss="modal"
               aria-label="Close"
             />
-            <h2 className="mb-3 text-start">Sign up to Sandbox</h2>
-            <p className="lead mb-6 text-start">Registration takes less than a minute.</p>
+            <h2 className="mb-3 text-start">Inscrivez-vous à Anstett Solutions Pro</h2>
+            <p className="lead mb-6 text-start">L’inscription prend moins d’une minute.</p>
             <RegisterForm />
           </div>
         </div>

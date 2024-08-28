@@ -15,9 +15,9 @@ export default function Contact4() {
       </div>
 
       <div className="col-lg-5">
-        <h2 className="fs-16 text-uppercase text-muted mb-3 ">Let’s Talk</h2>
+        <h2 className="fs-16 text-uppercase text-muted mb-3 ">Parlons-en</h2>
         <h3 className="display-4 mb-5 ">
-          Let's make something great together. We are trusted by over 5000+ clients.
+          Créons quelque chose de grand ensemble. Nous avons la confiance de plus de 5000 clients.
         </h3>
 
         <p>
@@ -26,7 +26,7 @@ export default function Contact4() {
           condimentum nibh, ut fermentum massa justo sit amet risus.
         </p>
 
-        <NextLink title="Join Us" href="#" className="btn btn-primary rounded-pill mt-2" />
+        <NextLink title="Rejoignez-nous" href="#" className="btn btn-primary rounded-pill mt-2" />
       </div>
     </div>
   );

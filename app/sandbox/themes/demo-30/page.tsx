@@ -20,9 +20,9 @@ export default function Demo30() {
         <div className="gradient-5 text-white fw-bold fs-15 mb-2 position-relative" style={{ zIndex: 1 }}>
           <div className="container py-2 text-center">
             <p className="mb-0">
-              ✨ Sandbox is part of Envato's Biggest Sale to date, be quick and grab a{" "}
+              ✨ Ici votre pub contactez {" "}
               <a href="#" className="link-white hover d-inline-flex align-items-center">
-                copy <i className="uil uil-arrow-right fs-16" />
+                Anstett Solutions Pro <i className="uil uil-arrow-right fs-16" />
               </a>
             </p>
           </div>

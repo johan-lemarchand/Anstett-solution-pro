@@ -13,7 +13,7 @@ export default function Process7() {
       <div className="row mb-5">
         <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
           <List />
-          <h2 className="display-4 mb-4 px-lg-14">Here are 3 working steps to organize our business projects.</h2>
+          <h2 className="display-4 mb-4 px-lg-14">Voici 3 étapes de travail pour organiser nos projets.</h2>
         </div>
       </div>
 
@@ -25,9 +25,9 @@ export default function Process7() {
         </div>
 
         <div className="col-lg-6">
-          <h2 className="display-6 mb-3">How It Works?</h2>
+          <h2 className="display-6 mb-3">Comment ça marche?</h2>
           <p className="lead fs-lg pe-lg-5">
-            Find out everything you need to know and more about how we create our business process models.
+          Découvrez tout ce qu'il faut savoir et plus encore sur la façon dont nous créons nos modèles de processus d’affaires.
           </p>
 
           <p>
@@ -42,7 +42,7 @@ export default function Process7() {
             porta felis.
           </p>
 
-          <NextLink title="Learn More" href="#" className="btn btn-primary rounded-pill mb-0" />
+          <NextLink title="En savoir plus" href="#" className="btn btn-primary rounded-pill mb-0" />
         </div>
       </div>
     </Fragment>

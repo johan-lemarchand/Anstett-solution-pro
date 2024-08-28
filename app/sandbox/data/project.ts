@@ -3,7 +3,7 @@ export const projectList1 = [
   {
     id: 1,
     link: '#',
-    category: 'IDEAS',
+    category: 'Idées',
     title: 'Cras Fermentum Sem',
     description: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
     images: [
@@ -33,7 +33,7 @@ export const projectList1 = [
   {
     id: 2,
     link: '#',
-    category: 'CONCEPT',
+    category: 'Concept',
     title: 'Vulputate Sollicitudin',
     description: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
     images: [
@@ -63,7 +63,7 @@ export const projectList1 = [
   {
     id: 3,
     link: '#',
-    category: 'STILL LIFE',
+    category: 'Nature morte',
     title: 'Vulputate Sollicitudin',
     description: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
     images: [
@@ -93,7 +93,7 @@ export const projectList1 = [
   {
     id: 4,
     link: '#',
-    category: 'WORKSHOP',
+    category: 'Workshop',
     title: 'Ornare Commodo Mollis',
     description: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
     images: [
@@ -123,7 +123,7 @@ export const projectList1 = [
   {
     id: 5,
     link: '#',
-    category: 'TOOLS & TOYS',
+    category: 'OUTILS & JOUETS',
     title: 'Porta Tortor Vulputate',
     description: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
     images: [

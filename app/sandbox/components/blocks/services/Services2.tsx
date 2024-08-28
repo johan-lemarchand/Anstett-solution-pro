@@ -11,7 +11,7 @@ export default function Services2() {
             <figure>
               <img
                 className="w-auto"
-                alt="our solutions"
+                alt="Nos solutions"
                 src="/img/illustrations/i8.png"
                 srcSet="/img/illustrations/i8@2x.png 2x"
               />
@@ -19,8 +19,8 @@ export default function Services2() {
           </div>
 
           <div className="col-lg-5">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">Our Solutions</h2>
-            <h3 className="display-4 mb-5">We make your spending stress-free for you to have the perfect control.</h3>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">Nos solutions</h2>
+            <h3 className="display-4 mb-5">Nous simplifions vos dépenses afin que vous puissiez en garder un contrôle total.</h3>
 
             <p className="mb-6">
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,

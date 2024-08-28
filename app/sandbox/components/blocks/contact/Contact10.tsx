@@ -10,10 +10,10 @@ export default function Contact10() {
             <div className="row gx-md-8 gx-xl-12 gy-10">
               <div className="col-lg-6">
                 <Email />
-                <h2 className="display-4 mb-3 pe-lg-10">If you like what you see, let's work together.</h2>
+                <h2 className="display-4 mb-3 pe-lg-10">Si vous aimez ce que vous voyez, travaillons ensemble.</h2>
                 <p className="lead pe-lg-12 mb-0">
-                  I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me
-                  from this contact form and I will get back to you shortly.
+                Je propose des solutions rapides pour simplifier la vie de mes clients. 
+                Si vous avez des questions, n'hésitez pas à me contacter, et je vous répondrai rapidement.
                 </p>
               </div>
 
@@ -52,7 +52,7 @@ export default function Contact10() {
 
                         <label htmlFor="frm_email">Email *</label>
                         <div className="valid-feedback">Looks good!</div>
-                        <div className="invalid-feedback">Please provide a valid email address.</div>
+                        <div className="invalid-feedback">Veuillez fournir une adresse email valide.</div>
                       </div>
                     </div>
 
@@ -76,7 +76,7 @@ export default function Contact10() {
                     <div className="col-12">
                       <input
                         type="submit"
-                        value="Send message"
+                        value="Envoyer"
                         className="btn btn-outline-primary rounded-pill btn-send mb-3"
                       />
                     </div>
@@ -88,7 +88,7 @@ export default function Contact10() {
         </div>
 
         <div className="d-md-flex align-items-center justify-content-between">
-          <p className="mb-2 mb-lg-0">© 2022 Sandbox. All rights reserved.</p>
+          <p className="mb-2 mb-lg-0">© 2024 Anstett Solutions Pro. Tous droits réservés.</p>
           <SocialLinks className="nav social social-muted mb-0 text-md-end" />
         </div>
       </div>

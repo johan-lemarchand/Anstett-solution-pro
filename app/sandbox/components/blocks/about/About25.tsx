@@ -17,9 +17,9 @@ export default function About25() {
             </div>
 
             <div className="col-lg-6">
-              <h2 className="display-5 mb-3">About Me</h2>
+              <h2 className="display-5 mb-3">À mon propos</h2>
               <p className="lead fs-lg">
-                I'm Caitlyn Sandbox, a photographer specializing in food, drink and product photography.
+                Je suis Caitlyn, photographe spécialisée dans la photographie de produits alimentaires et de boissons.
               </p>
               <p>
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce
@@ -31,13 +31,13 @@ export default function About25() {
                 nulla sed consectetur. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur.
               </p>
 
-              <NextLink title="Learn More" href="#" className="btn btn-primary rounded-pill mt-2" />
+              <NextLink title="En savoir plus" href="#" className="btn btn-primary rounded-pill mt-2" />
             </div>
           </div>
 
           <div className="row gx-md-8 gx-xl-12 mt-10 mt-md-13">
             <div className="col-lg-4">
-              <h2 className="display-5 mb-3">My Working Process</h2>
+              <h2 className="display-5 mb-3">Mon processus de travail</h2>
               <p>
                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus.
                 Aenean eu leo quam.

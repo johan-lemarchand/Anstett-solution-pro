@@ -161,64 +161,64 @@ export const blogList5 = [
   {
     id: 1,
     comments: 3,
-    author: 'Sandbox',
+    author: 'Anstett',
     category: 'Places',
     createdAt: '8 Aug 2022',
     image: '/img/photos/tb1.jpg',
-    title: 'The Best Moments in Venice'
+    title: 'Les meilleurs moments à Venise'
   },
   {
     id: 2,
     comments: 5,
-    author: 'Sandbox',
+    author: 'Anstett',
     category: 'Restaurants',
     createdAt: '5 Jul 2022',
     image: '/img/photos/tb2.jpg',
-    title: '10 Great Places in Belgium'
+    title: '10 Lieux à visiter en Belgique'
   },
   {
     id: 3,
     comments: 8,
-    author: 'Sandbox',
+    author: 'Anstett',
     category: 'Roadtrip',
     createdAt: '23 Jun 2022',
     image: '/img/photos/tb3.jpg',
-    title: 'A Dreamy Roadtrip in Australia'
+    title: 'Un road trip de rêve en Australie'
   },
   {
     id: 4,
     comments: 9,
-    author: 'Sandbox',
+    author: 'Anstett',
     category: 'Historic',
     createdAt: '15 Apr 2022',
     image: '/img/photos/tb4.jpg',
-    title: 'My Love Affair with Cappadocia'
+    title: 'Mon amour avec la Cappadoce'
   },
   {
     id: 5,
     comments: 11,
-    author: 'Sandbox',
+    author: 'Anstett',
     category: 'Nature',
     createdAt: '14 Feb 2022',
     image: '/img/photos/tb5.jpg',
-    title: '24 Hours in a Village of Valencia'
+    title: '24 heures dans un village de Valence'
   },
   {
     id: 6,
     comments: 8,
-    author: 'Sandbox',
+    author: 'Anstett',
     category: 'Architecture',
     createdAt: '22 Jan 2022',
     image: '/img/photos/tb6.jpg',
-    title: 'The Largest Train Station in Europe'
+    title: 'La plus grande gare d’Europe'
   },
   {
     id: 7,
     comments: 14,
-    author: 'Sandbox',
+    author: 'Anstett',
     category: 'Nature',
     createdAt: '2 Jan 2022',
     image: '/img/photos/tb7.jpg',
-    title: 'The Natural Places in Brazil'
+    title: 'Les endroits naturels au Brésil'
   }
 ];

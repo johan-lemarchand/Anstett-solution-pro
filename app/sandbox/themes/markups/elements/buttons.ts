@@ -255,12 +255,12 @@ const expandMarkup = `import Link from 'next/link';
 
 <Link href="#" className="btn btn-expand btn-primary rounded-pill me-5 mb-3 mb-lg-0">
   <i className="uil uil-arrow-right" />
-  <span>Learn More</span>
+  <span>En savoir plus</span>
 </Link>
 
 <Link href="#" className="btn btn-expand btn-soft-primary rounded-pill me-5">
   <i className="uil uil-arrow-right" />
-  <span>Learn More</span>
+  <span>En savoir plus</span>
 </Link>
 `;
 

@@ -77,7 +77,7 @@ export default function Filter() {
   return (
     <aside className="col-lg-3 sidebar">
       <div className="widget mt-1">
-        <h4 className="widget-title mb-3">Categories</h4>
+        <h4 className="widget-title mb-3">Catégories</h4>
         <ul className="list-unstyled ps-0">
           {collapseList.map((item) => (
             <li className="mb-1" key={item.id}>
@@ -88,7 +88,7 @@ export default function Filter() {
       </div>
 
       <div className="widget">
-        {Title("Rating")}
+        {Title("Note")}
 
         {ratings.map(({ id, className, value }) => (
           <div className="form-check mb-1" key={id}>
@@ -101,7 +101,7 @@ export default function Filter() {
       </div>
 
       <div className="widget">
-        {Title("Size")}
+        {Title("Taille")}
 
         {sizeList.map(({ id, value, title }) => (
           <div className="form-check mb-1" key={id}>
@@ -114,7 +114,7 @@ export default function Filter() {
       </div>
 
       <div className="widget">
-        {Title("Price")}
+        {Title("Prix")}
 
         {priceRanges.map(({ id, value, title }) => (
           <div className="form-check mb-1" key={id}>

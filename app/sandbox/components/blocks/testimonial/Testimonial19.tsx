@@ -11,7 +11,7 @@ export default function Testimonial19() {
         className="wrapper image-wrapper bg-image bg-overlay"
         style={{ backgroundImage: "url(/img/photos/bg35.jpg)" }}>
         <div className="container pt-15 pb-13">
-          <h2 className="display-5 mb-4 text-center text-white">Happy Customers</h2>
+          <h2 className="display-5 mb-4 text-center text-white">Clients satisfaits</h2>
 
           <div className="swiper-container dots-closer dots-light dots-light-75">
             <Carousel grabCursor spaceBetween={0} navigation={false} breakpoints={carouselBreakpoints}>

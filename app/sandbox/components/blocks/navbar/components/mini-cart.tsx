@@ -99,10 +99,10 @@ export default function MiniCart() {
           </div>
 
           <Link href="/checkout" className="btn btn-primary btn-icon btn-icon-start rounded w-100 mb-4">
-            <i className="uil uil-credit-card fs-18" /> Checkout
+            <i className="uil uil-credit-card fs-18" /> Règlement
           </Link>
 
-          <p className="fs-14 mb-0">Free shipping on all orders over $50</p>
+          <p className="fs-14 mb-0">Livraison gratuite sur toutes les commandes de plus de 50 $</p>
         </div>
       </div>
     </div>

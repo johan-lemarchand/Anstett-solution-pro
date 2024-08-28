@@ -30,8 +30,8 @@ export default function ProductCard2({ size, image, title, color, price }: Produ
             <NextLink title={title} href="#" className="link-dark" />
           </h3>
 
-          {color && <div className="small">Color: {color}</div>}
-          {size && <div className="small">Size: {size}</div>}
+          {color && <div className="small">Couleur: {color}</div>}
+          {size && <div className="small">Taille: {size}</div>}
         </div>
       </div>
 

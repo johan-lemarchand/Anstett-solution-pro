@@ -6,9 +6,9 @@ export default function Portfolio7() {
       <div className="container py-14 py-md-16">
         <div className="row align-items-center mb-7">
           <div className="col-md-8 col-lg-8 col-xl-7 col-xxl-6 pe-lg-17">
-            <h2 className="display-4 mb-3">Recent Projects</h2>
+            <h2 className="display-4 mb-3">Projets récents</h2>
             <p className="lead fs-lg">
-              We love to turn ideas into <span className="underline">beautiful things</span>.
+              Nous aimons transformer les idées en <span className="underline">belles réalisations</span>.
             </p>
           </div>
         </div>

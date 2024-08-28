@@ -8,8 +8,8 @@ export default function Services3() {
     <Fragment>
       <div className="row">
         <div className="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
-          <h2 className="fs-15 text-uppercase text-muted mb-3 ">What We Do?</h2>
-          <h3 className="display-4 mb-5 mb-10">The service we offer is specifically designed to meet your needs.</h3>
+          <h2 className="fs-15 text-uppercase text-muted mb-3 ">Que faisons-nous?</h2>
+          <h3 className="display-4 mb-5 mb-10">Le service que nous offrons est spécialement conçu pour répondre à vos besoins.</h3>
         </div>
       </div>
 

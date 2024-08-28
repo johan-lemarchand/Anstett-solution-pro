@@ -21,9 +21,9 @@ export default function About10() {
       </div>
 
       <div className="col-lg-5 col-xl-4 offset-lg-1">
-        <h3 className="display-4 mb-3">Sandbox Brings Awesomeness</h3>
+        <h3 className="display-4 mb-3">Anstett Solutions Pro</h3>
         <p className="lead fs-lg mb-6">
-          We have considered our solutions to <span className="underline">support every stage</span> of your growth.
+        Nous avons examiné nos solutions pour <span className="underline">soutenir chaque étape</span> de votre croissance.
         </p>
 
         <ul className="progress-list">

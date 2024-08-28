@@ -29,7 +29,7 @@ export default function Footer16() {
                   <ul className="post-meta">
                     <li className="post-date">
                       <i className="uil uil-calendar-alt" />
-                      <span>26 Mar 2022</span>
+                      <span>26 mars 2022</span>
                     </li>
                   </ul>
                 </div>
@@ -50,7 +50,7 @@ export default function Footer16() {
                   <ul className="post-meta">
                     <li className="post-date">
                       <i className="uil uil-calendar-alt" />
-                      <span>16 Feb 2022</span>
+                      <span>16 février 2022</span>
                     </li>
                   </ul>
                 </div>
@@ -71,7 +71,7 @@ export default function Footer16() {
                   <ul className="post-meta">
                     <li className="post-date">
                       <i className="uil uil-calendar-alt" />
-                      <span>8 Jan 2022</span>
+                      <span>8 janvier 2022</span>
                     </li>
                   </ul>
                 </div>
@@ -92,7 +92,7 @@ export default function Footer16() {
             </div>
 
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Categories</h4>
+              <h4 className="widget-title text-white mb-3">Catégories</h4>
               <ul className="unordered-list text-reset bullet-white ">
                 {categories.map(({ id, post, title, url }) => (
                   <li key={id}>
@@ -105,54 +105,54 @@ export default function Footer16() {
 
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Get in Touch</h4>
-              <address className="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
-              <a href="mailto:#">info@email.com</a>
-              <br /> 00 (123) 456 78 90
+              <h4 className="widget-title text-white mb-3">Prendre contact</h4>
+              <address className="pe-xl-15 pe-xxl-17">26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
+              <a href="mailto:#">anstett.solutions.pro@gmail.com</a>
+              <br /> 06 42 18 55 95
             </div>
 
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Elsewhere</h4>
+              <h4 className="widget-title text-white mb-3">Ailleurs</h4>
               <SocialLinks className="nav social social-white" />
             </div>
           </div>
 
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Learn More</h4>
+              <h4 className="widget-title text-white mb-3">En savoir plus</h4>
               <ul className="list-unstyled text-reset mb-0">
                 <li>
-                  <Link href="#">About Us</Link>
+                  <Link href="#">Qui sommes-nous</Link>
                 </li>
 
                 <li>
-                  <Link href="#">Our Story</Link>
+                  <Link href="#">Notre histoire</Link>
                 </li>
 
                 <li>
-                  <Link href="#">Projects</Link>
+                  <Link href="#">Nos projets</Link>
                 </li>
               </ul>
             </div>
 
             <div className="widget">
-              <h4 className="widget-title text-white mb-3">Need Help?</h4>
+              <h4 className="widget-title text-white mb-3">Besoin d'aide?</h4>
               <ul className="list-unstyled text-reset mb-0">
                 <li>
                   <Link href="#">Support</Link>
                 </li>
                 <li>
-                  <Link href="#">Get Started</Link>
+                  <Link href="#">Commencer</Link>
                 </li>
                 <li>
-                  <Link href="#">Contact Us</Link>
+                  <Link href="#">Contactez-nous</Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <p className="mt-6 mb-0 text-center">© 2022 Sandbox. All rights reserved.</p>
+        <p className="mt-6 mb-0 text-center">© 2024 Anstett Solutions Pro. Tous droits réservés.</p>
       </div>
     </footer>
   );

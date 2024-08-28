@@ -5,9 +5,9 @@ import { processList2 } from "app/sandbox/data/process";
 export default function Process6() {
   return (
     <Fragment>
-      <h2 className="display-4 mb-3">How We Do It?</h2>
+      <h2 className="display-4 mb-3">Comment procédons-nous?</h2>
       <p className="lead fs-lg mb-8">
-        We make your spending <span className="underline">stress-free</span> for you to have the perfect control.
+      Nous nous assurons que vos projets soient sans stress, afin que vous puissiez avoir un contrôle parfait.
       </p>
 
       <div className="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line">

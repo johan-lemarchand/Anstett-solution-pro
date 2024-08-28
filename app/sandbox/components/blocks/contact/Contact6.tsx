@@ -17,7 +17,7 @@ export default function Contact6() {
           </div>
 
           <div className="col-lg-5">
-            <h3 className="display-4 mb-7">Got any questions? Don't hesitate to get in touch.</h3>
+            <h3 className="display-4 mb-7">Vous avez des questions? N’hésitez pas à nous contacter.</h3>
             <div className="d-flex flex-row">
               <div>
                 <IconBox
@@ -27,8 +27,8 @@ export default function Contact6() {
               </div>
 
               <div>
-                <h5 className="mb-1">Address</h5>
-                <address>Moonshine St. 14/05 Light City, London</address>
+                <h5 className="mb-1">Adresse</h5>
+                <address>26E rue de Kaltenhouse, Oberhoffen-Sur-Moder</address>
               </div>
             </div>
 
@@ -38,8 +38,8 @@ export default function Contact6() {
               </div>
 
               <div>
-                <h5 className="mb-1">Phone</h5>
-                <p>00 (123) 456 78 90</p>
+                <h5 className="mb-1">Téléphone</h5>
+                <p>06 42 18 55 95</p>
               </div>
             </div>
 
@@ -51,8 +51,8 @@ export default function Contact6() {
               <div>
                 <h5 className="mb-1">E-mail</h5>
                 <p className="mb-0">
-                  <a href="mailto:sandbox@email.com" className="link-body">
-                    sandbox@email.com
+                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                    anstett.solutions.pro@gmail.com
                   </a>
                 </p>
               </div>

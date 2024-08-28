@@ -9,13 +9,13 @@ export const pricingList1 = [
     monthlyPrice: 19,
     yearlyPrice: 199,
     planName: 'Premium',
-    features: ['5 Projects', '100K API Access', '200MB Storage', 'Weekly Reports', '7/24 Support']
+    features: ['5 Projets', '100K Accès API', '200MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   },
   {
     monthlyPrice: 49,
     yearlyPrice: 499,
-    planName: 'Corporate',
-    features: ['20 Projects', '300K API Access', '500MB Storage', 'Weekly Reports', '7/24 Support']
+    planName: 'Entreprise',
+    features: ['20 Projets', '300K Accès API', '500MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   }
 ];
 
@@ -26,21 +26,21 @@ export const pricingList2 = [
     yearlyPrice: 99,
     Icon: ShoppingBasket,
     planName: 'Basic Plan',
-    features: ['1 Project', '100K API Access', '100MB Storage', 'Weekly Reports', '7/24 Support']
+    features: ['1 Projets', '100K Accès API', '100MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   },
   {
     Icon: Home,
     monthlyPrice: 19,
     yearlyPrice: 199,
     planName: 'Premium Plan',
-    features: ['5 Projects', '100K API Access', '200MB Storage', 'Weekly Reports', '7/24 Support']
+    features: ['5 Projets', '100K Accès API', '200MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   },
   {
     monthlyPrice: 49,
     yearlyPrice: 499,
     Icon: BriefcaseTwo,
-    planName: 'Corporate Plan',
-    features: ['20 Projects', '300K API Access', '500MB Storage', 'Weekly Reports', '7/24 Support']
+    planName: 'Entreprise Plan',
+    features: ['20 Projets', '300K Accès API', '500MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   }
 ];
 
@@ -50,18 +50,18 @@ export const pricingList3 = [
     monthlyPrice: 9,
     yearlyPrice: 99,
     planName: 'Basic',
-    features: ['1 Project', '100K API Access', '100MB Storage', 'Weekly Reports', '7/24 Support']
+    features: ['1 Projets', '100K Accès API', '100MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   },
   {
     monthlyPrice: 19,
     yearlyPrice: 199,
     planName: 'Premium',
-    features: ['5 Projects', '100K API Access', '200MB Storage', 'Weekly Reports', '7/24 Support']
+    features: ['5 Projets', '100K Accès API', '200MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   },
   {
     monthlyPrice: 49,
     yearlyPrice: 499,
-    planName: 'Corporate',
-    features: ['20 Projects', '300K API Access', '500MB Storage', 'Weekly Reports', '7/24 Support']
+    planName: 'Entreprise',
+    features: ['20 Projets', '300K Accès API', '500MB Stockage', 'Rapports hebdomadaires', 'Support 24/7']
   }
 ];

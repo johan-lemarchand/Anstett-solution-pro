@@ -34,11 +34,11 @@ export default function CTA11() {
             />
 
             <h2 className="display-3 mb-4">
-              Manage all your bills, accounts & budgets in <span className="text-gradient gradient-7">one place.</span>
+            Gérez toutes vos factures, comptes et budgets <span className="text-gradient gradient-7">en un seul endroit</span>
             </h2>
 
             <p className="lead fs-24 lh-sm mb-7">
-              Sandbox is available to download from both App Store and Google Play Store.
+              Anstett Solutions Pro est disponible en téléchargement sur l’App Store et le Google Play Store.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">

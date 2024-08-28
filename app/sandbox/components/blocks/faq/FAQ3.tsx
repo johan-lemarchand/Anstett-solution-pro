@@ -8,9 +8,9 @@ export default function FAQ3() {
       <div className="card-body p-md-10 p-xl-11">
         <div className="row gx-lg-8 gx-xl-12 gy-10">
           <div className="col-lg-6">
-            <h3 className="display-4 mb-4">Frequently Asked Questions</h3>
+            <h3 className="display-4 mb-4">Questions fréquemment posées</h3>
             <p className="lead fs-lg mb-0">
-              If you don't see an answer to your question, you can send us an email from our contact form.
+            Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un email depuis notre formulaire de contact.
             </p>
           </div>
 

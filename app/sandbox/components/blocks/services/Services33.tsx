@@ -11,13 +11,13 @@ export default function Services33() {
     <Fragment>
       <div className="row text-center">
         <div className="col-md-10 col-lg-9 col-xxl-7 mx-auto mb-12">
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Our Services</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">Nos services</h2>
           <h3 className="display-2 ls-sm px-xxl-10">
-            The service we offer is{" "}
+          Le service que nous offrons est{" "}
             <span className="underline-3 style-1 primary">
-              <em>designed</em>
+              <em>conçu</em>
             </span>{" "}
-            to meet your business needs.
+            pour répondre à vos besoins commerciaux.
           </h3>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default function Services33() {
             <Like />
           </div>
 
-          <h3 className="h1 post-title ls-sm mb-3">Social Media Marketing</h3>
+          <h3 className="h1 post-title ls-sm mb-3">Marketing sur les réseaux sociaux</h3>
 
           <p>
             Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis
@@ -63,7 +63,7 @@ export default function Services33() {
             </li>
           </ul>
 
-          <NextLink title="Learn More" href="#" className="more hover link-primary" />
+          <NextLink title="En savoir plus" href="#" className="more hover link-primary" />
         </div>
       </div>
 
@@ -84,7 +84,7 @@ export default function Services33() {
             <LayoutTwo />
           </div>
 
-          <h3 className="h1 post-title ls-sm mb-3">Web Design & Development</h3>
+          <h3 className="h1 post-title ls-sm mb-3">Web Design & Développement</h3>
 
           <p>
             Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis
@@ -108,7 +108,7 @@ export default function Services33() {
             </li>
           </ul>
 
-          <NextLink title="Learn More" href="#" className="more hover link-green" />
+          <NextLink title="En savoir plus" href="#" className="more hover link-green" />
         </div>
       </div>
 
@@ -129,7 +129,7 @@ export default function Services33() {
             <BullHorn />
           </div>
 
-          <h3 className="h1 post-title ls-sm mb-3">Content Marketing Services</h3>
+          <h3 className="h1 post-title ls-sm mb-3">Services de marketing de contenu</h3>
 
           <p>
             Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis
@@ -153,7 +153,7 @@ export default function Services33() {
             </li>
           </ul>
 
-          <NextLink title="Learn More" href="#" className="more hover link-fuchsia" />
+          <NextLink title="En savoir plus" href="#" className="more hover link-fuchsia" />
         </div>
       </div>
     </Fragment>

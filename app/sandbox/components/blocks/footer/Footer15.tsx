@@ -9,7 +9,7 @@ export default function Footer15() {
             <div className="widget">
               <img className="mb-4" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" alt="" />
               <p className="lead mb-0">
-                I'm Caitlyn Sandbox, a photographer specializing in food, drink and product photography.
+              Je suis Caitlyn Lemarchand, photographe spécialisée dans la photographie de produits alimentaires et de boissons.
               </p>
             </div>
           </div>
@@ -24,10 +24,10 @@ export default function Footer15() {
                 </div>
 
                 <div>
-                  <h5 className="mb-1">Phone</h5>
+                  <h5 className="mb-1">Téléphone</h5>
                   <p className="mb-0">
-                    00 (123) 456 78 90 <br />
-                    00 (987) 654 32 10
+                    06 42 18 55 95 <br />
+                    
                   </p>
                 </div>
               </div>
@@ -44,8 +44,8 @@ export default function Footer15() {
                 </div>
 
                 <div className="align-self-start justify-content-start">
-                  <h5 className="mb-1">Address</h5>
-                  <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
+                  <h5 className="mb-1">Adresse</h5>
+                  <address>26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function Footer15() {
 
         <hr className="mt-11 mt-md-12 mb-7" />
         <div className="d-md-flex align-items-center justify-content-between">
-          <p className="mb-2 mb-lg-0">© 2022 Sandbox. All rights reserved.</p>
+          <p className="mb-2 mb-lg-0">© 2024 Anstett Solutions Pro. Tous droits réservés.</p>
           <SocialLinks className="nav social social-muted mb-0 text-md-end" />
         </div>
       </div>

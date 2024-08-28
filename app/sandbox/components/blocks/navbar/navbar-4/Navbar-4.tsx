@@ -54,7 +54,7 @@ export default function Navbar4({
               data-bs-scroll="true"
               id="offcanvas-nav">
               <div className="offcanvas-header d-lg-none">
-                <h3 className="text-white fs-30 mb-0">Sandbox</h3>
+                <h3 className="text-white fs-30 mb-0">Anstett Solutions Pro</h3>
                 <button
                   type="button"
                   aria-label="Close"
@@ -69,9 +69,9 @@ export default function Navbar4({
                 {/* ============= show contact info in the small device sidebar ============= */}
                 <div className="offcanvas-footer d-lg-none">
                   <div>
-                    <NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
+                    <NextLink title="anstett.solutions.pro@gmail.com" className="link-inverse" href="mailto:anstett.solutions.pro@gmail.com" />
                     <br />
-                    <NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
+                    <NextLink href="tel:0642185595" title="06 42 18 55 95" />
                     <br />
                     <SocialLinks />
                   </div>

@@ -43,7 +43,7 @@ export default function PricingCard1(props: PricingCard1Props) {
 
         <NextLink
           href="#"
-          title="Choose Plan"
+          title="Choisir la formule"
           className={`btn btn-primary ${roundedButton ? "rounded" : "rounded-pill"}`}
         />
       </div>

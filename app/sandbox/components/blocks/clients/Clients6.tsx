@@ -23,7 +23,7 @@ export default function Clients6() {
 
   return (
     <Fragment>
-      <h2 className="fs-16 text-uppercase text-muted mb-8 text-center">Trusted by over 5000 clients</h2>
+      <h2 className="fs-16 text-uppercase text-muted mb-8 text-center">La confiance de plus de 5000 clients</h2>
 
       <div className="swiper-container clients mb-19">
         <Carousel {...carouselProps}>

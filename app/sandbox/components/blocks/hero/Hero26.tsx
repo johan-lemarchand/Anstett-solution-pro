@@ -7,21 +7,21 @@ export default function Hero26() {
         <div className="row gx-md-8 gx-xl-12 gy-10 align-items-center text-center text-lg-start">
           <div className="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="900">
             <h1 className="display-1 mb-4 me-xl-5 mt-lg-n10">
-              Grow Your Business with <br className="d-none d-md-block d-lg-none" />
-              <span className="text-primary">Our Marketing Solutions</span>
+            Développez votre entreprise avec <br className="d-none d-md-block d-lg-none" />
+            <span className="text-primary">nos solutions marketing</span>
             </h1>
 
             <p className="lead fs-24 lh-sm mb-7 pe-xxl-15">
-              We help our clients to increase their website <br className="d-none d-md-block d-lg-none" /> traffic,
-              rankings and visibility in search results.
+            Nous aidons nos clients à augmenter le trafic de leur site web<br className="d-none d-md-block d-lg-none" />,
+            classement et visibilité dans les résultats de recherche.
             </p>
 
             <div className="d-inline-flex me-2">
-              <NextLink href="#" title="Try it for Free" className="btn btn-lg btn-grape rounded" />
+              <NextLink href="#" title="Essayez gratuitement" className="btn btn-lg btn-grape rounded" />
             </div>
 
             <div className="d-inline-flex">
-              <NextLink href="#" title="Explore Now" className="btn btn-lg btn-outline-grape rounded" />
+              <NextLink href="#" title="Découvrir maintenant" className="btn btn-lg btn-outline-grape rounded" />
             </div>
           </div>
 

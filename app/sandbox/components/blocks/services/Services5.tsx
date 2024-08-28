@@ -29,14 +29,14 @@ export default function Services5() {
               </span>
             </h3>
 
-            <p>Year Experience</p>
+            <p>Ans d'expérience</p>
           </div>
 
           <Tiles1 />
         </div>
 
         <div className="col-lg-6">
-          <h3 className="display-4 mb-5">We bring solutions to make life easier for our customers.</h3>
+          <h3 className="display-4 mb-5">Nous apportons des solutions pour faciliter la vie de nos clients.</h3>
 
           <p className="mb-7">
             Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Integer posuere

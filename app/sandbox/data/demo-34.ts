@@ -2,21 +2,21 @@ export const demos = [
   {
     id: 'XVIII',
     color: 'navy',
-    link: '/demo-18',
+    link: '/themes/demo-18',
     images: ['d18-1', 'd18-2'],
     features: ['Network, Marketing', 'SVG icons', '3D illustrations', 'Gradient image']
   },
   {
     id: 'XIX',
     color: 'fuchsia',
-    link: '/demo-19',
+    link: '/themes/demo-19',
     images: ['d19-1', 'd19-2'],
     features: ['Agency, Startup', 'Gradient image', 'SVG icons', 'Colorful design']
   },
   {
     id: 'XX',
     color: 'purple',
-    link: '/demo-20',
+    link: '/themes/demo-20',
     images: ['d20-1', 'd20-2'],
     features: ['Agency, Startup', 'Framed layout', 'Illustrations', 'Video background']
   }
@@ -25,10 +25,10 @@ export const demos = [
 export const filterList = [
   { id: 1, title: 'All', value: '*' },
   { id: 2, title: 'Services', value: '.services' },
-  { id: 3, title: 'About', value: '.about' },
+  { id: 3, title: 'À propos', value: '.about' },
   { id: 4, title: 'Contact', value: '.contact' },
-  { id: 5, title: 'Pricing', value: '.pricing' },
-  { id: 6, title: 'Projects', value: '.projects' }
+  { id: 5, title: 'Prix', value: '.pricing' },
+  { id: 6, title: 'Projets', value: '.projects' }
 ];
 
 export const innerPages = [
@@ -47,7 +47,7 @@ export const innerPages = [
 ];
 
 export const facts = [
-  { id: 1, value: 250, title: 'UI elements' },
-  { id: 2, value: 130, title: 'Pre-made blocks' },
-  { id: 3, value: 100, title: 'Neatly coded pages' }
+  { id: 1, value: 250, title: 'Éléments UI' },
+  { id: 2, value: 130, title: 'Blocs préconstruit' },
+  { id: 3, value: 100, title: 'Pages conçues avec soin' }
 ];

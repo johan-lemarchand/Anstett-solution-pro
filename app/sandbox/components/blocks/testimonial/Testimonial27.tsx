@@ -17,7 +17,7 @@ export default function Testimonial27() {
           <div className="row">
             <div className="col-md-10 col-lg-9 col-xl-8 mx-auto text-center">
               <h3 className="display-2 mb-10 px-xxl-10">
-                Don't take our word for it. See what customers are saying about us.
+                Ne me croyez pas sur parole. Voyez ce que les clients disent de moi.
               </h3>
             </div>
           </div>

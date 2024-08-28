@@ -47,7 +47,7 @@ export default function BlogTemplate() {
       <div className="blog classic-view">
         <BlogCard2
           link="#"
-          category="TEAMWORK"
+          category="Travail d'équipe"
           title="Amet Dolor Bibendum Parturient Cursus"
           description="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur."
           cardTop={
@@ -58,7 +58,7 @@ export default function BlogTemplate() {
               </a>
 
               <figcaption>
-                <h5 className="from-top mb-0">Read More</h5>
+                <h5 className="from-top mb-0">En savoir plus</h5>
               </figcaption>
             </figure>
           }
@@ -66,7 +66,7 @@ export default function BlogTemplate() {
 
         <BlogCard2
           link="#"
-          category="IDEAS"
+          category="Idées"
           title="Fringilla Ligula Pharetra Amet"
           description="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur."
           cardTop={
@@ -83,7 +83,7 @@ export default function BlogTemplate() {
 
         <BlogCard2
           link="#"
-          category="WORKSPACE"
+          category="Espace de travail"
           title="Consectetur Bibendum Sollicitudin Vulputate"
           description="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur."
           cardTop={

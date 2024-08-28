@@ -24,7 +24,7 @@ export default function Tiles3() {
                   <CountUp end={5000} suffix="+" />
                 </h3>
 
-                <p className="mb-0">Satisfied Customers</p>
+                <p className="mb-0">Clients satisfaits</p>
               </div>
             </div>
           </div>

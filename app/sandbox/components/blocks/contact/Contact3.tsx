@@ -14,10 +14,10 @@ export default function Contact3() {
       </div>
 
       <div className="col-lg-5">
-        <h2 className="display-4 mb-3">Let’s Talk</h2>
+        <h2 className="display-4 mb-3">Parlons-en</h2>
         <p className="lead fs-lg">
-          Lets make something great together. We are <span className="underline">trusted by</span>{" "}
-          over 5000+ clients. Join them by using our services and grow your business.
+        Nous allons faire quelque chose de grand ensemble. <span className="underline">nous avons </span>{" "}
+        Plus de 5000 clients. Rejoignez-les en utilisant nos services et développez votre entreprise.
         </p>
 
         <p>
@@ -26,7 +26,7 @@ export default function Contact3() {
           condimentum nibh, ut fermentum massa justo sit amet risus.
         </p>
 
-        <NextLink title="Join Us" href="#" className="btn btn-primary rounded-pill mt-2" />
+        <NextLink title="Rejoignez-nous" href="#" className="btn btn-primary rounded-pill mt-2" />
       </div>
     </div>
   );

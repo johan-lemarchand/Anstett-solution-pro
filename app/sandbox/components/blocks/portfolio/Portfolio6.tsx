@@ -9,8 +9,8 @@ export default function Portfolio6() {
             <div className="item mt-md-7 mt-lg-15">
               <div className="project-details d-flex justify-content-center align-self-end flex-column ps-0 pb-0">
                 <div className="post-header">
-                  <h2 className="display-4 mb-4 pe-xxl-15">Check out some of our recent projects below.</h2>
-                  <p className="lead fs-lg mb-0">We love to turn ideas into beautiful things.</p>
+                  <h2 className="display-4 mb-4 pe-xxl-15">Découvrez quelques-uns de nos projets récents ci-dessous.</h2>
+                  <p className="lead fs-lg mb-0">Nous aimons métamorphoser des idées en projets.</p>
                 </div>
               </div>
             </div>

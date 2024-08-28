@@ -12,21 +12,20 @@ export default function Pricing5() {
   return (
     <div className="row gy-6 align-items-center mb-14 mb-md-18">
       <div className="col-lg-4">
-        <h3 className="display-4 mb-5">We offer great and premium prices.</h3>
+        <h3 className="display-4 mb-5">Nous offrons des prix attractifs </h3>
         <p className="lead fs-lg mb-5">
-          Enjoy a <span className="underline">free 30-day trial</span> and experience the full
-          service. No credit card required!
+          Profitez de <span className="underline">30 jours d'essai</span> et du service complet! Pas de carte de crédit requise !
         </p>
 
-        <NextLink title="See All Prices" href="#" className="btn btn-primary rounded-pill mt-2" />
+        <NextLink title="Voir tous les tarifs" href="#" className="btn btn-primary rounded-pill mt-2" />
       </div>
 
       <div className="col-lg-7 offset-lg-1 pricing-wrapper">
         <div className="pricing-switcher-wrapper switcher justify-content-start justify-content-lg-end">
-          <p className="mb-0 pe-3">Monthly</p>
+          <p className="mb-0 pe-3">Mensuel</p>
           <Switch value={activeYearly} onChange={setActiveYearly} />
           <p className="mb-0 ps-3">
-            Yearly <span className="text-red">(Save 30%)</span>
+            Annuel <span className="text-red">(Économisez 30 %)</span>
           </p>
         </div>
 

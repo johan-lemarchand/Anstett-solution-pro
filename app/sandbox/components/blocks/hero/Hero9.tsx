@@ -11,7 +11,7 @@ export default function Hero9() {
   const OPTIONS = {
     loop: true,
     autoStart: true,
-    strings: ["easy usage", "fast transactions", "secure payments"]
+    strings: ["simplicité d'utilisation", "transactions rapides", "paiements sécurisés"]
   };
 
   return (
@@ -20,23 +20,23 @@ export default function Hero9() {
         <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0">
             <h1 className="display-1 mb-5 mx-md-10 mx-lg-0" style={slideInDownAnimate("600ms")}>
-              Sandbox is effortless and powerful with <br />
+              Anstett Solutions Pro,
+              des projets puissants avec <br />
               <span className="typer text-primary text-nowrap">
                 <Typewriter options={OPTIONS} />
               </span>
             </h1>
 
             <p className="lead fs-lg mb-7" style={slideInDownAnimate("900ms")}>
-              Achieve your saving goals. Have all your recurring and one time expenses and incomes in one place.
-            </p>
+            Atteignez vos objectifs d’épargne. Vos dépenses, revenus récurrents et ponctuels en un seul endroit.</p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>
-                <NextLink title="Get Started" href="#" className="btn btn-lg btn-primary rounded me-2" />
+                <NextLink title="Commencer" href="#" className="btn btn-lg btn-primary rounded me-2" />
               </span>
 
               <span style={slideInDownAnimate("1500ms")}>
-                <NextLink title="Free Trial" href="#" className="btn btn-lg btn-green rounded" />
+                <NextLink title="Essai gratuit" href="#" className="btn btn-lg btn-green rounded" />
               </span>
             </div>
           </div>

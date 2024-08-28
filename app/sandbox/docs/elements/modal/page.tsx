@@ -7,9 +7,9 @@ import { cookieMarkup, subscriptionMarkup, signinMarkup, signupMarkup } from "ap
 // CUSTOM DATA
 const quickAccess = [
   { title: "Cookie", url: "snippet-1" },
-  { title: "Subscription", url: "snippet-2" },
-  { title: "Sign In", url: "snippet-3" },
-  { title: "Sign Up", url: "snippet-4" }
+  { title: "Abonnement", url: "snippet-2" },
+  { title: "Connexion", url: "snippet-3" },
+  { title: "S'inscrire", url: "snippet-4" }
 ];
 
 export default function Modal() {
@@ -109,7 +109,7 @@ export default function Modal() {
                       </div>
                     </div>
 
-                    <h3>Join the mailing list and get %10 off</h3>
+                    <h3>Rejoindre la liste de diffusion et obtenir - %10</h3>
 
                     <p className="mb-6">
                       Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor
@@ -133,11 +133,11 @@ export default function Modal() {
                                     type="email"
                                     name="EMAIL"
                                     className="required email form-control"
-                                    placeholder="Email Address"
+                                    placeholder="Adresse e-mail"
                                     id="mce-EMAIL"
                                   />
                                   <label htmlFor="mce-EMAIL" className="text-start">
-                                    Email Address
+                                    Adresse e-mail
                                   </label>
                                   <input
                                     type="submit"
@@ -186,14 +186,14 @@ export default function Modal() {
 
       {/* ========== section 3 ========== */}
       <section id="snippet-3" className="wrapper pt-16">
-        <h2 className="mb-5">Sign In</h2>
+        <h2 className="mb-5">Connexion</h2>
         <div className="card">
           <div className="card-body">
             <button
               className="btn btn-primary rounded-pill mx-1 mb-2 mb-md-0"
               data-bs-toggle="modal"
               data-bs-target="#modal-signin">
-              Sign In
+              Connexion
             </button>
 
             <Signin />
@@ -217,14 +217,14 @@ export default function Modal() {
 
       {/* ========== section 4 ========== */}
       <section id="snippet-4" className="wrapper py-16">
-        <h2 className="mb-5">Sign Up</h2>
+        <h2 className="mb-5">S'inscrire</h2>
         <div className="card">
           <div className="card-body">
             <button
               className="btn btn-primary rounded-pill mx-1 mb-2 mb-md-0"
               data-bs-toggle="modal"
               data-bs-target="#modal-signup">
-              Sign Up
+              S'inscrire
             </button>
 
             <Signup />

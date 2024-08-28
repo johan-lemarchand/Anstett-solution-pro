@@ -7,11 +7,11 @@ export default function ProjectDetailsNavigation() {
         <div className="row gx-md-6 gy-3 gy-md-0">
           <div className="col-md-8 align-self-center text-center text-md-start navigation">
             <button className="btn btn-soft-ash rounded-pill btn-icon btn-icon-start mb-0 me-1">
-              <i className="uil uil-arrow-left" /> Prev Post
+              <i className="uil uil-arrow-left" /> Article précédent
             </button>
 
             <button className="btn btn-soft-ash rounded-pill btn-icon btn-icon-end mb-0">
-              Next Post <i className="uil uil-arrow-right" />
+              Article suivant <i className="uil uil-arrow-right" />
             </button>
           </div>
 

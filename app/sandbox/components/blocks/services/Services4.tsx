@@ -8,9 +8,9 @@ export default function Services4() {
     <Fragment>
       <div className="row">
         <div className="col-lg-8 col-xl-7 col-xxl-6">
-          <h2 className="fs-16 text-uppercase text-line text-primary mb-3">What We Do?</h2>
+          <h2 className="fs-16 text-uppercase text-line text-primary mb-3">Que faisons-nous?</h2>
           <h3 className="display-4 mb-9">
-            The service we offer is specifically designed to meet your needs.
+           Le service que nous offrons est spécialement conçu pour répondre à vos besoins.
           </h3>
         </div>
       </div>

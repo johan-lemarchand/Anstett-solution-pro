@@ -10,7 +10,7 @@ export default function Services7() {
         <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 className="fs-15 text-uppercase text-muted mb-3">App Features</h2>
           <h3 className="display-4 mb-9 px-xxl-11">
-            Sandbox is the only app you need to track your goals for better health.
+            Anstett Solutions Pro est la seule application dont vous avez besoin pour suivre vos objectifs pour une meilleure santé.
           </h3>
         </div>
       </div>

@@ -21,8 +21,8 @@ export default function Services31() {
           />
           <h2 className="fs-16 text-uppercase text-muted mb-3">App Features</h2>
           <h3 className="display-3 mb-11 px-lg-5 px-xl-0 px-xxl-6">
-            Sandbox makes your spending <span className="text-gradient gradient-7">stress-free</span> for you to have
-            the perfect control.
+            Anstett Solutions Pro permet de gérer les dépenses <span className="text-gradient gradient-7">sans stress</span> pour avoir
+            un contrôle parfait.
           </h3>
         </div>
       </div>

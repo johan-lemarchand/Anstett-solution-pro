@@ -7,13 +7,13 @@ export default function Search() {
             type="text"
             id="search-form"
             className="form-control"
-            placeholder="Type keyword and hit enter"
+            placeholder="Saisir le mot-clé et appuyer sur Entrée."
           />
         </form>
 
         <button
           type="button"
-          aria-label="Close"
+          aria-label="Fermer"
           className="btn-close"
           data-bs-dismiss="offcanvas"
         />

@@ -21,7 +21,7 @@ export default function BlogCard1({ date, image, title, category }: BlogCard1Pro
         </Link>
 
         <figcaption>
-          <h5 className="from-top mb-0">Read More</h5>
+          <h5 className="from-top mb-0">En savoir plus</h5>
         </figcaption>
       </figure>
 

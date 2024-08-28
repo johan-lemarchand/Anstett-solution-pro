@@ -17,17 +17,17 @@ export default function Contact7() {
           <div className="col-lg-6">
             <TeleMarketer className="icon-svg-md mb-4" />
 
-            <h2 className="display-4 mb-8">Convinced yet? Let's make something great together.</h2>
+            <h2 className="display-4 mb-8">Convaincu? Créons quelque chose de grand ensemble.</h2>
             <div className="d-flex flex-row">
               <div>
                 <IconBox className="icon text-primary fs-28 me-6 mt-n1" icon="uil-location-pin-alt" />
               </div>
 
               <div>
-                <h5 className="mb-1">Address</h5>
+                <h5 className="mb-1">Adresse</h5>
                 <address>
-                  Moonshine St. 14/05 Light City, <br className="d-none d-md-block" />
-                  London, United Kingdom
+                  26 E rue de Kaltenhouse,<br className="d-none d-md-block" />
+                  67240 Oberhoffen-Sur-Moder
                 </address>
               </div>
             </div>
@@ -38,8 +38,8 @@ export default function Contact7() {
               </div>
 
               <div>
-                <h5 className="mb-1">Phone</h5>
-                <p>00 (123) 456 78 90</p>
+                <h5 className="mb-1">Téléphone</h5>
+                <p>06 42 18 55 95</p>
               </div>
             </div>
 
@@ -51,8 +51,8 @@ export default function Contact7() {
               <div>
                 <h5 className="mb-1">E-mail</h5>
                 <p className="mb-0">
-                  <a href="mailto:sandbox@email.com" className="link-body">
-                    sandbox@email.com
+                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                    anstett.solutions.pro@gmail.com
                   </a>
                 </p>
               </div>

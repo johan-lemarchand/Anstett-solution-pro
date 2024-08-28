@@ -8,7 +8,7 @@ import { projectsNavigation } from "app/sandbox/data/navigation";
 export default function ProjectsNavItem() {
   return (
     <li className="nav-item dropdown">
-      <DropdownToggleLink title="Projects" className="nav-link dropdown-toggle" />
+      <DropdownToggleLink title="Projets" className="nav-link dropdown-toggle" />
 
       <div className="dropdown-menu dropdown-lg">
         <div className="dropdown-lg-content">

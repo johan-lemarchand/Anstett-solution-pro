@@ -9,19 +9,18 @@ export default function Hero31() {
             data-group="page-title"
             className="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
             <h1 className="display-1 ls-sm fs-64 mb-4 px-md-8 px-lg-0">
-              We bring rapid solutions for your{" "}
+              Nous apportons des solutions rapides pour votre{" "}
               <span className="underline-3 style-1 primary">
-                <em>business</em>
+                <em>entreprise</em>
               </span>
             </h1>
 
             <p className="lead fs-24 lh-sm mb-7">
-              We are creative company that values quality and focuses on establishing long-term relationships with
-              customers.
+            Nous sommes une entreprise innovante qui privilégie la qualité de ses services et s'engage à bâtir des relations durables avec ses clients.
             </p>
 
             <div>
-              <a className="btn btn-lg btn-primary rounded mb-10 mb-xxl-5">See Projects</a>
+              <a className="btn btn-lg btn-primary rounded mb-10 mb-xxl-5">Voir les projets</a>
             </div>
           </div>
         </div>

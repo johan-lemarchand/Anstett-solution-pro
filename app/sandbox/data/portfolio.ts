@@ -14,14 +14,14 @@ export const portfolioList2 = [
   {
     id: 0,
     url: '#',
-    category: 'Mobile Design',
+    category: 'Design mobile',
     title: 'Cras Fermentum Sem',
     image: { '1x': '/img/photos/sp1.jpg', '2x': '/img/photos/sp1@2x.jpg 2x' }
   },
   {
     id: 1,
     url: '#',
-    category: 'Web Design',
+    category: 'Design web',
     title: 'Venenatis Euismod Vehicula',
     image: { '1x': '/img/photos/sp2.jpg', '2x': '/img/photos/sp2@2x.jpg 2x' }
   },
@@ -35,14 +35,14 @@ export const portfolioList2 = [
   {
     id: 3,
     url: '#',
-    category: 'Web Application',
+    category: 'Application Web',
     title: 'Ridiculus Sem Parturient',
     image: { '1x': '/img/photos/sp4.jpg', '2x': '/img/photos/sp4@2x.jpg 2x' }
   },
   {
     id: 4,
     url: '#',
-    category: 'Web Design',
+    category: 'Design web',
     title: 'Cursus Sollicitudin Adipiscing',
     image: { '1x': '/img/photos/sp5.jpg', '2x': '/img/photos/sp5@2x.jpg 2x' }
   },
@@ -60,14 +60,14 @@ export const portfolioList3 = [
   {
     id: 1,
     photos: 5,
-    category: 'Wedding',
+    category: 'Mariage',
     name: 'Lucy & David',
     image: { '1x': '/img/photos/fc1.jpg', '2x': '/img/photos/fc1@2x.jpg 2x' }
   },
   {
     id: 2,
     photos: 8,
-    category: 'Wedding',
+    category: 'Mariage',
     name: 'Stacy & Thomas',
     image: { '1x': '/img/photos/fc2.jpg', '2x': '/img/photos/fc2@2x.jpg 2x' }
   },
@@ -81,7 +81,7 @@ export const portfolioList3 = [
   {
     id: 4,
     photos: 9,
-    category: 'Wedding',
+    category: 'Mariage',
     name: 'Jolene & William',
     image: { '1x': '/img/photos/fc4.jpg', '2x': '/img/photos/fc4@2x.jpg 2x' }
   },
@@ -95,7 +95,7 @@ export const portfolioList3 = [
   {
     id: 6,
     photos: 8,
-    category: 'Wedding',
+    category: 'Mariage',
     name: 'Gloria & Leo',
     image: { '1x': '/img/photos/fc6.jpg', '2x': '/img/photos/fc6@2x.jpg 2x' }
   }

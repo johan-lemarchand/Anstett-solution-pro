@@ -11,9 +11,9 @@ export default function Facts18() {
         <div className="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
           <div className="col-lg-4 text-center text-lg-start">
             <h3 className="display-3 mb-3 pe-xxl-15">
-              I am <em>proud</em> of my results
+            Je suis <em>fier</em> de mes résultats
             </h3>
-            <p className="lead fs-lg mb-0 pe-xxl-10">I bring solutions to make life easier for our customers.</p>
+            <p className="lead fs-lg mb-0 pe-xxl-10">J’apporte des solutions pour faciliter la vie de nos clients.</p>
           </div>
 
           <div className="col-lg-8 mt-lg-2">
@@ -23,7 +23,7 @@ export default function Facts18() {
                 <h3 className="counter">
                   <CountUp end={1000} suffix="+" />
                 </h3>
-                <p className="mb-0">Completed Projects</p>
+                <p className="mb-0">Projets réalisés</p>
               </div>
 
               <div className="col-md-4">
@@ -31,7 +31,7 @@ export default function Facts18() {
                 <h3 className="counter">
                   <CountUp end={12} />
                 </h3>
-                <p className="mb-0">Awards Won</p>
+                <p className="mb-0">Prix décernés</p>
               </div>
 
               <div className="col-md-4">
@@ -39,7 +39,7 @@ export default function Facts18() {
                 <h3 className="counter">
                   <CountUp end={99.7} suffix="%" decimals={1} />
                 </h3>
-                <p className="mb-0">Customer Satisfaction</p>
+                <p className="mb-0">Satisfaction client</p>
               </div>
             </div>
           </div>

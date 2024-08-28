@@ -39,14 +39,14 @@ export default function BlogCard5(props: BlogCard5Props) {
           <li className="post-author">
             <Link href="#">
               <i className="uil uil-user" />
-              <span>By {author}</span>
+              <span>Crée par {author}</span>
             </Link>
           </li>
 
           <li className="post-comments">
             <Link href="#">
               <i className="uil uil-comment" />
-              {comments} <span>Comments</span>
+              {comments} <span>Commentaires</span>
             </Link>
           </li>
         </ul>

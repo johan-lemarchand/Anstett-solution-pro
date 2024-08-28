@@ -38,8 +38,8 @@ export default function CartListItem(props: CartListItemProps) {
             <NextLink title={title} href="#" className="link-dark" />
           </h3>
 
-          {color && <div className="small">Color: {color}</div>}
-          {size && <div className="small">Size: {size}</div>}
+          {color && <div className="small">Coloris: {color}</div>}
+          {size && <div className="small">Taille: {size}</div>}
         </div>
       </td>
 

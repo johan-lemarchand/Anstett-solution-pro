@@ -48,10 +48,10 @@ export default function Services10() {
       </div>
 
       <div className="col-lg-5 offset-lg-1">
-        <h2 className="display-4 mb-3">What We Do?</h2>
+        <h2 className="display-4 mb-3">Que faisons-nous?</h2>
 
         <p className="lead fs-lg lh-sm">
-          The full service we are offering is specifically designed to meet your business needs.
+          Le service complet que nous offrons est spécialement conçu pour répondre aux besoins de votre entreprise.
         </p>
 
         <p>
@@ -61,7 +61,7 @@ export default function Services10() {
           Duis mollis, est non commodo luctus, nisi erat ligula.
         </p>
 
-        <NextLink title="More Details" href="#" className="btn btn-primary rounded-pill mt-3" />
+        <NextLink title="Plus de détails" href="#" className="btn btn-primary rounded-pill mt-3" />
       </div>
     </div>
   );

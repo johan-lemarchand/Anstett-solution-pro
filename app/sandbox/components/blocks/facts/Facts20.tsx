@@ -5,13 +5,13 @@ export default function Facts20() {
     <Fragment>
       <div className="row text-center mb-7">
         <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Join Our Community</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">Rejoindre notre communauté</h2>
           <h3 className="display-2 ls-sm">
-            We are{" "}
+          Nous sommes reconnus{" "}
             <span className="underline-3 style-1 primary">
-              <em>trusted</em>
+              <em>digne de confiance</em>
             </span>{" "}
-            by over 50000+ clients. Join them now and grow your business.
+            par plus de 50000 clients. Rejoignez-les dès maintenant et développez votre entreprise.
           </h3>
         </div>
       </div>
@@ -21,17 +21,17 @@ export default function Facts20() {
           <div className="row align-items-center counter-wrapper gy-4 gy-md-0">
             <div className="col-md-4 text-center">
               <h3 className="counter counter-lg text-primary">1000+</h3>
-              <p>Completed Projects</p>
+              <p>Projets réalisés</p>
             </div>
 
             <div className="col-md-4 text-center">
               <h3 className="counter counter-lg text-primary">50K+</h3>
-              <p>Happy Customers</p>
+              <p>Clients satisfaits</p>
             </div>
 
             <div className="col-md-4 text-center">
               <h3 className="counter counter-lg text-primary">4x</h3>
-              <p>Revenue Growth</p>
+              <p>Croissance des revenus</p>
             </div>
           </div>
         </div>

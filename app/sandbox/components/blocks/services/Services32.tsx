@@ -7,7 +7,7 @@ export default function Services32() {
     <div className="container pt-6">
       <div className="row">
         <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
-          <h2 className="display-2 mb-4">The full service we are offering</h2>
+          <h2 className="display-2 mb-4">Le service complet que nous offrons</h2>
           <p className="lead fs-lg mb-11">
             Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Integer posuere ante
             venenatis.
@@ -28,7 +28,7 @@ export default function Services32() {
               Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla.
             </p>
 
-            <NextLink title="Learn More" href="#" className="more hover" />
+            <NextLink title="En savoir plus" href="#" className="more hover" />
           </div>
         ))}
       </div>

@@ -10,8 +10,8 @@ export default function Process16() {
       </div>
 
       <div className="col-lg-5 me-auto">
-        <h2 className="fs-16 text-uppercase text-grape mb-3">Our Solutions</h2>
-        <h3 className="display-4 mb-5 pe-xxl-5">Just sit & relax while we take care of your business needs.</h3>
+        <h2 className="fs-16 text-uppercase text-grape mb-3">Nos solutions</h2>
+        <h3 className="display-4 mb-5 pe-xxl-5">Prenez place et relaxez-vous pendant que nous prenons soin de vos besoins professionnels.</h3>
         <p className="mb-6">
           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus
           ac facilisis in, egestas eget quam. Praesent commodo cursus. Maecenas sed diam eget risus varius blandit sit
@@ -23,7 +23,7 @@ export default function Process16() {
             <h3 className="counter counter-lg mb-1">
               <CountUp end={99} suffix="%" />
             </h3>
-            <h6 className="fs-17 mb-1">Customer Satisfaction</h6>
+            <h6 className="fs-17 mb-1">Satisfaction client</h6>
             <span className="ratings five" />
           </div>
 
@@ -31,7 +31,7 @@ export default function Process16() {
             <h3 className="counter counter-lg mb-1">
               <CountUp end={4} suffix="x" />
             </h3>
-            <h6 className="fs-17 mb-1">New Visitors</h6>
+            <h6 className="fs-17 mb-1">Nouveaux visiteurs</h6>
             <span className="ratings five" />
           </div>
         </div>

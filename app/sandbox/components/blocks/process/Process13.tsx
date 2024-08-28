@@ -41,9 +41,9 @@ export default function Process13() {
 
         <div className="row text-center mt-12">
           <div className="col-lg-10 mx-auto">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">Our Working Process</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">Notre processus de travail</h2>
             <h3 className="display-3 text-center px-xl-10 px-xxl-15 mb-10">
-              Find out everything you need to know about creating a business process model
+            Apprenez tout ce dont vous avez besoin sur la création d'un modèle de processus métier.
             </h3>
             <div className="row gx-lg-8 gx-xl-12 process-wrapper arrow text-center">
               {processList10.map(({ id, title, description, Icon }) => (

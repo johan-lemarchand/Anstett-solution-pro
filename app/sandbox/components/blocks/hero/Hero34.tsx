@@ -11,27 +11,25 @@ export default function Hero34() {
         <div className="row gx-2 gy-10 align-items-center">
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0">
             <h1 className="display-1 mb-5 mx-md-10 mx-lg-0" style={slideInDownAnimate("600ms")}>
-              Create a powerful but effortless website for <br />
+              Créer un site Web puissant mais facile à utiliser pour <br />
               <span className="typer text-primary text-nowrap">
-                <Typewriter
-                  options={{
-                    loop: true,
-                    autoStart: true,
-                    strings: ["your business.", "your portfolio.", "your startup.", "digital marketing."]
-                  }}
-                />
+                  <Typewriter
+                    options={{
+                      loop: true,
+                      autoStart: true,
+                      strings: ["votre entreprise.", "votre portfolio.", "votre start-up.", "votre marketing digital."]
+                    }}
+                  />
               </span>
             </h1>
-
             <p className="lead fs-23 mb-7" style={slideInDownAnimate("900ms")}>
-              Build Performant & SEO freindly website in minutes with Sandbox React.
+              Créez un site web performant et optimisé pour le SEO en quelques minutes avec Anstett Solutions Pro.            
             </p>
-
             <div
               className="d-flex justify-content-center justify-content-lg-start mb-4"
               style={slideInDownAnimate("1200ms")}>
               <a className="btn btn-lg btn-primary rounded-pill me-2 scroll" href="#demos">
-                Check Demos
+                Voir les démos
               </a>
             </div>
           </div>

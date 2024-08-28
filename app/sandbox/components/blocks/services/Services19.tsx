@@ -9,8 +9,8 @@ export default function Services19() {
     <Fragment>
       <div className="row text-center">
         <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-          <h2 className="fs-15 text-uppercase text-muted mb-3">What We Do?</h2>
-          <h3 className="display-4 mb-9">The service we offer is specifically designed to meet your needs.</h3>
+          <h2 className="fs-15 text-uppercase text-muted mb-3">Que faisons-nous?</h2>
+          <h3 className="display-4 mb-9">Le service que nous offrons est spécialement conçu pour répondre à vos besoins.</h3>
         </div>
       </div>
 
@@ -20,7 +20,7 @@ export default function Services19() {
             <IconBox className={`icon btn btn-block btn-lg btn-soft-${color} pe-none mb-5`} icon={icon} />
             <h4>{title}</h4>
             <p className="mb-3">{description}</p>
-            <NextLink title="Learn More" href={linkUrl} className={`more hover link-${color}`} />
+            <NextLink title="En savoir plus" href={linkUrl} className={`more hover link-${color}`} />
           </div>
         ))}
       </div>

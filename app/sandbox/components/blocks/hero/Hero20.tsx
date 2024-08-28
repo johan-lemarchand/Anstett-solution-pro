@@ -24,11 +24,11 @@ export default function Hero20() {
           <div className="row">
             <div className="col-lg-8 col-xl-6 text-center text-white mx-auto">
               <h1 className="display-1 fs-54 text-white mb-5">
-                <span className="rotator-zoom">Rapid Solutions,Innovative Thinking,Top-Notch Support</span>
+                <span className="rotator-zoom">Solutions rapides, pensée novatrice, support de premier ordre</span>
               </h1>
 
               <p className="lead fs-24 mb-0 mx-xxl-8">
-                We are a digital agency specializing in web design, mobile development and seo optimization.
+              Nous sommes une agence digitale spécialisée dans le web design, le développement mobile et l’optimisation seo.
               </p>
             </div>
           </div>

@@ -85,7 +85,7 @@ export default function BlogCommentList() {
 
             <div className="mt-3 mt-md-0 ms-auto">
               <button className="btn btn-soft-ash btn-sm rounded-pill btn-icon btn-icon-start mb-0">
-                <i className="uil uil-comments" /> Reply
+                <i className="uil uil-comments" /> Répondre
               </button>
             </div>
           </div>

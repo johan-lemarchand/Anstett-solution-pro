@@ -17,11 +17,10 @@ export default function Hero6() {
         <div className="row gx-0 align-items-center">
           <div className="col-md-10 offset-md-1 col-lg-5 offset-lg-7 offset-xxl-6 ps-xxl-12 mt-md-n9 text-center text-lg-start">
             <h1 className="display-2 mb-4 mx-sm-n2 mx-md-0" style={slideInDownAnimate("600ms")}>
-              Get all of your steps, exercise, sleep and meds in one place.
+              Obtenez tous vos pas, exercice, sommeil et médicaments en un seul endroit.
             </h1>
-
             <p className="lead fs-lg mb-7 px-md-10 px-lg-0" style={slideInDownAnimate("900ms")}>
-              Sandbox is now available to download from both the App Store and Google Play Store.
+              Anstett Solutions Pro est maintenant disponible en téléchargement sur l’App Store et le Google Play Store.
             </p>
 
             <GoogleAppBtn />

@@ -6,9 +6,9 @@ export default function Services35() {
       <div className="container py-15 py-md-17">
         <div className="row">
           <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Why Choose Sandbox?</h2>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">Pourquoi choisir Anstett Solutions Pro</h2>
             <h3 className="display-3 mb-10 px-xl-10 px-xxl-15">
-              Here are a few reasons why our customers choose Sandbox.
+            Voici quelques raisons pour lesquelles nos clients nous choisissent.
             </h3>
           </div>
         </div>
@@ -21,7 +21,7 @@ export default function Services35() {
               </div>
 
               <div>
-                <h3 className="mb-2">Easy Usage</h3>
+                <h3 className="mb-2">Simplicité d'utilisation</h3>
                 <p>Duis mollis commodo luctus cursus commodo tortor.</p>
               </div>
             </a>
@@ -34,7 +34,7 @@ export default function Services35() {
               </div>
 
               <div>
-                <h3 className="mb-2">Fast Transactions</h3>
+                <h3 className="mb-2">Transactions rapides</h3>
                 <p>Vivamus sagittis lacus augue fusce dapibus tellus nibh.</p>
               </div>
             </a>
@@ -47,7 +47,7 @@ export default function Services35() {
               </div>
 
               <div>
-                <h3 className="mb-2">Secure Payments</h3>
+                <h3 className="mb-2">Paiements sécurisés</h3>
                 <p>Vestibulum ligula porta felis maecenas faucibus mollis.</p>
               </div>
             </a>
@@ -86,7 +86,7 @@ export default function Services35() {
                 </div>
               </div>
 
-              <List title="Easy Usage" />
+              <List title="Simplicité d'utilisation" />
             </div>
           </div>
 
@@ -126,7 +126,7 @@ export default function Services35() {
                 </div>
               </div>
 
-              <List title="Fast Transactions" />
+              <List title="Transactions rapides" />
             </div>
           </div>
 
@@ -166,7 +166,7 @@ export default function Services35() {
                 </div>
               </div>
 
-              <List title="Secure Payments" />
+              <List title="Paiements sécurisés" />
             </div>
           </div>
         </div>
@@ -197,7 +197,7 @@ const List = ({ title }: { title: string }) => {
         </li>
       </ul>
 
-      <NextLink title="Learn More" href="#" className="btn btn-primary mt-2" />
+      <NextLink title="En savoir plus" href="#" className="btn btn-primary mt-2" />
     </div>
   );
 };

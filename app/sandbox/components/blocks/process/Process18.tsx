@@ -7,7 +7,7 @@ export default function Process18() {
     <div className="row gx-md-8 gx-xl-12 mt-10 mt-md-13">
       <div className="col-lg-4">
         <h2 className="display-3 mb-3">
-          My <em>working</em> process
+        Mon processus <em>de travail</em>
         </h2>
         <p>
           Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus. Aenean

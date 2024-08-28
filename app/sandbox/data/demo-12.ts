@@ -12,7 +12,7 @@ const services = [
     id: 1,
     link: '#',
     Icon: Browser,
-    title: 'Content Marketing',
+    title: 'Contenu marketing',
     linkType: LinkType.yellow,
     iconClassName: 'icon-svg-md text-yellow mb-3',
     cardClassName: 'card-border-bottom border-soft-yellow',
@@ -22,7 +22,7 @@ const services = [
     id: 2,
     link: '#',
     Icon: ChatTwo,
-    title: 'Social Engagement',
+    title: 'Engagement social',
     linkType: LinkType.green,
     iconClassName: 'icon-svg-md text-green mb-3',
     cardClassName: 'card-border-bottom border-soft-green',
@@ -33,7 +33,7 @@ const services = [
     link: '#',
     Icon: IdCard,
     linkType: LinkType.orange,
-    title: 'Identity & Branding',
+    title: 'Identité et image de marque',
     iconClassName: 'icon-svg-md text-orange mb-3',
     cardClassName: 'card-border-bottom border-soft-orange',
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
@@ -43,7 +43,7 @@ const services = [
     link: '#',
     Icon: Gift,
     linkType: LinkType.blue,
-    title: 'Product Design',
+    title: 'Design produit',
     iconClassName: 'icon-svg-md text-blue mb-3',
     cardClassName: 'card-border-bottom border-soft-blue',
     description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
@@ -54,52 +54,52 @@ const processList = [
   {
     no: '1',
     className: 'me-lg-6',
-    title: 'Collect Ideas',
+    title: 'Collecte  d\'idées',
     subtitle: 'Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus.'
   },
   {
     no: '2',
-    title: 'Data Analysis',
+    title: 'Analyse des données',
     className: 'ms-lg-13 mt-6',
     subtitle: 'Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna.'
   },
   {
     no: '3',
-    title: 'Finalize Product',
+    title: 'Finalisation du produit',
     className: 'mx-lg-6 mt-6',
     subtitle: 'Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed.'
   }
 ];
 
 const factList = [
-  { id: 1, number: 7518, title: 'Completed Projects', Icon: Check },
-  { id: 2, number: 3472, title: 'Happy Customers', Icon: User },
-  { id: 3, number: 2184, title: 'Expert Employees', Icon: BriefcaseTwo }
+  { id: 1, number: 7518, title: 'Projets achevés', Icon: Check },
+  { id: 2, number: 3472, title: 'Clients satisfaits', Icon: User },
+  { id: 3, number: 2184, title: 'Collaborateurs experts', Icon: BriefcaseTwo }
 ];
 
 const reviews = [
   {
     id: 1,
     name: 'Coriss Ambady',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financier',
     review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.`
   },
   {
     id: 2,
     name: 'Cory Zamora',
-    designation: 'Marketing Specialist',
+    designation: 'Spécialiste en marketing',
     review: `Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet purus sit amet fermentum.`
   },
   {
     id: 3,
     name: 'Nikolas Brooten',
-    designation: 'Sales Manager',
+    designation: 'Directeur des ventes',
     review: `Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor eu rutrum. Nulla vitae libero.`
   },
   {
     id: 4,
     name: 'Coriss Ambady',
-    designation: 'Financial Analyst',
+    designation: 'Analyste financier',
     review: `Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus eu tincidunt auctor nullam rutrum, pharetra augue.`
   }
 ];

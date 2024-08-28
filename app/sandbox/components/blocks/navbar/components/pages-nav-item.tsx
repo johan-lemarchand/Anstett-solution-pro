@@ -9,7 +9,7 @@ import { pages } from "app/sandbox/data/navigation";
 export default function PagesNavItem() {
   return (
     <li className="nav-item dropdown">
-      <DropdownToggleLink title="Pages" className="nav-link dropdown-toggle" />
+      <DropdownToggleLink title="Modules" className="nav-link dropdown-toggle" />
 
       <ul className="dropdown-menu">
         {pages.map(({ id, title, children }) => {
@@ -21,7 +21,7 @@ export default function PagesNavItem() {
           );
         })}
 
-        <ListItemLink href="/pricing" title="Pricing" linkClassName="dropdown-item" />
+        <ListItemLink href="/themes/pricing" title="Pricing" linkClassName="dropdown-item" />
       </ul>
     </li>
   );

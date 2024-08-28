@@ -7,7 +7,7 @@ import * as all from "app/sandbox/themes/markups/elements/navbar";
 export default function Navbar() {
   return (
     <Fragment>
-      <section className="wrapper bg-light">
+      {/*<section className="wrapper bg-light">
         <div className="container pt-15 pt-md-17">
           <div className="alert alert-blue alert-icon" role="alert">
             <i className="uil uil-exclamation-circle"></i> Disable dropdown hover by adding{" "}
@@ -27,18 +27,18 @@ export default function Navbar() {
             to add a link to dropdown parent.
           </div>
         </div>
-      </section>
+      </section>*/}
 
       <Block id={1} markup={all.markup1}>
         <div className="container pt-12">
           <h2 className="mb-3">Center Nav - Transparent Background</h2>
           <p className="lead mb-0">
-            Check out some of the live examples:{" "}
-            <a href="/" className="external" target="_blank">
+            Voici quelques exemples en direct :{" "}
+            <a href="/sandbox/themes/demo-1" className="external" target="_blank">
               Demo 1
             </a>{" "}
-            or{" "}
-            <a href="/demo-4" className="external" target="_blank">
+            ou{" "}
+            <a href="/sandbox/themes/demo-4" className="external" target="_blank">
               Demo 4
             </a>
             .
@@ -54,12 +54,12 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Center Nav - Transparent Background - Light Text</h2>
           <p className="lead mb-0">
-            Check out some of the live examples:{" "}
-            <a href="/demo-3" className="external" target="_blank">
+            Voici quelques exemples en direct :{" "}
+            <a href="/sandbox/themes/demo-3" className="external" target="_blank">
               Demo 3
             </a>{" "}
-            or{" "}
-            <a href="/demo-15" className="external" target="_blank">
+            ou{" "}
+            <a href="/sandbox/themes/demo-15" className="external" target="_blank">
               Demo 15
             </a>
             .
@@ -75,12 +75,12 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Center Nav - Light Background</h2>
           <p className="lead mb-0">
-            Check out some of the live examples:{" "}
-            <a href="/shop-1" className="external" target="_blank">
+            Voici quelques exemples en direct :{" "}
+            <a href="/sandbox/themes/shop-1" className="external" target="_blank">
               Shop
             </a>{" "}
-            or{" "}
-            <a href="/products/1" className="external" target="_blank">
+            ou{" "}
+            <a href="/sandbox/themes/products/1" className="external" target="_blank">
               Product Page
             </a>
             .
@@ -106,8 +106,8 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Center Nav - Fancy</h2>
           <p className="lead mb-0">
-            Check out some of the live examples:{" "}
-            <a href="/demo-7" className="external" target="_blank">
+            Voici quelques exemples en direct :{" "}
+            <a href="/sandbox/themes/demo-7" className="external" target="_blank">
               Demo 7
             </a>
             .
@@ -123,12 +123,12 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Classic - Transparent Background</h2>
           <p className="lead mb-0">
-            Check out some of the live examples:{" "}
-            <a href="/demo-6" className="external" target="_blank">
+            Voici quelques exemples en direct :{" "}
+            <a href="/sandbox/themes/demo-6" className="external" target="_blank">
               Demo 6
             </a>{" "}
-            or{" "}
-            <a href="/demo-8" className="external" target="_blank">
+            ou{" "}
+            <a href="/sandbox/themes/demo-8" className="external" target="_blank">
               Demo 8
             </a>
             .
@@ -144,8 +144,8 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Classic - Transparent Background - Light Text</h2>
           <p className="lead mb-0">
-            Check out some of the live examples:{" "}
-            <a href="/demo-11" className="external" target="_blank">
+            Voici un exemples en direct :{" "}
+            <a href="/sandbox/themes/demo-11" className="external" target="_blank">
               Demo 11
             </a>
             .
@@ -201,8 +201,8 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Center Logo - Transparent Background - Light Text</h2>
           <p className="lead mb-0">
-            Check out some of the live examples:{" "}
-            <a href="/demo-13" className="external" target="_blank">
+            Voici un exemple en direct :{" "}
+            <a href="/sandbox/themes/demo-13" className="external" target="_blank">
               Demo 13
             </a>
             .
@@ -238,8 +238,8 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Extended</h2>
           <p className="lead mb-0">
-            Check out some of the live examples:{" "}
-            <a href="/demo-12" className="external" target="_blank">
+            Voici un exemple en direct :{" "}
+            <a href="/sandbox/themes/demo-12" className="external" target="_blank">
               Demo 12
             </a>
             .
@@ -255,8 +255,8 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Extended - Alternative</h2>
           <p className="lead mb-0">
-            Check out some of the live examples:{" "}
-            <a href="/demo-24" className="external" target="_blank">
+            Voici un exemples en direct :{" "}
+            <a href="/sandbox/themes/demo-24" className="external" target="_blank">
               Demo 24
             </a>
             .

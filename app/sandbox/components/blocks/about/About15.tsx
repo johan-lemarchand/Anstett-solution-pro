@@ -18,7 +18,7 @@ export default function About15() {
       </div>
 
       <div className="col-lg-6">
-        <h3 className="display-6 mb-4">Why Choose Us?</h3>
+        <h3 className="display-6 mb-4">Pourquoi nous choisir?</h3>
         <p className="mb-5">
           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus
           ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
@@ -27,7 +27,7 @@ export default function About15() {
 
         <ListColumn list={aboutList1} bulletColor="primary" />
 
-        <NextLink title="More Details" href="#" className="btn btn-soft-primary rounded-pill mt-6 mb-0" />
+        <NextLink title="Plus de détails" href="#" className="btn btn-soft-primary rounded-pill mt-6 mb-0" />
       </div>
     </div>
   );

@@ -13,8 +13,8 @@ export default function About26() {
       <div className="row">
         <div className="col-lg-12 col-xl-10 col-xxl-8 mx-auto text-center">
           <h2 className="display-5 text-center mt-4 mb-10">
-            Hello! I'm Caitlyn. Welcome to my blog. Here on this blog you will be able to find travel diary with
-            traveling tips.
+          Bonjour! Je suis Caitlyn. Bienvenue sur mon blog. Ici, vous pourrez trouver un journal de voyage avec
+          mes conseils.
           </h2>
         </div>
       </div>

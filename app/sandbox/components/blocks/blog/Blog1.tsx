@@ -11,9 +11,9 @@ export default function Blog1() {
       <div className="container py-14 py-md-16">
         <div className="row">
           <div className="col-lg-9 col-xl-8 col-xxl-7">
-            <h2 className="fs-16 text-uppercase text-line text-primary mb-3">Case Studies</h2>
+            <h2 className="fs-16 text-uppercase text-line text-primary mb-3">Cas pratiques</h2>
             <h3 className="display-4 mb-9">
-              Check out some of our awesome projects with creative ideas and great design.
+              Découvrez quelques-uns de nos projets géniaux avec des idées créatives et un design exceptionnel.
             </h3>
           </div>
         </div>

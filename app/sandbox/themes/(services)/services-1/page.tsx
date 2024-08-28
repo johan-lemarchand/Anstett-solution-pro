@@ -15,10 +15,10 @@ export default function Services() {
         <div className="container pt-10 pb-19 pt-md-14 pb-md-20 text-center">
           <div className="row">
             <div className="col-md-8 col-lg-7 col-xl-6 col-xxl-5 mx-auto mb-11">
-              <h1 className="display-1 mb-3">Our Services</h1>
+              <h1 className="display-1 mb-3">Nos services</h1>
               <p className="lead px-lg-7 px-xl-7 px-xxl-6">
-                We are a creative company that focuses on establishing
-                <span className="underline">long-term relationships</span> with customers.
+              Nous sommes une entreprise créative qui se concentre sur la création
+              <span className="underline">relations à long terme</span> avec les clients.
               </p>
             </div>
           </div>

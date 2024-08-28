@@ -29,7 +29,7 @@ export default function ProductActions() {
 
         <a href="#" className="link-body ratings-wrapper">
           <span className="ratings four" />
-          <span>(3 Reviews)</span>
+          <span>(3 Avis)</span>
         </a>
       </div>
 
@@ -40,7 +40,7 @@ export default function ProductActions() {
 
       <form onSubmit={handleFormSubmit}>
         <fieldset className="picker">
-          <legend className="h6 fs-16 text-body mb-3">Choose a size</legend>
+          <legend className="h6 fs-16 text-body mb-3">Choisir une taille</legend>
 
           {data.sizeList.map(({ value, title }) => (
             <label htmlFor={`size-${value}`} key={title}>
@@ -58,7 +58,7 @@ export default function ProductActions() {
         </fieldset>
 
         <fieldset className="picker">
-          <legend className="h6 fs-16 text-body mb-3">Choose a color</legend>
+          <legend className="h6 fs-16 text-body mb-3">Choisir une couleur</legend>
 
           {data.productColors.map(({ id, value }) => (
             <label htmlFor={id} key={id}>
@@ -91,7 +91,7 @@ export default function ProductActions() {
 
             <div className="flex-grow-1 mx-2">
               <button type="submit" className="btn btn-primary btn-icon btn-icon-start rounded w-100 flex-grow-1">
-                <i className="uil uil-shopping-bag" /> Add to Cart
+                <i className="uil uil-shopping-bag" /> Ajouter au panier
               </button>
             </div>
 

@@ -37,7 +37,7 @@ export default function Demo10() {
             <Services6
               rowClassNames="mb-14 mb-md-17"
               colOne={<Tiles8 hiddenShape />}
-              title="We make spending stress free so you have the perfect control."
+              title="Gérez vos dépenses sans stress pour que vous puissiez avoir le contrôle parfait."
               description="Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor
               fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
               tellus ac cursus commodo."
@@ -45,7 +45,7 @@ export default function Demo10() {
 
             <Services6
               colOne={<Tiles9 hiddenShape />}
-              title="We bring solutions to manage your finance the way works best."
+              title="Nous apportons des solutions pour gérer vos finances de la meilleure façon."
               description="Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor
               fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
               tellus ac cursus commodo."

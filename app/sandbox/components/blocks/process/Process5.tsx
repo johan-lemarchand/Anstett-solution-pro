@@ -14,9 +14,9 @@ export default function Process5() {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="fs-15 text-uppercase text-muted mb-3">How It Works</h2>
+        <h2 className="fs-15 text-uppercase text-muted mb-3">Comment ça marche</h2>
         <h3 className="display-4 mb-5">
-          Download the app, create your profile and voilà, you're all set!
+          Téléchargez l’application, créez votre profil et voilà, vous êtes prêt!
         </h3>
         <p className="mb-8">
           Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet

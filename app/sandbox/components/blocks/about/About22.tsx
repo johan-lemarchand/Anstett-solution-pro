@@ -17,8 +17,8 @@ export default function About22() {
           </div>
 
           <div className="col-lg-5">
-            <h2 className="fs-15 text-uppercase text-primary mb-3">Why Choose Us?</h2>
-            <h3 className="display-3 mb-7">We bring solutions to make life easier.</h3>
+            <h2 className="fs-15 text-uppercase text-primary mb-3">Pourquoi nous choisir?</h2>
+            <h3 className="display-3 mb-7">Nous apportons des solutions pour vous faciliter la vie.</h3>
             <AccordionList />
           </div>
         </div>

@@ -57,15 +57,15 @@ export default function Progressbar() {
                     <div className="progressbar line blue" data-value="100" />
                   </li>
                   <li>
-                    <p>Strategy</p>
+                    <p>Stratégie</p>
                     <div className="progressbar line green" data-value="80" />
                   </li>
                   <li>
-                    <p>Development</p>
+                    <p>Développement</p>
                     <div className="progressbar line red" data-value="85" />
                   </li>
                   <li>
-                    <p>Stabilization</p>
+                    <p>Stabilisation</p>
                     <div className="progressbar line yellow" data-value="75" />
                   </li>
                 </ul>
@@ -76,15 +76,15 @@ export default function Progressbar() {
                     <div className="progressbar line soft-blue" data-value="100" />
                   </li>
                   <li>
-                    <p>Strategy</p>
+                    <p>Stratégie</p>
                     <div className="progressbar line soft-green" data-value="80" />
                   </li>
                   <li>
-                    <p>Development</p>
+                    <p>Développement</p>
                     <div className="progressbar line soft-red" data-value="85" />
                   </li>
                   <li>
-                    <p>Stabilization</p>
+                    <p>Stabilisation</p>
                     <div className="progressbar line soft-yellow" data-value="75" />
                   </li>
                 </ul>
@@ -94,7 +94,7 @@ export default function Progressbar() {
 
           <div className="card-footer position-relative">
             <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
-              View example's code
+              Voir le code de l’exemple
             </a>
           </div>
 
@@ -150,7 +150,7 @@ export default function Progressbar() {
 
           <div className="card-footer position-relative">
             <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
-              View example's code
+              Voir le code de l’exemple
             </a>
           </div>
 

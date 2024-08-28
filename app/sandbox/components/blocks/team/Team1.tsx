@@ -9,9 +9,9 @@ export default function Team1() {
         <div className="position-relative mt-8 mt-lg-n23 mt-xl-n25">
           <div className="row text-center">
             <div className="col-lg-8 col-xl-7 col-xxl-6 mx-auto">
-              <h2 className="fs-16 text-uppercase text-muted mb-3">Our Team</h2>
+              <h2 className="fs-16 text-uppercase text-muted mb-3">Notre équipe</h2>
               <h3 className="display-4 mb-10 px-md-13 px-lg-4 px-xl-0">
-                Think unique and be innovative. Make a difference with Sandbox.
+              Pensez unique et soyez innovateur. Faites la différence avec Anstett Solutions Pro.
               </h3>
             </div>
           </div>

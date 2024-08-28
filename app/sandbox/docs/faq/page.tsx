@@ -13,9 +13,9 @@ export default function FAQ() {
   return (
     <DocLayout pageTitle="FAQ" description="Find answers to some frequently asked questions here.">
       <section id="snippet-1" className="wrapper py-16">
-        <h2 className="mb-3">Frequently Asked Questions</h2>
+        <h2 className="mb-3">FAQ</h2>
         <p className="lead mb-5">
-          If you don't see an answer to your question here, please feel free to contact us with the links below:
+          Si vous ne trouvez pas la réponse à votre question ici, n’hésitez pas à nous contacter en utilisant les liens ci-dessous :
         </p>
         <a
           href="https://support.ui-lib.com"

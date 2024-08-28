@@ -11,8 +11,8 @@ interface Facts2Props {
 // ===========================================================================
 
 export default function Facts2({
-  title = "We are proud of our creative team",
-  subtitle = "Just sit back and relax while we take care of your business needs."
+  title = "Nous sommes fiers de notre équipe créative",
+  subtitle = "Asseyez-vous et détendez-vous pendant que nous nous occupons de tout ce dont vous avez besoin pour vos affaires."
 }: Facts2Props) {
   return (
     <div className="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0 mb-11">

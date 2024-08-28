@@ -8,13 +8,13 @@ export default function Portfolio16() {
     <Fragment>
       <div className="row text-center">
         <div className="col-lg-10 col-xxl-8 mx-auto mb-12">
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Latest Projects</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">Dernières réalisations</h2>
           <h3 className="display-2 ls-sm">
-            Check out some of our{" "}
+          Découvrez quelques-uns de nos{" "}
             <span className="underline-3 style-1 primary">
-              <em>awesome</em>
+              <em>projets</em>
             </span>{" "}
-            projects with creative ideas and great design.
+           avec des idées créatives.
           </h3>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default function Portfolio16() {
             euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
           </p>
 
-          <NextLink title="See Project" href="#" className="btn btn-grape rounded" />
+          <NextLink title="Nouveaux projets" href="#" className="btn btn-grape rounded" />
         </div>
       </div>
 
@@ -95,7 +95,7 @@ export default function Portfolio16() {
             euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
           </p>
 
-          <NextLink title="See Project" href="#" className="btn btn-primary rounded" />
+          <NextLink title="Nouveaux projets" href="#" className="btn btn-primary rounded" />
         </div>
       </div>
 
@@ -124,7 +124,7 @@ export default function Portfolio16() {
             euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
           </p>
 
-          <NextLink title="See Project" href="#" className="btn btn-violet rounded" />
+          <NextLink title="Nouveaux projets" href="#" className="btn btn-violet rounded" />
         </div>
       </div>
 
@@ -152,7 +152,7 @@ export default function Portfolio16() {
             euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
           </p>
 
-          <NextLink title="See Project" href="#" className="btn btn-red rounded" />
+          <NextLink title="Nouveaux projets" href="#" className="btn btn-red rounded" />
         </div>
       </div>
     </Fragment>

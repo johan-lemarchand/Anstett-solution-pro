@@ -19,7 +19,7 @@ import PenTool from "app/sandbox/icons/solid-duo/PenTool";
 import Devices from "app/sandbox/icons/solid-mono/Devices";
 import GlobeTwo from "app/sandbox/icons/solid-mono/GlobeTwo";
 
-export default function Home() {
+export default function SandboxHome() {
   // USED FOR HERO AREA TEXT CHANGE FREQUENTLY
   useReplaceMe();
 
@@ -34,7 +34,7 @@ export default function Home() {
           navClassName="navbar navbar-expand-lg center-nav transparent navbar-light"
           button={
             <a href="https://cutt.ly/P4rW6e4" className="btn btn-primary rounded-xl" target="_blank">
-              Purchase Now
+              Acheter maintenant
             </a>
           }
         />
@@ -125,21 +125,21 @@ export default function Home() {
 
                 <div data-cues="slideInDown" data-group="page-title">
                   <h1 className="display-1 fs-64 mb-5 mx-md-10 mx-lg-0">
-                    Create a powerful but effortless website for <br />
+                  Créez un site web puissant mais facile à utiliser pour <br />
                     <span className="rotator-fade text-primary">
-                      your business.,your portfolio.,your startup.,digital marketing.
+                    votre entreprise. ,votre portefeuille. ,votre startup. ,le marketing numérique.
                     </span>
                   </h1>
 
                   <p className="lead fs-24 mb-8">
-                    You can create your website in minutes with the help of countless amazing features of Sandbox.
+                  Vous pouvez créer votre site web en quelques minutes grâce aux innombrables fonctionnalités d'Anstett Solutions Pro.
                   </p>
                 </div>
 
                 <div className="d-flex justify-content-center" data-cues="slideInDown" data-delay="600">
                   <span>
                     <a href="#demos" className="btn btn-lg btn-primary btn-icon btn-icon-end rounded-xl mx-1 scroll">
-                      See Demo Pages <i className="uil uil-arrow-down-right" />
+                    Voir les pages de démonstration <i className="uil uil-arrow-down-right" />
                     </a>
                   </span>
 
@@ -207,14 +207,14 @@ export default function Home() {
                 </div>
 
                 <h2 className="display-2 mb-3 text-center mb-0 px-xxl-8">
-                  Functional, impressive and rich demos to start with
+                  Des démos fonctionnelles, impressionnantes pour commencer
                 </h2>
               </div>
             </div>
 
             {/* ========== new demos section ========== */}
             <div className="demos-wrapper text-center mb-16 mb-md-18">
-              <h2 className="fs-17 text-uppercase text-muted mb-6">New Demos</h2>
+              <h2 className="fs-17 text-uppercase text-muted mb-6">Nouvelles démos</h2>
 
               <div className="row mb-10 gx-md-8 gy-12">
                 {[18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34].map((item) => (
@@ -239,16 +239,16 @@ export default function Home() {
                 <div className="col-md-6 col-lg-4 d-none d-md-flex align-items-center justify-content-center flex-column">
                   <Layers />
 
-                  <h3 className="fs-17 text-uppercase text-muted mb-4">Scroll for more</h3>
+                  <h3 className="fs-17 text-uppercase text-muted mb-4">Défilez pour plus de résultats</h3>
 
                   <a href="#prev-demos" className="btn btn-lg btn-primary btn-icon btn-icon-end rounded-xl mx-1 scroll">
-                    Previous Demos <i className="uil uil-arrow-down-right" />
+                    Démos précédentes <i className="uil uil-arrow-down-right" />
                   </a>
                 </div>
               </div>
 
               <h2 className="fs-17 text-uppercase text-muted pt-16 mt-n8 mb-6" id="prev-demos">
-                Previous Demos
+                Démos précédentes
               </h2>
 
               <div className="row mb-10 gx-md-8 gy-12">
@@ -280,7 +280,7 @@ export default function Home() {
             <div className="row mb-8 text-center">
               <div className="col-md-11 col-lg-10 col-xl-8 col-xxl-7 mx-auto">
                 <h2 className="display-2 mt-3 mb-3 mb-0 px-lg-10 px-xl-0">
-                  Save your time and money by choosing Sandbox for your website.
+                  Économisez votre temps et votre argent en choisissant Anstett Soltions Pro pour votre site web.
                 </h2>
               </div>
             </div>
@@ -293,21 +293,21 @@ export default function Home() {
                     <h3 className="counter fs-50 text-primary mb-1">
                       <CountUp end={250} suffix="+" />
                     </h3>
-                    <p className="fs-18 mb-0">UI elements</p>
+                    <p className="fs-18 mb-0">Éléments UI</p>
                   </div>
 
                   <div className="col-md-4">
                     <h3 className="counter fs-50 text-primary mb-1">
                       <CountUp end={130} suffix="+" />
                     </h3>
-                    <p className="fs-18 mb-0">Pre-made blocks</p>
+                    <p className="fs-18 mb-0">Blocs préconstruit</p>
                   </div>
 
                   <div className="col-md-4">
                     <h3 className="counter fs-50 text-primary mb-1">
                       <CountUp end={100} suffix="+" />
                     </h3>
-                    <p className="fs-18 mb-0">Neatly coded pages</p>
+                    <p className="fs-18 mb-0">Pages conçues avec soin</p>
                   </div>
                 </div>
               </div>
@@ -344,7 +344,7 @@ export default function Home() {
 
                   <div>
                     <h4 className="mb-1">Color and Font Options</h4>
-                    <p className="mb-0">Easily customize colors and fonts, or choose from provided options.</p>
+                    <p className="mb-0">Personnalisez facilement les couleurs et les polices, ou choisissez parmi les options fournies.</p>
                   </div>
                 </div>
 
@@ -357,7 +357,7 @@ export default function Home() {
 
                   <div>
                     <h4 className="mb-1">Cool Features & Elements</h4>
-                    <p className="mb-0">Equipped with stunning features and elements for designing appealing pages.</p>
+                    <p className="mb-0">Équipé de fonctionnalités et d’éléments étonnants pour la conception de pages attrayantes.</p>
                   </div>
                 </div>
 
@@ -369,9 +369,9 @@ export default function Home() {
                   </div>
 
                   <div>
-                    <h4 className="mb-1">Modern Portfolio Layouts</h4>
+                    <h4 className="mb-1">Configurations modernes de portfolio</h4>
                     <p className="mb-0">
-                      Effortlessly create and maintain a visually stunning and impactful portfolio.
+                    Créez et maintenez sans effort un portfolio visuellement magnifique et impactant.
                     </p>
                   </div>
                 </div>
@@ -409,7 +409,7 @@ export default function Home() {
 
                   <div>
                     <h4 className="mb-1">Well-Written Code</h4>
-                    <p className="mb-0">Pixel-perfect and easily editable code with comprehensive comments.</p>
+                    <p className="mb-0">Code pixel-perfect et facilement modifiable avec des commentaires complets.</p>
                   </div>
                 </div>
 
@@ -423,7 +423,7 @@ export default function Home() {
                   <div>
                     <h4 className="mb-1">Gorgeous Shop Layouts</h4>
                     <p className="mb-0">
-                      Present your products to your visitors in an efficient and visually appealing manner.
+                    Présentez vos produits à vos visiteurs de manière efficace et visuellement attrayante.
                     </p>
                   </div>
                 </div>
@@ -438,7 +438,7 @@ export default function Home() {
                   <div>
                     <h4 className="mb-1">Fully Responsive Layouts</h4>
                     <p className="mb-0">
-                      Adjusts to varying screen sizes, ensuring seamless compatibility across all devices.
+                      Adapte la taille de l’écran pour assurer une compatibilité sur tous les appareils.
                     </p>
                   </div>
                 </div>
@@ -448,7 +448,7 @@ export default function Home() {
             <div className="row mb-8 text-center mt-17 mt-md-19 mb-9 mb-md-11">
               <div className="col-md-11 col-lg-10 col-xl-8 col-xxl-7 mx-auto">
                 <h2 className="display-2 mb-0 px-lg-10 px-xl-0">
-                  Build your website using the powerful features of Sandbox
+                Construisez votre site web en utilisant les fonctionnalités puissantes d'Anstett Solutions Pro
                 </h2>
               </div>
             </div>
@@ -571,7 +571,7 @@ export default function Home() {
                       <div className="card-body">
                         <blockquote className="icon mb-0">
                           <p>
-                            “Sandbox is really attractive and it saves my time. The support team is really amazing.”
+                            “Anstett Solutions Pro est vraiment rapide et ça me fait gagner du temps. L’équipe de support est vraiment incroyable.”
                           </p>
                           <div className="blockquote-details">
                             <div className="info p-0">
@@ -588,8 +588,8 @@ export default function Home() {
                       <div className="card-body">
                         <blockquote className="icon mb-0">
                           <p>
-                            “This is just next level stuff in terms of quality, docs and features. I don't think I'm
-                            going to need or tolerate any other template from now on.”
+                            “C'est simplement un niveau supérieur en termes de qualité, de documentation et de fonctionnalités. 
+                            Je doute que vous ayez besoin ou que vous acceptiez un autre modèle à partir de maintenant.”
                           </p>
                           <div className="blockquote-details">
                             <div className="info p-0">
@@ -606,8 +606,8 @@ export default function Home() {
                       <div className="card-body">
                         <blockquote className="icon mb-0">
                           <p>
-                            “I've been a Themeforest user for almost 10 years and I have purchased well over 100 themes
-                            during my time. This theme is amongst the best here.”
+                            “Cela fait près de 10 ans que j'utilise Themeforest, et j'ai acheté plus de 100 thèmes au fil du temps. 
+                            Celui-ci est parmi les meilleurs que j'ai trouvés ici.”
                           </p>
                           <div className="blockquote-details">
                             <div className="info p-0">
@@ -624,8 +624,8 @@ export default function Home() {
                       <div className="card-body">
                         <blockquote className="icon mb-0">
                           <p>
-                            “Simply the best templates that I have bought so far. Super clean code, intuitive
-                            documentations, and most important of all the best design.”
+                            “Tout simplement les meilleurs templates que j'ai achetés jusqu'à présent. Code extrêmement propre, 
+                            documentation intuitive, et surtout, un design exceptionnel.”
                           </p>
                           <div className="blockquote-details">
                             <div className="info p-0">
@@ -639,13 +639,13 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4">
-                <h2 className="display-2 mb-4 mt-lg-n6">Our top priority is ensuring customer satisfaction.</h2>
-                <p className="lead fs-22 mb-6">Don't take our word for it. Hear from customers about Sandbox.</p>
+                <h2 className="display-2 mb-4 mt-lg-n6">Notre priorité absolue est d’assurer la satisfaction de nos clients.</h2>
+                <p className="lead fs-22 mb-6">Ne nous croyez pas sur parole. Écoutez les clients parler d'Anstett Solutions Pro.</p>
                 <a
                   href="https://1.envato.market/Rygn0y"
                   className="btn btn-lg btn-primary btn-icon btn-icon-end rounded-xl"
                   target="_blank">
-                  All Reviews <i className="uil uil-arrow-up-right"></i>
+                  Tous les avis <i className="uil uil-arrow-up-right"></i>
                 </a>
               </div>
             </div>
@@ -663,10 +663,10 @@ export default function Home() {
               <div className="col-lg-10 col-xl-9 col-xxl-7 mx-auto">
                 <div>
                   <img src="/img/demos/icon-grape.png" srcSet="/img/demos/icon-grape@2x.png 2x" alt="" />
-                  <h1 className="display-1 fs-64 mt-5 mb-5">Think unique and make a difference with Sandbox.</h1>
+                  <h1 className="display-1 fs-64 mt-5 mb-5">Pensez différemment et faites la différence avec Anstett Solutions Pro.</h1>
                   <p className="lead fs-24 mb-8 px-lg-12 px-xl-14 px-xxl-10">
-                    We are trusted by thousands of clients. Join them now and easily create your stunning website in no
-                    time.
+                    Des milliers de clients nous font confiance. 
+                    Rejoignez-les dès maintenant et créez facilement votre site web exceptionnel en un rien de temps.
                   </p>
                 </div>
 
@@ -676,7 +676,7 @@ export default function Home() {
                       href="https://cutt.ly/P4rW6e4"
                       className="btn btn-lg btn-primary btn-icon btn-icon-end rounded-xl"
                       target="_blank">
-                      Buy Sandbox <i className="uil uil-arrow-up-right" />
+                      Acheter Anstett Solutions Pro <i className="uil uil-arrow-up-right" />
                     </a>
                   </span>
                 </div>

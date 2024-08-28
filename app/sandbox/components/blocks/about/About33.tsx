@@ -25,7 +25,7 @@ export default function About33() {
 
                   <div>
                     <h3 className="fs-25 counter mb-0 text-nowrap">25000+</h3>
-                    <p className="fs-16 lh-sm mb-0 text-nowrap">Happy Clients</p>
+                    <p className="fs-16 lh-sm mb-0 text-nowrap">Clients satisfaits</p>
                   </div>
                 </div>
               </div>
@@ -36,14 +36,14 @@ export default function About33() {
               style={{ bottom: "10%", left: "-10%" }}>
               <div className="card-body p-6">
                 <div className="progressbar semi-circle primary mb-3" data-value="80" />
-                <h4 className="mb-0">Time Saved</h4>
+                <h4 className="mb-0">Économie de temps</h4>
               </div>
             </div>
           </div>
 
           <div className="col-lg-5">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">What Makes Us Different?</h2>
-            <h3 className="display-3 mb-5">We make spending stress free so you have the perfect control.</h3>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">Qu'est-ce qui nous différencie ?</h2>
+            <h3 className="display-3 mb-5">Nous simplifions vos projets afin que vous puissiez en garder un contrôle total.</h3>
             <p className="mb-6">
               Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi
               leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus. Integer posuere

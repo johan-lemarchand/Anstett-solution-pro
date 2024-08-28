@@ -17,8 +17,8 @@ export default function Contact1() {
       </div>
 
       <div className="col-lg-5 col-xl-4 offset-lg-1">
-        <h2 className="fs-16 text-uppercase text-line text-primary mb-3">Get In Touch</h2>
-        <h2 className="display-4 mb-8">Convinced yet? Let's make something great together.</h2>
+        <h2 className="fs-16 text-uppercase text-line text-primary mb-3">Se mettre en contact</h2>
+        <h2 className="display-4 mb-8">Convaincu? Créons quelque chose de grand ensemble.</h2>
 
         <div className="d-flex flex-row">
           <div>
@@ -28,10 +28,10 @@ export default function Contact1() {
           </div>
 
           <div>
-            <h5 className="mb-1">Address</h5>
+            <h5 className="mb-1">Adresse</h5>
             <address>
-              Moonshine St. 14/05 Light City, <br className="d-none d-md-block" />
-              London, United Kingdom
+              26E rue de Kaltenhouse , <br className="d-none d-md-block" />
+              67240 Oberhoffen-Sur-Moder
             </address>
           </div>
         </div>
@@ -43,8 +43,8 @@ export default function Contact1() {
             </div>
           </div>
           <div>
-            <h5 className="mb-1">Phone</h5>
-            <p>00 (123) 456 78 90</p>
+            <h5 className="mb-1">Téléphone</h5>
+            <p>06 42 18 55 95</p>
           </div>
         </div>
 
@@ -58,8 +58,8 @@ export default function Contact1() {
           <div>
             <h5 className="mb-1">E-mail</h5>
             <p className="mb-0">
-              <a href="mailto:sandbox@email.com" className="link-body">
-                sandbox@email.com
+              <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                anstett.solutions.pro@gmail.com
               </a>
             </p>
           </div>

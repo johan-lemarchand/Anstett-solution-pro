@@ -12,8 +12,8 @@ export default function About8() {
       </div>
 
       <div className="col-lg-5">
-        <h3 className="display-4 mb-3">Have Perfect Control</h3>
-        <p className="lead fs-lg lh-sm">We are focused on establishing long-term relationships with customers.</p>
+        <h3 className="display-4 mb-3">Avoir un contrôle parfait</h3>
+        <p className="lead fs-lg lh-sm">Nous sommes axés sur l’établissement de relations à long terme avec les clients.</p>
         <p className="mb-6">
           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus
           ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.

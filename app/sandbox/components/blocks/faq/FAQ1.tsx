@@ -8,7 +8,7 @@ export default function FAQ1() {
     <Fragment>
       <h2 className="fs-15 text-uppercase text-muted mb-3 text-center">FAQ</h2>
       <h3 className="display-4 mb-10 px-lg-12 px-xl-15 text-center">
-        If you don't see an answer to your question, you can send us an email from our contact form.
+      Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un email depuis notre formulaire de contact.
       </h3>
 
       <div className="accordion-wrapper" id="accordion">

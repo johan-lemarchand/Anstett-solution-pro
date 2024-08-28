@@ -5,7 +5,7 @@ const products = [
     sale: true,
     salePrice: 45,
     regularPrice: 55,
-    category: 'SHOES',
+    category: 'Chaussures',
     title: 'Nike Air Sneakers',
     image: 'sh1',
     id: '62f3bac114a90b9c05bce066'
@@ -16,8 +16,8 @@ const products = [
     sale: false,
     salePrice: 0,
     regularPrice: 55,
-    category: 'ELECTRONICS',
-    title: 'Headphones',
+    category: 'Électronique',
+    title: 'Écouteurs',
     image: 'sh2',
     id: '62f3bad7afb837063e6e3de6'
   },
@@ -27,7 +27,7 @@ const products = [
     sale: false,
     salePrice: 0,
     regularPrice: 55,
-    category: 'ELECTRONICS',
+    category: 'Électronique',
     title: 'Apple Watch',
     image: 'sh3',
     id: '62f3bb3a8ee7c0fd2d072f52'
@@ -38,8 +38,8 @@ const products = [
     sale: false,
     salePrice: 0,
     regularPrice: 55,
-    category: 'SHOES',
-    title: 'Colorful Sneakers',
+    category: 'Chaussures',
+    title: 'Baskets colorées',
     image: 'sh4',
     id: '62f3bb6cacb6eb05c7c836c3'
   },
@@ -49,7 +49,7 @@ const products = [
     sale: false,
     salePrice: 0,
     regularPrice: 55,
-    category: 'ELECTRONICS',
+    category: 'Électronique',
     title: 'Polaroid Camera',
     image: 'sh5',
     id: '62f3bb9d90c81bb6e70bf02b'
@@ -60,7 +60,7 @@ const products = [
     sale: false,
     salePrice: 0,
     regularPrice: 55,
-    category: 'COSMETICS',
+    category: 'Cosmétiques',
     title: 'Curology Cleanser',
     image: 'sh6',
     id: '62f3bbb53634984dbcc16ea9'
@@ -71,8 +71,8 @@ const products = [
     sale: false,
     salePrice: 0,
     regularPrice: 55,
-    category: 'HOME & KITCHEN',
-    title: 'Q&Q Wall Clock',
+    category: 'MAISON & CUISINE',
+    title: 'Q&Q horloge murale',
     image: 'sh7',
     id: '62f3bbf89ed9cdbd6385ab65'
   },
@@ -82,8 +82,8 @@ const products = [
     sale: false,
     salePrice: 0,
     regularPrice: 55,
-    category: 'ELECTRONICS',
-    title: 'Earphones',
+    category: 'Électronique',
+    title: 'Écouteurs',
     image: 'sh8',
     id: '62f3bc05ae6faf45562e0633'
   },
@@ -93,7 +93,7 @@ const products = [
     sale: false,
     salePrice: 0,
     regularPrice: 55,
-    category: 'ACCESSORIES',
+    category: 'Accessoires',
     title: 'Apple Watch Milano Loop',
     image: 'sh9',
     id: '62f3bc72a762dfc6c8b9d711'

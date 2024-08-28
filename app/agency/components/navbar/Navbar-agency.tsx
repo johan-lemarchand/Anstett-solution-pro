@@ -15,7 +15,7 @@ interface Navbar3Props {
   navClassName?: string;
 }
 // ===================================================================
-
+ 
 export default function NavAgency({
   logoAlt,
   stickyBox = true,
@@ -25,6 +25,8 @@ export default function NavAgency({
   const sticky = useSticky(350);
   const navbarRef = useRef<HTMLElement | null>(null);
 
+  // Vérifier si l'application est en cours d'exécution en localhost
+  const isLocalhost = typeof window !== 'undefined' && window.location.hostname === 'localhost';
   // dynamically added navbar classname
   const fixedClassName = `navbar navbar-expand-lg center-logo transparent position-absolute navbar-light navbar-clone fixed`;
 
@@ -67,7 +69,7 @@ export default function NavAgency({
               className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
               <div className="offcanvas-header mx-lg-auto order-0 order-lg-1 d-lg-flex px-lg-15">
                 <NextLink href="/" className="transition-none d-none d-lg-flex" title={logos} />
-                <h3 className="text-white fs-30 mb-0 d-lg-none">Anstett Agency</h3>
+                <h3 className="text-white fs-30 mb-0 d-lg-none">Anstett Solutions Pro</h3>
                 <button
                   type="button"
                   aria-label="Close"
@@ -76,13 +78,26 @@ export default function NavAgency({
                 />
               </div>
 
+              {/* Ajout du lien rapide vers /sandbox visible uniquement en localhost */}
+              {/*isLocalhost && (
+                <div className="offcanvas-body">
+                  <ul className="navbar-nav">
+                    <li className="nav-item">
+                      <NextLink href="/sandbox" title="" className="nav-link" />
+                    </li>
+                  </ul>
+                </div>
+              )*/}
+
+
+
               {/* ============= show contact info in the small device sidebar ============= */}
               <div className="offcanvas-body d-lg-none order-4 mt-auto">
                 <div className="offcanvas-footer">
                   <div>
-                    <NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
+                    <NextLink title="anstett.solutions.pro@gmail.com" className="link-inverse" href="mailto:first.last@email.com" />
                     <br />
-                    <NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
+                    <NextLink href="tel:06 42 18 55 95" title="06 42 18 55 95" />
                     <br />
                     <SocialLinks />
                   </div>

@@ -8,9 +8,8 @@ export default function Pricing10() {
     <div>
       <div className="row text-center">
         <div className="col-md-10 col-lg-8 col-xl-9 col-xxl-8 mx-auto">
-          <h2 className="fs-15 text-uppercase text-muted mb-3">Our Pricing</h2>
           <h3 className="display-3 ls-sm mb-10 px-xl-15">
-            We offer great prices and quality service for your business.
+            Nous offrons des prix avantageux et un service de qualité pour votre entreprise.
           </h3>
         </div>
       </div>
@@ -49,7 +48,7 @@ export default function Pricing10() {
 
                   <NextLink
                     href="#"
-                    title="Choose Plan"
+                    title="Choisir la formule"
                     className={clsx({
                       "btn rounded": true,
                       "btn-primary": plan === "Corporate",

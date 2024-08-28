@@ -17,10 +17,10 @@ export default function Services11() {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="display-4 mb-3">What We Do?</h2>
+        <h2 className="display-4 mb-3">Que faisons-nous?</h2>
         <p className="lead fs-lg mb-8 pe-xxl-2">
-          The full service we are offering is <span className="underline">specifically</span> designed to meet your
-          business needs and projects.
+        Le service complet que nous offrons est <span className="underline">spécifiquement</span> conçu pour répondre à vos
+        besoins et projets d'entreprise.
         </p>
 
         <div className="row gx-xl-10 gy-6">

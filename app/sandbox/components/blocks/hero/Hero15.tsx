@@ -21,15 +21,15 @@ export default function Hero15() {
               <div className="row h-100">
                 <div className="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
                   <h2 className="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                    We bring solutions to make life easier.
+                  Nous apportons des solutions pour vous faciliter la vie.
                   </h2>
 
                   <p className="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                    We are a creative company that focuses on long term relationships with customers.
+                  Nous sommes une entreprise créative qui se concentre sur les relations à long terme avec les clients.
                   </p>
 
                   <div className="animate__animated animate__slideInUp animate__delay-3s">
-                    <NextLink title="Read More" href="#" className="btn btn-lg btn-outline-white rounded-pill" />
+                    <NextLink title="En savoir plus" href="#" className="btn btn-lg btn-outline-white rounded-pill" />
                   </div>
                 </div>
               </div>
@@ -43,11 +43,11 @@ export default function Hero15() {
               <div className="row h-100">
                 <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                   <h2 className="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                    We are trusted by over a million customers.
+                  Nous avons la confiance de plus d’un million de clients.
                   </h2>
 
                   <p className="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                    Here a few reasons why our customers choose us.
+                  Voici quelques raisons pour lesquelles nos clients nous choisissent.
                   </p>
 
                   <div className="animate__animated animate__slideInUp animate__delay-3s">
@@ -70,15 +70,15 @@ export default function Hero15() {
               <div className="row h-100">
                 <div className="col-md-10 offset-md-1 col-lg-7 offset-lg-5 col-xl-6 offset-xl-6 col-xxl-5 offset-xxl-6 text-center text-lg-start justify-content-center align-self-center align-items-start">
                   <h2 className="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                    Just sit and relax.
+                    Installez-vous confortablement et détendez-vous
                   </h2>
 
                   <p className="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                    We make sure your spending is stress free so that you can have the perfect control.
+                   pendant que nous prenons soin de vos projets.
                   </p>
 
                   <div className="animate__animated animate__slideInUp animate__delay-3s">
-                    <NextLink title="Contact Us" href="#" className="btn btn-lg btn-outline-white rounded-pill" />
+                    <NextLink title="Contactez-nous" href="#" className="btn btn-lg btn-outline-white rounded-pill" />
                   </div>
                 </div>
               </div>

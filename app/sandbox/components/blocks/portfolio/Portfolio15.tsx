@@ -9,7 +9,7 @@ export default function Portfolio15() {
       <div className="container">
         <div className="row">
           <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
-            <h2 className="display-2 mb-4">Creative. Smart. Awesome.</h2>
+            <h2 className="display-2 mb-4">Créatif. Intelligent. Génial.</h2>
             <p className="lead fs-lg mb-11">
               Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus
               eget urna.
@@ -60,7 +60,7 @@ export default function Portfolio15() {
       </div>
 
       <div className="text-center mt-8 mb-15 mb-md-18 mb-lg-25">
-        <NextLink href="#" title="See Our Projects" className="btn btn-lg btn-primary rounded-xl" />
+        <NextLink href="#" title="Voir nos réalisations" className="btn btn-lg btn-primary rounded-xl" />
       </div>
     </Fragment>
   );

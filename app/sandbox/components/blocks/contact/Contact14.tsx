@@ -11,11 +11,11 @@ export default function Contact14() {
             />
 
             <h2 className="display-3 mb-3 pe-xl-14 pe-xxl-16">
-              If you like what you see, <em>let's work</em> together.
+              Si vous aimez ce que vous voyez, <em>travaillons ensemble</em>.
             </h2>
 
             <p className="lead fs-lg pe-xxl-12 mb-0">
-              Have any questions? Reach out to me from this contact form and I will get back to you shortly.
+              Vous avez des questions? Contactez-moi à partir de ce formulaire de contact et je vous répondrai sous peu.
             </p>
           </div>
 
@@ -55,7 +55,7 @@ export default function Contact14() {
                     />
                     <label htmlFor="form_email">Email *</label>
                     <div className="valid-feedback"> Looks good! </div>
-                    <div className="invalid-feedback"> Please provide a valid email address. </div>
+                    <div className="invalid-feedback"> Veuillez fournir une adresse email valide. </div>
                   </div>
                 </div>
 
@@ -76,7 +76,7 @@ export default function Contact14() {
                 </div>
 
                 <div className="col-12">
-                  <input type="submit" value="Send message" className="btn btn-primary rounded-pill btn-send mb-3" />
+                  <input type="submit" value="Envoyer" className="btn btn-primary rounded-pill btn-send mb-3" />
                 </div>
               </div>
             </form>

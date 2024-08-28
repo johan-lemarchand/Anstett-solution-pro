@@ -26,7 +26,7 @@ export default function ProjectCard1(props: ProjectCard1Props) {
 
             <div className="post-content">
               <p>{description}</p>
-              <NextLink title="See Project" href={link} className="more hover link-red" />
+              <NextLink title="Nouveaux projets" href={link} className="more hover link-red" />
             </div>
           </div>
         </div>

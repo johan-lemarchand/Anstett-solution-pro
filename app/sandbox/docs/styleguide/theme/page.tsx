@@ -86,7 +86,7 @@ export default function ThemeSetup() {
               <mark className="doc">ThemeProvider</mark> injects necessary css files for overring the defaults.
             </p>
 
-            <h4>How it works</h4>
+            <h4>Comment ça marche</h4>
             <p>
               <mark className="doc">ThemeProvider</mark> location is <mark className="folder">/src/theme</mark>. Please
               check <mark className="folder">/src/theme/themeOptions</mark>.<mark className="doc">changeTheme</mark>{" "}

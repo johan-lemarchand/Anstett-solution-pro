@@ -25,7 +25,7 @@ export default function Services18() {
           </div>
 
           <div className="col-lg-6">
-            <h2 className="display-4 mb-3">What I Do?</h2>
+            <h2 className="display-4 mb-3">Ce que je fais ?</h2>
             <p className="lead fs-20 mb-5">
               Duis mollis est commodo luctus nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis
               risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus

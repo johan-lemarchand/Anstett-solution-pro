@@ -11,9 +11,9 @@ export default function Services22() {
     <Fragment>
       <div className="row">
         <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Why Choose Sandbox?</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">Pourquoi choisir Anstett Solutions Pro?</h2>
           <h3 className="display-3 mb-10 px-xl-10 px-xxl-15">
-            Here are a few <span className="underline-3 style-2 yellow">reasons</span> why our customers choose Sandbox.
+          Voici quelques <span className="underline-3 style-2 yellow">raisons</span> pour lesquelles nos clients choisissent Anstett Solutions Pro.
           </h3>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Services22() {
             </div>
 
             <div>
-              <h4 className="mb-1">Collect Ideas</h4>
+              <h4 className="mb-1">Collecte  d'idées</h4>
               <p>Duis mollis commodo luctus cursus commodo tortor mauris.</p>
             </div>
           </a>
@@ -52,7 +52,7 @@ export default function Services22() {
             </div>
 
             <div>
-              <h4 className="mb-1">Data Analysis</h4>
+              <h4 className="mb-1">Analyse de données</h4>
               <p>Vivamus sagittis lacus augue fusce dapibus tellus nibh.</p>
             </div>
           </a>
@@ -71,7 +71,7 @@ export default function Services22() {
             </div>
 
             <div>
-              <h4 className="mb-1">Finalize Product</h4>
+              <h4 className="mb-1">Produit Final</h4>
               <p>Vestibulum ligula porta felis maecenas faucibus mollis.</p>
             </div>
           </a>
@@ -88,7 +88,7 @@ export default function Services22() {
               </figure>
             </div>
 
-            <List title="Collect Ideas" color="fuchsia" />
+            <List title="Collecte  d'idées" color="fuchsia" />
           </div>
         </div>
 
@@ -100,7 +100,7 @@ export default function Services22() {
               </figure>
             </div>
 
-            <List title="Data Analysis" color="violet" />
+            <List title="Analyse de données" color="violet" />
           </div>
         </div>
 
@@ -112,7 +112,7 @@ export default function Services22() {
               </figure>
             </div>
 
-            <List title="Finalize Product" color="green" />
+            <List title="Profuit Finale" color="green" />
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@ const List = ({ color, title }: ListProps) => {
         </li>
       </ul>
 
-      <NextLink title="Learn More" href="#" className={`btn btn-${color} mt-2`} />
+      <NextLink title="En savoir plus" href="#" className={`btn btn-${color} mt-2`} />
     </div>
   );
 };

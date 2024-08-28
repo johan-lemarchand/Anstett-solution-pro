@@ -28,7 +28,7 @@ export default function ServiceCard2({
       <IconBox icon={icon} className={iconBoxClassNames} />
       <h4 className={titleColor}>{title}</h4>
       <p className="mb-3">{description}</p>
-      {hiddenBtn ? null : <NextLink title="Learn More" href={linkUrl} className="more hover" />}
+      {hiddenBtn ? null : <NextLink title="En savoir plus" href={linkUrl} className="plus sur" />}
     </div>
   );
 }
