@@ -1,4 +1,4 @@
-import IconProps from 'app/sandbox/types/icon';
+import {IconProps} from 'app/sandbox/types/icon';
 
 const Pentool = ({ className }: IconProps) => {
   return (

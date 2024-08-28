@@ -1,6 +1,6 @@
 import NextLink from "../links/NextLink";
 
-import IconProps from "app/sandbox/types/icon";
+import {IconProps} from 'app/sandbox/types/icon';
 import { LinkType } from "app/sandbox/types/demo-1";
 
 // ===============================================================
