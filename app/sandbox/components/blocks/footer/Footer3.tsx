@@ -1,4 +1,4 @@
-import Link from "app/sandbox/types/link";
+import {Link} from "app/sandbox/types/link";
 // GLOBAL CUSTOM COMPONENTS
 import NextLink from "app/sandbox/components/reuseable/links/NextLink";
 import SocialLinks from "app/sandbox/components/reuseable/SocialLinks";
