@@ -5,7 +5,14 @@ const nextConfig = {
         return [
             {
                 source: '/:path*',
-                destination: '/sandbox/:path*'
+                destination: '/sandbox/:path*',
+                has: [
+                    {
+                        type: 'header',
+                        key: 'x-invoke-path',
+                        value: '(?!.*\\.ts$).*'
+                    }
+                ]
             },
         ];
     },
