@@ -27,7 +27,7 @@ import CloudNetwork from 'app/sandbox/icons/solid-duo/CloudNetwork';
 import SmartphoneTwo from 'app/sandbox/icons/lineal/SmartphoneTwo';
 import SettingsThree from 'app/sandbox/icons/lineal/SettingsThree';
 import CloudComputing from 'app/sandbox/icons/lineal/CloudComputing';
-import { LinkType } from 'app/sandbox/types/demo-1';
+import { LinkType } from '../../types/demo-1';
 import color from 'app/sandbox/utils/color';
 
 // used in the services-1 block

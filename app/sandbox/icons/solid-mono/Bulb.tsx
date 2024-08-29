@@ -1,4 +1,4 @@
-import {IconProps} from 'app/sandbox/types/icon';
+import {IconProps} from '../../../types/icon';
 
 const Bulb = ({ className }: IconProps) => {
   return (
