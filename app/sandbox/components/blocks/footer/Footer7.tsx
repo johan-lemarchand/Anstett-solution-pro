@@ -1,4 +1,4 @@
-import Link from '../../../../types/link';
+import { Link } from '../../../../types/link';
 // GLOBAL CUSTOM COMPONENTS
 import NextLink from '@sandbox/components/reuseable/links/NextLink';
 import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
