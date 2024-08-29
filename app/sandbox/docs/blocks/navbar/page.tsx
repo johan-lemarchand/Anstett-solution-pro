@@ -1,8 +1,8 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // LOCAL CUSTOM COMPONENTS
-import Block from "./block";
+import Block from './block';
 // MARKUP
-import * as all from "app/sandbox/themes/markups/elements/navbar";
+import * as all from '@sandbox/themes/markups/elements/navbar';
 
 export default function Navbar() {
   return (
@@ -33,12 +33,20 @@ export default function Navbar() {
         <div className="container pt-12">
           <h2 className="mb-3">Center Nav - Transparent Background</h2>
           <p className="lead mb-0">
-            Voici quelques exemples en direct :{" "}
-            <a href="/sandbox/themes/demo-1" className="external" target="_blank">
+            Voici quelques exemples en direct :{' '}
+            <a
+              href="/sandbox/themes/demo-1"
+              className="external"
+              target="_blank"
+            >
               Demo 1
-            </a>{" "}
-            ou{" "}
-            <a href="/sandbox/themes/demo-4" className="external" target="_blank">
+            </a>{' '}
+            ou{' '}
+            <a
+              href="/sandbox/themes/demo-4"
+              className="external"
+              target="_blank"
+            >
               Demo 4
             </a>
             .
@@ -46,20 +54,34 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-1.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-1.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
       <Block id={2} markup={all.markup2}>
         <div className="container pt-15 pt-md-17">
-          <h2 className="mb-3">Center Nav - Transparent Background - Light Text</h2>
+          <h2 className="mb-3">
+            Center Nav - Transparent Background - Light Text
+          </h2>
           <p className="lead mb-0">
-            Voici quelques exemples en direct :{" "}
-            <a href="/sandbox/themes/demo-3" className="external" target="_blank">
+            Voici quelques exemples en direct :{' '}
+            <a
+              href="/sandbox/themes/demo-3"
+              className="external"
+              target="_blank"
+            >
               Demo 3
-            </a>{" "}
-            ou{" "}
-            <a href="/sandbox/themes/demo-15" className="external" target="_blank">
+            </a>{' '}
+            ou{' '}
+            <a
+              href="/sandbox/themes/demo-15"
+              className="external"
+              target="_blank"
+            >
               Demo 15
             </a>
             .
@@ -67,7 +89,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-2.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-2.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -75,12 +101,20 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Center Nav - Light Background</h2>
           <p className="lead mb-0">
-            Voici quelques exemples en direct :{" "}
-            <a href="/sandbox/themes/shop-1" className="external" target="_blank">
+            Voici quelques exemples en direct :{' '}
+            <a
+              href="/sandbox/themes/shop-1"
+              className="external"
+              target="_blank"
+            >
               Shop
-            </a>{" "}
-            ou{" "}
-            <a href="/sandbox/themes/products/1" className="external" target="_blank">
+            </a>{' '}
+            ou{' '}
+            <a
+              href="/sandbox/themes/products/1"
+              className="external"
+              target="_blank"
+            >
               Product Page
             </a>
             .
@@ -88,7 +122,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-3.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-3.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -98,7 +136,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-4.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-4.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -106,8 +148,12 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Center Nav - Fancy</h2>
           <p className="lead mb-0">
-            Voici quelques exemples en direct :{" "}
-            <a href="/sandbox/themes/demo-7" className="external" target="_blank">
+            Voici quelques exemples en direct :{' '}
+            <a
+              href="/sandbox/themes/demo-7"
+              className="external"
+              target="_blank"
+            >
               Demo 7
             </a>
             .
@@ -115,7 +161,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-5.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-5.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -123,12 +173,20 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Classic - Transparent Background</h2>
           <p className="lead mb-0">
-            Voici quelques exemples en direct :{" "}
-            <a href="/sandbox/themes/demo-6" className="external" target="_blank">
+            Voici quelques exemples en direct :{' '}
+            <a
+              href="/sandbox/themes/demo-6"
+              className="external"
+              target="_blank"
+            >
               Demo 6
-            </a>{" "}
-            ou{" "}
-            <a href="/sandbox/themes/demo-8" className="external" target="_blank">
+            </a>{' '}
+            ou{' '}
+            <a
+              href="/sandbox/themes/demo-8"
+              className="external"
+              target="_blank"
+            >
               Demo 8
             </a>
             .
@@ -136,16 +194,26 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-6.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-6.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
       <Block id={7} markup={all.markup7}>
         <div className="container pt-15 pt-md-17">
-          <h2 className="mb-3">Classic - Transparent Background - Light Text</h2>
+          <h2 className="mb-3">
+            Classic - Transparent Background - Light Text
+          </h2>
           <p className="lead mb-0">
-            Voici un exemples en direct :{" "}
-            <a href="/sandbox/themes/demo-11" className="external" target="_blank">
+            Voici un exemples en direct :{' '}
+            <a
+              href="/sandbox/themes/demo-11"
+              className="external"
+              target="_blank"
+            >
               Demo 11
             </a>
             .
@@ -153,7 +221,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-7.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-7.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -163,7 +235,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-8.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-8.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -173,7 +249,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-9.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-9.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -183,7 +263,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-10.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-10.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -193,16 +277,26 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-11.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-11.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
       <Block id={12} markup={all.markup12}>
         <div className="container pt-15 pt-md-17">
-          <h2 className="mb-3">Center Logo - Transparent Background - Light Text</h2>
+          <h2 className="mb-3">
+            Center Logo - Transparent Background - Light Text
+          </h2>
           <p className="lead mb-0">
-            Voici un exemple en direct :{" "}
-            <a href="/sandbox/themes/demo-13" className="external" target="_blank">
+            Voici un exemple en direct :{' '}
+            <a
+              href="/sandbox/themes/demo-13"
+              className="external"
+              target="_blank"
+            >
               Demo 13
             </a>
             .
@@ -210,7 +304,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-12.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-12.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -220,7 +318,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-13.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-13.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -230,7 +332,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-14.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-14.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -238,8 +344,12 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Extended</h2>
           <p className="lead mb-0">
-            Voici un exemple en direct :{" "}
-            <a href="/sandbox/themes/demo-12" className="external" target="_blank">
+            Voici un exemple en direct :{' '}
+            <a
+              href="/sandbox/themes/demo-12"
+              className="external"
+              target="_blank"
+            >
               Demo 12
             </a>
             .
@@ -247,7 +357,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-16.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-16.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
 
@@ -255,8 +369,12 @@ export default function Navbar() {
         <div className="container pt-15 pt-md-17">
           <h2 className="mb-3">Extended - Alternative</h2>
           <p className="lead mb-0">
-            Voici un exemples en direct :{" "}
-            <a href="/sandbox/themes/demo-24" className="external" target="_blank">
+            Voici un exemples en direct :{' '}
+            <a
+              href="/sandbox/themes/demo-24"
+              className="external"
+              target="_blank"
+            >
               Demo 24
             </a>
             .
@@ -264,7 +382,11 @@ export default function Navbar() {
         </div>
 
         <div className="container-fluid pt-10 pt-md-12 pb-12 pb-md-14 px-xxl-10 text-center">
-          <img src="/img/docs/navbars/navbar-17.png" alt="navbar-1" className="img-fluid" />
+          <img
+            src="/img/docs/navbars/navbar-17.png"
+            alt="navbar-1"
+            className="img-fluid"
+          />
         </div>
       </Block>
     </Fragment>

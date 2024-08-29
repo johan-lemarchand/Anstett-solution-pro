@@ -1,7 +1,7 @@
-import Carousel from "../Carousel";
-import TestimonialCard2 from "./TestimonialCard2";
+import Carousel from '../Carousel';
+import TestimonialCard2 from './TestimonialCard2';
 // CUSTOM DATA
-import { testimonialList2 } from "app/sandbox/data/testimonial-list";
+import { testimonialList2 } from '@sandbox/data/testimonial-list';
 
 // ============================================================
 interface TestimonialCard4Props {
@@ -11,14 +11,14 @@ interface TestimonialCard4Props {
 // ============================================================
 
 export default function TestimonialCard4({
-  className = "",
-  sliderWrapperClassname = "p-10 p-md-11 p-lg-13"
+  className = '',
+  sliderWrapperClassname = 'p-10 p-md-11 p-lg-13',
 }: TestimonialCard4Props) {
   return (
     <div className={`card shadow-lg ${className}`}>
       <div className="row gx-0">
         <div
-          style={{ backgroundImage: "url(/img/photos/tm1.jpg)" }}
+          style={{ backgroundImage: 'url(/img/photos/tm1.jpg)' }}
           className="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start"
         />
 

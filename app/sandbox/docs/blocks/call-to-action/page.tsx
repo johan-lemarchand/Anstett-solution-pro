@@ -1,8 +1,19 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // LOCAL CUSTOM COMPONENTS
-import Block from "./block";
+import Block from './block';
 // GLOBAL CUSTOM COMPONENTS
-import { CTA1, CTA2, CTA3, CTA4, CTA5, CTA6, CTA7, CTA8, CTA9, CTA10 } from "app/sandbox/components/blocks/call-to-action";
+import {
+  CTA1,
+  CTA2,
+  CTA3,
+  CTA4,
+  CTA5,
+  CTA6,
+  CTA7,
+  CTA8,
+  CTA9,
+  CTA10,
+} from '@sandbox/components/blocks/call-to-action';
 
 export default function CallToAction() {
   return (

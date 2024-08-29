@@ -51,4 +51,11 @@ const selectMarkup = `<div className="form-select-wrapper">
 </div>
 `;
 
-export { inputMarkup, textareaMarkup, checkMarkup, radioMarkup, disabledMarkup, selectMarkup };
+export {
+  inputMarkup,
+  textareaMarkup,
+  checkMarkup,
+  radioMarkup,
+  disabledMarkup,
+  selectMarkup,
+};

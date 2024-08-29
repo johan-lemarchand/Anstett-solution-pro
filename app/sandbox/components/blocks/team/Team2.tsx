@@ -1,31 +1,43 @@
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { TeamCard2 } from "app/sandbox/components/reuseable/team-cards";
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { TeamCard2 } from '@sandbox/components/reuseable/team-cards';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import carouselBreakpoints from "app/sandbox/utils/carouselBreakpoints";
+import carouselBreakpoints from '@sandbox/utils/carouselBreakpoints';
 // CUSTOM DATA
-import teams from "app/sandbox/data/team-list";
+import teams from '@sandbox/data/team-list';
 
 export default function Team2() {
   return (
     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-16 mb-md-17 mb-xl-20 align-items-center">
       <div className="col-lg-4">
-        <h2 className="fs-15 text-uppercase text-muted mb-3">Découvrir l'équipe</h2>
+        <h2 className="fs-15 text-uppercase text-muted mb-3">
+          Découvrir l'équipe
+        </h2>
         <h3 className="display-5 mb-5">
-          Économisez votre temps et votre argent en choisissant notre équipe professionnelle.</h3>
+          Économisez votre temps et votre argent en choisissant notre équipe
+          professionnelle.
+        </h3>
         <p>
-          Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur
-          ac, vestibulum at eros tempus porttitor.
+          Donec id elit non mi porta gravida at eget metus. Morbi leo risus,
+          porta ac consectetur ac, vestibulum at eros tempus porttitor.
         </p>
 
-        <NextLink title="Voir tous les membres" href="#" className="btn btn-primary rounded-pill mt-3" />
+        <NextLink
+          title="Voir tous les membres"
+          href="#"
+          className="btn btn-primary rounded-pill mt-3"
+        />
       </div>
 
       <div className="col-lg-8">
         <div className="swiper-container text-center mb-6">
-          <Carousel grabCursor navigation={false} breakpoints={carouselBreakpoints}>
-            {teams.map((team) => (
+          <Carousel
+            grabCursor
+            navigation={false}
+            breakpoints={carouselBreakpoints}
+          >
+            {teams.map(team => (
               <TeamCard2 key={team.id} {...team} />
             ))}
           </Carousel>

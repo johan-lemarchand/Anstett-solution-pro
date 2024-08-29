@@ -1,11 +1,11 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import RegisterForm from "app/sandbox/components/elements/forms/RegisterForm";
+import Breadcrumb from '@sandbox/components/reuseable/Breadcrumb';
+import RegisterForm from '@sandbox/components/elements/forms/RegisterForm';
 // CUSTOM DATA
 const breadcrumb = [
-  { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "S'inscrire", url: "#" }
+  { id: 1, title: 'Home', url: '/' },
+  { id: 2, title: "S'inscrire", url: '#' },
 ];
 
 export default function Register() {
@@ -32,13 +32,17 @@ export default function Register() {
                 <div className="row gx-0 text-center">
                   <div
                     className="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start d-none d-md-block"
-                    style={{ backgroundImage: "url(/img/photos/tm3.jpg)" }}
+                    style={{ backgroundImage: 'url(/img/photos/tm3.jpg)' }}
                   />
 
                   <div className="col-lg-6">
                     <div className="p-10 p-md-11 p-lg-13">
-                      <h2 className="mb-3 text-start">Inscrivez-vous à Anstett Solutions Pro</h2>
-                      <p className="lead mb-6 text-start">L’inscription prend moins d’une minute.</p>
+                      <h2 className="mb-3 text-start">
+                        Inscrivez-vous à Anstett Solutions Pro
+                      </h2>
+                      <p className="lead mb-6 text-start">
+                        L’inscription prend moins d’une minute.
+                      </p>
                       <RegisterForm />
                     </div>
                   </div>

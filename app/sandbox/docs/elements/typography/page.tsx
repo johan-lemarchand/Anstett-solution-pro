@@ -1,6 +1,6 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUPS
 import {
   tinyMarkup,
@@ -10,18 +10,18 @@ import {
   linksMarkup,
   headingMarkup,
   displayMarkup,
-  dropcapMarkup
-} from "app/sandbox/themes/markups/elements/typography";
+  dropcapMarkup,
+} from '@sandbox/themes/markups/elements/typography';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Headings", url: "snippet-1" },
-  { title: "Display Headings", url: "snippet-2" },
-  { title: "Tiny Headings", url: "snippet-3" },
-  { title: "Lead", url: "snippet-4" },
-  { title: "Lists", url: "snippet-5" },
-  { title: "Blockquote", url: "snippet-6" },
-  { title: "Dropcap", url: "snippet-7" },
-  { title: "Links", url: "snippet-8" }
+  { title: 'Headings', url: 'snippet-1' },
+  { title: 'Display Headings', url: 'snippet-2' },
+  { title: 'Tiny Headings', url: 'snippet-3' },
+  { title: 'Lead', url: 'snippet-4' },
+  { title: 'Lists', url: 'snippet-5' },
+  { title: 'Blockquote', url: 'snippet-6' },
+  { title: 'Dropcap', url: 'snippet-7' },
+  { title: 'Links', url: 'snippet-8' },
 ];
 
 export default function Typography() {
@@ -33,25 +33,29 @@ export default function Typography() {
       headingColClass="col-md-9 col-lg-7 col-xl-7 mx-auto"
       description={
         <>
-          Use Bootstrap{" "}
+          Use Bootstrap{' '}
           <a
             href="https://getbootstrap.com/docs/5.2/components/tooltips/"
             className="hover more"
             rel="noreferrer"
-            target="_blank">
+            target="_blank"
+          >
             Tooltips
-          </a>{" "}
-          and{" "}
+          </a>{' '}
+          and{' '}
           <a
             href="https://getbootstrap.com/docs/5.2/components/popovers/"
             className="hover more"
             rel="noreferrer"
-            target="_blank">
+            target="_blank"
+          >
             Popovers
-          </a>{" "}
-          with our custom styles to add tooltips and popovers to any element on your website.
+          </a>{' '}
+          with our custom styles to add tooltips and popovers to any element on
+          your website.
         </>
-      }>
+      }
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Headings</h2>
@@ -79,12 +83,19 @@ export default function Typography() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{headingMarkup}</CodeHighlight>
@@ -109,12 +120,19 @@ export default function Typography() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{displayMarkup}</CodeHighlight>
@@ -132,22 +150,33 @@ export default function Typography() {
           <div className="card-body">
             <div className="row gy-6">
               <div className="col-md-6">
-                <h2 className="fs-15 text-uppercase text-navy mb-0">Tiny Heading</h2>
+                <h2 className="fs-15 text-uppercase text-navy mb-0">
+                  Tiny Heading
+                </h2>
               </div>
 
               <div className="col-md-6">
-                <h2 className="fs-15 text-uppercase text-line text-navy mb-0">Tiny Heading with Line</h2>
+                <h2 className="fs-15 text-uppercase text-line text-navy mb-0">
+                  Tiny Heading with Line
+                </h2>
               </div>
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{tinyMarkup}</CodeHighlight>
@@ -168,12 +197,19 @@ export default function Typography() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-4">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-4"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-4" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-4"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{leadMarkup}</CodeHighlight>
@@ -247,12 +283,19 @@ export default function Typography() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-5">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-5"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-5" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-5"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{listMarkup}</CodeHighlight>
@@ -273,11 +316,15 @@ export default function Typography() {
                 <figure>
                   <blockquote className="fs-lg">
                     <p>
-                      Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio.
+                      Sed posuere consectetur est at lobortis. Lorem ipsum dolor
+                      sit amet, consectetur adipiscing elit. Duis mollis, est
+                      non commodo luctus, nisi erat porttitor ligula lacinia
+                      odio.
                     </p>
                   </blockquote>
-                  <figcaption className="blockquote-footer">Connor Gibson</figcaption>
+                  <figcaption className="blockquote-footer">
+                    Connor Gibson
+                  </figcaption>
                 </figure>
               </div>
 
@@ -287,11 +334,14 @@ export default function Typography() {
                     <figure className="mb-0">
                       <blockquote className="icon fs-lg">
                         <p>
-                          Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Duis mollis, est non commodo luctus.
+                          Sed posuere consectetur est at lobortis. Lorem ipsum
+                          dolor sit amet, consectetur adipiscing elit. Duis
+                          mollis, est non commodo luctus.
                         </p>
                       </blockquote>
-                      <figcaption className="blockquote-footer mb-0">Connor Gibson</figcaption>
+                      <figcaption className="blockquote-footer mb-0">
+                        Connor Gibson
+                      </figcaption>
                     </figure>
                   </div>
                 </div>
@@ -300,12 +350,19 @@ export default function Typography() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-6">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-6"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-6" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-6"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{quoteMarkup}</CodeHighlight>
@@ -324,37 +381,49 @@ export default function Typography() {
             <div className="row gx-lg-8 gx-xl-12">
               <div className="col-md-4">
                 <p>
-                  <span className="dropcap text-dark">A</span>enean non lectus sit amet est imperdiet cursus elementum
-                  vitae eros. Cras quis odio in risus euismod suscipit. Fusce viverra ligula vel justo bibendum semper
-                  amet.
-                </p>
-              </div>
-
-              <div className="col-md-4">
-                <p>
-                  <span className="dropcap text-primary">A</span>enean non lectus sit amet est imperdiet cursus
-                  elementum vitae eros. Cras quis odio in risus euismod suscipit. Fusce viverra ligula vel justo
+                  <span className="dropcap text-dark">A</span>enean non lectus
+                  sit amet est imperdiet cursus elementum vitae eros. Cras quis
+                  odio in risus euismod suscipit. Fusce viverra ligula vel justo
                   bibendum semper amet.
                 </p>
               </div>
 
               <div className="col-md-4">
                 <p>
-                  <span className="dropcap rounded-circle text-primary bg-pale-primary">A</span>enean non lectus sit
-                  amet est imperdiet cursus elementum vitae eros. Cras quis odio in risus euismod suscipit. Fusce
-                  viverra ligula vel justo bibendum semper amet.
+                  <span className="dropcap text-primary">A</span>enean non
+                  lectus sit amet est imperdiet cursus elementum vitae eros.
+                  Cras quis odio in risus euismod suscipit. Fusce viverra ligula
+                  vel justo bibendum semper amet.
+                </p>
+              </div>
+
+              <div className="col-md-4">
+                <p>
+                  <span className="dropcap rounded-circle text-primary bg-pale-primary">
+                    A
+                  </span>
+                  enean non lectus sit amet est imperdiet cursus elementum vitae
+                  eros. Cras quis odio in risus euismod suscipit. Fusce viverra
+                  ligula vel justo bibendum semper amet.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-7">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-7"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-7" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-7"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{dropcapMarkup}</CodeHighlight>
@@ -369,41 +438,87 @@ export default function Typography() {
         <h2 className="mb-5">Links</h2>
         <p className="lead">Available options:</p>
         <p className="lead mb-8">
-          <code className="code">link-body</code>, <code className="code">link-aqua</code>,{" "}
-          <code className="code">link-green</code>, <code className="code">link-leaf</code>,{" "}
-          <code className="code">link-navy</code>, <code className="code">link-orange</code>,{" "}
-          <code className="code">link-pink</code>, <code className="code">link-purple</code>,{" "}
-          <code className="code">link-red</code>, <code className="code">link-violet</code>,{" "}
-          <code className="code">link-yellow</code>, <code className="code">link-fuchsia</code>,{" "}
-          <code className="code">link-sky</code>, <code className="code">link-grape</code>.
+          <code className="code">link-body</code>,{' '}
+          <code className="code">link-aqua</code>,{' '}
+          <code className="code">link-green</code>,{' '}
+          <code className="code">link-leaf</code>,{' '}
+          <code className="code">link-navy</code>,{' '}
+          <code className="code">link-orange</code>,{' '}
+          <code className="code">link-pink</code>,{' '}
+          <code className="code">link-purple</code>,{' '}
+          <code className="code">link-red</code>,{' '}
+          <code className="code">link-violet</code>,{' '}
+          <code className="code">link-yellow</code>,{' '}
+          <code className="code">link-fuchsia</code>,{' '}
+          <code className="code">link-sky</code>,{' '}
+          <code className="code">link-grape</code>.
         </p>
 
         <div className="card">
           <div className="card-body">
-            <NextLink title="Link example" href="#" className="hover link-body me-4 ms-1 mb-5" />
-            <NextLink title="Link example" href="#" className="hover me-4 mb-5" />
-            <NextLink title="Link example" href="#" className="hover more me-4 mb-5" />
+            <NextLink
+              title="Link example"
+              href="#"
+              className="hover link-body me-4 ms-1 mb-5"
+            />
+            <NextLink
+              title="Link example"
+              href="#"
+              className="hover me-4 mb-5"
+            />
+            <NextLink
+              title="Link example"
+              href="#"
+              className="hover more me-4 mb-5"
+            />
 
             <br />
 
-            <NextLink title="Link example" href="#" className="hover-2 link-body me-4 mb-5" />
-            <NextLink title="Link example" href="#" className="hover-2 me-4 mb-5" />
-            <NextLink title="Link example" href="#" className="hover-2 more me-4 mb-5" />
+            <NextLink
+              title="Link example"
+              href="#"
+              className="hover-2 link-body me-4 mb-5"
+            />
+            <NextLink
+              title="Link example"
+              href="#"
+              className="hover-2 me-4 mb-5"
+            />
+            <NextLink
+              title="Link example"
+              href="#"
+              className="hover-2 more me-4 mb-5"
+            />
 
             <br />
 
-            <NextLink title="Link example" href="#" className="hover-3 link-body me-4" />
+            <NextLink
+              title="Link example"
+              href="#"
+              className="hover-3 link-body me-4"
+            />
             <NextLink title="Link example" href="#" className="hover-3 me-4" />
-            <NextLink title="Link example" href="#" className="hover-3 more me-4" />
+            <NextLink
+              title="Link example"
+              href="#"
+              className="hover-3 more me-4"
+            />
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-8">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-8"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-8" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-8"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{linksMarkup}</CodeHighlight>

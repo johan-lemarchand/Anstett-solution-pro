@@ -1,4 +1,4 @@
-import data from "app/sandbox/data/demo-27";
+import data from '@sandbox/data/demo-27';
 
 export default function Services29() {
   return (
@@ -6,9 +6,12 @@ export default function Services29() {
       <div className="container py-15 py-md-17">
         <div className="row text-center">
           <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
-            <h2 className="fs-15 text-uppercase text-muted mb-3">Que faisons-nous?</h2>
+            <h2 className="fs-15 text-uppercase text-muted mb-3">
+              Que faisons-nous?
+            </h2>
             <h3 className="display-3 ls-sm mb-9 px-xl-11">
-            Le service que nous offrons est spécialement conçu pour répondre à vos besoins.
+              Le service que nous offrons est spécialement conçu pour répondre à
+              vos besoins.
             </h3>
           </div>
         </div>

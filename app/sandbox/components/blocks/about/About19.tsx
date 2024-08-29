@@ -1,8 +1,8 @@
-import { Fragment } from "react";
-import { Tiles11 } from "app/sandbox/components/elements/tiles";
-import ListColumn from "app/sandbox/components/reuseable/ListColumn";
+import { Fragment } from 'react';
+import { Tiles11 } from '@sandbox/components/elements/tiles';
+import ListColumn from '@sandbox/components/reuseable/ListColumn';
 // CUSTOM DATA
-import { aboutList2, aboutList3 } from "app/sandbox/data/about";
+import { aboutList2, aboutList3 } from '@sandbox/data/about';
 
 export default function About19() {
   return (
@@ -13,13 +13,19 @@ export default function About19() {
         </div>
 
         <div className="col-lg-6">
-          <h2 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">Qui sommes-nous?</h2>
-          <h3 className="display-4 mb-4">Une entreprise qui croit au pouvoir de la stratégie créative.</h3>
+          <h2 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">
+            Qui sommes-nous?
+          </h2>
+          <h3 className="display-4 mb-4">
+            Une entreprise qui croit au pouvoir de la stratégie créative.
+          </h3>
           <p className="mb-6">
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-            et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia
-            bibendum nulla sed.
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in,
+            egestas eget quam. Praesent commodo cursus magna, vel scelerisque
+            nisl consectetur et. Cum sociis natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum
+            nulla sed.
           </p>
 
           <ListColumn rowClass="gx-xl-8" list={aboutList2} />

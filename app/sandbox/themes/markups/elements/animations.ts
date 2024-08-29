@@ -38,4 +38,11 @@ const dataDelayMarkup = `<div data-cues="fadeIn" data-delay="1000">
 </div>
 `;
 
-export { standardMarkup, parentWrapMarkup, groupWrapMarkup, dataDelayMarkup, dataDurationMarkup, dataIntervalMarkup };
+export {
+  standardMarkup,
+  parentWrapMarkup,
+  groupWrapMarkup,
+  dataDelayMarkup,
+  dataDurationMarkup,
+  dataIntervalMarkup,
+};

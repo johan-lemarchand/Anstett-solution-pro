@@ -1,15 +1,23 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
-import { TeamCard1, TeamCard2, TeamCard3 } from "app/sandbox/components/reuseable/team-cards";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
+import {
+  TeamCard1,
+  TeamCard2,
+  TeamCard3,
+} from '@sandbox/components/reuseable/team-cards';
 // -------- markups -------- //
-import { card1Markup, card2Markup, card3Markup } from "app/sandbox/themes/markups/others/team-cards";
+import {
+  card1Markup,
+  card2Markup,
+  card3Markup,
+} from '@sandbox/themes/markups/others/team-cards';
 // -------- data -------- //
-import teams from "app/sandbox/data/team-list";
-import { teams as teams2 } from "app/sandbox/data/demo-8";
+import teams from '@sandbox/data/team-list';
+import { teams as teams2 } from '@sandbox/data/demo-8';
 const quickAccess = [
-  { title: "Team Card 1", url: "snippet-1" },
-  { title: "Team Card 2", url: "snippet-2" },
-  { title: "Team Card 3", url: "snippet-3" }
+  { title: 'Team Card 1', url: 'snippet-1' },
+  { title: 'Team Card 2', url: 'snippet-2' },
+  { title: 'Team Card 3', url: 'snippet-3' },
 ];
 
 export default function TeamCards() {
@@ -18,7 +26,8 @@ export default function TeamCards() {
       pageTitle="Team Cards"
       quickAccessLinks={quickAccess}
       headingColClass="col-md-9 col-lg-7 col-xl-5 mx-auto"
-      description="Use our custom team card components to build any custom blog section or blocks">
+      description="Use our custom team card components to build any custom blog section or blocks"
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-3">Team Card 1</h2>
@@ -26,7 +35,7 @@ export default function TeamCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gy-6 gy-lg-0">
-              {teams.slice(0, 2).map((item) => (
+              {teams.slice(0, 2).map(item => (
                 <div className="col-lg-6" key={item.id}>
                   <TeamCard1 {...item} />
                 </div>
@@ -35,12 +44,19 @@ export default function TeamCards() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card1Markup}</CodeHighlight>
@@ -57,7 +73,7 @@ export default function TeamCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gy-6 gx-lg-14">
-              {teams.slice(0, 2).map((team) => (
+              {teams.slice(0, 2).map(team => (
                 <div className="col-lg-6" key={team.id}>
                   <TeamCard2 {...team} />
                 </div>
@@ -66,12 +82,19 @@ export default function TeamCards() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card2Markup}</CodeHighlight>
@@ -88,7 +111,7 @@ export default function TeamCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gy-6 gx-lg-12">
-              {teams2.slice(0, 2).map((item) => (
+              {teams2.slice(0, 2).map(item => (
                 <div className="col-md-6" key={item.id}>
                   <TeamCard3 {...item} />
                 </div>
@@ -97,12 +120,19 @@ export default function TeamCards() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card3Markup}</CodeHighlight>

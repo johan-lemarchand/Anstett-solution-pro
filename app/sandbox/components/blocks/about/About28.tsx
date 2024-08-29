@@ -1,6 +1,6 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // CUSTOM DATA
-import data from "app/sandbox/data/demo-27";
+import data from '@sandbox/data/demo-27';
 
 export default function About28() {
   // reusable list item
@@ -18,46 +18,64 @@ export default function About28() {
           <div className="row gx-md-5 gy-5">
             <div className="col-md-6">
               <figure className="rounded">
-                <img src="/img/photos/g14.jpg" srcSet="/img/photos/g14@2x.jpg 2x" alt="" />
+                <img
+                  src="/img/photos/g14.jpg"
+                  srcSet="/img/photos/g14@2x.jpg 2x"
+                  alt=""
+                />
               </figure>
             </div>
 
             <div className="col-md-6 align-self-end">
               <figure className="rounded">
-                <img src="/img/photos/g15.jpg" srcSet="/img/photos/g15@2x.jpg 2x" alt="" />
+                <img
+                  src="/img/photos/g15.jpg"
+                  srcSet="/img/photos/g15@2x.jpg 2x"
+                  alt=""
+                />
               </figure>
             </div>
 
             <div className="col-12">
               <figure className="rounded mx-md-5">
-                <img src="/img/photos/g16.jpg" srcSet="/img/photos/g16@2x.jpg 2x" alt="" />
+                <img
+                  src="/img/photos/g16.jpg"
+                  srcSet="/img/photos/g16@2x.jpg 2x"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
         </div>
 
         <div className="col-lg-6">
-          <h2 className="fs-15 text-uppercase text-muted mb-3">Qui sommes-nous ?</h2>
-          <h3 className="display-3 ls-sm mb-5">Entreprise qui croit au pouvoir de la stratégie créative.</h3>
+          <h2 className="fs-15 text-uppercase text-muted mb-3">
+            Qui sommes-nous ?
+          </h2>
+          <h3 className="display-3 ls-sm mb-5">
+            Entreprise qui croit au pouvoir de la stratégie créative.
+          </h3>
           <p className="mb-6">
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-            et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia
-            bibendum nulla sed.
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in,
+            egestas eget quam. Praesent commodo cursus magna, vel scelerisque
+            nisl consectetur et. Cum sociis natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum
+            nulla sed.
           </p>
 
           <div className="row gy-3 gx-xl-8">
             <div className="col-xl-6">
               <ul className="icon-list bullet-primary mb-0">
-                {item("Aenean eu leo quam ornare curabitur blandit tempus.")}
-                {item("Nullam quis risus eget urna mollis ornare donec elit.")}
+                {item('Aenean eu leo quam ornare curabitur blandit tempus.')}
+                {item('Nullam quis risus eget urna mollis ornare donec elit.')}
               </ul>
             </div>
 
             <div className="col-xl-6">
               <ul className="icon-list bullet-primary mb-0">
-                {item("Etiam porta sem malesuada magna mollis euismod.")}
-                {item("Fermentum massa vivamus faucibus amet euismod.")}
+                {item('Etiam porta sem malesuada magna mollis euismod.')}
+                {item('Fermentum massa vivamus faucibus amet euismod.')}
               </ul>
             </div>
           </div>

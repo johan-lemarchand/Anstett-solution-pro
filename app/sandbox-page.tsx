@@ -1,5 +1,5 @@
-import SandboxHome from "./sandbox/page";
+import SandboxHome from './sandbox/page';
 
 export default function SandboxPage() {
-    return <SandboxHome />;
+  return <SandboxHome />;
 }

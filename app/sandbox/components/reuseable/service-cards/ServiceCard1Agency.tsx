@@ -1,5 +1,5 @@
-import {IconProps} from '../../../../types/icon';
-import { LinkType } from "../../../../types/demo-1";
+import { IconProps } from '../../../../types/iconProps';
+import LinkType from '../../../../types/demo-1';
 
 // ===============================================================
 interface ServiceCard1AgencyProps {
@@ -19,8 +19,8 @@ export default function ServiceCard1Agency({
   linkUrl,
   linkType,
   description,
-  cardClassName = "",
-  iconClassName = ""
+  cardClassName = '',
+  iconClassName = '',
 }: ServiceCard1AgencyProps) {
   return (
     <div className="col-md-6 col-xl-3">
@@ -29,7 +29,6 @@ export default function ServiceCard1Agency({
           <Icon className={iconClassName} />
           <h4>{title}</h4>
           <p className="mb-2">{description}</p>
-          
         </div>
       </div>
     </div>

@@ -1,13 +1,13 @@
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { Hero22 } from "app/sandbox/components/blocks/hero";
-import { Facts16 } from "app/sandbox/components/blocks/facts";
-import { About23 } from "app/sandbox/components/blocks/about";
-import { Footer14 } from "app/sandbox/components/blocks/footer";
-import { Pricing8 } from "app/sandbox/components/blocks/pricing";
-import { Process15 } from "app/sandbox/components/blocks/process";
-import { Services25 } from "app/sandbox/components/blocks/services";
-import { Portfolio12 } from "app/sandbox/components/blocks/portfolio";
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Hero22 } from '@sandbox/components/blocks/hero';
+import { Facts16 } from '@sandbox/components/blocks/facts';
+import { About23 } from '@sandbox/components/blocks/about';
+import { Footer14 } from '@sandbox/components/blocks/footer';
+import { Pricing8 } from '@sandbox/components/blocks/pricing';
+import { Process15 } from '@sandbox/components/blocks/process';
+import { Services25 } from '@sandbox/components/blocks/services';
+import { Portfolio12 } from '@sandbox/components/blocks/portfolio';
 
 export default function Demo22() {
   return (

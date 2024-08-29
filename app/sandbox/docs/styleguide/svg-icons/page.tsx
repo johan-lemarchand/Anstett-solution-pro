@@ -1,117 +1,117 @@
-import { FC } from "react";
-import color from "app/sandbox/utils/color";
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
+import { FC } from 'react';
+import color from '@sandbox/utils/color';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
 // =================================
-import Gift from "app/sandbox/icons/lineal/Gift";
-import Team from "app/sandbox/icons/lineal/Team";
-import Home from "app/sandbox/icons/lineal/Home";
-import List from "app/sandbox/icons/lineal/List";
-import User from "app/sandbox/icons/lineal/User";
-import Check from "app/sandbox/icons/lineal/Check";
-import Earth from "app/sandbox/icons/lineal/Earth";
-import Medal from "app/sandbox/icons/lineal/Medal";
-import Rocket from "app/sandbox/icons/lineal/Rocket";
-import Design from "app/sandbox/icons/lineal/Design";
-import IdCard from "app/sandbox/icons/lineal/IdCard";
-import Shield from "app/sandbox/icons/lineal/Shield";
-import Target from "app/sandbox/icons/lineal/Target";
-import Search from "app/sandbox/icons/lineal/Search";
-import ChatTwo from "app/sandbox/icons/lineal/ChatTwo";
-import Printer from "app/sandbox/icons/lineal/Printer";
-import Browser from "app/sandbox/icons/lineal/Browser";
-import Loading from "app/sandbox/icons/lineal/Loading";
-import Savings from "app/sandbox/icons/lineal/Savings";
-import ShopTwo from "app/sandbox/icons/lineal/ShopTwo";
-import AwardTwo from "app/sandbox/icons/lineal/AwardTwo";
-import Settings from "app/sandbox/icons/lineal/Settings";
-import BarChart from "app/sandbox/icons/lineal/BarChart";
-import RocketTwo from "app/sandbox/icons/lineal/RocketTwo";
-import Analytics from "app/sandbox/icons/lineal/Analytics";
-import LightBulb from "app/sandbox/icons/lineal/LightBulb";
-import Megaphone from "app/sandbox/icons/lineal/Megaphone";
-import SearchTwo from "app/sandbox/icons/lineal/SearchTwo";
-import Telephone from "app/sandbox/icons/lineal/Telephone";
-import PrinterTwo from "app/sandbox/icons/lineal/PrinterTwo";
-import ClockThree from "app/sandbox/icons/lineal/ClockThree";
-import PieChartTwo from "app/sandbox/icons/lineal/PieChartTwo";
-import BriefcaseTwo from "app/sandbox/icons/lineal/BriefcaseTwo";
-import TeleMarketer from "app/sandbox/icons/lineal/TeleMarketer";
-import SmartphoneTwo from "app/sandbox/icons/lineal/SmartphoneTwo";
-import SettingsThree from "app/sandbox/icons/lineal/SettingsThree";
-import CloudComputing from "app/sandbox/icons/lineal/CloudComputing";
-import ShoppingBasket from "app/sandbox/icons/lineal/ShoppingBasket";
+import Gift from '@sandbox/icons/lineal/Gift';
+import Team from '@sandbox/icons/lineal/Team';
+import Home from '@sandbox/icons/lineal/Home';
+import List from '@sandbox/icons/lineal/List';
+import User from '@sandbox/icons/lineal/User';
+import Check from '@sandbox/icons/lineal/Check';
+import Earth from '@sandbox/icons/lineal/Earth';
+import Medal from '@sandbox/icons/lineal/Medal';
+import Rocket from '@sandbox/icons/lineal/Rocket';
+import Design from '@sandbox/icons/lineal/Design';
+import IdCard from '@sandbox/icons/lineal/IdCard';
+import Shield from '@sandbox/icons/lineal/Shield';
+import Target from '@sandbox/icons/lineal/Target';
+import Search from '@sandbox/icons/lineal/Search';
+import ChatTwo from '@sandbox/icons/lineal/ChatTwo';
+import Printer from '@sandbox/icons/lineal/Printer';
+import Browser from '@sandbox/icons/lineal/Browser';
+import Loading from '@sandbox/icons/lineal/Loading';
+import Savings from '@sandbox/icons/lineal/Savings';
+import ShopTwo from '@sandbox/icons/lineal/ShopTwo';
+import AwardTwo from '@sandbox/icons/lineal/AwardTwo';
+import Settings from '@sandbox/icons/lineal/Settings';
+import BarChart from '@sandbox/icons/lineal/BarChart';
+import RocketTwo from '@sandbox/icons/lineal/RocketTwo';
+import Analytics from '@sandbox/icons/lineal/Analytics';
+import LightBulb from '@sandbox/icons/lineal/LightBulb';
+import Megaphone from '@sandbox/icons/lineal/Megaphone';
+import SearchTwo from '@sandbox/icons/lineal/SearchTwo';
+import Telephone from '@sandbox/icons/lineal/Telephone';
+import PrinterTwo from '@sandbox/icons/lineal/PrinterTwo';
+import ClockThree from '@sandbox/icons/lineal/ClockThree';
+import PieChartTwo from '@sandbox/icons/lineal/PieChartTwo';
+import BriefcaseTwo from '@sandbox/icons/lineal/BriefcaseTwo';
+import TeleMarketer from '@sandbox/icons/lineal/TeleMarketer';
+import SmartphoneTwo from '@sandbox/icons/lineal/SmartphoneTwo';
+import SettingsThree from '@sandbox/icons/lineal/SettingsThree';
+import CloudComputing from '@sandbox/icons/lineal/CloudComputing';
+import ShoppingBasket from '@sandbox/icons/lineal/ShoppingBasket';
 // =================================
-import Script from "app/sandbox/icons/solid-duo/Script";
-import Server from "app/sandbox/icons/solid-duo/Server";
-import Setting from "app/sandbox/icons/solid-duo/Setting";
-import Director from "app/sandbox/icons/solid-duo/Director";
-import TargetTwo from "app/sandbox/icons/solid-duo/TargetTwo";
-import CloudGroup from "app/sandbox/icons/solid-duo/CloudGroup";
-import BarChartTwo from "app/sandbox/icons/solid-duo/BarChartTwo";
-import CloudNetwork from "app/sandbox/icons/solid-duo/CloudNetwork";
-import EmployeesTwo from "app/sandbox/icons/solid-duo/EmployeesTwo";
+import Script from '@sandbox/icons/solid-duo/Script';
+import Server from '@sandbox/icons/solid-duo/Server';
+import Setting from '@sandbox/icons/solid-duo/Setting';
+import Director from '@sandbox/icons/solid-duo/Director';
+import TargetTwo from '@sandbox/icons/solid-duo/TargetTwo';
+import CloudGroup from '@sandbox/icons/solid-duo/CloudGroup';
+import BarChartTwo from '@sandbox/icons/solid-duo/BarChartTwo';
+import CloudNetwork from '@sandbox/icons/solid-duo/CloudNetwork';
+import EmployeesTwo from '@sandbox/icons/solid-duo/EmployeesTwo';
 // =================================
-import Bulb from "app/sandbox/icons/solid-mono/Bulb";
-import Edit from "app/sandbox/icons/solid-mono/Edit";
-import Lamp from "app/sandbox/icons/solid-mono/Lamp";
-import Share from "app/sandbox/icons/solid-mono/Share";
-import Alarm from "app/sandbox/icons/solid-mono/Alarm";
-import Verify from "app/sandbox/icons/solid-mono/Verify";
-import Wallet from "app/sandbox/icons/solid-mono/Wallet";
-import Puzzle from "app/sandbox/icons/solid-mono/Puzzle";
-import Compare from "app/sandbox/icons/solid-mono/Compare";
-import TeamTwo from "app/sandbox/icons/solid-mono/TeamTwo";
-import Building from "app/sandbox/icons/solid-mono/Building";
-import PushCart from "app/sandbox/icons/solid-mono/PushCart";
-import Shipment from "app/sandbox/icons/solid-mono/Shipment";
-import Employees from "app/sandbox/icons/solid-mono/Employees";
-import Headphone from "app/sandbox/icons/solid-mono/Headphone";
-import VideoCall from "app/sandbox/icons/solid-mono/VideoCall";
-import VideoChat from "app/sandbox/icons/solid-mono/VideoChat";
-import DeliveryBox from "app/sandbox/icons/solid-mono/DeliveryBox";
-import PartnerShip from "app/sandbox/icons/solid-mono/PartnerShip";
+import Bulb from '@sandbox/icons/solid-mono/Bulb';
+import Edit from '@sandbox/icons/solid-mono/Edit';
+import Lamp from '@sandbox/icons/solid-mono/Lamp';
+import Share from '@sandbox/icons/solid-mono/Share';
+import Alarm from '@sandbox/icons/solid-mono/Alarm';
+import Verify from '@sandbox/icons/solid-mono/Verify';
+import Wallet from '@sandbox/icons/solid-mono/Wallet';
+import Puzzle from '@sandbox/icons/solid-mono/Puzzle';
+import Compare from '@sandbox/icons/solid-mono/Compare';
+import TeamTwo from '@sandbox/icons/solid-mono/TeamTwo';
+import Building from '@sandbox/icons/solid-mono/Building';
+import PushCart from '@sandbox/icons/solid-mono/PushCart';
+import Shipment from '@sandbox/icons/solid-mono/Shipment';
+import Employees from '@sandbox/icons/solid-mono/Employees';
+import Headphone from '@sandbox/icons/solid-mono/Headphone';
+import VideoCall from '@sandbox/icons/solid-mono/VideoCall';
+import VideoChat from '@sandbox/icons/solid-mono/VideoChat';
+import DeliveryBox from '@sandbox/icons/solid-mono/DeliveryBox';
+import PartnerShip from '@sandbox/icons/solid-mono/PartnerShip';
 // -------- data -------- //
 const quickAccess = [
-  { title: "Lineal", url: "snippet-1" },
-  { title: "Solid Mono", url: "snippet-2" },
-  { title: "Solid Duo", url: "snippet-3" },
-  { title: "Solid", url: "snippet-4" }
+  { title: 'Lineal', url: 'snippet-1' },
+  { title: 'Solid Mono', url: 'snippet-2' },
+  { title: 'Solid Duo', url: 'snippet-3' },
+  { title: 'Solid', url: 'snippet-4' },
 ];
 
-const sizes = ["icon-svg-lg", "icon-svg-md", "icon-svg-sm", "icon-svg-xs"];
+const sizes = ['icon-svg-lg', 'icon-svg-md', 'icon-svg-sm', 'icon-svg-xs'];
 
 const duoColors = [
-  "text-green-fuchsia",
-  "text-purple-aqua",
-  "text-blue-pink",
-  "text-navy-green",
-  "text-grape-green",
-  "text-green-red",
-  "text-grape-yellow",
-  "text-purple-pink",
-  "text-red-yellow",
-  "text-grape-fuchsia",
-  "text-sky-pink",
-  "text-navy-sky"
+  'text-green-fuchsia',
+  'text-purple-aqua',
+  'text-blue-pink',
+  'text-navy-green',
+  'text-grape-green',
+  'text-green-red',
+  'text-grape-yellow',
+  'text-purple-pink',
+  'text-red-yellow',
+  'text-grape-fuchsia',
+  'text-sky-pink',
+  'text-navy-sky',
 ];
 
 const solidColors = [
-  "bg-pale-primary",
-  "bg-pale-aqua",
-  "bg-pale-green",
-  "bg-pale-leaf",
-  "bg-pale-navy",
-  "bg-pale-orange",
-  "bg-pale-pink",
-  "bg-pale-purple",
-  "bg-pale-red",
-  "bg-pale-violet",
-  "bg-pale-yellow",
-  "bg-pale-blue",
-  "bg-pale-fuchsia",
-  "bg-pale-sky",
-  "bg-pale-grape",
-  "bg-pale-white"
+  'bg-pale-primary',
+  'bg-pale-aqua',
+  'bg-pale-green',
+  'bg-pale-leaf',
+  'bg-pale-navy',
+  'bg-pale-orange',
+  'bg-pale-pink',
+  'bg-pale-purple',
+  'bg-pale-red',
+  'bg-pale-violet',
+  'bg-pale-yellow',
+  'bg-pale-blue',
+  'bg-pale-fuchsia',
+  'bg-pale-sky',
+  'bg-pale-grape',
+  'bg-pale-white',
 ];
 
 export default function SvgIcons() {
@@ -151,7 +151,7 @@ export default function SvgIcons() {
     Telephone,
     User,
     ChatTwo,
-    Search
+    Search,
   ];
 
   const solidDuoIcons = [
@@ -163,7 +163,7 @@ export default function SvgIcons() {
     Script,
     Server,
     Setting,
-    TargetTwo
+    TargetTwo,
   ];
 
   const solidMonoIcons = [
@@ -185,25 +185,28 @@ export default function SvgIcons() {
     Verify,
     VideoCall,
     VideoChat,
-    Wallet
+    Wallet,
   ];
 
   return (
     <DocLayout
       pageTitle="SVG Icons"
       quickAccessLinks={quickAccess}
-      description="Below you can find the list of all SVG icons included in Sandbox. Copy their codes easily with the copy buttons.">
+      description="Below you can find the list of all SVG icons included in Sandbox. Copy their codes easily with the copy buttons."
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="display-5 mb-3">Lineal</h2>
         <p className="lead mb-8">
-          Below you can find the list of all lineal SVG icons with their code snippets. All these retina-ready icons can
-          easily be styled by color and size. To reach the resource of this set visit{" "}
+          Below you can find the list of all lineal SVG icons with their code
+          snippets. All these retina-ready icons can easily be styled by color
+          and size. To reach the resource of this set visit{' '}
           <a
             href="https://www.flaticon.com/authors/monochrome/yellow"
             target="_blank"
             className="hover more"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Flaticon
           </a>
         </p>
@@ -215,7 +218,7 @@ export default function SvgIcons() {
             <div className="row gy-8 text-center">
               {Object.keys(color)
                 .sort()
-                .map((item) => (
+                .map(item => (
                   <div className="col-6 col-md-4 col-lg-3" key={item}>
                     <div>
                       <Printer className={`icon-svg-xs text-${item} mx-2`} />
@@ -233,7 +236,7 @@ export default function SvgIcons() {
         <div className="card mb-12">
           <div className="card-body">
             <div className="row gy-8 text-center d-flex align-items-end">
-              {sizes.map((item) => (
+              {sizes.map(item => (
                 <div className="col-6 col-lg-3" key={item}>
                   <div>
                     <Printer className={`${item} text-blue mx-2`} />
@@ -259,7 +262,8 @@ export default function SvgIcons() {
                 <div className="card-footer position-relative">
                   <a
                     className="stretched-link link-body btn-copy-icon"
-                    data-clipboard-text={`<${Icon.name} className="icon-svg-sm text-primary" />`}>
+                    data-clipboard-text={`<${Icon.name} className="icon-svg-sm text-primary" />`}
+                  >
                     Copy
                   </a>
                 </div>
@@ -273,13 +277,15 @@ export default function SvgIcons() {
       <section id="snippet-2" className="wrapper pt-16">
         <h2 className="display-5 mb-3">Solid Mono</h2>
         <p className="lead mb-8">
-          Below you can find the list of all solid mono SVG icons with their code snippets. All these retina-ready icons
-          can easily be styled by color and size. To reach the resource of this set visit{" "}
+          Below you can find the list of all solid mono SVG icons with their
+          code snippets. All these retina-ready icons can easily be styled by
+          color and size. To reach the resource of this set visit{' '}
           <a
             href="https://www.flaticon.com/authors/pixel-perfect/tritone"
             target="_blank"
             className="hover more"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Flaticon
           </a>
         </p>
@@ -291,11 +297,15 @@ export default function SvgIcons() {
             <div className="row gy-8 text-center">
               {Object.keys(color)
                 .sort()
-                .map((item) => (
+                .map(item => (
                   <div className="col-6 col-md-4 col-lg-3" key={item}>
                     <div>
-                      <PrinterTwo className={`icon-svg-xs solid-mono text-${item} mx-2`} />
-                      <RocketTwo className={`icon-svg-xs solid-mono text-${item} mx-2`} />
+                      <PrinterTwo
+                        className={`icon-svg-xs solid-mono text-${item} mx-2`}
+                      />
+                      <RocketTwo
+                        className={`icon-svg-xs solid-mono text-${item} mx-2`}
+                      />
                     </div>
                     <code className="code text-nowrap mt-4">text-{item}</code>
                   </div>
@@ -309,10 +319,12 @@ export default function SvgIcons() {
         <div className="card mb-12">
           <div className="card-body">
             <div className="row gy-8 text-center d-flex align-items-end">
-              {sizes.map((item) => (
+              {sizes.map(item => (
                 <div className="col-6 col-lg-3" key={item}>
                   <div>
-                    <PrinterTwo className={`${item} solid-mono text-blue mx-2`} />
+                    <PrinterTwo
+                      className={`${item} solid-mono text-blue mx-2`}
+                    />
                   </div>
                   <code className="code text-nowrap mt-4">{item}</code>
                 </div>
@@ -334,7 +346,8 @@ export default function SvgIcons() {
                 <div className="card-footer position-relative">
                   <a
                     className="stretched-link link-body btn-copy-icon"
-                    data-clipboard-text={`<${Icon.name} className="icon-svg-xs text-primary" />`}>
+                    data-clipboard-text={`<${Icon.name} className="icon-svg-xs text-primary" />`}
+                  >
                     Copy
                   </a>
                 </div>
@@ -348,13 +361,15 @@ export default function SvgIcons() {
       <section id="snippet-3" className="wrapper pt-16">
         <h2 className="display-5 mb-3">Solid Duo</h2>
         <p className="lead mb-8">
-          Below you can find the list of all solid duo SVG icons with their code snippets. All these retina-ready icons
-          can easily be styled by color and size. To reach the resource of this set visit{" "}
+          Below you can find the list of all solid duo SVG icons with their code
+          snippets. All these retina-ready icons can easily be styled by color
+          and size. To reach the resource of this set visit{' '}
           <a
             href="https://www.flaticon.com/authors/pixel-perfect/tritone"
             target="_blank"
             className="hover more"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Flaticon
           </a>
         </p>
@@ -364,11 +379,15 @@ export default function SvgIcons() {
         <div className="card mb-12">
           <div className="card-body">
             <div className="row gy-8 text-center">
-              {duoColors.sort().map((item) => (
+              {duoColors.sort().map(item => (
                 <div className="col-6 col-md-4 col-lg-3" key={item}>
                   <div>
-                    <PrinterTwo className={`icon-svg-xs solid-duo ${item} mx-2`} />
-                    <RocketTwo className={`icon-svg-xs solid-duo ${item} mx-2`} />
+                    <PrinterTwo
+                      className={`icon-svg-xs solid-duo ${item} mx-2`}
+                    />
+                    <RocketTwo
+                      className={`icon-svg-xs solid-duo ${item} mx-2`}
+                    />
                   </div>
                   <code className="code text-nowrap mt-4">{item}</code>
                 </div>
@@ -382,10 +401,12 @@ export default function SvgIcons() {
         <div className="card mb-12">
           <div className="card-body">
             <div className="row gy-8 text-center d-flex align-items-end">
-              {sizes.map((item) => (
+              {sizes.map(item => (
                 <div className="col-6 col-lg-3" key={item}>
                   <div>
-                    <PrinterTwo className={`${item} solid-duo text-navy-sky mx-2`} />
+                    <PrinterTwo
+                      className={`${item} solid-duo text-navy-sky mx-2`}
+                    />
                   </div>
                   <code className="code text-nowrap mt-4">{item}</code>
                 </div>
@@ -405,7 +426,8 @@ export default function SvgIcons() {
                 <div className="card-footer position-relative">
                   <a
                     className="stretched-link link-body btn-copy-icon"
-                    data-clipboard-text={`<${Icon.name} className="icon-svg-xs text-navy-sky" />`}>
+                    data-clipboard-text={`<${Icon.name} className="icon-svg-xs text-navy-sky" />`}
+                  >
                     Copy
                   </a>
                 </div>
@@ -419,13 +441,15 @@ export default function SvgIcons() {
       <section id="snippet-4" className="wrapper py-16">
         <h2 className="display-5 mb-3">Solid</h2>
         <p className="lead mb-8">
-          Below you can find the list of all solid duo SVG icons with their code snippets. All these retina-ready icons
-          can easily be styled by color and size. To reach the resource of this set visit{" "}
+          Below you can find the list of all solid duo SVG icons with their code
+          snippets. All these retina-ready icons can easily be styled by color
+          and size. To reach the resource of this set visit{' '}
           <a
             href="https://www.flaticon.com/authors/pixel-perfect/tritone"
             target="_blank"
             className="hover more"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Flaticon
           </a>
         </p>

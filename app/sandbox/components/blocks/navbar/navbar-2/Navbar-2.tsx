@@ -1,28 +1,28 @@
-"use client";
+'use client';
 
-import { Fragment, useRef } from "react";
+import { Fragment, useRef } from 'react';
 // GLOBAL CUSTOM HOOKS
-import useSticky from "app/sandbox/hooks/useSticky";
-import useNestedDropdown from "app/sandbox/hooks/useNestedDropdown";
+import useSticky from '@sandbox/hooks/useSticky';
+import useNestedDropdown from '@sandbox/hooks/useNestedDropdown';
 // LOCAL CUSTOM COMPONENTS
-import Info from "../components/Info";
-import Language from "../components/language";
-import BlogNavItem from "../components/blog-nav-item";
-import DemosNavItem from "../components/demos-nav-item";
-import PagesNavItem from "../components/pages-nav-item";
-import BlocksNavItem from "../components/blocks-nav-item";
-import ProjectsNavItem from "../components/projects-nav-item";
-import DocumentationNavItem from "../components/documentation-nav-item";
+import Info from '../components/Info';
+import Language from '../components/language';
+import BlogNavItem from '../components/blog-nav-item';
+import DemosNavItem from '../components/demos-nav-item';
+import PagesNavItem from '../components/pages-nav-item';
+import BlocksNavItem from '../components/blocks-nav-item';
+import ProjectsNavItem from '../components/projects-nav-item';
+import DocumentationNavItem from '../components/documentation-nav-item';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import SocialLinks from "app/sandbox/components/reuseable/SocialLinks";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
 
 // ===================================================================
 type Navbar2Props = { navClassName?: string };
 // ===================================================================
 
 export default function Navbar2({
-  navClassName = "navbar navbar-expand-lg extended navbar-light navbar-bg-light caret-none"
+  navClassName = 'navbar navbar-expand-lg extended navbar-light navbar-bg-light caret-none',
 }: Navbar2Props) {
   useNestedDropdown();
   const sticky = useSticky(350);
@@ -33,7 +33,9 @@ export default function Navbar2({
 
   return (
     <Fragment>
-      <div style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }} />
+      <div
+        style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }}
+      />
 
       <nav ref={navbarRef} className={sticky ? fixedClassName : navClassName}>
         <div className="container flex-lg-column">
@@ -41,14 +43,24 @@ export default function Navbar2({
             <div className="navbar-brand">
               <NextLink
                 href="/"
-                title={<img alt="logo" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" />}
+                title={
+                  <img
+                    alt="logo"
+                    src="/img/logo-dark.png"
+                    srcSet="/img/logo-dark@2x.png 2x"
+                  />
+                }
               />
             </div>
 
             <div className="navbar-other ms-auto">
               <ul className="navbar-nav flex-row align-items-center">
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info">
+                  <a
+                    className="nav-link"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvas-info"
+                  >
                     <i className="uil uil-info-circle" />
                   </a>
                 </li>
@@ -59,7 +71,8 @@ export default function Navbar2({
                   <button
                     data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvas-nav"
-                    className="hamburger offcanvas-nav-btn">
+                    className="hamburger offcanvas-nav-btn"
+                  >
                     <span />
                   </button>
                 </li>
@@ -71,7 +84,8 @@ export default function Navbar2({
             <div
               id="offcanvas-nav"
               data-bs-scroll="true"
-              className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+              className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
+            >
               <div className="offcanvas-header d-lg-none">
                 <h3 className="text-white fs-30 mb-0">Anstett Solutions Pro</h3>
                 <button
@@ -110,7 +124,11 @@ export default function Navbar2({
                 {/* ============= show contact info in the small device sidebar ============= */}
                 <div className="offcanvas-footer d-lg-none">
                   <div>
-                    <NextLink title="anstett.solutions.pro@gmail.com" className="link-inverse" href="mailto:first.last@email.com" />
+                    <NextLink
+                      title="anstett.solutions.pro@gmail.com"
+                      className="link-inverse"
+                      href="mailto:first.last@email.com"
+                    />
                     <br />
                     <NextLink href="tel:0642185595" title="06 42 18 55 95" />
                     <br />

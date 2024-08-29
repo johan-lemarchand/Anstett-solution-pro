@@ -1,13 +1,13 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // GLOBAL CUSTOM COMPONENTS
-import { testimonials } from "app/sandbox/data/demo-30";
+import { testimonials } from '@sandbox/data/demo-30';
 
 const style = {
-  top: "50%",
-  left: "50%",
-  width: "130%",
-  height: "auto",
-  transform: "translate(-50%,-50%)"
+  top: '50%',
+  left: '50%',
+  width: '130%',
+  height: 'auto',
+  transform: 'translate(-50%,-50%)',
 };
 
 export default function Testimonial24() {
@@ -42,14 +42,21 @@ export default function Testimonial24() {
       <div className="col-lg-5">
         <h2 className="display-2 mb-2 mt-lg-n6">Notre communauté</h2>
         <p className="lead fs-lg mb-4">
-        La satisfaction du client est notre objectif principal. Voyez ce que nos clients disent de nos services.</p>
+          La satisfaction du client est notre objectif principal. Voyez ce que
+          nos clients disent de nos services.
+        </p>
         <p>
-          Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-          et. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Vestibulum id ligula porta
-          felis euismod.
+          Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus
+          magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a
+          pharetra augue. Maecenas faucibus mollis interdum. Vestibulum id
+          ligula porta felis euismod.
         </p>
 
-        <NextLink href="#" title="Tous les avis" className="btn btn-primary rounded-xl mt-3" />
+        <NextLink
+          href="#"
+          title="Tous les avis"
+          className="btn btn-primary rounded-xl mt-3"
+        />
       </div>
     </div>
   );

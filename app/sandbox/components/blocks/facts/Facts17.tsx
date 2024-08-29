@@ -1,17 +1,21 @@
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from '@sandbox/components/reuseable/CountUp';
 
 export default function Facts17() {
   return (
     <section className="wrapper bg-gray position-relative min-vh-60 d-lg-flex align-items-center">
       <div
         className="col-lg-6 position-lg-absolute top-0 end-0 image-wrapper bg-image bg-cover h-100"
-        style={{ backgroundImage: "url(/img/photos/bg39.jpg)" }}>
+        style={{ backgroundImage: 'url(/img/photos/bg39.jpg)' }}
+      >
         <div className="divider text-gray divider-v-start d-none d-lg-block">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 1200">
             <g />
             <g>
               <g>
-                <polygon fill="currentColor" points="6 0 0 0 0 1200 6 1200 54 0 6 0" />
+                <polygon
+                  fill="currentColor"
+                  points="6 0 0 0 0 1200 6 1200 54 0 6 0"
+                />
               </g>
             </g>
           </svg>
@@ -22,12 +26,19 @@ export default function Facts17() {
         <div className="row gx-0">
           <div className="col-lg-6">
             <div className="pt-13 pb-15 pb-md-17 py-lg-16 pe-lg-15">
-              <h2 className="fs-16 text-uppercase text-muted mb-3">Nos solutions</h2>
-              <h3 className="display-3 ls-sm mb-5">Asseyez-vous et relaxez-vous pendant que nous nous occupons de vos besoins professionnels.</h3>
+              <h2 className="fs-16 text-uppercase text-muted mb-3">
+                Nos solutions
+              </h2>
+              <h3 className="display-3 ls-sm mb-5">
+                Asseyez-vous et relaxez-vous pendant que nous nous occupons de
+                vos besoins professionnels.
+              </h3>
               <p className="mb-6">
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-                dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus. Maecenas sed diam eget risus varius
-                blandit sit amet non magna. Praesent commodo cursus magna.
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis
+                in, egestas eget quam. Praesent commodo cursus. Maecenas sed
+                diam eget risus varius blandit sit amet non magna. Praesent
+                commodo cursus magna.
               </p>
               <div className="row align-items-center counter-wrapper gy-6">
                 <div className="col-md-6">

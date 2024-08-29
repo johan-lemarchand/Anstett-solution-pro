@@ -1,4 +1,4 @@
-import LoginForm from "app/sandbox/components/elements/forms/LoginForm";
+import LoginForm from '@sandbox/components/elements/forms/LoginForm';
 
 export default function Signin() {
   return (
@@ -8,7 +8,8 @@ export default function Signin() {
       aria-modal="true"
       id="modal-signin"
       className="modal fade"
-      style={{ display: "none" }}>
+      style={{ display: 'none' }}
+    >
       <div className="modal-dialog modal-dialog-centered modal-sm">
         <div className="modal-content text-center">
           <div className="modal-body">

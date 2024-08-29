@@ -1,6 +1,6 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // CUSTOM DATA
-import { abouts } from "app/sandbox/data/demo-29";
+import { abouts } from '@sandbox/data/demo-29';
 
 export default function About30() {
   return (
@@ -10,29 +10,39 @@ export default function About30() {
           <img
             src="/img/svg/doodle3.svg"
             className="h-11 position-absolute d-none d-lg-block"
-            style={{ top: "-20%", right: "-12%" }}
+            style={{ top: '-20%', right: '-12%' }}
             alt=""
           />
 
           <img
             src="/img/svg/doodle9.svg"
             className="h-17 position-absolute d-none d-lg-block"
-            style={{ bottom: "5%", left: "-17%" }}
+            style={{ bottom: '5%', left: '-17%' }}
             alt=""
           />
 
-          <h2 className="fs-16 text-uppercase text-muted mb-3 text-center">Pourquoi choisir Anstett Solutions Pro?</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3 text-center">
+            Pourquoi choisir Anstett Solutions Pro?
+          </h2>
 
           <h3 className="display-3 mb-12 text-center">
-            Voici quelques <span className="text-gradient gradient-7">raisons pour lesquelles</span> nos clients nous choisissent 
+            Voici quelques{' '}
+            <span className="text-gradient gradient-7">
+              raisons pour lesquelles
+            </span>{' '}
+            nos clients nous choisissent
           </h3>
         </div>
       </div>
 
       <div className="row d-flex align-items-start mb-19">
-        <div className="col-lg-6 position-lg-sticky" style={{ top: "8rem" }}>
+        <div className="col-lg-6 position-lg-sticky" style={{ top: '8rem' }}>
           <figure>
-            <img src="/img/photos/devices5.png" srcSet="/img/photos/devices5@2x.png 2x" alt="" />
+            <img
+              src="/img/photos/devices5.png"
+              srcSet="/img/photos/devices5@2x.png 2x"
+              alt=""
+            />
           </figure>
         </div>
 
@@ -40,7 +50,9 @@ export default function About30() {
           {abouts.map(({ Icon, id, title, description, color }) => (
             <div className="d-flex flex-row mb-8" key={id}>
               <div>
-                <div className={`svg-bg svg-bg-lg bg-pale-${color} rounded-xl me-5`}>
+                <div
+                  className={`svg-bg svg-bg-lg bg-pale-${color} rounded-xl me-5`}
+                >
                   <Icon />
                 </div>
               </div>

@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import clsx from 'clsx';
 
 // ==============================================================
 interface ProcessList1Props {
@@ -10,14 +10,21 @@ interface ProcessList1Props {
 }
 // ==============================================================
 
-export default function ProcessList1({ no, title, subtitle, className, shadow }: ProcessList1Props) {
+export default function ProcessList1({
+  no,
+  title,
+  subtitle,
+  className,
+  shadow,
+}: ProcessList1Props) {
   return (
     <div
       className={clsx({
         card: true,
-        "shadow-lg": shadow,
-        [className]: Boolean(className)
-      })}>
+        'shadow-lg': shadow,
+        [className]: Boolean(className),
+      })}
+    >
       <div className="card-body p-6">
         <div className="d-flex flex-row">
           <div>

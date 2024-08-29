@@ -1,5 +1,5 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUPS
 import {
   simpleMarkup,
@@ -8,21 +8,21 @@ import {
   hoverableMarkup,
   simpleDarkMarkup,
   borderlessMarkup,
-  responsiveMarkup
-} from "app/sandbox/themes/markups/elements/tables";
+  responsiveMarkup,
+} from '@sandbox/themes/markups/elements/tables';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Simple", url: "snippet-1" },
-  { title: "Simple Dark", url: "snippet-2" },
-  { title: "Striped", url: "snippet-3" },
-  { title: "Bordered", url: "snippet-4" },
-  { title: "Borderless", url: "snippet-5" },
-  { title: "Hoverable", url: "snippet-6" },
-  { title: "Responsive", url: "snippet-7" }
+  { title: 'Simple', url: 'snippet-1' },
+  { title: 'Simple Dark', url: 'snippet-2' },
+  { title: 'Striped', url: 'snippet-3' },
+  { title: 'Bordered', url: 'snippet-4' },
+  { title: 'Borderless', url: 'snippet-5' },
+  { title: 'Hoverable', url: 'snippet-6' },
+  { title: 'Responsive', url: 'snippet-7' },
 ];
 
 export default function Tables() {
-  const Table = (className: string = "") => {
+  const Table = (className: string = '') => {
     return (
       <table className={`table ${className}`}>
         <thead>
@@ -62,16 +62,19 @@ export default function Tables() {
       quickAccessLinks={quickAccess}
       description={
         <>
-          Some examples for displaying tables. For more detailed examples and guidelines please visit{" "}
+          Some examples for displaying tables. For more detailed examples and
+          guidelines please visit{' '}
           <a
             href="https://getbootstrap.com/docs/5.2/content/tables"
             target="_blank"
             rel="noreferrer"
-            className="hover more">
+            className="hover more"
+          >
             Bootstrap docs
           </a>
         </>
-      }>
+      }
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Simple</h2>
@@ -79,12 +82,19 @@ export default function Tables() {
           <div className="card-body">{Table()}</div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{simpleMarkup}</CodeHighlight>
@@ -98,15 +108,22 @@ export default function Tables() {
       <section id="snippet-2" className="wrapper pt-16">
         <h2 className="mb-5">Simple Dark</h2>
         <div className="card">
-          <div className="card-body">{Table("table-dark")}</div>
+          <div className="card-body">{Table('table-dark')}</div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{simpleDarkMarkup}</CodeHighlight>
@@ -121,15 +138,22 @@ export default function Tables() {
         <h2 className="mb-3">Striped</h2>
 
         <div className="card">
-          <div className="card-body">{Table("table-striped")}</div>
+          <div className="card-body">{Table('table-striped')}</div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{stripedMarkup}</CodeHighlight>
@@ -144,15 +168,22 @@ export default function Tables() {
         <h2 className="mb-3">Bordered</h2>
 
         <div className="card">
-          <div className="card-body">{Table("table-bordered")}</div>
+          <div className="card-body">{Table('table-bordered')}</div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-4">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-4"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-4" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-4"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{borderedMarkup}</CodeHighlight>
@@ -167,15 +198,22 @@ export default function Tables() {
         <h2 className="mb-3">Borderless</h2>
 
         <div className="card">
-          <div className="card-body">{Table("table-borderless")}</div>
+          <div className="card-body">{Table('table-borderless')}</div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-5">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-5"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-5" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-5"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{borderlessMarkup}</CodeHighlight>
@@ -190,15 +228,22 @@ export default function Tables() {
         <h2 className="mb-3">Hoverable Rows</h2>
 
         <div className="card">
-          <div className="card-body">{Table("table-hover")}</div>
+          <div className="card-body">{Table('table-hover')}</div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-6">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-6"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-6" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-6"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{hoverableMarkup}</CodeHighlight>
@@ -213,15 +258,22 @@ export default function Tables() {
         <h2 className="mb-3">Responsive</h2>
 
         <div className="card">
-          <div className="card-body">{Table("table-responsive")}</div>
+          <div className="card-body">{Table('table-responsive')}</div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-7">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-7"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-7" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-7"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{responsiveMarkup}</CodeHighlight>

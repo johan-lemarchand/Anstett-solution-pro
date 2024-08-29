@@ -1,6 +1,6 @@
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from '@sandbox/components/reuseable/CountUp';
 // CUSTOM DATA
-import { countList } from "app/sandbox/data/demo-7";
+import { countList } from '@sandbox/data/demo-7';
 
 export default function Facts6() {
   return (
@@ -13,7 +13,9 @@ export default function Facts6() {
                 <div className="card-body">
                   <div className="d-flex d-lg-block d-xl-flex flex-row">
                     <div>
-                      <div className={`icon btn btn-circle btn-lg ${color} pe-none mx-auto me-4 mb-lg-3 mb-xl-0`}>
+                      <div
+                        className={`icon btn btn-circle btn-lg ${color} pe-none mx-auto me-4 mb-lg-3 mb-xl-0`}
+                      >
                         <i className={`uil ${icon}`} />
                       </div>
                     </div>
@@ -35,11 +37,13 @@ export default function Facts6() {
       <div className="col-lg-5">
         <h2 className="display-4 mb-3">Rejoindre notre communauté</h2>
         <p className="lead fs-lg lh-sm">
-        Nous avons pensé nos solutions pour vous accompagner dans toutes les étapes de votre croissance.
+          Nous avons pensé nos solutions pour vous accompagner dans toutes les
+          étapes de votre croissance.
         </p>
         <p className="mb-0">
-          Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac,
-          vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+          Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent
+          commodo cursus magna, vel scelerisque nisl consectetur.
         </p>
       </div>
     </div>

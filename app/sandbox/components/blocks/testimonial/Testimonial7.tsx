@@ -1,8 +1,8 @@
-import Tiles3 from "app/sandbox/components/elements/tiles/Tiles3";
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import { TestimonialCard2 } from "app/sandbox/components/reuseable/testimonial-cards";
+import Tiles3 from '@sandbox/components/elements/tiles/Tiles3';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import { TestimonialCard2 } from '@sandbox/components/reuseable/testimonial-cards';
 // CUSTOM DATA
-import { testimonialList2 } from "app/sandbox/data/testimonial-list";
+import { testimonialList2 } from '@sandbox/data/testimonial-list';
 
 export default function Testimonial7() {
   return (
@@ -10,7 +10,7 @@ export default function Testimonial7() {
       <div className="col-lg-7 position-relative">
         <div
           className="shape bg-dot primary rellax w-18 h-18"
-          style={{ top: 0, left: "-1.4rem", zIndex: 0 }}
+          style={{ top: 0, left: '-1.4rem', zIndex: 0 }}
         />
         <Tiles3 />
       </div>

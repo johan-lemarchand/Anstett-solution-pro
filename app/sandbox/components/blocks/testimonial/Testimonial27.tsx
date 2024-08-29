@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import useIsotope from "app/sandbox/hooks/useIsotope";
+import useIsotope from '@sandbox/hooks/useIsotope';
 // CUSTOM DATA
-import { testimonials } from "app/sandbox/data/demo-33";
+import { testimonials } from '@sandbox/data/demo-33';
 
 export default function Testimonial27() {
   // used for masionry layout
@@ -12,12 +12,14 @@ export default function Testimonial27() {
     <section className="section-frame mx-xxl-11">
       <div
         className="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-500 section-frame-wrapper"
-        style={{ backgroundImage: "url(/img/photos/bg23.png)" }}>
+        style={{ backgroundImage: 'url(/img/photos/bg23.png)' }}
+      >
         <div className="container py-16 py-md-18">
           <div className="row">
             <div className="col-md-10 col-lg-9 col-xl-8 mx-auto text-center">
               <h3 className="display-2 mb-10 px-xxl-10">
-                Ne me croyez pas sur parole. Voyez ce que les clients disent de moi.
+                Ne me croyez pas sur parole. Voyez ce que les clients disent de
+                moi.
               </h3>
             </div>
           </div>

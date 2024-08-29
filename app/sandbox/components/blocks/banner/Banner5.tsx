@@ -1,4 +1,4 @@
-import VideoPlyr from "app/sandbox/components/reuseable/VideoPlyr";
+import VideoPlyr from '@sandbox/components/reuseable/VideoPlyr';
 
 export default function Banner5() {
   return (
@@ -8,7 +8,8 @@ export default function Banner5() {
           <div className="col-xl-9 col-xxl-7 mx-auto text-center">
             <i className="icn-flower text-leaf fs-30 opacity-25"></i>
             <h2 className="display-5 text-center mt-2 mb-10">
-            Je voudrais vous offrir une expérience unique en photographie et en vidéo, conçue pour vous convenir au mieux.
+              Je voudrais vous offrir une expérience unique en photographie et
+              en vidéo, conçue pour vous convenir au mieux.
             </h2>
           </div>
         </div>
@@ -17,7 +18,10 @@ export default function Banner5() {
           <div className="col-xl-9 mx-auto">
             <VideoPlyr
               options={{ loadSprite: true, clickToPlay: true }}
-              source={{ type: "video", sources: [{ src: "94837904", provider: "vimeo" }] }}
+              source={{
+                type: 'video',
+                sources: [{ src: '94837904', provider: 'vimeo' }],
+              }}
             />
           </div>
         </div>

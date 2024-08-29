@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import Carousel from '@sandbox/components/reuseable/Carousel';
 
 export default function Portfolio14() {
   return (
@@ -12,10 +12,15 @@ export default function Portfolio14() {
           spaceBetween={40}
           pagination={false}
           slidesPerView="auto"
-          className="overflow-visible">
+          className="overflow-visible"
+        >
           {Array.from({ length: 6 }).map((_, i) => (
             <figure className="rounded-xl shadow-xl" key={i}>
-              <img src={`/img/photos/bp${i + 1}.jpg`} srcSet={`/img/photos/bp${i + 1}@2x.jpg 2x`} alt="" />
+              <img
+                src={`/img/photos/bp${i + 1}.jpg`}
+                srcSet={`/img/photos/bp${i + 1}@2x.jpg 2x`}
+                alt=""
+              />
 
               <Link className="item-link" href="#">
                 <i className="uil uil-arrow-up-right" />

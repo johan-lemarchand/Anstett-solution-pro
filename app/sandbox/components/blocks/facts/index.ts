@@ -41,5 +41,5 @@ export {
   Facts18,
   Facts19,
   Facts20,
-  Facts21
+  Facts21,
 };

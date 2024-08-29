@@ -1,23 +1,27 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { Blog3 } from "app/sandbox/components/blocks/blog";
-import { Team7 } from "app/sandbox/components/blocks/team";
-import { Hero17 } from "app/sandbox/components/blocks/hero";
-import { Facts11 } from "app/sandbox/components/blocks/facts";
-import { About16 } from "app/sandbox/components/blocks/about";
-import { Footer10 } from "app/sandbox/components/blocks/footer";
-import { Process12 } from "app/sandbox/components/blocks/process";
-import { Services19 } from "app/sandbox/components/blocks/services";
-import { CTA6 } from "app/sandbox/components/blocks/call-to-action";
-import { TestimonialCard4 } from "app/sandbox/components/reuseable/testimonial-cards";
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Blog3 } from '@sandbox/components/blocks/blog';
+import { Team7 } from '@sandbox/components/blocks/team';
+import { Hero17 } from '@sandbox/components/blocks/hero';
+import { Facts11 } from '@sandbox/components/blocks/facts';
+import { About16 } from '@sandbox/components/blocks/about';
+import { Footer10 } from '@sandbox/components/blocks/footer';
+import { Process12 } from '@sandbox/components/blocks/process';
+import { Services19 } from '@sandbox/components/blocks/services';
+import { CTA6 } from '@sandbox/components/blocks/call-to-action';
+import { TestimonialCard4 } from '@sandbox/components/reuseable/testimonial-cards';
 
 export default function Demo17() {
   return (
     <Fragment>
       {/* ========== header ========== */}
       <header className="wrapper bg-gray">
-        <Navbar social fancy navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none" />
+        <Navbar
+          social
+          fancy
+          navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
+        />
       </header>
 
       {/* ========== main content ========== */}
@@ -41,7 +45,10 @@ export default function Demo17() {
                 <Facts11 />
 
                 {/* ========== testimonial sections ========== */}
-                <TestimonialCard4 className="bg-gray mb-14 mb-md-17" sliderWrapperClassname="p-10 p-xl-13" />
+                <TestimonialCard4
+                  className="bg-gray mb-14 mb-md-17"
+                  sliderWrapperClassname="p-10 p-xl-13"
+                />
 
                 {/* ========== case study section ========== */}
                 <Blog3 />

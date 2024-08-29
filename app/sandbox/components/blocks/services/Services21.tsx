@@ -1,6 +1,6 @@
-import { ServiceCard1 } from "app/sandbox/components/reuseable/service-cards";
+import { ServiceCard1 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { serviceList11 } from "app/sandbox/data/service";
+import { serviceList11 } from '@sandbox/data/service';
 
 export default function Services21() {
   return (

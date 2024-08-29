@@ -1,10 +1,10 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Tiles11 } from "app/sandbox/components/elements/tiles";
-import { Counter4 } from "app/sandbox/components/reuseable/counter";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import { Tiles11 } from '@sandbox/components/elements/tiles';
+import { Counter4 } from '@sandbox/components/reuseable/counter';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { abouts } from "app/sandbox/data/demo-32";
+import { abouts } from '@sandbox/data/demo-32';
 
 export default function About32() {
   return (
@@ -15,17 +15,28 @@ export default function About32() {
         </div>
 
         <div className="col-lg-6">
-          <h2 className="fs-16 text-uppercase text-primary mb-3">Qui sommes-nous ?</h2>
-          <h3 className="display-3 mb-5">Une entreprise qui croit au pouvoir de la stratégie créative.</h3>
+          <h2 className="fs-16 text-uppercase text-primary mb-3">
+            Qui sommes-nous ?
+          </h2>
+          <h3 className="display-3 mb-5">
+            Une entreprise qui croit au pouvoir de la stratégie créative.
+          </h3>
           <p className="mb-6">
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-            et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia
-            bibendum nulla sed.
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in,
+            egestas eget quam. Praesent commodo cursus magna, vel scelerisque
+            nisl consectetur et. Cum sociis natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum
+            nulla sed.
           </p>
 
           <div className="row align-items-center counter-wrapper gy-6">
-            <Counter4 title="Customer Satisfaction" end={99.7} suffix="%" decimals={1} />
+            <Counter4
+              title="Customer Satisfaction"
+              end={99.7}
+              suffix="%"
+              decimals={1}
+            />
             <Counter4 title="Revenue Growth" end={12} suffix="x" />
           </div>
         </div>
@@ -38,7 +49,11 @@ export default function About32() {
       </div>
 
       <div className="text-center">
-        <NextLink title="Plus de détails" href="#" className="btn btn-primary" />
+        <NextLink
+          title="Plus de détails"
+          href="#"
+          className="btn btn-primary"
+        />
       </div>
     </Fragment>
   );

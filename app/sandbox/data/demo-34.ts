@@ -4,22 +4,37 @@ export const demos = [
     color: 'navy',
     link: '/themes/demo-18',
     images: ['d18-1', 'd18-2'],
-    features: ['Network, Marketing', 'SVG icons', '3D illustrations', 'Gradient image']
+    features: [
+      'Network, Marketing',
+      'SVG icons',
+      '3D illustrations',
+      'Gradient image',
+    ],
   },
   {
     id: 'XIX',
     color: 'fuchsia',
     link: '/themes/demo-19',
     images: ['d19-1', 'd19-2'],
-    features: ['Agency, Startup', 'Gradient image', 'SVG icons', 'Colorful design']
+    features: [
+      'Agency, Startup',
+      'Gradient image',
+      'SVG icons',
+      'Colorful design',
+    ],
   },
   {
     id: 'XX',
     color: 'purple',
     link: '/themes/demo-20',
     images: ['d20-1', 'd20-2'],
-    features: ['Agency, Startup', 'Framed layout', 'Illustrations', 'Video background']
-  }
+    features: [
+      'Agency, Startup',
+      'Framed layout',
+      'Illustrations',
+      'Video background',
+    ],
+  },
 ];
 
 export const filterList = [
@@ -28,7 +43,7 @@ export const filterList = [
   { id: 3, title: 'À propos', value: '.about' },
   { id: 4, title: 'Contact', value: '.contact' },
   { id: 5, title: 'Prix', value: '.pricing' },
-  { id: 6, title: 'Projets', value: '.projects' }
+  { id: 6, title: 'Projets', value: '.projects' },
 ];
 
 export const innerPages = [
@@ -42,12 +57,17 @@ export const innerPages = [
   { id: 8, image: 'dc8', title: 'Pricing', category: 'pricing' },
   { id: 9, image: 'dc9', title: 'Projects with Tiles', category: 'projects' },
   { id: 10, image: 'dc10', title: 'Projects Masonry', category: 'projects' },
-  { id: 11, image: 'dc11', title: 'Projects Masonry Large', category: 'projects' },
-  { id: 12, image: 'dc12', title: 'Projects Overflow', category: 'projects' }
+  {
+    id: 11,
+    image: 'dc11',
+    title: 'Projects Masonry Large',
+    category: 'projects',
+  },
+  { id: 12, image: 'dc12', title: 'Projects Overflow', category: 'projects' },
 ];
 
 export const facts = [
   { id: 1, value: 250, title: 'Éléments UI' },
   { id: 2, value: 130, title: 'Blocs préconstruit' },
-  { id: 3, value: 100, title: 'Pages conçues avec soin' }
+  { id: 3, value: 100, title: 'Pages conçues avec soin' },
 ];

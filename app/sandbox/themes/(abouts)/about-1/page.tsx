@@ -1,12 +1,12 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Team3 } from "app/sandbox/components/blocks/team";
-import { About6 } from "app/sandbox/components/blocks/about";
-import { Facts5 } from "app/sandbox/components/blocks/facts";
-import { Process7 } from "app/sandbox/components/blocks/process";
-import { Contact7 } from "app/sandbox/components/blocks/contact";
-import { Testimonial5 } from "app/sandbox/components/blocks/testimonial";
-import FigureImage from "app/sandbox/components/reuseable/FigureImage";
+import { Team3 } from '@sandbox/components/blocks/team';
+import { About6 } from '@sandbox/components/blocks/about';
+import { Facts5 } from '@sandbox/components/blocks/facts';
+import { Process7 } from '@sandbox/components/blocks/process';
+import { Contact7 } from '@sandbox/components/blocks/contact';
+import { Testimonial5 } from '@sandbox/components/blocks/testimonial';
+import FigureImage from '@sandbox/components/reuseable/FigureImage';
 
 export default function About() {
   return (
@@ -16,8 +16,13 @@ export default function About() {
         <div className="container pt-10 pt-md-14 text-center">
           <div className="row">
             <div className="col-xl-6 mx-auto">
-              <h1 className="display-1 mb-4">Bonjour! C’est Anstett Solutions Pro</h1>
-              <p className="lead fs-lg mb-0">Une entreprise qui transforme les idées en créations remarquables.</p>
+              <h1 className="display-1 mb-4">
+                Bonjour! C’est Anstett Solutions Pro
+              </h1>
+              <p className="lead fs-lg mb-0">
+                Une entreprise qui transforme les idées en créations
+                remarquables.
+              </p>
             </div>
           </div>
         </div>

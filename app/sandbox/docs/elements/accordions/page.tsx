@@ -1,11 +1,15 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import Accordion from "app/sandbox/components/reuseable/accordion";
-import AccordionList from "app/sandbox/components/common/AccordionList";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import Accordion from '@sandbox/components/reuseable/accordion';
+import AccordionList from '@sandbox/components/common/AccordionList';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUP
-import { simpleMarkup, cardMarkup, shadowMarkup } from "app/sandbox/themes/markups/elements/accordions";
+import {
+  simpleMarkup,
+  cardMarkup,
+  shadowMarkup,
+} from '@sandbox/themes/markups/elements/accordions';
 // CUSTOM DATA
-import { accordions, quickAccess } from "./data";
+import { accordions, quickAccess } from './data';
 
 export default function Accordions() {
   return (
@@ -15,16 +19,19 @@ export default function Accordions() {
       headingColClass="col-md-9 col-lg-7 col-xl-6 mx-auto"
       description={
         <>
-          Use our custom accordion element to build vertically collapsing accordions.{" "}
+          Use our custom accordion element to build vertically collapsing
+          accordions.{' '}
           <a
             href="https://getbootstrap.com/docs/5.2/components/accordion/"
             target="_blank"
             className="hover more"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Bootstrap docs
           </a>
         </>
-      }>
+      }
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-3">Simple Accordion</h2>
@@ -35,12 +42,19 @@ export default function Accordions() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{simpleMarkup}</CodeHighlight>
@@ -57,19 +71,26 @@ export default function Accordions() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="accordion-wrapper" id="accordion">
-              {accordions.map((item) => (
+              {accordions.map(item => (
                 <Accordion key={item.no} {...item} />
               ))}
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{cardMarkup}</CodeHighlight>
@@ -86,19 +107,26 @@ export default function Accordions() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="accordion-wrapper" id="accordion">
-              {accordions.map((item) => (
+              {accordions.map(item => (
                 <Accordion type="shadow-lg" key={item.no} {...item} />
               ))}
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{shadowMarkup}</CodeHighlight>

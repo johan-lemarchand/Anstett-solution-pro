@@ -1,6 +1,6 @@
-import clsx from "clsx";
-import Price from "./Price";
-import NextLink from "../links/NextLink";
+import clsx from 'clsx';
+import Price from './Price';
+import NextLink from '../links/NextLink';
 
 // ================================================================
 interface PricingCard1Props {
@@ -15,10 +15,18 @@ interface PricingCard1Props {
 // ================================================================
 
 export default function PricingCard1(props: PricingCard1Props) {
-  const { planName, features, yearlyPrice, monthlyPrice, activeYearly, roundedButton, bulletBg } = props;
+  const {
+    planName,
+    features,
+    yearlyPrice,
+    monthlyPrice,
+    activeYearly,
+    roundedButton,
+    bulletBg,
+  } = props;
 
-  const yearClasses = activeYearly ? "price-show" : "price-hide price-hidden";
-  const monthClasses = !activeYearly ? "price-show" : "price-hide price-hidden";
+  const yearClasses = activeYearly ? 'price-show' : 'price-hide price-hidden';
+  const monthClasses = !activeYearly ? 'price-show' : 'price-hide price-hidden';
 
   return (
     <div className="pricing card shadow-lg">
@@ -30,12 +38,18 @@ export default function PricingCard1(props: PricingCard1Props) {
 
         <h4 className="card-title mt-2">{planName} Plan</h4>
 
-        <ul className={clsx({ "icon-list bullet-soft-primary mt-7 mb-8": true, "bullet-bg": bulletBg })}>
+        <ul
+          className={clsx({
+            'icon-list bullet-soft-primary mt-7 mb-8': true,
+            'bullet-bg': bulletBg,
+          })}
+        >
           {features.map((item, i) => (
             <li key={i}>
               <i className="uil uil-check fs-21" />
               <span>
-                <strong>{item.split(" ")[0]}</strong> {item.split(" ").slice(1).join(" ")}
+                <strong>{item.split(' ')[0]}</strong>{' '}
+                {item.split(' ').slice(1).join(' ')}
               </span>
             </li>
           ))}
@@ -44,7 +58,7 @@ export default function PricingCard1(props: PricingCard1Props) {
         <NextLink
           href="#"
           title="Choisir la formule"
-          className={`btn btn-primary ${roundedButton ? "rounded" : "rounded-pill"}`}
+          className={`btn btn-primary ${roundedButton ? 'rounded' : 'rounded-pill'}`}
         />
       </div>
     </div>

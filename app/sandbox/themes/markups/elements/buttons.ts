@@ -285,5 +285,5 @@ export {
   circleMarkup,
   socialMarkup,
   expandMarkup,
-  gradientsMarkup
+  gradientsMarkup,
 };

@@ -1,15 +1,19 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // CUSTOM ICON COMPONENT
-import Rocket from "app/sandbox/icons/lineal/Rocket";
-import Savings from "app/sandbox/icons/lineal/Savings";
+import Rocket from '@sandbox/icons/lineal/Rocket';
+import Savings from '@sandbox/icons/lineal/Savings';
 // MARKUPS
-import { basicMarkup, pillMarkup, justifiedMarkup } from "app/sandbox/themes/markups/elements/tabs";
+import {
+  basicMarkup,
+  pillMarkup,
+  justifiedMarkup,
+} from '@sandbox/themes/markups/elements/tabs';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Basic", url: "snippet-1" },
-  { title: "Pills", url: "snippet-2" },
-  { title: "Justified", url: "snippet-3" }
+  { title: 'Basic', url: 'snippet-1' },
+  { title: 'Pills', url: 'snippet-2' },
+  { title: 'Justified', url: 'snippet-3' },
 ];
 
 export default function Tabs() {
@@ -20,16 +24,18 @@ export default function Tabs() {
       descriptionClass="lead px-xxl-15"
       description={
         <>
-          Use our custom tabs to add tabbed interfaces on your website.{" "}
+          Use our custom tabs to add tabbed interfaces on your website.{' '}
           <a
             href="https://getbootstrap.com/docs/5.2/components/navs-tabs/#javascript-behavior"
             target="_blank"
             rel="noreferrer"
-            className="hover more">
+            className="hover more"
+          >
             Bootstrap docs
           </a>
         </>
-      }>
+      }
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Basic</h2>
@@ -37,7 +43,11 @@ export default function Tabs() {
           <div className="card-body">
             <ul className="nav nav-tabs nav-tabs-basic">
               <li className="nav-item">
-                <a className="nav-link active" data-bs-toggle="tab" href="#tab3-1">
+                <a
+                  className="nav-link active"
+                  data-bs-toggle="tab"
+                  href="#tab3-1"
+                >
                   Support
                 </a>
               </li>
@@ -58,13 +68,16 @@ export default function Tabs() {
             <div className="tab-content mt-0 mt-md-5">
               <div className="tab-pane fade show active" id="tab3-1">
                 <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                  condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod
-                  semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus,
+                  tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                  fermentum massa justo sit amet risus. Vestibulum id ligula
+                  porta felis euismod semper. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
                 </p>
                 <p>
-                  Donec sed odio dui. Donec sed odio dui. Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur et. Maecenas faucibus mollis interdum.
+                  Donec sed odio dui. Donec sed odio dui. Praesent commodo
+                  cursus magna, vel scelerisque nisl consectetur et. Maecenas
+                  faucibus mollis interdum.
                 </p>
                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                   <li>
@@ -88,43 +101,62 @@ export default function Tabs() {
 
               <div className="tab-pane fade" id="tab3-2">
                 <p>
-                  Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                  dolor auctor. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Sed posuere
-                  consectetur est at lobortis. Vestibulum id ligula porta felis euismod.
+                  Sed posuere consectetur est at lobortis. Vivamus sagittis
+                  lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas
+                  faucibus mollis interdum. Maecenas faucibus mollis interdum.
+                  Sed posuere consectetur est at lobortis. Vestibulum id ligula
+                  porta felis euismod.
                 </p>
-                <p> Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor vel scelerisque nisl.</p>
+                <p>
+                  {' '}
+                  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+                  auctor vel scelerisque nisl.
+                </p>
                 <p className="mb-0">
-                  Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Maecenas sed diam eget
-                  risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Curabitur
-                  blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque
+                  Maecenas faucibus mollis interdum. Sed posuere consectetur est
+                  at lobortis. Maecenas sed diam eget risus varius blandit sit
+                  amet non magna. Donec id elit non mi porta gravida at eget
+                  metus. Curabitur blandit tempus porttitor. Nullam id dolor id
+                  nibh ultricies vehicula ut id elit. Cum sociis natoque
                   penatibus et magnis dis parturient montes, nascetur ridiculus.
                 </p>
               </div>
 
               <div className="tab-pane fade" id="tab3-3">
                 <p>
-                  Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor
-                  mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit
-                  amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+                  Vestibulum id ligula porta felis euismod semper. Fusce
+                  dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                  nibh, ut fermentum massa justo sit amet risus. Cras mattis
+                  consectetur purus sit amet fermentum. Fusce dapibus, tellus ac
+                  cursus commodo, tortor mauris condimentum nibh, ut fermentum
                   massa justo sit amet risus.
                 </p>
 
                 <p className="mb-0">
-                  Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
-                  vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-                  Maecenas sed diam eget risus varius blandit sit amet non magna.
+                  Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                  Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean
+                  eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                  vestibulum. Maecenas sed diam eget risus varius blandit sit
+                  amet non magna.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{basicMarkup}</CodeHighlight>
@@ -141,7 +173,11 @@ export default function Tabs() {
           <div className="card-body">
             <ul className="nav nav-tabs nav-pills">
               <li className="nav-item">
-                <a className="nav-link active" data-bs-toggle="tab" href="#tab1-1">
+                <a
+                  className="nav-link active"
+                  data-bs-toggle="tab"
+                  href="#tab1-1"
+                >
                   <i className="uil uil-phone-volume pe-1" />
                   <span>Support</span>
                 </a>
@@ -165,13 +201,16 @@ export default function Tabs() {
             <div className="tab-content">
               <div className="tab-pane fade show active" id="tab1-1">
                 <p>
-                  Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                  condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod
-                  semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                  Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus,
+                  tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                  fermentum massa justo sit amet risus. Vestibulum id ligula
+                  porta felis euismod semper. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.{' '}
                 </p>
                 <p>
-                  Donec sed odio dui. Donec sed odio dui. Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur et. Maecenas faucibus mollis interdum.
+                  Donec sed odio dui. Donec sed odio dui. Praesent commodo
+                  cursus magna, vel scelerisque nisl consectetur et. Maecenas
+                  faucibus mollis interdum.
                 </p>
                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                   <li>
@@ -198,42 +237,61 @@ export default function Tabs() {
 
               <div className="tab-pane fade" id="tab1-2">
                 <p>
-                  Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                  dolor auctor. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Sed posuere
-                  consectetur est at lobortis. Vestibulum id ligula porta felis euismod.
+                  Sed posuere consectetur est at lobortis. Vivamus sagittis
+                  lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas
+                  faucibus mollis interdum. Maecenas faucibus mollis interdum.
+                  Sed posuere consectetur est at lobortis. Vestibulum id ligula
+                  porta felis euismod.
                 </p>
-                <p> Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor vel scelerisque nisl.</p>
+                <p>
+                  {' '}
+                  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+                  auctor vel scelerisque nisl.
+                </p>
                 <p className="mb-0">
-                  Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Maecenas sed diam eget
-                  risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Curabitur
-                  blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque
+                  Maecenas faucibus mollis interdum. Sed posuere consectetur est
+                  at lobortis. Maecenas sed diam eget risus varius blandit sit
+                  amet non magna. Donec id elit non mi porta gravida at eget
+                  metus. Curabitur blandit tempus porttitor. Nullam id dolor id
+                  nibh ultricies vehicula ut id elit. Cum sociis natoque
                   penatibus et magnis dis parturient montes, nascetur ridiculus.
                 </p>
               </div>
 
               <div className="tab-pane fade" id="tab1-3">
                 <p>
-                  Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor
-                  mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit
-                  amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+                  Vestibulum id ligula porta felis euismod semper. Fusce
+                  dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                  nibh, ut fermentum massa justo sit amet risus. Cras mattis
+                  consectetur purus sit amet fermentum. Fusce dapibus, tellus ac
+                  cursus commodo, tortor mauris condimentum nibh, ut fermentum
                   massa justo sit amet risus.
                 </p>
                 <p className="mb-0">
-                  Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
-                  vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-                  Maecenas sed diam eget risus varius blandit sit amet non magna.
+                  Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                  Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean
+                  eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                  vestibulum. Maecenas sed diam eget risus varius blandit sit
+                  amet non magna.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{pillMarkup}</CodeHighlight>
@@ -247,7 +305,7 @@ export default function Tabs() {
       <section id="snippet-3" className="wrapper py-16">
         <h2 className="mb-3">Justified</h2>
         <p className="lead mb-8">
-          Check out a live example:{" "}
+          Check out a live example:{' '}
           <a href="/demo-9" className="external" target="_blank">
             Demo 9
           </a>
@@ -258,26 +316,38 @@ export default function Tabs() {
           <div className="card-body">
             <ul className="nav nav-tabs nav-tabs-bg nav-tabs-shadow-lg d-flex justify-content-between nav-justified flex-lg-row flex-column">
               <li className="nav-item">
-                <a className="nav-link d-flex flex-row active" data-bs-toggle="tab" href="#tab2-1">
+                <a
+                  className="nav-link d-flex flex-row active"
+                  data-bs-toggle="tab"
+                  href="#tab2-1"
+                >
                   <div>
                     <Rocket className="icon-svg-md text-yellow me-4" />
                   </div>
 
                   <div>
                     <h4 className="mb-1">Easy Usage</h4>
-                    <p>Duis mollis commodo luctus cursus commodo tortor mauris.</p>
+                    <p>
+                      Duis mollis commodo luctus cursus commodo tortor mauris.
+                    </p>
                   </div>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-2">
+                <a
+                  className="nav-link d-flex flex-row"
+                  data-bs-toggle="tab"
+                  href="#tab2-2"
+                >
                   <div>
                     <Savings className="icon-svg-md text-green me-4" />
                   </div>
 
                   <div>
                     <h4 className="mb-1">Fast Transactions</h4>
-                    <p>Vivamus sagittis lacus augue fusce dapibus tellus nibh.</p>
+                    <p>
+                      Vivamus sagittis lacus augue fusce dapibus tellus nibh.
+                    </p>
                   </div>
                 </a>
               </li>
@@ -286,35 +356,48 @@ export default function Tabs() {
             <div className="tab-content">
               <div className="tab-pane fade show active" id="tab2-1">
                 <p className="mb-0">
-                  Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla.
-                  Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo,
-                  tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.
-                  Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                  et. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-                  venenatis vestibulum.
+                  Etiam porta sem malesuada magna mollis euismod. Donec
+                  ullamcorper nulla non metus auctor fringilla. Morbi leo risus,
+                  porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
+                  tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                  fermentum massa justo sit amet risus. Nullam quis risus eget
+                  urna. Curabitur blandit tempus porttitor. Praesent commodo
+                  cursus magna, vel scelerisque nisl consectetur et. Maecenas
+                  faucibus mollis interdum. Aenean eu leo quam. Pellentesque
+                  ornare sem lacinia quam venenatis vestibulum.
                 </p>
               </div>
 
               <div className="tab-pane fade" id="tab2-2">
                 <p className="mb-0">
-                  Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla.
-                  Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo,
-                  tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.
-                  Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                  et. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-                  venenatis vestibulum.
+                  Etiam porta sem malesuada magna mollis euismod. Donec
+                  ullamcorper nulla non metus auctor fringilla. Morbi leo risus,
+                  porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
+                  tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                  fermentum massa justo sit amet risus. Nullam quis risus eget
+                  urna. Curabitur blandit tempus porttitor. Praesent commodo
+                  cursus magna, vel scelerisque nisl consectetur et. Maecenas
+                  faucibus mollis interdum. Aenean eu leo quam. Pellentesque
+                  ornare sem lacinia quam venenatis vestibulum.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{justifiedMarkup}</CodeHighlight>

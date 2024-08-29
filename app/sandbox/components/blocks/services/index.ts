@@ -71,5 +71,5 @@ export {
   Services33,
   Services34,
   Services35,
-  Services36
+  Services36,
 };

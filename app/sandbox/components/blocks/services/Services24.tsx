@@ -1,6 +1,6 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { serviceList12 } from "app/sandbox/data/service";
+import { serviceList12 } from '@sandbox/data/service';
 
 export default function Services24() {
   return (
@@ -8,9 +8,12 @@ export default function Services24() {
       <div className="container pt-12 pt-lg-8 pb-14 pb-md-17">
         <div className="row text-center">
           <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Que faisons-nous?</h2>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">
+              Que faisons-nous?
+            </h2>
             <h3 className="display-3 mb-10 px-xxl-10">
-              Le service que nous offrons est spécialement conçu pour répondre à vos besoins.
+              Le service que nous offrons est spécialement conçu pour répondre à
+              vos besoins.
             </h3>
           </div>
         </div>
@@ -20,11 +23,20 @@ export default function Services24() {
             <div className="col-lg-4" key={id}>
               <div className="px-md-15 px-lg-3">
                 <figure className="mb-6">
-                  <img className="img-fluid" src={image["1x"]} srcSet={image["2x"]} alt="" />
+                  <img
+                    className="img-fluid"
+                    src={image['1x']}
+                    srcSet={image['2x']}
+                    alt=""
+                  />
                 </figure>
                 <h3>{title}</h3>
                 <p className="mb-2">{description}</p>
-                <NextLink title="En savoir plus" href="#" className="more hover" />
+                <NextLink
+                  title="En savoir plus"
+                  href="#"
+                  className="more hover"
+                />
               </div>
             </div>
           ))}

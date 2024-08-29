@@ -1,27 +1,30 @@
-import Verify from "app/sandbox/icons/solid-mono/Verify";
-import PushCart from "app/sandbox/icons/solid-mono/PushCart";
-import Shipment from "app/sandbox/icons/solid-mono/Shipment";
+import Verify from '@sandbox/icons/solid-mono/Verify';
+import PushCart from '@sandbox/icons/solid-mono/PushCart';
+import Shipment from '@sandbox/icons/solid-mono/Shipment';
 
 // CUSTOM DATA
 const services = [
   {
     id: 1,
     Icon: Shipment,
-    title: "Livraison gratuite",
-    description: "Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem."
+    title: 'Livraison gratuite',
+    description:
+      'Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem.',
   },
   {
     id: 2,
     Icon: PushCart,
-    title: "Retour sous 30 jours",
-    description: "Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem."
+    title: 'Retour sous 30 jours',
+    description:
+      'Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem.',
   },
   {
     id: 3,
     Icon: Verify,
-    title: "Garantie de 2 ans",
-    description: "Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem."
-  }
+    title: 'Garantie de 2 ans',
+    description:
+      'Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem.',
+  },
 ];
 
 export default function ShopService() {

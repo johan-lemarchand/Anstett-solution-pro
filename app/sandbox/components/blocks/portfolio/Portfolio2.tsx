@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image';
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { carouselImages } from "app/sandbox/data/demo-7";
+import { carouselImages } from '@sandbox/data/demo-7';
 
 export default function Portfolio2() {
   return (
@@ -21,11 +21,22 @@ export default function Portfolio2() {
             slidesPerView={2}
             pagination={false}
             className="overflow-visible"
-            breakpoints={{ 768: { slidesPerView: 2 }, 0: { slidesPerView: 1 } }}>
+            breakpoints={{ 768: { slidesPerView: 2 }, 0: { slidesPerView: 1 } }}
+          >
             {carouselImages.map(({ id, url, image }) => (
               <figure className="rounded" key={id}>
-                <Image alt="" src={image} width={1100} height={770} className="w-100 h-auto" />
-                <NextLink title={<i className="uil uil-link" />} className="item-link" href={url} />
+                <Image
+                  alt=""
+                  src={image}
+                  width={1100}
+                  height={770}
+                  className="w-100 h-auto"
+                />
+                <NextLink
+                  title={<i className="uil uil-link" />}
+                  className="item-link"
+                  href={url}
+                />
               </figure>
             ))}
           </Carousel>

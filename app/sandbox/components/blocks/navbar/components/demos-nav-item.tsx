@@ -1,9 +1,9 @@
-import Link from "next/link";
-import { useState, useEffect, useRef } from "react";
+import Link from 'next/link';
+import { useState, useEffect, useRef } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import DropdownToggleLink from "app/sandbox/components/reuseable/links/DropdownToggleLink";
+import DropdownToggleLink from '@sandbox/components/reuseable/links/DropdownToggleLink';
 // CUSTOM DATA
-import { demos } from "app/sandbox/data/navigation";
+import { demos } from '@sandbox/data/navigation';
 
 export default function DemosNavItem() {
   const [forceOpen, setForceOpen] = useState(false);
@@ -30,26 +30,29 @@ export default function DemosNavItem() {
 
   useEffect(() => {
     if (forceOpen && dropdownRef.current) {
+      const currentDropdownRef = dropdownRef.current;
+
       const handleMouseLeave = () => {
         setForceOpen(false);
       };
 
-      dropdownRef.current.addEventListener('mouseleave', handleMouseLeave);
+      currentDropdownRef.addEventListener('mouseleave', handleMouseLeave);
 
       return () => {
-        dropdownRef.current?.removeEventListener('mouseleave', handleMouseLeave);
+        currentDropdownRef.removeEventListener('mouseleave', handleMouseLeave);
       };
     }
   }, [forceOpen]);
 
   return (
-    <li className={`nav-item dropdown dropdown-mega ${forceOpen ? 'show' : ''}`} ref={dropdownRef}>
-      <DropdownToggleLink 
-        title="Demos" 
-        className="nav-link dropdown-toggle" 
-      />
-
-      <ul className={`dropdown-menu mega-menu mega-menu-dark mega-menu-img ${forceOpen ? 'show' : ''}`}>
+    <li
+      className={`nav-item dropdown dropdown-mega ${forceOpen ? 'show' : ''}`}
+      ref={dropdownRef}
+    >
+      <DropdownToggleLink title="Demos" className="nav-link dropdown-toggle" />
+      <ul
+        className={`dropdown-menu mega-menu mega-menu-dark mega-menu-img ${forceOpen ? 'show' : ''}`}
+      >
         <li className="mega-menu-content mega-menu-scroll">
           <ul className="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
             {demos.map(({ id, title, url, thumnail }) => (
@@ -60,7 +63,8 @@ export default function DemosNavItem() {
                     src={`/img/demos/${thumnail}.jpg`}
                     srcSet={`/img/demos/${thumnail}@2x.jpg 2x`}
                     className="rounded lift d-none d-lg-block"
-                    width="185" height="135"
+                    width="185"
+                    height="135"
                   />
                   <span className="d-lg-none">{title}</span>
                 </Link>

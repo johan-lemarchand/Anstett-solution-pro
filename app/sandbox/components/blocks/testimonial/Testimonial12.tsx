@@ -1,12 +1,12 @@
-import { TestimonialCard5 } from "app/sandbox/components/reuseable/testimonial-cards";
+import { TestimonialCard5 } from '@sandbox/components/reuseable/testimonial-cards';
 // CUSTOM DATA
-import { reviews } from "app/sandbox/data/demo-12";
+import { reviews } from '@sandbox/data/demo-12';
 
 export default function Testimonial12() {
   return (
     <div className="grid mb-14 mb-md-18 mt-3">
       <div className="row isotope gy-6 mt-n19 mt-md-n22">
-        {reviews.map((item) => (
+        {reviews.map(item => (
           <div className="item col-md-6 col-xl-3" key={item.id}>
             <TestimonialCard5 borderBottom {...item} />
           </div>

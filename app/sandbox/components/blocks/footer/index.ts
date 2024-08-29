@@ -43,5 +43,5 @@ export {
   Footer19,
   Footer20,
   Footer21,
-  Footer22
+  Footer22,
 };

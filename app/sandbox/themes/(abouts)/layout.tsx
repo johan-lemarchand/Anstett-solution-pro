@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { Fragment, PropsWithChildren } from "react";
-import { usePathname } from "next/navigation";
-import clsx from "clsx";
+import { Fragment, PropsWithChildren } from 'react';
+import { usePathname } from 'next/navigation';
+import clsx from 'clsx';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 
 export default function AboutLayout({ children }: PropsWithChildren) {
   const pathname = usePathname();
@@ -17,12 +17,19 @@ export default function AboutLayout({ children }: PropsWithChildren) {
       <header
         className={clsx({
           wrapper: true,
-          "bg-gray": pathname === "/about-1",
-          "bg-soft-primary": pathname === "/about-2"
-        })}>
+          'bg-gray': pathname === '/about-1',
+          'bg-soft-primary': pathname === '/about-2',
+        })}
+      >
         <Navbar
           language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 

@@ -1,6 +1,6 @@
-import Accordion from "app/sandbox/components/reuseable/accordion";
+import Accordion from '@sandbox/components/reuseable/accordion';
 // CUSTOM DATA
-import { accordions } from "app/sandbox/data/demo-8";
+import { accordions } from '@sandbox/data/demo-8';
 
 export default function FAQ3() {
   return (
@@ -10,13 +10,14 @@ export default function FAQ3() {
           <div className="col-lg-6">
             <h3 className="display-4 mb-4">Questions fréquemment posées</h3>
             <p className="lead fs-lg mb-0">
-            Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un email depuis notre formulaire de contact.
+              Si vous ne voyez pas de réponse à votre question, vous pouvez nous
+              envoyer un email depuis notre formulaire de contact.
             </p>
           </div>
 
           <div className="col-lg-6">
             <div className="accordion accordion-wrapper" id="accordionExample">
-              {accordions.map((item) => (
+              {accordions.map(item => (
                 <Accordion type="plain" key={item.no} {...item} />
               ))}
             </div>

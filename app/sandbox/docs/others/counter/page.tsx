@@ -1,15 +1,23 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
-import { Counter1, Counter2, Counter3 } from "app/sandbox/components/reuseable/counter";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
+import {
+  Counter1,
+  Counter2,
+  Counter3,
+} from '@sandbox/components/reuseable/counter';
 // MARKUPS
-import { counter1Markup, counter2Markup, counter3Markup } from "app/sandbox/themes/markups/others/counters";
+import {
+  counter1Markup,
+  counter2Markup,
+  counter3Markup,
+} from '@sandbox/themes/markups/others/counters';
 // CUSTOM DATA
-import { factList1, factList2 } from "app/sandbox/data/facts";
+import { factList1, factList2 } from '@sandbox/data/facts';
 
 const quickAccess = [
-  { title: "Counter 1", url: "snippet-1" },
-  { title: "Counter 2", url: "snippet-2" },
-  { title: "Counter 3", url: "snippet-3" }
+  { title: 'Counter 1', url: 'snippet-1' },
+  { title: 'Counter 2', url: 'snippet-2' },
+  { title: 'Counter 3', url: 'snippet-3' },
 ];
 
 export default function Counters() {
@@ -18,7 +26,8 @@ export default function Counters() {
       pageTitle="Counters"
       quickAccessLinks={quickAccess}
       headingColClass="col-md-9 col-lg-7 col-xl-5 mx-auto"
-      description="Use our custom counter components to build any custom facts section or blocks">
+      description="Use our custom counter components to build any custom facts section or blocks"
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-3">Counter 1</h2>
@@ -32,19 +41,38 @@ export default function Counters() {
             </div>
 
             <div className="row align-items-center counter-wrapper gy-6 text-center">
-              <Counter1 title="Completed Projects" number={1000} titleColor="text-primary" />
-              <Counter1 title="Happy Clients" number={500} titleColor="text-primary" />
-              <Counter1 title="Awards Won" number={150} titleColor="text-primary" />
+              <Counter1
+                title="Completed Projects"
+                number={1000}
+                titleColor="text-primary"
+              />
+              <Counter1
+                title="Happy Clients"
+                number={500}
+                titleColor="text-primary"
+              />
+              <Counter1
+                title="Awards Won"
+                number={150}
+                titleColor="text-primary"
+              />
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{counter1Markup}</CodeHighlight>
@@ -61,19 +89,26 @@ export default function Counters() {
         <div className="card overflow-hidden">
           <div className="card-body bg-dark mb-n2">
             <div className="row align-items-center counter-wrapper gy-4 text-center">
-              {factList2.map((item) => (
+              {factList2.map(item => (
                 <Counter2 key={item.id} {...item} />
               ))}
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{counter2Markup}</CodeHighlight>
@@ -91,18 +126,30 @@ export default function Counters() {
           <div className="card-body mb-n2">
             <div className="row align-items-center counter-wrapper gy-6 text-center">
               {factList1.map(({ id, number, title, Icon }) => (
-                <Counter3 title={title} number={number} Icon={<Icon />} key={id} />
+                <Counter3
+                  title={title}
+                  number={number}
+                  Icon={<Icon />}
+                  key={id}
+                />
               ))}
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{counter3Markup}</CodeHighlight>

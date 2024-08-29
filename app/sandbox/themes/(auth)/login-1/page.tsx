@@ -1,11 +1,11 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import LoginForm from "app/sandbox/components/elements/forms/LoginForm";
+import Breadcrumb from '@sandbox/components/reuseable/Breadcrumb';
+import LoginForm from '@sandbox/components/elements/forms/LoginForm';
 // CUSTOM DATA
 const breadcrumb = [
-  { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "Connexion", url: "#" }
+  { id: 1, title: 'Home', url: '/' },
+  { id: 2, title: 'Connexion', url: '#' },
 ];
 
 export default function Login() {
@@ -14,7 +14,8 @@ export default function Login() {
       {/* ========== page title section ========== */}
       <section
         className="wrapper image-wrapper bg-image bg-overlay bg-overlay-light-600 text-white"
-        style={{ backgroundImage: "url(/img/photos/bg18.png)" }}>
+        style={{ backgroundImage: 'url(/img/photos/bg18.png)' }}
+      >
         <div className="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
           <div className="row">
             <div className="col-lg-8 mx-auto">

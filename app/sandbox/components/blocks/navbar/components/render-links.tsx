@@ -1,8 +1,18 @@
-import ListItemLink from "app/sandbox/components/reuseable/links/ListItemLink";
-import {LinkType} from "../../../../../types/link";
+import ListItemLink from '@sandbox/components/reuseable/links/ListItemLink';
+
+export interface LinkType {
+  url: string;
+  title: string;
+  id: string | number;
+}
 
 export default function renderLinks(links: LinkType[]) {
-  return links.map((item) => (
-    <ListItemLink key={item.id} href={item.url} title={item.title} linkClassName="dropdown-item" />
+  return links.map(item => (
+    <ListItemLink
+      key={item.id}
+      href={item.url}
+      title={item.title}
+      linkClassName="dropdown-item"
+    />
   ));
 }

@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import clsx from 'clsx';
 
 // ========================================================================
 interface JobPostCard1Props {
@@ -15,13 +15,13 @@ export default function JobPostCard1(props: JobPostCard1Props) {
   const { time, title, location, company, avatarColor, badgeColor } = props;
 
   const COMPANY_CLASS = clsx({
-    "avatar text-white w-11 h-11 fs-20 me-4": true,
-    [avatarColor]: Boolean(avatarColor)
+    'avatar text-white w-11 h-11 fs-20 me-4': true,
+    [avatarColor]: Boolean(avatarColor),
   });
 
   const TIME_CLASS = clsx({
-    "badge rounded py-1 mb-2": true,
-    [badgeColor]: Boolean(badgeColor)
+    'badge rounded py-1 mb-2': true,
+    [badgeColor]: Boolean(badgeColor),
   });
 
   return (

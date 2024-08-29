@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import Link from 'next/link';
+import Carousel from '@sandbox/components/reuseable/Carousel';
 // CUSTOM DATA
-import { portfolioList3 } from "app/sandbox/data/portfolio";
+import { portfolioList3 } from '@sandbox/data/portfolio';
 
 export default function Portfolio4() {
   return (
@@ -12,7 +12,9 @@ export default function Portfolio4() {
             <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
               <i className="icn-flower text-leaf fs-30 opacity-25"></i>
               <h2 className="display-5 text-center mt-2 mb-10">
-              Quelques-unes des merveilleuses histoires d’amour<br className="d-none d-md-block" /> dont j’ai été témoin et que j’ai eu la chance de capturer.
+                Quelques-unes des merveilleuses histoires d’amour
+                <br className="d-none d-md-block" /> dont j’ai été témoin et que
+                j’ai eu la chance de capturer.
               </h2>
             </div>
           </div>
@@ -21,12 +23,21 @@ export default function Portfolio4() {
             <Carousel
               pagination={false}
               className="overflow-visible pb-2"
-              breakpoints={{ 0: { slidesPerView: 1 }, 768: { slidesPerView: 2 } }}>
-              {portfolioList3.map((item) => (
+              breakpoints={{
+                0: { slidesPerView: 1 },
+                768: { slidesPerView: 2 },
+              }}
+            >
+              {portfolioList3.map(item => (
                 <div className="card shadow-lg" key={item.id}>
                   <figure className="card-img-top overlay overlay-1">
                     <Link href="#">
-                      <img className="img-fluid" src={item.image["1x"]} srcSet={item.image["2x"]} alt="" />
+                      <img
+                        className="img-fluid"
+                        src={item.image['1x']}
+                        srcSet={item.image['2x']}
+                        alt=""
+                      />
                       <span className="bg" />
                     </Link>
 

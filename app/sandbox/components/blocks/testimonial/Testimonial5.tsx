@@ -1,7 +1,7 @@
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import { TestimonialCard2 } from "app/sandbox/components/reuseable/testimonial-cards";
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import { TestimonialCard2 } from '@sandbox/components/reuseable/testimonial-cards';
 // CUSTOM DATA
-import { testimonialList2 } from "app/sandbox/data/testimonial-list";
+import { testimonialList2 } from '@sandbox/data/testimonial-list';
 
 export default function Testimonial5() {
   return (
@@ -11,11 +11,15 @@ export default function Testimonial5() {
           <div className="col-md-5 col-lg-5 col-xl-4 offset-xl-1 d-none d-md-flex position-relative align-self-end">
             <div
               className="shape rounded-circle bg-pale-primary rellax w-21 h-21 d-md-none d-lg-block"
-              style={{ top: "7rem", left: "1rem" }}
+              style={{ top: '7rem', left: '1rem' }}
             />
 
             <figure>
-              <img src="/img/photos/co1.png" srcSet="/img/photos/co1@2x.png 2x" alt="" />
+              <img
+                src="/img/photos/co1.png"
+                srcSet="/img/photos/co1@2x.png 2x"
+                alt=""
+              />
             </figure>
           </div>
 

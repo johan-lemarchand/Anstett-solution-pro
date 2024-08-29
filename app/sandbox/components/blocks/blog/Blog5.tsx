@@ -1,12 +1,12 @@
-import dayjs from "dayjs";
-import Link from "next/link";
+import dayjs from 'dayjs';
+import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM UTILS
-import carouselBreakpoints from "app/sandbox/utils/carouselBreakpoints";
+import carouselBreakpoints from '@sandbox/utils/carouselBreakpoints';
 // CUSTOM DATA
-import { blogList3 } from "app/sandbox/data/blog";
+import { blogList3 } from '@sandbox/data/blog';
 
 export default function Blog5() {
   return (
@@ -17,19 +17,29 @@ export default function Blog5() {
             <div className="col-xl-7 col-xxl-6 mx-auto text-center">
               <i className="icn-flower text-leaf fs-30 opacity-25"></i>
               <h2 className="display-5 text-center mt-2 mb-10">
-                Voici les derniers articles de mon blog qui ont attiré le plus d’attention.
+                Voici les derniers articles de mon blog qui ont attiré le plus
+                d’attention.
               </h2>
             </div>
           </div>
 
           <div className="swiper-container nav-bottom nav-color mb-14 swiper-container-3">
-            <Carousel grabCursor pagination={false} className="overflow-visible pb-2" breakpoints={carouselBreakpoints}>
-              {blogList3.map((item) => (
+            <Carousel
+              grabCursor
+              pagination={false}
+              className="overflow-visible pb-2"
+              breakpoints={carouselBreakpoints}
+            >
+              {blogList3.map(item => (
                 <article key={item.id}>
                   <div className="card shadow-lg">
                     <figure className="card-img-top overlay overlay-1">
                       <Link href="#">
-                        <img src={item.image["1x"]} srcSet={item.image["2x"]} alt="" />
+                        <img
+                          src={item.image['1x']}
+                          srcSet={item.image['2x']}
+                          alt=""
+                        />
                         <span className="bg" />
                       </Link>
 
@@ -41,11 +51,19 @@ export default function Blog5() {
                     <div className="card-body p-6">
                       <div className="post-header">
                         <div className="post-category">
-                          <NextLink title={item.category} href="#" className="hover" />
+                          <NextLink
+                            title={item.category}
+                            href="#"
+                            className="hover"
+                          />
                         </div>
 
                         <h2 className="post-title h3 mt-1 mb-3">
-                          <NextLink title={item.title} href={item.link} className="link-dark" />
+                          <NextLink
+                            title={item.title}
+                            href={item.link}
+                            className="link-dark"
+                          />
                         </h2>
                       </div>
 
@@ -53,7 +71,9 @@ export default function Blog5() {
                         <ul className="post-meta d-flex mb-0">
                           <li className="post-date">
                             <i className="uil uil-calendar-alt" />
-                            <span>{dayjs(item.createdAt).format("DD MMM YYYY")}</span>
+                            <span>
+                              {dayjs(item.createdAt).format('DD MMM YYYY')}
+                            </span>
                           </li>
 
                           <li className="post-comments">

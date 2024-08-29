@@ -1,17 +1,17 @@
-import { ServiceCard3 } from "app/sandbox/components/reuseable/service-cards";
+import { ServiceCard3 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { processList } from "app/sandbox/data/demo-28";
+import { processList } from '@sandbox/data/demo-28';
 
 export default function Process18() {
   return (
     <div className="row gx-md-8 gx-xl-12 mt-10 mt-md-13">
       <div className="col-lg-4">
         <h2 className="display-3 mb-3">
-        Mon processus <em>de travail</em>
+          Mon processus <em>de travail</em>
         </h2>
         <p>
-          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus. Aenean
-          eu leo quam.
+          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+          Fusce dapibus, tellus ac cursus. Aenean eu leo quam.
         </p>
       </div>
 
@@ -22,7 +22,9 @@ export default function Process18() {
               <ServiceCard3
                 title={item.title}
                 description={item.description}
-                Icon={<Icon className="icon-svg-sm solid-duo text-purple-aqua mt-1 me-4" />}
+                Icon={
+                  <Icon className="icon-svg-sm solid-duo text-purple-aqua mt-1 me-4" />
+                }
               />
             </div>
           ))}

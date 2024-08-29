@@ -1,5 +1,5 @@
-import Image from "next/image";
-import NextLink from "../links/NextLink";
+import Image from 'next/image';
+import NextLink from '../links/NextLink';
 
 // ==============================================================================
 type ProjectCard1Props = {
@@ -7,7 +7,13 @@ type ProjectCard1Props = {
   title: string;
   category: string;
   description: string;
-  images: { width: number; height: number; url: string; tooltip?: string; full: string }[];
+  images: {
+    width: number;
+    height: number;
+    url: string;
+    tooltip?: string;
+    full: string;
+  }[];
 };
 // ==============================================================================
 
@@ -26,16 +32,33 @@ export default function ProjectCard1(props: ProjectCard1Props) {
 
             <div className="post-content">
               <p>{description}</p>
-              <NextLink title="Nouveaux projets" href={link} className="more hover link-red" />
+              <NextLink
+                title="Nouveaux projets"
+                href={link}
+                className="more hover link-red"
+              />
             </div>
           </div>
         </div>
 
         {images.map(({ url, height, width, tooltip, full }, i) => (
           <div className="item col-md-6" key={url + i}>
-            <figure className="itooltip itooltip-light hover-scale rounded" title={tooltip}>
-              <a href={full} data-glightbox={`title: ${tooltip}`} data-gallery="project-2">
-                <Image alt={title} src={url} width={width} height={height} className="w-100 h-auto" />
+            <figure
+              className="itooltip itooltip-light hover-scale rounded"
+              title={tooltip}
+            >
+              <a
+                href={full}
+                data-glightbox={`title: ${tooltip}`}
+                data-gallery="project-2"
+              >
+                <Image
+                  alt={title}
+                  src={url}
+                  width={width}
+                  height={height}
+                  className="w-100 h-auto"
+                />
               </a>
             </figure>
           </div>

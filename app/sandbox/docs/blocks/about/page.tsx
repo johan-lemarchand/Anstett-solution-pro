@@ -1,8 +1,8 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Block from "./block";
+import Block from './block';
 // GLOBAL CUSTOM COMPONENTS
-import * as All from "app/sandbox/components/blocks/about";
+import * as All from '@sandbox/components/blocks/about';
 
 export default function About() {
   return (
@@ -105,7 +105,11 @@ export default function About() {
         <All.About24 />
       </Block>
 
-      <Block id={25} className="pb-n14 pb-md-n16 pb-13 pb-md-15" container={false}>
+      <Block
+        id={25}
+        className="pb-n14 pb-md-n16 pb-13 pb-md-15"
+        container={false}
+      >
         <All.About25 />
       </Block>
 

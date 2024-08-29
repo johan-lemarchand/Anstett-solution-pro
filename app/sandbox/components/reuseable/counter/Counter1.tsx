@@ -1,4 +1,4 @@
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from '@sandbox/components/reuseable/CountUp';
 
 // ====================================================
 interface CounterProps {
@@ -8,7 +8,11 @@ interface CounterProps {
 }
 // ====================================================
 
-export default function Counter1({ title, number, titleColor = "" }: CounterProps) {
+export default function Counter1({
+  title,
+  number,
+  titleColor = '',
+}: CounterProps) {
   return (
     <div className="col-md-4">
       <h3 className={`counter counter-lg ${titleColor}`}>

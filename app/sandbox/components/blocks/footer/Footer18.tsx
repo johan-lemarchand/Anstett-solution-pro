@@ -1,7 +1,7 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import SocialLinks from "app/sandbox/components/reuseable/SocialLinks";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
 // CUSTOM DATA
-import footerNav from "app/sandbox/data/footer";
+import footerNav from '@sandbox/data/footer';
 
 export default function Footer18() {
   return (
@@ -9,20 +9,31 @@ export default function Footer18() {
       <div className="container py-13 py-md-15">
         <div className="d-lg-flex flex-row align-items-lg-center">
           <h3 className="display-3 ls-sm mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25">
-          Rejoignez notre communauté en utilisant nos services et développez votre entreprise.
+            Rejoignez notre communauté en utilisant nos services et développez
+            votre entreprise.
           </h3>
 
-          <NextLink title="Essayez gratuitement" href="#" className="btn btn-lg btn-primary rounded mb-0 text-nowrap" />
+          <NextLink
+            title="Essayez gratuitement"
+            href="#"
+            className="btn btn-lg btn-primary rounded mb-0 text-nowrap"
+          />
         </div>
 
         <hr className="mt-11 mb-12" />
         <div className="row gy-6 gy-lg-0">
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <img className="mb-4" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" alt="" />
+              <img
+                className="mb-4"
+                src="/img/logo-dark.png"
+                srcSet="/img/logo-dark@2x.png 2x"
+                alt=""
+              />
 
               <p className="mb-4">
-                © 2024 Anstett Solutions Pro. <br className="d-none d-lg-block" />
+                © 2024 Anstett Solutions Pro.{' '}
+                <br className="d-none d-lg-block" />
                 Tous droits réservés.
               </p>
 
@@ -33,7 +44,9 @@ export default function Footer18() {
           <div className="col-md-4 col-lg-3">
             <div className="widget">
               <h4 className="widget-title ls-sm mb-3">Prendre contact</h4>
-              <address className="pe-xl-15 pe-xxl-17">26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
+              <address className="pe-xl-15 pe-xxl-17">
+                26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder
+              </address>
               <a href="mailto:#" className="link-body">
                 anstett.solutions.pro@gmail.com
               </a>
@@ -57,7 +70,10 @@ export default function Footer18() {
           <div className="col-md-12 col-lg-3">
             <div className="widget">
               <h4 className="widget-title ls-sm mb-3">Notre newsletter</h4>
-              <p className="mb-5">Abonnez-vous à notre newsletter pour recevoir nos nouvelles &amp; nos offres.</p>
+              <p className="mb-5">
+                Abonnez-vous à notre newsletter pour recevoir nos nouvelles
+                &amp; nos offres.
+              </p>
               <div className="newsletter-wrapper">
                 <div id="mc_embed_signup2">
                   <form
@@ -67,7 +83,8 @@ export default function Footer18() {
                     name="mc-embedded-subscribe-form"
                     className="validate "
                     target="_blank"
-                    noValidate>
+                    noValidate
+                  >
                     <div id="mc_embed_signup_scroll2">
                       <div className="mc-field-group input-group form-floating">
                         <input

@@ -8,7 +8,7 @@ interface PriceProps {
 // ======================================
 
 export default function Price(props: PriceProps) {
-  const { value, duration, classes, currency = "$" } = props;
+  const { value, duration, classes, currency = '$' } = props;
 
   return (
     <div className={`price justify-content-start ${classes}`}>

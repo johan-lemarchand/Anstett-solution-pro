@@ -1,14 +1,18 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUPS
-import { dotMarkup, lineMarkup, solidMarkup } from "app/sandbox/themes/markups/elements/shapes";
+import {
+  dotMarkup,
+  lineMarkup,
+  solidMarkup,
+} from '@sandbox/themes/markups/elements/shapes';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Dot", url: "snippet-1" },
-  { title: "Line", url: "snippet-2" },
-  { title: "Solid", url: "snippet-3" },
-  { title: "Doodles", url: "snippet-4" }
+  { title: 'Dot', url: 'snippet-1' },
+  { title: 'Line', url: 'snippet-2' },
+  { title: 'Solid', url: 'snippet-3' },
+  { title: 'Doodles', url: 'snippet-4' },
 ];
 
 export default function Shapes() {
@@ -16,7 +20,8 @@ export default function Shapes() {
     <DocLayout
       pageTitle="Shapes"
       quickAccessLinks={quickAccess}
-      description="Use our custom shapes to add on your pages.">
+      description="Use our custom shapes to add on your pages."
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Dot</h2>
@@ -42,12 +47,19 @@ export default function Shapes() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{dotMarkup}</CodeHighlight>
@@ -82,12 +94,19 @@ export default function Shapes() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{lineMarkup}</CodeHighlight>
@@ -102,9 +121,13 @@ export default function Shapes() {
         <h2 className="mb-3">Solid</h2>
         <p className="lead mb-8">
           All background color options (
-          <NextLink title="solid" href="/background" className="internal" />,{" "}
-          <NextLink title="soft" href="/background" className="internal" />,{" "}
-          <NextLink title="pale" href="/background" className="internal" />) are available to use.
+          <NextLink
+            title="solid"
+            href="/background"
+            className="internal"
+          />, <NextLink title="soft" href="/background" className="internal" />,{' '}
+          <NextLink title="pale" href="/background" className="internal" />) are
+          available to use.
         </p>
 
         <div className="card">
@@ -129,12 +152,19 @@ export default function Shapes() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{solidMarkup}</CodeHighlight>
@@ -188,12 +218,19 @@ export default function Shapes() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{lineMarkup}</CodeHighlight>

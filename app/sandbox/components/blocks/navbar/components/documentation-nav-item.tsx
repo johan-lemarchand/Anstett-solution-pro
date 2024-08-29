@@ -1,15 +1,18 @@
 // GLOBAL CUSTOM COMPONENTS
-import ListItemLink from "app/sandbox/components/reuseable/links/ListItemLink";
-import DropdownToggleLink from "app/sandbox/components/reuseable/links/DropdownToggleLink";
+import ListItemLink from '@sandbox/components/reuseable/links/ListItemLink';
+import DropdownToggleLink from '@sandbox/components/reuseable/links/DropdownToggleLink';
 // LOCAL CUSTOM COMPONENTS
-import renderLinks from "./render-links";
+import renderLinks from './render-links';
 // CUSTOM DATA
-import { documentationNavigation } from "app/sandbox/data/navigation";
+import { documentationNavigation } from '@sandbox/data/navigation';
 
 export default function DocumentationNavItem() {
   return (
     <li className="nav-item dropdown dropdown-mega">
-      <DropdownToggleLink title="Documentation" className="nav-link dropdown-toggle" />
+      <DropdownToggleLink
+        title="Documentation"
+        className="nav-link dropdown-toggle"
+      />
       <ul className="dropdown-menu mega-menu">
         <li className="mega-menu-content">
           <div className="row gx-0 gx-lg-3">

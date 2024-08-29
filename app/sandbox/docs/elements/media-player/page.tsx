@@ -1,14 +1,19 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import VideoPlyr from "app/sandbox/components/reuseable/VideoPlyr";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import VideoPlyr from '@sandbox/components/reuseable/VideoPlyr';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUPS
-import { htmlMarkup, vimeoMarkup, youtubeMarkup, embededMarkup } from "app/sandbox/themes/markups/elements/media-player";
+import {
+  htmlMarkup,
+  vimeoMarkup,
+  youtubeMarkup,
+  embededMarkup,
+} from '@sandbox/themes/markups/elements/media-player';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "HTML5 Video - plyr", url: "snippet-1" },
-  { title: "Vimeo - plyr", url: "snippet-2" },
-  { title: "YouTube - plyr", url: "snippet-3" },
-  { title: "Embed", url: "snippet-4" }
+  { title: 'HTML5 Video - plyr', url: 'snippet-1' },
+  { title: 'Vimeo - plyr', url: 'snippet-2' },
+  { title: 'YouTube - plyr', url: 'snippet-3' },
+  { title: 'Embed', url: 'snippet-4' },
 ];
 
 export default function MediaPlayer() {
@@ -20,13 +25,19 @@ export default function MediaPlayer() {
       headingColClass="col-md-9 col-lg-7 col-xl-7 mx-auto"
       description={
         <>
-          Examples on how to add videos with the included responsive media player. For further instructions on the
-          plugin please visit{" "}
-          <a href="https://github.com/chintan9/plyr-react" target="_blank" className="hover more" rel="noreferrer">
+          Examples on how to add videos with the included responsive media
+          player. For further instructions on the plugin please visit{' '}
+          <a
+            href="https://github.com/chintan9/plyr-react"
+            target="_blank"
+            className="hover more"
+            rel="noreferrer"
+          >
             Plyr docs
           </a>
         </>
-      }>
+      }
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">HTML5 Video - plyr</h2>
@@ -34,17 +45,27 @@ export default function MediaPlayer() {
           <div className="card-body">
             <VideoPlyr
               options={{ loadSprite: true, clickToPlay: true }}
-              source={{ type: "video", sources: [{ src: "/media/movie.mp4", provider: "html5" }] }}
+              source={{
+                type: 'video',
+                sources: [{ src: '/media/movie.mp4', provider: 'html5' }],
+              }}
             />
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{htmlMarkup}</CodeHighlight>
@@ -61,17 +82,27 @@ export default function MediaPlayer() {
           <div className="card-body">
             <VideoPlyr
               options={{ loadSprite: true, clickToPlay: true }}
-              source={{ type: "video", sources: [{ src: "15801179", provider: "vimeo" }] }}
+              source={{
+                type: 'video',
+                sources: [{ src: '15801179', provider: 'vimeo' }],
+              }}
             />
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{vimeoMarkup}</CodeHighlight>
@@ -88,17 +119,27 @@ export default function MediaPlayer() {
           <div className="card-body">
             <VideoPlyr
               options={{ loadSprite: true, clickToPlay: true }}
-              source={{ type: "video", sources: [{ src: "j_Y2Gwaj7Gs", provider: "youtube" }] }}
+              source={{
+                type: 'video',
+                sources: [{ src: 'j_Y2Gwaj7Gs', provider: 'youtube' }],
+              }}
             />
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{youtubeMarkup}</CodeHighlight>
@@ -124,12 +165,19 @@ export default function MediaPlayer() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-4">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-4"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-4" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-4"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{embededMarkup}</CodeHighlight>

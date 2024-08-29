@@ -1,69 +1,95 @@
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from "app/sandbox/utils/currency";
+import currency from '@sandbox/utils/currency';
 
 const cartItems = [
   {
     id: 1,
     stock: 5,
     quantity: 1,
-    name: "Nike Air Sneakers",
-    image: "/img/photos/sth1.jpg",
-    price: { sales: 45, regular: 55 }
+    name: 'Nike Air Sneakers',
+    image: '/img/photos/sth1.jpg',
+    price: { sales: 45, regular: 55 },
   },
   {
     id: 2,
     stock: 5,
     quantity: 1,
-    name: "Colorful Sneakers",
-    image: "/img/photos/sth2.jpg",
-    price: { sales: 0, regular: 45 }
+    name: 'Colorful Sneakers',
+    image: '/img/photos/sth2.jpg',
+    price: { sales: 0, regular: 45 },
   },
   {
     id: 3,
     stock: 5,
     quantity: 1,
-    name: "Polaroid Camera",
-    image: "/img/photos/sth3.jpg",
-    price: { sales: 0, regular: 45 }
-  }
+    name: 'Polaroid Camera',
+    image: '/img/photos/sth3.jpg',
+    price: { sales: 0, regular: 45 },
+  },
 ];
 
 export default function MiniCart() {
   return (
-    <div className="offcanvas offcanvas-end bg-light" id="offcanvas-cart" data-bs-scroll="true">
+    <div
+      className="offcanvas offcanvas-end bg-light"
+      id="offcanvas-cart"
+      data-bs-scroll="true"
+    >
       <div className="offcanvas-header">
         <h3 className="mb-0">Your Cart</h3>
-        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
+        <button
+          type="button"
+          className="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        />
       </div>
 
       <div className="offcanvas-body d-flex flex-column">
         <div className="shopping-cart">
           {cartItems.map(({ id, price, image, quantity, name }) => (
-            <div className="shopping-cart-item d-flex justify-content-between mb-4" key={id}>
+            <div
+              className="shopping-cart-item d-flex justify-content-between mb-4"
+              key={id}
+            >
               <div className="d-flex flex-row">
                 <figure className="rounded w-17">
                   <Link href="/products/1">
-                    <Image src={image} alt={name} width={90} height={100} className="w-100 h-auto" />
+                    <Image
+                      src={image}
+                      alt={name}
+                      width={90}
+                      height={100}
+                      className="w-100 h-auto"
+                    />
                   </Link>
                 </figure>
 
                 <div className="w-100 ms-4">
                   <h3 className="post-title fs-16 lh-xs mb-1">
-                    <NextLink title={name} href="/products/1" className="link-dark" />
+                    <NextLink
+                      title={name}
+                      href="/products/1"
+                      className="link-dark"
+                    />
                   </h3>
 
                   <p className="price fs-sm">
                     {price.sales ? (
                       <>
                         <del>
-                          <span className="amount">{currency(price.regular)}</span>
-                        </del>{" "}
+                          <span className="amount">
+                            {currency(price.regular)}
+                          </span>
+                        </del>{' '}
                         <ins>
-                          <span className="amount">{currency(price.sales)}</span>
+                          <span className="amount">
+                            {currency(price.sales)}
+                          </span>
                         </ins>
                       </>
                     ) : (
@@ -72,7 +98,10 @@ export default function MiniCart() {
                   </p>
 
                   <div className="form-select-wrapper">
-                    <select className="form-select form-select-sm" defaultValue={quantity}>
+                    <select
+                      className="form-select form-select-sm"
+                      defaultValue={quantity}
+                    >
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -98,11 +127,16 @@ export default function MiniCart() {
             <span className="h6 mb-0">$135.99</span>
           </div>
 
-          <Link href="/checkout" className="btn btn-primary btn-icon btn-icon-start rounded w-100 mb-4">
+          <Link
+            href="/checkout"
+            className="btn btn-primary btn-icon btn-icon-start rounded w-100 mb-4"
+          >
             <i className="uil uil-credit-card fs-18" /> Règlement
           </Link>
 
-          <p className="fs-14 mb-0">Livraison gratuite sur toutes les commandes de plus de 50 $</p>
+          <p className="fs-14 mb-0">
+            Livraison gratuite sur toutes les commandes de plus de 50 $
+          </p>
         </div>
       </div>
     </div>

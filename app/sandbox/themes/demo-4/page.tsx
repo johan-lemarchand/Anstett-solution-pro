@@ -1,22 +1,25 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { Team4 } from "app/sandbox/components/blocks/team";
-import { Hero4 } from "app/sandbox/components/blocks/hero";
-import { About4 } from "app/sandbox/components/blocks/about";
-import { Facts2 } from "app/sandbox/components/blocks/facts";
-import { Banner3 } from "app/sandbox/components/blocks/banner";
-import { Footer2 } from "app/sandbox/components/blocks/footer";
-import { Clients1 } from "app/sandbox/components/blocks/clients";
-import { Services5 } from "app/sandbox/components/blocks/services";
-import { Testimonial3 } from "app/sandbox/components/blocks/testimonial";
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Team4 } from '@sandbox/components/blocks/team';
+import { Hero4 } from '@sandbox/components/blocks/hero';
+import { About4 } from '@sandbox/components/blocks/about';
+import { Facts2 } from '@sandbox/components/blocks/facts';
+import { Banner3 } from '@sandbox/components/blocks/banner';
+import { Footer2 } from '@sandbox/components/blocks/footer';
+import { Clients1 } from '@sandbox/components/blocks/clients';
+import { Services5 } from '@sandbox/components/blocks/services';
+import { Testimonial3 } from '@sandbox/components/blocks/testimonial';
 
 export default function Demo4() {
   return (
     <Fragment>
       {/* ========== header section ========== */}
       <header className="wrapper mb-1">
-        <Navbar social navClassName="navbar navbar-expand-lg center-nav transparent navbar-light caret-none" />
+        <Navbar
+          social
+          navClassName="navbar navbar-expand-lg center-nav transparent navbar-light caret-none"
+        />
       </header>
 
       <main className="content-wrapper">

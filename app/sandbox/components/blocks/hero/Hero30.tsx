@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import Link from "next/link";
+import Link from 'next/link';
 // GLOBAL CUSTOM HOOKS
-import useReplaceMe from "app/sandbox/hooks/useReplaceMe";
+import useReplaceMe from '@sandbox/hooks/useReplaceMe';
 
 export default function Hero30() {
   useReplaceMe();
@@ -12,7 +12,8 @@ export default function Hero30() {
       <div
         data-cue="fadeIn"
         className="position-absolute"
-        style={{ top: "-15%", left: "50%", transform: "translateX(-50%)" }}>
+        style={{ top: '-15%', left: '50%', transform: 'translateX(-50%)' }}
+      >
         <img src="/img/photos/blurry.png" alt="" />
       </div>
 
@@ -22,46 +23,74 @@ export default function Hero30() {
             data-cue="fadeIn"
             data-delay="1500"
             className="position-absolute shape grape w-5 d-none d-lg-block"
-            style={{ top: "-5%", left: "-15%" }}>
-            <img src="/img/svg/pie.svg" className="svg-inject icon-svg w-100 h-100" alt="" />
+            style={{ top: '-5%', left: '-15%' }}
+          >
+            <img
+              src="/img/svg/pie.svg"
+              className="svg-inject icon-svg w-100 h-100"
+              alt=""
+            />
           </div>
 
           <div
             data-cue="fadeIn"
             data-delay="1500"
             className="position-absolute shape violet w-10 d-none d-lg-block"
-            style={{ bottom: "30%", left: "-20%" }}>
-            <img src="/img/svg/scribble.svg" className="svg-inject icon-svg w-100 h-100" alt="" />
+            style={{ bottom: '30%', left: '-20%' }}
+          >
+            <img
+              src="/img/svg/scribble.svg"
+              className="svg-inject icon-svg w-100 h-100"
+              alt=""
+            />
           </div>
 
           <div
             data-cue="fadeIn"
             data-delay="1500"
             className="position-absolute shape fuchsia w-6 d-none d-lg-block"
-            style={{ top: "0%", right: "-25%", transform: "rotate(70deg)" }}>
-            <img src="/img/svg/tri.svg" className="svg-inject icon-svg w-100 h-100" alt="" />
+            style={{ top: '0%', right: '-25%', transform: 'rotate(70deg)' }}
+          >
+            <img
+              src="/img/svg/tri.svg"
+              className="svg-inject icon-svg w-100 h-100"
+              alt=""
+            />
           </div>
 
           <div
             data-cue="fadeIn"
             data-delay="1500"
             className="position-absolute shape yellow w-6 d-none d-lg-block"
-            style={{ bottom: "25%", right: "-17%" }}>
-            <img src="/img/svg/circle.svg" className="svg-inject icon-svg w-100 h-100" alt="" />
+            style={{ bottom: '25%', right: '-17%' }}
+          >
+            <img
+              src="/img/svg/circle.svg"
+              className="svg-inject icon-svg w-100 h-100"
+              alt=""
+            />
           </div>
 
           <div data-cues="slideInDown" data-group="page-title">
             <h1 className="display-1 fs-64 mb-5 mx-md-10 mx-lg-0">
-            Nous sommes une agence web numérique spécialisée dans<br />
-            <span className="rotator-fade text-primary">Le web design. le SEO. l'e-commerce,Google Adwords</span>
+              Nous sommes une agence web numérique spécialisée dans
+              <br />
+              <span className="rotator-fade text-primary">
+                Le web design. le SEO. l'e-commerce,Google Adwords
+              </span>
             </h1>
 
             <p className="lead fs-24 mb-8">
-            Nous sommes une agence web numérique primée qui croit fermement au pouvoir des idées créatives.
+              Nous sommes une agence web numérique primée qui croit fermement au
+              pouvoir des idées créatives.
             </p>
           </div>
 
-          <div className="d-flex justify-content-center" data-cues="slideInDown" data-delay="600">
+          <div
+            className="d-flex justify-content-center"
+            data-cues="slideInDown"
+            data-delay="600"
+          >
             <span>
               <Link href="#" className="btn btn-lg btn-primary rounded-xl mx-1">
                 Voir les projets

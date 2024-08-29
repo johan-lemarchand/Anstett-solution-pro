@@ -1,11 +1,11 @@
-import { TeamCard1 } from "app/sandbox/components/reuseable/team-cards";
+import { TeamCard1 } from '@sandbox/components/reuseable/team-cards';
 // CUSTOM DATA
-import teams from "app/sandbox/data/team-list";
+import teams from '@sandbox/data/team-list';
 
 export default function Team4() {
   return (
     <div className="row grid-view gy-6 gy-xl-0">
-      {teams.slice(0, 4).map((item) => (
+      {teams.slice(0, 4).map(item => (
         <div className="col-md-6 col-xl-3" key={item.id}>
           <TeamCard1 shadow {...item} />
         </div>

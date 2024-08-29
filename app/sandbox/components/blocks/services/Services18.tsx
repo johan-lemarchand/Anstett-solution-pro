@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import useProgressbar from "app/sandbox/hooks/useProgressbar";
+import useProgressbar from '@sandbox/hooks/useProgressbar';
 // CUSTOM DATA
-import { skill1 } from "app/sandbox/data/skill";
-import { serviceList8 } from "app/sandbox/data/service";
+import { skill1 } from '@sandbox/data/skill';
+import { serviceList8 } from '@sandbox/data/service';
 
 export default function Services18() {
   // used for the animated line
@@ -18,7 +18,10 @@ export default function Services18() {
               {skill1.map(({ id, title, percent, color }) => (
                 <li key={id}>
                   <p>{title}</p>
-                  <div className={`progressbar line soft-${color}`} data-value={percent} />
+                  <div
+                    className={`progressbar line soft-${color}`}
+                    data-value={percent}
+                  />
                 </li>
               ))}
             </ul>
@@ -27,9 +30,10 @@ export default function Services18() {
           <div className="col-lg-6">
             <h2 className="display-4 mb-3">Ce que je fais ?</h2>
             <p className="lead fs-20 mb-5">
-              Duis mollis est commodo luctus nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis
-              risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus
-              magna, vel scelerisque nisl.
+              Duis mollis est commodo luctus nisi erat porttitor ligula, eget
+              lacinia odio sem nec elit. Nullam quis risus eget urna mollis
+              ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent
+              commodo cursus magna, vel scelerisque nisl.
             </p>
           </div>
         </div>

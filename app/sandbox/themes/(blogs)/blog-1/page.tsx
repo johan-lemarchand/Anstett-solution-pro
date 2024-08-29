@@ -1,26 +1,35 @@
-import Image from "next/image";
-import { Fragment } from "react";
+import Image from 'next/image';
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import VideoPlyr from "app/sandbox/components/reuseable/VideoPlyr";
-import Pagination from "app/sandbox/components/reuseable/Pagination";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { BlogCard2, BlogCard3 } from "app/sandbox/components/reuseable/blog-cards";
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import VideoPlyr from '@sandbox/components/reuseable/VideoPlyr';
+import Pagination from '@sandbox/components/reuseable/Pagination';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { BlogCard2, BlogCard3 } from '@sandbox/components/reuseable/blog-cards';
 // CUSTOM DATA
-import { blogs } from "./data";
+import { blogs } from './data';
 // IMPORT IMAGES
-import blogOneImage from "../../../../../public/img/photos/b1.jpg";
-import blogTwoImage from "../../../../../public/img/photos/b2.jpg";
-import blogThreeImage from "../../../../../public/img/photos/b3.jpg";
+import blogOneImage from '../../../../../public/img/photos/b1.jpg';
+import blogTwoImage from '../../../../../public/img/photos/b2.jpg';
+import blogThreeImage from '../../../../../public/img/photos/b3.jpg';
 
 export default function BlogOne() {
   return (
     <Fragment>
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
-        <Navbar search button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />} />
+        <Navbar
+          search
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
+        />
       </header>
 
       <main className="content-wrapper">
@@ -31,7 +40,8 @@ export default function BlogOne() {
               <div className="col-md-7 col-lg-6 col-xl-5 mx-auto">
                 <h1 className="display-1 mb-3">Business News</h1>
                 <p className="lead px-lg-5 px-xxl-8">
-                  Bienvenue dans notre revue. Vous trouverez ici les dernières nouvelles de l’entreprise et des articles d’affaires.
+                  Bienvenue dans notre revue. Vous trouverez ici les dernières
+                  nouvelles de l’entreprise et des articles d’affaires.
                 </p>
               </div>
             </div>
@@ -70,7 +80,11 @@ export default function BlogOne() {
                     cardTop={
                       <div className="post-slider card-img-top">
                         <div className="swiper-container dots-over">
-                          <Carousel grabCursor spaceBetween={5} slidesPerView={1}>
+                          <Carousel
+                            grabCursor
+                            spaceBetween={5}
+                            slidesPerView={1}
+                          >
                             <Image alt="blog" src={blogTwoImage} />
                             <Image alt="blog" src={blogThreeImage} />
                           </Carousel>
@@ -88,7 +102,12 @@ export default function BlogOne() {
                       <div className="card-img-top">
                         <VideoPlyr
                           options={{ loadSprite: true, clickToPlay: true }}
-                          source={{ type: "video", sources: [{ src: "j_Y2Gwaj7Gs", provider: "youtube" }] }}
+                          source={{
+                            type: 'video',
+                            sources: [
+                              { src: 'j_Y2Gwaj7Gs', provider: 'youtube' },
+                            ],
+                          }}
                         />
                       </div>
                     }
@@ -97,7 +116,7 @@ export default function BlogOne() {
 
                 <div className="blog grid grid-view">
                   <div className="row isotope gx-md-8 gy-8 mb-8">
-                    {blogs.map((item) => (
+                    {blogs.map(item => (
                       <BlogCard3 {...item} key={item.id} />
                     ))}
                   </div>

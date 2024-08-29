@@ -1,17 +1,17 @@
-"use client";
+'use client';
 
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { ProjectCard1 } from "app/sandbox/components/reuseable/project-cards";
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { ProjectCard1 } from '@sandbox/components/reuseable/project-cards';
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "app/sandbox/hooks/useIsotope";
-import useTooltip from "app/sandbox/hooks/useTooltip";
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useIsotope from '@sandbox/hooks/useIsotope';
+import useTooltip from '@sandbox/hooks/useTooltip';
+import useLightBox from '@sandbox/hooks/useLightBox';
 // CUSTOM DATA
-import { projectList1 } from "app/sandbox/data/project";
+import { projectList1 } from '@sandbox/data/project';
 
 export default function Projects() {
   // used for masonry layout
@@ -28,7 +28,13 @@ export default function Projects() {
         <Navbar
           language
           navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light"
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -39,7 +45,9 @@ export default function Projects() {
             <div className="container py-13 py-md-17 text-center">
               <div className="row">
                 <div className="col-lg-10 col-xxl-8 mx-auto">
-                  <h1 className="display-1 mb-1">Check out some of our awesome projects with creative ideas.</h1>
+                  <h1 className="display-1 mb-1">
+                    Check out some of our awesome projects with creative ideas.
+                  </h1>
                 </div>
               </div>
             </div>
@@ -52,7 +60,7 @@ export default function Projects() {
             <div className="row mt-6">
               <div className="col-xl-10 mx-auto">
                 <div className="projects-tiles">
-                  {projectList1.map((item) => (
+                  {projectList1.map(item => (
                     <ProjectCard1 {...item} key={item.id} />
                   ))}
                 </div>

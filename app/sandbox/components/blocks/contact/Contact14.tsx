@@ -15,7 +15,8 @@ export default function Contact14() {
             </h2>
 
             <p className="lead fs-lg pe-xxl-12 mb-0">
-              Vous avez des questions? Contactez-moi à partir de ce formulaire de contact et je vous répondrai sous peu.
+              Vous avez des questions? Contactez-moi à partir de ce formulaire
+              de contact et je vous répondrai sous peu.
             </p>
           </div>
 
@@ -38,7 +39,10 @@ export default function Contact14() {
 
                     <label htmlFor="form_name">Name *</label>
                     <div className="valid-feedback"> Looks good! </div>
-                    <div className="invalid-feedback"> Please enter your name. </div>
+                    <div className="invalid-feedback">
+                      {' '}
+                      Please enter your name.{' '}
+                    </div>
                   </div>
                 </div>
 
@@ -55,7 +59,10 @@ export default function Contact14() {
                     />
                     <label htmlFor="form_email">Email *</label>
                     <div className="valid-feedback"> Looks good! </div>
-                    <div className="invalid-feedback"> Veuillez fournir une adresse email valide. </div>
+                    <div className="invalid-feedback">
+                      {' '}
+                      Veuillez fournir une adresse email valide.{' '}
+                    </div>
                   </div>
                 </div>
 
@@ -71,12 +78,19 @@ export default function Contact14() {
 
                     <label htmlFor="form_message">Message *</label>
                     <div className="valid-feedback"> Looks good! </div>
-                    <div className="invalid-feedback"> Please enter your messsage. </div>
+                    <div className="invalid-feedback">
+                      {' '}
+                      Please enter your messsage.{' '}
+                    </div>
                   </div>
                 </div>
 
                 <div className="col-12">
-                  <input type="submit" value="Envoyer" className="btn btn-primary rounded-pill btn-send mb-3" />
+                  <input
+                    type="submit"
+                    value="Envoyer"
+                    className="btn btn-primary rounded-pill btn-send mb-3"
+                  />
                 </div>
               </div>
             </form>

@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image from 'next/image';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // IMAGES
-import image from "../../../../../public/img/photos/bg12.jpg";
+import image from '../../../../../public/img/photos/bg12.jpg';
 
 export default function Team9() {
   return (
@@ -10,18 +10,26 @@ export default function Team9() {
       <div className="container pt-15 pt-md-17">
         <div className="row">
           <div className="col-xl-9 col-xxl-8 mx-auto text-center">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Notre équipe</h2>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">
+              Notre équipe
+            </h2>
 
             <h3 className="display-3 px-lg-18 px-xl-12 px-xxl-15 mb-6">
-              Économisez votre temps et votre argent en choisissant notre équipe professionnelle.
+              Économisez votre temps et votre argent en choisissant notre équipe
+              professionnelle.
             </h3>
 
             <p className="mb-8 px-lg-10 px-xl-0">
-              Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.
+              Curabitur blandit tempus porttitor. Maecenas faucibus mollis
+              interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Maecenas sed diam eget risus varius blandit sit amet non magna.
             </p>
 
-            <NextLink title="En savoir plus" href="#" className="btn btn-primary" />
+            <NextLink
+              title="En savoir plus"
+              href="#"
+              className="btn btn-primary"
+            />
           </div>
         </div>
       </div>

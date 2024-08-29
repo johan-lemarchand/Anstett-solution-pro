@@ -1,4 +1,4 @@
-import AccordionList from "app/sandbox/components/common/AccordionList";
+import AccordionList from '@sandbox/components/common/AccordionList';
 
 export default function About23() {
   return (
@@ -15,8 +15,12 @@ export default function About23() {
       </div>
 
       <div className="col-lg-5">
-        <h3 className="fs-16 text-uppercase text-muted mt-xxl-8 mb-3">Pourquoi nous choisir?</h3>
-        <h3 className="display-4 mb-6">Nous apportons des solutions pour faciliter la vie de nos clients.</h3>
+        <h3 className="fs-16 text-uppercase text-muted mt-xxl-8 mb-3">
+          Pourquoi nous choisir?
+        </h3>
+        <h3 className="display-4 mb-6">
+          Nous apportons des solutions pour faciliter la vie de nos clients.
+        </h3>
         <AccordionList />
       </div>
     </div>

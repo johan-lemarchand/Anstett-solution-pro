@@ -1,9 +1,9 @@
-import { faq } from "app/sandbox/data/demo-11";
+import { faq } from '@sandbox/data/demo-11';
 
 export default function FAQ5() {
   return (
     <div className="row gx-md-8 gx-xl-12 gy-10">
-      {faq.map((item) => (
+      {faq.map(item => (
         <div className="col-lg-6" key={item.id}>
           <div className="d-flex flex-row">
             <div>

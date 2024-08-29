@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 // -------- PARTIAL LOCAL COMPONENTS -------- //
-import Social from "./social";
-import Language from "./language";
+import Social from './social';
+import Language from './language';
 
 // ===================================================================
 interface HeaderRightProps {
@@ -22,7 +22,7 @@ export default function HeaderRight({
   social,
   search,
   language,
-  navOtherClass
+  navOtherClass,
 }: HeaderRightProps) {
   return (
     <div className={navOtherClass}>
@@ -33,7 +33,11 @@ export default function HeaderRight({
         {/* ============= info button ============= */}
         {info ? (
           <li className="nav-item">
-            <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info">
+            <a
+              className="nav-link"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvas-info"
+            >
               <i className="uil uil-info-circle" />
             </a>
           </li>
@@ -42,14 +46,20 @@ export default function HeaderRight({
         {/* ============= search icon button ============= */}
         {search ? (
           <li className="nav-item">
-            <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search">
+            <a
+              className="nav-link"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvas-search"
+            >
               <i className="uil uil-search" />
             </a>
           </li>
         ) : null}
 
         {/* ============= contact button ============= */}
-        {button ? <li className="nav-item d-none d-md-block">{button}</li> : null}
+        {button ? (
+          <li className="nav-item d-none d-md-block">{button}</li>
+        ) : null}
 
         {/* ============= shopping cart button ============= */}
         {cart ? (
@@ -57,7 +67,8 @@ export default function HeaderRight({
             <a
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvas-cart"
-              className="nav-link position-relative d-flex flex-row align-items-center">
+              className="nav-link position-relative d-flex flex-row align-items-center"
+            >
               <i className="uil uil-shopping-cart" />
               <span className="badge badge-cart bg-primary">3</span>
             </a>
@@ -72,7 +83,8 @@ export default function HeaderRight({
           <button
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvas-nav"
-            className="hamburger offcanvas-nav-btn">
+            className="hamburger offcanvas-nav-btn"
+          >
             <span />
           </button>
         </li>

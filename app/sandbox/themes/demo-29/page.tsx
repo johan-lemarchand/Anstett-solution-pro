@@ -1,16 +1,16 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { FAQ8 } from "app/sandbox/components/blocks/faq";
-import { Hero29 } from "app/sandbox/components/blocks/hero";
-import { About30 } from "app/sandbox/components/blocks/about";
-import { Footer4 } from "app/sandbox/components/blocks/footer";
-import { Process19 } from "app/sandbox/components/blocks/process";
-import { Services31 } from "app/sandbox/components/blocks/services";
-import { CTA11 } from "app/sandbox/components/blocks/call-to-action";
-import { Testimonial23 } from "app/sandbox/components/blocks/testimonial";
-import VideoPlyr from "app/sandbox/components/reuseable/VideoPlyr";
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { FAQ8 } from '@sandbox/components/blocks/faq';
+import { Hero29 } from '@sandbox/components/blocks/hero';
+import { About30 } from '@sandbox/components/blocks/about';
+import { Footer4 } from '@sandbox/components/blocks/footer';
+import { Process19 } from '@sandbox/components/blocks/process';
+import { Services31 } from '@sandbox/components/blocks/services';
+import { CTA11 } from '@sandbox/components/blocks/call-to-action';
+import { Testimonial23 } from '@sandbox/components/blocks/testimonial';
+import VideoPlyr from '@sandbox/components/reuseable/VideoPlyr';
 
 export default function Demo29() {
   return (
@@ -43,15 +43,22 @@ export default function Demo29() {
         {/* ========== plyr & faq section ========== */}
         <section
           className="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600 bg-content"
-          style={{ backgroundImage: "url(/img/photos/bg23.png)" }}>
-          <div className="container py-14 pt-md-16 pt-lg-0 pb-md-17 position-relative" style={{ zIndex: 2 }}>
+          style={{ backgroundImage: 'url(/img/photos/bg23.png)' }}
+        >
+          <div
+            className="container py-14 pt-md-16 pt-lg-0 pb-md-17 position-relative"
+            style={{ zIndex: 2 }}
+          >
             <div className="row">
               <div className="col-xl-11 col-xxl-10 mx-auto">
                 {/* ========== video plyr section ========== */}
                 <div className="mt-lg-n20 mt-xl-n22 mb-14 mb-md-16 rounded-xl">
                   <VideoPlyr
                     options={{ loadSprite: true, clickToPlay: true }}
-                    source={{ type: "video", sources: [{ src: "165101721", provider: "vimeo" }] }}
+                    source={{
+                      type: 'video',
+                      sources: [{ src: '165101721', provider: 'vimeo' }],
+                    }}
                   />
                 </div>
 

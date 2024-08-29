@@ -1,8 +1,8 @@
-import Link from "next/link";
-import Image from "next/image";
-import dayjs from "dayjs";
+import Link from 'next/link';
+import Image from 'next/image';
+import dayjs from 'dayjs';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "../links/NextLink";
+import NextLink from '../links/NextLink';
 
 // ======================================================
 interface BlogCard4Props {
@@ -16,14 +16,27 @@ interface BlogCard4Props {
 // ======================================================
 
 export default function BlogCard4(props: BlogCard4Props) {
-  const { date, image, title, category, description, className = "card" } = props;
+  const {
+    date,
+    image,
+    title,
+    category,
+    description,
+    className = 'card',
+  } = props;
 
   return (
     <article>
       <div className={className}>
         <figure className="card-img-top overlay overlay-1 hover-scale">
           <Link href="#">
-            <Image width={560} height={350} src={image} alt={title} className="w-100 h-auto" />
+            <Image
+              width={560}
+              height={350}
+              src={image}
+              alt={title}
+              className="w-100 h-auto"
+            />
             <span className="bg" />
           </Link>
 
@@ -48,7 +61,7 @@ export default function BlogCard4(props: BlogCard4Props) {
           <ul className="post-meta d-flex mb-0">
             <li className="post-date">
               <i className="uil uil-calendar-alt" />
-              <span>{dayjs(date).format("DD MMM YYYY")}</span>
+              <span>{dayjs(date).format('DD MMM YYYY')}</span>
             </li>
 
             <li className="post-comments">

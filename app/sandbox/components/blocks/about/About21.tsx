@@ -1,7 +1,7 @@
-import { Banner4 } from "../banner";
-import { ServiceCard3 } from "app/sandbox/components/reuseable/service-cards";
+import { Banner4 } from '../banner';
+import { ServiceCard3 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { aboutList4 } from "app/sandbox/data/about";
+import { aboutList4 } from '@sandbox/data/about';
 
 export default function About21() {
   return (
@@ -11,12 +11,21 @@ export default function About21() {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="fs-16 text-uppercase text-muted mb-3">En quoi sommes-nous différents ?</h2>
-        <h3 className="display-3 mb-8">Nous apportons des solutions pour faciliter la vie de nos clients.</h3>
+        <h2 className="fs-16 text-uppercase text-muted mb-3">
+          En quoi sommes-nous différents ?
+        </h2>
+        <h3 className="display-3 mb-8">
+          Nous apportons des solutions pour faciliter la vie de nos clients.
+        </h3>
         <div className="row gy-6">
           {aboutList4.map(({ id, Icon, ...item }) => (
             <div className="col-md-6" key={id}>
-              <ServiceCard3 {...item} Icon={<Icon className="icon-svg-xs solid-duo text-purple-pink me-4" />} />
+              <ServiceCard3
+                {...item}
+                Icon={
+                  <Icon className="icon-svg-xs solid-duo text-purple-pink me-4" />
+                }
+              />
             </div>
           ))}
         </div>

@@ -1,6 +1,6 @@
-import { PropsWithChildren } from "react";
+import { PropsWithChildren } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 
 interface BlockProps extends PropsWithChildren {
   id: number;
@@ -28,7 +28,10 @@ export default function Block({ id, children }: BlockProps) {
             </a>
           </div> */}
 
-          <div id={`collapse-snippet-${id}`} className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id={`collapse-snippet-${id}`}
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{markup}</CodeHighlight>

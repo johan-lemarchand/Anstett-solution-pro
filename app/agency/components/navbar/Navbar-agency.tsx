@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { Fragment, useRef } from "react";
+import { Fragment, useRef } from 'react';
 // GLOBAL CUSTOM HOOKS
-import useSticky from "app/agency/hooks/useSticky";
-import useNestedDropdown from "app/agency/hooks/useNestedDropdown";
+import useSticky from 'app/agency/hooks/useSticky';
+import useNestedDropdown from 'app/agency/hooks/useNestedDropdown';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import SocialLinks from "app/sandbox/components/reuseable/SocialLinks";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
 
 // ===================================================================
 interface Navbar3Props {
@@ -15,31 +15,46 @@ interface Navbar3Props {
   navClassName?: string;
 }
 // ===================================================================
- 
+
 export default function NavAgency({
   logoAlt,
   stickyBox = true,
-  navClassName = "navbar navbar-expand-lg center-logo transparent position-absolute navbar-dark"
+  navClassName = 'navbar navbar-expand-lg center-logo transparent position-absolute navbar-dark',
 }: Navbar3Props) {
   useNestedDropdown();
   const sticky = useSticky(350);
   const navbarRef = useRef<HTMLElement | null>(null);
 
   // Vérifier si l'application est en cours d'exécution en localhost
-  const isLocalhost = typeof window !== 'undefined' && window.location.hostname === 'localhost';
+  const isLocalhost =
+    typeof window !== 'undefined' && window.location.hostname === 'localhost';
   // dynamically added navbar classname
   const fixedClassName = `navbar navbar-expand-lg center-logo transparent position-absolute navbar-light navbar-clone fixed`;
 
   const logos = (
     <>
-      <img className="logo-dark" src={`/img/agency/logo-dark.png`} srcSet={`/img/agency/logo-dark.png 2x`} alt="héron-noir" />
-      <img className="logo-light" src="/img/agency/logo-white.png" srcSet="/img/agency/logo-white 2x" alt="héron-blanc" />
+      <img
+        className="logo-dark"
+        src={`/img/agency/logo-dark.png`}
+        srcSet={`/img/agency/logo-dark.png 2x`}
+        alt="héron-noir"
+      />
+      <img
+        className="logo-light"
+        src="/img/agency/logo-white.png"
+        srcSet="/img/agency/logo-white 2x"
+        alt="héron-blanc"
+      />
     </>
   );
 
   return (
     <Fragment>
-      {stickyBox && <div style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }} />}
+      {stickyBox && (
+        <div
+          style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }}
+        />
+      )}
 
       <nav ref={navbarRef} className={sticky ? fixedClassName : navClassName}>
         <div className="container justify-content-between align-items-center">
@@ -54,7 +69,8 @@ export default function NavAgency({
                   <button
                     data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvas-nav"
-                    className="hamburger offcanvas-nav-btn">
+                    className="hamburger offcanvas-nav-btn"
+                  >
                     <span />
                   </button>
                 </li>
@@ -66,10 +82,17 @@ export default function NavAgency({
             <div
               id="offcanvas-nav"
               data-bs-scroll="true"
-              className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+              className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
+            >
               <div className="offcanvas-header mx-lg-auto order-0 order-lg-1 d-lg-flex px-lg-15">
-                <NextLink href="/" className="transition-none d-none d-lg-flex" title={logos} />
-                <h3 className="text-white fs-30 mb-0 d-lg-none">Anstett Solutions Pro</h3>
+                <NextLink
+                  href="/"
+                  className="transition-none d-none d-lg-flex"
+                  title={logos}
+                />
+                <h3 className="text-white fs-30 mb-0 d-lg-none">
+                  Anstett Solutions Pro
+                </h3>
                 <button
                   type="button"
                   aria-label="Close"
@@ -89,15 +112,20 @@ export default function NavAgency({
                 </div>
               )*/}
 
-
-
               {/* ============= show contact info in the small device sidebar ============= */}
               <div className="offcanvas-body d-lg-none order-4 mt-auto">
                 <div className="offcanvas-footer">
                   <div>
-                    <NextLink title="anstett.solutions.pro@gmail.com" className="link-inverse" href="mailto:first.last@email.com" />
+                    <NextLink
+                      title="anstett.solutions.pro@gmail.com"
+                      className="link-inverse"
+                      href="mailto:first.last@email.com"
+                    />
                     <br />
-                    <NextLink href="tel:06 42 18 55 95" title="06 42 18 55 95" />
+                    <NextLink
+                      href="tel:06 42 18 55 95"
+                      title="06 42 18 55 95"
+                    />
                     <br />
                     <SocialLinks />
                   </div>

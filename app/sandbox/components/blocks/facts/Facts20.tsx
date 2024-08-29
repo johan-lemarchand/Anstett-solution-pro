@@ -1,17 +1,20 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 
 export default function Facts20() {
   return (
     <Fragment>
       <div className="row text-center mb-7">
         <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Rejoindre notre communauté</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">
+            Rejoindre notre communauté
+          </h2>
           <h3 className="display-2 ls-sm">
-          Nous sommes reconnus{" "}
+            Nous sommes reconnus{' '}
             <span className="underline-3 style-1 primary">
               <em>digne de confiance</em>
-            </span>{" "}
-            par plus de 50000 clients. Rejoignez-les dès maintenant et développez votre entreprise.
+            </span>{' '}
+            par plus de 50000 clients. Rejoignez-les dès maintenant et
+            développez votre entreprise.
           </h3>
         </div>
       </div>

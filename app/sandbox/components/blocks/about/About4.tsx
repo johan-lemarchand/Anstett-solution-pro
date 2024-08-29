@@ -1,5 +1,5 @@
-import Tiles2 from "app/sandbox/components/elements/tiles/Tiles2";
-import AccordionList from "app/sandbox/components/common/AccordionList";
+import Tiles2 from '@sandbox/components/elements/tiles/Tiles2';
+import AccordionList from '@sandbox/components/common/AccordionList';
 
 export default function About4() {
   return (
@@ -9,7 +9,9 @@ export default function About4() {
       </div>
 
       <div className="col-lg-5">
-        <h3 className="display-4 mb-7">Quelques raisons pour lesquelles nos clients nous choisissent.</h3>
+        <h3 className="display-4 mb-7">
+          Quelques raisons pour lesquelles nos clients nous choisissent.
+        </h3>
         <AccordionList />
       </div>
     </div>

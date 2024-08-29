@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export default function useReplaceMe() {
   useEffect(() => {
@@ -8,24 +8,24 @@ export default function useReplaceMe() {
 
     const options = {
       speed: 2500,
-      separator: ",",
+      separator: ',',
       clickChange: false,
-      loopCount: "infinite"
+      loopCount: 'infinite',
     };
 
     (() => {
-      const ReplaceMe = require("../plugins/replaceme");
+      const ReplaceMe = require('../plugins/replaceme');
 
-      if (document.querySelector(".rotator-zoom") !== null) {
-        replace = new ReplaceMe(document.querySelector(".rotator-zoom"), {
+      if (document.querySelector('.rotator-zoom') !== null) {
+        replace = new ReplaceMe(document.querySelector('.rotator-zoom'), {
           ...options,
-          animation: "animate__animated animate__zoomIn"
+          animation: 'animate__animated animate__zoomIn',
         });
       }
-      if (document.querySelector(".rotator-fade") !== null) {
-        replace = new ReplaceMe(document.querySelector(".rotator-fade"), {
+      if (document.querySelector('.rotator-fade') !== null) {
+        replace = new ReplaceMe(document.querySelector('.rotator-fade'), {
           ...options,
-          animation: "animate__animated animate__fadeInDown"
+          animation: 'animate__animated animate__fadeInDown',
         });
       }
     })();

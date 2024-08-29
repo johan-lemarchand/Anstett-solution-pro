@@ -1,19 +1,31 @@
-import Image from "next/image";
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
-import { BlogCard1, BlogCard2, BlogCard3, BlogCard4, BlogCard5 } from "app/sandbox/components/reuseable/blog-cards";
+import Image from 'next/image';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
+import {
+  BlogCard1,
+  BlogCard2,
+  BlogCard3,
+  BlogCard4,
+  BlogCard5,
+} from '@sandbox/components/reuseable/blog-cards';
 // MARKUPS
-import { card1Markup, card2Markup, card3Markup, card4Markup, card5Markup } from "app/sandbox/themes/markups/others/blog-cards";
+import {
+  card1Markup,
+  card2Markup,
+  card3Markup,
+  card4Markup,
+  card5Markup,
+} from '@sandbox/themes/markups/others/blog-cards';
 // CUSTOM DATA
-import { blogList } from "app/sandbox/data/demo-11";
-import { blogList1, blogList4, blogList5 } from "app/sandbox/data/blog";
+import { blogList } from '@sandbox/data/demo-11';
+import { blogList1, blogList4, blogList5 } from '@sandbox/data/blog';
 
 const quickAccess = [
-  { title: "Blog Card 1", url: "snippet-1" },
-  { title: "Blog Card 2", url: "snippet-2" },
-  { title: "Blog Card 3", url: "snippet-3" },
-  { title: "Blog Card 4", url: "snippet-4" },
-  { title: "Blog Card 5", url: "snippet-5" }
+  { title: 'Blog Card 1', url: 'snippet-1' },
+  { title: 'Blog Card 2', url: 'snippet-2' },
+  { title: 'Blog Card 3', url: 'snippet-3' },
+  { title: 'Blog Card 4', url: 'snippet-4' },
+  { title: 'Blog Card 5', url: 'snippet-5' },
 ];
 
 export default function BlogCards() {
@@ -22,7 +34,8 @@ export default function BlogCards() {
       pageTitle="Blog Cards"
       quickAccessLinks={quickAccess}
       headingColClass="col-md-9 col-lg-7 col-xl-5 mx-auto"
-      description="Use our custom blog card components to build any custom blog section or blocks">
+      description="Use our custom blog card components to build any custom blog section or blocks"
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-3">Blog Card 1</h2>
@@ -30,7 +43,7 @@ export default function BlogCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gy-6">
-              {blogList1.slice(0, 2).map((item) => (
+              {blogList1.slice(0, 2).map(item => (
                 <div className="col-lg-6" key={item.id}>
                   <BlogCard1 {...item} />
                 </div>
@@ -39,12 +52,19 @@ export default function BlogCards() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card1Markup}</CodeHighlight>
@@ -68,7 +88,13 @@ export default function BlogCards() {
               cardTop={
                 <figure className="card-img-top overlay overlay-1 hover-scale">
                   <a className="link-dark" href="#">
-                    <Image width={960} height={600} src="/img/photos/tb9.jpg" alt="blog" className="w-100 h-auto" />
+                    <Image
+                      width={960}
+                      height={600}
+                      src="/img/photos/tb9.jpg"
+                      alt="blog"
+                      className="w-100 h-auto"
+                    />
                     <span className="bg" />
                   </a>
 
@@ -81,12 +107,19 @@ export default function BlogCards() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card2Markup}</CodeHighlight>
@@ -103,19 +136,26 @@ export default function BlogCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gy-6">
-              {blogList4.slice(0, 2).map((item) => (
+              {blogList4.slice(0, 2).map(item => (
                 <BlogCard3 {...item} key={item.id} />
               ))}
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card3Markup}</CodeHighlight>
@@ -132,7 +172,7 @@ export default function BlogCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gy-6">
-              {blogList.slice(0, 2).map((item) => (
+              {blogList.slice(0, 2).map(item => (
                 <div className="col-lg-6" key={item.id}>
                   <BlogCard4 {...item} />
                 </div>
@@ -141,12 +181,19 @@ export default function BlogCards() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-4">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-4"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-4" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-4"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card4Markup}</CodeHighlight>
@@ -162,18 +209,25 @@ export default function BlogCards() {
 
         <div className="card">
           <div className="card-body mb-n2">
-            {blogList5.slice(0, 1).map((item) => (
+            {blogList5.slice(0, 1).map(item => (
               <BlogCard5 key={item.id} {...item} />
             ))}
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-5">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-5"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-5" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-5"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card5Markup}</CodeHighlight>

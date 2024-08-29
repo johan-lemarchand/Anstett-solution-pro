@@ -1,20 +1,20 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Select from "app/sandbox/components/reuseable/Select";
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import Pagination from "app/sandbox/components/reuseable/Pagination";
-import { ProductCard } from "app/sandbox/components/reuseable/product-cards";
+import Select from '@sandbox/components/reuseable/Select';
+import Breadcrumb from '@sandbox/components/reuseable/Breadcrumb';
+import Pagination from '@sandbox/components/reuseable/Pagination';
+import { ProductCard } from '@sandbox/components/reuseable/product-cards';
 // CUSTOM DATA
-import products from "app/sandbox/data/product-list";
+import products from '@sandbox/data/product-list';
 
 export default function Shop() {
   // filter options
   const options = [
-    { id: 1, title: "Trier par popularité", value: "popular" },
-    { id: 2, title: "Trier par note moyenne", value: "rating" },
-    { id: 3, title: "Trier par nouveauté", value: "new" },
-    { id: 4, title: "Trier par prix: croissant", value: "low-to-high" },
-    { id: 5, title: "Trier par prix: décroissant", value: "high-to-low" }
+    { id: 1, title: 'Trier par popularité', value: 'popular' },
+    { id: 2, title: 'Trier par note moyenne', value: 'rating' },
+    { id: 3, title: 'Trier par nouveauté', value: 'new' },
+    { id: 4, title: 'Trier par prix: croissant', value: 'low-to-high' },
+    { id: 5, title: 'Trier par prix: décroissant', value: 'high-to-low' },
   ];
 
   return (
@@ -25,7 +25,9 @@ export default function Shop() {
           <div className="row">
             <div className="col-lg-10 col-xxl-8 mx-auto">
               <h1 className="display-1 mb-3">Shop Layout</h1>
-              <p className="lead mb-1">Integer posuere erat a ante venenatis dapibus.</p>
+              <p className="lead mb-1">
+                Integer posuere erat a ante venenatis dapibus.
+              </p>
             </div>
           </div>
         </div>
@@ -46,8 +48,12 @@ export default function Shop() {
           </div>
 
           <div className="row gx-md-8 gy-10 gy-md-13 mb-13">
-            {products.map((item) => (
-              <ProductCard {...item} key={item.id} className="col-md-6 col-xl-4" />
+            {products.map(item => (
+              <ProductCard
+                {...item}
+                key={item.id}
+                className="col-md-6 col-xl-4"
+              />
             ))}
           </div>
 

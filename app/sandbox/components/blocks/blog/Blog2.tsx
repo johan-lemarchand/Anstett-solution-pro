@@ -1,32 +1,43 @@
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import { BlogCard4 } from "app/sandbox/components/reuseable/blog-cards";
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import { BlogCard4 } from '@sandbox/components/reuseable/blog-cards';
 // CUSTOM DATA
-import { blogList } from "app/sandbox/data/demo-11";
+import { blogList } from '@sandbox/data/demo-11';
 
 export default function Blog2() {
   const carouselBreakpoints = {
     0: { slidesPerView: 1 },
     768: { slidesPerView: 2 },
-    992: { slidesPerView: 3 }
+    992: { slidesPerView: 3 },
   };
 
   return (
     <div>
       <div className="row text-center">
         <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-          <h2 className="fs-15 text-uppercase text-primary mb-3">Cas pratiques</h2>
+          <h2 className="fs-15 text-uppercase text-primary mb-3">
+            Cas pratiques
+          </h2>
           <h3 className="display-4 mb-6">
-          Découvrez quelques-uns de nos projets géniaux avec des idées créatives et un design exceptionnel.
+            Découvrez quelques-uns de nos projets géniaux avec des idées
+            créatives et un design exceptionnel.
           </h3>
         </div>
       </div>
 
       <div className="position-relative">
-        <div className="shape bg-dot primary rellax w-17 h-20" style={{ top: 0, left: "-1.7rem" }} />
+        <div
+          className="shape bg-dot primary rellax w-17 h-20"
+          style={{ top: 0, left: '-1.7rem' }}
+        />
 
         <div className="swiper-container dots-closer blog grid-view mb-6">
-          <Carousel grabCursor spaceBetween={0} navigation={false} breakpoints={carouselBreakpoints}>
-            {blogList.map((item) => (
+          <Carousel
+            grabCursor
+            spaceBetween={0}
+            navigation={false}
+            breakpoints={carouselBreakpoints}
+          >
+            {blogList.map(item => (
               <div className="item-inner" key={item.id}>
                 <BlogCard4 {...item} />
               </div>

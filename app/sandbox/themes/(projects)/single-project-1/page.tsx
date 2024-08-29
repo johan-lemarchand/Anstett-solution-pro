@@ -1,18 +1,23 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { Fragment } from "react";
+import Image from 'next/image';
+import { Fragment } from 'react';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useLightBox from '@sandbox/hooks/useLightBox';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import FigureImage from "app/sandbox/components/reuseable/FigureImage";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import ProjectDetailsContent from "app/sandbox/components/common/ProjectDetailsContent";
-import ProjectDetailsNavigation from "app/sandbox/components/common/ProjectDetailsNavigation";
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import FigureImage from '@sandbox/components/reuseable/FigureImage';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import ProjectDetailsContent from '@sandbox/components/common/ProjectDetailsContent';
+import ProjectDetailsNavigation from '@sandbox/components/common/ProjectDetailsNavigation';
 // CUSTOM DATA
-const images = ["/img/photos/pp2.jpg", "/img/photos/pp3.jpg", "/img/photos/pp4.jpg", "/img/photos/pp5.jpg"];
+const images = [
+  '/img/photos/pp2.jpg',
+  '/img/photos/pp3.jpg',
+  '/img/photos/pp4.jpg',
+  '/img/photos/pp5.jpg',
+];
 
 export default function ProjectDetails() {
   // used for image lightbox
@@ -24,7 +29,13 @@ export default function ProjectDetails() {
       <header className="wrapper bg-soft-primary">
         <Navbar
           language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -38,9 +49,12 @@ export default function ProjectDetails() {
                     <NextLink title="Identity" href="#" className="hover" />
                   </div>
 
-                  <h1 className="display-1 mb-3">Commodo Dolor Bibendum Parturient Cursus Mollis</h1>
+                  <h1 className="display-1 mb-3">
+                    Commodo Dolor Bibendum Parturient Cursus Mollis
+                  </h1>
                   <p className="lead px-md-12 px-lg-12 px-xl-15 px-xxl-18">
-                    Integer posuere erat a ante venenatis dapibus posuere. Maecenas faucibus mollis interdum.
+                    Integer posuere erat a ante venenatis dapibus posuere.
+                    Maecenas faucibus mollis interdum.
                   </p>
                 </div>
               </div>
@@ -53,16 +67,31 @@ export default function ProjectDetails() {
             <div className="row">
               <div className="col-12">
                 <article className="mt-n21">
-                  <FigureImage width={2400} height={1640} src="/img/photos/pp1.jpg" className="rounded mb-8 mb-md-12" />
+                  <FigureImage
+                    width={2400}
+                    height={1640}
+                    src="/img/photos/pp1.jpg"
+                    className="rounded mb-8 mb-md-12"
+                  />
 
                   <ProjectDetailsContent title="About the Project" />
 
                   <div className="row mt-5 gx-md-6 gy-6">
-                    {images.map((item) => (
+                    {images.map(item => (
                       <div className="item col-md-6" key={item}>
                         <figure className="hover-scale rounded cursor-dark">
-                          <a href={item} data-glightbox data-gallery="project-1">
-                            <Image width={960} height={640} src={item} alt="demo" className="w-100 h-auto" />
+                          <a
+                            href={item}
+                            data-glightbox
+                            data-gallery="project-1"
+                          >
+                            <Image
+                              width={960}
+                              height={640}
+                              src={item}
+                              alt="demo"
+                              className="w-100 h-auto"
+                            />
                           </a>
                         </figure>
                       </div>
@@ -73,20 +102,26 @@ export default function ProjectDetails() {
                     <div className="col-md-10 offset-md-1 text-justify">
                       <h2 className="mb-4">Quam Mollis Bibendum</h2>
                       <p>
-                        Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non
-                        metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia
-                        bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Praesent commodo cursus
-                        magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta gravida at eget metus.
-                        Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet
-                        fermentum.
+                        Maecenas sed diam eget risus varius blandit sit amet non
+                        magna. Donec ullamcorper nulla non metus auctor
+                        fringilla. Cras mattis consectetur purus sit amet
+                        fermentum. Aenean lacinia bibendum nulla sed
+                        consectetur. Curabitur blandit tempus porttitor.
+                        Praesent commodo cursus magna, vel scelerisque nisl
+                        consectetur et. Donec id elit non mi porta gravida at
+                        eget metus. Donec id elit non mi porta gravida at eget
+                        metus. Cras mattis consectetur purus sit amet fermentum.
                       </p>
 
                       <p>
-                        Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat
-                        porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Maecenas
-                        sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac,
-                        vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum
-                        etiam porta.
+                        Aenean lacinia bibendum nulla sed consectetur. Duis
+                        mollis, est non commodo luctus, nisi erat porttitor
+                        ligula, eget lacinia odio sem nec elit. Maecenas
+                        faucibus mollis interdum. Maecenas sed diam eget risus
+                        varius blandit sit amet non magna. Morbi leo risus,
+                        porta ac consectetur ac, vestibulum at eros. Nulla vitae
+                        elit libero, a pharetra augue. Maecenas faucibus mollis
+                        interdum etiam porta.
                       </p>
                     </div>
                   </div>

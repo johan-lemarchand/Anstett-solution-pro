@@ -1,7 +1,7 @@
-import { Fragment } from "react";
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import { Fragment } from 'react';
+import Carousel from '@sandbox/components/reuseable/Carousel';
 // CUSTOM DATA
-import { testimonialList4 } from "app/sandbox/data/testimonial-list";
+import { testimonialList4 } from '@sandbox/data/testimonial-list';
 
 export default function Testimonial25() {
   return (
@@ -9,12 +9,14 @@ export default function Testimonial25() {
       <div className="card-body py-14 px-lg-0">
         <div className="row text-center">
           <div className="col-lg-9 col-xl-8 mx-auto">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">Clients satisfaits</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">
+              Clients satisfaits
+            </h2>
             <h3 className="display-2 ls-sm mb-10 px-xxl-10">
-            Voyez ce que nos{" "}
+              Voyez ce que nos{' '}
               <span className="underline-3 style-1 primary">
                 <em>clients</em>
-              </span>{" "}
+              </span>{' '}
               disent de nous.
             </h3>
           </div>
@@ -23,7 +25,11 @@ export default function Testimonial25() {
         <div className="row gx-lg-8 gx-xl-12 align-items-center">
           <div className="col-lg-5 ms-auto col-xl-4 d-none d-lg-flex">
             <div className="img-mask mask-3">
-              <img src="/img/photos/about13.jpg" srcSet="/img/photos/about13@2x.jpg 2x" alt="" />
+              <img
+                src="/img/photos/about13.jpg"
+                srcSet="/img/photos/about13@2x.jpg 2x"
+                alt=""
+              />
             </div>
           </div>
 
@@ -35,8 +41,10 @@ export default function Testimonial25() {
                     <span className="ratings five mb-3" />
                     <blockquote className="border-0 fs-lg mb-0">
                       <p>
-                        “Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
-                        felis euismod semper. Cras justo odio consectetur nulla dapibus curabitur blandit faucibus.”
+                        “Vivamus sagittis lacus vel augue laoreet rutrum
+                        faucibus dolor auctor. Vestibulum ligula porta felis
+                        euismod semper. Cras justo odio consectetur nulla
+                        dapibus curabitur blandit faucibus.”
                       </p>
 
                       <div className="blockquote-details">

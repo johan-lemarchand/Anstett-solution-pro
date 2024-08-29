@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import clsx from 'clsx';
 
 // ==================================================
 interface AccordionProps {
@@ -6,20 +6,27 @@ interface AccordionProps {
   body: string;
   heading: string;
   expand: boolean;
-  type?: "plain" | "shadow-lg";
+  type?: 'plain' | 'shadow-lg';
 }
 // ==================================================
 
-export default function Accordion({ no, body, heading, expand, type }: AccordionProps) {
+export default function Accordion({
+  no,
+  body,
+  heading,
+  expand,
+  type,
+}: AccordionProps) {
   return (
-    <div className={clsx({ "card accordion-item": true, [type || ""]: true })}>
+    <div className={clsx({ 'card accordion-item': true, [type || '']: true })}>
       <div className="card-header" id={`heading${no}`}>
         <button
           data-bs-toggle="collapse"
           aria-controls={`collapse${no}`}
           data-bs-target={`#collapse${no}`}
-          aria-expanded={expand ? "true" : "false"}
-          className={expand ? "accordion-button" : "collapsed"}>
+          aria-expanded={expand ? 'true' : 'false'}
+          className={expand ? 'accordion-button' : 'collapsed'}
+        >
           {heading}
         </button>
       </div>
@@ -28,7 +35,8 @@ export default function Accordion({ no, body, heading, expand, type }: Accordion
         id={`collapse${no}`}
         aria-labelledby={`heading${no}`}
         data-bs-parent="#accordionExample"
-        className={clsx({ "accordion-collapse collapse": true, show: expand })}>
+        className={clsx({ 'accordion-collapse collapse': true, show: expand })}
+      >
         <div className="card-body">
           <p>{body}</p>
         </div>

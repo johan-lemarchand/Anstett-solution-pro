@@ -5,7 +5,7 @@ const clientList = [
   '/img/brands/c3.png',
   '/img/brands/c4.png',
   '/img/brands/c5.png',
-  '/img/brands/c6.png'
+  '/img/brands/c6.png',
 ];
 
 // used in the client-4, client-5 block
@@ -17,7 +17,7 @@ const clientList2 = [
   '/img/brands/z5.png',
   '/img/brands/z6.png',
   '/img/brands/z7.png',
-  '/img/brands/z8.png'
+  '/img/brands/z8.png',
 ];
 
 export { clientList, clientList2 };

@@ -1,11 +1,11 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import LoginForm from "app/sandbox/components/elements/forms/LoginForm";
+import Breadcrumb from '@sandbox/components/reuseable/Breadcrumb';
+import LoginForm from '@sandbox/components/elements/forms/LoginForm';
 // CUSTOM DATA
 const breadcrumb = [
-  { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "Connexion", url: "#" }
+  { id: 1, title: 'Home', url: '/' },
+  { id: 2, title: 'Connexion', url: '#' },
 ];
 
 export default function Login() {
@@ -32,7 +32,7 @@ export default function Login() {
                 <div className="row gx-0 text-center">
                   <div
                     className="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start d-none d-md-block"
-                    style={{ backgroundImage: "url(/img/photos/tm3.jpg)" }}
+                    style={{ backgroundImage: 'url(/img/photos/tm3.jpg)' }}
                   />
 
                   <div className="col-lg-6">

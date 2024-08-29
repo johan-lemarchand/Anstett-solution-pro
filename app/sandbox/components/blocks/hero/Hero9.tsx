@@ -1,17 +1,21 @@
-"use client";
+'use client';
 
-import Typewriter from "typewriter-effect";
+import Typewriter from 'typewriter-effect';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM UTILS
-import { slideInDownAnimate, zoomInAnimate } from "app/sandbox/utils/animation";
+import { slideInDownAnimate, zoomInAnimate } from '@sandbox/utils/animation';
 
 export default function Hero9() {
   // typewriter options
   const OPTIONS = {
     loop: true,
     autoStart: true,
-    strings: ["simplicité d'utilisation", "transactions rapides", "paiements sécurisés"]
+    strings: [
+      "simplicité d'utilisation",
+      'transactions rapides',
+      'paiements sécurisés',
+    ],
   };
 
   return (
@@ -19,24 +23,36 @@ export default function Hero9() {
       <div className="container pt-10 pb-12 pt-md-14 pb-md-17">
         <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0">
-            <h1 className="display-1 mb-5 mx-md-10 mx-lg-0" style={slideInDownAnimate("600ms")}>
-              Anstett Solutions Pro,
-              des projets puissants avec <br />
+            <h1
+              className="display-1 mb-5 mx-md-10 mx-lg-0"
+              style={slideInDownAnimate('600ms')}
+            >
+              Anstett Solutions Pro, des projets puissants avec <br />
               <span className="typer text-primary text-nowrap">
                 <Typewriter options={OPTIONS} />
               </span>
             </h1>
 
-            <p className="lead fs-lg mb-7" style={slideInDownAnimate("900ms")}>
-            Atteignez vos objectifs d’épargne. Vos dépenses, revenus récurrents et ponctuels en un seul endroit.</p>
+            <p className="lead fs-lg mb-7" style={slideInDownAnimate('900ms')}>
+              Atteignez vos objectifs d’épargne. Vos dépenses, revenus
+              récurrents et ponctuels en un seul endroit.
+            </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
-              <span style={slideInDownAnimate("1200ms")}>
-                <NextLink title="Commencer" href="#" className="btn btn-lg btn-primary rounded me-2" />
+              <span style={slideInDownAnimate('1200ms')}>
+                <NextLink
+                  title="Commencer"
+                  href="#"
+                  className="btn btn-lg btn-primary rounded me-2"
+                />
               </span>
 
-              <span style={slideInDownAnimate("1500ms")}>
-                <NextLink title="Essai gratuit" href="#" className="btn btn-lg btn-green rounded" />
+              <span style={slideInDownAnimate('1500ms')}>
+                <NextLink
+                  title="Essai gratuit"
+                  href="#"
+                  className="btn btn-lg btn-green rounded"
+                />
               </span>
             </div>
           </div>
@@ -44,7 +60,7 @@ export default function Hero9() {
           <div className="col-lg-7">
             <div className="row">
               <div className="col-3 offset-1 offset-lg-0 col-lg-4 d-flex flex-column">
-                <div className="ms-auto mt-auto" style={zoomInAnimate("300ms")}>
+                <div className="ms-auto mt-auto" style={zoomInAnimate('300ms')}>
                   <img
                     alt="demo"
                     src="/img/photos/sa20.jpg"
@@ -53,7 +69,10 @@ export default function Hero9() {
                   />
                 </div>
 
-                <div className="ms-auto mt-5 mb-10" style={zoomInAnimate("600ms")}>
+                <div
+                  className="ms-auto mt-5 mb-10"
+                  style={zoomInAnimate('600ms')}
+                >
                   <img
                     alt="demo"
                     src="/img/photos/sa18.jpg"
@@ -63,7 +82,7 @@ export default function Hero9() {
                 </div>
               </div>
 
-              <div className="col-4 col-lg-5" style={zoomInAnimate("0ms")}>
+              <div className="col-4 col-lg-5" style={zoomInAnimate('0ms')}>
                 <div>
                   <img
                     alt="demo"
@@ -75,7 +94,7 @@ export default function Hero9() {
               </div>
 
               <div className="col-3 d-flex flex-column">
-                <div className="mt-auto" style={zoomInAnimate("300ms")}>
+                <div className="mt-auto" style={zoomInAnimate('300ms')}>
                   <img
                     alt="demo"
                     src="/img/photos/sa21.jpg"
@@ -84,7 +103,7 @@ export default function Hero9() {
                   />
                 </div>
 
-                <div className="mt-5" style={zoomInAnimate("600ms")}>
+                <div className="mt-5" style={zoomInAnimate('600ms')}>
                   <img
                     alt="demo"
                     src="/img/photos/sa19.jpg"
@@ -93,7 +112,7 @@ export default function Hero9() {
                   />
                 </div>
 
-                <div className="mt-5 mb-10" style={zoomInAnimate("900ms")}>
+                <div className="mt-5 mb-10" style={zoomInAnimate('900ms')}>
                   <img
                     alt="demo"
                     src="/img/photos/sa17.jpg"

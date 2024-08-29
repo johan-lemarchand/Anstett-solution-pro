@@ -1,5 +1,5 @@
-import { Contact2 } from "../contact";
-import SocialLinks from "app/sandbox/components/reuseable/SocialLinks";
+import { Contact2 } from '../contact';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
 
 export default function Footer2() {
   return (
@@ -18,7 +18,8 @@ export default function Footer2() {
                 <div className="widget">
                   <h4 className="widget-title">Adresse</h4>
                   <address>
-                    26E rue de Kaltenhouse <br className="d-none d-md-block" /> 67240 Oberhoffen-Sur-Moder
+                    26E rue de Kaltenhouse <br className="d-none d-md-block" />{' '}
+                    67240 Oberhoffen-Sur-Moder
                   </address>
                 </div>
               </div>
@@ -28,7 +29,6 @@ export default function Footer2() {
                   <h4 className="widget-title">Téléphone</h4>
                   <p>
                     06 42 18 55 95 <br />
-        
                   </p>
                 </div>
               </div>
@@ -37,12 +37,18 @@ export default function Footer2() {
                 <div className="widget">
                   <h4 className="widget-title">E-mail</h4>
 
-                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                  <a
+                    href="mailto:anstett.solutions.pro@gmail.com"
+                    className="link-body"
+                  >
                     anstett.solutions.pro@gmail.com
                   </a>
                   <br className="d-none d-md-block" />
 
-                  <a href="mailto:exemple.second.mail@gmail.com" className="link-body">
+                  <a
+                    href="mailto:exemple.second.mail@gmail.com"
+                    className="link-body"
+                  >
                     exemple.second.mail@gmail.com
                   </a>
                 </div>

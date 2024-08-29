@@ -33,5 +33,5 @@ export {
   Portfolio14,
   Portfolio15,
   Portfolio16,
-  Portfolio17
+  Portfolio17,
 };

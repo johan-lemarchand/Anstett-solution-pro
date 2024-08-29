@@ -113,4 +113,9 @@ const themeProviderMarkup = `<html lang="en">
 </html>
 `;
 
-export { textColorMarkup, themeColorMarkup, bgColorMarkup, themeProviderMarkup };
+export {
+  textColorMarkup,
+  themeColorMarkup,
+  bgColorMarkup,
+  themeProviderMarkup,
+};

@@ -1,11 +1,11 @@
-import Image from "next/image";
+import Image from 'next/image';
 // GLOBAL CUSTOM COMPONENTS
-import VideoPlyr from "app/sandbox/components/reuseable/VideoPlyr";
-import Pagination from "app/sandbox/components/reuseable/Pagination";
-import BlogSidebar from "app/sandbox/components/reuseable/BlogSidebar";
-import { BlogCard2, BlogCard3 } from "app/sandbox/components/reuseable/blog-cards";
+import VideoPlyr from '@sandbox/components/reuseable/VideoPlyr';
+import Pagination from '@sandbox/components/reuseable/Pagination';
+import BlogSidebar from '@sandbox/components/reuseable/BlogSidebar';
+import { BlogCard2, BlogCard3 } from '@sandbox/components/reuseable/blog-cards';
 // CUSTOM DATA
-import { blogList4 } from "app/sandbox/data/blog";
+import { blogList4 } from '@sandbox/data/blog';
 
 export default function Blog6() {
   return (
@@ -20,7 +20,13 @@ export default function Blog6() {
             cardTop={
               <figure className="card-img-top overlay overlay-1 hover-scale">
                 <a className="link-dark" href="#">
-                  <Image width={960} height={600} src="/img/photos/tb9.jpg" alt="blog" className="w-100 h-auto" />
+                  <Image
+                    width={960}
+                    height={600}
+                    src="/img/photos/tb9.jpg"
+                    alt="blog"
+                    className="w-100 h-auto"
+                  />
                   <span className="bg" />
                 </a>
 
@@ -40,7 +46,10 @@ export default function Blog6() {
               <div className="card-img-top">
                 <VideoPlyr
                   options={{ loadSprite: true, clickToPlay: true }}
-                  source={{ type: "video", sources: [{ src: "hxeITyt_XfU", provider: "youtube" }] }}
+                  source={{
+                    type: 'video',
+                    sources: [{ src: 'hxeITyt_XfU', provider: 'youtube' }],
+                  }}
                 />
               </div>
             }
@@ -49,7 +58,7 @@ export default function Blog6() {
 
         <div className="blog grid grid-view">
           <div className="row isotope gx-md-8 gy-8 mb-8">
-            {blogList4.map((item) => (
+            {blogList4.map(item => (
               <BlogCard3 {...item} key={item.id} />
             ))}
           </div>

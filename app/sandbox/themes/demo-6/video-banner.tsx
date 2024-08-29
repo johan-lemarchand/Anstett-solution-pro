@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useLightBox from '@sandbox/hooks/useLightBox';
 
 export default function VideoBanner() {
   // used for lightbox modal
@@ -12,12 +12,22 @@ export default function VideoBanner() {
         data-glightbox
         href="/media/movie.mp4"
         className="btn btn-circle btn-primary btn-play ripple mx-auto mb-5 position-absolute"
-        style={{ zIndex: 3, top: "50%", left: "50%", transform: "translate(-50%,-50%)" }}>
+        style={{
+          zIndex: 3,
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%,-50%)',
+        }}
+      >
         <i className="icn-caret-right" />
       </a>
 
       <figure className="rounded shadow">
-        <img src="/img/photos/v1.jpg" srcSet="/img/photos/v1@2x.jpg 2x" alt="" />
+        <img
+          src="/img/photos/v1.jpg"
+          srcSet="/img/photos/v1@2x.jpg 2x"
+          alt=""
+        />
       </figure>
     </div>
   );

@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link';
 // CUSTOM DATA
-import { serviceList14 } from "app/sandbox/data/service";
+import { serviceList14 } from '@sandbox/data/service';
 
 export default function Services26() {
   return (
@@ -10,8 +10,9 @@ export default function Services26() {
           <div className="col-lg-12 col-xl-10 col-xxl-7 mx-auto text-center">
             <i className="icn-flower text-leaf fs-30 opacity-25" />
             <h2 className="display-5 text-center mt-2 mb-10">
-            J’adore photographier les mariages et les couples parce qu’il y a tellement de sentiments à capturer.
-          </h2>
+              J’adore photographier les mariages et les couples parce qu’il y a
+              tellement de sentiments à capturer.
+            </h2>
           </div>
         </div>
 
@@ -21,7 +22,12 @@ export default function Services26() {
               <div className="card shadow-lg">
                 <figure className="card-img-top overlay overlay-1">
                   <Link href={url}>
-                    <img className="img-fluid" src={image["1x"]} srcSet={image["2x"]} alt="" />
+                    <img
+                      className="img-fluid"
+                      src={image['1x']}
+                      srcSet={image['2x']}
+                      alt=""
+                    />
                     <span className="bg" />
                   </Link>
 

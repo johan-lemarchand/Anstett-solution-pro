@@ -1,5 +1,5 @@
-import clsx from "clsx";
-import { useEffect, useState } from "react";
+import clsx from 'clsx';
+import { useEffect, useState } from 'react';
 
 export default function NewsletterModal() {
   const [show, setShow] = useState(false);
@@ -10,19 +10,29 @@ export default function NewsletterModal() {
     <div
       id="modal-02"
       tabIndex={-1}
-      role={show ? "dialog" : undefined}
+      role={show ? 'dialog' : undefined}
       aria-modal="true"
-      className={clsx({ "modal fade modal-popup": true, show: show })}
-      style={show ? { display: "block", paddingLeft: 0 } : { display: "none" }}>
+      className={clsx({ 'modal fade modal-popup': true, show: show })}
+      style={show ? { display: 'block', paddingLeft: 0 } : { display: 'none' }}
+    >
       <div className="modal-dialog modal-dialog-centered modal-md">
         <div className="modal-content text-center">
           <div className="modal-body">
-            <button className="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={() => setShow(false)} />
+            <button
+              className="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+              onClick={() => setShow(false)}
+            />
 
             <div className="row">
               <div className="col-md-10 offset-md-1">
                 <figure className="mb-6">
-                  <img src="/img/illustrations/i7.png" srcSet="/img/illustrations/i7@2x.png 2x" alt="" />
+                  <img
+                    src="/img/illustrations/i7.png"
+                    srcSet="/img/illustrations/i7@2x.png 2x"
+                    alt=""
+                  />
                 </figure>
               </div>
             </div>
@@ -30,7 +40,8 @@ export default function NewsletterModal() {
             <h3>Rejoindre la liste de diffusion et obtenir %10</h3>
 
             <p className="mb-6">
-              Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.
+              Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+              ullamcorper nulla non metus auctor fringilla.
             </p>
 
             <div className="newsletter-wrapper">
@@ -43,7 +54,8 @@ export default function NewsletterModal() {
                       id="mc-embedded-subscribe-form"
                       name="mc-embedded-subscribe-form"
                       className="validate"
-                      target="_blank">
+                      target="_blank"
+                    >
                       <div id="mc_embed_signup_scroll">
                         <div className="mc-field-group input-group form-floating">
                           <input
@@ -62,12 +74,27 @@ export default function NewsletterModal() {
                           />
                         </div>
                         <div id="mce-responses" className="clear">
-                          <div className="response" id="mce-error-response" style={{ display: "none" }} />
-                          <div className="response" id="mce-success-response" style={{ display: "none" }} />
+                          <div
+                            className="response"
+                            id="mce-error-response"
+                            style={{ display: 'none' }}
+                          />
+                          <div
+                            className="response"
+                            id="mce-success-response"
+                            style={{ display: 'none' }}
+                          />
                         </div>
 
-                        <div style={{ position: "absolute", left: -5000 }} aria-hidden="true">
-                          <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabIndex={-1} />
+                        <div
+                          style={{ position: 'absolute', left: -5000 }}
+                          aria-hidden="true"
+                        >
+                          <input
+                            type="text"
+                            name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
+                            tabIndex={-1}
+                          />
                         </div>
 
                         <div className="clear" />

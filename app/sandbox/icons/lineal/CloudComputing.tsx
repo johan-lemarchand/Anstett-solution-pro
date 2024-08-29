@@ -1,4 +1,4 @@
-import {IconProps} from '../../../types/icon';
+import { IconProps } from '../../../types/iconProps';
 
 const CloudComputing = ({ className }: IconProps) => {
   return (

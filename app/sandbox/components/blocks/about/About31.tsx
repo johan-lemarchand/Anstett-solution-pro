@@ -1,9 +1,9 @@
-import Safe from "app/sandbox/icons/solid/Safe";
-import Share from "app/sandbox/icons/solid-mono/Share";
-import Puzzle from "app/sandbox/icons/solid-mono/Puzzle";
-import PenTool from "app/sandbox/icons/solid-duo/PenTool";
-import Devices from "app/sandbox/icons/solid-mono/Devices";
-import GlobeTwo from "app/sandbox/icons/solid-mono/GlobeTwo";
+import Safe from '@sandbox/icons/solid/Safe';
+import Share from '@sandbox/icons/solid-mono/Share';
+import Puzzle from '@sandbox/icons/solid-mono/Puzzle';
+import PenTool from '@sandbox/icons/solid-duo/PenTool';
+import Devices from '@sandbox/icons/solid-mono/Devices';
+import GlobeTwo from '@sandbox/icons/solid-mono/GlobeTwo';
 
 export default function About31() {
   return (
@@ -12,8 +12,8 @@ export default function About31() {
         <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
           <h2 className="display-2 mb-4">En quoi sommes-nous différents ?</h2>
           <p className="lead fs-lg mb-11">
-            Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non
-            magna.
+            Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed
+            diam eget risus varius blandit sit amet non magna.
           </p>
         </div>
       </div>
@@ -23,7 +23,10 @@ export default function About31() {
 
         <div className="col-lg-4 ms-auto">
           <h2 className="display-5 mb-2 mt-xxl-n10">Design</h2>
-          <p className="mb-8">Maecenas sed diam eget risus varius blandit sit amet non magna justo sit amet risus.</p>
+          <p className="mb-8">
+            Maecenas sed diam eget risus varius blandit sit amet non magna justo
+            sit amet risus.
+          </p>
 
           <ListItem Icon={Puzzle} title="UI/UX Design" />
           <ListItem Icon={PenTool} title="Design System" />
@@ -36,7 +39,10 @@ export default function About31() {
 
         <div className="col-lg-4 me-auto">
           <h2 className="display-5 mb-2 mt-xxl-n10">Développement</h2>
-          <p className="mb-8">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh fermentum.</p>
+          <p className="mb-8">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+            nibh fermentum.
+          </p>
 
           <ListItem Icon={Devices} title="Responsive Website" />
           <ListItem Icon={Safe} title="Backup and Updates" />
@@ -48,12 +54,12 @@ export default function About31() {
 }
 
 const style = {
-  top: "50%",
+  top: '50%',
   zIndex: -1,
-  left: "50%",
-  width: "140%",
-  height: "auto",
-  transform: "translate(-50%,-50%)"
+  left: '50%',
+  width: '140%',
+  height: 'auto',
+  transform: 'translate(-50%,-50%)',
 };
 
 // ==============================================================
@@ -62,7 +68,7 @@ type ListItemProps = { Icon: any; title: string; last?: boolean };
 
 const ListItem = ({ Icon, title, last }: ListItemProps) => {
   return (
-    <div className={last ? "d-flex flex-row" : "d-flex flex-row mb-6"}>
+    <div className={last ? 'd-flex flex-row' : 'd-flex flex-row mb-6'}>
       <div>
         <div className="svg-bg bg-white rounded-xl shadow-xl me-5">
           <Icon className="solid-duo text-grape-fuchsia" />
@@ -71,7 +77,10 @@ const ListItem = ({ Icon, title, last }: ListItemProps) => {
 
       <div>
         <h4 className="mb-1">{title}</h4>
-        <p className="mb-0">Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et.</p>
+        <p className="mb-0">
+          Nulla vitae elit libero, a pharetra augue. Cum sociis natoque
+          penatibus et.
+        </p>
       </div>
     </div>
   );
@@ -85,7 +94,11 @@ const Box = ({ image, className }: { image: string; className: string }) => {
       </div>
 
       <figure>
-        <img src={`/img/photos/${image}.png`} srcSet={`/img/photos/${image}@2x.png 2x`} alt="" />
+        <img
+          src={`/img/photos/${image}.png`}
+          srcSet={`/img/photos/${image}@2x.png 2x`}
+          alt=""
+        />
       </figure>
     </div>
   );

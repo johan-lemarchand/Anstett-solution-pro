@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 // language list
-const supportLanguage = ["Fr","En", "Bn", "Es", "De"];
+const supportLanguage = ['Fr', 'En', 'Bn', 'Es', 'De'];
 
 export default function Language() {
   const [language, setLanguage] = useState(supportLanguage[0]);
@@ -13,12 +13,13 @@ export default function Language() {
         aria-haspopup="true"
         aria-expanded="false"
         data-bs-toggle="dropdown"
-        className="nav-link dropdown-item dropdown-toggle">
+        className="nav-link dropdown-item dropdown-toggle"
+      >
         {language}
       </a>
 
       <ul className="dropdown-menu">
-        {supportLanguage.map((lang) => (
+        {supportLanguage.map(lang => (
           <li className="nav-item" key={lang}>
             <button className="dropdown-item" onClick={() => setLanguage(lang)}>
               {lang}

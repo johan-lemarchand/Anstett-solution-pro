@@ -1,11 +1,11 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Select from "app/sandbox/components/reuseable/Select";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { JobPostCard2 } from "app/sandbox/components/reuseable/job-cards";
-import { ServiceCard3 } from "app/sandbox/components/reuseable/service-cards";
+import Select from '@sandbox/components/reuseable/Select';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { JobPostCard2 } from '@sandbox/components/reuseable/job-cards';
+import { ServiceCard3 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import data from "app/sandbox/data/career-page-2";
+import data from '@sandbox/data/career-page-2';
 
 export default function CareerTwo() {
   return (
@@ -15,9 +15,17 @@ export default function CareerTwo() {
         <div className="container pt-10 pb-17 pt-md-14 text-center">
           <div className="row">
             <div className="col-lg-8 mx-auto mb-5">
-              <h2 className="fs-15 text-uppercase text-muted mb-3">Rejoindre notre équipe</h2>
-              <h3 className="display-1 mb-6">Rejoignez notre équipe pour façonner l’avenir du développement.</h3>
-              <NextLink title="Explorer les offres" href="#" className="btn btn-lg btn-primary rounded-pill" />
+              <h2 className="fs-15 text-uppercase text-muted mb-3">
+                Rejoindre notre équipe
+              </h2>
+              <h3 className="display-1 mb-6">
+                Rejoignez notre équipe pour façonner l’avenir du développement.
+              </h3>
+              <NextLink
+                title="Explorer les offres"
+                href="#"
+                className="btn btn-lg btn-primary rounded-pill"
+              />
             </div>
           </div>
         </div>
@@ -25,7 +33,10 @@ export default function CareerTwo() {
         <div className="overflow-hidden">
           <div className="divider text-light mx-n2">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60">
-              <path fill="currentColor" d="M0,0V60H1440V0A5771,5771,0,0,1,0,0Z" />
+              <path
+                fill="currentColor"
+                d="M0,0V60H1440V0A5771,5771,0,0,1,0,0Z"
+              />
             </svg>
           </div>
         </div>
@@ -54,31 +65,50 @@ export default function CareerTwo() {
               <div className="row gx-md-5 gy-5">
                 <div className="col-12">
                   <figure className="rounded mx-md-5">
-                    <img src="/img/photos/g8.jpg" srcSet="/img/photos/g8@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/g8.jpg"
+                      srcSet="/img/photos/g8@2x.jpg 2x"
+                      alt=""
+                    />
                   </figure>
                 </div>
 
                 <div className="col-md-6">
                   <figure className="rounded">
-                    <img src="/img/photos/g9.jpg" srcSet="/img/photos/g9@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/g9.jpg"
+                      srcSet="/img/photos/g9@2x.jpg 2x"
+                      alt=""
+                    />
                   </figure>
                 </div>
 
                 <div className="col-md-6">
                   <figure className="rounded">
-                    <img src="/img/photos/g10.jpg" srcSet="/img/photos/g10@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/g10.jpg"
+                      srcSet="/img/photos/g10@2x.jpg 2x"
+                      alt=""
+                    />
                   </figure>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-6">
-              <h2 className="fs-16 text-uppercase text-muted mb-3 mt-md-n5">En quoi sommes-nous différents ?</h2>
-              <h3 className="display-3 mb-5">Nous apportons des solutions pour faciliter la vie de nos clients.</h3>
+              <h2 className="fs-16 text-uppercase text-muted mb-3 mt-md-n5">
+                En quoi sommes-nous différents ?
+              </h2>
+              <h3 className="display-3 mb-5">
+                Nous apportons des solutions pour faciliter la vie de nos
+                clients.
+              </h3>
               <p className="mb-6">
-                Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient
-                montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada
-                magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed.
+                Etiam porta sem malesuada magna mollis euismod. Cum sociis
+                natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus. Nulla vitae elit libero, a pharetra augue. Etiam
+                porta sem malesuada magna mollis euismod. Cras justo odio,
+                dapibus ac facilisis in, egestas eget quam. Maecenas sed.
               </p>
 
               <div className="row gy-8">
@@ -96,9 +126,13 @@ export default function CareerTwo() {
           {/* ========== job position section ========== */}
           <div className="row text-center">
             <div className="col-xl-10 mx-auto">
-              <h2 className="fs-15 text-uppercase text-muted mb-3">Offres d'emploi</h2>
+              <h2 className="fs-15 text-uppercase text-muted mb-3">
+                Offres d'emploi
+              </h2>
               <h3 className="display-4 mb-10 px-xxl-15">
-              Nous sommes toujours à la recherche de personnes formidables pour rejoindre notre équipe. Jetez un coup d’œil aux postes vacants.
+                Nous sommes toujours à la recherche de personnes formidables
+                pour rejoindre notre équipe. Jetez un coup d’œil aux postes
+                vacants.
               </h3>
             </div>
           </div>
@@ -124,7 +158,7 @@ export default function CareerTwo() {
               <div className="job-list mb-10">
                 <h3 className="mb-4">Design</h3>
 
-                {data.designJobList.map((item) => (
+                {data.designJobList.map(item => (
                   <JobPostCard2 {...item} key={item.id} />
                 ))}
               </div>
@@ -132,7 +166,7 @@ export default function CareerTwo() {
               <div className="job-list">
                 <h3 className="mb-4">Development</h3>
 
-                {data.developmentJobList.map((item) => (
+                {data.developmentJobList.map(item => (
                   <JobPostCard2 {...item} key={item.id} />
                 ))}
               </div>
@@ -146,11 +180,18 @@ export default function CareerTwo() {
         <div className="container py-14 py-md-16">
           <div className="row">
             <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center">
-              <h2 className="fs-15 text-uppercase text-muted mb-3">Vous ne trouvez pas la bonne offre?</h2>
+              <h2 className="fs-15 text-uppercase text-muted mb-3">
+                Vous ne trouvez pas la bonne offre?
+              </h2>
               <h3 className="display-4 mb-7 px-lg-5 px-xl-0 px-xxl-5">
-              Nous sommes une communauté de plus de 5000 membres. Rejoignez-nous et construisez l’avenir avec nous.
+                Nous sommes une communauté de plus de 5000 membres.
+                Rejoignez-nous et construisez l’avenir avec nous.
               </h3>
-              <NextLink title="Contactez-nous" href="#" className="btn btn-lg btn-primary rounded-pill" />
+              <NextLink
+                title="Contactez-nous"
+                href="#"
+                className="btn btn-lg btn-primary rounded-pill"
+              />
             </div>
           </div>
         </div>

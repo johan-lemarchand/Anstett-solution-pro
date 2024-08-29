@@ -7,20 +7,25 @@ export default function Hero31() {
             data-delay="500"
             data-cues="slideInDown"
             data-group="page-title"
-            className="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+            className="col-lg-9 col-xl-8 col-xxl-7 mx-auto"
+          >
             <h1 className="display-1 ls-sm fs-64 mb-4 px-md-8 px-lg-0">
-              Nous apportons des solutions rapides pour votre{" "}
+              Nous apportons des solutions rapides pour votre{' '}
               <span className="underline-3 style-1 primary">
                 <em>entreprise</em>
               </span>
             </h1>
 
             <p className="lead fs-24 lh-sm mb-7">
-            Nous sommes une entreprise innovante qui privilégie la qualité de ses services et s'engage à bâtir des relations durables avec ses clients.
+              Nous sommes une entreprise innovante qui privilégie la qualité de
+              ses services et s'engage à bâtir des relations durables avec ses
+              clients.
             </p>
 
             <div>
-              <a className="btn btn-lg btn-primary rounded mb-10 mb-xxl-5">Voir les projets</a>
+              <a className="btn btn-lg btn-primary rounded mb-10 mb-xxl-5">
+                Voir les projets
+              </a>
             </div>
           </div>
         </div>
@@ -42,7 +47,10 @@ export default function Hero31() {
       <div className="overflow-hidden">
         <div className="divider text-soft-primary mx-n2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70">
-            <path fill="currentColor" d="M1440,70H0V45.16a5762.49,5762.49,0,0,1,1440,0Z" />
+            <path
+              fill="currentColor"
+              d="M1440,70H0V45.16a5762.49,5762.49,0,0,1,1440,0Z"
+            />
           </svg>
         </div>
       </div>

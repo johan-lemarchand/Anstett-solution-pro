@@ -1,7 +1,7 @@
-import { Fragment } from "react";
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import { Fragment } from 'react';
+import Carousel from '@sandbox/components/reuseable/Carousel';
 // CUSTOM DATA
-import { testimonials } from "app/sandbox/data/demo-32";
+import { testimonials } from '@sandbox/data/demo-32';
 
 export default function Testimonial26() {
   return (
@@ -13,26 +13,28 @@ export default function Testimonial26() {
               <div className="col-xxl-9 mx-auto">
                 <div className="swiper-container dots-closer mb-6">
                   <Carousel navigation={false} slidesPerView={1}>
-                    {testimonials.map(({ designation, id, name, review, image }) => (
-                      <Fragment key={id}>
-                        <span className="ratings five mb-3" />
-                        <blockquote className="border-0 fs-lg mb-2">
-                          <p>“{review}”</p>
-                          <div className="blockquote-details justify-content-center">
-                            <img
-                              className="rounded-circle w-12"
-                              src={`/img/avatars/${image}.jpg`}
-                              srcSet={`/img/avatars/${image}@2x.jpg 2x`}
-                              alt=""
-                            />
-                            <div className="info">
-                              <h5 className="mb-1">{name}</h5>
-                              <p className="mb-0">{designation}</p>
+                    {testimonials.map(
+                      ({ designation, id, name, review, image }) => (
+                        <Fragment key={id}>
+                          <span className="ratings five mb-3" />
+                          <blockquote className="border-0 fs-lg mb-2">
+                            <p>“{review}”</p>
+                            <div className="blockquote-details justify-content-center">
+                              <img
+                                className="rounded-circle w-12"
+                                src={`/img/avatars/${image}.jpg`}
+                                srcSet={`/img/avatars/${image}@2x.jpg 2x`}
+                                alt=""
+                              />
+                              <div className="info">
+                                <h5 className="mb-1">{name}</h5>
+                                <p className="mb-0">{designation}</p>
+                              </div>
                             </div>
-                          </div>
-                        </blockquote>
-                      </Fragment>
-                    ))}
+                          </blockquote>
+                        </Fragment>
+                      )
+                    )}
                   </Carousel>
                 </div>
               </div>

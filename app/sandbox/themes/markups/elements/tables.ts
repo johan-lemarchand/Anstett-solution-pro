@@ -66,5 +66,5 @@ export {
   hoverableMarkup,
   simpleDarkMarkup,
   borderlessMarkup,
-  responsiveMarkup
+  responsiveMarkup,
 };

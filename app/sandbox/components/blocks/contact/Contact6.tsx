@@ -1,4 +1,4 @@
-import IconBox from "app/sandbox/components/reuseable/IconBox";
+import IconBox from '@sandbox/components/reuseable/IconBox';
 
 export default function Contact6() {
   return (
@@ -17,7 +17,9 @@ export default function Contact6() {
           </div>
 
           <div className="col-lg-5">
-            <h3 className="display-4 mb-7">Vous avez des questions? N’hésitez pas à nous contacter.</h3>
+            <h3 className="display-4 mb-7">
+              Vous avez des questions? N’hésitez pas à nous contacter.
+            </h3>
             <div className="d-flex flex-row">
               <div>
                 <IconBox
@@ -34,7 +36,10 @@ export default function Contact6() {
 
             <div className="d-flex flex-row">
               <div>
-                <IconBox className="icon text-primary fs-28 me-4 mt-n1" icon="uil-phone-volume" />
+                <IconBox
+                  className="icon text-primary fs-28 me-4 mt-n1"
+                  icon="uil-phone-volume"
+                />
               </div>
 
               <div>
@@ -45,13 +50,19 @@ export default function Contact6() {
 
             <div className="d-flex flex-row">
               <div>
-                <IconBox className="icon text-primary fs-28 me-4 mt-n1" icon="uil-envelope" />
+                <IconBox
+                  className="icon text-primary fs-28 me-4 mt-n1"
+                  icon="uil-envelope"
+                />
               </div>
 
               <div>
                 <h5 className="mb-1">E-mail</h5>
                 <p className="mb-0">
-                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                  <a
+                    href="mailto:anstett.solutions.pro@gmail.com"
+                    className="link-body"
+                  >
                     anstett.solutions.pro@gmail.com
                   </a>
                 </p>

@@ -23,8 +23,8 @@ const navigations = [
       { id: 13, title: 'Demo 3', url: '/demo-3' },
       { id: 14, title: 'Demo 4', url: '/demo-4' },
       { id: 15, title: 'Demo 5', url: '/demo-5' },
-      { id: 16, title: 'Demo 6', url: '/demo-6' }
-    ]
+      { id: 16, title: 'Demo 6', url: '/demo-6' },
+    ],
   },
   {
     id: 2,
@@ -37,8 +37,8 @@ const navigations = [
         title: 'Services',
         children: [
           { id: 211, title: 'Services I', url: '/services-1' },
-          { id: 212, title: 'Services II', url: '/services-2' }
-        ]
+          { id: 212, title: 'Services II', url: '/services-2' },
+        ],
       },
       {
         id: 22,
@@ -46,8 +46,8 @@ const navigations = [
         title: 'About',
         children: [
           { id: 221, title: 'About I', url: '/about-1' },
-          { id: 222, title: 'About II', url: '/about-2' }
-        ]
+          { id: 222, title: 'About II', url: '/about-2' },
+        ],
       },
       {
         id: 23,
@@ -58,8 +58,8 @@ const navigations = [
           { id: 232, title: 'Shop II', url: '/shop-2' },
           { id: 233, title: 'Product Page', url: '/products/1' },
           { id: 234, title: 'Shopping Cart', url: '/cart' },
-          { id: 235, title: 'Checkout', url: '/checkout' }
-        ]
+          { id: 235, title: 'Checkout', url: '/checkout' },
+        ],
       },
       {
         id: 24,
@@ -68,8 +68,8 @@ const navigations = [
         children: [
           { id: 241, title: 'Contact I', url: '/contact-1' },
           { id: 242, title: 'Contact II', url: '/contact-2' },
-          { id: 243, title: 'Contact III', url: '/contact-3' }
-        ]
+          { id: 243, title: 'Contact III', url: '/contact-3' },
+        ],
       },
       {
         id: 25,
@@ -78,8 +78,8 @@ const navigations = [
         children: [
           { id: 251, title: 'Job Listing I', url: '/career-1' },
           { id: 252, title: 'Job Listing II', url: '/career-2' },
-          { id: 253, title: 'Job Description', url: '/jobs/1' }
-        ]
+          { id: 253, title: 'Job Description', url: '/jobs/1' },
+        ],
       },
       {
         id: 26,
@@ -91,11 +91,11 @@ const navigations = [
           { id: 263, title: 'Login II', url: '/login-2' },
           { id: 264, title: 'Register I', url: '/register-1' },
           { id: 265, title: 'Register II', url: '/register-2' },
-          { id: 266, title: 'Terms & Condition', url: '/terms' }
-        ]
+          { id: 266, title: 'Terms & Condition', url: '/terms' },
+        ],
       },
-      { id: 27, title: 'Pricing', url: '/pricing' }
-    ]
+      { id: 27, title: 'Pricing', url: '/pricing' },
+    ],
   },
   {
     id: 3,
@@ -108,8 +108,8 @@ const navigations = [
           { id: 31, title: 'Project I', url: '/projects-1' },
           { id: 32, title: 'Project II', url: '/projects-2' },
           { id: 33, title: 'Project III', url: '/projects-3' },
-          { id: 34, title: 'Project IV', url: '/projects-4' }
-        ]
+          { id: 34, title: 'Project IV', url: '/projects-4' },
+        ],
       },
       col2: {
         title: 'SINGLE PROJECTS',
@@ -117,10 +117,10 @@ const navigations = [
           { id: 31, title: 'Single Project I', url: '/single-project-1' },
           { id: 32, title: 'Single Project II', url: '/single-project-2' },
           { id: 33, title: 'Single Project III', url: '/single-project-3' },
-          { id: 34, title: 'Single Project VI', url: '/single-project-4' }
-        ]
-      }
-    }
+          { id: 34, title: 'Single Project VI', url: '/single-project-4' },
+        ],
+      },
+    },
   },
   {
     id: 4,
@@ -137,11 +137,11 @@ const navigations = [
         children: [
           { id: 441, title: 'Post without Sidebar', url: '/blog-details-1' },
           { id: 442, title: 'Post with Sidebar', url: '/blog-details-2' },
-          { id: 443, title: 'Post with Left Sidebar', url: '/blog-details-3' }
-        ]
-      }
-    ]
-  }
+          { id: 443, title: 'Post with Left Sidebar', url: '/blog-details-3' },
+        ],
+      },
+    ],
+  },
 ];
 
 export default navigations;

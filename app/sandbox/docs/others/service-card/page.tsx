@@ -1,8 +1,12 @@
-import IconBox from "app/sandbox/components/reuseable/IconBox";
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
-import { ServiceCard3, ServiceCard4, ServiceCard5 } from "app/sandbox/components/reuseable/service-cards";
+import IconBox from '@sandbox/components/reuseable/IconBox';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
+import {
+  ServiceCard3,
+  ServiceCard4,
+  ServiceCard5,
+} from '@sandbox/components/reuseable/service-cards';
 // MARKUPS
 import {
   card1Markup,
@@ -10,18 +14,22 @@ import {
   card3Markup,
   card4Markup,
   card5Markup,
-  card6Markup
-} from "app/sandbox/themes/markups/others/service-cards";
+  card6Markup,
+} from '@sandbox/themes/markups/others/service-cards';
 // CUSTOM DATA
-import data from "app/sandbox/data/career-page-1";
-import { serviceList1, serviceList2, serviceList7 } from "app/sandbox/data/service";
+import data from '@sandbox/data/career-page-1';
+import {
+  serviceList1,
+  serviceList2,
+  serviceList7,
+} from '@sandbox/data/service';
 const quickAccess = [
-  { title: "Service Card 1", url: "snippet-1" },
-  { title: "Service Card 2", url: "snippet-2" },
-  { title: "Service Card 3", url: "snippet-3" },
-  { title: "Service Card 4", url: "snippet-4" },
-  { title: "Service Card 5", url: "snippet-5" },
-  { title: "Service Card 6", url: "snippet-6" }
+  { title: 'Service Card 1', url: 'snippet-1' },
+  { title: 'Service Card 2', url: 'snippet-2' },
+  { title: 'Service Card 3', url: 'snippet-3' },
+  { title: 'Service Card 4', url: 'snippet-4' },
+  { title: 'Service Card 5', url: 'snippet-5' },
+  { title: 'Service Card 6', url: 'snippet-6' },
 ];
 
 export default function ServiceCards() {
@@ -30,7 +38,8 @@ export default function ServiceCards() {
       pageTitle="Service Cards"
       quickAccessLinks={quickAccess}
       headingColClass="col-md-9 col-lg-7 col-xl-5 mx-auto"
-      description="Use our custom service card components to build any custom section or blocks">
+      description="Use our custom service card components to build any custom section or blocks"
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-3">Service Card 1</h2>
@@ -38,28 +47,43 @@ export default function ServiceCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gx-md-5 gy-5 text-center">
-              {serviceList1.slice(0, 2).map(({ id, icon: Icon, title, description, link, linkType }) => (
-                <div className="col-lg-6" key={id}>
-                  <div className="card shadow-lg">
-                    <div className="card-body">
-                      <Icon />
-                      <h4>{title}</h4>
-                      <p className="mb-2">{description}</p>
-                      <NextLink title="En savoir plus" href={link} className={`more hover link-${linkType}`} />
+              {serviceList1
+                .slice(0, 2)
+                .map(
+                  ({ id, icon: Icon, title, description, link, linkType }) => (
+                    <div className="col-lg-6" key={id}>
+                      <div className="card shadow-lg">
+                        <div className="card-body">
+                          <Icon />
+                          <h4>{title}</h4>
+                          <p className="mb-2">{description}</p>
+                          <NextLink
+                            title="En savoir plus"
+                            href={link}
+                            className={`more hover link-${linkType}`}
+                          />
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              ))}
+                  )
+                )}
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card1Markup}</CodeHighlight>
@@ -76,24 +100,40 @@ export default function ServiceCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gx-md-8 gy-8 text-center">
-              {serviceList2.slice(0, 2).map(({ id, description, icon, linkUrl, title }) => (
-                <div className="col-md-6" key={id}>
-                  <IconBox icon={icon} className="icon btn btn-circle btn-lg btn-primary pe-none mb-5" />
-                  <h4>{title}</h4>
-                  <p className="mb-3">{description}</p>
-                  <NextLink title="En savoir plus" href={linkUrl} className="more hover" />
-                </div>
-              ))}
+              {serviceList2
+                .slice(0, 2)
+                .map(({ id, description, icon, linkUrl, title }) => (
+                  <div className="col-md-6" key={id}>
+                    <IconBox
+                      icon={icon}
+                      className="icon btn btn-circle btn-lg btn-primary pe-none mb-5"
+                    />
+                    <h4>{title}</h4>
+                    <p className="mb-3">{description}</p>
+                    <NextLink
+                      title="En savoir plus"
+                      href={linkUrl}
+                      className="more hover"
+                    />
+                  </div>
+                ))}
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card2Markup}</CodeHighlight>
@@ -112,19 +152,31 @@ export default function ServiceCards() {
             <div className="row gy-8">
               {data.facilities.slice(0, 2).map(({ Icon, id, ...item }) => (
                 <div className="col-md-6" key={id}>
-                  <ServiceCard3 {...item} Icon={<Icon className="icon-svg-sm solid-mono text-primary me-4" />} />
+                  <ServiceCard3
+                    {...item}
+                    Icon={
+                      <Icon className="icon-svg-sm solid-mono text-primary me-4" />
+                    }
+                  />
                 </div>
               ))}
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card3Markup}</CodeHighlight>
@@ -142,18 +194,29 @@ export default function ServiceCards() {
           <div className="card-body mb-n2">
             <div className="row gy-5">
               {serviceList7.map(({ id, Icon, color, ...item }) => (
-                <ServiceCard4 key={id} Icon={<Icon className={`icon-svg-md text-${color} mb-3`} />} {...item} />
+                <ServiceCard4
+                  key={id}
+                  Icon={<Icon className={`icon-svg-md text-${color} mb-3`} />}
+                  {...item}
+                />
               ))}
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-4">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-4"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-4" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-4"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card4Markup}</CodeHighlight>
@@ -182,12 +245,19 @@ export default function ServiceCards() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-5">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-5"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-5" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-5"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card5Markup}</CodeHighlight>
@@ -204,14 +274,21 @@ export default function ServiceCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gy-5 text-center">
-              {serviceList2.slice(0, 2).map((item) => (
+              {serviceList2.slice(0, 2).map(item => (
                 <div className="col-lg-6" key={item.id}>
                   <div className="card">
                     <div className="card-body">
-                      <IconBox icon={item.icon} className="icon btn btn-circle btn-lg btn-primary pe-none mb-5" />
+                      <IconBox
+                        icon={item.icon}
+                        className="icon btn btn-circle btn-lg btn-primary pe-none mb-5"
+                      />
                       <h4>{item.title}</h4>
                       <p className="mb-3">{item.description}</p>
-                      <NextLink title="En savoir plus" href={item.linkUrl} className="more hover" />
+                      <NextLink
+                        title="En savoir plus"
+                        href={item.linkUrl}
+                        className="more hover"
+                      />
                     </div>
                   </div>
                 </div>
@@ -220,12 +297,19 @@ export default function ServiceCards() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-6">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-6"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-6" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-6"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{card6Markup}</CodeHighlight>

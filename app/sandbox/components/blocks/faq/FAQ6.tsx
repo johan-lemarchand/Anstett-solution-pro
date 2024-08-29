@@ -1,7 +1,7 @@
-import Accordion from "app/sandbox/components/reuseable/accordion";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import Accordion from '@sandbox/components/reuseable/accordion';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { accordionList3 } from "app/sandbox/data/faq";
+import { accordionList3 } from '@sandbox/data/faq';
 
 export default function FAQ6() {
   return (
@@ -11,18 +11,24 @@ export default function FAQ6() {
           <div className="col-lg-6 mb-0">
             <h2 className="fs-16 text-uppercase text-primary mb-4">FAQ</h2>
             <h3 className="display-3 mb-4">
-              Si vous ne voyez pas de réponse à votre question, vous pouvez nous envoyer un email depuis notre formulaire de contact.
+              Si vous ne voyez pas de réponse à votre question, vous pouvez nous
+              envoyer un email depuis notre formulaire de contact.
             </h3>
             <p className="mb-6">
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam
-              quis risus eget urna mollis ornare.
+              Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+              eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis
+              ornare.
             </p>
-            <NextLink title="Toutes les questions" href="#" className="btn btn-primary rounded-pill" />
+            <NextLink
+              title="Toutes les questions"
+              href="#"
+              className="btn btn-primary rounded-pill"
+            />
           </div>
 
           <div className="col-lg-6">
             <div className="accordion-wrapper" id="accordion">
-              {accordionList3.map((item) => (
+              {accordionList3.map(item => (
                 <Accordion type="shadow-lg" key={item.no} {...item} />
               ))}
             </div>

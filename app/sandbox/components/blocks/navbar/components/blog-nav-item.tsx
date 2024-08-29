@@ -1,10 +1,10 @@
 // GLOBAL CUSTOM COMPONENTS
-import ListItemLink from "app/sandbox/components/reuseable/links/ListItemLink";
-import DropdownToggleLink from "app/sandbox/components/reuseable/links/DropdownToggleLink";
+import ListItemLink from '@sandbox/components/reuseable/links/ListItemLink';
+import DropdownToggleLink from '@sandbox/components/reuseable/links/DropdownToggleLink';
 // LOCAL CUSTOM COMPONENTS
-import renderLinks from "./render-links";
+import renderLinks from './render-links';
 // CUSTOM DATA
-import { blogsNavigation } from "app/sandbox/data/navigation";
+import { blogsNavigation } from '@sandbox/data/navigation';
 
 export default function BlogNavItem() {
   return (
@@ -21,7 +21,14 @@ export default function BlogNavItem() {
               </li>
             );
           }
-          return <ListItemLink key={id} href={url} title={title} linkClassName="dropdown-item" />;
+          return (
+            <ListItemLink
+              key={id}
+              href={url}
+              title={title}
+              linkClassName="dropdown-item"
+            />
+          );
         })}
       </ul>
     </li>

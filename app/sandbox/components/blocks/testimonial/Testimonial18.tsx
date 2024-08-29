@@ -1,12 +1,13 @@
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import Carousel from '@sandbox/components/reuseable/Carousel';
 // CUSTOM DATA
-import { testimonialList6 } from "app/sandbox/data/testimonial-list";
+import { testimonialList6 } from '@sandbox/data/testimonial-list';
 
 export default function Testimonial18() {
   return (
     <section
       className="wrapper image-wrapper bg-image bg-overlay text-white"
-      style={{ backgroundImage: "url(/img/photos/bg32.jpg)" }}>
+      style={{ backgroundImage: 'url(/img/photos/bg32.jpg)' }}
+    >
       <div className="container py-14 py-md-17 text-center">
         <i className="icn-flower text-white fs-30 opacity-50" />
         <div className="row mt-3">

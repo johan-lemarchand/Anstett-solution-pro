@@ -1,9 +1,9 @@
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "../links/NextLink";
+import NextLink from '../links/NextLink';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from "app/sandbox/utils/currency";
+import currency from '@sandbox/utils/currency';
 
 // ======================================================================
 interface ProductCard2Props {
@@ -15,13 +15,25 @@ interface ProductCard2Props {
 }
 // ======================================================================
 
-export default function ProductCard2({ size, image, title, color, price }: ProductCard2Props) {
+export default function ProductCard2({
+  size,
+  image,
+  title,
+  color,
+  price,
+}: ProductCard2Props) {
   return (
     <div className="shopping-cart-item d-flex justify-content-between mb-4">
       <div className="d-flex flex-row d-flex align-items-center">
         <figure className="rounded w-17">
           <Link href="#">
-            <Image width={90} height={100} src={image} alt="product" className="w-100 h-auto" />
+            <Image
+              width={90}
+              height={100}
+              src={image}
+              alt="product"
+              className="w-100 h-auto"
+            />
           </Link>
         </figure>
 

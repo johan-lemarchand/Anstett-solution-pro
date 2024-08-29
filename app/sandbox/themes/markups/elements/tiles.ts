@@ -26,4 +26,14 @@ const markup9 = `import { Tiles9 } from 'components/elements/tiles'
 
 <Tiles9 />`;
 
-export { markup1, markup2, markup3, markup4, markup5, markup6, markup7, markup8, markup9 };
+export {
+  markup1,
+  markup2,
+  markup3,
+  markup4,
+  markup5,
+  markup6,
+  markup7,
+  markup8,
+  markup9,
+};

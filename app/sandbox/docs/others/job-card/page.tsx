@@ -1,15 +1,18 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import { JobPostCard2 } from "app/sandbox/components/reuseable/job-cards";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import { JobPostCard2 } from '@sandbox/components/reuseable/job-cards';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUPS
-import { job1Markup, job2Markup } from "app/sandbox/themes/markups/others/job-cards";
+import {
+  job1Markup,
+  job2Markup,
+} from '@sandbox/themes/markups/others/job-cards';
 // CUSTOM DATA
-import data from "app/sandbox/data/career-page-1";
-import dataTwo from "app/sandbox/data/career-page-2";
+import data from '@sandbox/data/career-page-1';
+import dataTwo from '@sandbox/data/career-page-2';
 
 const quickAccess = [
-  { title: "Job Card 1", url: "snippet-1" },
-  { title: "Job Card 2", url: "snippet-2" }
+  { title: 'Job Card 1', url: 'snippet-1' },
+  { title: 'Job Card 2', url: 'snippet-2' },
 ];
 
 export default function JobCards() {
@@ -18,7 +21,8 @@ export default function JobCards() {
       pageTitle="Job Cards"
       quickAccessLinks={quickAccess}
       headingColClass="col-md-9 col-lg-7 col-xl-5 mx-auto"
-      description="Use our custom job card components to build any custom section or blocks">
+      description="Use our custom job card components to build any custom section or blocks"
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-3">Job Card 1</h2>
@@ -26,18 +30,24 @@ export default function JobCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gy-6">
-              {data.jobList.slice(0, 2).map((item) => (
+              {data.jobList.slice(0, 2).map(item => (
                 <div className="col-lg-6" key={item.id}>
                   <div className="card shadow-lg lift h-100">
                     <div className="card-body p-5 d-flex flex-row">
                       <div>
-                        <span className={`avatar ${item.avatarColor} text-white w-11 h-11 fs-20 me-4`}>
+                        <span
+                          className={`avatar ${item.avatarColor} text-white w-11 h-11 fs-20 me-4`}
+                        >
                           {item.company}
                         </span>
                       </div>
 
                       <div>
-                        <span className={`badge ${item.badgeColor} rounded py-1 mb-2`}>{item.time}</span>
+                        <span
+                          className={`badge ${item.badgeColor} rounded py-1 mb-2`}
+                        >
+                          {item.time}
+                        </span>
                         <h4 className="mb-1">{item.title}</h4>
                         <p className="mb-0 text-body">{item.location}</p>
                       </div>
@@ -49,12 +59,19 @@ export default function JobCards() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{job1Markup}</CodeHighlight>
@@ -70,18 +87,25 @@ export default function JobCards() {
 
         <div className="card">
           <div className="card-body mb-n2">
-            {dataTwo.designJobList.map((item) => (
+            {dataTwo.designJobList.map(item => (
               <JobPostCard2 {...item} key={item.id} />
             ))}
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{job2Markup}</CodeHighlight>

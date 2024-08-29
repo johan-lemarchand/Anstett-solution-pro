@@ -1,7 +1,7 @@
-import clsx from "clsx";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import clsx from 'clsx';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import data from "app/sandbox/data/demo-27";
+import data from '@sandbox/data/demo-27';
 
 export default function Pricing10() {
   return (
@@ -9,7 +9,8 @@ export default function Pricing10() {
       <div className="row text-center">
         <div className="col-md-10 col-lg-8 col-xl-9 col-xxl-8 mx-auto">
           <h3 className="display-3 ls-sm mb-10 px-xl-15">
-            Nous offrons des prix avantageux et un service de qualité pour votre entreprise.
+            Nous offrons des prix avantageux et un service de qualité pour votre
+            entreprise.
           </h3>
         </div>
       </div>
@@ -20,9 +21,10 @@ export default function Pricing10() {
             <div className="col-md-6 col-lg-3" key={plan}>
               <div
                 className={clsx({
-                  "pricing card shadow-none": true,
-                  "bg-gray": plan === "Corporate"
-                })}>
+                  'pricing card shadow-none': true,
+                  'bg-gray': plan === 'Corporate',
+                })}
+              >
                 <div className="card-body">
                   <h4 className="card-title ls-sm">{plan} Plan</h4>
                   <div className="prices text-dark">
@@ -35,7 +37,7 @@ export default function Pricing10() {
 
                   <ul className="icon-list bullet-green mt-7 mb-8">
                     {features.map((item, i) => {
-                      const itemArr = item.split(" ");
+                      const itemArr = item.split(' ');
 
                       return (
                         <li key={item + i}>
@@ -50,9 +52,9 @@ export default function Pricing10() {
                     href="#"
                     title="Choisir la formule"
                     className={clsx({
-                      "btn rounded": true,
-                      "btn-primary": plan === "Corporate",
-                      "btn-soft-primary": plan !== "Corporate"
+                      'btn rounded': true,
+                      'btn-primary': plan === 'Corporate',
+                      'btn-soft-primary': plan !== 'Corporate',
                     })}
                   />
                 </div>

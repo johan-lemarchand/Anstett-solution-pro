@@ -1,6 +1,6 @@
-import { PropsWithChildren } from "react";
-import Price from "./Price";
-import NextLink from "../links/NextLink";
+import { PropsWithChildren } from 'react';
+import Price from './Price';
+import NextLink from '../links/NextLink';
 
 const ListItem = ({ children }: PropsWithChildren) => (
   <li>
@@ -22,10 +22,18 @@ interface PricingCard3Props {
 // ================================================================
 
 export default function PricingCard3(props: PricingCard3Props) {
-  const { activeYearly, planName, yearlyPrice, monthlyPrice, api, storage, projects } = props;
+  const {
+    activeYearly,
+    planName,
+    yearlyPrice,
+    monthlyPrice,
+    api,
+    storage,
+    projects,
+  } = props;
 
-  const yearClasses = activeYearly ? "price-show" : "price-hide price-hidden";
-  const monthClasses = !activeYearly ? "price-show" : "price-hide price-hidden";
+  const yearClasses = activeYearly ? 'price-show' : 'price-hide price-hidden';
+  const monthClasses = !activeYearly ? 'price-show' : 'price-hide price-hidden';
 
   return (
     <div className="pricing card shadow-xl rounded-xl">
@@ -59,7 +67,11 @@ export default function PricingCard3(props: PricingCard3Props) {
           </ListItem>
         </ul>
 
-        <NextLink title="Choisir la formule" href="#" className="btn btn-primary rounded-xl" />
+        <NextLink
+          title="Choisir la formule"
+          href="#"
+          className="btn btn-primary rounded-xl"
+        />
       </div>
     </div>
   );

@@ -43,5 +43,5 @@ export {
   videoMarkup,
   darkMarkup,
   colorMarkup,
-  softMarkup
+  softMarkup,
 };

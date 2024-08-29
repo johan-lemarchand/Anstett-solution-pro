@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Portfolio7() {
   return (
@@ -8,7 +8,8 @@ export default function Portfolio7() {
           <div className="col-md-8 col-lg-8 col-xl-7 col-xxl-6 pe-lg-17">
             <h2 className="display-4 mb-3">Projets récents</h2>
             <p className="lead fs-lg">
-              Nous aimons transformer les idées en <span className="underline">belles réalisations</span>.
+              Nous aimons transformer les idées en{' '}
+              <span className="underline">belles réalisations</span>.
             </p>
           </div>
         </div>
@@ -20,18 +21,28 @@ export default function Portfolio7() {
                 <div className="item">
                   <Link href="#">
                     <figure className="lift rounded mb-6">
-                      <img src="/img/photos/rp1.jpg" srcSet="/img/photos/rp1@2x.jpg 2x" alt="demo" />
+                      <img
+                        src="/img/photos/rp1.jpg"
+                        srcSet="/img/photos/rp1@2x.jpg 2x"
+                        alt="demo"
+                      />
                     </figure>
                   </Link>
 
-                  <div className="post-category mb-3 text-purple">Stationary</div>
+                  <div className="post-category mb-3 text-purple">
+                    Stationary
+                  </div>
                   <h3 className="post-title">Ipsum Ultricies Cursus</h3>
                 </div>
 
                 <div className="item mt-12 mt-md-12">
                   <Link href="#">
                     <figure className="lift rounded mb-6">
-                      <img src="/img/photos/rp3.jpg" srcSet="/img/photos/rp3@2x.jpg 2x" alt="demo" />
+                      <img
+                        src="/img/photos/rp3.jpg"
+                        srcSet="/img/photos/rp3@2x.jpg 2x"
+                        alt="demo"
+                      />
                     </figure>
                   </Link>
 
@@ -43,7 +54,11 @@ export default function Portfolio7() {
               <div className="item col-md-7 mt-md-17">
                 <Link href="#">
                   <figure className="lift rounded mb-6">
-                    <img src="/img/photos/rp2.jpg" srcSet="/img/photos/rp2@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/rp2.jpg"
+                      srcSet="/img/photos/rp2@2x.jpg 2x"
+                      alt=""
+                    />
                   </figure>
                 </Link>
 

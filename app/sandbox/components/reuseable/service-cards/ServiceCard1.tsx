@@ -1,7 +1,6 @@
-import NextLink from "../links/NextLink";
-
-import {IconProps} from '../../../../types/icon';
-import { LinkType } from "../../../../types/demo-1";
+import NextLink from '../links/NextLink';
+import { IconProps } from '../../../../types/iconProps';
+import LinkType from '../../../../types/demo-1';
 
 // ===============================================================
 interface ServiceCard1Props {
@@ -21,8 +20,8 @@ export default function ServiceCard1({
   linkUrl,
   linkType,
   description,
-  cardClassName = "",
-  iconClassName = ""
+  cardClassName = '',
+  iconClassName = '',
 }: ServiceCard1Props) {
   return (
     <div className="col-md-6 col-xl-3">
@@ -31,7 +30,11 @@ export default function ServiceCard1({
           <Icon className={iconClassName} />
           <h4>{title}</h4>
           <p className="mb-2">{description}</p>
-          <NextLink title="En savoir plus" href={linkUrl} className={`plus sur link-${linkType}`} />
+          <NextLink
+            title="En savoir plus"
+            href={linkUrl}
+            className={`plus sur link-${linkType}`}
+          />
         </div>
       </div>
     </div>

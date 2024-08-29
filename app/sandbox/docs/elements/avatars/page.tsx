@@ -1,11 +1,14 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUP
-import { lettersMarkup, imagesMarkup } from "app/sandbox/themes/markups/elements/avatars";
+import {
+  lettersMarkup,
+  imagesMarkup,
+} from '@sandbox/themes/markups/elements/avatars';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Letters", url: "snippet-1" },
-  { title: "Images", url: "snippet-2" }
+  { title: 'Letters', url: 'snippet-1' },
+  { title: 'Images', url: 'snippet-2' },
 ];
 
 export default function Avatars() {
@@ -13,13 +16,14 @@ export default function Avatars() {
     <DocLayout
       pageTitle="Avatars"
       quickAccessLinks={quickAccess}
-      description="Use our custom avatar styles on your profile images or initials.">
+      description="Use our custom avatar styles on your profile images or initials."
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-3">Letters</h2>
         <p className="lead mb-8">
-          Use any size between <mark className="doc">.w-1 / .h-1</mark> and <mark className="doc">.w-25 / .h-25</mark>{" "}
-          to change the avatar size.
+          Use any size between <mark className="doc">.w-1 / .h-1</mark> and{' '}
+          <mark className="doc">.w-25 / .h-25</mark> to change the avatar size.
         </p>
         <div className="card">
           <div className="card-body d-flex flex-row align-items-center">
@@ -37,12 +41,19 @@ export default function Avatars() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{lettersMarkup}</CodeHighlight>
@@ -56,24 +67,47 @@ export default function Avatars() {
       <section id="snippet-2" className="wrapper py-16">
         <h2 className="mb-3">Image</h2>
         <p className="lead mb-8">
-          Use any size between <mark className="doc">.w-1</mark> and <mark className="doc">.w-25</mark> to change the
-          image size. Image height will change automatically. Make sure to use images with 1:1 ratio to avoid
-          stretching.
+          Use any size between <mark className="doc">.w-1</mark> and{' '}
+          <mark className="doc">.w-25</mark> to change the image size. Image
+          height will change automatically. Make sure to use images with 1:1
+          ratio to avoid stretching.
         </p>
         <div className="card">
           <div className="card-body d-flex flex-row align-items-center">
-            <img className="avatar w-15 me-4" src="/img/avatars/te1.jpg" srcSet="/img/avatars/te1@2x.jpg 2x" alt="" />
-            <img className="avatar w-12 me-4" src="/img/avatars/te2.jpg" srcSet="/img/avatars/te2@2x.jpg 2x" alt="" />
-            <img className="avatar w-10 me-4" src="/img/avatars/t3.jpg" srcSet="/img/avatars/t3@2x.jpg 2x" alt="" />
+            <img
+              className="avatar w-15 me-4"
+              src="/img/avatars/te1.jpg"
+              srcSet="/img/avatars/te1@2x.jpg 2x"
+              alt=""
+            />
+            <img
+              className="avatar w-12 me-4"
+              src="/img/avatars/te2.jpg"
+              srcSet="/img/avatars/te2@2x.jpg 2x"
+              alt=""
+            />
+            <img
+              className="avatar w-10 me-4"
+              src="/img/avatars/t3.jpg"
+              srcSet="/img/avatars/t3@2x.jpg 2x"
+              alt=""
+            />
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{imagesMarkup}</CodeHighlight>

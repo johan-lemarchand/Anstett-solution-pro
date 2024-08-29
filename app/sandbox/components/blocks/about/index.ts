@@ -67,5 +67,5 @@ export {
   About31,
   About32,
   About33,
-  About34
+  About34,
 };

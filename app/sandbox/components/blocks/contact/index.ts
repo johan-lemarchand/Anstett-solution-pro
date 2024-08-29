@@ -27,5 +27,5 @@ export {
   Contact11,
   Contact12,
   Contact13,
-  Contact14
+  Contact14,
 };

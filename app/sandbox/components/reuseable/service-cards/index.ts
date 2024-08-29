@@ -6,4 +6,12 @@ import ServiceCard5 from './ServiceCard5';
 import ServiceCard6 from './ServiceCard6';
 import ServiceCard1Agency from './ServiceCard1Agency';
 
-export { ServiceCard1, ServiceCard2, ServiceCard3, ServiceCard4, ServiceCard5, ServiceCard6, ServiceCard1Agency };
+export {
+  ServiceCard1,
+  ServiceCard2,
+  ServiceCard3,
+  ServiceCard4,
+  ServiceCard5,
+  ServiceCard6,
+  ServiceCard1Agency,
+};

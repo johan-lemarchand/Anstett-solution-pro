@@ -1,7 +1,7 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { TestimonialCard1 } from "app/sandbox/components/reuseable/testimonial-cards";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { TestimonialCard1 } from '@sandbox/components/reuseable/testimonial-cards';
 // CUSTOM DATA
-import { testimonialList1 } from "app/sandbox/data/testimonial-list";
+import { testimonialList1 } from '@sandbox/data/testimonial-list';
 
 export default function Testimonial1() {
   return (
@@ -19,14 +19,18 @@ export default function Testimonial1() {
           </div>
 
           <div className="col-lg-5">
-            <h2 className="fs-16 text-uppercase text-muted mb-3 mt-lg-n6">Notre communauté</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3 mt-lg-n6">
+              Notre communauté
+            </h2>
             <h3 className="display-4 mb-5">
-              Ne nous croyez pas sur parole. Voyez ce que les clients disent de nous.
+              Ne nous croyez pas sur parole. Voyez ce que les clients disent de
+              nous.
             </h3>
             <p>
-              Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
-              scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Maecenas
-              faucibus mollis interdum. Vestibulum id ligula porta felis euismod.
+              Aenean lacinia bibendum nulla sed consectetur. Praesent commodo
+              cursus magna, vel scelerisque nisl consectetur et. Nulla vitae
+              elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
+              Vestibulum id ligula porta felis euismod.
             </p>
             <NextLink
               href="#"
