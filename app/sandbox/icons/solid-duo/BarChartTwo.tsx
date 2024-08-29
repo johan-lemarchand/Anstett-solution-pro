@@ -19,7 +19,10 @@ const BarChartTwo = ({ className }: IconProps) => {
         className="fill-primary"
         d="M74.67 184v29.33h-64V184A13.33 13.33 0 0124 170.67h37.33A13.34 13.34 0 0174.67 184zM160 120v93.33H96V120a13.33 13.33 0 0113.33-13.33h37.33A13.33 13.33 0 01160 120zm85.33 21.34v72h-64v-72A13.32 13.32 0 01194.66 128H232a13.31 13.31 0 0113.33 13.34z"
       />
-      <path className="fill-secondary" d="M248 245.34H8a8 8 0 010-16h240a8 8 0 010 16z" />
+      <path
+        className="fill-secondary"
+        d="M248 245.34H8a8 8 0 010-16h240a8 8 0 010 16z"
+      />
     </svg>
   );
 };

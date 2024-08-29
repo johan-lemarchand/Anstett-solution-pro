@@ -1,9 +1,9 @@
-import Link from "next/link";
-import { useState, useEffect, useRef } from "react";
+import Link from 'next/link';
+import { useState, useEffect, useRef } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import DropdownToggleLink from "@sandbox/components/reuseable/links/DropdownToggleLink";
+import DropdownToggleLink from '@sandbox/components/reuseable/links/DropdownToggleLink';
 // CUSTOM DATA
-import { demos } from "@sandbox/data/navigation";
+import { demos } from '@sandbox/data/navigation';
 
 export default function DemosNavItem() {
   const [forceOpen, setForceOpen] = useState(false);
@@ -13,17 +13,17 @@ export default function DemosNavItem() {
     const handleDemoClick = (e: Event) => {
       e.preventDefault();
       setForceOpen(true);
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
-    const demoButton = document.querySelector(".btn-demo");
+    const demoButton = document.querySelector('.btn-demo');
     if (demoButton) {
-      demoButton.addEventListener("click", handleDemoClick);
+      demoButton.addEventListener('click', handleDemoClick);
     }
 
     return () => {
       if (demoButton) {
-        demoButton.removeEventListener("click", handleDemoClick);
+        demoButton.removeEventListener('click', handleDemoClick);
       }
     };
   }, []);
@@ -36,22 +36,22 @@ export default function DemosNavItem() {
         setForceOpen(false);
       };
 
-      currentDropdownRef.addEventListener("mouseleave", handleMouseLeave);
+      currentDropdownRef.addEventListener('mouseleave', handleMouseLeave);
 
       return () => {
-        currentDropdownRef.removeEventListener("mouseleave", handleMouseLeave);
+        currentDropdownRef.removeEventListener('mouseleave', handleMouseLeave);
       };
     }
   }, [forceOpen]);
 
   return (
     <li
-      className={`nav-item dropdown dropdown-mega ${forceOpen ? "show" : ""}`}
+      className={`nav-item dropdown dropdown-mega ${forceOpen ? 'show' : ''}`}
       ref={dropdownRef}
     >
       <DropdownToggleLink title="Demos" className="nav-link dropdown-toggle" />
       <ul
-        className={`dropdown-menu mega-menu mega-menu-dark mega-menu-img ${forceOpen ? "show" : ""}`}
+        className={`dropdown-menu mega-menu mega-menu-dark mega-menu-img ${forceOpen ? 'show' : ''}`}
       >
         <li className="mega-menu-content mega-menu-scroll">
           <ul className="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">

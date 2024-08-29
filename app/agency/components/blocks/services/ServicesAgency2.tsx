@@ -1,11 +1,11 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // CUSTOM ICON COMPONENT
-import Bulb from "@sandbox/icons/solid-mono/Bulb";
-import Compare from "@sandbox/icons/solid-mono/Compare";
-import DeliveryBox from "@sandbox/icons/solid-mono/DeliveryBox";
+import Bulb from '@sandbox/icons/solid-mono/Bulb';
+import Compare from '@sandbox/icons/solid-mono/Compare';
+import DeliveryBox from '@sandbox/icons/solid-mono/DeliveryBox';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import { Span } from "next/dist/trace";
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { Span } from 'next/dist/trace';
 
 export default function Services22() {
   return (
@@ -16,7 +16,7 @@ export default function Services22() {
             Pourquoi choisir notre solution ?
           </h2>
           <h3 className="display-3 mb-10 px-xl-10 px-xxl-15">
-            Voici les raisons pour lesquelles nos clients{" "}
+            Voici les raisons pour lesquelles nos clients{' '}
             <span className="underline-3 style-2 yellow">nous choisissent</span>
           </h3>
         </div>
@@ -149,7 +149,7 @@ export default function Services22() {
   );
 }
 
-type ListProps = { color: "fuchsia" | "violet" | "green"; title: string };
+type ListProps = { color: 'fuchsia' | 'violet' | 'green'; title: string };
 const List = ({ color, title }: ListProps) => {
   return (
     <div className="col-lg-6">
@@ -162,7 +162,7 @@ const List = ({ color, title }: ListProps) => {
 
       <ul className={`icon-list bullet-bg bullet-soft-${color}`}>
         <li>
-          <i className="uil uil-check" />{" "}
+          <i className="uil uil-check" />{' '}
           <span className="fw-bold">Collaboration Active:</span>
           <p>
             Nous travaillons en étroite collaboration avec vous à chaque étape,
@@ -171,7 +171,7 @@ const List = ({ color, title }: ListProps) => {
           </p>
         </li>
         <li>
-          <i className="uil uil-check" />{" "}
+          <i className="uil uil-check" />{' '}
           <span className="fw-bold">Feedback Essentiel:</span>
           <p>
             Votre retour est au cœur de notre processus d’amélioration continue,
@@ -180,7 +180,7 @@ const List = ({ color, title }: ListProps) => {
           </p>
         </li>
         <li>
-          <i className="uil uil-check" />{" "}
+          <i className="uil uil-check" />{' '}
           <span className="fw-bold">Solutions Affinées:</span>
           <p>
             Grâce à vos retours, nous affinons constamment nos solutions pour
@@ -212,7 +212,7 @@ const List2 = ({ color, title }: ListProps) => {
 
       <ul className={`icon-list bullet-bg bullet-soft-${color}`}>
         <li>
-          <i className="uil uil-check" />{" "}
+          <i className="uil uil-check" />{' '}
           <span className="fw-bold">Optimisation des Ressources:</span>
           <p>
             Nous adaptons nos solutions pour utiliser vos ressources de manière
@@ -220,7 +220,7 @@ const List2 = ({ color, title }: ListProps) => {
           </p>
         </li>
         <li>
-          <i className="uil uil-check" />{" "}
+          <i className="uil uil-check" />{' '}
           <span className="fw-bold">Optimisation des Performances SEO:</span>
           <p>
             Nous analysons en profondeur les performances SEO de nos solutions
@@ -231,7 +231,7 @@ const List2 = ({ color, title }: ListProps) => {
           </p>
         </li>
         <li>
-          <i className="uil uil-check" />{" "}
+          <i className="uil uil-check" />{' '}
           <span className="fw-bold">Adaptabilité et Évolution:</span>
           <p>
             Nos solutions sont flexibles et évolutives, s’ajustant à vos besoins
@@ -260,7 +260,7 @@ const List3 = ({ color, title }: ListProps) => {
 
       <ul className={`icon-list bullet-bg bullet-soft-${color}`}>
         <li>
-          <i className="uil uil-check" />{" "}
+          <i className="uil uil-check" />{' '}
           <span className="fw-bold">Support Personnalisé:</span>
           <p>
             Notre équipe vous fournit des conseils et des recommandations sur
@@ -268,7 +268,7 @@ const List3 = ({ color, title }: ListProps) => {
           </p>
         </li>
         <li>
-          <i className="uil uil-check" />{" "}
+          <i className="uil uil-check" />{' '}
           <span className="fw-bold">Assistance Proactive:</span>
           <p>
             Nous anticipons vos besoins et problèmes potentiels, vous offrant
@@ -277,7 +277,7 @@ const List3 = ({ color, title }: ListProps) => {
           </p>
         </li>
         <li>
-          <i className="uil uil-check" />{" "}
+          <i className="uil uil-check" />{' '}
           <span className="fw-bold">Communication Continue:</span>
           <p>
             Nous maintenons un contact régulier avec vous pour suivre

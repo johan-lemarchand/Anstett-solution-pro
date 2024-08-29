@@ -7,7 +7,10 @@ const ShoppingBasket = ({ className }: IconProps) => {
       viewBox="0 0 512 412.9"
       className={`svg-inject icon-svg ${className || 'icon-svg-md text-primary mb-3'}`}
     >
-      <path className="lineal-fill" d="M453.8 238.1l-9.6 76.3H67.8l-9.6-76.3z" />
+      <path
+        className="lineal-fill"
+        d="M453.8 238.1l-9.6 76.3H67.8l-9.6-76.3z"
+      />
       <circle className="lineal-fill" cx="178.1" cy="149.9" r="35.1" />
       <circle className="lineal-fill" cx="333.9" cy="149.9" r="35.1" />
       <path

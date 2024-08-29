@@ -1,7 +1,7 @@
-import Accordion from "@sandbox/components/reuseable/accordion";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Accordion from '@sandbox/components/reuseable/accordion';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { accordionList3 } from "@sandbox/data/faq";
+import { accordionList3 } from '@sandbox/data/faq';
 
 export default function FAQ6() {
   return (
@@ -28,7 +28,7 @@ export default function FAQ6() {
 
           <div className="col-lg-6">
             <div className="accordion-wrapper" id="accordion">
-              {accordionList3.map((item) => (
+              {accordionList3.map(item => (
                 <Accordion type="shadow-lg" key={item.no} {...item} />
               ))}
             </div>

@@ -1,4 +1,4 @@
-import AccordionList from "@sandbox/components/common/AccordionList";
+import AccordionList from '@sandbox/components/common/AccordionList';
 
 export default function About3() {
   return (
@@ -6,16 +6,16 @@ export default function About3() {
       <div className="col-md-8 col-lg-6 offset-lg-1 order-lg-2 position-relative">
         <div
           className="shape rounded-circle bg-line primary rellax w-18 h-18"
-          style={{ top: "-2rem", right: "-1.9rem" }}
+          style={{ top: '-2rem', right: '-1.9rem' }}
         />
 
         <div
           className="shape rounded bg-soft-primary rellax d-md-block"
           style={{
-            width: "85%",
-            height: "90%",
-            left: "-1.5rem",
-            bottom: "-1.8rem",
+            width: '85%',
+            height: '90%',
+            left: '-1.5rem',
+            bottom: '-1.8rem',
           }}
         />
 

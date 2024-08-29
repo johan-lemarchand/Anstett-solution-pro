@@ -1,7 +1,7 @@
-import { Banner4 } from "../banner";
-import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
+import { Banner4 } from '../banner';
+import { ServiceCard3 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { aboutList4 } from "@sandbox/data/about";
+import { aboutList4 } from '@sandbox/data/about';
 
 export default function About21() {
   return (

@@ -4,7 +4,7 @@ import Check from 'app/sandbox/icons/lineal/Check';
 import IdCard from 'app/sandbox/icons/lineal/IdCard';
 import ChatTwo from 'app/sandbox/icons/lineal/ChatTwo';
 import Browser from 'app/sandbox/icons/lineal/Browser';
-import LinkType  from '../../types/demo-1';
+import LinkType from '../../types/demo-1';
 import BriefcaseTwo from 'app/sandbox/icons/lineal/BriefcaseTwo';
 
 const services = [
