@@ -1,4 +1,4 @@
-import {IconProps} from '../../../types/icon';
+import IconProps from '../../../types/icon';
 
 const Currency = ({ className }: IconProps) => {
   return (
