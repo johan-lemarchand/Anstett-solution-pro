@@ -1,10 +1,10 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import BlogSidebar from "@sandbox/components/reuseable/BlogSidebar";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import BlogDetailsTemplate from "@sandbox/components/common/BlogDetailsTemplate";
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import BlogSidebar from 'app/sandbox/components/reuseable/BlogSidebar';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import BlogDetailsTemplate from 'app/sandbox/components/common/BlogDetailsTemplate';
 
 export default function BlogDetailsTwo() {
   return (
@@ -16,7 +16,13 @@ export default function BlogDetailsTwo() {
           stickyBox={false}
           logoAlt="logo-light"
           navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark"
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-white rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-white rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -24,16 +30,23 @@ export default function BlogDetailsTwo() {
         {/* ========== title section ========== */}
         <section
           className="wrapper image-wrapper bg-image bg-overlay text-white"
-          style={{ backgroundImage: "url(/img/photos/bg5.jpg)" }}>
+          style={{ backgroundImage: 'url(/img/photos/bg5.jpg)' }}
+        >
           <div className="container pt-18 pb-15 pt-md-20 pb-md-19 text-center">
             <div className="row">
               <div className="col-md-10 col-xl-8 mx-auto">
                 <div className="post-header">
                   <div className="post-category text-line text-white">
-                    <NextLink title="Teamwork" href="#" className="text-reset" />
+                    <NextLink
+                      title="Teamwork"
+                      href="#"
+                      className="text-reset"
+                    />
                   </div>
 
-                  <h1 className="display-1 mb-4 text-white">Commodo Dolor Bibendum Parturient Cursus Mollis</h1>
+                  <h1 className="display-1 mb-4 text-white">
+                    Commodo Dolor Bibendum Parturient Cursus Mollis
+                  </h1>
                   <ul className="post-meta text-white">
                     <li className="post-date">
                       <i className="uil uil-calendar-alt" />
@@ -42,7 +55,11 @@ export default function BlogDetailsTwo() {
 
                     <li className="post-author">
                       <i className="uil uil-user" />
-                      <NextLink href="#" className="text-reset" title={<span>By Sandbox</span>} />
+                      <NextLink
+                        href="#"
+                        className="text-reset"
+                        title={<span>By Sandbox</span>}
+                      />
                     </li>
 
                     <li className="post-comments">

@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import * as All from "@sandbox/components/blocks/facts";
+import * as All from 'app/sandbox/components/blocks/facts';
 // LOCAL CUSTOM COMPONENTS
-import Block from "./block";
+import Block from './block';
 
 export default function Facts() {
   return (

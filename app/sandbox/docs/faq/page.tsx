@@ -1,27 +1,32 @@
-"use client";
+'use client';
 
 // GLOBAL CUSTOM HOOKS
-import useClipboard from "@sandbox/hooks/useClipboard";
+import useClipboard from 'app/sandbox/hooks/useClipboard';
 // GLOBAL CUSTOM COMPONENTS
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 
 export default function FAQ() {
   // copy button for code copy
   useClipboard();
 
   return (
-    <DocLayout pageTitle="FAQ" description="Find answers to some frequently asked questions here.">
+    <DocLayout
+      pageTitle="FAQ"
+      description="Find answers to some frequently asked questions here."
+    >
       <section id="snippet-1" className="wrapper py-16">
         <h2 className="mb-3">FAQ</h2>
         <p className="lead mb-5">
-          Si vous ne trouvez pas la réponse à votre question ici, n’hésitez pas à nous contacter en utilisant les liens ci-dessous :
+          Si vous ne trouvez pas la réponse à votre question ici, n’hésitez pas
+          à nous contacter en utilisant les liens ci-dessous :
         </p>
         <a
           href="https://support.ui-lib.com"
           className="btn btn-primary rounded-pill me-2"
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           Contact Form
         </a>
 
@@ -29,7 +34,8 @@ export default function FAQ() {
           href="https://themeforest.net/item/sandbox-modern-multipurpose-react-template/40486293/comments"
           className="btn btn-soft-primary rounded-pill"
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           Discussions Page
         </a>
 
@@ -41,15 +47,20 @@ export default function FAQ() {
                 data-bs-toggle="collapse"
                 data-bs-target="#faq-collapse-2"
                 aria-expanded="false"
-                aria-controls="faq-collapse-2">
+                aria-controls="faq-collapse-2"
+              >
                 How can I remove unwanted package or library?
               </button>
             </div>
 
-            <div id="faq-collapse-2" className="accordion-collapse collapse" aria-labelledby="faq-2">
+            <div
+              id="faq-collapse-2"
+              className="accordion-collapse collapse"
+              aria-labelledby="faq-2"
+            >
               <div className="card-body">
                 <p>
-                  All third-party plugin JS files are located in{" "}
+                  All third-party plugin JS files are located in{' '}
                   <kbd className="terminal">npm uninstall package-name</kbd>
                 </p>
               </div>
@@ -63,17 +74,26 @@ export default function FAQ() {
                 data-bs-toggle="collapse"
                 data-bs-target="#faq-collapse-6"
                 aria-expanded="false"
-                aria-controls="faq-collapse-6">
+                aria-controls="faq-collapse-6"
+              >
                 How can I remove unwanted CSS?
               </button>
             </div>
 
-            <div id="faq-collapse-6" className="accordion-collapse collapse" aria-labelledby="faq-6">
+            <div
+              id="faq-collapse-6"
+              className="accordion-collapse collapse"
+              aria-labelledby="faq-6"
+            >
               <div className="card-body">
                 <p>
-                  Bootstrap SCSS imports are located in <code className="file">src/assets/scss/_bootstrap.scss</code>{" "}
-                  and theme SCSS imports are in <code className="file">src/assets/scss/theme/_theme.scss</code>. Remove
-                  or comment any unwanted code.
+                  Bootstrap SCSS imports are located in{' '}
+                  <code className="file">src/assets/scss/_bootstrap.scss</code>{' '}
+                  and theme SCSS imports are in{' '}
+                  <code className="file">
+                    src/assets/scss/theme/_theme.scss
+                  </code>
+                  . Remove or comment any unwanted code.
                 </p>
               </div>
             </div>
@@ -86,23 +106,30 @@ export default function FAQ() {
                 data-bs-toggle="collapse"
                 data-bs-target="#faq-collapse-3"
                 aria-expanded="false"
-                aria-controls="faq-collapse-3">
+                aria-controls="faq-collapse-3"
+              >
                 Does Sandbox support RTL?
               </button>
             </div>
 
-            <div id="faq-collapse-3" className="accordion-collapse collapse" aria-labelledby="faq-3">
+            <div
+              id="faq-collapse-3"
+              className="accordion-collapse collapse"
+              aria-labelledby="faq-3"
+            >
               <div className="card-body">
                 <p>
-                  No, not currently. Although with the use of{" "}
+                  No, not currently. Although with the use of{' '}
                   <a
                     href="https://rtlcss.com/learn/usage-guide/install/"
                     target="_blank"
                     className="external"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                  >
                     RTLCSS
-                  </a>{" "}
-                  project you can generate RTL version of <code className="file">style.css</code>, however some template
+                  </a>{' '}
+                  project you can generate RTL version of{' '}
+                  <code className="file">style.css</code>, however some template
                   specific styles won’t have support for RTL out of the box.
                 </p>
               </div>
@@ -116,14 +143,22 @@ export default function FAQ() {
                 data-bs-toggle="collapse"
                 data-bs-target="#faq-collapse-8"
                 aria-expanded="false"
-                aria-controls="faq-collapse-8">
+                aria-controls="faq-collapse-8"
+              >
                 Why am I getting an error while installing to Wordpress?
               </button>
             </div>
 
-            <div id="faq-collapse-8" className="accordion-collapse collapse" aria-labelledby="faq-8">
+            <div
+              id="faq-collapse-8"
+              className="accordion-collapse collapse"
+              aria-labelledby="faq-8"
+            >
               <div className="card-body">
-                <p>Sandbox is an nextjs template, not a Wordpress theme. So it cannot be installed in Wordpress.</p>
+                <p>
+                  Sandbox is an nextjs template, not a Wordpress theme. So it
+                  cannot be installed in Wordpress.
+                </p>
               </div>
             </div>
           </div>
@@ -135,17 +170,24 @@ export default function FAQ() {
                 data-bs-toggle="collapse"
                 data-bs-target="#faq-collapse-9"
                 aria-expanded="false"
-                aria-controls="faq-collapse-9">
+                aria-controls="faq-collapse-9"
+              >
                 Why the image mask doesn't work on my copy of the item?
               </button>
             </div>
 
-            <div id="faq-collapse-9" className="accordion-collapse collapse" aria-labelledby="faq-9">
+            <div
+              id="faq-collapse-9"
+              className="accordion-collapse collapse"
+              aria-labelledby="faq-9"
+            >
               <div className="card-body">
                 <p>
-                  There is a known browsers-spesific issue regarding image-mask that prevents them from working on local
-                  environments. (Running from a filesystem is now restricted, so you can no longer reference one file
-                  from another.) If you upload the template on a working server image masks should work properly.
+                  There is a known browsers-spesific issue regarding image-mask
+                  that prevents them from working on local environments.
+                  (Running from a filesystem is now restricted, so you can no
+                  longer reference one file from another.) If you upload the
+                  template on a working server image masks should work properly.
                 </p>
               </div>
             </div>
@@ -158,18 +200,26 @@ export default function FAQ() {
                 data-bs-toggle="collapse"
                 data-bs-target="#faq-collapse-11"
                 aria-expanded="true"
-                aria-controls="faq-collapse-11">
+                aria-controls="faq-collapse-11"
+              >
                 How to add a link to dropdown parent?
               </button>
             </div>
 
-            <div id="faq-collapse-11" className="accordion-collapse collapse" aria-labelledby="faq-11">
+            <div
+              id="faq-collapse-11"
+              className="accordion-collapse collapse"
+              aria-labelledby="faq-11"
+            >
               <div className="card-body">
                 <p>Use the code below to add link to dropdown parent:</p>
               </div>
 
               <div className="code-wrapper">
-                <button type="button" className="btn btn-sm btn-white rounded-pill btn-clipboard">
+                <button
+                  type="button"
+                  className="btn btn-sm btn-white rounded-pill btn-clipboard"
+                >
                   Copy
                 </button>
 
@@ -197,21 +247,27 @@ export default function FAQ() {
                 data-bs-toggle="collapse"
                 data-bs-target="#faq-collapse-12"
                 aria-expanded="true"
-                aria-controls="faq-collapse-12">
-                {" "}
-                What font is used on the Sandbox logo?{" "}
+                aria-controls="faq-collapse-12"
+              >
+                {' '}
+                What font is used on the Sandbox logo?{' '}
               </button>
             </div>
 
-            <div id="faq-collapse-12" className="accordion-collapse collapse" aria-labelledby="faq-12">
+            <div
+              id="faq-collapse-12"
+              className="accordion-collapse collapse"
+              aria-labelledby="faq-12"
+            >
               <div className="card-body">
                 <p>
-                  The font used in the Sandbox logo is{" "}
+                  The font used in the Sandbox logo is{' '}
                   <a
                     className="external my-0"
                     href="https://fonts.google.com/specimen/Manrope"
                     target="_blank"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                  >
                     Manrope
                   </a>
                 </p>

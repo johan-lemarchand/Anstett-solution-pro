@@ -3,7 +3,7 @@ const breadcrumb = [
   { id: 1, title: 'Home', url: '/' },
   { id: 2, title: 'Shop', url: '/shop' },
   { id: 3, title: 'Cosmetics', url: '#' },
-  { id: 4, title: 'Cleansers', url: '#' }
+  { id: 4, title: 'Cleansers', url: '#' },
 ];
 
 // product sizes
@@ -12,7 +12,7 @@ const sizeList = [
   { value: 's', title: 'S' },
   { value: 'm', title: 'M' },
   { value: 'l', title: 'L' },
-  { value: 'xl', title: 'XL' }
+  { value: 'xl', title: 'XL' },
 ];
 
 // product colors
@@ -21,14 +21,14 @@ const productColors = [
   { value: '#e2626b', id: 'color-2' },
   { value: '#7cb798', id: 'color-3' },
   { value: '#3f78e0', id: 'color-4' },
-  { value: '#a07cc5', id: 'color-5' }
+  { value: '#a07cc5', id: 'color-5' },
 ];
 
 // product information tabs
 const tabList = [
   { id: '#tab-1', title: 'Détails du produit' },
   { id: '#tab-2', title: 'Informations supplémentaires' },
-  { id: '#tab-3', title: 'Livraison' }
+  { id: '#tab-3', title: 'Livraison' },
 ];
 
 // product reviews
@@ -37,7 +37,7 @@ const ratings = [
   { star: 4, value: 8 },
   { star: 3, value: 5 },
   { star: 2, value: 3 },
-  { star: 1, value: 2 }
+  { star: 1, value: 2 },
 ];
 
 // all reviews and comments
@@ -50,8 +50,8 @@ const reviewList = [
     review: {
       rating: 5,
       title: 'Hautement recommandé!',
-      body: `Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis integer posuere erat ante.`
-    }
+      body: `Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis integer posuere erat ante.`,
+    },
   },
   {
     createdAt: '21 février 2022',
@@ -61,8 +61,8 @@ const reviewList = [
     review: {
       rating: 4,
       title: 'Bon poduit',
-      body: `Quisque tristique tincidunt metus non aliquam. Quisque ac risus sit amet quam sollicitudin vestibulum vitae malesuada libero. Mauris magna elit, suscipit non ornare et, blandit a tellus. Pellentesque dignissim ornare faucibus mollis.`
-    }
+      body: `Quisque tristique tincidunt metus non aliquam. Quisque ac risus sit amet quam sollicitudin vestibulum vitae malesuada libero. Mauris magna elit, suscipit non ornare et, blandit a tellus. Pellentesque dignissim ornare faucibus mollis.`,
+    },
   },
   {
     createdAt: '22 février 2022',
@@ -72,8 +72,8 @@ const reviewList = [
     review: {
       rating: 3,
       title: 'Pourrait être mieux',
-      body: `Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis.`
-    }
+      body: `Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis.`,
+    },
   },
   {
     createdAt: '4 avril 2022',
@@ -83,8 +83,8 @@ const reviewList = [
     review: {
       rating: 1,
       title: 'Je vais le rendre',
-      body: `Nullam id dolor id nibh ultricies vehicula ut id. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia aenean bibendum nulla consectetur.`
-    }
+      body: `Nullam id dolor id nibh ultricies vehicula ut id. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia aenean bibendum nulla consectetur.`,
+    },
   },
   {
     createdAt: '3 mai 2022',
@@ -94,9 +94,9 @@ const reviewList = [
     review: {
       rating: 3,
       title: null,
-      body: `Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`
-    }
-  }
+      body: `Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.`,
+    },
+  },
 ];
 
 // filter options
@@ -105,7 +105,15 @@ const options = [
   { id: 2, title: 'Trier par note moyenne', value: 'rating' },
   { id: 3, title: 'Trier par nouveauté', value: 'new' },
   { id: 4, title: 'Trier par prix: croissant', value: 'low-to-high' },
-  { id: 5, title: 'Trier par prix: décroissant', value: 'high-to-low' }
+  { id: 5, title: 'Trier par prix: décroissant', value: 'high-to-low' },
 ];
 
-export default { sizeList, productColors, tabList, ratings, reviewList, options, breadcrumb };
+export default {
+  sizeList,
+  productColors,
+  tabList,
+  ratings,
+  reviewList,
+  options,
+  breadcrumb,
+};

@@ -1,10 +1,10 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import BlogTemplate from "@sandbox/components/common/BlogTemplate";
-import BlogSidebar from "@sandbox/components/reuseable/BlogSidebar";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import BlogTemplate from 'app/sandbox/components/common/BlogTemplate';
+import BlogSidebar from 'app/sandbox/components/reuseable/BlogSidebar';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function BlogTwo() {
   return (
@@ -14,7 +14,13 @@ export default function BlogTwo() {
         <Navbar
           search
           navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light"
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -27,7 +33,8 @@ export default function BlogTwo() {
                 <div className="col-md-7 col-lg-6 col-xl-5 mx-auto">
                   <h1 className="display-1 mb-3">Business News</h1>
                   <p className="lead px-lg-5 px-xxl-8 mb-1">
-                    Welcome to our journal. Here you can find the latest company news and business articles.
+                    Welcome to our journal. Here you can find the latest company
+                    news and business articles.
                   </p>
                 </div>
               </div>

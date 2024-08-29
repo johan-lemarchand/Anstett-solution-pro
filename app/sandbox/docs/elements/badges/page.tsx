@@ -1,13 +1,18 @@
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 // MARKUP
-import { colorsMarkup, gradientsMarkup, shapesMarkup, sizesMarkup } from "@sandbox/themes/markups/elements/badges";
+import {
+  colorsMarkup,
+  gradientsMarkup,
+  shapesMarkup,
+  sizesMarkup,
+} from 'app/sandbox/themes/markups/elements/badges';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Colors", url: "snippet-1" },
-  { title: "Gradient", url: "snippet-2" },
-  { title: "Shapes", url: "snippet-3" },
-  { title: "Sizes", url: "snippet-4" }
+  { title: 'Colors', url: 'snippet-1' },
+  { title: 'Gradient', url: 'snippet-2' },
+  { title: 'Shapes', url: 'snippet-3' },
+  { title: 'Sizes', url: 'snippet-4' },
 ];
 
 export default function Badges() {
@@ -15,7 +20,8 @@ export default function Badges() {
     <DocLayout
       pageTitle="Background"
       quickAccessLinks={quickAccess}
-      description="Use our custom background styles to add image, color, pattern or video backgrounds to your sections.">
+      description="Use our custom background styles to add image, color, pattern or video backgrounds to your sections."
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Colors</h2>
@@ -37,30 +43,67 @@ export default function Badges() {
             <span className="badge bg-dark rounded-pill">Badge</span>
             <span className="badge bg-ash text-white rounded-pill">Badge</span>
             <div className="mb-2" />
-            <span className="badge bg-pale-yellow text-yellow rounded-pill">Badge</span>
-            <span className="badge bg-pale-orange text-orange rounded-pill">Badge</span>
-            <span className="badge bg-pale-red text-red rounded-pill">Badge</span>
-            <span className="badge bg-pale-pink text-pink rounded-pill">Badge</span>
-            <span className="badge bg-pale-violet text-violet rounded-pill">Badge</span>
-            <span className="badge bg-pale-purple text-purple rounded-pill">Badge</span>
-            <span className="badge bg-pale-blue text-blue rounded-pill">Badge</span>
-            <span className="badge bg-pale-aqua text-aqua rounded-pill">Badge</span>
-            <span className="badge bg-pale-green text-green rounded-pill">Badge</span>
-            <span className="badge bg-pale-leaf text-leaf rounded-pill">Badge</span>
-            <span className="badge bg-pale-fuchsia text-fuchsia rounded-pill">Badge</span>
-            <span className="badge bg-pale-sky text-sky rounded-pill">Badge</span>
-            <span className="badge bg-pale-grape text-grape rounded-pill">Badge</span>
-            <span className="badge bg-pale-dark text-dark rounded-pill">Badge</span>
-            <span className="badge bg-pale-ash text-dark rounded-pill">Badge</span>
+            <span className="badge bg-pale-yellow text-yellow rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-orange text-orange rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-red text-red rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-pink text-pink rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-violet text-violet rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-purple text-purple rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-blue text-blue rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-aqua text-aqua rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-green text-green rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-leaf text-leaf rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-fuchsia text-fuchsia rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-sky text-sky rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-grape text-grape rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-dark text-dark rounded-pill">
+              Badge
+            </span>
+            <span className="badge bg-pale-ash text-dark rounded-pill">
+              Badge
+            </span>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{colorsMarkup}</CodeHighlight>
@@ -85,12 +128,19 @@ export default function Badges() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{gradientsMarkup}</CodeHighlight>
@@ -111,12 +161,19 @@ export default function Badges() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{shapesMarkup}</CodeHighlight>
@@ -132,16 +189,25 @@ export default function Badges() {
         <div className="card">
           <div className="card-body">
             <span className="badge bg-primary rounded-pill">Default</span>
-            <span className="badge badge-lg bg-primary rounded-pill">Large</span>
+            <span className="badge badge-lg bg-primary rounded-pill">
+              Large
+            </span>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-4">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-4"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-4" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-4"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{sizesMarkup}</CodeHighlight>

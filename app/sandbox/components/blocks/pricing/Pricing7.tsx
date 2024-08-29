@@ -1,11 +1,11 @@
-import { useState } from "react";
-import clsx from "clsx";
+import { useState } from 'react';
+import clsx from 'clsx';
 // GLOBAL CUSTOM COMPONENTS
-import Switch from "@sandbox/components/reuseable/Switch";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import { PricingCard1 } from "@sandbox/components/reuseable/pricing-cards";
+import Switch from 'app/sandbox/components/reuseable/Switch';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import { PricingCard1 } from 'app/sandbox/components/reuseable/pricing-cards';
 // CUSTOM DATA
-import { pricingList1 } from "@sandbox/data/pricing";
+import { pricingList1 } from 'app/sandbox/data/pricing';
 
 export default function Pricing7() {
   const [activeYearly, setActiveYearly] = useState(false);
@@ -18,10 +18,16 @@ export default function Pricing7() {
           Nous offrons des prix <span className="underline">attractifs.</span>
         </p>
         <p className="mb-5">
-          Profitez de <NextLink title="30 jours d'essai" href="#" className="hover" /> et du service complet! Pas de carte de crédit requise !
+          Profitez de{' '}
+          <NextLink title="30 jours d'essai" href="#" className="hover" /> et du
+          service complet! Pas de carte de crédit requise !
         </p>
 
-        <NextLink href="#" title="Voir tous les tarifs" className="btn btn-primary rounded-pill mt-2" />
+        <NextLink
+          href="#"
+          title="Voir tous les tarifs"
+          className="btn btn-primary rounded-pill mt-2"
+        />
       </div>
 
       <div className="col-lg-7 offset-lg-1 pricing-wrapper">
@@ -37,7 +43,10 @@ export default function Pricing7() {
 
         <div className="row gy-6 mt-5">
           {pricingList1.map((item, i) => (
-            <div className={clsx({ "col-md-6": true, popular: i === 1 })} key={i}>
+            <div
+              className={clsx({ 'col-md-6': true, popular: i === 1 })}
+              key={i}
+            >
               <PricingCard1 bulletBg {...item} activeYearly={activeYearly} />
             </div>
           ))}

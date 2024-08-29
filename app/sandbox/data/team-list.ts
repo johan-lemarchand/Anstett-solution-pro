@@ -7,7 +7,7 @@ const teams = [
     dribbbleUrl: 'https://dribbble.com',
     twitterUrl: 'https://www.twitter.com',
     facebookUrl: 'https://www.facebook.com',
-    description: 'Fermentum massa justo sit amet risus morbi leo.'
+    description: 'Fermentum massa justo sit amet risus morbi leo.',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const teams = [
     dribbbleUrl: 'https://dribbble.com',
     twitterUrl: 'https://www.twitter.com',
     facebookUrl: 'https://www.facebook.com',
-    description: 'Fermentum massa justo sit amet risus morbi leo.'
+    description: 'Fermentum massa justo sit amet risus morbi leo.',
   },
   {
     id: 3,
@@ -27,17 +27,17 @@ const teams = [
     dribbbleUrl: 'https://dribbble.com',
     twitterUrl: 'https://www.twitter.com',
     facebookUrl: 'https://www.facebook.com',
-    description: 'Fermentum massa justo sit amet risus morbi leo.'
+    description: 'Fermentum massa justo sit amet risus morbi leo.',
   },
   {
     id: 4,
     name: 'Jackie Sanders',
     image: '/img/avatars/t4.jpg',
-    designation: 'Planificateur d\'Investissements',
+    designation: "Planificateur d'Investissements",
     dribbbleUrl: 'https://dribbble.com',
     twitterUrl: 'https://www.twitter.com',
     facebookUrl: 'https://www.facebook.com',
-    description: 'Fermentum massa justo sit amet risus morbi leo.'
+    description: 'Fermentum massa justo sit amet risus morbi leo.',
   },
   {
     id: 5,
@@ -47,8 +47,8 @@ const teams = [
     dribbbleUrl: 'https://dribbble.com',
     twitterUrl: 'https://www.twitter.com',
     facebookUrl: 'https://www.facebook.com',
-    description: 'Fermentum massa justo sit amet risus morbi leo.'
-  }
+    description: 'Fermentum massa justo sit amet risus morbi leo.',
+  },
 ];
 
 export default teams;

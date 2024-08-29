@@ -1,6 +1,6 @@
-import Link from "next/link";
-import Image from "next/image";
-import NextLink from "../links/NextLink";
+import Link from 'next/link';
+import Image from 'next/image';
+import NextLink from '../links/NextLink';
 
 // ======================================================
 interface BlogCard1Props {
@@ -11,12 +11,23 @@ interface BlogCard1Props {
 }
 // ======================================================
 
-export default function BlogCard1({ date, image, title, category }: BlogCard1Props) {
+export default function BlogCard1({
+  date,
+  image,
+  title,
+  category,
+}: BlogCard1Props) {
   return (
     <article>
       <figure className="overlay overlay-1 hover-scale rounded mb-6">
         <Link href="#">
-          <Image src={image} alt={title} width={560} height={350} className="w-100 h-auto" />
+          <Image
+            src={image}
+            alt={title}
+            width={560}
+            height={350}
+            className="w-100 h-auto"
+          />
           <span className="bg" />
         </Link>
 
@@ -27,7 +38,11 @@ export default function BlogCard1({ date, image, title, category }: BlogCard1Pro
 
       <div className="post-header">
         <h2 className="post-title h3 mb-3">
-          <NextLink title="Ligula tristique quis risus" className="link-dark" href="#" />
+          <NextLink
+            title="Ligula tristique quis risus"
+            className="link-dark"
+            href="#"
+          />
         </h2>
       </div>
 

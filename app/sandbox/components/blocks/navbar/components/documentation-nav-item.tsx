@@ -9,7 +9,10 @@ import { documentationNavigation } from "@sandbox/data/navigation";
 export default function DocumentationNavItem() {
   return (
     <li className="nav-item dropdown dropdown-mega">
-      <DropdownToggleLink title="Documentation" className="nav-link dropdown-toggle" />
+      <DropdownToggleLink
+        title="Documentation"
+        className="nav-link dropdown-toggle"
+      />
       <ul className="dropdown-menu mega-menu">
         <li className="mega-menu-content">
           <div className="row gx-0 gx-lg-3">

@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import clsx from 'clsx';
 
 // =================================================
 interface TestimonialCard5Props {
@@ -9,11 +9,16 @@ interface TestimonialCard5Props {
 }
 // =================================================
 
-export default function TestimonialCard5({ name, review, designation, borderBottom }: TestimonialCard5Props) {
+export default function TestimonialCard5({
+  name,
+  review,
+  designation,
+  borderBottom,
+}: TestimonialCard5Props) {
   // ROOT CLASS NAME
   const className = clsx({
-    "card shadow-lg": true,
-    "card-border-bottom border-soft-primary": borderBottom
+    'card shadow-lg': true,
+    'card-border-bottom border-soft-primary': borderBottom,
   });
 
   return (

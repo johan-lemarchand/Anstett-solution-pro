@@ -13,17 +13,17 @@ export default function DemosNavItem() {
     const handleDemoClick = (e: Event) => {
       e.preventDefault();
       setForceOpen(true);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
-    const demoButton = document.querySelector('.btn-demo');
+    const demoButton = document.querySelector(".btn-demo");
     if (demoButton) {
-      demoButton.addEventListener('click', handleDemoClick);
+      demoButton.addEventListener("click", handleDemoClick);
     }
 
     return () => {
       if (demoButton) {
-        demoButton.removeEventListener('click', handleDemoClick);
+        demoButton.removeEventListener("click", handleDemoClick);
       }
     };
   }, []);
@@ -36,22 +36,23 @@ export default function DemosNavItem() {
         setForceOpen(false);
       };
 
-      currentDropdownRef.addEventListener('mouseleave', handleMouseLeave);
+      currentDropdownRef.addEventListener("mouseleave", handleMouseLeave);
 
       return () => {
-        currentDropdownRef.removeEventListener('mouseleave', handleMouseLeave);
+        currentDropdownRef.removeEventListener("mouseleave", handleMouseLeave);
       };
     }
   }, [forceOpen]);
 
   return (
-    <li className={`nav-item dropdown dropdown-mega ${forceOpen ? 'show' : ''}`} ref={dropdownRef}>
-      <DropdownToggleLink 
-        title="Demos" 
-        className="nav-link dropdown-toggle" 
-      />
-
-      <ul className={`dropdown-menu mega-menu mega-menu-dark mega-menu-img ${forceOpen ? 'show' : ''}`}>
+    <li
+      className={`nav-item dropdown dropdown-mega ${forceOpen ? "show" : ""}`}
+      ref={dropdownRef}
+    >
+      <DropdownToggleLink title="Demos" className="nav-link dropdown-toggle" />
+      <ul
+        className={`dropdown-menu mega-menu mega-menu-dark mega-menu-img ${forceOpen ? "show" : ""}`}
+      >
         <li className="mega-menu-content mega-menu-scroll">
           <ul className="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
             {demos.map(({ id, title, url, thumnail }) => (
@@ -62,7 +63,8 @@ export default function DemosNavItem() {
                     src={`/img/demos/${thumnail}.jpg`}
                     srcSet={`/img/demos/${thumnail}@2x.jpg 2x`}
                     className="rounded lift d-none d-lg-block"
-                    width="185" height="135"
+                    width="185"
+                    height="135"
                   />
                   <span className="d-lg-none">{title}</span>
                 </Link>

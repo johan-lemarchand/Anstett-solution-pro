@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import { usePathname } from "next/navigation";
-import { PropsWithChildren, useEffect } from "react";
+import { usePathname } from 'next/navigation';
+import { PropsWithChildren, useEffect } from 'react';
 
-import changeTheme from "./themeOptions";
+import changeTheme from './themeOptions';
 
 export default function ThemeProvider({ children }: PropsWithChildren) {
   const pathname = usePathname();
 
   const removePageLoader = () => {
-    const pageLoader = document.querySelector(".page-loader");
+    const pageLoader = document.querySelector('.page-loader');
     if (pageLoader) pageLoader.remove();
   };
 

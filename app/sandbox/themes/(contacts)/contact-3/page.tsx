@@ -1,10 +1,10 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import { Contact2 } from "@sandbox/components/blocks/contact";
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import ContactForm from "@sandbox/components/common/ContactForm";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import { Contact2 } from 'app/sandbox/components/blocks/contact';
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import ContactForm from 'app/sandbox/components/common/ContactForm';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function ContactThree() {
   return (
@@ -16,7 +16,13 @@ export default function ContactThree() {
           stickyBox={false}
           logoAlt="logo-light"
           navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark"
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -28,7 +34,8 @@ export default function ContactThree() {
               <div className="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
                 <h1 className="display-1 text-white mb-3">Prendre contact</h1>
                 <p className="lead px-xl-10 px-xxl-10">
-                  Vous avez des questions? Contactez-nous à partir de notre formulaire et nous vous répondrons sous peu.
+                  Vous avez des questions? Contactez-nous à partir de notre
+                  formulaire et nous vous répondrons sous peu.
                 </p>
               </div>
             </div>
@@ -64,7 +71,9 @@ export default function ContactThree() {
                       </div>
                       <div>
                         <h5 className="mb-1">Adresse</h5>
-                        <address>26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
+                        <address>
+                          26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder
+                        </address>
                       </div>
                     </div>
 
@@ -78,7 +87,6 @@ export default function ContactThree() {
                         <h5 className="mb-1">Téléphone</h5>
                         <p>
                           06 42 18 55 95 <br />
-                          
                         </p>
                       </div>
                     </div>
@@ -92,12 +100,18 @@ export default function ContactThree() {
                       <div>
                         <h5 className="mb-1">E-mail</h5>
                         <p className="mb-0">
-                          <a href="mailto:sandbox@email.com" className="link-body">
+                          <a
+                            href="mailto:sandbox@email.com"
+                            className="link-body"
+                          >
                             sandbox@email.com
                           </a>
                         </p>
                         <p>
-                          <a href="mailto:help@sandbox.com" className="link-body">
+                          <a
+                            href="mailto:help@sandbox.com"
+                            className="link-body"
+                          >
                             help@sandbox.com
                           </a>
                         </p>

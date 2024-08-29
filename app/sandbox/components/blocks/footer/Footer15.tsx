@@ -1,4 +1,4 @@
-import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
+import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
 
 export default function Footer15() {
   return (
@@ -7,9 +7,15 @@ export default function Footer15() {
         <div className="row gx-lg-0 gy-6">
           <div className="col-lg-4">
             <div className="widget">
-              <img className="mb-4" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" alt="" />
+              <img
+                className="mb-4"
+                src="/img/logo-dark.png"
+                srcSet="/img/logo-dark@2x.png 2x"
+                alt=""
+              />
               <p className="lead mb-0">
-              Je suis Caitlyn Lemarchand, photographe spécialisée dans la photographie de produits alimentaires et de boissons.
+                Je suis Caitlyn Lemarchand, photographe spécialisée dans la
+                photographie de produits alimentaires et de boissons.
               </p>
             </div>
           </div>
@@ -27,7 +33,6 @@ export default function Footer15() {
                   <h5 className="mb-1">Téléphone</h5>
                   <p className="mb-0">
                     06 42 18 55 95 <br />
-                    
                   </p>
                 </div>
               </div>
@@ -45,7 +50,9 @@ export default function Footer15() {
 
                 <div className="align-self-start justify-content-start">
                   <h5 className="mb-1">Adresse</h5>
-                  <address>26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
+                  <address>
+                    26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder
+                  </address>
                 </div>
               </div>
             </div>
@@ -54,7 +61,9 @@ export default function Footer15() {
 
         <hr className="mt-11 mt-md-12 mb-7" />
         <div className="d-md-flex align-items-center justify-content-between">
-          <p className="mb-2 mb-lg-0">© 2024 Anstett Solutions Pro. Tous droits réservés.</p>
+          <p className="mb-2 mb-lg-0">
+            © 2024 Anstett Solutions Pro. Tous droits réservés.
+          </p>
           <SocialLinks className="nav social social-muted mb-0 text-md-end" />
         </div>
       </div>

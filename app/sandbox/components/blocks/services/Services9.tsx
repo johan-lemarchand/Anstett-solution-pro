@@ -1,7 +1,7 @@
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import { ServiceCard4 } from "@sandbox/components/reuseable/service-cards";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import { ServiceCard4 } from 'app/sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { serviceList7 } from "@sandbox/data/service";
+import { serviceList7 } from 'app/sandbox/data/service';
 
 export default function Services9() {
   return (
@@ -9,20 +9,34 @@ export default function Services9() {
       <div className="col-lg-7 order-lg-2">
         <div className="row gx-md-5 gy-5">
           {serviceList7.map(({ id, Icon, color, ...item }) => (
-            <ServiceCard4 key={id} Icon={<Icon className={`icon-svg-md text-${color} mb-3`} />} {...item} />
+            <ServiceCard4
+              key={id}
+              Icon={<Icon className={`icon-svg-md text-${color} mb-3`} />}
+              {...item}
+            />
           ))}
         </div>
       </div>
 
       <div className="col-lg-5">
-        <h2 className="fs-15 text-uppercase text-muted mb-3">Que faisons-nous?</h2>
-        <h3 className="display-4 mb-5">Le service que nous offrons est spécialement conçu pour répondre à vos besoins.</h3>
+        <h2 className="fs-15 text-uppercase text-muted mb-3">
+          Que faisons-nous?
+        </h2>
+        <h3 className="display-4 mb-5">
+          Le service que nous offrons est spécialement conçu pour répondre à vos
+          besoins.
+        </h3>
         <p>
-          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius
-          blandit sit amet non magna. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque
-          nisl consectetur et.
+          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+          Maecenas sed diam eget risus varius blandit sit amet non magna.
+          Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel
+          scelerisque nisl consectetur et.
         </p>
-        <NextLink title="Plus de détails" href="#" className="btn btn-navy rounded-pill mt-3" />
+        <NextLink
+          title="Plus de détails"
+          href="#"
+          className="btn btn-navy rounded-pill mt-3"
+        />
       </div>
     </div>
   );

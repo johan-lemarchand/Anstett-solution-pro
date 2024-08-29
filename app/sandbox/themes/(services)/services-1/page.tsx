@@ -1,11 +1,11 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Facts3 } from "@sandbox/components/blocks/facts";
-import { Banner3 } from "@sandbox/components/blocks/banner";
-import { Pricing1 } from "@sandbox/components/blocks/pricing";
-import { Contact3 } from "@sandbox/components/blocks/contact";
-import { Process6 } from "@sandbox/components/blocks/process";
-import { Services8 } from "@sandbox/components/blocks/services";
+import { Facts3 } from 'app/sandbox/components/blocks/facts';
+import { Banner3 } from 'app/sandbox/components/blocks/banner';
+import { Pricing1 } from 'app/sandbox/components/blocks/pricing';
+import { Contact3 } from 'app/sandbox/components/blocks/contact';
+import { Process6 } from 'app/sandbox/components/blocks/process';
+import { Services8 } from 'app/sandbox/components/blocks/services';
 
 export default function Services() {
   return (
@@ -17,8 +17,10 @@ export default function Services() {
             <div className="col-md-8 col-lg-7 col-xl-6 col-xxl-5 mx-auto mb-11">
               <h1 className="display-1 mb-3">Nos services</h1>
               <p className="lead px-lg-7 px-xl-7 px-xxl-6">
-              Nous sommes une entreprise créative qui se concentre sur la création
-              <span className="underline">relations à long terme</span> avec les clients.
+                Nous sommes une entreprise créative qui se concentre sur la
+                création
+                <span className="underline">relations à long terme</span> avec
+                les clients.
               </p>
             </div>
           </div>
@@ -31,7 +33,11 @@ export default function Services() {
           <div className="row mb-8">
             <div className="col-12 mt-n20">
               <figure className="rounded">
-                <img src="/img/photos/about5.jpg" srcSet="/img/photos/about5@2x.jpg 2x" alt="" />
+                <img
+                  src="/img/photos/about5.jpg"
+                  srcSet="/img/photos/about5@2x.jpg 2x"
+                  alt=""
+                />
               </figure>
               <Facts3 />
             </div>

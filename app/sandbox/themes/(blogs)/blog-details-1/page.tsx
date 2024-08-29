@@ -1,16 +1,25 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import BlogDetailsTemplate from "@sandbox/components/common/BlogDetailsTemplate";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import BlogDetailsTemplate from 'app/sandbox/components/common/BlogDetailsTemplate';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function BlogDetailsOne() {
   return (
     <Fragment>
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
-        <Navbar search button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />} />
+        <Navbar
+          search
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
+        />
       </header>
 
       <main className="content-wrapper">
@@ -24,7 +33,9 @@ export default function BlogDetailsOne() {
                     <NextLink href="#" className="hover" title="Teamwork" />
                   </div>
 
-                  <h1 className="display-1 mb-4">Commodo Dolor Bibendum Parturient Cursus Mollis</h1>
+                  <h1 className="display-1 mb-4">
+                    Commodo Dolor Bibendum Parturient Cursus Mollis
+                  </h1>
 
                   <ul className="post-meta mb-5">
                     <li className="post-date">
@@ -34,7 +45,11 @@ export default function BlogDetailsOne() {
 
                     <li className="post-author">
                       <i className="uil uil-user" />
-                      <NextLink href="#" className="text-reset" title={<span>By Sandbox</span>} />
+                      <NextLink
+                        href="#"
+                        className="text-reset"
+                        title={<span>By Sandbox</span>}
+                      />
                     </li>
 
                     <li className="post-comments">

@@ -1,8 +1,11 @@
-import { DetailedHTMLProps, InputHTMLAttributes } from "react";
+import { DetailedHTMLProps, InputHTMLAttributes } from 'react';
 
 // ============================================================
 interface InputProps
-  extends DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> {
+  extends DetailedHTMLProps<
+    InputHTMLAttributes<HTMLInputElement>,
+    HTMLInputElement
+  > {
   id: string;
   label: string;
   errorMsg?: string;
@@ -19,7 +22,9 @@ export default function Input({ label, errorMsg, id, ...props }: InputProps) {
       </label>
 
       {errorMsg && (
-        <div className="invalid-feedback">{errorMsg || "Un prénom valide est requis."}</div>
+        <div className="invalid-feedback">
+          {errorMsg || 'Un prénom valide est requis.'}
+        </div>
       )}
     </div>
   );

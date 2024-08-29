@@ -1,4 +1,4 @@
-import { fadeInAnimate } from "@sandbox/utils/animation";
+import { fadeInAnimate } from 'app/sandbox/utils/animation';
 
 // ====================================================
 type Tiles8Props = { hiddenShape?: boolean };
@@ -12,11 +12,11 @@ export default function Tiles8({ hiddenShape }: Tiles8Props) {
           className="shape rounded bg-pale-green rellax d-block"
           style={{
             zIndex: 0,
-            top: "50%",
-            left: "50%",
-            width: "50%",
-            height: "60%",
-            transform: "translate3d(0px, 0px, 0px) translate(-50%, -50%)"
+            top: '50%',
+            left: '50%',
+            width: '50%',
+            height: '60%',
+            transform: 'translate3d(0px, 0px, 0px) translate(-50%, -50%)',
           }}
         />
       )}
@@ -28,14 +28,14 @@ export default function Tiles8({ hiddenShape }: Tiles8Props) {
             src="/img/photos/sa9.jpg"
             srcSet="/img/photos/sa9@2x.jpg 2x"
             className="img-fluid rounded shadow-lg my-5 d-flex ms-auto"
-            style={fadeInAnimate("300ms")}
+            style={fadeInAnimate('300ms')}
           />
           <img
             alt=""
             src="/img/photos/sa10.jpg"
             srcSet="/img/photos/sa10@2x.jpg 2x"
             className="img-fluid rounded shadow-lg d-flex col-10 ms-auto"
-            style={fadeInAnimate("600ms")}
+            style={fadeInAnimate('600ms')}
           />
         </div>
 
@@ -45,14 +45,14 @@ export default function Tiles8({ hiddenShape }: Tiles8Props) {
             src="/img/photos/sa11.jpg"
             srcSet="/img/photos/sa11@2x.jpg 2x"
             className="img-fluid rounded shadow-lg mb-5"
-            style={fadeInAnimate("900ms")}
+            style={fadeInAnimate('900ms')}
           />
           <img
             alt="demo"
             src="/img/photos/sa12.jpg"
             srcSet="/img/photos/sa12@2x.jpg 2x"
             className="img-fluid rounded shadow-lg d-flex col-11"
-            style={fadeInAnimate("1200ms")}
+            style={fadeInAnimate('1200ms')}
           />
         </div>
       </div>

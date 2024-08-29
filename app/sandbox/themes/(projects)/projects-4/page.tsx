@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import Image from "next/image";
-import { Fragment } from "react";
+import Link from 'next/link';
+import Image from 'next/image';
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "@sandbox/hooks/useIsotope";
+import useIsotope from 'app/sandbox/hooks/useIsotope';
 // CUSTOM DATA
-import { filterItems, projectList } from "./data";
+import { filterItems, projectList } from './data';
 
 export default function ProjectsFour() {
   const { handleFilterKeyChange, filterKey } = useIsotope();
@@ -21,7 +21,13 @@ export default function ProjectsFour() {
       <header className="wrapper bg-light">
         <Navbar
           language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -33,7 +39,8 @@ export default function ProjectsFour() {
               <div className="col-md-8 col-lg-7 col-xl-6 col-xxl-5">
                 <h1 className="display-1 mb-3">Projects</h1>
                 <p className="lead fs-lg pe-lg-15 pe-xxl-12">
-                  Check out some of our awesome projects with creative ideas and great design.
+                  Check out some of our awesome projects with creative ideas and
+                  great design.
                 </p>
               </div>
             </div>
@@ -51,7 +58,8 @@ export default function ProjectsFour() {
                     <li key={id}>
                       <a
                         onClick={handleFilterKeyChange(value)}
-                        className={`filter-item ${value === filterKey ? "active" : ""}`}>
+                        className={`filter-item ${value === filterKey ? 'active' : ''}`}
+                      >
                         {title}
                       </a>
                     </li>
@@ -61,28 +69,37 @@ export default function ProjectsFour() {
 
               {/* ========== projects section ========== */}
               <div className="row gx-md-8 gy-10 gy-md-13 isotope">
-                {projectList.map(({ id, image, title, category, color, link, type }) => (
-                  <div key={id} className={`project item col-md-6 col-xl-4 ${type}`}>
-                    <Link href={link}>
-                      <figure className="lift rounded mb-6">
-                        <Image
-                          alt={title}
-                          src={image.url}
-                          width={image.width}
-                          height={image.height}
-                          className="w-100 h-auto"
-                        />
-                      </figure>
-                    </Link>
+                {projectList.map(
+                  ({ id, image, title, category, color, link, type }) => (
+                    <div
+                      key={id}
+                      className={`project item col-md-6 col-xl-4 ${type}`}
+                    >
+                      <Link href={link}>
+                        <figure className="lift rounded mb-6">
+                          <Image
+                            alt={title}
+                            src={image.url}
+                            width={image.width}
+                            height={image.height}
+                            className="w-100 h-auto"
+                          />
+                        </figure>
+                      </Link>
 
-                    <div className="project-details d-flex justify-content-center flex-column">
-                      <div className="post-header">
-                        <div className={`post-category text-line mb-3 text-${color}`}>{category}</div>
-                        <h2 className="post-title h3">{title}</h2>
+                      <div className="project-details d-flex justify-content-center flex-column">
+                        <div className="post-header">
+                          <div
+                            className={`post-category text-line mb-3 text-${color}`}
+                          >
+                            {category}
+                          </div>
+                          <h2 className="post-title h3">{title}</h2>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  )
+                )}
               </div>
             </div>
           </div>

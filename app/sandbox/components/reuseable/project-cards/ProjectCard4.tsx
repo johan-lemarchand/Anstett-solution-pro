@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
 
 // ==============================================================
 interface ProjectCard4Props {
@@ -11,7 +11,12 @@ interface ProjectCard4Props {
 }
 // ==============================================================
 
-export default function ProjectCard4({ image, title, color, category }: ProjectCard4Props) {
+export default function ProjectCard4({
+  image,
+  title,
+  color,
+  category,
+}: ProjectCard4Props) {
   return (
     <div className="card shadow-lg">
       <figure className="card-img-top" title="Cliquez pour voir le projet">
@@ -22,7 +27,9 @@ export default function ProjectCard4({ image, title, color, category }: ProjectC
 
       <div className="card-body p-7">
         <div className="post-header">
-          <div className={`post-category text-line mb-2 text-${color}`}>{category}</div>
+          <div className={`post-category text-line mb-2 text-${color}`}>
+            {category}
+          </div>
           <h3 className="mb-0">{title}</h3>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 // =======================================================
 interface ProjectDetailsContentProps {
@@ -10,8 +10,8 @@ interface ProjectDetailsContentProps {
 
 export default function ProjectDetailsContent({
   title,
-  contentRowClass = "row gx-0",
-  titleClass = "display-6 mb-4"
+  contentRowClass = 'row gx-0',
+  titleClass = 'display-6 mb-4',
 }: ProjectDetailsContentProps) {
   return (
     <div className="row">
@@ -21,15 +21,19 @@ export default function ProjectDetailsContent({
         <div className={contentRowClass}>
           <div className="col-md-9 text-justify">
             <p>
-              Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis. Etiam
-              porta sem malesuada magna mollis euismod. Aenean lacinia bibendum.
+              Cras mattis consectetur purus sit amet fermentum. Fusce dapibus,
+              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+              fermentum massa justo sit amet risus. Integer posuere erat a ante
+              venenatis. Etiam porta sem malesuada magna mollis euismod. Aenean
+              lacinia bibendum.
             </p>
             <p>
-              Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Aenean eu leo
-              quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
-              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+              Donec id elit non mi porta gravida at eget metus. Cras mattis
+              consectetur purus sit amet fermentum. Praesent commodo cursus
+              magna, vel scelerisque nisl consectetur et. Donec sed odio dui.
+              Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+              vestibulum. Sed posuere consectetur est at lobortis. Vivamus
+              sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
             </p>
           </div>
 
@@ -46,7 +50,11 @@ export default function ProjectDetailsContent({
               </li>
             </ul>
 
-            <NextLink title="Nouveaux projets" href="#" className="more hover" />
+            <NextLink
+              title="Nouveaux projets"
+              href="#"
+              className="more hover"
+            />
           </div>
         </div>
       </div>

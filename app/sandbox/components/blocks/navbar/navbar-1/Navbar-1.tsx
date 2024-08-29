@@ -1,27 +1,26 @@
-"use client";
+'use client';
 
-import { Fragment, ReactElement, useRef } from "react";
+import { Fragment, ReactElement, useRef } from 'react';
 // -------- CUSTOM HOOKS -------- //
-import useSticky from "@sandbox/hooks/useSticky";
-import useNestedDropdown from "@sandbox/hooks/useNestedDropdown";
+import useSticky from 'app/sandbox/hooks/useSticky';
+import useNestedDropdown from 'app/sandbox/hooks/useNestedDropdown';
 // -------- CUSTOM COMPONENTS -------- //
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
 // LOCAL CUSTOM COMPONENTS
-import Info from "../components/Info";
-import Search from "../components/search";
-import Signin from "../components/signin";
-import Signup from "../components/signup";
-import MiniCart from "../components/mini-cart";
-import HeaderRight from "../components/header-right";
-import FancyHeader from "../components/fancy-header";
-import BlogNavItem from "../components/blog-nav-item";
-import DemosNavItem from "../components/demos-nav-item";
-import PagesNavItem from "../components/pages-nav-item";
-import BlocksNavItem from "../components/blocks-nav-item";
-import ProjectsNavItem from "../components/projects-nav-item";
-import DocumentationNavItem from "../components/documentation-nav-item";
-
+import Info from '../components/Info';
+import Search from '../components/search';
+import Signin from '../components/signin';
+import Signup from '../components/signup';
+import MiniCart from '../components/mini-cart';
+import HeaderRight from '../components/header-right';
+import FancyHeader from '../components/fancy-header';
+import BlogNavItem from '../components/blog-nav-item';
+import DemosNavItem from '../components/demos-nav-item';
+import PagesNavItem from '../components/pages-nav-item';
+import BlocksNavItem from '../components/blocks-nav-item';
+import ProjectsNavItem from '../components/projects-nav-item';
+import DocumentationNavItem from '../components/documentation-nav-item';
 
 // ===================================================================
 interface NavbarProps {
@@ -49,40 +48,60 @@ export default function NavbarOne({
   search = false,
   language = false,
   stickyBox = true,
-  navOtherClass = "navbar-other w-100 d-flex ms-auto",
-  navClassName = "navbar navbar-expand-lg center-nav transparent navbar-light"
+  navOtherClass = 'navbar-other w-100 d-flex ms-auto',
+  navClassName = 'navbar navbar-expand-lg center-nav transparent navbar-light',
 }: NavbarProps) {
   useNestedDropdown();
   const sticky = useSticky(350);
   const navbarRef = useRef<HTMLElement | null>(null);
-  const IsHome = typeof window !== 'undefined' && window.location.pathname === '/';
+  const IsHome =
+    typeof window !== 'undefined' && window.location.pathname === '/';
   // dynamically render the logo
-  const logo = sticky ? "logo-dark" : logoAlt ?? "logo-dark";
+  const logo = sticky ? 'logo-dark' : (logoAlt ?? 'logo-dark');
 
   // dynamically added navbar className
-  const fixedClassName = "navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed";
+  const fixedClassName =
+    'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed';
 
   // all main header contents
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100">
-        <NextLink href="/" title={<img alt="logo" src={`/img/${logo}.png`} srcSet={`/img/${logo}@2x.png 2x`} />} />
+        <NextLink
+          href="/"
+          title={
+            <img
+              alt="logo"
+              src={`/img/${logo}.png`}
+              srcSet={`/img/${logo}@2x.png 2x`}
+            />
+          }
+        />
       </div>
 
-      <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+      <div
+        id="offcanvas-nav"
+        data-bs-scroll="true"
+        className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
+      >
         <div className="offcanvas-header d-lg-none">
           <h3 className="text-white fs-30 mb-0">Anstett Solutions</h3>
-          <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-white" />
+          <button
+            type="button"
+            aria-label="Close"
+            data-bs-dismiss="offcanvas"
+            className="btn-close btn-close-white"
+          />
         </div>
 
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav">
             {/* Ajout du bouton rapide */}
             {!IsHome && (
-                <li className="nav-item">
-                  <NextLink href="/" title="Retour" className="nav-link" />
-                </li>
-            )}          
+              <li className="nav-item">
+                <NextLink href="/" title="Retour" className="nav-link" />
+              </li>
+            )}
 
             {/* ===================== demos nav item ===================== */}
             <DemosNavItem />
@@ -107,7 +126,11 @@ export default function NavbarOne({
           {/* ============= show contact info in the small device sidebar ============= */}
           <div className="offcanvas-footer d-lg-none">
             <div>
-              <NextLink title="anstett.solutions.pro@gmail.com" className="link-inverse" href="mailto:first.last@email.com" />
+              <NextLink
+                title="anstett.solutions.pro@gmail.com"
+                className="link-inverse"
+                href="mailto:first.last@email.com"
+              />
               <br />
               <NextLink href="tel:0123456789" title="06 42 18 55 95" />
               <br />
@@ -132,13 +155,19 @@ export default function NavbarOne({
 
   return (
     <Fragment>
-      {stickyBox ? <div style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }} /> : null}
+      {stickyBox ? (
+        <div
+          style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }}
+        />
+      ) : null}
 
       <nav ref={navbarRef} className={sticky ? fixedClassName : navClassName}>
         {fancy ? (
           <FancyHeader>{headerContent}</FancyHeader>
         ) : (
-          <div className="container flex-lg-row flex-nowrap align-items-center">{headerContent}</div>
+          <div className="container flex-lg-row flex-nowrap align-items-center">
+            {headerContent}
+          </div>
         )}
       </nav>
 

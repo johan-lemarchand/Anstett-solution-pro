@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import NextLink from "../links/NextLink";
+import Image from 'next/image';
+import NextLink from '../links/NextLink';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "@sandbox/hooks/useLightBox";
+import useLightBox from 'app/sandbox/hooks/useLightBox';
 
 // ==============================================================================
 interface ProjectCard3Props {
@@ -15,15 +15,32 @@ interface ProjectCard3Props {
 }
 // ==============================================================================
 
-export default function ProjectCard3({ link, title, image, category, fullImage }: ProjectCard3Props) {
+export default function ProjectCard3({
+  link,
+  title,
+  image,
+  category,
+  fullImage,
+}: ProjectCard3Props) {
   // lighbox hook called
   useLightBox();
 
   return (
     <>
       <figure className="rounded mb-6">
-        <Image width={410} height={440} src={image} alt={title} className="w-100 h-auto" />
-        <a className="item-link" href={fullImage} data-glightbox data-gallery="projects-group">
+        <Image
+          width={410}
+          height={440}
+          src={image}
+          alt={title}
+          className="w-100 h-auto"
+        />
+        <a
+          className="item-link"
+          href={fullImage}
+          data-glightbox
+          data-gallery="projects-group"
+        >
           <i className="uil uil-focus-add" />
         </a>
       </figure>

@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import useReplaceMe from "@sandbox/hooks/useReplaceMe";
+import useReplaceMe from 'app/sandbox/hooks/useReplaceMe';
 
 export default function Hero20() {
   // enable the text rotator animation
@@ -24,11 +24,14 @@ export default function Hero20() {
           <div className="row">
             <div className="col-lg-8 col-xl-6 text-center text-white mx-auto">
               <h1 className="display-1 fs-54 text-white mb-5">
-                <span className="rotator-zoom">Solutions rapides, pensée novatrice, support de premier ordre</span>
+                <span className="rotator-zoom">
+                  Solutions rapides, pensée novatrice, support de premier ordre
+                </span>
               </h1>
 
               <p className="lead fs-24 mb-0 mx-xxl-8">
-              Nous sommes une agence digitale spécialisée dans le web design, le développement mobile et l’optimisation seo.
+                Nous sommes une agence digitale spécialisée dans le web design,
+                le développement mobile et l’optimisation seo.
               </p>
             </div>
           </div>

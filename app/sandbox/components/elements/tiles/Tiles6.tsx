@@ -1,4 +1,4 @@
-import animation from "@sandbox/utils/animation";
+import animation from 'app/sandbox/utils/animation';
 
 export default function Tiles6() {
   return (
@@ -9,7 +9,7 @@ export default function Tiles6() {
           src="/img/photos/sa1.jpg"
           srcSet="/img/photos/sa1@2x.jpg 2x"
           className="img-fluid mx-auto rounded shadow-lg"
-          style={animation({ name: "slideInUp", delay: "1500ms" })}
+          style={animation({ name: 'slideInUp', delay: '1500ms' })}
         />
 
         <img
@@ -17,11 +17,11 @@ export default function Tiles6() {
           src="/img/photos/sa2.jpg"
           className="position-absolute rounded shadow-lg"
           style={{
-            top: "20%",
-            right: "-10%",
-            maxWidth: "30%",
-            height: "auto",
-            ...animation({ name: "slideInRight", delay: "1800ms" })
+            top: '20%',
+            right: '-10%',
+            maxWidth: '30%',
+            height: 'auto',
+            ...animation({ name: 'slideInRight', delay: '1800ms' }),
           }}
         />
 
@@ -30,11 +30,11 @@ export default function Tiles6() {
           src="/img/photos/sa3.jpg"
           className="position-absolute rounded shadow-lg"
           style={{
-            top: "10%",
-            left: "-10%",
-            maxWidth: "30%",
-            height: "auto",
-            ...animation({ name: "slideInLeft", delay: "2100ms" })
+            top: '10%',
+            left: '-10%',
+            maxWidth: '30%',
+            height: 'auto',
+            ...animation({ name: 'slideInLeft', delay: '2100ms' }),
           }}
         />
 
@@ -43,11 +43,11 @@ export default function Tiles6() {
           src="/img/photos/sa4.jpg"
           className="position-absolute rounded shadow-lg"
           style={{
-            left: "-13%",
-            bottom: "10%",
-            height: "auto",
-            maxWidth: "30%",
-            ...animation({ name: "slideInLeft", delay: "2400ms" })
+            left: '-13%',
+            bottom: '10%',
+            height: 'auto',
+            maxWidth: '30%',
+            ...animation({ name: 'slideInLeft', delay: '2400ms' }),
           }}
         />
       </div>

@@ -1,44 +1,47 @@
-import Image from "next/image";
-import { Fragment } from "react";
+import Image from 'next/image';
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "@sandbox/components/reuseable/Carousel";
-import VideoPlyr from "@sandbox/components/reuseable/VideoPlyr";
-import Pagination from "@sandbox/components/reuseable/Pagination";
-import { BlogCard2, BlogCard3 } from "@sandbox/components/reuseable/blog-cards";
+import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import VideoPlyr from 'app/sandbox/components/reuseable/VideoPlyr';
+import Pagination from 'app/sandbox/components/reuseable/Pagination';
+import {
+  BlogCard2,
+  BlogCard3,
+} from 'app/sandbox/components/reuseable/blog-cards';
 // CUSTOM DATA
 const blogs = [
   {
     id: 1,
-    link: "#",
-    category: "Coding",
-    image: "/img/photos/b4.jpg",
-    title: "Ligula tristique quis risus",
-    description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.`
+    link: '#',
+    category: 'Coding',
+    image: '/img/photos/b4.jpg',
+    title: 'Ligula tristique quis risus',
+    description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.`,
   },
   {
     id: 2,
-    link: "#",
-    category: "Workspace",
-    image: "/img/photos/b5.jpg",
-    title: "Nullam id dolor elit id nibh",
-    description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.`
+    link: '#',
+    category: 'Workspace',
+    image: '/img/photos/b5.jpg',
+    title: 'Nullam id dolor elit id nibh',
+    description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.`,
   },
   {
     id: 3,
-    link: "#",
-    category: "Meeting",
-    image: "/img/photos/b6.jpg",
-    title: "Ultricies fusce porta elit",
-    description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.`
+    link: '#',
+    category: 'Meeting',
+    image: '/img/photos/b6.jpg',
+    title: 'Ultricies fusce porta elit',
+    description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.`,
   },
   {
     id: 4,
-    link: "#",
-    category: "Business Tips",
-    image: "/img/photos/b7.jpg",
-    title: "Morbi leo risus porta eget",
-    description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.`
-  }
+    link: '#',
+    category: 'Business Tips',
+    image: '/img/photos/b7.jpg',
+    title: 'Morbi leo risus porta eget',
+    description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.`,
+  },
 ];
 
 export default function BlogTemplate() {
@@ -53,7 +56,13 @@ export default function BlogTemplate() {
           cardTop={
             <figure className="card-img-top overlay overlay-1 hover-scale">
               <a className="link-dark" href="#">
-                <Image alt="blog" width={960} height={600} src="/img/photos/b1.jpg" className="w-100 h-auto" />
+                <Image
+                  alt="blog"
+                  width={960}
+                  height={600}
+                  src="/img/photos/b1.jpg"
+                  className="w-100 h-auto"
+                />
                 <span className="bg" />
               </a>
 
@@ -73,8 +82,20 @@ export default function BlogTemplate() {
             <div className="post-slider card-img-top">
               <div className="swiper-container dots-over">
                 <Carousel grabCursor spaceBetween={5} slidesPerView={1}>
-                  <Image width={960} height={600} src="/img/photos/b2.jpg" alt="" className="w-100 h-auto" />
-                  <Image width={960} height={600} src="/img/photos/b3.jpg" alt="" className="w-100 h-auto" />
+                  <Image
+                    width={960}
+                    height={600}
+                    src="/img/photos/b2.jpg"
+                    alt=""
+                    className="w-100 h-auto"
+                  />
+                  <Image
+                    width={960}
+                    height={600}
+                    src="/img/photos/b3.jpg"
+                    alt=""
+                    className="w-100 h-auto"
+                  />
                 </Carousel>
               </div>
             </div>
@@ -90,7 +111,10 @@ export default function BlogTemplate() {
             <div className="card-img-top">
               <VideoPlyr
                 options={{ loadSprite: true, clickToPlay: true }}
-                source={{ type: "video", sources: [{ src: "j_Y2Gwaj7Gs", provider: "youtube" }] }}
+                source={{
+                  type: 'video',
+                  sources: [{ src: 'j_Y2Gwaj7Gs', provider: 'youtube' }],
+                }}
               />
             </div>
           }
@@ -99,7 +123,7 @@ export default function BlogTemplate() {
 
       <div className="blog grid grid-view">
         <div className="row isotope gx-md-8 gy-8 mb-8">
-          {blogs.map((item) => (
+          {blogs.map(item => (
             <BlogCard3 {...item} key={item.id} />
           ))}
         </div>

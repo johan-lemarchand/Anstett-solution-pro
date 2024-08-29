@@ -1,17 +1,17 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { Hero31 } from "@sandbox/components/blocks/hero";
-import { Facts20 } from "@sandbox/components/blocks/facts";
-import { Footer21 } from "@sandbox/components/blocks/footer";
-import { Clients6 } from "@sandbox/components/blocks/clients";
-import { Services33 } from "@sandbox/components/blocks/services";
-import { Portfolio16 } from "@sandbox/components/blocks/portfolio";
-import { Testimonial25 } from "@sandbox/components/blocks/testimonial";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { Hero31 } from 'app/sandbox/components/blocks/hero';
+import { Facts20 } from 'app/sandbox/components/blocks/facts';
+import { Footer21 } from 'app/sandbox/components/blocks/footer';
+import { Clients6 } from 'app/sandbox/components/blocks/clients';
+import { Services33 } from 'app/sandbox/components/blocks/services';
+import { Portfolio16 } from 'app/sandbox/components/blocks/portfolio';
+import { Testimonial25 } from 'app/sandbox/components/blocks/testimonial';
 
-import Topbar from "@sandbox/components/elements/Topbar";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Topbar from 'app/sandbox/components/elements/Topbar';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function Demo31() {
   return (
@@ -24,7 +24,13 @@ export default function Demo31() {
         <Navbar
           language
           logoAlt="logo"
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded"
+            />
+          }
         />
       </header>
 
@@ -59,7 +65,10 @@ export default function Demo31() {
           <div className="overflow-hidden">
             <div className="divider text-soft-primary mx-n2">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70">
-                <path fill="currentColor" d="M1440,70H0V45.16a5762.49,5762.49,0,0,1,1440,0Z" />
+                <path
+                  fill="currentColor"
+                  d="M1440,70H0V45.16a5762.49,5762.49,0,0,1,1440,0Z"
+                />
               </svg>
             </div>
           </div>

@@ -1,14 +1,14 @@
-import { useState } from "react";
-import Switch from "@sandbox/components/reuseable/Switch";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import { PricingCard3 } from "@sandbox/components/reuseable/pricing-cards";
+import { useState } from 'react';
+import Switch from 'app/sandbox/components/reuseable/Switch';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import { PricingCard3 } from 'app/sandbox/components/reuseable/pricing-cards';
 
 const style = {
-  top: "55%",
-  left: "50%",
-  width: "140%",
-  height: "auto",
-  transform: "translate(-50%,-50%)"
+  top: '55%',
+  left: '50%',
+  width: '140%',
+  height: 'auto',
+  transform: 'translate(-50%,-50%)',
 };
 
 export default function Pricing11() {
@@ -20,9 +20,15 @@ export default function Pricing11() {
         <h2 className="display-2 mt-lg-18 mb-3">Nos tarifs</h2>
         <p className="lead fs-lg mb-3">Nous offrons des prix attractifs.</p>
         <p>
-          Profitez de <NextLink title="30 jours d'essai" href="#" className="hover" /> et du service complet! Pas de carte de crédit requise !
+          Profitez de{' '}
+          <NextLink title="30 jours d'essai" href="#" className="hover" /> et du
+          service complet! Pas de carte de crédit requise !
         </p>
-        <NextLink title="Voir tous les tarifs" href="#" className="btn btn-primary rounded-xl mt-2" />
+        <NextLink
+          title="Voir tous les tarifs"
+          href="#"
+          className="btn btn-primary rounded-xl mt-2"
+        />
       </div>
 
       <div className="col-lg-7 offset-lg-1 pricing-wrapper">
@@ -32,7 +38,7 @@ export default function Pricing11() {
           <Switch value={activeYearly} onChange={setActiveYearly} />
 
           <p className="mb-0 ps-3">
-          Annuel <span className="text-red">(Économisez 30%)</span>
+            Annuel <span className="text-red">(Économisez 30%)</span>
           </p>
         </div>
 

@@ -1,9 +1,12 @@
-import CountUp from "@sandbox/components/reuseable/CountUp";
+import CountUp from 'app/sandbox/components/reuseable/CountUp';
 // GLOBAL CUSTOM COMPONENTS
-import IconBox from "@sandbox/components/reuseable/IconBox";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import IconBox from 'app/sandbox/components/reuseable/IconBox';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // CUSTOM UTILS
-import animation, { fadeInAnimate, slideInDownAnimate } from "@sandbox/utils/animation";
+import animation, {
+  fadeInAnimate,
+  slideInDownAnimate,
+} from 'app/sandbox/utils/animation';
 
 export default function Hero8() {
   return (
@@ -16,11 +19,14 @@ export default function Hero8() {
               src="/img/photos/co3.png"
               srcSet="/img/photos/co3@2x.png 2x"
               className="img-fluid ms-auto mx-auto me-lg-8"
-              style={fadeInAnimate("0ms")}
+              style={fadeInAnimate('0ms')}
             />
 
-            <div style={animation({ name: "slideInRight", delay: "600ms" })}>
-              <div className="card shadow-lg position-absolute" style={{ bottom: "10%", right: "-3%" }}>
+            <div style={animation({ name: 'slideInRight', delay: '600ms' })}>
+              <div
+                className="card shadow-lg position-absolute"
+                style={{ bottom: '10%', right: '-3%' }}
+              >
                 <div className="card-body py-4 px-5">
                   <div className="d-flex flex-row align-items-center">
                     <div>
@@ -34,7 +40,9 @@ export default function Hero8() {
                       <h3 className="counter mb-0 text-nowrap">
                         <CountUp end={25000} suffix="+" />
                       </h3>
-                      <p className="fs-14 lh-sm mb-0 text-nowrap">Clients satisfaits</p>
+                      <p className="fs-14 lh-sm mb-0 text-nowrap">
+                        Clients satisfaits
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -43,21 +51,33 @@ export default function Hero8() {
           </div>
 
           <div className="col-lg-6 text-center text-lg-start">
-            <h1 className="display-2 mb-5" style={slideInDownAnimate("600ms")}>
+            <h1 className="display-2 mb-5" style={slideInDownAnimate('600ms')}>
               Élaborer des solutions spécifiques au projet avec expertise.
             </h1>
 
-            <p className="lead fs-lg lh-sm mb-7 pe-xl-10" style={slideInDownAnimate("900ms")}>
-              Nous sommes une entreprise qui se concentre sur l’établissement de relations à long terme avec les clients.
+            <p
+              className="lead fs-lg lh-sm mb-7 pe-xl-10"
+              style={slideInDownAnimate('900ms')}
+            >
+              Nous sommes une entreprise qui se concentre sur l’établissement de
+              relations à long terme avec les clients.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
-              <span style={slideInDownAnimate("1200ms")}>
-                <NextLink title="Découvrir maintenant" href="#" className="btn btn-lg btn-primary rounded-pill me-2" />
+              <span style={slideInDownAnimate('1200ms')}>
+                <NextLink
+                  title="Découvrir maintenant"
+                  href="#"
+                  className="btn btn-lg btn-primary rounded-pill me-2"
+                />
               </span>
 
-              <span style={slideInDownAnimate("1500ms")}>
-                <NextLink title="Contactez-nous" href="#" className="btn btn-lg btn-outline-primary rounded-pill" />
+              <span style={slideInDownAnimate('1500ms')}>
+                <NextLink
+                  title="Contactez-nous"
+                  href="#"
+                  className="btn btn-lg btn-outline-primary rounded-pill"
+                />
               </span>
             </div>
           </div>

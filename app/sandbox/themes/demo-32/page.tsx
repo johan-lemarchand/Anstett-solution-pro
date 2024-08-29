@@ -1,14 +1,14 @@
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { Hero32 } from "@sandbox/components/blocks/hero";
-import { Blog8 } from "@sandbox/components/blocks/blog";
-import { Team9 } from "@sandbox/components/blocks/team";
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import { CTA12 } from "@sandbox/components/blocks/call-to-action";
-import { About32, About33 } from "@sandbox/components/blocks/about";
-import { Testimonial26 } from "@sandbox/components/blocks/testimonial";
-import { Services34, Services35 } from "@sandbox/components/blocks/services";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { Hero32 } from 'app/sandbox/components/blocks/hero';
+import { Blog8 } from 'app/sandbox/components/blocks/blog';
+import { Team9 } from 'app/sandbox/components/blocks/team';
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import { CTA12 } from 'app/sandbox/components/blocks/call-to-action';
+import { About32, About33 } from 'app/sandbox/components/blocks/about';
+import { Testimonial26 } from 'app/sandbox/components/blocks/testimonial';
+import { Services34, Services35 } from 'app/sandbox/components/blocks/services';
 
-import VideoPlayer from "./video-player";
+import VideoPlayer from './video-player';
 
 export default function Demo32() {
   return (

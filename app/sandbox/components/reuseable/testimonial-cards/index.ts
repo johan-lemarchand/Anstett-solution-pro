@@ -5,4 +5,11 @@ import TestimonialCard4 from './TestimonialCard4';
 import TestimonialCard5 from './TestimonialCard5';
 import TestimonialCard6 from './TestimonialCard6';
 
-export { TestimonialCard1, TestimonialCard2, TestimonialCard3, TestimonialCard4, TestimonialCard5, TestimonialCard6 };
+export {
+  TestimonialCard1,
+  TestimonialCard2,
+  TestimonialCard3,
+  TestimonialCard4,
+  TestimonialCard5,
+  TestimonialCard6,
+};

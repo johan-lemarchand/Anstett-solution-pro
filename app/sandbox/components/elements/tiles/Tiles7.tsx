@@ -1,4 +1,4 @@
-import { fadeInAnimate } from "@sandbox/utils/animation";
+import { fadeInAnimate } from 'app/sandbox/utils/animation';
 
 export default function Tiles7() {
   return (
@@ -7,11 +7,11 @@ export default function Tiles7() {
         className="shape rounded bg-pale-red rellax d-block"
         style={{
           zIndex: 0,
-          top: "50%",
-          left: "50%",
-          width: "50%",
-          height: "60%",
-          transform: "translate3d(0px, 0px, 0px) translate(-50%, -50%)"
+          top: '50%',
+          left: '50%',
+          width: '50%',
+          height: '60%',
+          transform: 'translate3d(0px, 0px, 0px) translate(-50%, -50%)',
         }}
       />
 
@@ -22,14 +22,14 @@ export default function Tiles7() {
             src="/img/photos/sa5.jpg"
             srcSet="/img/photos/sa5@2x.jpg 2x"
             className="img-fluid rounded shadow-lg mb-5"
-            style={fadeInAnimate("300ms")}
+            style={fadeInAnimate('300ms')}
           />
           <img
             alt="demo"
             src="/img/photos/sa6.jpg"
             srcSet="/img/photos/sa6@2x.jpg 2x"
             className="img-fluid rounded shadow-lg d-flex col-10 ms-auto"
-            style={fadeInAnimate("600ms")}
+            style={fadeInAnimate('600ms')}
           />
         </div>
 
@@ -39,14 +39,14 @@ export default function Tiles7() {
             src="/img/photos/sa7.jpg"
             srcSet="/img/photos/sa7@2x.jpg 2x"
             className="img-fluid rounded shadow-lg my-5"
-            style={fadeInAnimate("900ms")}
+            style={fadeInAnimate('900ms')}
           />
           <img
             alt="demo"
             src="/img/photos/sa8.jpg"
             srcSet="/img/photos/sa8@2x.jpg 2x"
             className="img-fluid rounded shadow-lg d-flex col-10"
-            style={fadeInAnimate("1200ms")}
+            style={fadeInAnimate('1200ms')}
           />
         </div>
       </div>

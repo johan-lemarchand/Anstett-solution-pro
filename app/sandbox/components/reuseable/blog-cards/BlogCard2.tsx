@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { ReactElement } from "react";
+import Link from 'next/link';
+import { ReactElement } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "../links/NextLink";
+import NextLink from '../links/NextLink';
 
 // ========================================================
 interface BlogCard2Props {
@@ -13,7 +13,13 @@ interface BlogCard2Props {
 }
 // ========================================================
 
-export default function BlogCard2({ cardTop, title, category, description, link }: BlogCard2Props) {
+export default function BlogCard2({
+  cardTop,
+  title,
+  category,
+  description,
+  link,
+}: BlogCard2Props) {
   return (
     <article className="post">
       <div className="card">

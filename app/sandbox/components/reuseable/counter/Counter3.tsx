@@ -1,5 +1,5 @@
-import { ReactNode } from "react";
-import CountUp from "@sandbox/components/reuseable/CountUp";
+import { ReactNode } from 'react';
+import CountUp from 'app/sandbox/components/reuseable/CountUp';
 
 // ====================================================
 interface CounterProps {
@@ -10,7 +10,12 @@ interface CounterProps {
 }
 // ====================================================
 
-export default function Counter3({ title, number, Icon, suffix }: CounterProps) {
+export default function Counter3({
+  title,
+  number,
+  Icon,
+  suffix,
+}: CounterProps) {
   return (
     <div className="col-md-4">
       {Icon}

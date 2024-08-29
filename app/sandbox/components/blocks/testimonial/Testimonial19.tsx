@@ -1,20 +1,28 @@
-import Carousel from "@sandbox/components/reuseable/Carousel";
+import Carousel from 'app/sandbox/components/reuseable/Carousel';
 // CUSTOM UTILS
-import carouselBreakpoints from "@sandbox/utils/carouselBreakpoints";
+import carouselBreakpoints from 'app/sandbox/utils/carouselBreakpoints';
 // CUSTOM DATA
-import { testimonialList7 } from "@sandbox/data/testimonial-list";
+import { testimonialList7 } from 'app/sandbox/data/testimonial-list';
 
 export default function Testimonial19() {
   return (
     <section id="testimonials">
       <div
         className="wrapper image-wrapper bg-image bg-overlay"
-        style={{ backgroundImage: "url(/img/photos/bg35.jpg)" }}>
+        style={{ backgroundImage: 'url(/img/photos/bg35.jpg)' }}
+      >
         <div className="container pt-15 pb-13">
-          <h2 className="display-5 mb-4 text-center text-white">Clients satisfaits</h2>
+          <h2 className="display-5 mb-4 text-center text-white">
+            Clients satisfaits
+          </h2>
 
           <div className="swiper-container dots-closer dots-light dots-light-75">
-            <Carousel grabCursor spaceBetween={0} navigation={false} breakpoints={carouselBreakpoints}>
+            <Carousel
+              grabCursor
+              spaceBetween={0}
+              navigation={false}
+              breakpoints={carouselBreakpoints}
+            >
               {testimonialList7.map(({ id, name, designation, review }) => (
                 <div className="item-inner" key={id}>
                   <div className="card border-0 bg-white-900">

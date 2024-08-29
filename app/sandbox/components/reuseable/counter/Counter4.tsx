@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import CountUp, { CountUpProps } from "react-countup";
+import CountUp, { CountUpProps } from 'react-countup';
 
 // ==============================================================
 interface CounterProps extends CountUpProps {

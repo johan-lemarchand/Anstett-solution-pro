@@ -1,12 +1,12 @@
-import Image from "next/image";
-import { Fragment } from "react";
+import Image from 'next/image';
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import Carousel from "@sandbox/components/reuseable/Carousel";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import ProjectDetailsContent from "@sandbox/components/common/ProjectDetailsContent";
-import ProjectDetailsNavigation from "@sandbox/components/common/ProjectDetailsNavigation";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import ProjectDetailsContent from 'app/sandbox/components/common/ProjectDetailsContent';
+import ProjectDetailsNavigation from 'app/sandbox/components/common/ProjectDetailsNavigation';
 
 export default function ProjectDetails() {
   return (
@@ -15,7 +15,13 @@ export default function ProjectDetails() {
       <header className="wrapper bg-light">
         <Navbar
           language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -30,9 +36,12 @@ export default function ProjectDetails() {
                     <NextLink title="Identity" href="#" className="hover" />
                   </div>
 
-                  <h1 className="display-1 mb-3">Commodo Dolor Bibendum Parturient Cursus Mollis</h1>
+                  <h1 className="display-1 mb-3">
+                    Commodo Dolor Bibendum Parturient Cursus Mollis
+                  </h1>
                   <p className="lead px-md-12 px-lg-12 px-xl-15 px-xxl-18">
-                    Integer posuere erat a ante venenatis dapibus posuere. Maecenas faucibus mollis interdum.
+                    Integer posuere erat a ante venenatis dapibus posuere.
+                    Maecenas faucibus mollis interdum.
                   </p>
                 </div>
               </div>
@@ -50,9 +59,16 @@ export default function ProjectDetails() {
                     autoHeight
                     spaceBetween={5}
                     slidesPerView={1}
-                    slideClassName="rounded overflow-hidden">
+                    slideClassName="rounded overflow-hidden"
+                  >
                     <div>
-                      <Image alt="demo" width={1600} height={912} src="/img/photos/pp7.jpg" className="w-100 h-auto" />
+                      <Image
+                        alt="demo"
+                        width={1600}
+                        height={912}
+                        src="/img/photos/pp7.jpg"
+                        className="w-100 h-auto"
+                      />
                       <div className="caption-wrapper p-12">
                         <div className="caption bg-white rounded px-4 py-3 ms-auto mt-auto animate__animated animate__slideInDown animate__delay-1s">
                           <h5 className="mb-0">Vivamus sagittis lacus augue</h5>
@@ -61,7 +77,13 @@ export default function ProjectDetails() {
                     </div>
 
                     <div>
-                      <Image width={1600} height={1011} src="/img/photos/pp8.jpg" alt="demo" className="w-100 h-auto" />
+                      <Image
+                        width={1600}
+                        height={1011}
+                        src="/img/photos/pp8.jpg"
+                        alt="demo"
+                        className="w-100 h-auto"
+                      />
                       <div className="caption-wrapper p-12">
                         <div className="caption bg-white rounded px-4 py-3 mx-auto mt-auto animate__animated animate__slideInDown animate__delay-1s">
                           <h5 className="mb-0">Vivamus sagittis lacus augue</h5>
@@ -70,7 +92,13 @@ export default function ProjectDetails() {
                     </div>
 
                     <div>
-                      <Image width={1600} height={980} src="/img/photos/pp9.jpg" alt="demo" className="w-100 h-auto" />
+                      <Image
+                        width={1600}
+                        height={980}
+                        src="/img/photos/pp9.jpg"
+                        alt="demo"
+                        className="w-100 h-auto"
+                      />
                       <div className="caption-wrapper p-12">
                         <div className="caption bg-white rounded px-4 py-3 mt-auto animate__animated animate__slideInDown animate__delay-1s">
                           <h5 className="mb-0">Vivamus sagittis lacus augue</h5>

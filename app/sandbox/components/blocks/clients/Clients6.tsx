@@ -1,11 +1,11 @@
-import { Fragment } from "react";
-import Carousel from "@sandbox/components/reuseable/Carousel";
+import { Fragment } from 'react';
+import Carousel from 'app/sandbox/components/reuseable/Carousel';
 
 export default function Clients6() {
   const carouselProps = {
-    className: "swiper pe-none",
-    slideClassName: "swiper-slide px-5",
-    wrapperClass: "swiper-wrapper ticker",
+    className: 'swiper pe-none',
+    slideClassName: 'swiper-slide px-5',
+    wrapperClass: 'swiper-wrapper ticker',
     speed: 5000,
     spaceBetween: 30,
     pagination: false,
@@ -17,13 +17,15 @@ export default function Clients6() {
       768: { slidesPerView: 4 },
       992: { slidesPerView: 5 },
       1200: { slidesPerView: 6 },
-      1400: { slidesPerView: 7 }
-    }
+      1400: { slidesPerView: 7 },
+    },
   };
 
   return (
     <Fragment>
-      <h2 className="fs-16 text-uppercase text-muted mb-8 text-center">La confiance de plus de 5000 clients</h2>
+      <h2 className="fs-16 text-uppercase text-muted mb-8 text-center">
+        La confiance de plus de 5000 clients
+      </h2>
 
       <div className="swiper-container clients mb-19">
         <Carousel {...carouselProps}>

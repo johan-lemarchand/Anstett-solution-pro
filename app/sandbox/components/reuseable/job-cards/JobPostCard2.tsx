@@ -1,5 +1,5 @@
-import clsx from "clsx";
-import Link from "next/link";
+import clsx from 'clsx';
+import Link from 'next/link';
 
 // ========================================================================
 interface JobPostCard2Props {
@@ -16,8 +16,8 @@ export default function JobPostCard2(props: JobPostCard2Props) {
   const { time, location, title, avatarColor, avatar, link } = props;
 
   const AVATAR_CLASS = clsx({
-    "avatar text-white w-9 h-9 fs-17 me-3": true,
-    [avatarColor]: Boolean(avatarColor)
+    'avatar text-white w-9 h-9 fs-17 me-3': true,
+    [avatarColor]: Boolean(avatarColor),
   });
 
   return (

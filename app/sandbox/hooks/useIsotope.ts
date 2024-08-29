@@ -1,29 +1,29 @@
-"use client";
+'use client';
 
-import type Isotope from "isotope-layout";
-import { useEffect, useRef, useState } from "react";
+import type Isotope from 'isotope-layout';
+import { useEffect, useRef, useState } from 'react';
 
 export default function useIsotope() {
   const isotope = useRef<Isotope>();
-  const [filterKey, setFilterKey] = useState("*");
+  const [filterKey, setFilterKey] = useState('*');
 
   useEffect(() => {
     if (typeof window === undefined) return;
 
     (async function () {
-      const Isotope = (await import("isotope-layout")).default;
-      const grids = document.querySelectorAll(".grid");
+      const Isotope = (await import('isotope-layout')).default;
+      const grids = document.querySelectorAll('.grid');
 
       if (grids !== null) {
-        grids.forEach((g) => {
-          const grid = g.querySelector(".isotope") as HTMLElement;
+        grids.forEach(g => {
+          const grid = g.querySelector('.isotope') as HTMLElement;
 
           isotope.current = new Isotope(grid, {
-            itemSelector: ".item",
-            layoutMode: "masonry",
+            itemSelector: '.item',
+            layoutMode: 'masonry',
             masonry: { columnWidth: grid.offsetWidth / 12 },
             percentPosition: true,
-            transitionDuration: "0.7s"
+            transitionDuration: '0.7s',
           });
         });
       }
@@ -33,7 +33,8 @@ export default function useIsotope() {
   }, []);
 
   useEffect(() => {
-    const filtered = filterKey === "*" ? { filter: "*" } : { filter: filterKey };
+    const filtered =
+      filterKey === '*' ? { filter: '*' } : { filter: filterKey };
     isotope.current?.arrange(filtered);
   }, [filterKey]);
 

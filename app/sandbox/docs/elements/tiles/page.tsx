@@ -1,6 +1,16 @@
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
-import { Tiles1, Tiles11, Tiles2, Tiles3, Tiles4, Tiles5, Tiles7, Tiles8, Tiles9 } from "@sandbox/components/elements/tiles";
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import {
+  Tiles1,
+  Tiles11,
+  Tiles2,
+  Tiles3,
+  Tiles4,
+  Tiles5,
+  Tiles7,
+  Tiles8,
+  Tiles9,
+} from 'app/sandbox/components/elements/tiles';
 // MARKUPS
 import {
   markup1,
@@ -11,20 +21,20 @@ import {
   markup6,
   markup7,
   markup8,
-  markup9
-} from "@sandbox/themes/markups/elements/tiles";
+  markup9,
+} from 'app/sandbox/themes/markups/elements/tiles';
 
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Tiles 1", url: "snippet-1" },
-  { title: "Tiles 2", url: "snippet-2" },
-  { title: "Tiles 3", url: "snippet-3" },
-  { title: "Tiles 4", url: "snippet-4" },
-  { title: "Tiles 5", url: "snippet-5" },
-  { title: "Tiles 6", url: "snippet-6" },
-  { title: "Tiles 7", url: "snippet-7" },
-  { title: "Tiles 8", url: "snippet-8" },
-  { title: "Tiles 9", url: "snippet-9" }
+  { title: 'Tiles 1', url: 'snippet-1' },
+  { title: 'Tiles 2', url: 'snippet-2' },
+  { title: 'Tiles 3', url: 'snippet-3' },
+  { title: 'Tiles 4', url: 'snippet-4' },
+  { title: 'Tiles 5', url: 'snippet-5' },
+  { title: 'Tiles 6', url: 'snippet-6' },
+  { title: 'Tiles 7', url: 'snippet-7' },
+  { title: 'Tiles 8', url: 'snippet-8' },
+  { title: 'Tiles 9', url: 'snippet-9' },
 ];
 
 const tiles = [
@@ -36,7 +46,7 @@ const tiles = [
   { id: 6, Component: Tiles7, markup: markup6 },
   { id: 7, Component: Tiles8, markup: markup7 },
   { id: 8, Component: Tiles9, markup: markup8 },
-  { id: 9, Component: Tiles11, markup: markup9 }
+  { id: 9, Component: Tiles11, markup: markup9 },
 ];
 
 export default function Tiles() {
@@ -45,7 +55,8 @@ export default function Tiles() {
       pageTitle="Tiles"
       quickAccessLinks={quickAccess}
       headingColClass="col-md-9 col-lg-7 col-xl-4 mx-auto"
-      description="Use our tile options to arrange images with appealing styles.">
+      description="Use our tile options to arrange images with appealing styles."
+    >
       {/* ========== section 1 ========== */}
 
       {tiles.map(({ id, Component, markup }) => (
@@ -57,12 +68,19 @@ export default function Tiles() {
             </div>
 
             <div className="card-footer position-relative">
-              <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href={`#collapse-${id}`}>
+              <a
+                className="collapse-link collapsed stretched-link"
+                data-bs-toggle="collapse"
+                href={`#collapse-${id}`}
+              >
                 View example's code
               </a>
             </div>
 
-            <div id={`collapse-${id}`} className="card-footer bg-dark p-0 accordion-collapse collapse">
+            <div
+              id={`collapse-${id}`}
+              className="card-footer bg-dark p-0 accordion-collapse collapse"
+            >
               <div className="code-wrapper">
                 <div className="code-wrapper-inner">
                   <CodeHighlight language="jsx">{markup}</CodeHighlight>

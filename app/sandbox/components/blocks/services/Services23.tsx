@@ -1,4 +1,4 @@
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function Services23() {
   return (
@@ -6,9 +6,12 @@ export default function Services23() {
       <div className="container py-15 py-md-17">
         <div className="row text-center mb-10">
           <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">Que faisons-nous?</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">
+              Que faisons-nous?
+            </h2>
             <h3 className="display-3 px-xl-10 mb-0">
-              Le service que nous offrons est spécialement conçu pour répondre à vos besoins.
+              Le service que nous offrons est spécialement conçu pour répondre à
+              vos besoins.
             </h3>
           </div>
         </div>
@@ -64,24 +67,25 @@ export default function Services23() {
 
 type ColumnTwoProps = { title: string; className?: string };
 
-const ColumnTwo = ({ title, className = "" }: ColumnTwoProps) => {
+const ColumnTwo = ({ title, className = '' }: ColumnTwoProps) => {
   // list data
   const list = [
-    "Aenean quam ornare curabitur blandit.",
-    "Nullam quis risus eget urna mollis ornare leo.",
-    "Etiam porta euismod mollis natoque ornare."
+    'Aenean quam ornare curabitur blandit.',
+    'Nullam quis risus eget urna mollis ornare leo.',
+    'Etiam porta euismod mollis natoque ornare.',
   ];
 
   return (
     <div className={`col-lg-5 ${className}`}>
       <h3 className="fs-28 mb-3">{title}</h3>
       <p>
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus
-        ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.
+        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget
+        quam. Praesent commodo cursus magna risus varius.
       </p>
 
       <ul className="icon-list bullet-bg bullet-soft-primary">
-        {list.map((item) => (
+        {list.map(item => (
           <li key={item}>
             <i className="uil uil-check" />
             <span>{item}</span>
@@ -89,7 +93,11 @@ const ColumnTwo = ({ title, className = "" }: ColumnTwoProps) => {
         ))}
       </ul>
 
-      <NextLink title="Plus de détails" href="#" className="btn btn-soft-primary rounded-pill mt-2 mb-0" />
+      <NextLink
+        title="Plus de détails"
+        href="#"
+        className="btn btn-soft-primary rounded-pill mt-2 mb-0"
+      />
     </div>
   );
 };

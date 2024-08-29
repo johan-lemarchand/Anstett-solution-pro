@@ -1,6 +1,6 @@
-import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
+import { ServiceCard3 } from 'app/sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { aboutList4 } from "@sandbox/data/about";
+import { aboutList4 } from 'app/sandbox/data/about';
 
 export default function About20() {
   return (
@@ -9,34 +9,57 @@ export default function About20() {
         <div className="row gx-md-5 gy-5">
           <div className="col-12">
             <figure className="rounded mx-md-5">
-              <img src="/img/photos/g8.jpg" srcSet="/img/photos/g8@2x.jpg 2x" alt="" />
+              <img
+                src="/img/photos/g8.jpg"
+                srcSet="/img/photos/g8@2x.jpg 2x"
+                alt=""
+              />
             </figure>
           </div>
 
           <div className="col-md-6">
             <figure className="rounded">
-              <img src="/img/photos/g9.jpg" srcSet="/img/photos/g9@2x.jpg 2x" alt="" />
+              <img
+                src="/img/photos/g9.jpg"
+                srcSet="/img/photos/g9@2x.jpg 2x"
+                alt=""
+              />
             </figure>
           </div>
 
           <div className="col-md-6">
             <figure className="rounded">
-              <img src="/img/photos/g10.jpg" srcSet="/img/photos/g10@2x.jpg 2x" alt="" />
+              <img
+                src="/img/photos/g10.jpg"
+                srcSet="/img/photos/g10@2x.jpg 2x"
+                alt=""
+              />
             </figure>
           </div>
         </div>
       </div>
 
       <div className="col-lg-6">
-        <h2 className="fs-16 text-uppercase text-muted mb-3">En quoi sommes-nous différents ?</h2>
+        <h2 className="fs-16 text-uppercase text-muted mb-3">
+          En quoi sommes-nous différents ?
+        </h2>
         <h3 className="display-3 mb-8">
-          Nous apportons <span className="underline-3 style-2 yellow">des solutions</span> pour faciliter la vie de nos clients.
+          Nous apportons{' '}
+          <span className="underline-3 style-2 yellow">des solutions</span> pour
+          faciliter la vie de nos clients.
         </h3>
 
         <div className="row gy-6">
           {aboutList4.map(({ id, Icon, color, ...item }) => (
             <div className="col-md-6" key={id}>
-              <ServiceCard3 {...item} Icon={<Icon className={`icon-svg-xs solid-mono text-${color} me-4`} />} />
+              <ServiceCard3
+                {...item}
+                Icon={
+                  <Icon
+                    className={`icon-svg-xs solid-mono text-${color} me-4`}
+                  />
+                }
+              />
             </div>
           ))}
         </div>

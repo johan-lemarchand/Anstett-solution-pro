@@ -1,4 +1,4 @@
-import Pricing2 from "./Pricing2";
+import Pricing2 from './Pricing2';
 
 export default function Pricing4() {
   return (
@@ -8,7 +8,8 @@ export default function Pricing4() {
           <div className="row">
             <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
               <h3 className="display-4 mb-15 mb-md-6 px-lg-10">
-              Nous offrons des prix avantageux, des produits de qualité supérieure et un service optimal pour votre entreprise.
+                Nous offrons des prix avantageux, des produits de qualité
+                supérieure et un service optimal pour votre entreprise.
               </h3>
             </div>
           </div>

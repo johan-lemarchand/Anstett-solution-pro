@@ -1,17 +1,17 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { Team1 } from "@sandbox/components/blocks/team";
-import { Hero1 } from "@sandbox/components/blocks/hero";
-import { About1 } from "@sandbox/components/blocks/about";
-import { Footer1 } from "@sandbox/components/blocks/footer";
-import { Pricing1 } from "@sandbox/components/blocks/pricing";
-import { Clients1 } from "@sandbox/components/blocks/clients";
-import { Process1 } from "@sandbox/components/blocks/process";
-import { Contact4 } from "@sandbox/components/blocks/contact";
-import { CTA1 } from "@sandbox/components/blocks/call-to-action";
-import { Testimonial1 } from "@sandbox/components/blocks/testimonial";
-import { Services1, Services2 } from "@sandbox/components/blocks/services";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { Team1 } from 'app/sandbox/components/blocks/team';
+import { Hero1 } from 'app/sandbox/components/blocks/hero';
+import { About1 } from 'app/sandbox/components/blocks/about';
+import { Footer1 } from 'app/sandbox/components/blocks/footer';
+import { Pricing1 } from 'app/sandbox/components/blocks/pricing';
+import { Clients1 } from 'app/sandbox/components/blocks/clients';
+import { Process1 } from 'app/sandbox/components/blocks/process';
+import { Contact4 } from 'app/sandbox/components/blocks/contact';
+import { CTA1 } from 'app/sandbox/components/blocks/call-to-action';
+import { Testimonial1 } from 'app/sandbox/components/blocks/testimonial';
+import { Services1, Services2 } from 'app/sandbox/components/blocks/services';
 
 export default function Demo1() {
   return (

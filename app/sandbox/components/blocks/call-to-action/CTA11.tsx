@@ -1,10 +1,11 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function CTA11() {
   return (
     <section
       className="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600"
-      style={{ backgroundImage: "url(/img/photos/bg23.png)" }}>
+      style={{ backgroundImage: 'url(/img/photos/bg23.png)' }}
+    >
       <div className="overflow-hidden" style={{ zIndex: 1 }}>
         <div className="divider divider-alt text-light mx-n2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
@@ -21,7 +22,7 @@ export default function CTA11() {
             <img
               src="/img/svg/doodle2.svg"
               className="h-15 position-absolute d-none d-lg-block"
-              style={{ bottom: "36%", right: "-25%" }}
+              style={{ bottom: '36%', right: '-25%' }}
               alt=""
             />
 
@@ -29,28 +30,40 @@ export default function CTA11() {
               data-delay="1800"
               src="/img/svg/doodle6.svg"
               className="h-14 position-absolute d-none d-lg-block"
-              style={{ top: "-20%", left: "-25%" }}
+              style={{ top: '-20%', left: '-25%' }}
               alt=""
             />
 
             <h2 className="display-3 mb-4">
-            Gérez toutes vos factures, comptes et budgets <span className="text-gradient gradient-7">en un seul endroit</span>
+              Gérez toutes vos factures, comptes et budgets{' '}
+              <span className="text-gradient gradient-7">
+                en un seul endroit
+              </span>
             </h2>
 
             <p className="lead fs-24 lh-sm mb-7">
-              Anstett Solutions Pro est disponible en téléchargement sur l’App Store et le Google Play Store.
+              Anstett Solutions Pro est disponible en téléchargement sur l’App
+              Store et le Google Play Store.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span>
                 <Link href="#" className="me-2">
-                  <img src="/img/photos/button-appstore.svg" className="h-11 rounded-xl" alt="" />
+                  <img
+                    src="/img/photos/button-appstore.svg"
+                    className="h-11 rounded-xl"
+                    alt=""
+                  />
                 </Link>
               </span>
 
               <span>
                 <Link href="#">
-                  <img src="/img/photos/button-google-play.svg" className="h-11 rounded-xl" alt="" />
+                  <img
+                    src="/img/photos/button-google-play.svg"
+                    className="h-11 rounded-xl"
+                    alt=""
+                  />
                 </Link>
               </span>
             </div>
@@ -58,7 +71,11 @@ export default function CTA11() {
 
           <div className="col-lg-6 ms-auto mt-lg-n15 mt-xl-n20">
             <figure>
-              <img src="/img/photos/devices6.png" srcSet="/img/photos/devices6@2x.png 2x" alt="" />
+              <img
+                src="/img/photos/devices6.png"
+                srcSet="/img/photos/devices6@2x.png 2x"
+                alt=""
+              />
             </figure>
           </div>
         </div>

@@ -1,14 +1,19 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // CUSTOM DATA
-import { serviceList10 } from "@sandbox/data/service";
+import { serviceList10 } from 'app/sandbox/data/service';
 
 export default function Services20() {
   return (
     <Fragment>
       <div className="row text-center">
         <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-          <h2 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">Nos fonctionnalités</h2>
-          <h3 className="display-4 mb-9 px-xl-11">Le service que nous offrons est spécialement conçu pour répondre à vos besoins.</h3>
+          <h2 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">
+            Nos fonctionnalités
+          </h2>
+          <h3 className="display-4 mb-9 px-xl-11">
+            Le service que nous offrons est spécialement conçu pour répondre à
+            vos besoins.
+          </h3>
         </div>
       </div>
 

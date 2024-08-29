@@ -97,4 +97,13 @@ const linksMarkup = `import NextLink from 'components/reuseable/links/NextLink';
 <NextLink title="Link example" href="#" className="hover-3 me-4" />
 <NextLink title="Link example" href="#" className="hover-3 more me-4" />`;
 
-export { headingMarkup, displayMarkup, tinyMarkup, leadMarkup, listMarkup, quoteMarkup, dropcapMarkup, linksMarkup };
+export {
+  headingMarkup,
+  displayMarkup,
+  tinyMarkup,
+  leadMarkup,
+  listMarkup,
+  quoteMarkup,
+  dropcapMarkup,
+  linksMarkup,
+};

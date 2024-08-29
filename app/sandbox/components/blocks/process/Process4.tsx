@@ -1,25 +1,34 @@
-import animation from "@sandbox/utils/animation";
+import animation from 'app/sandbox/utils/animation';
 // GLOBAL CUSTOM COMPONENTS
-import VideoPlyr from "@sandbox/components/reuseable/VideoPlyr";
+import VideoPlyr from 'app/sandbox/components/reuseable/VideoPlyr';
 // CUSTOM DATA
-import { processList5 } from "@sandbox/data/process";
+import { processList5 } from 'app/sandbox/data/process';
 
 export default function Process4() {
   return (
     <div className="wrapper bg-soft-primary">
       <div className="container py-14 pt-md-16 pt-lg-0 pb-md-16">
-        <div className="row text-center" style={animation({ name: "slideInUp", delay: "0ms" })}>
+        <div
+          className="row text-center"
+          style={animation({ name: 'slideInUp', delay: '0ms' })}
+        >
           <div className="col-lg-10 mx-auto">
             <div className="mt-lg-n20 mt-xl-n22 position-relative">
-              <div className="shape bg-dot red rellax w-16 h-18" style={{ zIndex: 0, top: "1rem", left: "-3.9rem" }} />
+              <div
+                className="shape bg-dot red rellax w-16 h-18"
+                style={{ zIndex: 0, top: '1rem', left: '-3.9rem' }}
+              />
               <div
                 className="shape rounded-circle bg-line primary rellax w-18 h-18"
-                style={{ zIndex: 0, bottom: "2rem", right: "-3rem" }}
+                style={{ zIndex: 0, bottom: '2rem', right: '-3rem' }}
               />
 
               <VideoPlyr
                 options={{ loadSprite: true, clickToPlay: true }}
-                source={{ type: "video", sources: [{ src: "/media/movie.mp4" }] }}
+                source={{
+                  type: 'video',
+                  sources: [{ src: '/media/movie.mp4' }],
+                }}
               />
             </div>
           </div>
@@ -27,9 +36,12 @@ export default function Process4() {
 
         <div className="row text-center mt-12">
           <div className="col-lg-9 mx-auto">
-            <h2 className="fs-15 text-uppercase text-muted mb-3">Notre procédé</h2>
+            <h2 className="fs-15 text-uppercase text-muted mb-3">
+              Notre procédé
+            </h2>
             <h3 className="display-4 mb-0 text-center px-xl-10 px-xxl-15">
-             Apprenez tout ce dont vous avez besoin sur la création d'un modèle de processus métier.
+              Apprenez tout ce dont vous avez besoin sur la création d'un modèle
+              de processus métier.
             </h3>
 
             <div className="row gx-lg-8 gx-xl-12 process-wrapper text-center mt-9">

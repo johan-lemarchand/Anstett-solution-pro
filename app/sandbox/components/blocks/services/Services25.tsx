@@ -1,16 +1,19 @@
-import { Fragment } from "react";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { Fragment } from 'react';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { serviceList13 } from "@sandbox/data/service";
+import { serviceList13 } from 'app/sandbox/data/service';
 
 export default function Services25() {
   return (
     <Fragment>
       <div className="row text-center">
         <div className="col-lg-9 col-xl-8 mx-auto">
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Que faisons-nous?</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">
+            Que faisons-nous?
+          </h2>
           <h3 className="display-4 mb-10 px-xxl-10">
-          Le service complet que nous offrons est spécialement conçu pour répondre à vos besoins.
+            Le service complet que nous offrons est spécialement conçu pour
+            répondre à vos besoins.
           </h3>
         </div>
       </div>
@@ -18,18 +21,26 @@ export default function Services25() {
       <div className="row">
         <div className="col-xxl-11 mx-auto">
           <div className="row gx-lg-8 gx-xl-12 gy-11 text-center d-flex align-items-end">
-            {serviceList13.map(({ id, description, icon, linkUrl, title, color }) => (
-              <div className="col-sm-8 col-md-6 col-lg-4 mx-auto" key={id}>
-                <div className="px-md-3 px-lg-0 px-xl-3">
-                  <div className={`icon btn btn-block btn-lg btn-soft-${color} pe-none mb-5`}>
-                    <i className={`uil ${icon}`} />
+            {serviceList13.map(
+              ({ id, description, icon, linkUrl, title, color }) => (
+                <div className="col-sm-8 col-md-6 col-lg-4 mx-auto" key={id}>
+                  <div className="px-md-3 px-lg-0 px-xl-3">
+                    <div
+                      className={`icon btn btn-block btn-lg btn-soft-${color} pe-none mb-5`}
+                    >
+                      <i className={`uil ${icon}`} />
+                    </div>
+                    <h3 className="fs-22">{title}</h3>
+                    <p className="mb-2">{description}</p>
+                    <NextLink
+                      title="En savoir plus"
+                      href={linkUrl}
+                      className={`more hover link-${color}`}
+                    />
                   </div>
-                  <h3 className="fs-22">{title}</h3>
-                  <p className="mb-2">{description}</p>
-                  <NextLink title="En savoir plus" href={linkUrl} className={`more hover link-${color}`} />
                 </div>
-              </div>
-            ))}
+              )
+            )}
           </div>
         </div>
       </div>

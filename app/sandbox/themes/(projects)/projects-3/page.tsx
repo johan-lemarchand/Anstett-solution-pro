@@ -1,17 +1,17 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import Image from "next/image";
-import { Fragment } from "react";
-import clsx from "clsx";
+import Link from 'next/link';
+import Image from 'next/image';
+import { Fragment } from 'react';
+import clsx from 'clsx';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "@sandbox/hooks/useIsotope";
+import useIsotope from 'app/sandbox/hooks/useIsotope';
 // CUSTOM DATA
-import { filterItems, projectList } from "./data";
+import { filterItems, projectList } from './data';
 
 export default function ProjectsThree() {
   const { handleFilterKeyChange, filterKey } = useIsotope();
@@ -22,7 +22,13 @@ export default function ProjectsThree() {
       <header className="wrapper bg-light">
         <Navbar
           language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -32,7 +38,9 @@ export default function ProjectsThree() {
           <div className="container pt-10 pt-md-14">
             <div className="row">
               <div className="col-lg-10 col-xxl-8">
-                <h1 className="display-1 mb-0">Check out some of our awesome projects with creative ideas.</h1>
+                <h1 className="display-1 mb-0">
+                  Check out some of our awesome projects with creative ideas.
+                </h1>
               </div>
             </div>
           </div>
@@ -49,7 +57,11 @@ export default function ProjectsThree() {
                     <li key={id}>
                       <a
                         onClick={handleFilterKeyChange(value)}
-                        className={clsx({ "filter-item": true, active: value === filterKey })}>
+                        className={clsx({
+                          'filter-item': true,
+                          active: value === filterKey,
+                        })}
+                      >
                         {title}
                       </a>
                     </li>
@@ -59,28 +71,34 @@ export default function ProjectsThree() {
 
               {/* ========== projects section ========== */}
               <div className="row gx-md-10 gy-10 gy-md-13 isotope">
-                {projectList.map(({ id, image, title, category, color, link, type }) => (
-                  <div className={`project item col-md-6 ${type}`} key={id}>
-                    <Link href={link}>
-                      <figure className="lift rounded mb-6">
-                        <Image
-                          alt={title}
-                          src={image.url}
-                          width={image.width}
-                          height={image.height}
-                          className="w-100 h-auto"
-                        />
-                      </figure>
-                    </Link>
+                {projectList.map(
+                  ({ id, image, title, category, color, link, type }) => (
+                    <div className={`project item col-md-6 ${type}`} key={id}>
+                      <Link href={link}>
+                        <figure className="lift rounded mb-6">
+                          <Image
+                            alt={title}
+                            src={image.url}
+                            width={image.width}
+                            height={image.height}
+                            className="w-100 h-auto"
+                          />
+                        </figure>
+                      </Link>
 
-                    <div className="project-details d-flex justify-content-center flex-column">
-                      <div className="post-header">
-                        <div className={`post-category text-line mb-3 text-${color}`}>{category}</div>
-                        <h3 className="post-title">{title}</h3>
+                      <div className="project-details d-flex justify-content-center flex-column">
+                        <div className="post-header">
+                          <div
+                            className={`post-category text-line mb-3 text-${color}`}
+                          >
+                            {category}
+                          </div>
+                          <h3 className="post-title">{title}</h3>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  )
+                )}
               </div>
             </div>
           </div>

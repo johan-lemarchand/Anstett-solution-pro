@@ -1,9 +1,9 @@
 // GLOBAL CUSTOM COMPONENTS
-import VideoPlyr from "@sandbox/components/reuseable/VideoPlyr";
+import VideoPlyr from 'app/sandbox/components/reuseable/VideoPlyr';
 // CUSTOM ICON COMPONENT
-import Hex from "@sandbox/icons/Hex";
+import Hex from 'app/sandbox/icons/Hex';
 // CUSTOM DATA
-import { processList10 } from "@sandbox/data/process";
+import { processList10 } from 'app/sandbox/data/process';
 
 export default function Process13() {
   return (
@@ -12,15 +12,22 @@ export default function Process13() {
         <div className="row text-center">
           <div className="col-lg-10 mx-auto position-relative">
             <div className="position-relative">
-              <div className="shape pale-pink rellax w-18 h-18" style={{ top: "1rem", left: "-4.2rem" }}>
+              <div
+                className="shape pale-pink rellax w-18 h-18"
+                style={{ top: '1rem', left: '-4.2rem' }}
+              >
                 <Hex />
               </div>
 
-              <div className="shape pale-primary rellax w-18 h-18" style={{ bottom: "2rem", right: "-3.5rem" }}>
+              <div
+                className="shape pale-primary rellax w-18 h-18"
+                style={{ bottom: '2rem', right: '-3.5rem' }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 500 500"
-                  className="svg-inject icon-svg w-100 h-100">
+                  className="svg-inject icon-svg w-100 h-100"
+                >
                   <g data-name="Layer 2">
                     <path
                       className="svg-fill"
@@ -33,7 +40,10 @@ export default function Process13() {
 
               <VideoPlyr
                 options={{ loadSprite: true, clickToPlay: true }}
-                source={{ type: "video", sources: [{ src: "/media/movie.mp4" }] }}
+                source={{
+                  type: 'video',
+                  sources: [{ src: '/media/movie.mp4' }],
+                }}
               />
             </div>
           </div>
@@ -41,9 +51,12 @@ export default function Process13() {
 
         <div className="row text-center mt-12">
           <div className="col-lg-10 mx-auto">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">Notre processus de travail</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">
+              Notre processus de travail
+            </h2>
             <h3 className="display-3 text-center px-xl-10 px-xxl-15 mb-10">
-            Apprenez tout ce dont vous avez besoin sur la création d'un modèle de processus métier.
+              Apprenez tout ce dont vous avez besoin sur la création d'un modèle
+              de processus métier.
             </h3>
             <div className="row gx-lg-8 gx-xl-12 process-wrapper arrow text-center">
               {processList10.map(({ id, title, description, Icon }) => (

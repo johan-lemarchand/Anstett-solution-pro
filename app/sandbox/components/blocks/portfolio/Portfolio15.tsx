@@ -1,7 +1,7 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "@sandbox/components/reuseable/Carousel";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function Portfolio15() {
   return (
@@ -11,8 +11,8 @@ export default function Portfolio15() {
           <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
             <h2 className="display-2 mb-4">Créatif. Intelligent. Génial.</h2>
             <p className="lead fs-lg mb-11">
-              Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus
-              eget urna.
+              Curabitur blandit tempus porttitor. Cras mattis consectetur purus
+              sit amet fermentum. Nullam quis risus eget urna.
             </p>
           </div>
         </div>
@@ -29,10 +29,15 @@ export default function Portfolio15() {
           slidesPerView="auto"
           autoplay={{ delay: 1 }}
           wrapperClass="swiper-wrapper ticker"
-          className="overflow-visible pe-none">
-          {[8, 9, 10, 11, 12, 13, 14].map((num) => (
+          className="overflow-visible pe-none"
+        >
+          {[8, 9, 10, 11, 12, 13, 14].map(num => (
             <figure className="rounded-xl shadow-xl" key={num}>
-              <img src={`/img/photos/ma${num}.jpg`} srcSet={`/img/photos/ma${num}@2x.jpg 2x`} alt="" />
+              <img
+                src={`/img/photos/ma${num}.jpg`}
+                srcSet={`/img/photos/ma${num}@2x.jpg 2x`}
+                alt=""
+              />
             </figure>
           ))}
         </Carousel>
@@ -50,17 +55,26 @@ export default function Portfolio15() {
           autoplay={{ delay: 1 }}
           wrapperClass="swiper-wrapper ticker"
           className="overflow-visible pe-none"
-          dir="rtl">
-          {[1, 2, 3, 4, 5, 6, 7].map((num) => (
+          dir="rtl"
+        >
+          {[1, 2, 3, 4, 5, 6, 7].map(num => (
             <figure className="rounded-xl shadow-xl" key={num}>
-              <img src={`/img/photos/ma${num}.jpg`} srcSet={`/img/photos/ma${num}@2x.jpg 2x`} alt="" />
+              <img
+                src={`/img/photos/ma${num}.jpg`}
+                srcSet={`/img/photos/ma${num}@2x.jpg 2x`}
+                alt=""
+              />
             </figure>
           ))}
         </Carousel>
       </div>
 
       <div className="text-center mt-8 mb-15 mb-md-18 mb-lg-25">
-        <NextLink href="#" title="Voir nos réalisations" className="btn btn-lg btn-primary rounded-xl" />
+        <NextLink
+          href="#"
+          title="Voir nos réalisations"
+          className="btn btn-lg btn-primary rounded-xl"
+        />
       </div>
     </Fragment>
   );

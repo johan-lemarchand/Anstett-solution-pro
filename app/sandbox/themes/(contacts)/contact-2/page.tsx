@@ -1,16 +1,16 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { Tiles3 } from "@sandbox/components/elements/tiles";
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import ContactForm from "@sandbox/components/common/ContactForm";
-import Breadcrumb from "@sandbox/components/reuseable/Breadcrumb";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { Tiles3 } from 'app/sandbox/components/elements/tiles';
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import ContactForm from 'app/sandbox/components/common/ContactForm';
+import Breadcrumb from 'app/sandbox/components/reuseable/Breadcrumb';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 // CUSTOM DATA
 const breadcrumb = [
-  { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "Contact", url: "#" }
+  { id: 1, title: 'Home', url: '/' },
+  { id: 2, title: 'Contact', url: '#' },
 ];
 
 export default function ContactTwo() {
@@ -20,7 +20,13 @@ export default function ContactTwo() {
       <header className="wrapper bg-soft-primary">
         <Navbar
           language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -42,13 +48,18 @@ export default function ContactTwo() {
             {/* ========== contact info section ========== */}
             <div className="row gy-10 gx-lg-8 gx-xl-12 mb-16 align-items-center">
               <div className="col-lg-7 position-relative">
-                <div className="shape bg-dot primary rellax w-18 h-18" style={{ top: 0, left: "-1.4rem", zIndex: 0 }} />
+                <div
+                  className="shape bg-dot primary rellax w-18 h-18"
+                  style={{ top: 0, left: '-1.4rem', zIndex: 0 }}
+                />
 
                 <Tiles3 />
               </div>
 
               <div className="col-lg-5">
-                <h2 className="display-4 mb-8">Convaincu? Faisons quelque chose de grand ensemble.</h2>
+                <h2 className="display-4 mb-8">
+                  Convaincu? Faisons quelque chose de grand ensemble.
+                </h2>
                 <div className="d-flex flex-row">
                   <div>
                     <div className="icon text-primary fs-28 me-6 mt-n1">
@@ -59,8 +70,9 @@ export default function ContactTwo() {
                   <div>
                     <h5 className="mb-1">Adresse</h5>
                     <address>
-                    26E rue de Kaltenhouse  <br className="d-none d-md-block" />
-                    67240 Oberhoffen-Sur-Moder
+                      26E rue de Kaltenhouse{' '}
+                      <br className="d-none d-md-block" />
+                      67240 Oberhoffen-Sur-Moder
                     </address>
                   </div>
                 </div>
@@ -88,7 +100,10 @@ export default function ContactTwo() {
                   <div>
                     <h5 className="mb-1">E-mail</h5>
                     <p className="mb-0">
-                      <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                      <a
+                        href="mailto:anstett.solutions.pro@gmail.com"
+                        className="link-body"
+                      >
                         anstett.solutions.pro@gmail.com
                       </a>
                     </p>
@@ -102,7 +117,8 @@ export default function ContactTwo() {
               <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <h2 className="display-4 mb-3 text-center">Écrivez-nous</h2>
                 <p className="lead text-center mb-10">
-                  Contactez-nous à partir de notre formulaire et nous vous répondrons sous peu.
+                  Contactez-nous à partir de notre formulaire et nous vous
+                  répondrons sous peu.
                 </p>
 
                 <ContactForm />

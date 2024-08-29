@@ -1,15 +1,19 @@
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 // MARKUP
-import { fontSizeMarkup, lineHeightMarkup, letterSpacingMarkup } from "@sandbox/themes/markups/styleguide/misc";
+import {
+  fontSizeMarkup,
+  lineHeightMarkup,
+  letterSpacingMarkup,
+} from 'app/sandbox/themes/markups/styleguide/misc';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Spacing", url: "snippet-1" },
-  { title: "Font Size", url: "snippet-2" },
-  { title: "Line Height", url: "snippet-3" },
-  { title: "Letter Spacing", url: "snippet-4" },
-  { title: "Gutters", url: "snippet-5" },
-  { title: "Retina Images", url: "snippet-6" }
+  { title: 'Spacing', url: 'snippet-1' },
+  { title: 'Font Size', url: 'snippet-2' },
+  { title: 'Line Height', url: 'snippet-3' },
+  { title: 'Letter Spacing', url: 'snippet-4' },
+  { title: 'Gutters', url: 'snippet-5' },
+  { title: 'Retina Images', url: 'snippet-6' },
 ];
 
 export default function Misc() {
@@ -19,22 +23,25 @@ export default function Misc() {
       quickAccessLinks={quickAccess}
       descriptionClass="lead px-xxl-12"
       headingColClass="col-md-9 col-lg-7 col-xl-5 mx-auto"
-      description="Learn more about some miscellaneous styling features used in Sandbox.">
+      description="Learn more about some miscellaneous styling features used in Sandbox."
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Spacing</h2>
         <div className="card">
           <div className="card-body">
             <p className="mb-0">
-              Sandbox adds additional spacing variables to existing{" "}
+              Sandbox adds additional spacing variables to existing{' '}
               <a
                 href="https://getbootstrap.com/docs/5.2/utilities/spacing/"
                 className="external"
                 target="_blank"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 Bootstrap spacing
-              </a>{" "}
-              ranging between values <mark className="doc">0</mark> and <mark className="doc">25</mark>
+              </a>{' '}
+              ranging between values <mark className="doc">0</mark> and{' '}
+              <mark className="doc">25</mark>
             </p>
           </div>
         </div>
@@ -45,19 +52,29 @@ export default function Misc() {
         <div className="card">
           <div className="card-body">
             <p className="mb-0">
-              Quickly change the font-size of text using <code className="code">.fs-*</code> classes ranging between{" "}
-              <mark className="doc">1</mark> and <mark className="doc">200</mark>, while <mark className="doc">sm</mark>
-              , and <mark className="doc">lg</mark> also apply.
+              Quickly change the font-size of text using{' '}
+              <code className="code">.fs-*</code> classes ranging between{' '}
+              <mark className="doc">1</mark> and{' '}
+              <mark className="doc">200</mark>, while{' '}
+              <mark className="doc">sm</mark>, and{' '}
+              <mark className="doc">lg</mark> also apply.
             </p>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="html">{fontSizeMarkup}</CodeHighlight>
@@ -72,20 +89,30 @@ export default function Misc() {
         <div className="card">
           <div className="card-body">
             <p className="mb-0">
-              Change the line height with <code className="code">.lh-*</code> utilities.
+              Change the line height with <code className="code">.lh-*</code>{' '}
+              utilities.
             </p>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
-                <CodeHighlight language="html">{lineHeightMarkup}</CodeHighlight>
+                <CodeHighlight language="html">
+                  {lineHeightMarkup}
+                </CodeHighlight>
               </div>
             </div>
           </div>
@@ -97,20 +124,30 @@ export default function Misc() {
         <div className="card">
           <div className="card-body">
             <p className="mb-0">
-              Change the letter spacing with <code className="code">.ls-*</code> utilities.
+              Change the letter spacing with <code className="code">.ls-*</code>{' '}
+              utilities.
             </p>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-4">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-4"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-4" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-4"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
-                <CodeHighlight language="html">{letterSpacingMarkup}</CodeHighlight>
+                <CodeHighlight language="html">
+                  {letterSpacingMarkup}
+                </CodeHighlight>
               </div>
             </div>
           </div>
@@ -122,13 +159,15 @@ export default function Misc() {
         <div className="card">
           <div className="card-body">
             <p className="mb-0">
-              Spacing variables mentioned above can also be used for column gutters. More information regarding
-              Bootstrap gutters can be found on{" "}
+              Spacing variables mentioned above can also be used for column
+              gutters. More information regarding Bootstrap gutters can be found
+              on{' '}
               <a
                 href="https://getbootstrap.com/docs/5.2/layout/gutters/"
                 className="external"
                 target="_blank"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 Bootstrap docs
               </a>
             </p>
@@ -141,19 +180,28 @@ export default function Misc() {
         <div className="card">
           <div className="card-body">
             <p className="mb-0">
-              In order to display a high resolution image on devices with retina display, you need two versions of the
-              image. One with regular size and another with twice its size. The high resolution one should have the
-              exact same name with <mark className="doc">@2x</mark> at the end.
+              In order to display a high resolution image on devices with retina
+              display, you need two versions of the image. One with regular size
+              and another with twice its size. The high resolution one should
+              have the exact same name with <mark className="doc">@2x</mark> at
+              the end.
             </p>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="html">{`<img src="logo.png" srcSet="logo@2x.png 2x" alt="" />`}</CodeHighlight>

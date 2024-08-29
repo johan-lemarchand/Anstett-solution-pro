@@ -1,7 +1,7 @@
-import Link from "next/link";
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import Link from 'next/link';
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 // MARKUP
 import {
   iconMarkup,
@@ -13,20 +13,20 @@ import {
   circleMarkup,
   socialMarkup,
   expandMarkup,
-  gradientsMarkup
-} from "@sandbox/themes/markups/elements/buttons";
+  gradientsMarkup,
+} from 'app/sandbox/themes/markups/elements/buttons';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Colors", url: "snippet-1" },
-  { title: "Gradient", url: "snippet-2" },
-  { title: "Sizes", url: "snippet-3" },
-  { title: "Shapes", url: "snippet-4" },
-  { title: "Style", url: "snippet-5" },
-  { title: "Circle", url: "snippet-6" },
-  { title: "Social", url: "snippet-7" },
-  { title: "Icon", url: "snippet-8" },
-  { title: "Expand", url: "snippet-9" },
-  { title: "Play", url: "snippet-10" }
+  { title: 'Colors', url: 'snippet-1' },
+  { title: 'Gradient', url: 'snippet-2' },
+  { title: 'Sizes', url: 'snippet-3' },
+  { title: 'Shapes', url: 'snippet-4' },
+  { title: 'Style', url: 'snippet-5' },
+  { title: 'Circle', url: 'snippet-6' },
+  { title: 'Social', url: 'snippet-7' },
+  { title: 'Icon', url: 'snippet-8' },
+  { title: 'Expand', url: 'snippet-9' },
+  { title: 'Play', url: 'snippet-10' },
 ];
 
 export default function Buttons() {
@@ -36,59 +36,173 @@ export default function Buttons() {
       quickAccessLinks={quickAccess}
       description={
         <>
-          Use our custom button styles for actions in forms, dialogs, with support for multiple sizes, states, etc.{" "}
+          Use our custom button styles for actions in forms, dialogs, with
+          support for multiple sizes, states, etc.{' '}
           <a
             href="https://getbootstrap.com/docs/5.2/components/buttons/"
             target="_blank"
             className="hover more"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Bootstrap docs
           </a>
         </>
-      }>
+      }
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Colors</h2>
         <div className="card">
           <div className="card-body">
-            <NextLink title="Button" href="#" className="btn btn-yellow rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-orange rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-pink rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-violet rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-purple rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-blue rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-aqua rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-leaf rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-fuchsia rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-sky rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-grape rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-navy rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-ash rounded-pill mb-2 me-1" />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-yellow rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-orange rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-pink rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-violet rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-purple rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-blue rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-aqua rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-leaf rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-fuchsia rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-sky rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-grape rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-navy rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-ash rounded-pill mb-2 me-1"
+            />
 
             <br className="d-none d-lg-block" />
 
-            <NextLink title="Button" href="#" className="btn btn-soft-yellow rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-orange rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-pink rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-violet rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-purple rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-blue rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-aqua rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-leaf rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-fuchsia rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-sky rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-grape rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-navy rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-soft-ash rounded-pill mb-2 me-1" />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-yellow rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-orange rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-pink rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-violet rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-purple rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-blue rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-aqua rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-leaf rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-fuchsia rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-sky rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-grape rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-navy rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-soft-ash rounded-pill mb-2 me-1"
+            />
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-colors">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-colors"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-colors" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-colors"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{colorsMarkup}</CodeHighlight>
@@ -103,13 +217,41 @@ export default function Buttons() {
         <h2 className="mb-5">Gradients</h2>
         <div className="card">
           <div className="card-body">
-            <NextLink title="Button" href="#" className="btn btn-gradient gradient-1 rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-gradient gradient-2 rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-gradient gradient-3 rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-gradient gradient-4 rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-gradient gradient-5 rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-gradient gradient-6 rounded-pill mb-2 me-1" />
-            <NextLink title="Button" href="#" className="btn btn-gradient gradient-7 rounded-pill mb-2 me-1" />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-gradient gradient-1 rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-gradient gradient-2 rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-gradient gradient-3 rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-gradient gradient-4 rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-gradient gradient-5 rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-gradient gradient-6 rounded-pill mb-2 me-1"
+            />
+            <NextLink
+              title="Button"
+              href="#"
+              className="btn btn-gradient gradient-7 rounded-pill mb-2 me-1"
+            />
             <br className="d-none d-lg-block" />
             <NextLink
               href="#"
@@ -149,12 +291,19 @@ export default function Buttons() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-gradients">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-gradients"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-gradients" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-gradients"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{gradientsMarkup}</CodeHighlight>
@@ -169,18 +318,37 @@ export default function Buttons() {
         <h2 className="mb-5">Sizes</h2>
         <div className="card">
           <div className="card-body">
-            <NextLink title="Large Button" href="#" className="btn btn-primary btn-lg rounded-pill me-1 mb-2 mb-md-0" />
-            <NextLink title="Default Button" href="#" className="btn btn-primary rounded-pill me-1 mb-2 mb-md-0" />
-            <NextLink title="Small Button" href="#" className="btn btn-primary btn-sm rounded-pill me-1 mb-2 mb-md-0" />
+            <NextLink
+              title="Large Button"
+              href="#"
+              className="btn btn-primary btn-lg rounded-pill me-1 mb-2 mb-md-0"
+            />
+            <NextLink
+              title="Default Button"
+              href="#"
+              className="btn btn-primary rounded-pill me-1 mb-2 mb-md-0"
+            />
+            <NextLink
+              title="Small Button"
+              href="#"
+              className="btn btn-primary btn-sm rounded-pill me-1 mb-2 mb-md-0"
+            />
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-sizes">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-sizes"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-sizes" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-sizes"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{sizesMarkup}</CodeHighlight>
@@ -195,18 +363,37 @@ export default function Buttons() {
         <h2 className="mb-5">Shapes</h2>
         <div className="card">
           <div className="card-body">
-            <NextLink title="Square" href="#" className="btn btn-primary rounded-0 me-1 mb-2 mb-md-0" />
-            <NextLink title="Rounded" href="#" className="btn btn-primary me-1 mb-2 mb-md-0" />
-            <NextLink title="Pill" href="#" className="btn btn-primary rounded-pill me-1 mb-2 mb-md-0" />
+            <NextLink
+              title="Square"
+              href="#"
+              className="btn btn-primary rounded-0 me-1 mb-2 mb-md-0"
+            />
+            <NextLink
+              title="Rounded"
+              href="#"
+              className="btn btn-primary me-1 mb-2 mb-md-0"
+            />
+            <NextLink
+              title="Pill"
+              href="#"
+              className="btn btn-primary rounded-pill me-1 mb-2 mb-md-0"
+            />
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-shapes">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-shapes"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-shapes" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-shapes"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{shapesMarkup}</CodeHighlight>
@@ -221,9 +408,21 @@ export default function Buttons() {
         <h2 className="mb-5">Style</h2>
         <div className="card">
           <div className="card-body">
-            <NextLink title="Solid" href="#" className="btn btn-primary rounded-pill me-1 mb-2 mb-md-0" />
-            <NextLink title="Soft" href="#" className="btn btn-soft-primary rounded-pill me-1 mb-2 mb-md-0" />
-            <NextLink href="#" title="Outline" className="btn btn-outline-primary rounded-pill me-1 mb-2 mb-md-0" />
+            <NextLink
+              title="Solid"
+              href="#"
+              className="btn btn-primary rounded-pill me-1 mb-2 mb-md-0"
+            />
+            <NextLink
+              title="Soft"
+              href="#"
+              className="btn btn-soft-primary rounded-pill me-1 mb-2 mb-md-0"
+            />
+            <NextLink
+              href="#"
+              title="Outline"
+              className="btn btn-outline-primary rounded-pill me-1 mb-2 mb-md-0"
+            />
 
             <NextLink
               href="#"
@@ -239,12 +438,19 @@ export default function Buttons() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-styles">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-styles"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-styles" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-styles"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{stylesMarkup}</CodeHighlight>
@@ -362,12 +568,19 @@ export default function Buttons() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-circle">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-circle"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-circle" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-circle"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{circleMarkup}</CodeHighlight>
@@ -430,12 +643,19 @@ export default function Buttons() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-social">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-social"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-social" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-social"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{socialMarkup}</CodeHighlight>
@@ -459,12 +679,19 @@ export default function Buttons() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-icon">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-icon"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-icon" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-icon"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{iconMarkup}</CodeHighlight>
@@ -479,26 +706,39 @@ export default function Buttons() {
         <h2 className="mb-5">Expand</h2>
         <div className="card">
           <div className="card-body">
-            <Link href="#" className="btn btn-expand btn-primary rounded-pill me-5 mb-3 mb-lg-0">
+            <Link
+              href="#"
+              className="btn btn-expand btn-primary rounded-pill me-5 mb-3 mb-lg-0"
+            >
               <i className="uil uil-arrow-right" />
               <span>En savoir plus</span>
             </Link>
 
             <br className="d-lg-none" />
 
-            <Link href="#" className="btn btn-expand btn-soft-primary rounded-pill me-5">
+            <Link
+              href="#"
+              className="btn btn-expand btn-soft-primary rounded-pill me-5"
+            >
               <i className="uil uil-arrow-right" />
               <span>En savoir plus</span>
             </Link>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-expand">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-expand"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-expand" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-expand"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{expandMarkup}</CodeHighlight>
@@ -513,22 +753,35 @@ export default function Buttons() {
         <h2 className="mb-5">Play</h2>
         <div className="card">
           <div className="card-body">
-            <Link href="#" className="btn btn-circle btn-primary btn-play ripple me-5">
+            <Link
+              href="#"
+              className="btn btn-circle btn-primary btn-play ripple me-5"
+            >
               <i className="icn-caret-right" />
             </Link>
 
-            <Link href="#" className="btn btn-circle btn-soft-primary btn-play ripple">
+            <Link
+              href="#"
+              className="btn btn-circle btn-soft-primary btn-play ripple"
+            >
               <i className="icn-caret-right" />
             </Link>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-play">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-play"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-play" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-play"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{playMarkup}</CodeHighlight>

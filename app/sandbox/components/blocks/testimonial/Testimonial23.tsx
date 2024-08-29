@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "@sandbox/hooks/useIsotope";
+import useIsotope from 'app/sandbox/hooks/useIsotope';
 // CUSTOM DATA
-import { testimonials } from "@sandbox/data/demo-29";
+import { testimonials } from 'app/sandbox/data/demo-29';
 
 export default function Testimonial23() {
   useIsotope();
@@ -16,28 +16,31 @@ export default function Testimonial23() {
           <img
             src="/img/svg/doodle1.svg"
             className="h-9 position-absolute d-none d-lg-block"
-            style={{ top: "2%", left: "9%" }}
+            style={{ top: '2%', left: '9%' }}
             alt=""
           />
 
           <img
             src="/img/svg/doodle10.svg"
             className="h-7 position-absolute d-none d-lg-block"
-            style={{ top: "-45%", left: "-17%" }}
+            style={{ top: '-45%', left: '-17%' }}
             alt=""
           />
 
           <img
             src="/img/svg/doodle11.svg"
             className="h-13 position-absolute d-none d-lg-block"
-            style={{ top: "-40%", right: "-15%" }}
+            style={{ top: '-40%', right: '-15%' }}
             alt=""
           />
 
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Clients satisfaits</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">
+            Clients satisfaits
+          </h2>
           <h3 className="display-3 mb-11 px-xl-10 px-xxl-13">
-          Ne nous prenez pas au mot. Voyez ce que les <span className="text-gradient gradient-7">clients</span> disent
-          à propos de nous.
+            Ne nous prenez pas au mot. Voyez ce que les{' '}
+            <span className="text-gradient gradient-7">clients</span> disent à
+            propos de nous.
           </h3>
         </div>
       </div>

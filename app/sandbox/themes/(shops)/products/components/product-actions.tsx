@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useState } from 'react';
 // CUSTOM DATA
-import data from "@sandbox/data/product-details-page";
+import data from 'app/sandbox/data/product-details-page';
 
 export default function ProductActions() {
   const [quantity, setQuantity] = useState(1);
@@ -34,13 +34,16 @@ export default function ProductActions() {
       </div>
 
       <p className="mb-6">
-        Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Duis mollis, est non
-        commodo luctus. Nulla vitae elit libero pharetra augue. Donec id elit non mi porta gravida at eget metus.
+        Cum sociis natoque penatibus et magnis dis parturient montes nascetur
+        ridiculus mus. Duis mollis, est non commodo luctus. Nulla vitae elit
+        libero pharetra augue. Donec id elit non mi porta gravida at eget metus.
       </p>
 
       <form onSubmit={handleFormSubmit}>
         <fieldset className="picker">
-          <legend className="h6 fs-16 text-body mb-3">Choisir une taille</legend>
+          <legend className="h6 fs-16 text-body mb-3">
+            Choisir une taille
+          </legend>
 
           {data.sizeList.map(({ value, title }) => (
             <label htmlFor={`size-${value}`} key={title}>
@@ -50,7 +53,7 @@ export default function ProductActions() {
                 value={value}
                 id={`size-${value}`}
                 checked={value === size}
-                onChange={(e) => setSize(e.target.value)}
+                onChange={e => setSize(e.target.value)}
               />
               <span>{title}</span>
             </label>
@@ -58,7 +61,9 @@ export default function ProductActions() {
         </fieldset>
 
         <fieldset className="picker">
-          <legend className="h6 fs-16 text-body mb-3">Choisir une couleur</legend>
+          <legend className="h6 fs-16 text-body mb-3">
+            Choisir une couleur
+          </legend>
 
           {data.productColors.map(({ id, value }) => (
             <label htmlFor={id} key={id}>
@@ -68,7 +73,7 @@ export default function ProductActions() {
                 name="colors"
                 value={value}
                 checked={value === color}
-                onChange={(e) => setColor(e.target.value)}
+                onChange={e => setColor(e.target.value)}
               />
               <span style={{ color: value }}>Yellow</span>
             </label>
@@ -79,8 +84,12 @@ export default function ProductActions() {
           <div className="col-lg-9 d-flex flex-row pt-2">
             <div>
               <div className="form-select-wrapper">
-                <select value={quantity} className="form-select" onChange={(e) => setQuantity(+e.currentTarget.value)}>
-                  {[1, 2, 3, 4, 5].map((item) => (
+                <select
+                  value={quantity}
+                  className="form-select"
+                  onChange={e => setQuantity(+e.currentTarget.value)}
+                >
+                  {[1, 2, 3, 4, 5].map(item => (
                     <option key={item} value={item}>
                       {item}
                     </option>
@@ -90,7 +99,10 @@ export default function ProductActions() {
             </div>
 
             <div className="flex-grow-1 mx-2">
-              <button type="submit" className="btn btn-primary btn-icon btn-icon-start rounded w-100 flex-grow-1">
+              <button
+                type="submit"
+                className="btn btn-primary btn-icon btn-icon-start rounded w-100 flex-grow-1"
+              >
                 <i className="uil uil-shopping-bag" /> Ajouter au panier
               </button>
             </div>

@@ -13,15 +13,20 @@ export default function Contact11() {
       </div>
 
       <div className="col-lg-5 offset-lg-1">
-        <h2 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">Contactez-nous</h2>
-        <h3 className="display-4 mb-8">Vous avez des questions? N’hésitez pas à nous contacter.</h3>
+        <h2 className="fs-16 text-uppercase text-gradient gradient-1 mb-3">
+          Contactez-nous
+        </h2>
+        <h3 className="display-4 mb-8">
+          Vous avez des questions? N’hésitez pas à nous contacter.
+        </h3>
         <div className="d-flex flex-row">
           <div>
             <svg
               viewBox="0 0 256 255.84"
               xmlns="http://www.w3.org/2000/svg"
               className="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4"
-              style={{ width: "1.5rem", height: "1.5rem" }}>
+              style={{ width: '1.5rem', height: '1.5rem' }}
+            >
               <path
                 className="fill-secondary"
                 d="M10.67 255.84a10.68 10.68 0 01-7.54-18.23l86.08-86a10.67 10.67 0 1115.08 15.1l-86.08 86a10.61 10.61 0 01-7.54 3.13z"
@@ -45,7 +50,8 @@ export default function Contact11() {
               viewBox="0 0 256.01 256"
               xmlns="http://www.w3.org/2000/svg"
               className="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4"
-              style={{ width: "1.5rem", height: "1.5rem" }}>
+              style={{ width: '1.5rem', height: '1.5rem' }}
+            >
               <path
                 className="fill-secondary"
                 d="M128 106.67a128.15 128.15 0 00-128 128A21.36 21.36 0 0021.34 256h213.32A21.36 21.36 0 00256 234.67c0-70.57-57.42-128-128-128zM128 224a42.67 42.67 0 1142.67-42.67A42.71 42.71 0 01128 224z"
@@ -68,7 +74,8 @@ export default function Contact11() {
               viewBox="0 0 256 202.66"
               xmlns="http://www.w3.org/2000/svg"
               className="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4"
-              style={{ width: "1.5rem", height: "1.5rem" }}>
+              style={{ width: '1.5rem', height: '1.5rem' }}
+            >
               <path
                 className="fill-primary"
                 d="M192 0H21.33A21.36 21.36 0 000 21.33v96a21.36 21.36 0 0021.33 21.33H192a21.36 21.36 0 0021.33-21.33v-96A21.36 21.36 0 00192 0zm0 48l-73.6 37.12A25.12 25.12 0 01106.67 88a24.39 24.39 0 01-11.84-3L21.34 48V30.08l80.85 40.75a9.64 9.64 0 008.85.11l81-40.86z"
@@ -83,7 +90,10 @@ export default function Contact11() {
           <div>
             <h5 className="mb-0">E-mail</h5>
             <p className="mb-0">
-              <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+              <a
+                href="mailto:anstett.solutions.pro@gmail.com"
+                className="link-body"
+              >
                 anstett.solutions.pro@gmail.com
               </a>
             </p>

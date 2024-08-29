@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import { FormEvent, Fragment, useState } from "react";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { FormEvent, Fragment, useState } from 'react';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function RegisterForm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const [visiblePassword, setVisiblePassword] = useState(false);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -25,7 +25,7 @@ export default function RegisterForm() {
             value={name}
             placeholder="Name"
             className="form-control"
-            onChange={(e) => setName(e.target.value)}
+            onChange={e => setName(e.target.value)}
           />
           <label htmlFor="name">Nom</label>
         </div>
@@ -37,7 +37,7 @@ export default function RegisterForm() {
             id="loginEmail"
             placeholder="Email"
             className="form-control"
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={e => setEmail(e.target.value)}
           />
           <label htmlFor="loginEmail">Email</label>
         </div>
@@ -48,11 +48,16 @@ export default function RegisterForm() {
             id="loginPassword"
             placeholder="Password"
             className="form-control"
-            type={visiblePassword ? "text" : "password"}
-            onChange={(e) => setPassword(e.target.value)}
+            type={visiblePassword ? 'text' : 'password'}
+            onChange={e => setPassword(e.target.value)}
           />
-          <span className="password-toggle" onClick={() => setVisiblePassword(!visiblePassword)}>
-            <i className={`uil  ${visiblePassword ? "uil-eye-slash" : "uil-eye"}`} />
+          <span
+            className="password-toggle"
+            onClick={() => setVisiblePassword(!visiblePassword)}
+          >
+            <i
+              className={`uil  ${visiblePassword ? 'uil-eye-slash' : 'uil-eye'}`}
+            />
           </span>
 
           <label htmlFor="loginPassword">Mot de passe</label>
@@ -64,36 +69,57 @@ export default function RegisterForm() {
             value={confirmPassword}
             className="form-control"
             placeholder="Confirm Password"
-            type={visiblePassword ? "text" : "password"}
-            onChange={(e) => setConfirmPassword(e.target.value)}
+            type={visiblePassword ? 'text' : 'password'}
+            onChange={e => setConfirmPassword(e.target.value)}
           />
-          <span className="password-toggle" onClick={() => setVisiblePassword(!visiblePassword)}>
-            <i className={`uil  ${visiblePassword ? "uil-eye-slash" : "uil-eye"}`} />
+          <span
+            className="password-toggle"
+            onClick={() => setVisiblePassword(!visiblePassword)}
+          >
+            <i
+              className={`uil  ${visiblePassword ? 'uil-eye-slash' : 'uil-eye'}`}
+            />
           </span>
 
           <label htmlFor="password-confirm">Confirmez le mot de passe</label>
         </div>
 
-        <button type="submit" className="btn btn-primary rounded-pill btn-login w-100 mb-2">
+        <button
+          type="submit"
+          className="btn btn-primary rounded-pill btn-login w-100 mb-2"
+        >
           S'enregistrer
         </button>
       </form>
 
       <p className="mb-0">
-        Vous avez déjà un compte ? <NextLink title="Connexion" href="/login" className="hover" />
+        Vous avez déjà un compte ?{' '}
+        <NextLink title="Connexion" href="/login" className="hover" />
       </p>
 
       <div className="divider-icon my-4">or</div>
       <nav className="nav social justify-content-center text-center">
-        <a href="#" target="__blank" className="btn btn-circle btn-sm btn-google">
+        <a
+          href="#"
+          target="__blank"
+          className="btn btn-circle btn-sm btn-google"
+        >
           <i className="uil uil-google" />
         </a>
 
-        <a href="#" target="__blank" className="btn btn-circle btn-sm btn-facebook-f">
+        <a
+          href="#"
+          target="__blank"
+          className="btn btn-circle btn-sm btn-facebook-f"
+        >
           <i className="uil uil-facebook-f" />
         </a>
 
-        <a href="#" target="__blank" className="btn btn-circle btn-sm btn-twitter">
+        <a
+          href="#"
+          target="__blank"
+          className="btn btn-circle btn-sm btn-twitter"
+        >
           <i className="uil uil-twitter" />
         </a>
       </nav>

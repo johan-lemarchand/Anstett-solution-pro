@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "../links/NextLink";
-import FigureImage from "../FigureImage";
+import NextLink from '../links/NextLink';
+import FigureImage from '../FigureImage';
 
 // ========================================================
 interface BlogCard3Props {
@@ -13,7 +13,13 @@ interface BlogCard3Props {
 }
 // ========================================================
 
-export default function BlogCard3({ title, category, description, link, image }: BlogCard3Props) {
+export default function BlogCard3({
+  title,
+  category,
+  description,
+  link,
+  image,
+}: BlogCard3Props) {
   return (
     <article className="item post col-md-6">
       <div className="card">

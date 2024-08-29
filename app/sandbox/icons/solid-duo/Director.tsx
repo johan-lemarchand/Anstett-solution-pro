@@ -1,4 +1,4 @@
-import {IconProps} from '../../../types/icon';
+import { IconProps } from '../../../types/icon';
 
 const Director = ({ className }: IconProps) => {
   return (
@@ -15,13 +15,25 @@ const Director = ({ className }: IconProps) => {
         className="fill-secondary"
         d="M224 168a8 8 0 01-8-8v-16H40v16a8 8 0 01-16 0v-24a8 8 0 018-8h192a8 8 0 018 8v24a8 8 0 01-8 8z"
       />
-      <path className="fill-secondary" d="M128 170.67a8 8 0 01-8-8v-48a8 8 0 0116 0v48a8 8 0 01-8 8z" />
+      <path
+        className="fill-secondary"
+        d="M128 170.67a8 8 0 01-8-8v-48a8 8 0 0116 0v48a8 8 0 01-8 8z"
+      />
       <circle className="fill-primary" cx="32" cy="197.33" r="16" />
-      <path className="fill-primary" d="M40 224H24a24 24 0 00-24 24 8 8 0 008 8h48a8 8 0 008-8 24 24 0 00-24-24z" />
+      <path
+        className="fill-primary"
+        d="M40 224H24a24 24 0 00-24 24 8 8 0 008 8h48a8 8 0 008-8 24 24 0 00-24-24z"
+      />
       <circle className="fill-primary" cx="128" cy="197.33" r="16" />
-      <path className="fill-primary" d="M136 224h-16a24 24 0 00-24 24 8 8 0 008 8h48a8 8 0 008-8 24 24 0 00-24-24z" />
+      <path
+        className="fill-primary"
+        d="M136 224h-16a24 24 0 00-24 24 8 8 0 008 8h48a8 8 0 008-8 24 24 0 00-24-24z"
+      />
       <circle className="fill-primary" cx="224" cy="197.33" r="16" />
-      <path className="fill-primary" d="M232 224h-16a24 24 0 00-24 24 8 8 0 008 8h48a8 8 0 008-8 24 24 0 00-24-24z" />
+      <path
+        className="fill-primary"
+        d="M232 224h-16a24 24 0 00-24 24 8 8 0 008 8h48a8 8 0 008-8 24 24 0 00-24-24z"
+      />
     </svg>
   );
 };

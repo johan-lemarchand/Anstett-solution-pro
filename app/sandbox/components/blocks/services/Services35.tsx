@@ -1,4 +1,4 @@
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function Services35() {
   return (
@@ -6,18 +6,29 @@ export default function Services35() {
       <div className="container py-15 py-md-17">
         <div className="row">
           <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Pourquoi choisir Anstett Solutions Pro</h2>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">
+              Pourquoi choisir Anstett Solutions Pro
+            </h2>
             <h3 className="display-3 mb-10 px-xl-10 px-xxl-15">
-            Voici quelques raisons pour lesquelles nos clients nous choisissent.
+              Voici quelques raisons pour lesquelles nos clients nous
+              choisissent.
             </h3>
           </div>
         </div>
 
         <ul className="nav nav-tabs nav-tabs-bg nav-tabs-shadow-lg d-flex justify-content-between nav-justified flex-lg-row flex-column">
           <li className="nav-item">
-            <a className="nav-link d-flex flex-row active" data-bs-toggle="tab" href="#tab2-1">
+            <a
+              className="nav-link d-flex flex-row active"
+              data-bs-toggle="tab"
+              href="#tab2-1"
+            >
               <div>
-                <img src="/img/illustrations/ni7.png" className="w-13 me-5" alt="" />
+                <img
+                  src="/img/illustrations/ni7.png"
+                  className="w-13 me-5"
+                  alt=""
+                />
               </div>
 
               <div>
@@ -28,9 +39,17 @@ export default function Services35() {
           </li>
 
           <li className="nav-item">
-            <a className="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-2">
+            <a
+              className="nav-link d-flex flex-row"
+              data-bs-toggle="tab"
+              href="#tab2-2"
+            >
               <div>
-                <img src="/img/illustrations/ni8.png" className="w-13 me-5" alt="" />
+                <img
+                  src="/img/illustrations/ni8.png"
+                  className="w-13 me-5"
+                  alt=""
+                />
               </div>
 
               <div>
@@ -41,9 +60,17 @@ export default function Services35() {
           </li>
 
           <li className="nav-item">
-            <a className="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-3">
+            <a
+              className="nav-link d-flex flex-row"
+              data-bs-toggle="tab"
+              href="#tab2-3"
+            >
               <div>
-                <img src="/img/illustrations/ni9.png" className="w-13 me-5" alt="" />
+                <img
+                  src="/img/illustrations/ni9.png"
+                  className="w-13 me-5"
+                  alt=""
+                />
               </div>
 
               <div>
@@ -56,7 +83,11 @@ export default function Services35() {
 
         {/* ========== tab content ========== */}
         <div className="tab-content mt-6 mt-lg-8 mb-md-9">
-          <div className="tab-pane fade active show" id="tab2-1" role="tabpanel">
+          <div
+            className="tab-pane fade active show"
+            id="tab2-1"
+            role="tabpanel"
+          >
             <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
               <div className="col-lg-6">
                 <div className="row gx-md-5 gy-5 align-items-center">
@@ -180,24 +211,33 @@ const List = ({ title }: { title: string }) => {
     <div className="col-lg-6">
       <h2 className="mb-3">{title}</h2>
       <p>
-        Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo
-        risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-        condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.
+        Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla
+        non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac,
+        vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor
+        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam
+        quis risus eget urna.
       </p>
 
       <ul className="icon-list bullet-bg bullet-soft-primary">
         <li>
-          <i className="uil uil-check" /> Aenean eu leo quam. Pellentesque ornare.
+          <i className="uil uil-check" /> Aenean eu leo quam. Pellentesque
+          ornare.
         </li>
         <li>
-          <i className="uil uil-check" /> Nullam quis risus eget urna mollis ornare.
+          <i className="uil uil-check" /> Nullam quis risus eget urna mollis
+          ornare.
         </li>
         <li>
-          <i className="uil uil-check" /> Donec id elit non mi porta gravida at eget.
+          <i className="uil uil-check" /> Donec id elit non mi porta gravida at
+          eget.
         </li>
       </ul>
 
-      <NextLink title="En savoir plus" href="#" className="btn btn-primary mt-2" />
+      <NextLink
+        title="En savoir plus"
+        href="#"
+        className="btn btn-primary mt-2"
+      />
     </div>
   );
 };

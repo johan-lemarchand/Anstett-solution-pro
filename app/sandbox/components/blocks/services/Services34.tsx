@@ -1,4 +1,4 @@
-import { services } from "@sandbox/data/demo-32";
+import { services } from 'app/sandbox/data/demo-32';
 
 export default function Services34() {
   return (
@@ -6,9 +6,12 @@ export default function Services34() {
       <div className="container py-15 py-md-17">
         <div className="row text-center">
           <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-            <h2 className="fs-16 text-uppercase text-white mb-3">Nos services</h2>
+            <h2 className="fs-16 text-uppercase text-white mb-3">
+              Nos services
+            </h2>
             <h3 className="display-3 text-white mb-10">
-              Le service complet que nous offrons est spécialement conçu pour répondre aux besoins de votre entreprise.
+              Le service complet que nous offrons est spécialement conçu pour
+              répondre aux besoins de votre entreprise.
             </h3>
           </div>
         </div>

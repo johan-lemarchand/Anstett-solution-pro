@@ -15,15 +15,19 @@ export default function CTA1() {
           </div>
 
           <div className="col-lg-5">
-            <h2 className="fs-16 text-uppercase text-muted mb-3">Analysez maintenant</h2>
+            <h2 className="fs-16 text-uppercase text-muted mb-3">
+              Analysez maintenant
+            </h2>
             <h3 className="display-4 mb-5">
-              Vous vous demandez à quel point votre site peut aller plus vite? Vérifiez facilement votre score SEO maintenant.
+              Vous vous demandez à quel point votre site peut aller plus vite?
+              Vérifiez facilement votre score SEO maintenant.
             </h3>
 
             <p className="mb-7">
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus
-              magna, vel scelerisque nisl consectetur et.
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in,
+              egestas eget quam. Praesent commodo cursus magna, vel scelerisque
+              nisl consectetur et.
             </p>
 
             <div className="row">

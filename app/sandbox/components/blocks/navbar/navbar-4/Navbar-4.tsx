@@ -1,17 +1,17 @@
-"use client";
+'use client';
 
-import { Fragment, useRef } from "react";
+import { Fragment, useRef } from 'react';
 // GLOBAL CUSTOM HOOKS
-import useSticky from "@sandbox/hooks/useSticky";
-import useNestedDropdown from "@sandbox/hooks/useNestedDropdown";
+import useSticky from 'app/sandbox/hooks/useSticky';
+import useNestedDropdown from 'app/sandbox/hooks/useNestedDropdown';
 // LOCAL CUSTOM COMPONENTS
-import Info from "../components/Info";
-import Search from "../components/search";
-import Navigation from "../components/navigation";
-import OnePageDemoLinks from "../components/one-page-demo-links";
+import Info from '../components/Info';
+import Search from '../components/search';
+import Navigation from '../components/navigation';
+import OnePageDemoLinks from '../components/one-page-demo-links';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
 
 // ===================================================================
 type Navbar4Props = { navClassName?: string; onePageDemo?: boolean };
@@ -19,7 +19,7 @@ type Navbar4Props = { navClassName?: string; onePageDemo?: boolean };
 
 export default function Navbar4({
   onePageDemo,
-  navClassName = "navbar navbar-expand-lg extended extended-alt navbar-light navbar-bg-light"
+  navClassName = 'navbar navbar-expand-lg extended extended-alt navbar-light navbar-bg-light',
 }: Navbar4Props) {
   useNestedDropdown();
   const sticky = useSticky(350);
@@ -30,7 +30,9 @@ export default function Navbar4({
 
   return (
     <Fragment>
-      <div style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }} />
+      <div
+        style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }}
+      />
 
       <nav ref={navbarRef} className={sticky ? fixedClassName : navClassName}>
         <div className="container flex-lg-column">
@@ -38,7 +40,13 @@ export default function Navbar4({
             <div className="navbar-brand">
               <NextLink
                 href="/"
-                title={<img alt="logo" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" />}
+                title={
+                  <img
+                    alt="logo"
+                    src="/img/logo-dark.png"
+                    srcSet="/img/logo-dark@2x.png 2x"
+                  />
+                }
               />
             </div>
           </div>
@@ -52,7 +60,8 @@ export default function Navbar4({
             <div
               className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
               data-bs-scroll="true"
-              id="offcanvas-nav">
+              id="offcanvas-nav"
+            >
               <div className="offcanvas-header d-lg-none">
                 <h3 className="text-white fs-30 mb-0">Anstett Solutions Pro</h3>
                 <button
@@ -69,7 +78,11 @@ export default function Navbar4({
                 {/* ============= show contact info in the small device sidebar ============= */}
                 <div className="offcanvas-footer d-lg-none">
                   <div>
-                    <NextLink title="anstett.solutions.pro@gmail.com" className="link-inverse" href="mailto:anstett.solutions.pro@gmail.com" />
+                    <NextLink
+                      title="anstett.solutions.pro@gmail.com"
+                      className="link-inverse"
+                      href="mailto:anstett.solutions.pro@gmail.com"
+                    />
                     <br />
                     <NextLink href="tel:0642185595" title="06 42 18 55 95" />
                     <br />
@@ -84,14 +97,22 @@ export default function Navbar4({
               <ul className="navbar-nav flex-row align-items-center ms-auto">
                 {/* ============= info button ============= */}
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info">
+                  <a
+                    className="nav-link"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvas-info"
+                  >
                     <i className="uil uil-info-circle" />
                   </a>
                 </li>
 
                 {/* ============= search icon button ============= */}
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search">
+                  <a
+                    className="nav-link"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvas-search"
+                  >
                     <i className="uil uil-search" />
                   </a>
                 </li>
@@ -100,7 +121,8 @@ export default function Navbar4({
                   <button
                     data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvas-nav"
-                    className="hamburger offcanvas-nav-btn">
+                    className="hamburger offcanvas-nav-btn"
+                  >
                     <span />
                   </button>
                 </li>

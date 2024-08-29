@@ -1,6 +1,6 @@
-import { CSSProperties } from "react";
-import NextLink from "../links/NextLink";
-import FigureImage from "@sandbox/components/reuseable/FigureImage";
+import { CSSProperties } from 'react';
+import NextLink from '../links/NextLink';
+import FigureImage from 'app/sandbox/components/reuseable/FigureImage';
 
 // ==============================================================================
 interface ProjectCard2Props {
@@ -17,27 +17,56 @@ interface ProjectCard2Props {
 // ==============================================================================
 
 export default function ProjectCard2(props: ProjectCard2Props) {
-  const { link, title, category, description, image, imageClassName, cardStyle, detailsStyle, color } = props;
+  const {
+    link,
+    title,
+    category,
+    description,
+    image,
+    imageClassName,
+    cardStyle,
+    detailsStyle,
+    color,
+  } = props;
 
-  const catColor = color ? `text-${color}` : "text-purple";
-  const linkColor = color ? `link-${color}` : "link-purple";
+  const catColor = color ? `text-${color}` : 'text-purple';
+  const linkColor = color ? `link-${color}` : 'link-purple';
 
   return (
     <div className="project item">
       <div className="row">
-        <FigureImage width={image.width} height={image.height} src={image.url} className={imageClassName} />
+        <FigureImage
+          width={image.width}
+          height={image.height}
+          src={image.url}
+          className={imageClassName}
+        />
 
-        <div className="project-details d-flex justify-content-center flex-column" style={detailsStyle}>
-          <div className="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0" style={cardStyle}>
+        <div
+          className="project-details d-flex justify-content-center flex-column"
+          style={detailsStyle}
+        >
+          <div
+            className="card shadow rellax"
+            data-rellax-xs-speed="0"
+            data-rellax-mobile-speed="0"
+            style={cardStyle}
+          >
             <div className="card-body">
               <div className="post-header">
-                <div className={`post-category text-line ${catColor} mb-3`}>{category}</div>
+                <div className={`post-category text-line ${catColor} mb-3`}>
+                  {category}
+                </div>
                 <h2 className="post-title mb-3">{title}</h2>
               </div>
 
               <div className="post-content">
                 <p>{description}</p>
-                <NextLink title="Voir le projet" href={link} className={`plus sur ${linkColor}`} />
+                <NextLink
+                  title="Voir le projet"
+                  href={link}
+                  className={`plus sur ${linkColor}`}
+                />
               </div>
             </div>
           </div>

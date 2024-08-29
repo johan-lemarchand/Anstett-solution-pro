@@ -1,4 +1,4 @@
-import Puzzle from "@sandbox/icons/lineal/Puzzle";
+import Puzzle from 'app/sandbox/icons/lineal/Puzzle';
 
 export default function CTA5() {
   return (
@@ -10,7 +10,8 @@ export default function CTA5() {
 
             <h2 className="display-4 mb-3">Rejoindre notre communauté</h2>
             <p className="lead fs-lg mb-6 px-xl-10 px-xxl-15">
-            Plus de 5000 clients nous font confiance. Joignez-vous à eux en utilisant nos services et développez votre entreprise.
+              Plus de 5000 clients nous font confiance. Joignez-vous à eux en
+              utilisant nos services et développez votre entreprise.
             </p>
           </div>
         </div>
@@ -25,7 +26,8 @@ export default function CTA5() {
                   target="_blank"
                   className="validate"
                   id="mc-embedded-subscribe-form2"
-                  name="mc-embedded-subscribe-form">
+                  name="mc-embedded-subscribe-form"
+                >
                   <div id="mc_embed_signup_scroll2">
                     <div className="mc-field-group input-group form-floating">
                       <input
@@ -50,12 +52,27 @@ export default function CTA5() {
                     </div>
 
                     <div id="mce-responses2" className="clear">
-                      <div className="response" id="mce-error-response2" style={{ display: "none" }} />
-                      <div className="response" id="mce-success-response2" style={{ display: "none" }} />
+                      <div
+                        className="response"
+                        id="mce-error-response2"
+                        style={{ display: 'none' }}
+                      />
+                      <div
+                        className="response"
+                        id="mce-success-response2"
+                        style={{ display: 'none' }}
+                      />
                     </div>
 
-                    <div aria-hidden="true" style={{ position: "absolute", left: "-5000px" }}>
-                      <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabIndex={-1} />
+                    <div
+                      aria-hidden="true"
+                      style={{ position: 'absolute', left: '-5000px' }}
+                    >
+                      <input
+                        type="text"
+                        name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
+                        tabIndex={-1}
+                      />
                     </div>
 
                     <div className="clear" />

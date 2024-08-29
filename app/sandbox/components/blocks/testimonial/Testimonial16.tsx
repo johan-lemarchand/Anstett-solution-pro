@@ -1,6 +1,6 @@
-import Carousel from "@sandbox/components/reuseable/Carousel";
+import Carousel from 'app/sandbox/components/reuseable/Carousel';
 // CUSTOM DATA
-import { testimonialList5 } from "@sandbox/data/testimonial-list";
+import { testimonialList5 } from 'app/sandbox/data/testimonial-list';
 
 export default function Testimonial16() {
   return (
@@ -8,7 +8,7 @@ export default function Testimonial16() {
       <div className="row gx-0">
         <div
           className="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start"
-          style={{ backgroundImage: "url(/img/photos/tm2.jpg)" }}
+          style={{ backgroundImage: 'url(/img/photos/tm2.jpg)' }}
         />
 
         <div className="col-lg-6">
@@ -20,8 +20,9 @@ export default function Testimonial16() {
                     <span className="ratings five mt-4 mb-3" />
                     <blockquote className="border-0 fs-lg text-center">
                       <p>
-                        “Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
-                        felis euismod semper. Cras justo odio.”
+                        “Vivamus sagittis lacus vel augue laoreet rutrum
+                        faucibus dolor auctor. Vestibulum ligula porta felis
+                        euismod semper. Cras justo odio.”
                       </p>
                       <div className="blockquote-details justify-content-center text-center">
                         <div className="info ps-0">

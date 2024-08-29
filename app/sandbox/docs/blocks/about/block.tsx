@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 
 // ==============================================================
 interface BlockProps {
@@ -11,7 +11,12 @@ interface BlockProps {
 }
 // ==============================================================
 
-export default function Block({ id, children, className = "", container = true }: BlockProps) {
+export default function Block({
+  id,
+  children,
+  className = '',
+  container = true,
+}: BlockProps) {
   // markup
   const markup = `import { About${id} } from 'components/blocks/about';
 
@@ -20,7 +25,11 @@ export default function Block({ id, children, className = "", container = true }
 
   return (
     <section id={`snippet-${id}`} className="wrapper bg-light wrapper-border">
-      {container && <div className={`container pt-15 pt-md-17 ${className}`}>{children}</div>}
+      {container && (
+        <div className={`container pt-15 pt-md-17 ${className}`}>
+          {children}
+        </div>
+      )}
       {!container && <div className={className}>{children}</div>}
 
       <div className="container pb-15 pb-md-17">
@@ -34,7 +43,10 @@ export default function Block({ id, children, className = "", container = true }
             </a>
           </div> */}
 
-          <div id={`collapse-snippet-${id}`} className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id={`collapse-snippet-${id}`}
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{markup}</CodeHighlight>

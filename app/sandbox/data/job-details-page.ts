@@ -1,17 +1,29 @@
 const jobMeta = [
   { id: 1, icon: 'uil-clock', title: 'Temps plein' },
   { id: 2, icon: 'uil-location-arrow', title: 'Manchester, UK' },
-  { id: 3, icon: 'uil-building', title: 'Service de conception' }
+  { id: 3, icon: 'uil-building', title: 'Service de conception' },
 ];
 
 const responsiblities = [
-  ['Aenean eu leo quam ornare curabitur blandit tempus.', 'Nullam quis risus eget urna mollis ornare donec elit.'],
-  ['Etiam porta sem malesuada magna mollis euismod.', 'Fermentum massa vivamus faucibus amet euismod.']
+  [
+    'Aenean eu leo quam ornare curabitur blandit tempus.',
+    'Nullam quis risus eget urna mollis ornare donec elit.',
+  ],
+  [
+    'Etiam porta sem malesuada magna mollis euismod.',
+    'Fermentum massa vivamus faucibus amet euismod.',
+  ],
 ];
 
 const requirements = [
-  ['Aenean eu leo quam ornare curabitur blandit tempus.', 'Nullam quis risus eget urna mollis ornare donec elit.'],
-  ['Etiam porta sem malesuada magna mollis euismod.', 'Fermentum massa vivamus faucibus amet euismod.']
+  [
+    'Aenean eu leo quam ornare curabitur blandit tempus.',
+    'Nullam quis risus eget urna mollis ornare donec elit.',
+  ],
+  [
+    'Etiam porta sem malesuada magna mollis euismod.',
+    'Fermentum massa vivamus faucibus amet euismod.',
+  ],
 ];
 
 const jobList = [
@@ -22,16 +34,16 @@ const jobList = [
     avatarColor: 'bg-red',
     location: 'San Francisco, US',
     title: 'Graphiste senior',
-    badgeColor: 'bg-pale-blue text-blue'
+    badgeColor: 'bg-pale-blue text-blue',
   },
   {
     id: 2,
     company: 'UX',
     time: 'À distance',
-    location: 'n\'importe où',
+    location: "n'importe où",
     title: 'Designer UI/UX',
     avatarColor: 'bg-green',
-    badgeColor: 'bg-pale-aqua text-aqua'
+    badgeColor: 'bg-pale-aqua text-aqua',
   },
   {
     id: 3,
@@ -40,7 +52,7 @@ const jobList = [
     avatarColor: 'bg-yellow',
     location: 'Birmingham, UK',
     badgeColor: 'bg-pale-blue text-blue',
-    title: 'Artiste et animateur multimédia'
+    title: 'Artiste et animateur multimédia',
   },
   {
     id: 4,
@@ -49,7 +61,7 @@ const jobList = [
     location: 'Sydney, AU',
     avatarColor: 'bg-purple',
     title: 'Développeur front-end',
-    badgeColor: 'bg-pale-violet text-violet'
+    badgeColor: 'bg-pale-violet text-violet',
   },
   {
     id: 5,
@@ -58,7 +70,7 @@ const jobList = [
     avatarColor: 'bg-orange',
     title: 'Développeur mobile',
     location: 'San Francisco, US',
-    badgeColor: 'bg-pale-blue text-blue'
+    badgeColor: 'bg-pale-blue text-blue',
   },
   {
     id: 6,
@@ -67,8 +79,8 @@ const jobList = [
     avatarColor: 'bg-pink',
     title: 'Développeur.NET',
     location: 'Manchester, UK',
-    badgeColor: 'bg-pale-blue text-blue'
-  }
+    badgeColor: 'bg-pale-blue text-blue',
+  },
 ];
 
 // eslint-disable-next-line import/no-anonymous-default-export

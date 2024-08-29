@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import useReplaceMe from "@sandbox/hooks/useReplaceMe";
+import useReplaceMe from 'app/sandbox/hooks/useReplaceMe';
 // CUSTOM DATA
-import { clientList } from "@sandbox/data/client";
+import { clientList } from 'app/sandbox/data/client';
 
 export default function Hero21() {
   // enable the text rotator animation
@@ -27,24 +27,35 @@ export default function Hero21() {
             <h1 className="display-1 fs-54 mb-5 mx-md-n5 mx-lg-0 mt-7">
               Une agence digitale <br className="d-md-none" />
               se spécialisant sur <br className="d-md-none" />
-              <span className="rotator-fade text-primary">le mobile design,web design,3D animation</span>
+              <span className="rotator-fade text-primary">
+                le mobile design,web design,3D animation
+              </span>
             </h1>
 
             <p className="lead fs-lg mb-7">
-            Nous sommes une agence de design primée qui croit fermement au pouvoir des idées créatives.
+              Nous sommes une agence de design primée qui croit fermement au
+              pouvoir des idées créatives.
             </p>
 
             <span>
-              <a className="btn btn-lg btn-primary rounded-pill me-2">Commencer</a>
+              <a className="btn btn-lg btn-primary rounded-pill me-2">
+                Commencer
+              </a>
             </span>
           </div>
         </div>
 
-        <p className="text-center mb-8">Approuvé par plus de 2k+ clients à travers le monde</p>
+        <p className="text-center mb-8">
+          Approuvé par plus de 2k+ clients à travers le monde
+        </p>
         <div className="row row-cols-4 row-cols-md-4 row-cols-lg-7 row-cols-xl-7 gy-10 mb-2 d-flex align-items-center justify-content-center">
-          {clientList.map((item) => (
+          {clientList.map(item => (
             <div className="col" key={item}>
-              <img className="img-fluid px-md-3 px-lg-0 px-xl-2 px-xxl-5" src={item} alt="client" />
+              <img
+                className="img-fluid px-md-3 px-lg-0 px-xl-2 px-xxl-5"
+                src={item}
+                alt="client"
+              />
             </div>
           ))}
         </div>

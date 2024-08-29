@@ -1,8 +1,8 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import * as All from "@sandbox/components/blocks/footer";
+import * as All from 'app/sandbox/components/blocks/footer';
 // LOCAL CUSTOM COMPONENTS
-import Block from "./block";
+import Block from './block';
 
 export default function Footers() {
   return (

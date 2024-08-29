@@ -1,8 +1,8 @@
-import CountUp from "@sandbox/components/reuseable/CountUp";
+import CountUp from 'app/sandbox/components/reuseable/CountUp';
 // CUSTOM ICON COMPONENTS
-import Medal from "@sandbox/icons/solid-duo/Medal";
-import Target from "@sandbox/icons/solid-mono/Target";
-import Employees from "@sandbox/icons/solid-mono/Employees";
+import Medal from 'app/sandbox/icons/solid-duo/Medal';
+import Target from 'app/sandbox/icons/solid-mono/Target';
+import Employees from 'app/sandbox/icons/solid-mono/Employees';
 
 export default function Facts18() {
   return (
@@ -11,9 +11,11 @@ export default function Facts18() {
         <div className="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
           <div className="col-lg-4 text-center text-lg-start">
             <h3 className="display-3 mb-3 pe-xxl-15">
-            Je suis <em>fier</em> de mes résultats
+              Je suis <em>fier</em> de mes résultats
             </h3>
-            <p className="lead fs-lg mb-0 pe-xxl-10">J’apporte des solutions pour faciliter la vie de nos clients.</p>
+            <p className="lead fs-lg mb-0 pe-xxl-10">
+              J’apporte des solutions pour faciliter la vie de nos clients.
+            </p>
           </div>
 
           <div className="col-lg-8 mt-lg-2">

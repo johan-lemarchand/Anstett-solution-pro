@@ -1,8 +1,8 @@
-import { Tiles4 } from "@sandbox/components/elements/tiles";
-import IconBox from "@sandbox/components/reuseable/IconBox";
-import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
+import { Tiles4 } from 'app/sandbox/components/elements/tiles';
+import IconBox from 'app/sandbox/components/reuseable/IconBox';
+import { ServiceCard3 } from 'app/sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { serviceList2 } from "@sandbox/data/service";
+import { serviceList2 } from 'app/sandbox/data/service';
 
 export default function Services8() {
   return (
@@ -14,8 +14,9 @@ export default function Services8() {
       <div className="col-lg-6">
         <h2 className="display-4 mb-3">Que faisons-nous?</h2>
         <p className="lead fs-lg mb-8 pe-xxl-2">
-        Le service complet que nous offrons est <span className="underline">spécifiquement</span> conçu pour répondre à vos
-        besoins et projets d'entreprise.
+          Le service complet que nous offrons est{' '}
+          <span className="underline">spécifiquement</span> conçu pour répondre
+          à vos besoins et projets d'entreprise.
         </p>
 
         <div className="row gx-xl-10 gy-6">
@@ -24,7 +25,12 @@ export default function Services8() {
               <ServiceCard3
                 title={title}
                 description="Nulla vitae elit libero pharetra augue dapibus."
-                Icon={<IconBox icon={icon} className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5" />}
+                Icon={
+                  <IconBox
+                    icon={icon}
+                    className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"
+                  />
+                }
               />
             </div>
           ))}

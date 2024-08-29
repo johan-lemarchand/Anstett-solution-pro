@@ -1,7 +1,7 @@
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
 // CUSTOM DATA
-import footerNav from "@sandbox/data/footer";
+import footerNav from 'app/sandbox/data/footer';
 
 export default function Footer5() {
   return (
@@ -18,7 +18,8 @@ export default function Footer5() {
               />
 
               <p className="mb-4">
-                © 2024 Anstett Solutions Pro. <br className="d-none d-lg-block" />
+                © 2024 Anstett Solutions Pro.{' '}
+                <br className="d-none d-lg-block" />
                 Tous droits réservés.
               </p>
 
@@ -32,7 +33,10 @@ export default function Footer5() {
               <address className="pe-xl-15 pe-xxl-17">
                 26 E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder
               </address>
-              <NextLink title="anstett.solutions.pro@gmail.com" href="mailto:#" />
+              <NextLink
+                title="anstett.solutions.pro@gmail.com"
+                href="mailto:#"
+              />
               <br /> 06 42 18 55 95
             </div>
           </div>
@@ -54,7 +58,8 @@ export default function Footer5() {
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Notre newsletter</h4>
               <p className="mb-5">
-                Abonnez-vous à notre newsletter pour recevoir nos nouvelles &amp; nos offres.
+                Abonnez-vous à notre newsletter pour recevoir nos nouvelles
+                &amp; nos offres.
               </p>
 
               <div className="newsletter-wrapper">
@@ -65,7 +70,8 @@ export default function Footer5() {
                     className="validate dark-fields"
                     id="mc-embedded-subscribe-form2"
                     name="mc-embedded-subscribe-form"
-                    action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a">
+                    action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                  >
                     <div id="mc_embed_signup_scroll2">
                       <div className="mc-field-group input-group form-floating">
                         <input
@@ -90,16 +96,19 @@ export default function Footer5() {
                         <div
                           className="response"
                           id="mce-error-response2"
-                          style={{ display: "none" }}
+                          style={{ display: 'none' }}
                         />
                         <div
                           className="response"
                           id="mce-success-response2"
-                          style={{ display: "none" }}
+                          style={{ display: 'none' }}
                         />
                       </div>
 
-                      <div style={{ position: "absolute", left: "-5000px" }} aria-hidden="true">
+                      <div
+                        style={{ position: 'absolute', left: '-5000px' }}
+                        aria-hidden="true"
+                      >
                         <input
                           type="text"
                           tabIndex={-1}

@@ -1,6 +1,6 @@
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { processList } from "@sandbox/data/demo-30";
+import { processList } from 'app/sandbox/data/demo-30';
 
 export default function Process20() {
   return (
@@ -27,22 +27,30 @@ export default function Process20() {
       </div>
 
       <div className="col-lg-5 text-inverse">
-        <h2 className="display-2 mb-3 text-white">Notre processus de travail</h2>
+        <h2 className="display-2 mb-3 text-white">
+          Notre processus de travail
+        </h2>
         <p className="lead fs-lg pe-lg-5">
-          Découvrez tout ce qu'il faut savoir et plus encore sur la façon dont nous créons nos modèles de processus d’affaires.
+          Découvrez tout ce qu'il faut savoir et plus encore sur la façon dont
+          nous créons nos modèles de processus d’affaires.
         </p>
 
         <p>
-          Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna
-          mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
+          Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+          vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id
+          dolor id nibh ultricies vehicula ut id elit.
         </p>
 
         <p className="mb-6">
-          Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean
-          lacinia bibendum nulla.
+          Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id
+          ligula porta felis euismod semper. Aenean lacinia bibendum nulla.
         </p>
 
-        <NextLink title="En savoir plus" href="#" className="btn btn-white rounded-xl mb-0" />
+        <NextLink
+          title="En savoir plus"
+          href="#"
+          className="btn btn-white rounded-xl mb-0"
+        />
       </div>
     </div>
   );

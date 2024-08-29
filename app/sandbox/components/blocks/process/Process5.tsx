@@ -1,4 +1,4 @@
-import { processList6 } from "@sandbox/data/process";
+import { processList6 } from 'app/sandbox/data/process';
 
 export default function Process5() {
   return (
@@ -14,14 +14,18 @@ export default function Process5() {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="fs-15 text-uppercase text-muted mb-3">Comment ça marche</h2>
+        <h2 className="fs-15 text-uppercase text-muted mb-3">
+          Comment ça marche
+        </h2>
         <h3 className="display-4 mb-5">
-          Téléchargez l’application, créez votre profil et voilà, vous êtes prêt!
+          Téléchargez l’application, créez votre profil et voilà, vous êtes
+          prêt!
         </h3>
         <p className="mb-8">
-          Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet
-          fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla
-          vitae elit libero. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
+          Donec ullamcorper nulla non metus auctor fringilla. Cras mattis
+          consectetur purus sit amet fermentum. Integer posuere erat a ante
+          venenatis dapibus posuere velit aliquet. Nulla vitae elit libero.
+          Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
           ac cursus commodo.
         </p>
 

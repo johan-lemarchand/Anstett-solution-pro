@@ -1,6 +1,6 @@
-import DocLayout from "@sandbox/components/layouts/DocLayout";
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
 // CUSTOM DATA
-import { quickAccess } from "./data";
+import { quickAccess } from './data';
 
 export default function FontIcons() {
   return (
@@ -11,13 +11,21 @@ export default function FontIcons() {
       headingColClass="col-lg-9 col-xl-8 col-xxl-7 mx-auto"
       description={
         <>
-          Below you can find the list of 1110+ solid font icons. All these retina-ready icons can easily be styled by
-          color, size, shadow, and anything possible with CSS. For more information on the icons please visit{" "}
-          <a href="https://iconscout.com/unicons/explore/line" target="_blank" className="hover more" rel="noreferrer">
+          Below you can find the list of 1110+ solid font icons. All these
+          retina-ready icons can easily be styled by color, size, shadow, and
+          anything possible with CSS. For more information on the icons please
+          visit{' '}
+          <a
+            href="https://iconscout.com/unicons/explore/line"
+            target="_blank"
+            className="hover more"
+            rel="noreferrer"
+          >
             Unicons website
           </a>
         </>
-      }>
+      }
+    >
       {/* ========== section 1 ========== */}
       <section id="arrows" className="wrapper pt-16">
         <h2 className="mb-5">Arrows</h2>
@@ -32,7 +40,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-center-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-center-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -47,7 +56,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-center-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-center-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -62,7 +72,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-double-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-double-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -77,7 +88,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-double-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-double-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -92,7 +104,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-double-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-double-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -107,7 +120,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-double-up"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-double-up"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -122,7 +136,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -137,7 +152,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -152,7 +168,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-left-b"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-left-b"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -167,7 +184,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -182,7 +200,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-right-b"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-right-b"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -197,7 +216,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angle-up"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angle-up"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -212,7 +232,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -227,7 +248,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-break"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-break"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -242,7 +264,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-circle-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-circle-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -257,7 +280,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-circle-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-circle-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -272,7 +296,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-circle-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-circle-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -287,7 +312,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-circle-up"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-circle-up"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -302,7 +328,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-compress-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-compress-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -317,7 +344,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -332,7 +360,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-down-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-down-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -347,7 +376,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-down-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-down-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -362,7 +392,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-from-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-from-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -377,7 +408,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-from-top"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-from-top"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -392,7 +424,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-growth"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-growth"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -407,7 +440,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -422,7 +456,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-random"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-random"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -437,7 +472,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-resize-diagonal"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-resize-diagonal"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -452,7 +488,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -467,7 +504,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-to-bottom"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-to-bottom"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -482,7 +520,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-to-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-to-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -497,7 +536,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-up"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-up"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -512,7 +552,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-up-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-up-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -527,7 +568,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrow-up-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrow-up-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -542,7 +584,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -557,7 +600,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-h-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-h-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -572,7 +616,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-left-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-left-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -587,7 +632,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-maximize"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-maximize"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -602,7 +648,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-merge"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-merge"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -617,7 +664,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-resize"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-resize"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -632,7 +680,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-resize-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-resize-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -647,7 +696,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-resize-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-resize-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -662,7 +712,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-right-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-right-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -677,7 +728,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-shrink-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-shrink-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -692,7 +744,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-shrink-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-shrink-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -707,7 +760,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-up-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-up-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -722,7 +776,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -737,7 +792,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-arrows-v-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-arrows-v-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -752,7 +808,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-caret-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-caret-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -767,7 +824,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chart-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chart-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -782,7 +840,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-compress-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-compress-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -797,7 +856,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-compress-alt-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-compress-alt-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -812,7 +872,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-compress-arrows"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-compress-arrows"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -827,7 +888,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-compress-point"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-compress-point"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -842,7 +904,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-corner-down-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-corner-down-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -857,7 +920,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-corner-down-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-corner-down-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -872,7 +936,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-corner-down-right-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-corner-down-right-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -887,7 +952,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-corner-left-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-corner-left-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -902,7 +968,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-corner-right-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-corner-right-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -917,7 +984,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-corner-up-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-corner-up-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -932,7 +1000,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-corner-up-left-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-corner-up-left-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -947,7 +1016,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-corner-up-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-corner-up-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -962,7 +1032,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-corner-up-right-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-corner-up-right-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -977,7 +1048,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-direction"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-direction"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -992,7 +1064,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-download-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-download-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1007,7 +1080,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-enter"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-enter"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1022,7 +1096,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-exchange"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-exchange"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1037,7 +1112,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-exchange-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-exchange-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1052,7 +1128,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-expand-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-expand-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1067,7 +1144,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-expand-arrows"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-expand-arrows"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1082,7 +1160,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-expand-arrows-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-expand-arrows-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1097,7 +1176,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-expand-from-corner"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-expand-from-corner"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1112,7 +1192,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-expand-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-expand-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1127,7 +1208,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-expand-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-expand-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1142,7 +1224,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-export"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-export"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1157,7 +1240,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-import"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-import"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1172,7 +1256,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-left-arrow-from-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-left-arrow-from-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1187,7 +1272,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-left-arrow-to-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-left-arrow-to-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1202,7 +1288,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-maximize-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-maximize-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1217,7 +1304,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-scaling-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-scaling-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1232,7 +1320,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-scaling-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-scaling-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1247,7 +1336,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-scroll"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-scroll"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1262,7 +1352,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-scroll-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-scroll-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1277,7 +1368,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shuffle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shuffle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1292,7 +1384,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sort"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sort"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1307,7 +1400,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sorting"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sorting"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1322,7 +1416,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-top-arrow-from-top"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-top-arrow-from-top"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1337,7 +1432,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-top-arrow-to-top"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-top-arrow-to-top"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1352,7 +1448,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-upload-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-upload-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1373,7 +1470,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-500px"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-500px"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1388,7 +1486,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-adobe"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-adobe"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1403,7 +1502,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-adobe-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-adobe-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1418,7 +1518,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-amazon"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-amazon"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1433,7 +1534,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-android"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-android"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1448,7 +1550,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-android-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-android-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1463,7 +1566,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-apple"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-apple"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1478,7 +1582,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-apple-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-apple-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1493,7 +1598,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-behance"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-behance"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1508,7 +1614,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-behance-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-behance-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1523,7 +1630,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bing"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bing"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1538,7 +1646,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bitcoin"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bitcoin"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1553,7 +1662,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bitcoin-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bitcoin-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1568,7 +1678,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-black-berry"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-black-berry"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1583,7 +1694,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-blogger"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-blogger"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1598,7 +1710,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-blogger-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-blogger-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1613,7 +1726,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-css3-simple"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-css3-simple"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1628,7 +1742,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-discord"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-discord"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1643,7 +1758,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-docker"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-docker"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1658,7 +1774,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dribbble"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dribbble"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1673,7 +1790,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dropbox"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dropbox"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1688,7 +1806,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-facebook"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-facebook"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1703,7 +1822,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-facebook-f"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-facebook-f"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1718,7 +1838,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-facebook-messenger"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-facebook-messenger"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1733,7 +1854,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-facebook-messenger-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-facebook-messenger-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1748,7 +1870,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-github"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-github"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1763,7 +1886,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-github-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-github-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1778,7 +1902,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-gitlab"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-gitlab"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1793,7 +1918,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-google"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-google"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1808,7 +1934,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-google-drive"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-google-drive"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1823,7 +1950,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-google-drive-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-google-drive-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1838,7 +1966,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-google-hangouts"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-google-hangouts"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1853,7 +1982,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-google-hangouts-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-google-hangouts-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1868,7 +1998,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-google-play"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-google-play"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1883,7 +2014,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-hipchat"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-hipchat"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1898,7 +2030,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-html3"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-html3"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1913,7 +2046,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-html3-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-html3-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1928,7 +2062,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-html5"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-html5"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1943,7 +2078,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-html5-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-html5-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1958,7 +2094,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-instagram"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-instagram"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1973,7 +2110,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-instagram-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-instagram-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -1988,7 +2126,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-intercom"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-intercom"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2003,7 +2142,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-intercom-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-intercom-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2018,7 +2158,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-java-script"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-java-script"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2033,7 +2174,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-line"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-line"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2048,7 +2190,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-linkedin"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-linkedin"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2063,7 +2206,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-linkedin-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-linkedin-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2078,7 +2222,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-linux"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-linux"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2093,7 +2238,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lottiefiles"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lottiefiles"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2108,7 +2254,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lottiefiles-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lottiefiles-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2123,7 +2270,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-master-card"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-master-card"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2138,7 +2286,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-medium-m"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-medium-m"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2153,7 +2302,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-microsoft"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-microsoft"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2168,7 +2318,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-okta"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-okta"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2183,7 +2334,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-opera"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-opera"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2198,7 +2350,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-opera-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-opera-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2213,7 +2366,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pagelines"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pagelines"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2228,7 +2382,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pagerduty"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pagerduty"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2243,7 +2398,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-paypal"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-paypal"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2258,7 +2414,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-programming-language"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-programming-language"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2273,7 +2430,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-react"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-react"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2288,7 +2446,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-reddit-alien-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-reddit-alien-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2303,7 +2462,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-skype"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-skype"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2318,7 +2478,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-skype-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-skype-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2333,7 +2494,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-slack"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-slack"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2348,7 +2510,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-slack-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-slack-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2363,7 +2526,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-snapchat-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-snapchat-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2378,7 +2542,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-snapchat-ghost"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-snapchat-ghost"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2393,7 +2558,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-snapchat-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-snapchat-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2408,7 +2574,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-swiggy"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-swiggy"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2423,7 +2590,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-telegram"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-telegram"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2438,7 +2606,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-telegram-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-telegram-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2453,7 +2622,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tumblr"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tumblr"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2468,7 +2638,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tumblr-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tumblr-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2483,7 +2654,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tumblr-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tumblr-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2498,7 +2670,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-twitter"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-twitter"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2513,7 +2686,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-twitter-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-twitter-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2528,7 +2702,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-visual-studio"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-visual-studio"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2543,7 +2718,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vk"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vk"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2558,7 +2734,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vk-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vk-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2573,7 +2750,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vuejs"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vuejs"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2588,7 +2766,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vuejs-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vuejs-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2603,7 +2782,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-whatsapp"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-whatsapp"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2618,7 +2798,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-whatsapp-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-whatsapp-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2633,7 +2814,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-windows"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-windows"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2648,7 +2830,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wordpress"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wordpress"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2663,7 +2846,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wordpress-simple"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wordpress-simple"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2678,7 +2862,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-youtube"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-youtube"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2699,7 +2884,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-analysis"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-analysis"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2714,7 +2900,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-analytics"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-analytics"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2729,7 +2916,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bag"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bag"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2744,7 +2932,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bag-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bag-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2759,7 +2948,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bill"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bill"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2774,7 +2964,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bitcoin-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bitcoin-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2789,7 +2980,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bitcoin-sign"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bitcoin-sign"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2804,7 +2996,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-briefcase"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-briefcase"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2819,7 +3012,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-briefcase-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-briefcase-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2834,7 +3028,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-calculator-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-calculator-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2849,7 +3044,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-calendar-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-calendar-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2864,7 +3060,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2879,7 +3076,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chart-bar"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chart-bar"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2894,7 +3092,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chart-bar-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chart-bar-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2909,7 +3108,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chart-growth"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chart-growth"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2924,7 +3124,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chart-growth-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chart-growth-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2939,7 +3140,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chart-line"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chart-line"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2954,7 +3156,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chart-pie"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chart-pie"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2969,7 +3172,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chart-pie-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chart-pie-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2984,7 +3188,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-coins"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-coins"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -2999,7 +3204,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comparison"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comparison"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3014,7 +3220,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-credit-card"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-credit-card"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3029,7 +3236,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-crosshair"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-crosshair"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3044,7 +3252,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-crosshair-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-crosshair-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3059,7 +3268,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-crosshairs"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-crosshairs"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3074,7 +3284,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dollar-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dollar-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3089,7 +3300,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dollar-sign"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dollar-sign"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3104,7 +3316,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dollar-sign-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dollar-sign-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3119,7 +3332,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-euro"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-euro"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3134,7 +3348,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-euro-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-euro-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3149,7 +3364,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-gold"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-gold"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3164,7 +3380,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-graph-bar"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-graph-bar"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3179,7 +3396,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-hunting"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-hunting"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3194,7 +3412,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-invoice"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-invoice"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3209,7 +3428,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lightbulb"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lightbulb"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3224,7 +3444,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lightbulb-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lightbulb-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3239,7 +3460,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lira-sign"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lira-sign"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3254,7 +3476,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-money-bill"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-money-bill"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3269,7 +3492,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-money-bill-stack"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-money-bill-stack"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3284,7 +3508,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-money-insert"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-money-insert"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3299,7 +3524,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-money-stack"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-money-stack"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3314,7 +3540,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-money-withdraw"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-money-withdraw"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3329,7 +3556,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-money-withdrawal"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-money-withdrawal"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3344,7 +3572,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-moneybag"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-moneybag"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3359,7 +3588,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-moneybag-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-moneybag-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3374,7 +3604,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-panel-add"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-panel-add"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3389,7 +3620,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-percentage"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-percentage"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3404,7 +3636,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pound"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pound"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3419,7 +3652,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pound-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pound-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3434,7 +3668,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-presentation-line"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-presentation-line"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3449,7 +3684,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-puzzle-piece"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-puzzle-piece"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3464,7 +3700,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-receipt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-receipt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3479,7 +3716,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-receipt-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-receipt-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3494,7 +3732,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-rupee-sign"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-rupee-sign"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3509,7 +3748,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-schedule"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-schedule"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3524,7 +3764,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-signal-alt-3"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-signal-alt-3"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3539,7 +3780,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sitemap"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sitemap"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3554,7 +3796,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-suitcase"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-suitcase"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3569,7 +3812,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-suitcase-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-suitcase-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3584,7 +3828,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-university"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-university"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3599,7 +3844,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-usd-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-usd-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3614,7 +3860,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-usd-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-usd-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3629,7 +3876,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-yen"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-yen"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3644,7 +3892,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-yen-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-yen-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3665,7 +3914,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chat"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chat"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3680,7 +3930,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chat-bubble-user"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chat-bubble-user"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3695,7 +3946,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-chat-info"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-chat-info"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3710,7 +3962,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3725,7 +3978,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-add"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-add"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3740,7 +3994,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3755,7 +4010,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-block"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-block"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3770,7 +4026,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-chart-lines"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-chart-lines"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3785,7 +4042,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3800,7 +4058,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-dots"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-dots"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3815,7 +4074,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-download"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-download"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3830,7 +4090,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-edit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-edit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3845,7 +4106,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3860,7 +4122,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-heart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-heart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3875,7 +4138,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-image"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-image"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3890,7 +4154,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-info"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-info"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3905,7 +4170,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-lines"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-lines"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3920,7 +4186,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-lock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-lock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3935,7 +4202,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-medical"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-medical"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3950,7 +4218,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-message"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-message"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3965,7 +4234,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-notes"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-notes"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3980,7 +4250,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -3995,7 +4266,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4010,7 +4282,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-redo"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-redo"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4025,7 +4298,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-search"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-search"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4040,7 +4314,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-share"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-share"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4055,7 +4330,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-shield"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-shield"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4070,7 +4346,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-upload"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-upload"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4085,7 +4362,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-verify"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-verify"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4100,7 +4378,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-block"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-block"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4115,7 +4394,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-chart-line"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-chart-line"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4130,7 +4410,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4145,7 +4426,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-dots"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-dots"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4160,7 +4442,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-download"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-download"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4175,7 +4458,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-edit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-edit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4190,7 +4474,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4205,7 +4490,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-heart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-heart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4220,7 +4506,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-image"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-image"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4235,7 +4522,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-info"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-info"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4250,7 +4538,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-info-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-info-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4265,7 +4554,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-lines"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-lines"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4280,7 +4570,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-lock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-lock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4295,7 +4586,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-medical"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-medical"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4310,7 +4602,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-message"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-message"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4325,7 +4618,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-notes"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-notes"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4340,7 +4634,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4355,7 +4650,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4370,7 +4666,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-redo"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-redo"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4385,7 +4682,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-search"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-search"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4400,7 +4698,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-share"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-share"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4415,7 +4714,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-shield"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-shield"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4430,7 +4730,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-upload"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-upload"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4445,7 +4746,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-verify"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-verify"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4460,7 +4762,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comments"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comments"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4475,7 +4778,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comments-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comments-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4490,7 +4794,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-share"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-share"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4511,7 +4816,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-brackets-curly"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-brackets-curly"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4526,7 +4832,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-browser"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-browser"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4541,7 +4848,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bug"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bug"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4556,7 +4864,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-channel"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-channel"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4571,7 +4880,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-channel-add"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-channel-add"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4586,7 +4896,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-block"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-block"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4601,7 +4912,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-bookmark"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-bookmark"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4616,7 +4928,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4631,7 +4944,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-computing"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-computing"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4646,7 +4960,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-data-connection"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-data-connection"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4661,7 +4976,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-database-tree"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-database-tree"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4676,7 +4992,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-download"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-download"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4691,7 +5008,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4706,7 +5024,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-heart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-heart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4721,7 +5040,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-info"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-info"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4736,7 +5056,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-lock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-lock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4751,7 +5072,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4766,7 +5088,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-redo"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-redo"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4781,7 +5104,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-share"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-share"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4796,7 +5120,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-shield"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-shield"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4811,7 +5136,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4826,7 +5152,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-times"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-times"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4841,7 +5168,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-unlock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-unlock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4856,7 +5184,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-upload"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-upload"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4871,7 +5200,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-wifi"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-wifi"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4886,7 +5216,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-code-branch"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-code-branch"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4901,7 +5232,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-columns"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-columns"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4916,7 +5248,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-data-sharing"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-data-sharing"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4931,7 +5264,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-database"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-database"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4946,7 +5280,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-database-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-database-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4961,7 +5296,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-grid"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-grid"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4976,7 +5312,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-server"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-server"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -4991,7 +5328,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-server-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-server-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5006,7 +5344,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-server-connection"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-server-connection"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5021,7 +5360,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-server-network"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-server-network"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5036,7 +5376,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-server-network-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-server-network-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5051,7 +5392,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-servers"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-servers"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5066,7 +5408,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-web-grid"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-web-grid"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5081,7 +5424,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-web-grid-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-web-grid-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5096,7 +5440,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-web-section"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-web-section"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5111,7 +5456,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-web-section-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-web-section-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5126,7 +5472,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-window"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-window"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5141,7 +5488,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-window-grid"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-window-grid"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5156,7 +5504,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-window-maximize"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-window-maximize"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5171,7 +5520,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-window-section"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-window-section"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5192,7 +5542,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-calling"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-calling"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5207,7 +5558,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-desktop-cloud-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-desktop-cloud-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5222,7 +5574,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5237,7 +5590,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-add"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-add"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5252,7 +5606,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5267,7 +5622,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-block"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-block"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5282,7 +5638,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-bookmark"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-bookmark"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5297,7 +5654,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5312,7 +5670,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-download"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-download"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5327,7 +5686,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-download-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-download-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5342,7 +5702,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-edit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-edit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5357,7 +5718,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5372,7 +5734,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-heart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-heart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5387,7 +5750,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-info"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-info"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5402,7 +5766,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-lock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-lock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5417,7 +5782,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5432,7 +5798,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-open"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-open"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5447,7 +5814,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5462,7 +5830,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-receive"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-receive"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5477,7 +5846,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-redo"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-redo"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5492,7 +5862,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-search"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-search"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5507,7 +5878,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-send"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-send"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5522,7 +5894,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-share"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-share"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5537,7 +5910,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-shield"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-shield"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5552,7 +5926,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-star"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-star"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5567,7 +5942,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-times"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-times"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5582,7 +5958,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-upload"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-upload"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5597,7 +5974,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelope-upload-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelope-upload-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5612,7 +5990,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-envelopes"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-envelopes"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5627,7 +6006,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-fast-mail"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-fast-mail"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5642,7 +6022,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-fast-mail-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-fast-mail-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5657,7 +6038,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-forwaded-call"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-forwaded-call"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5672,7 +6054,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-incoming-call"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-incoming-call"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5687,7 +6070,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-laptop-cloud"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-laptop-cloud"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5702,7 +6086,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-laptop-connection"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-laptop-connection"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5717,7 +6102,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mailbox"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mailbox"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5732,7 +6118,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mailbox-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mailbox-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5747,7 +6134,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-missed-call"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-missed-call"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5762,7 +6150,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-outgoing-call"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-outgoing-call"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5777,7 +6166,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-phone"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-phone"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5792,7 +6182,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-phone-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-phone-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5807,7 +6198,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-phone-pause"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-phone-pause"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5822,7 +6214,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-phone-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-phone-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5837,7 +6230,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-phone-times"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-phone-times"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5852,7 +6246,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-phone-volume"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-phone-volume"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5867,7 +6262,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-post-stamp"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-post-stamp"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5882,7 +6278,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-postcard"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-postcard"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5897,7 +6294,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-rss-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-rss-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5918,7 +6316,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-constructor"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-constructor"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5933,7 +6332,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-drill"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-drill"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5948,7 +6348,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-hard-hat"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-hard-hat"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5963,7 +6364,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-jackhammer"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-jackhammer"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5978,7 +6380,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-no-entry"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-no-entry"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -5993,7 +6396,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-paint-tool"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-paint-tool"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6008,7 +6412,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-screw"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-screw"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6023,7 +6428,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shovel"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shovel"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6038,7 +6444,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tape"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tape"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6053,7 +6460,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-traffic-barrier"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-traffic-barrier"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6068,7 +6476,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-trowel"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-trowel"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6083,7 +6492,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wall"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wall"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6098,7 +6508,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wheel-barrow"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wheel-barrow"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6119,7 +6530,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6134,7 +6546,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6149,7 +6562,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-center"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-center"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6164,7 +6578,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-center-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-center-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6179,7 +6594,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-center-justify"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-center-justify"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6194,7 +6610,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-justify"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-justify"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6209,7 +6626,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6224,7 +6642,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-left-justify"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-left-justify"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6239,7 +6658,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-letter-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-letter-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6254,7 +6674,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6269,7 +6690,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-align-right-justify"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-align-right-justify"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6284,7 +6706,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bars"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bars"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6299,7 +6722,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bold"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bold"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6314,7 +6738,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6329,7 +6754,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-bottom"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-bottom"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6344,7 +6770,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-clear"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-clear"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6359,7 +6786,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-horizontal"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-horizontal"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6374,7 +6802,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-inner"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-inner"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6389,7 +6818,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6404,7 +6834,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6419,7 +6850,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-top"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-top"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6434,7 +6866,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-vertical"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-vertical"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6449,7 +6882,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dialpad"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dialpad"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6464,7 +6898,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dialpad-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dialpad-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6479,7 +6914,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-document-layout-center"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-document-layout-center"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6494,7 +6930,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-document-layout-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-document-layout-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6509,7 +6946,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-document-layout-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-document-layout-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6524,7 +6962,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-english-to-chinese"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-english-to-chinese"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6539,7 +6978,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-font"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-font"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6554,7 +6994,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-grip-horizontal-line"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-grip-horizontal-line"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6569,7 +7010,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-hindi-to-chinese"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-hindi-to-chinese"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6584,7 +7026,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-italic"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-italic"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6599,7 +7042,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-language"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-language"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6614,7 +7058,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-left-indent"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-left-indent"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6629,7 +7074,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-left-indent-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-left-indent-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6644,7 +7090,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-left-to-right-text-direction"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-left-to-right-text-direction"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6659,7 +7106,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-letter-chinese-a"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-letter-chinese-a"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6674,7 +7122,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-letter-english-a"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-letter-english-a"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6689,7 +7138,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-letter-hindi-a"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-letter-hindi-a"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6704,7 +7154,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-letter-japanese-a"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-letter-japanese-a"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6719,7 +7170,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-list-ui-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-list-ui-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6734,7 +7186,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-list-ul"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-list-ul"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6749,7 +7202,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-paragraph"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-paragraph"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6764,7 +7218,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-right-indent-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-right-indent-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6779,7 +7234,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-right-to-left-text-direction"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-right-to-left-text-direction"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6794,7 +7250,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sigma"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sigma"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6809,7 +7266,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sort-amount-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sort-amount-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6824,7 +7282,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sort-amount-up"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sort-amount-up"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6839,7 +7298,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-subject"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-subject"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6854,7 +7314,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-text"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-text"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6869,7 +7330,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-text-fields"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-text-fields"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6884,7 +7346,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-text-size"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-text-size"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6899,7 +7362,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-text-strike-through"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-text-strike-through"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6914,7 +7378,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-underline"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-underline"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6929,7 +7394,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wrap-text"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wrap-text"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6950,7 +7416,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-apps"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-apps"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6965,7 +7432,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-border-out"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-border-out"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6980,7 +7448,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bring-bottom"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bring-bottom"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -6995,7 +7464,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bring-front"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bring-front"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7010,7 +7480,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-brush-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-brush-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7025,7 +7496,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-circle-layer"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-circle-layer"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7040,7 +7512,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-compress"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-compress"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7055,7 +7528,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-compress-lines"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-compress-lines"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7070,7 +7544,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-compress-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-compress-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7085,7 +7560,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-crop-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-crop-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7100,7 +7576,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-crop-alt-rotate-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-crop-alt-rotate-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7115,7 +7592,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-crop-alt-rotate-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-crop-alt-rotate-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7130,7 +7608,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-exclude"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-exclude"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7145,7 +7624,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-flip-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-flip-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7160,7 +7640,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-flip-h-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-flip-h-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7175,7 +7656,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-flip-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-flip-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7190,7 +7672,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-flip-v-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-flip-v-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7205,7 +7688,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-grids"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-grids"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7220,7 +7704,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-horizontal-align-center"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-horizontal-align-center"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7235,7 +7720,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-horizontal-align-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-horizontal-align-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7250,7 +7736,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-horizontal-align-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-horizontal-align-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7265,7 +7752,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-horizontal-distribution-center"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-horizontal-distribution-center"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7280,7 +7768,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-horizontal-distribution-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-horizontal-distribution-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7295,7 +7784,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-horizontal-distribution-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-horizontal-distribution-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7310,7 +7800,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-icons"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-icons"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7325,7 +7816,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-illustration"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-illustration"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7340,7 +7832,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-resize-landscape"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-resize-landscape"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7355,7 +7848,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-resize-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-resize-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7370,7 +7864,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-layers-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-layers-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7385,7 +7880,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-line-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-line-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7400,7 +7896,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-line-spacing"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-line-spacing"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7415,7 +7912,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-minus-path"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-minus-path"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7430,7 +7928,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-object-group"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-object-group"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7445,7 +7944,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-object-ungroup"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-object-ungroup"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7460,7 +7960,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-palette"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-palette"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7475,7 +7976,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-panorama-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-panorama-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7490,7 +7992,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-panorama-h-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-panorama-h-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7505,7 +8008,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-panorama-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-panorama-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7520,7 +8024,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pathfinder"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pathfinder"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7535,7 +8040,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pathfinder-unite"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pathfinder-unite"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7550,7 +8056,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-repeat"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-repeat"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7565,7 +8072,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ruler"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ruler"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7580,7 +8088,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ruler-combined"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ruler-combined"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7595,7 +8104,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shrink"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shrink"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7610,7 +8120,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-spin"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-spin"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7625,7 +8136,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-square-full"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-square-full"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7640,7 +8152,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-table"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-table"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7655,7 +8168,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-th"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-th"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7670,7 +8184,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-th-large"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-th-large"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7685,7 +8200,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-th-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-th-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7700,7 +8216,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vector-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vector-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7715,7 +8232,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vector-square-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vector-square-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7730,7 +8248,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vertical-align-bottom"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vertical-align-bottom"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7745,7 +8264,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vertical-align-center"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vertical-align-center"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7760,7 +8280,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vertical-align-top"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vertical-align-top"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7775,7 +8296,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vertical-distribute-bottom"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vertical-distribute-bottom"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7790,7 +8312,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vertical-distribution-center"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vertical-distribution-center"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7805,7 +8328,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-vertical-distribution-top"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-vertical-distribution-top"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7826,7 +8350,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-circuit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-circuit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7841,7 +8366,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-desktop"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-desktop"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7856,7 +8382,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-desktop-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-desktop-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7871,7 +8398,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-hdd"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-hdd"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7886,7 +8414,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-laptop"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-laptop"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7901,7 +8430,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mobile-android"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mobile-android"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7916,7 +8446,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mobile-android-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mobile-android-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7931,7 +8462,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-modem"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-modem"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7946,7 +8478,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-monitor"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-monitor"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7961,7 +8494,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mouse"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mouse"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7976,7 +8510,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mouse-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mouse-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -7991,7 +8526,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mouse-alt-2"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mouse-alt-2"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8006,7 +8542,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-print"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-print"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8021,7 +8558,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-processor"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-processor"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8036,7 +8574,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tablet"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tablet"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8051,7 +8590,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-webcam"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-webcam"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8066,7 +8606,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-weight"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-weight"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8081,7 +8622,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wifi-router"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wifi-router"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8102,7 +8644,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-abacus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-abacus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8117,7 +8660,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-atom"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-atom"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8132,7 +8676,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-award"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-award"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8147,7 +8692,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-award-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-award-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8162,7 +8708,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-backpack"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-backpack"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8177,7 +8724,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bell-school"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bell-school"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8192,7 +8740,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-book"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-book"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8207,7 +8756,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-book-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-book-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8222,7 +8772,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-book-open"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-book-open"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8237,7 +8788,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-brain"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-brain"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8252,7 +8804,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cell"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cell"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8267,7 +8820,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-diary"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-diary"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8282,7 +8836,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-diary-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-diary-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8297,7 +8852,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dna"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dna"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8312,7 +8868,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-flask"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-flask"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8327,7 +8884,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-flask-potion"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-flask-potion"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8342,7 +8900,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-game-structure"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-game-structure"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8357,7 +8916,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-graduation-cap"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-graduation-cap"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8372,7 +8932,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-medal"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-medal"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8387,7 +8948,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-meeting-board"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-meeting-board"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8402,7 +8964,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-notebooks"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-notebooks"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8417,7 +8980,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-notes"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-notes"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8432,7 +8996,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-podium"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-podium"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8447,7 +9012,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-presentation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-presentation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8462,7 +9028,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-presentation-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-presentation-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8477,7 +9044,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-presentation-edit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-presentation-edit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8492,7 +9060,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-presentation-lines-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-presentation-lines-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8507,7 +9076,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-presentation-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-presentation-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8522,7 +9092,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-presentation-play"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-presentation-play"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8537,7 +9108,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-presentation-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-presentation-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8552,7 +9124,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-presentation-times"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-presentation-times"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8567,7 +9140,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-robot"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-robot"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8582,7 +9156,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sperms"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sperms"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8597,7 +9172,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-telescope"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-telescope"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8618,7 +9194,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-angry"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-angry"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8633,7 +9210,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-annoyed"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-annoyed"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8648,7 +9226,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-annoyed-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-annoyed-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8663,7 +9242,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-confused"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-confused"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8678,7 +9258,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dizzy-meh"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dizzy-meh"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8693,7 +9274,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-emoji"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-emoji"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8708,7 +9290,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-frown"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-frown"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8723,7 +9306,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-grin"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-grin"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8738,7 +9322,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-grin-tongue-wink"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-grin-tongue-wink"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8753,7 +9338,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-grin-tongue-wink-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-grin-tongue-wink-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8768,7 +9354,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-kid"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-kid"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8783,7 +9370,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-laughing"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-laughing"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8798,7 +9386,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-meh"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-meh"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8813,7 +9402,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-meh-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-meh-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8828,7 +9418,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-meh-closed-eye"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-meh-closed-eye"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8843,7 +9434,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-nerd"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-nerd"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8858,7 +9450,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ninja"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ninja"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8873,7 +9466,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sad"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sad"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8888,7 +9482,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sad-cry"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sad-cry"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8903,7 +9498,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sad-crying"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sad-crying"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8918,7 +9514,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sad-dizzy"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sad-dizzy"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8933,7 +9530,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sad-squint"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sad-squint"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8948,7 +9546,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sick"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sick"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8963,7 +9562,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-silence"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-silence"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8978,7 +9578,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-silent-squint"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-silent-squint"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -8993,7 +9594,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-smile"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-smile"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9008,7 +9610,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-smile-beam"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-smile-beam"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9023,7 +9626,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-smile-dizzy"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-smile-dizzy"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9038,7 +9642,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-smile-squint-wink"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-smile-squint-wink"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9053,7 +9658,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-smile-squint-wink-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-smile-squint-wink-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9068,7 +9674,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-smile-wink"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-smile-wink"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9083,7 +9690,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-smile-wink-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-smile-wink-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9098,7 +9706,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-squint"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-squint"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9113,7 +9722,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-surprise"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-surprise"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9128,7 +9738,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-unamused"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-unamused"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9149,7 +9760,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-books"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-books"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9164,7 +9776,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clipboard"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clipboard"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9179,7 +9792,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clipboard-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clipboard-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9194,7 +9808,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clipboard-blank"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clipboard-blank"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9209,7 +9824,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clipboard-notes"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clipboard-notes"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9224,7 +9840,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-copy"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-copy"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9239,7 +9856,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-copy-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-copy-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9254,7 +9872,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-copy-landscape"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-copy-landscape"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9269,7 +9888,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-document-info"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-document-info"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9284,7 +9904,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9299,7 +9920,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9314,7 +9936,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-blank"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-blank"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9329,7 +9952,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-block-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-block-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9344,7 +9968,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-bookmark-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-bookmark-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9359,7 +9984,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9374,7 +10000,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-check-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-check-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9389,7 +10016,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-contract"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-contract"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9404,7 +10032,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-contract-dollar"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-contract-dollar"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9419,7 +10048,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-copy-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-copy-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9434,7 +10064,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-download"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-download"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9449,7 +10080,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-download-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-download-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9464,7 +10096,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-edit-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-edit-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9479,7 +10112,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9494,7 +10128,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-exclamation-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-exclamation-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9509,7 +10144,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-export"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-export"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9524,7 +10160,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-graph"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-graph"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9539,7 +10176,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-heart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-heart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9554,7 +10192,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-import"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-import"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9569,7 +10208,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-info-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-info-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9584,7 +10224,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-landscape"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-landscape"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9599,7 +10240,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-landscape-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-landscape-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9614,7 +10256,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-lock-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-lock-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9629,7 +10272,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-medical"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-medical"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9644,7 +10288,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9659,7 +10304,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-minus-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-minus-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9674,7 +10320,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-network"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-network"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9689,7 +10336,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9704,7 +10352,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-plus-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-plus-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9719,7 +10368,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9734,7 +10384,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-question-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-question-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9749,7 +10400,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-redo-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-redo-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9764,7 +10416,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-search-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-search-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9779,7 +10432,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-share-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-share-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9794,7 +10448,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-shield-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-shield-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9809,7 +10464,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-times"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-times"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9824,7 +10480,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-times-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-times-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9839,7 +10496,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-upload"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-upload"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9854,7 +10512,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-upload-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-upload-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9869,7 +10528,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-files-landscapes"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-files-landscapes"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9884,7 +10544,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-files-landscapes-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-files-landscapes-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9899,7 +10560,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9914,7 +10576,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9929,7 +10592,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-download"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-download"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9944,7 +10608,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9959,7 +10624,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-heart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-heart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9974,7 +10640,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-info"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-info"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -9989,7 +10656,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-lock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-lock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10004,7 +10672,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-medical"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-medical"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10019,7 +10688,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10034,7 +10704,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-network"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-network"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10049,7 +10720,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-open"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-open"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10064,7 +10736,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10079,7 +10752,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10094,7 +10768,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-times"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-times"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10109,7 +10784,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-upload"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-upload"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10130,7 +10806,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-compass"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-compass"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10145,7 +10822,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-directions"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-directions"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10160,7 +10838,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-location-arrow"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-location-arrow"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10175,7 +10854,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-location-arrow-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-location-arrow-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10190,7 +10870,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-location-pin-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-location-pin-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10205,7 +10886,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-location-point"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-location-point"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10220,7 +10902,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10235,7 +10918,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-marker"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-marker"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10250,7 +10934,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-marker-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-marker-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10265,7 +10950,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-marker-edit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-marker-edit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10280,7 +10966,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-marker-info"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-marker-info"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10295,7 +10982,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-marker-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-marker-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10310,7 +10998,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-marker-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-marker-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10325,7 +11014,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-marker-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-marker-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10340,7 +11030,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-marker-shield"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-marker-shield"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10355,7 +11046,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-pin"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-pin"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10370,7 +11062,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-pin-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-pin-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10385,7 +11078,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-navigator"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-navigator"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10400,7 +11094,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sign-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sign-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10415,7 +11110,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sign-left"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sign-left"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10430,7 +11126,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sign-right"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sign-right"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10451,7 +11148,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ambulance"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ambulance"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10466,7 +11164,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-assistive-listening-systems"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-assistive-listening-systems"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10481,7 +11180,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-band-aid"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-band-aid"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10496,7 +11196,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-book-medical"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-book-medical"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10511,7 +11212,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-capsule"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-capsule"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10526,7 +11228,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clinic-medical"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clinic-medical"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10541,7 +11244,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-coronavirus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-coronavirus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10556,7 +11260,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ear"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ear"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10571,7 +11276,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-medical-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-medical-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10586,7 +11292,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-head-side"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-head-side"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10601,7 +11308,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-head-side-cough"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-head-side-cough"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10616,7 +11324,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-head-side-mask"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-head-side-mask"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10631,7 +11340,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-heart-medical"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-heart-medical"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10646,7 +11356,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-heart-rate"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-heart-rate"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10661,7 +11372,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-heartbeat"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-heartbeat"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10676,7 +11388,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-hospital"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-hospital"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10691,7 +11404,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-hospital-square-sign"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-hospital-square-sign"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10706,7 +11420,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-hospital-symbol"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-hospital-symbol"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10721,7 +11436,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-house-user"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-house-user"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10736,7 +11452,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-medical-drip"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-medical-drip"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10751,7 +11468,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-medical-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-medical-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10766,7 +11484,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-medical-square-full"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-medical-square-full"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10781,7 +11500,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-medkit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-medkit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10796,7 +11516,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-microscope"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-microscope"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10811,7 +11532,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-monitor-heart-rate"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-monitor-heart-rate"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10826,7 +11548,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-prescription-bottle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-prescription-bottle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10841,7 +11564,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sanitizer"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sanitizer"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10856,7 +11580,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sanitizer-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sanitizer-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10871,7 +11596,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shield-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shield-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10886,7 +11612,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-social-distancing"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-social-distancing"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10901,7 +11628,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-stethoscope"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-stethoscope"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10916,7 +11644,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-stethoscope-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-stethoscope-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10931,7 +11660,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-store-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-store-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10946,7 +11676,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-stretcher"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-stretcher"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10961,7 +11692,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-syringe"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-syringe"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10976,7 +11708,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tablets"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tablets"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -10991,7 +11724,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-thermometer"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-thermometer"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11006,7 +11740,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-toilet-paper"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-toilet-paper"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11021,7 +11756,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-arrows"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-arrows"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11036,7 +11772,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-md"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-md"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11051,7 +11788,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-nurse"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-nurse"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11066,7 +11804,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-virus-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-virus-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11081,7 +11820,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wheelchair-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wheelchair-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11102,7 +11842,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-airplay"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-airplay"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11117,7 +11858,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-backward"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-backward"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11132,7 +11874,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bolt-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bolt-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11147,7 +11890,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-boombox"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-boombox"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11162,7 +11906,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-camera"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-camera"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11177,7 +11922,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-camera-change"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-camera-change"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11192,7 +11938,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-camera-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-camera-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11207,7 +11954,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clapper-board"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clapper-board"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11222,7 +11970,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-compact-disc"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-compact-disc"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11237,7 +11986,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-equal-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-equal-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11252,7 +12002,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-film"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-film"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11267,7 +12018,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-flower"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-flower"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11282,7 +12034,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-forward"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-forward"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11297,7 +12050,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-headphone-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-headphone-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11312,7 +12066,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-headphones"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-headphones"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11327,7 +12082,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-headphones-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-headphones-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11342,7 +12098,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11357,7 +12114,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-block"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-block"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11372,7 +12130,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-broken"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-broken"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11387,7 +12146,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11402,7 +12162,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-download"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-download"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11417,7 +12178,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-edit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-edit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11432,7 +12194,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-lock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-lock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11447,7 +12210,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11462,7 +12226,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11477,7 +12242,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11492,7 +12258,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-redo"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-redo"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11507,7 +12274,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-search"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-search"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11522,7 +12290,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-share"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-share"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11537,7 +12306,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-shield"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-shield"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11552,7 +12322,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-times"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-times"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11567,7 +12338,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-upload"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-upload"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11582,7 +12354,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11597,7 +12370,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-images"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-images"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11612,7 +12386,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-microphone-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-microphone-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11627,7 +12402,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mountains"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mountains"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11642,7 +12418,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-music"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-music"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11657,7 +12434,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-music-note"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-music-note"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11672,7 +12450,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-music-tune-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-music-tune-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11687,7 +12466,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pause"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pause"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11702,7 +12482,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pause-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pause-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11717,7 +12498,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-picture"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-picture"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11732,7 +12514,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-play"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-play"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11747,7 +12530,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-play-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-play-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11762,7 +12546,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-previous"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-previous"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11777,7 +12562,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-record-audio"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-record-audio"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11792,7 +12578,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-rss-interface"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-rss-interface"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11807,7 +12594,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-scenery"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-scenery"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11822,7 +12610,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-selfie"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-selfie"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11837,7 +12626,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shutter"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shutter"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11852,7 +12642,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shutter-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shutter-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11867,7 +12658,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-skip-forward"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-skip-forward"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11882,7 +12674,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-skip-forward-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-skip-forward-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11897,7 +12690,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-skip-forward-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-skip-forward-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11912,7 +12706,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-slider-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-slider-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11927,7 +12722,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-slider-h-range"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-slider-h-range"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11942,7 +12738,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sliders-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sliders-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11957,7 +12754,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sliders-v-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sliders-v-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11972,7 +12770,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-step-backward"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-step-backward"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -11987,7 +12786,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-step-backward-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-step-backward-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12002,7 +12802,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-step-backward-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-step-backward-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12017,7 +12818,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-step-forward"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-step-forward"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12032,7 +12834,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-stop-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-stop-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12047,7 +12850,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ticket"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ticket"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12062,7 +12866,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-video"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-video"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12077,7 +12882,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-video-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-video-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12098,7 +12904,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bright"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bright"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12113,7 +12920,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-capture"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-capture"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12128,7 +12936,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-exposure-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-exposure-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12143,7 +12952,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-exposure-increase"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-exposure-increase"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12158,7 +12968,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-eye"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-eye"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12173,7 +12984,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-focus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-focus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12188,7 +13000,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-focus-add"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-focus-add"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12203,7 +13016,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-focus-target"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-focus-target"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12224,7 +13038,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-keyhole-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-keyhole-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12239,7 +13054,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-keyhole-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-keyhole-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12254,7 +13070,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-keyhole-square-full"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-keyhole-square-full"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12269,7 +13086,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12284,7 +13102,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lock-access"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lock-access"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12299,7 +13118,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lock-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lock-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12314,7 +13134,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lock-open-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lock-open-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12329,7 +13150,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-padlock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-padlock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12344,7 +13166,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shield"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shield"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12359,7 +13182,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shield-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shield-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12374,7 +13198,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shield-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shield-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12389,7 +13214,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shield-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shield-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12404,7 +13230,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shield-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shield-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12419,7 +13246,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-unlock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-unlock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12434,7 +13262,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-unlock-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-unlock-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12455,7 +13284,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12470,7 +13300,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-heart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-heart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12485,7 +13316,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-heart-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-heart-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12500,7 +13332,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-octagon"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-octagon"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12515,7 +13348,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pentagon"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pentagon"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12530,7 +13364,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-polygon"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-polygon"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12545,7 +13380,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12560,7 +13396,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-square-shape"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-square-shape"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12575,7 +13412,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-star"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-star"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12590,7 +13428,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-triangle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-triangle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12611,7 +13450,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-archive"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-archive"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12626,7 +13466,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-credit-card-search"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-credit-card-search"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12641,7 +13482,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-gift"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-gift"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12656,7 +13498,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-label"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-label"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12671,7 +13514,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-label-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-label-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12686,7 +13530,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pricetag-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pricetag-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12701,7 +13546,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-qrcode-scan"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-qrcode-scan"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12716,7 +13562,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shop"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shop"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12731,7 +13578,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shopping-bag"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shopping-bag"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12746,7 +13594,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shopping-basket"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shopping-basket"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12761,7 +13610,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shopping-cart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shopping-cart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12776,7 +13626,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-shopping-cart-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-shopping-cart-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12791,7 +13642,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-store"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-store"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12806,7 +13658,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-store-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-store-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12821,7 +13674,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tag"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tag"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12836,7 +13690,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tag-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tag-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12851,7 +13706,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-transaction"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-transaction"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12872,7 +13728,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-accessible-icon-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-accessible-icon-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12887,7 +13744,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ban"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ban"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12902,7 +13760,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-closed-captioning"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-closed-captioning"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12917,7 +13776,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-closed-captioning-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-closed-captioning-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12932,7 +13792,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-copyright"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-copyright"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12947,7 +13808,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-creative-commons-pd"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-creative-commons-pd"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12962,7 +13824,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mars"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mars"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12977,7 +13840,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-parking-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-parking-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -12992,7 +13856,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-parking-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-parking-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13007,7 +13872,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-registered"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-registered"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13022,7 +13888,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-servicemark"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-servicemark"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13037,7 +13904,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-trademark"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-trademark"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13052,7 +13920,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-trademark-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-trademark-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13067,7 +13936,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-venus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-venus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13082,7 +13952,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wheelchair"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wheelchair"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13103,7 +13974,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-baseball-ball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-baseball-ball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13118,7 +13990,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-basketball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-basketball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13133,7 +14006,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-basketball-hoop"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-basketball-hoop"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13148,7 +14022,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bowling-ball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bowling-ball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13163,7 +14038,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-club"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-club"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13178,7 +14054,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-diamond"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-diamond"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13193,7 +14070,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dice-five"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dice-five"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13208,7 +14086,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dice-four"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dice-four"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13223,7 +14102,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dice-one"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dice-one"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13238,7 +14118,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dice-six"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dice-six"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13253,7 +14134,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dice-three"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dice-three"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13268,7 +14150,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dice-two"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dice-two"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13283,7 +14166,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dumbbell"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dumbbell"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13298,7 +14182,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-football"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-football"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13313,7 +14198,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-football-ball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-football-ball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13328,7 +14214,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-golf-ball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-golf-ball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13343,7 +14230,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-heart-sign"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-heart-sign"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13358,7 +14246,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-kayak"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-kayak"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13373,7 +14262,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-spade"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-spade"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13388,7 +14278,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-table-tennis"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-table-tennis"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13403,7 +14294,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tennis-ball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tennis-ball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13418,7 +14310,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-trophy"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-trophy"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13433,7 +14326,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-volleyball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-volleyball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13454,7 +14348,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13469,7 +14364,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clock-eight"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clock-eight"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13484,7 +14380,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clock-five"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clock-five"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13499,7 +14396,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clock-nine"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clock-nine"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13514,7 +14412,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clock-seven"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clock-seven"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13529,7 +14428,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clock-ten"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clock-ten"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13544,7 +14444,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clock-three"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clock-three"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13559,7 +14460,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clock-two"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clock-two"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13574,7 +14476,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-stopwatch"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-stopwatch"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13589,7 +14492,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-stopwatch-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-stopwatch-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13604,7 +14508,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-watch"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-watch"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13619,7 +14524,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-watch-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-watch-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13640,7 +14546,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13655,7 +14562,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bus-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bus-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13670,7 +14578,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bus-school"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bus-school"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13685,7 +14594,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-car-sideview"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-car-sideview"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13700,7 +14610,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-car-wash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-car-wash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13715,7 +14626,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-luggage-cart"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-luggage-cart"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13730,7 +14642,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-metro"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-metro"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13745,7 +14658,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-parcel"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-parcel"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13760,7 +14674,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ship"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ship"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13775,7 +14690,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-subway"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-subway"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13790,7 +14706,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-subway-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-subway-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13805,7 +14722,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-taxi"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-taxi"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13820,7 +14738,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-truck"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-truck"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13835,7 +14754,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-truck-loading"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-truck-loading"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13856,7 +14776,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-0"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-0"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13871,7 +14792,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-3"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-3"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13886,7 +14808,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-6"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-6"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13901,7 +14824,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-10"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-10"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13916,7 +14840,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-12"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-12"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13931,7 +14856,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-13"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-13"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13946,7 +14872,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-16"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-16"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13961,7 +14888,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-17"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-17"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13976,7 +14904,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-18"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-18"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -13991,7 +14920,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-21"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-21"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14006,7 +14936,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-adjust"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-adjust"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14021,7 +14952,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-adjust-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-adjust-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14036,7 +14968,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-adjust-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-adjust-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14051,7 +14984,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-adjust-half"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-adjust-half"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14066,7 +15000,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-anchor"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-anchor"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14081,7 +15016,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-android-phone-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-android-phone-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14096,7 +15032,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ankh"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ankh"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14111,7 +15048,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-archive-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-archive-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14126,7 +15064,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-archway"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-archway"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14141,7 +15080,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-asterisk"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-asterisk"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14156,7 +15096,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-at"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-at"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14171,7 +15112,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-auto-flash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-auto-flash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14186,7 +15128,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-baby-carriage"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-baby-carriage"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14201,7 +15144,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-backspace"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-backspace"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14216,7 +15160,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bag-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bag-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14231,7 +15176,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-balance-scale"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-balance-scale"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14246,7 +15192,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bath"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bath"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14261,7 +15208,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-battery-bolt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-battery-bolt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14276,7 +15224,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-battery-empty"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-battery-empty"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14291,7 +15240,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bed"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bed"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14306,7 +15256,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bed-double"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bed-double"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14321,7 +15272,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bell"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bell"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14336,7 +15288,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bell-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bell-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14351,7 +15304,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bluetooth-b"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bluetooth-b"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14366,7 +15320,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bolt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bolt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14381,7 +15336,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bolt-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bolt-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14396,7 +15352,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bookmark"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bookmark"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14411,7 +15368,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bookmark-full"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bookmark-full"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14426,7 +15384,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-box"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-box"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14441,7 +15400,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-brightness"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-brightness"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14456,7 +15416,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-brightness-empty"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-brightness-empty"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14471,7 +15432,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-brightness-half"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-brightness-half"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14486,7 +15448,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-brightness-low"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-brightness-low"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14501,7 +15464,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-brightness-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-brightness-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14516,7 +15480,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-brightness-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-brightness-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14531,7 +15496,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-building"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-building"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14546,7 +15512,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-bullseye"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-bullseye"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14561,7 +15528,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-calculator"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-calculator"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14576,7 +15544,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-calendar-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-calendar-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14591,7 +15560,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-calender"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-calender"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14606,7 +15576,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-camera-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-camera-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14621,7 +15592,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cancel"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cancel"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14636,7 +15608,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-car"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-car"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14651,7 +15624,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-car-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-car-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14666,7 +15640,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-card-atm"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-card-atm"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14681,7 +15656,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14696,7 +15672,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-check-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-check-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14711,7 +15688,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-check-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-check-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14726,7 +15704,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-coffee"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-coffee"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14741,7 +15720,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cog"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cog"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14756,7 +15736,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-alt-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-alt-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14771,7 +15752,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-comment-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-comment-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14786,7 +15768,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-create-dashboard"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-create-dashboard"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14801,7 +15784,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-crockery"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-crockery"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14816,7 +15800,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cube"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cube"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14831,7 +15816,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-dashboard"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-dashboard"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14846,7 +15832,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-desktop-alt-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-desktop-alt-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14861,7 +15848,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-desktop-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-desktop-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14876,7 +15864,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-draggabledots"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-draggabledots"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14891,7 +15880,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-edit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-edit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14906,7 +15896,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-edit-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-edit-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14921,7 +15912,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-elipsis-double-v-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-elipsis-double-v-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14936,7 +15928,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ellipsis-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ellipsis-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14951,7 +15944,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-ellipsis-v"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-ellipsis-v"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14966,7 +15960,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-estate"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-estate"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14981,7 +15976,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -14996,7 +15992,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-exclamation-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-exclamation-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15011,7 +16008,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-exclamation-octagon"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-exclamation-octagon"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15026,7 +16024,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-exclamation-triangle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-exclamation-triangle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15041,7 +16040,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-external-link-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-external-link-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15056,7 +16056,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-eye-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-eye-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15071,7 +16072,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-favorite"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-favorite"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15086,7 +16088,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-feedback"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-feedback"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15101,7 +16104,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-fidget-spinner"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-fidget-spinner"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15116,7 +16120,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-lanscape-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-lanscape-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15131,7 +16136,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-file-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-file-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15146,7 +16152,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-filter"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-filter"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15161,7 +16168,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-filter-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-filter-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15176,7 +16184,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-fire"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-fire"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15191,7 +16200,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-folder-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-folder-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15206,7 +16216,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-football-american"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-football-american"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15221,7 +16232,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-glass"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-glass"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15236,7 +16248,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-glass-martini"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-glass-martini"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15251,7 +16264,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-glass-martini-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-glass-martini-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15266,7 +16280,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-glass-martini-alt-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-glass-martini-alt-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15281,7 +16296,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-glass-tea"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-glass-tea"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15296,7 +16312,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-globe"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-globe"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15311,7 +16328,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-heart-break"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-heart-break"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15326,7 +16344,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-history"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-history"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15341,7 +16360,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-history-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-history-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15356,7 +16376,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-home"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-home"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15371,7 +16392,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-hourglass"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-hourglass"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15386,7 +16408,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-alt-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-alt-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15401,7 +16424,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-image-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-image-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15416,7 +16440,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-inbox"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-inbox"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15431,7 +16456,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-info"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-info"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15446,7 +16472,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-info-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-info-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15461,7 +16488,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-key-skeleton"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-key-skeleton"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15476,7 +16504,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-key-skeleton-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-key-skeleton-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15491,7 +16520,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-keyboard"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-keyboard"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15506,7 +16536,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-keyboard-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-keyboard-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15521,7 +16552,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-keyboard-hide"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-keyboard-hide"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15536,7 +16568,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-keyboard-show"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-keyboard-show"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15551,7 +16584,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lamp"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lamp"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15566,7 +16600,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-layer-group"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-layer-group"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15581,7 +16616,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-layer-group-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-layer-group-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15596,7 +16632,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-layers"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-layers"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15611,7 +16648,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-layers-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-layers-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15626,7 +16664,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-life-ring"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-life-ring"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15641,7 +16680,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-link"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-link"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15656,7 +16696,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-link-add"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-link-add"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15671,7 +16712,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-link-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-link-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15686,7 +16728,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-link-broken"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-link-broken"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15701,7 +16744,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-link-h"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-link-h"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15716,7 +16760,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-list-ol"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-list-ol"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15731,7 +16776,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-list-ol-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-list-ol-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15746,7 +16792,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-lock-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-lock-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15761,7 +16808,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-map-marker-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-map-marker-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15776,7 +16824,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-megaphone"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-megaphone"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15791,7 +16840,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-message"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-message"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15806,7 +16856,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-microphone"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-microphone"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15821,7 +16872,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15836,7 +16888,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-minus-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-minus-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15851,7 +16904,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-minus-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-minus-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15866,7 +16920,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-minus-square-full"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-minus-square-full"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15881,7 +16936,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mobile-vibrate"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mobile-vibrate"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15896,7 +16952,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-money-bill-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-money-bill-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15911,7 +16968,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-multiply"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-multiply"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15926,7 +16984,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-newspaper"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-newspaper"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15941,7 +17000,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-package"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-package"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15956,7 +17016,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-paperclip"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-paperclip"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15971,7 +17032,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pen"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pen"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -15986,7 +17048,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pizza-slice"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pizza-slice"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16001,7 +17064,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plane"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plane"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16016,7 +17080,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plane-arrival"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plane-arrival"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16031,7 +17096,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plane-departure"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plane-departure"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16046,7 +17112,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plane-fly"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plane-fly"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16061,7 +17128,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plug"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plug"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16076,7 +17144,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16091,7 +17160,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16106,7 +17176,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-plus-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-plus-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16121,7 +17192,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-power"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-power"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16136,7 +17208,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-print-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-print-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16151,7 +17224,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-process"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-process"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16166,7 +17240,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-pump"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-pump"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16181,7 +17256,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-question"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-question"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16196,7 +17272,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-question-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-question-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16211,7 +17288,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-redo"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-redo"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16226,7 +17304,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-refresh"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-refresh"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16241,7 +17320,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-restaurant"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-restaurant"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16256,7 +17336,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-rocket"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-rocket"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16271,7 +17352,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-rope-way"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-rope-way"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16286,7 +17368,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-rotate-360"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-rotate-360"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16301,7 +17384,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-rss"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-rss"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16316,7 +17400,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-save"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-save"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16331,7 +17416,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-search"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-search"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16346,7 +17432,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-search-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-search-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16361,7 +17448,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-search-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-search-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16376,7 +17464,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-search-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-search-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16391,7 +17480,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-setting"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-setting"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16406,7 +17496,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-share-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-share-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16421,7 +17512,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sign-in-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sign-in-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16436,7 +17528,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sign-out-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sign-out-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16451,7 +17544,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-signal"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-signal"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16466,7 +17560,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-signal-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-signal-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16481,7 +17576,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-signin"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-signin"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16496,7 +17592,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-signout"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-signout"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16511,7 +17608,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sim-card"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sim-card"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16526,7 +17624,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-space-key"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-space-key"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16541,7 +17640,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-spinner"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-spinner"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16556,7 +17656,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-spinner-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-spinner-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16571,7 +17672,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-star-half-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-star-half-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16586,7 +17688,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-streering"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-streering"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16601,7 +17704,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sun"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sun"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16616,7 +17720,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-swatchbook"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-swatchbook"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16631,7 +17736,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-swimmer"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-swimmer"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16646,7 +17752,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sync"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sync"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16661,7 +17768,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sync-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sync-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16676,7 +17784,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sync-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sync-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16691,7 +17800,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tachometer-fast"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tachometer-fast"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16706,7 +17816,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tachometer-fast-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tachometer-fast-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16721,7 +17832,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tear"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tear"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16736,7 +17848,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-thumbs-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-thumbs-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16751,7 +17864,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-thumbs-up"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-thumbs-up"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16766,7 +17880,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-times"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-times"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16781,7 +17896,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-times-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-times-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16796,7 +17912,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-times-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-times-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16811,7 +17928,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-toggle-off"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-toggle-off"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16826,7 +17944,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-toggle-on"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-toggle-on"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16841,7 +17960,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-traffic-light"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-traffic-light"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16856,7 +17976,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-trash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-trash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16871,7 +17992,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-trash-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-trash-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16886,7 +18008,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-trees"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-trees"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16901,7 +18024,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tv-retro"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tv-retro"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16916,7 +18040,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tv-retro-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tv-retro-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16931,7 +18056,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-umbrella"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-umbrella"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16946,7 +18072,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-upload"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-upload"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16961,7 +18088,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-utensils"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-utensils"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16976,7 +18104,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-utensils-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-utensils-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -16991,7 +18120,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-video-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-video-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17006,7 +18136,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-voicemail"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-voicemail"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17021,7 +18152,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-voicemail-rectangle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-voicemail-rectangle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17036,7 +18168,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-volume"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-volume"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17051,7 +18184,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-volume-down"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-volume-down"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17066,7 +18200,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-volume-mute"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-volume-mute"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17081,7 +18216,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-volume-off"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-volume-off"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17096,7 +18232,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-volume-up"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-volume-up"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17111,7 +18248,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wallet"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wallet"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17126,7 +18264,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-water-drop-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-water-drop-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17141,7 +18280,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-water-glass"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-water-glass"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17156,7 +18296,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wifi"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wifi"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17171,7 +18312,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wifi-slash"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wifi-slash"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17186,7 +18328,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wrench"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wrench"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17201,7 +18344,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-x"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-x"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17216,7 +18360,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-x-add"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-x-add"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17231,7 +18376,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-yin-yang"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-yin-yang"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17252,7 +18398,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-book-reader"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-book-reader"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17267,7 +18414,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17282,7 +18430,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-check"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-check"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17297,7 +18446,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-circle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-circle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17312,7 +18462,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-exclamation"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-exclamation"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17327,7 +18478,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-location"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-location"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17342,7 +18494,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17357,7 +18510,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17372,7 +18526,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-square"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-square"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17387,7 +18542,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-user-times"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-user-times"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17402,7 +18558,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-users-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-users-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17423,7 +18580,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-celsius"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-celsius"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17438,7 +18596,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17453,7 +18612,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-drizzle"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-drizzle"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17468,7 +18628,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-hail"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-hail"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17483,7 +18644,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-meatball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-meatball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17498,7 +18660,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-moon"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-moon"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17513,7 +18676,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-moon-hail"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-moon-hail"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17528,7 +18692,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-moon-meatball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-moon-meatball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17543,7 +18708,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-moon-rain"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-moon-rain"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17558,7 +18724,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-moon-showers"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-moon-showers"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17573,7 +18740,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-rain"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-rain"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17588,7 +18756,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-rain-sun"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-rain-sun"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17603,7 +18772,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-showers"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-showers"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17618,7 +18788,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-showers-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-showers-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17633,7 +18804,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-showers-heavy"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-showers-heavy"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17648,7 +18820,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-sun"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-sun"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17663,7 +18836,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-hail"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-hail"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17678,7 +18852,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-meatball"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-meatball"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17693,7 +18868,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-rain"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-rain"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17708,7 +18884,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-rain-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-rain-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17723,7 +18900,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-tear"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-sun-tear"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17738,7 +18916,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-cloud-wind"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-cloud-wind"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17753,7 +18932,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-clouds"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-clouds"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17768,7 +18948,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-desert"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-desert"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17783,7 +18964,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-fahrenheit"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-fahrenheit"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17798,7 +18980,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-forecastcloud-moon-tear"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-forecastcloud-moon-tear"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17813,7 +18996,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-moon"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-moon"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17828,7 +19012,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-moon-eclipse"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-moon-eclipse"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17843,7 +19028,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-moonset"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-moonset"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17858,7 +19044,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-mountains-sun"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-mountains-sun"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17873,7 +19060,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-n-a"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-n-a"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17888,7 +19076,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-rainbow"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-rainbow"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17903,7 +19092,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-raindrops"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-raindrops"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17918,7 +19108,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-raindrops-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-raindrops-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17933,7 +19124,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-snow-flake"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-snow-flake"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17948,7 +19140,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-snowflake"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-snowflake"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17963,7 +19156,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-snowflake-alt"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-snowflake-alt"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17978,7 +19172,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-sunset"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-sunset"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -17993,7 +19188,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-temperature"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-temperature"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18008,7 +19204,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-temperature-empty"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-temperature-empty"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18023,7 +19220,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-temperature-half"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-temperature-half"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18038,7 +19236,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-temperature-minus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-temperature-minus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18053,7 +19252,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-temperature-plus"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-temperature-plus"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18068,7 +19268,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-temperature-quarter"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-temperature-quarter"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18083,7 +19284,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-temperature-three-quarter"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-temperature-three-quarter"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18098,7 +19300,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-thunderstorm"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-thunderstorm"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18113,7 +19316,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-thunderstorm-moon"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-thunderstorm-moon"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18128,7 +19332,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-thunderstorm-sun"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-thunderstorm-sun"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18143,7 +19348,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-tornado"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-tornado"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18158,7 +19364,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-water"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-water"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18173,7 +19380,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wind"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wind"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18188,7 +19396,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wind-moon"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wind-moon"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18203,7 +19412,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-wind-sun"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-wind-sun"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18218,7 +19428,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-windsock"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-windsock"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>
@@ -18233,7 +19444,8 @@ export default function FontIcons() {
               <div className="card-footer position-relative">
                 <a
                   className="stretched-link link-body btn-copy-icon"
-                  data-clipboard-text='&lt;i className="uil uil-windy"&gt;&lt;/i&gt;'>
+                  data-clipboard-text='&lt;i className="uil uil-windy"&gt;&lt;/i&gt;'
+                >
                   Copy
                 </a>
               </div>

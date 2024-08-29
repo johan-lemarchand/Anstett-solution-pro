@@ -1,12 +1,20 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from "@sandbox/utils/currency";
+import currency from 'app/sandbox/utils/currency';
 // GLOBAL CUSTOM COMPONENTS
-import Breadcrumb from "@sandbox/components/reuseable/Breadcrumb";
-import { ProductCard2 } from "@sandbox/components/reuseable/product-cards";
-import { Checkbox, Input, Select } from "@sandbox/components/elements/checkout-form";
+import Breadcrumb from 'app/sandbox/components/reuseable/Breadcrumb';
+import { ProductCard2 } from 'app/sandbox/components/reuseable/product-cards';
+import {
+  Checkbox,
+  Input,
+  Select,
+} from 'app/sandbox/components/elements/checkout-form';
 // CUSTOM DATA
-import { breadcrumb, orderProducts, orderSummeryRow } from "@sandbox/data/checkout-page";
+import {
+  breadcrumb,
+  orderProducts,
+  orderSummeryRow,
+} from 'app/sandbox/data/checkout-page';
 
 export default function Checkout() {
   return (
@@ -24,15 +32,17 @@ export default function Checkout() {
             {/* ========== shipping section ========== */}
             <div className="col-lg-8">
               <div className="alert alert-blue alert-icon mb-6" role="alert">
-                <i className="uil uil-exclamation-circle"></i> Vous avez déjà un compte ? {" "}
+                <i className="uil uil-exclamation-circle"></i> Vous avez déjà un
+                compte ?{' '}
                 <a
                   href="#"
                   data-bs-toggle="modal"
                   data-bs-dismiss="modal"
                   className="alert-link hover"
-                  data-bs-target="#modal-signin">
+                  data-bs-target="#modal-signin"
+                >
                   Connectez Vous
-                </a>{" "}
+                </a>{' '}
                 pour une expérience de paiement plus rapide.
               </div>
 
@@ -41,23 +51,48 @@ export default function Checkout() {
               <form className="needs-validation">
                 <div className="row g-3">
                   <div className="col-sm-6">
-                    <Input type="text" id="firstName" placeholder="Prénom" label="Prénom" />
+                    <Input
+                      type="text"
+                      id="firstName"
+                      placeholder="Prénom"
+                      label="Prénom"
+                    />
                   </div>
 
                   <div className="col-sm-6">
-                    <Input type="text" id="lastName" placeholder="Nom" label="Nom" />
+                    <Input
+                      type="text"
+                      id="lastName"
+                      placeholder="Nom"
+                      label="Nom"
+                    />
                   </div>
 
                   <div className="col-12">
-                    <Input type="email" id="email" placeholder="you@example.com" label="Email" />
+                    <Input
+                      type="email"
+                      id="email"
+                      placeholder="you@example.com"
+                      label="Email"
+                    />
                   </div>
 
                   <div className="col-12">
-                    <Input type="text" id="address" placeholder="1234 Main St" label="Adresse" />
+                    <Input
+                      type="text"
+                      id="address"
+                      placeholder="1234 Main St"
+                      label="Adresse"
+                    />
                   </div>
 
                   <div className="col-12">
-                    <Input type="text" id="address2" placeholder="Apartment or suite" label="Adresse 2 (Optionnel)" />
+                    <Input
+                      type="text"
+                      id="address2"
+                      placeholder="Apartment or suite"
+                      label="Adresse 2 (Optionnel)"
+                    />
                   </div>
 
                   <div className="col-md-5">
@@ -65,7 +100,7 @@ export default function Checkout() {
                       required
                       id="country"
                       label="Pays"
-                      options={[{ title: "France", value: "usa" }]}
+                      options={[{ title: 'France', value: 'usa' }]}
                     />
                   </div>
 
@@ -74,27 +109,58 @@ export default function Checkout() {
                       required
                       id="state"
                       label="Ville"
-                      options={[{ title: "Strasbourg", value: "california" }]}
+                      options={[{ title: 'Strasbourg', value: 'california' }]}
                     />
                   </div>
 
                   <div className="col-md-3">
-                    <Input type="text" id="zip" placeholder="Zip Code" label="Code postal" />
+                    <Input
+                      type="text"
+                      id="zip"
+                      placeholder="Zip Code"
+                      label="Code postal"
+                    />
                   </div>
                 </div>
 
                 <hr className="mt-7 mb-6" />
 
-                <Checkbox defaultChecked id="same-address" label="Adresse de livraison est la même que mon adresse de facturation" />
-                <Checkbox id="save-info" label="Enregistrer mes informations pour la prochaine fois" />
+                <Checkbox
+                  defaultChecked
+                  id="same-address"
+                  label="Adresse de livraison est la même que mon adresse de facturation"
+                />
+                <Checkbox
+                  id="save-info"
+                  label="Enregistrer mes informations pour la prochaine fois"
+                />
 
                 <hr className="mt-7 mb-6" />
                 <h3 className="mb-4">Payment</h3>
 
                 <div className="mt-3 mb-6">
-                  <Checkbox required id="credit" type="radio" defaultChecked label="Carte bancaire" name="paymentMethod" />
-                  <Checkbox type="radio" name="paymentMethod" id="debit" label="Carte cadeau" required />
-                  <Checkbox type="radio" name="paymentMethod" id="paypal" label="PayPal" required />
+                  <Checkbox
+                    required
+                    id="credit"
+                    type="radio"
+                    defaultChecked
+                    label="Carte bancaire"
+                    name="paymentMethod"
+                  />
+                  <Checkbox
+                    type="radio"
+                    name="paymentMethod"
+                    id="debit"
+                    label="Carte cadeau"
+                    required
+                  />
+                  <Checkbox
+                    type="radio"
+                    name="paymentMethod"
+                    id="paypal"
+                    label="PayPal"
+                    required
+                  />
                 </div>
 
                 <div className="row gy-3 gx-3">
@@ -109,15 +175,33 @@ export default function Checkout() {
                   </div>
 
                   <div className="col-md-6">
-                    <Input required type="text" id="cc-name" label="Titulaire de la carte" placeholder="Name on card" />
+                    <Input
+                      required
+                      type="text"
+                      id="cc-name"
+                      label="Titulaire de la carte"
+                      placeholder="Name on card"
+                    />
                   </div>
 
                   <div className="col-md-3">
-                    <Input required type="text" id="cc-expiration" placeholder="Expiration" label="Date d'expiration" />
+                    <Input
+                      required
+                      type="text"
+                      id="cc-expiration"
+                      placeholder="Expiration"
+                      label="Date d'expiration"
+                    />
                   </div>
 
                   <div className="col-md-3">
-                    <Input required type="text" id="cc-cvv" placeholder="CVV" label="Cryptogramme" />
+                    <Input
+                      required
+                      type="text"
+                      id="cc-cvv"
+                      placeholder="CVV"
+                      label="Cryptogramme"
+                    />
                   </div>
                 </div>
               </form>
@@ -128,7 +212,7 @@ export default function Checkout() {
               <h3 className="mb-4">Récapitulatif De Commande</h3>
 
               <div className="shopping-cart mb-7">
-                {orderProducts.map((item) => (
+                {orderProducts.map(item => (
                   <ProductCard2 {...item} key={item.id} />
                 ))}
               </div>
@@ -138,11 +222,19 @@ export default function Checkout() {
 
               <div className="mb-5">
                 <div className="form-check mb-2">
-                  <input id="standard" name="shippingMethod" type="radio" className="form-check-input" required />
+                  <input
+                    id="standard"
+                    name="shippingMethod"
+                    type="radio"
+                    className="form-check-input"
+                    required
+                  />
                   <label className="form-check-label" htmlFor="standard">
                     Gratuit - Livraison standard
                   </label>
-                  <small className="text-muted d-block">La livraison peut prendre 5-6 jours ouvrables</small>
+                  <small className="text-muted d-block">
+                    La livraison peut prendre 5-6 jours ouvrables
+                  </small>
                 </div>
 
                 <div className="form-check">
@@ -157,7 +249,9 @@ export default function Checkout() {
                   <label className="form-check-label" htmlFor="express">
                     $10 - Livraison express
                   </label>
-                  <small className="text-muted d-block">La livraison peut prendre 2-3 jours ouvrables</small>
+                  <small className="text-muted d-block">
+                    La livraison peut prendre 2-3 jours ouvrables
+                  </small>
                 </div>
               </div>
 
@@ -172,7 +266,7 @@ export default function Checkout() {
 
                         <td className={value.parentClass}>
                           <p className={value.childClass}>
-                            {name === "Discount" && "-"}
+                            {name === 'Discount' && '-'}
                             {currency(value.amount)}
                           </p>
                         </td>
@@ -182,7 +276,10 @@ export default function Checkout() {
                 </table>
               </div>
 
-              <button type="submit" className="btn btn-primary rounded w-100 mt-4">
+              <button
+                type="submit"
+                className="btn btn-primary rounded w-100 mt-4"
+              >
                 Passer la commande
               </button>
             </div>

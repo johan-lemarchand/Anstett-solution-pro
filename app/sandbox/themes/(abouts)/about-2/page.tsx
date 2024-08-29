@@ -1,44 +1,44 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Team8 } from "@sandbox/components/blocks/team";
-import { Clients1 } from "@sandbox/components/blocks/clients";
-import { Process8 } from "@sandbox/components/blocks/process";
-import Carousel from "@sandbox/components/reuseable/Carousel";
-import ProgressList from "@sandbox/components/common/ProgressList";
-import AccordionList from "@sandbox/components/common/AccordionList";
-import { TestimonialCard2 } from "@sandbox/components/reuseable/testimonial-cards";
+import { Team8 } from 'app/sandbox/components/blocks/team';
+import { Clients1 } from 'app/sandbox/components/blocks/clients';
+import { Process8 } from 'app/sandbox/components/blocks/process';
+import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import ProgressList from 'app/sandbox/components/common/ProgressList';
+import AccordionList from 'app/sandbox/components/common/AccordionList';
+import { TestimonialCard2 } from 'app/sandbox/components/reuseable/testimonial-cards';
 // CUSTOM ICON COMPONENTS
-import Target from "@sandbox/icons/lineal/Target";
-import BarChart from "@sandbox/icons/lineal/BarChart";
-import Megaphone from "@sandbox/icons/lineal/Megaphone";
-import SettingsThree from "@sandbox/icons/lineal/SettingsThree";
+import Target from 'app/sandbox/icons/lineal/Target';
+import BarChart from 'app/sandbox/icons/lineal/BarChart';
+import Megaphone from 'app/sandbox/icons/lineal/Megaphone';
+import SettingsThree from 'app/sandbox/icons/lineal/SettingsThree';
 // CUSTOM DATA
-import { testimonialList2 } from "@sandbox/data/testimonial-list";
+import { testimonialList2 } from 'app/sandbox/data/testimonial-list';
 const serviceList2 = [
   {
     id: 1,
-    title: "Marketing",
+    title: 'Marketing',
     Icon: <Megaphone />,
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
+    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`,
   },
   {
     id: 2,
-    title: "Stratégie",
+    title: 'Stratégie',
     Icon: <Target className="icon-svg-md text-green mb-3" />,
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
+    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`,
   },
   {
     id: 3,
-    title: "Développement",
+    title: 'Développement',
     Icon: <SettingsThree />,
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
+    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`,
   },
   {
     id: 4,
     Icon: <BarChart />,
-    title: "Analyse de données",
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
-  }
+    title: 'Analyse de données',
+    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`,
+  },
 ];
 
 export default function AboutTwo() {
@@ -50,7 +50,9 @@ export default function AboutTwo() {
           <div className="row">
             <div className="col-xl-5 mx-auto mb-6">
               <h1 className="display-1 mb-3">About Us</h1>
-              <p className="lead mb-0">A company turning ideas into beautiful things.</p>
+              <p className="lead mb-0">
+                A company turning ideas into beautiful things.
+              </p>
             </div>
           </div>
         </div>
@@ -79,13 +81,15 @@ export default function AboutTwo() {
 
             <div className="col-lg-6">
               <h3 className="display-5 mb-5">
-              Le service complet que nous offrons est spécialement conçu pour répondre à vos besoins et projets.
+                Le service complet que nous offrons est spécialement conçu pour
+                répondre à vos besoins et projets.
               </h3>
 
               <p>
-                Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac
-                consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur duis
-                mollis commodo.
+                Integer posuere erat a ante venenatis dapibus posuere velit
+                aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at
+                eros. Praesent commodo cursus magna, vel scelerisque nisl
+                consectetur duis mollis commodo.
               </p>
             </div>
           </div>
@@ -121,8 +125,12 @@ export default function AboutTwo() {
             </div>
 
             <div className="col-lg-5">
-              <h2 className="fs-15 text-uppercase text-line text-primary mb-3">Why Choose Us?</h2>
-              <h3 className="display-5 mb-7">A few reasons why our valued customers choose us.</h3>
+              <h2 className="fs-15 text-uppercase text-line text-primary mb-3">
+                Why Choose Us?
+              </h2>
+              <h3 className="display-5 mb-7">
+                A few reasons why our valued customers choose us.
+              </h3>
               <AccordionList />
             </div>
           </div>
@@ -181,7 +189,9 @@ export default function AboutTwo() {
             </div>
 
             <div className="col-lg-5">
-              <h3 className="display-4 mb-7">Vous avez des questions? N’hésitez pas à communiquer avec nous.</h3>
+              <h3 className="display-4 mb-7">
+                Vous avez des questions? N’hésitez pas à communiquer avec nous.
+              </h3>
               <div className="d-flex flex-row">
                 <div>
                   <div className="icon text-primary fs-28 me-4 mt-n1">
@@ -190,7 +200,10 @@ export default function AboutTwo() {
                 </div>
                 <div>
                   <h5 className="mb-1">Adresse</h5>
-                  <address> 26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
+                  <address>
+                    {' '}
+                    26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder
+                  </address>
                 </div>
               </div>
               <div className="d-flex flex-row">

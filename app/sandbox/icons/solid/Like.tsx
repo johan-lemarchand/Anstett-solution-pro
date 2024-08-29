@@ -1,4 +1,4 @@
-import {IconProps} from '../../../types/icon';
+import { IconProps } from '../../../types/icon';
 
 const Like = ({ className }: IconProps) => {
   return (

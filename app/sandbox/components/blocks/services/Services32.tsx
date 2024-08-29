@@ -1,16 +1,18 @@
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { services } from "@sandbox/data/demo-30";
+import { services } from 'app/sandbox/data/demo-30';
 
 export default function Services32() {
   return (
     <div className="container pt-6">
       <div className="row">
         <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
-          <h2 className="display-2 mb-4">Le service complet que nous offrons</h2>
+          <h2 className="display-2 mb-4">
+            Le service complet que nous offrons
+          </h2>
           <p className="lead fs-lg mb-11">
-            Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Integer posuere ante
-            venenatis.
+            Curabitur blandit tempus porttitor. Donec id elit non mi porta
+            gravida at eget metus. Integer posuere ante venenatis.
           </p>
         </div>
       </div>
@@ -25,7 +27,8 @@ export default function Services32() {
             <h3>{title}</h3>
 
             <p className="mb-3">
-              Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla.
+              Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper
+              nulla non metus auctor fringilla.
             </p>
 
             <NextLink title="En savoir plus" href="#" className="more hover" />

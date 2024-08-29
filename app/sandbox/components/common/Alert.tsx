@@ -1,16 +1,32 @@
-import NextLink from "../reuseable/links/NextLink";
+import NextLink from '../reuseable/links/NextLink';
 
 export default function Alert() {
   return (
-    <div className="alert bg-primary text-white alert-dismissible fade show rounded-0 mb-0 text-lg-center" role="alert">
+    <div
+      className="alert bg-primary text-white alert-dismissible fade show rounded-0 mb-0 text-lg-center"
+      role="alert"
+    >
       <div className="container">
         <div className="alert-inner p-0">
-          <span className="badge badge-lg bg-white text-primary text-uppercase rounded me-2">Mise à jour</span> Nouvelle version
-          de notre produit est enfin <NextLink title="disponible" href="#" className="alert-link link-white hover" />!
+          <span className="badge badge-lg bg-white text-primary text-uppercase rounded me-2">
+            Mise à jour
+          </span>{' '}
+          Nouvelle version de notre produit est enfin{' '}
+          <NextLink
+            title="disponible"
+            href="#"
+            className="alert-link link-white hover"
+          />
+          !
         </div>
       </div>
 
-      <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close" />
+      <button
+        type="button"
+        className="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      />
     </div>
   );
 }

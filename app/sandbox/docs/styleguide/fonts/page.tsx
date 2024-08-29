@@ -1,10 +1,10 @@
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Font Options", url: "snippet-1" },
-  { title: "Google Fonts", url: "snippet-2" },
-  { title: "@font-face", url: "snippet-3" }
+  { title: 'Font Options', url: 'snippet-1' },
+  { title: 'Google Fonts', url: 'snippet-2' },
+  { title: '@font-face', url: 'snippet-3' },
 ];
 
 export default function Fonts() {
@@ -20,7 +20,8 @@ export default function Fonts() {
     <DocLayout
       pageTitle="Fonts"
       quickAccessLinks={quickAccess}
-      description="Use one of the existing font options or a custom font of your choice to change the overall font in Sandbox.">
+      description="Use one of the existing font options or a custom font of your choice to change the overall font in Sandbox."
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Font Options</h2>
@@ -30,15 +31,15 @@ export default function Fonts() {
               <li className="mb-2">
                 <h6 className="d-inline">Manrope</h6>
                 <p className="d-inline">
-                  {" "}
+                  {' '}
                   <a href="/demo-12" className="external" target="_blank">
                     Demo 12
                   </a>
-                  ,{" "}
+                  ,{' '}
                   <a href="/demo-16" className="external" target="_blank">
                     Demo 16
                   </a>
-                  ,{" "}
+                  ,{' '}
                   <a href="/demo-17" className="external" target="_blank">
                     Demo 17
                   </a>
@@ -48,15 +49,15 @@ export default function Fonts() {
               <li className="mb-2">
                 <h6 className="d-inline">Thicccboi (thicccboi.css)</h6>
                 <p className="d-inline">
-                  {" "}
+                  {' '}
                   <a href="/demo-3" className="external" target="_blank">
                     Demo 3
                   </a>
-                  ,{" "}
+                  ,{' '}
                   <a href="/demo-5" className="external" target="_blank">
                     Demo 5
                   </a>
-                  ,{" "}
+                  ,{' '}
                   <a href="/demo-6" className="external" target="_blank">
                     Demo 6
                   </a>
@@ -66,15 +67,15 @@ export default function Fonts() {
               <li className="mb-2">
                 <h6 className="d-inline">DM Serif + Manrope (dm.css)</h6>
                 <p className="d-inline mb-0">
-                  {" "}
+                  {' '}
                   <a href="/demo-2" className="external" target="_blank">
                     Demo 2
                   </a>
-                  ,{" "}
+                  ,{' '}
                   <a href="/demo-4" className="external" target="_blank">
                     Demo 4
                   </a>
-                  ,{" "}
+                  ,{' '}
                   <a href="/demo-8" className="external" target="_blank">
                     Demo 8
                   </a>
@@ -84,15 +85,15 @@ export default function Fonts() {
               <li>
                 <h6 className="d-inline">Urbanist (urbanist.css)</h6>
                 <p className="d-inline mb-0">
-                  {" "}
+                  {' '}
                   <a href="/demo-19" className="external" target="_blank">
                     Demo 19
                   </a>
-                  ,{" "}
+                  ,{' '}
                   <a href="/demo-20" className="external" target="_blank">
                     Demo 20
                   </a>
-                  ,{" "}
+                  ,{' '}
                   <a href="/demo-21" className="external" target="_blank">
                     Demo 21
                   </a>
@@ -123,21 +124,32 @@ export default function Fonts() {
         <div className="card">
           <div className="card-body">
             <p className="mb-0">
-              To use a custom Google Font, open <code className="file">src/assets/scss/user-variables.scss</code>, and
-              use the example code below to add @import link and name of your font.
+              To use a custom Google Font, open{' '}
+              <code className="file">src/assets/scss/user-variables.scss</code>,
+              and use the example code below to add @import link and name of
+              your font.
             </p>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
-                <CodeHighlight language="scss">{googleFontMarkup}</CodeHighlight>
+                <CodeHighlight language="scss">
+                  {googleFontMarkup}
+                </CodeHighlight>
               </div>
             </div>
           </div>
@@ -150,10 +162,12 @@ export default function Fonts() {
         <div className="card">
           <div className="card-body">
             <p className="mb-0">
-              To use a custom font with @font-face, first add the font files inside folder{" "}
-              <code className="folder">src/assets/fonts/</code> and <code className="folder">public/fonts/</code>. Then
-              open <code className="file">src/assets/scss/user-variables.scss</code>, and use the example code below to
-              add @import custom font and name of your font.
+              To use a custom font with @font-face, first add the font files
+              inside folder <code className="folder">src/assets/fonts/</code>{' '}
+              and <code className="folder">public/fonts/</code>. Then open{' '}
+              <code className="file">src/assets/scss/user-variables.scss</code>,
+              and use the example code below to add @import custom font and name
+              of your font.
             </p>
 
             {/* <p className="mb-0 mt-4">
@@ -166,12 +180,19 @@ export default function Fonts() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="scss">{fontFaceMarkup}</CodeHighlight>

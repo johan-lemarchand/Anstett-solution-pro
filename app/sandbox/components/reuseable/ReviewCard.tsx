@@ -1,9 +1,9 @@
-import dayjs from "dayjs";
+import dayjs from 'dayjs';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "./links/NextLink";
-import FigureImage from "@sandbox/components/reuseable/FigureImage";
+import NextLink from './links/NextLink';
+import FigureImage from 'app/sandbox/components/reuseable/FigureImage';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import ratingGenerate from "@sandbox/utils/ratings";
+import ratingGenerate from 'app/sandbox/utils/ratings';
 
 // ===================================================================
 type ReviewCardProps = {
@@ -14,7 +14,12 @@ type ReviewCardProps = {
 };
 // ===================================================================
 
-export default function ReviewCard({ createdAt, actions, user, review }: ReviewCardProps) {
+export default function ReviewCard({
+  createdAt,
+  actions,
+  user,
+  review,
+}: ReviewCardProps) {
   return (
     <li className="comment">
       <div className="comment-header d-md-flex align-items-center">
@@ -33,7 +38,7 @@ export default function ReviewCard({ createdAt, actions, user, review }: ReviewC
           <ul className="post-meta">
             <li>
               <i className="uil uil-calendar-alt" />
-              {dayjs(createdAt).format("DD MMM YYYY")}
+              {dayjs(createdAt).format('DD MMM YYYY')}
             </li>
           </ul>
         </div>
@@ -47,7 +52,9 @@ export default function ReviewCard({ createdAt, actions, user, review }: ReviewC
       <p>{review.body}</p>
 
       <div className="d-flex flex-row align-items-center pb-3">
-        <p className="text-muted fs-15 mb-0 me-5">Avez-vous trouvé cet avis utile?</p>
+        <p className="text-muted fs-15 mb-0 me-5">
+          Avez-vous trouvé cet avis utile?
+        </p>
 
         <div>
           <NextLink

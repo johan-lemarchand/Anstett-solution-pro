@@ -1,23 +1,31 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { Hero26 } from "@sandbox/components/blocks/hero";
-import { About27 } from "@sandbox/components/blocks/about";
-import { Footer17 } from "@sandbox/components/blocks/footer";
-import { Pricing9 } from "@sandbox/components/blocks/pricing";
-import { Process16 } from "@sandbox/components/blocks/process";
-import { Contact13 } from "@sandbox/components/blocks/contact";
-import { Services28 } from "@sandbox/components/blocks/services";
-import { CTA10 } from "@sandbox/components/blocks/call-to-action";
-import { Testimonial20 } from "@sandbox/components/blocks/testimonial";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { Hero26 } from 'app/sandbox/components/blocks/hero';
+import { About27 } from 'app/sandbox/components/blocks/about';
+import { Footer17 } from 'app/sandbox/components/blocks/footer';
+import { Pricing9 } from 'app/sandbox/components/blocks/pricing';
+import { Process16 } from 'app/sandbox/components/blocks/process';
+import { Contact13 } from 'app/sandbox/components/blocks/contact';
+import { Services28 } from 'app/sandbox/components/blocks/services';
+import { CTA10 } from 'app/sandbox/components/blocks/call-to-action';
+import { Testimonial20 } from 'app/sandbox/components/blocks/testimonial';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function Demo26() {
   return (
     <Fragment>
       {/* ========== header ========== */}
       <header className="wrapper bg-soft-primary">
-        <Navbar button={<NextLink href="#" title="Essai gratuit" className="btn btn-sm btn-primary rounded" />} />
+        <Navbar
+          button={
+            <NextLink
+              href="#"
+              title="Essai gratuit"
+              className="btn btn-sm btn-primary rounded"
+            />
+          }
+        />
       </header>
 
       {/* ========== main content ========== */}

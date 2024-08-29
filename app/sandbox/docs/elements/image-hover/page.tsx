@@ -1,18 +1,23 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import Link from 'next/link';
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 // GLOBAL CUSTOM HOOKS
-import useTooltip from "@sandbox/hooks/useTooltip";
+import useTooltip from 'app/sandbox/hooks/useTooltip';
 // MARKUPS
-import { tooltipMarkup, overlayMarkup, simpleMarkup, cursorMarkup } from "@sandbox/themes/markups/elements/image-hover";
+import {
+  tooltipMarkup,
+  overlayMarkup,
+  simpleMarkup,
+  cursorMarkup,
+} from 'app/sandbox/themes/markups/elements/image-hover';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Tooltip", url: "snippet-1" },
-  { title: "Overlay", url: "snippet-2" },
-  { title: "Simple", url: "snippet-3" },
-  { title: "Cursor", url: "snippet-4" }
+  { title: 'Tooltip', url: 'snippet-1' },
+  { title: 'Overlay', url: 'snippet-2' },
+  { title: 'Simple', url: 'snippet-3' },
+  { title: 'Cursor', url: 'snippet-4' },
 ];
 
 export default function ImageHover() {
@@ -25,37 +30,60 @@ export default function ImageHover() {
       quickAccessLinks={quickAccess}
       descriptionClass="lead px-xxl-12"
       headingColClass="col-md-9 col-lg-7 col-xl-5 mx-auto"
-      description="Use our custom hover styles to add hover state to your images and elements.">
+      description="Use our custom hover styles to add hover state to your images and elements."
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Tooltip</h2>
 
         <p>
-          When you use tooltip hover then you need call the <mark className="code">useTooltip()</mark> custom hook
+          When you use tooltip hover then you need call the{' '}
+          <mark className="code">useTooltip()</mark> custom hook
         </p>
         <div className="card">
           <div className="card-body">
             <div className="row gy-6">
               <div className="item col-md-6 col-lg-4">
-                <figure className="itooltip hover-scale rounded" title="Some Title Quam Sit Ornare">
+                <figure
+                  className="itooltip hover-scale rounded"
+                  title="Some Title Quam Sit Ornare"
+                >
                   <a href="#">
-                    <img src="/img/photos/p1.jpg" srcSet="/img/photos/p1@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p1.jpg"
+                      srcSet="/img/photos/p1@2x.jpg 2x"
+                      alt=""
+                    />
                   </a>
                 </figure>
               </div>
 
               <div className="item col-md-6 col-lg-4">
-                <figure className="itooltip hover-scale rounded" title="Some Title Quam Sit Ornare">
+                <figure
+                  className="itooltip hover-scale rounded"
+                  title="Some Title Quam Sit Ornare"
+                >
                   <a href="#">
-                    <img src="/img/photos/p2.jpg" srcSet="/img/photos/p2@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p2.jpg"
+                      srcSet="/img/photos/p2@2x.jpg 2x"
+                      alt=""
+                    />
                   </a>
                 </figure>
               </div>
 
               <div className="item col-md-6 col-lg-4">
-                <figure className="itooltip hover-scale rounded" title="Some Title Quam Sit Ornare">
+                <figure
+                  className="itooltip hover-scale rounded"
+                  title="Some Title Quam Sit Ornare"
+                >
                   <a href="#">
-                    <img src="/img/photos/p3.jpg" srcSet="/img/photos/p3@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p3.jpg"
+                      srcSet="/img/photos/p3@2x.jpg 2x"
+                      alt=""
+                    />
                   </a>
                 </figure>
               </div>
@@ -63,12 +91,19 @@ export default function ImageHover() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{tooltipMarkup}</CodeHighlight>
@@ -87,7 +122,11 @@ export default function ImageHover() {
               <div className="item col-md-6 col-lg-4">
                 <figure className="overlay overlay-1 hover-scale rounded">
                   <Link href="#">
-                    <img src="/img/photos/p4.jpg" srcSet="/img/photos/p4@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p4.jpg"
+                      srcSet="/img/photos/p4@2x.jpg 2x"
+                      alt=""
+                    />
                     <span className="bg" />
                   </Link>
 
@@ -100,7 +139,11 @@ export default function ImageHover() {
               <div className="item col-md-6 col-lg-4">
                 <figure className="overlay overlay-2 hover-scale color rounded">
                   <Link href="#">
-                    <img src="/img/photos/p5.jpg" srcSet="/img/photos/p5@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p5.jpg"
+                      srcSet="/img/photos/p5@2x.jpg 2x"
+                      alt=""
+                    />
                     <span className="bg" />
                   </Link>
 
@@ -114,7 +157,11 @@ export default function ImageHover() {
               <div className="item col-md-6 col-lg-4">
                 <figure className="overlay overlay-3 overlay-gradient-2 hover-scale rounded">
                   <Link href="#">
-                    <img src="/img/photos/p6.jpg" srcSet="/img/photos/p6@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p6.jpg"
+                      srcSet="/img/photos/p6@2x.jpg 2x"
+                      alt=""
+                    />
                     <span className="bg" />
                   </Link>
                   <figcaption>
@@ -127,12 +174,19 @@ export default function ImageHover() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{overlayMarkup}</CodeHighlight>
@@ -151,7 +205,11 @@ export default function ImageHover() {
               <div className="item col-md-6 col-lg-4">
                 <figure className="lift rounded">
                   <a href="#">
-                    <img src="/img/photos/p6.jpg" srcSet="/img/photos/p6@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p6.jpg"
+                      srcSet="/img/photos/p6@2x.jpg 2x"
+                      alt=""
+                    />
                   </a>
                 </figure>
               </div>
@@ -159,7 +217,11 @@ export default function ImageHover() {
               <div className="item col-md-6 col-lg-4">
                 <figure className="hover-scale rounded">
                   <a href="#">
-                    <img src="/img/photos/p3.jpg" srcSet="/img/photos/p3@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p3.jpg"
+                      srcSet="/img/photos/p3@2x.jpg 2x"
+                      alt=""
+                    />
                   </a>
                 </figure>
               </div>
@@ -167,12 +229,19 @@ export default function ImageHover() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{simpleMarkup}</CodeHighlight>
@@ -191,7 +260,11 @@ export default function ImageHover() {
               <div className="item col-md-6 col-lg-4">
                 <figure className="hover-scale cursor-dark rounded">
                   <a href="#">
-                    <img src="/img/photos/p1.jpg" srcSet="/img/photos/p1@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p1.jpg"
+                      srcSet="/img/photos/p1@2x.jpg 2x"
+                      alt=""
+                    />
                   </a>
                 </figure>
               </div>
@@ -199,7 +272,11 @@ export default function ImageHover() {
               <div className="item col-md-6 col-lg-4">
                 <figure className="hover-scale cursor-light rounded">
                   <a href="#">
-                    <img src="/img/photos/p2.jpg" srcSet="/img/photos/p2@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p2.jpg"
+                      srcSet="/img/photos/p2@2x.jpg 2x"
+                      alt=""
+                    />
                   </a>
                 </figure>
               </div>
@@ -207,7 +284,11 @@ export default function ImageHover() {
               <div className="item col-md-6 col-lg-4">
                 <figure className="hover-scale cursor-primary rounded">
                   <a href="#">
-                    <img src="/img/photos/p3.jpg" srcSet="/img/photos/p3@2x.jpg 2x" alt="" />
+                    <img
+                      src="/img/photos/p3.jpg"
+                      srcSet="/img/photos/p3@2x.jpg 2x"
+                      alt=""
+                    />
                   </a>
                 </figure>
               </div>
@@ -215,12 +296,19 @@ export default function ImageHover() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-4">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-4"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-4" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-4"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{cursorMarkup}</CodeHighlight>

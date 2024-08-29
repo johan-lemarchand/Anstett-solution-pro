@@ -1,20 +1,22 @@
-import Link from "next/link";
-import { Fragment } from "react";
+import Link from 'next/link';
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function Portfolio16() {
   return (
     <Fragment>
       <div className="row text-center">
         <div className="col-lg-10 col-xxl-8 mx-auto mb-12">
-          <h2 className="fs-16 text-uppercase text-muted mb-3">Dernières réalisations</h2>
+          <h2 className="fs-16 text-uppercase text-muted mb-3">
+            Dernières réalisations
+          </h2>
           <h3 className="display-2 ls-sm">
-          Découvrez quelques-uns de nos{" "}
+            Découvrez quelques-uns de nos{' '}
             <span className="underline-3 style-1 primary">
               <em>projets</em>
-            </span>{" "}
-           avec des idées créatives.
+            </span>{' '}
+            avec des idées créatives.
           </h3>
         </div>
       </div>
@@ -62,11 +64,16 @@ export default function Portfolio16() {
           </div>
 
           <p className="mb-6">
-            Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis
-            euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
+            Maecenas faucibus mollis interdum sed posuere consectetur est at
+            lobortis. Scelerisque id ligula porta felis euismod semper. Fusce
+            dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
           </p>
 
-          <NextLink title="Nouveaux projets" href="#" className="btn btn-grape rounded" />
+          <NextLink
+            title="Nouveaux projets"
+            href="#"
+            className="btn btn-grape rounded"
+          />
         </div>
       </div>
 
@@ -76,7 +83,11 @@ export default function Portfolio16() {
             <div className="card-body p-11 overflow-hidden">
               <figure>
                 <Link href="#">
-                  <img src="/img/photos/f2.png" srcSet="/img/photos/f2@2x.png 2x" alt="" />
+                  <img
+                    src="/img/photos/f2.png"
+                    srcSet="/img/photos/f2@2x.png 2x"
+                    alt=""
+                  />
                 </Link>
               </figure>
             </div>
@@ -91,11 +102,16 @@ export default function Portfolio16() {
           </div>
 
           <p className="mb-6">
-            Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis
-            euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
+            Maecenas faucibus mollis interdum sed posuere consectetur est at
+            lobortis. Scelerisque id ligula porta felis euismod semper. Fusce
+            dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
           </p>
 
-          <NextLink title="Nouveaux projets" href="#" className="btn btn-primary rounded" />
+          <NextLink
+            title="Nouveaux projets"
+            href="#"
+            className="btn btn-primary rounded"
+          />
         </div>
       </div>
 
@@ -105,7 +121,11 @@ export default function Portfolio16() {
             <div className="card-body p-11 pb-0 overflow-hidden">
               <figure>
                 <Link href="#">
-                  <img src="/img/photos/f1.png" srcSet="/img/photos/f1@2x.png 2x" alt="" />
+                  <img
+                    src="/img/photos/f1.png"
+                    srcSet="/img/photos/f1@2x.png 2x"
+                    alt=""
+                  />
                 </Link>
               </figure>
             </div>
@@ -120,11 +140,16 @@ export default function Portfolio16() {
           </div>
 
           <p className="mb-6">
-            Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis
-            euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
+            Maecenas faucibus mollis interdum sed posuere consectetur est at
+            lobortis. Scelerisque id ligula porta felis euismod semper. Fusce
+            dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
           </p>
 
-          <NextLink title="Nouveaux projets" href="#" className="btn btn-violet rounded" />
+          <NextLink
+            title="Nouveaux projets"
+            href="#"
+            className="btn btn-violet rounded"
+          />
         </div>
       </div>
 
@@ -134,7 +159,11 @@ export default function Portfolio16() {
             <div className="card-body p-11 pb-0 overflow-hidden">
               <figure>
                 <Link href="#">
-                  <img src="/img/photos/f4.png" srcSet="/img/photos/f4@2x.png 2x" alt="" />
+                  <img
+                    src="/img/photos/f4.png"
+                    srcSet="/img/photos/f4@2x.png 2x"
+                    alt=""
+                  />
                 </Link>
               </figure>
             </div>
@@ -148,11 +177,16 @@ export default function Portfolio16() {
           </div>
 
           <p className="mb-6">
-            Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis
-            euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
+            Maecenas faucibus mollis interdum sed posuere consectetur est at
+            lobortis. Scelerisque id ligula porta felis euismod semper. Fusce
+            dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.
           </p>
 
-          <NextLink title="Nouveaux projets" href="#" className="btn btn-red rounded" />
+          <NextLink
+            title="Nouveaux projets"
+            href="#"
+            className="btn btn-red rounded"
+          />
         </div>
       </div>
     </Fragment>

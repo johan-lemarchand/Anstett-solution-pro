@@ -1,8 +1,8 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import * as All from "@sandbox/components/blocks/hero";
+import * as All from 'app/sandbox/components/blocks/hero';
 // LOCAL CUSTOM COMPONENTS
-import Block from "./block";
+import Block from './block';
 
 export default function Heros() {
   return (

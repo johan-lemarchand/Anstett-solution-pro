@@ -1,5 +1,5 @@
-import Price from "./Price";
-import NextLink from "../links/NextLink";
+import Price from './Price';
+import NextLink from '../links/NextLink';
 
 // ================================================================
 interface PricingCard2Props {
@@ -14,10 +14,18 @@ interface PricingCard2Props {
 // ================================================================
 
 export default function PricingCard2(props: PricingCard2Props) {
-  const { planName, features, yearlyPrice, monthlyPrice, activeYearly, roundedButton, Icon } = props;
+  const {
+    planName,
+    features,
+    yearlyPrice,
+    monthlyPrice,
+    activeYearly,
+    roundedButton,
+    Icon,
+  } = props;
 
-  const yearClasses = activeYearly ? "price-show" : "price-hide price-hidden";
-  const monthClasses = !activeYearly ? "price-show" : "price-hide price-hidden";
+  const yearClasses = activeYearly ? 'price-show' : 'price-hide price-hidden';
+  const monthClasses = !activeYearly ? 'price-show' : 'price-hide price-hidden';
 
   return (
     <div className="pricing card shadow-lg text-center">
@@ -36,7 +44,8 @@ export default function PricingCard2(props: PricingCard2Props) {
             <li key={i}>
               <i className="uil uil-check" />
               <span>
-                <strong>{item.split(" ")[0]}</strong> {item.split(" ").slice(1).join(" ")}
+                <strong>{item.split(' ')[0]}</strong>{' '}
+                {item.split(' ').slice(1).join(' ')}
               </span>
             </li>
           ))}
@@ -45,7 +54,7 @@ export default function PricingCard2(props: PricingCard2Props) {
         <NextLink
           href="#"
           title="Programme"
-          className={`btn btn-primary ${roundedButton ? "rounded" : "rounded-pill"}`}
+          className={`btn btn-primary ${roundedButton ? 'rounded' : 'rounded-pill'}`}
         />
       </div>
     </div>

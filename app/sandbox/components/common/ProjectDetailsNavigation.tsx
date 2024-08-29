@@ -1,4 +1,4 @@
-import ShareButton from "./ShareButton";
+import ShareButton from './ShareButton';
 
 export default function ProjectDetailsNavigation() {
   return (

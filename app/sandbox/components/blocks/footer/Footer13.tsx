@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image';
 // GLOBAL CUSTOM COMPONENTS
-import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import footerNav from "@sandbox/data/footer";
+import footerNav from 'app/sandbox/data/footer';
 
 export default function Footer13() {
   return (
@@ -11,10 +11,15 @@ export default function Footer13() {
       <div className="container pt-12 pt-lg-6 pb-13 pb-md-15">
         <div className="d-lg-flex flex-row align-items-lg-center">
           <h3 className="display-3 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white">
-          Rejoignez notre communauté en utilisant nos services et développez votre entreprise.
+            Rejoignez notre communauté en utilisant nos services et développez
+            votre entreprise.
           </h3>
 
-          <NextLink href="#" title="Essayez gratuitement" className="btn btn-primary rounded-pill mb-0 text-nowrap" />
+          <NextLink
+            href="#"
+            title="Essayez gratuitement"
+            className="btn btn-primary rounded-pill mb-0 text-nowrap"
+          />
         </div>
 
         <hr className="mt-11 mb-12" />
@@ -23,11 +28,18 @@ export default function Footer13() {
           <div className="col-md-4 col-lg-3">
             <div className="widget">
               <figure className="mb-4">
-                <Image alt="logo" width={134} height={26} src="/img/logo-light.png" className="w-100 h-auto" />
+                <Image
+                  alt="logo"
+                  width={134}
+                  height={26}
+                  src="/img/logo-light.png"
+                  className="w-100 h-auto"
+                />
               </figure>
 
               <p className="mb-4">
-                © 2024 Anstett Solutions Pro. <br className="d-none d-lg-block" />
+                © 2024 Anstett Solutions Pro.{' '}
+                <br className="d-none d-lg-block" />
                 Tous droits réservés.
               </p>
 
@@ -38,8 +50,13 @@ export default function Footer13() {
           <div className="col-md-4 col-lg-3">
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Prendre contact</h4>
-              <address className="pe-xl-15 pe-xxl-17">26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
-              <NextLink title="anstett.solutions.pro@gmail.com" href="mailto:#" />
+              <address className="pe-xl-15 pe-xxl-17">
+                26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder
+              </address>
+              <NextLink
+                title="anstett.solutions.pro@gmail.com"
+                href="mailto:#"
+              />
               <br /> 06 42 18 55 95
             </div>
           </div>
@@ -60,7 +77,10 @@ export default function Footer13() {
           <div className="col-md-12 col-lg-3">
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Notre newsletter</h4>
-              <p className="mb-5">Abonnez-vous à notre newsletter pour recevoir nos nouvelles &amp; nos offres.</p>
+              <p className="mb-5">
+                Abonnez-vous à notre newsletter pour recevoir nos nouvelles
+                &amp; nos offres.
+              </p>
 
               <div className="newsletter-wrapper">
                 <div id="mc_embed_signup2">
@@ -70,7 +90,8 @@ export default function Footer13() {
                     className="validate dark-fields"
                     id="mc-embedded-subscribe-form2"
                     name="mc-embedded-subscribe-form"
-                    action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a">
+                    action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                  >
                     <div id="mc_embed_signup_scroll2">
                       <div className="mc-field-group input-group form-floating">
                         <input
@@ -92,12 +113,27 @@ export default function Footer13() {
                       </div>
 
                       <div id="mce-responses2" className="clear">
-                        <div className="response" id="mce-error-response2" style={{ display: "none" }} />
-                        <div className="response" id="mce-success-response2" style={{ display: "none" }} />
+                        <div
+                          className="response"
+                          id="mce-error-response2"
+                          style={{ display: 'none' }}
+                        />
+                        <div
+                          className="response"
+                          id="mce-success-response2"
+                          style={{ display: 'none' }}
+                        />
                       </div>
 
-                      <div style={{ position: "absolute", left: "-5000px" }} aria-hidden="true">
-                        <input type="text" tabIndex={-1} name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" />
+                      <div
+                        style={{ position: 'absolute', left: '-5000px' }}
+                        aria-hidden="true"
+                      >
+                        <input
+                          type="text"
+                          tabIndex={-1}
+                          name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
+                        />
                       </div>
 
                       <div className="clear" />

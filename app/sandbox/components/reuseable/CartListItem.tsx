@@ -1,10 +1,10 @@
-import Link from "next/link";
-import Image from "next/image";
-import { Fragment } from "react";
+import Link from 'next/link';
+import Image from 'next/image';
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "./links/NextLink";
+import NextLink from './links/NextLink';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from "@sandbox/utils/currency";
+import currency from 'app/sandbox/utils/currency';
 
 // =============================================================
 interface CartListItemProps {
@@ -20,7 +20,8 @@ interface CartListItemProps {
 // =============================================================
 
 export default function CartListItem(props: CartListItemProps) {
-  const { id, title, image, size, color, quantity, salePrice, regularPrice } = props;
+  const { id, title, image, size, color, quantity, salePrice, regularPrice } =
+    props;
 
   const total = +quantity * (salePrice || regularPrice);
 
@@ -29,7 +30,13 @@ export default function CartListItem(props: CartListItemProps) {
       <td className="option text-start d-flex flex-row align-items-center ps-0">
         <figure className="rounded w-17">
           <Link href="#">
-            <Image width={90} height={100} src={image} alt="product" className="w-100 h-auto" />
+            <Image
+              width={90}
+              height={100}
+              src={image}
+              alt="product"
+              className="w-100 h-auto"
+            />
           </Link>
         </figure>
 
@@ -49,7 +56,7 @@ export default function CartListItem(props: CartListItemProps) {
             <Fragment>
               <del>
                 <span className="amount">{currency(regularPrice)}</span>
-              </del>{" "}
+              </del>{' '}
               <ins>
                 <span className="amount">{currency(salePrice)}</span>
               </ins>
@@ -62,8 +69,11 @@ export default function CartListItem(props: CartListItemProps) {
 
       <td>
         <div className="form-select-wrapper">
-          <select className="form-select form-select-sm mx-auto" defaultValue={1}>
-            {[1, 2, 3, 4, 5].map((item) => (
+          <select
+            className="form-select form-select-sm mx-auto"
+            defaultValue={1}
+          >
+            {[1, 2, 3, 4, 5].map(item => (
               <option key={item} value={item}>
                 {item}
               </option>
@@ -79,7 +89,11 @@ export default function CartListItem(props: CartListItemProps) {
       </td>
 
       <td className="pe-0">
-        <NextLink title={<i className="uil uil-trash-alt" />} href="#" className="link-dark" />
+        <NextLink
+          title={<i className="uil uil-trash-alt" />}
+          href="#"
+          className="link-dark"
+        />
       </td>
     </tr>
   );

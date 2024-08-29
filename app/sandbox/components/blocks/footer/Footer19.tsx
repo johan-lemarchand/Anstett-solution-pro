@@ -1,5 +1,5 @@
-import { PropsWithChildren } from "react";
-import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
+import { PropsWithChildren } from 'react';
+import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
 
 // ==============================================================
 interface WidgetProps extends PropsWithChildren {
@@ -26,7 +26,8 @@ export default function Footer19() {
               {/* address widget column */}
               <Widget title="Adresse">
                 <address>
-                26E rue de Kaltenhouse <br className="d-none d-md-block" /> 67240 Oberhoffen-Sur-Moder
+                  26E rue de Kaltenhouse <br className="d-none d-md-block" />{' '}
+                  67240 Oberhoffen-Sur-Moder
                 </address>
               </Widget>
 
@@ -40,12 +41,18 @@ export default function Footer19() {
               {/* email widget column */}
               <Widget title="E-mail">
                 <p>
-                  <a href="mailto:anstett.solutions.pro@gmail.com" className="link-body">
+                  <a
+                    href="mailto:anstett.solutions.pro@gmail.com"
+                    className="link-body"
+                  >
                     anstett.solutions.pro@gmail.com
-                  </a>{" "}
+                  </a>{' '}
                   <br className="d-none d-md-block" />
-                  <a href="mailto:exemple.second.mail@gmail.com" className="link-body">
-                      exemple.second.mail@gmail.com
+                  <a
+                    href="mailto:exemple.second.mail@gmail.com"
+                    className="link-body"
+                  >
+                    exemple.second.mail@gmail.com
                   </a>
                 </p>
               </Widget>

@@ -1,5 +1,5 @@
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import { ServiceCard5 } from "@sandbox/components/reuseable/service-cards";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import { ServiceCard5 } from 'app/sandbox/components/reuseable/service-cards';
 
 export default function Services10() {
   return (
@@ -10,7 +10,11 @@ export default function Services10() {
             <div className="row">
               <div className="col-lg-12">
                 <figure className="rounded mb-6">
-                  <img src="/img/photos/se1.jpg" srcSet="/img/photos/se1@2x.jpg 2x" alt="" />
+                  <img
+                    src="/img/photos/se1.jpg"
+                    srcSet="/img/photos/se1@2x.jpg 2x"
+                    alt=""
+                  />
                 </figure>
               </div>
 
@@ -29,7 +33,11 @@ export default function Services10() {
             <div className="row">
               <div className="col-lg-12 order-md-2">
                 <figure className="rounded mb-6 mb-md-0">
-                  <img src="/img/photos/se2.jpg" srcSet="/img/photos/se2@2x.jpg 2x" alt="" />
+                  <img
+                    src="/img/photos/se2.jpg"
+                    srcSet="/img/photos/se2@2x.jpg 2x"
+                    alt=""
+                  />
                 </figure>
               </div>
 
@@ -51,17 +59,23 @@ export default function Services10() {
         <h2 className="display-4 mb-3">Que faisons-nous?</h2>
 
         <p className="lead fs-lg lh-sm">
-          Le service complet que nous offrons est spécialement conçu pour répondre aux besoins de votre entreprise.
+          Le service complet que nous offrons est spécialement conçu pour
+          répondre aux besoins de votre entreprise.
         </p>
 
         <p>
-          Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam
-          quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis elit interdum.
-          Duis mollis, est non commodo luctus, nisi erat ligula.
+          Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit. Nullam quis risus eget urna
+          mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare
+          vel eu leo. Maecenas faucibus mollis elit interdum. Duis mollis, est
+          non commodo luctus, nisi erat ligula.
         </p>
 
-        <NextLink title="Plus de détails" href="#" className="btn btn-primary rounded-pill mt-3" />
+        <NextLink
+          title="Plus de détails"
+          href="#"
+          className="btn btn-primary rounded-pill mt-3"
+        />
       </div>
     </div>
   );

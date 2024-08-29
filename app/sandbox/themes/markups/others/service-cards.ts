@@ -77,4 +77,12 @@ import Search from 'icons/Search';
 />
 `;
 
-export { card1Markup, card2Markup, card3Markup, card4Markup, card5Markup, card6Markup,card1AgencyMarkup };
+export {
+  card1Markup,
+  card2Markup,
+  card3Markup,
+  card4Markup,
+  card5Markup,
+  card6Markup,
+  card1AgencyMarkup,
+};

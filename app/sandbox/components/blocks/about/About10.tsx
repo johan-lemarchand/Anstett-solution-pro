@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { Banner4 } from "../banner";
+import { Banner4 } from '../banner';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "@sandbox/hooks/useLightBox";
-import useProgressbar from "@sandbox/hooks/useProgressbar";
+import useLightBox from 'app/sandbox/hooks/useLightBox';
+import useProgressbar from 'app/sandbox/hooks/useProgressbar';
 // CUSTOM DATA
-import { progressList } from "@sandbox/data/demo-8";
+import { progressList } from 'app/sandbox/data/demo-8';
 
 export default function About10() {
   // lighbox hook called
@@ -23,7 +23,9 @@ export default function About10() {
       <div className="col-lg-5 col-xl-4 offset-lg-1">
         <h3 className="display-4 mb-3">Anstett Solutions Pro</h3>
         <p className="lead fs-lg mb-6">
-        Nous avons examiné nos solutions pour <span className="underline">soutenir chaque étape</span> de votre croissance.
+          Nous avons examiné nos solutions pour{' '}
+          <span className="underline">soutenir chaque étape</span> de votre
+          croissance.
         </p>
 
         <ul className="progress-list">

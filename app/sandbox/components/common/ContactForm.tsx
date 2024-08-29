@@ -5,16 +5,33 @@ export default function ContactForm() {
       <div className="row gx-4">
         <div className="col-md-6">
           <div className="form-floating mb-4">
-            <input required type="text" name="name" id="form_name" placeholder="Jane" className="form-control" />
+            <input
+              required
+              type="text"
+              name="name"
+              id="form_name"
+              placeholder="Jane"
+              className="form-control"
+            />
             <label htmlFor="form_name">Prénom *</label>
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> Veuillez entrez votre prénom. </div>
+            <div className="invalid-feedback">
+              {' '}
+              Veuillez entrez votre prénom.{' '}
+            </div>
           </div>
         </div>
 
         <div className="col-md-6">
           <div className="form-floating mb-4">
-            <input required type="text" name="surname" placeholder="Doe" id="form_lastname" className="form-control" />
+            <input
+              required
+              type="text"
+              name="surname"
+              placeholder="Doe"
+              id="form_lastname"
+              className="form-control"
+            />
             <label htmlFor="form_lastname">Nom *</label>
             <div className="valid-feedback"> Looks good! </div>
             <div className="invalid-feedback"> Veuillez entrer votre nom. </div>
@@ -33,13 +50,21 @@ export default function ContactForm() {
             />
             <label htmlFor="form_email">Email *</label>
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> assurez-vous de fournir un email valide. </div>
+            <div className="invalid-feedback">
+              {' '}
+              assurez-vous de fournir un email valide.{' '}
+            </div>
           </div>
         </div>
 
         <div className="col-md-6">
           <div className="form-select-wrapper mb-4">
-            <select className="form-select" id="form-select" name="department" required>
+            <select
+              className="form-select"
+              id="form-select"
+              name="department"
+              required
+            >
               <option disabled value="">
                 Sélectionnez un département
               </option>
@@ -49,7 +74,10 @@ export default function ContactForm() {
             </select>
 
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> Veuillez sélectionner un département. </div>
+            <div className="invalid-feedback">
+              {' '}
+              Veuillez sélectionner un département.{' '}
+            </div>
           </div>
         </div>
 
@@ -66,12 +94,19 @@ export default function ContactForm() {
 
             <label htmlFor="form_message">Message *</label>
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> Veuillez saisir votre message. </div>
+            <div className="invalid-feedback">
+              {' '}
+              Veuillez saisir votre message.{' '}
+            </div>
           </div>
         </div>
 
         <div className="col-12 text-center">
-          <input type="submit" value="Envoyer" className="btn btn-primary rounded-pill btn-send mb-3" />
+          <input
+            type="submit"
+            value="Envoyer"
+            className="btn btn-primary rounded-pill btn-send mb-3"
+          />
           <p className="text-muted">
             <strong>*</strong> Ces champs sont obligatoires.
           </p>

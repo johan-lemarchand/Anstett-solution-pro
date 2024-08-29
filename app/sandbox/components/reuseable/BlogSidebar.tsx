@@ -1,12 +1,12 @@
-import dayjs from "dayjs";
-import Link from "next/link";
-import { Fragment } from "react";
+import dayjs from 'dayjs';
+import Link from 'next/link';
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import FigureImage from "./FigureImage";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
+import FigureImage from './FigureImage';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
 // CUSTOM DATA
-import data from "@sandbox/data/blog-sidebar";
+import data from 'app/sandbox/data/blog-sidebar';
 
 // ========================================================
 type BlogSidebarProps = { thumbnail?: string };
@@ -23,8 +23,9 @@ export default function BlogSidebar({ thumbnail }: BlogSidebarProps) {
           </figure>
         )}
         <p>
-          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum. Nulla vitae elit
-          libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+          nibh, ut fermentum. Nulla vitae elit libero, a pharetra augue. Donec
+          id elit non mi porta gravida at eget metus.
         </p>
 
         <SocialLinks className="nav social" />
@@ -37,7 +38,17 @@ export default function BlogSidebar({ thumbnail }: BlogSidebarProps) {
         <ul className="image-list">
           {data.popularPosts.map(({ id, title, image, comment, date }) => (
             <li key={id}>
-              <NextLink title={<FigureImage width={100} height={100} className="rounded" src={image} />} href="#" />
+              <NextLink
+                title={
+                  <FigureImage
+                    width={100}
+                    height={100}
+                    className="rounded"
+                    src={image}
+                  />
+                }
+                href="#"
+              />
 
               <div className="post-content">
                 <h6 className="mb-2">
@@ -47,7 +58,7 @@ export default function BlogSidebar({ thumbnail }: BlogSidebarProps) {
                 <ul className="post-meta">
                   <li className="post-date">
                     <i className="uil uil-calendar-alt" />
-                    <span>{dayjs(date).format("DD MMM YYYY")}</span>
+                    <span>{dayjs(date).format('DD MMM YYYY')}</span>
                   </li>
 
                   <li className="post-comments">
@@ -82,7 +93,11 @@ export default function BlogSidebar({ thumbnail }: BlogSidebarProps) {
         <ul className="list-unstyled tag-list">
           {data.tags.map(({ id, title, url }) => (
             <li key={id}>
-              <NextLink title={title} href={url} className="btn btn-soft-ash btn-sm rounded-pill" />
+              <NextLink
+                title={title}
+                href={url}
+                className="btn btn-soft-ash btn-sm rounded-pill"
+              />
             </li>
           ))}
         </ul>

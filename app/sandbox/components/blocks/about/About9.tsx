@@ -1,6 +1,6 @@
-import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
+import { ServiceCard3 } from 'app/sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { whatWeAre } from "@sandbox/data/demo-8";
+import { whatWeAre } from 'app/sandbox/data/demo-8';
 
 export default function About9() {
   return (
@@ -8,29 +8,41 @@ export default function About9() {
       <div className="col-md-8 col-lg-6 position-relative">
         <div
           className="shape bg-soft-primary rounded-circle rellax w-20 h-20"
-          style={{ top: "-2rem", left: "-1.9rem" }}
+          style={{ top: '-2rem', left: '-1.9rem' }}
         />
 
         <figure className="rounded">
-          <img src="/img/photos/about10.jpg" srcSet="/img/photos/about10@2x.jpg 2x" alt="" />
+          <img
+            src="/img/photos/about10.jpg"
+            srcSet="/img/photos/about10@2x.jpg 2x"
+            alt=""
+          />
         </figure>
       </div>
 
       <div className="col-lg-6">
         <h2 className="display-4 mb-3">Qui sommes-nous ?</h2>
         <p className="lead fs-lg">
-        Nous sommes une entreprise spécialisée dans le digital et le branding, convaincue du pouvoir d'une {" "}
-          <span className="underline">stratégie créative </span> associée à un design de qualité.
+          Nous sommes une entreprise spécialisée dans le digital et le branding,
+          convaincue du pouvoir d'une{' '}
+          <span className="underline">stratégie créative </span> associée à un
+          design de qualité.
         </p>
         <p className="mb-6">
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus
-          ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget
+          quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+          et.
         </p>
 
         <div className="row gx-xl-10 gy-6">
           {whatWeAre.map(({ id, title, description, Icon }) => (
             <div className="col-md-6" key={id}>
-              <ServiceCard3 title={title} description={description} Icon={<Icon className="icon-svg-sm me-4" />} />
+              <ServiceCard3
+                title={title}
+                description={description}
+                Icon={<Icon className="icon-svg-sm me-4" />}
+              />
             </div>
           ))}
         </div>

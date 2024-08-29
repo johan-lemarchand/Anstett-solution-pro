@@ -9,19 +9,29 @@ import { pages } from "@sandbox/data/navigation";
 export default function PagesNavItem() {
   return (
     <li className="nav-item dropdown">
-      <DropdownToggleLink title="Modules" className="nav-link dropdown-toggle" />
+      <DropdownToggleLink
+        title="Modules"
+        className="nav-link dropdown-toggle"
+      />
 
       <ul className="dropdown-menu">
         {pages.map(({ id, title, children }) => {
           return (
             <li className="dropdown dropdown-submenu dropend" key={id}>
-              <DropdownToggleLink title={title} className="dropdown-item dropdown-toggle" />
+              <DropdownToggleLink
+                title={title}
+                className="dropdown-item dropdown-toggle"
+              />
               <ul className="dropdown-menu">{renderLinks(children)}</ul>
             </li>
           );
         })}
 
-        <ListItemLink href="/themes/pricing" title="Pricing" linkClassName="dropdown-item" />
+        <ListItemLink
+          href="/themes/pricing"
+          title="Pricing"
+          linkClassName="dropdown-item"
+        />
       </ul>
     </li>
   );

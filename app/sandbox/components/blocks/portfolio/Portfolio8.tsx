@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
 // CUSTOM DATA
-import { portfolioList5 } from "@sandbox/data/portfolio";
+import { portfolioList5 } from 'app/sandbox/data/portfolio';
 
 export default function Portfolio8() {
   return (
@@ -9,8 +9,13 @@ export default function Portfolio8() {
       <div className="container py-14 py-md-17">
         <div className="row mb-8 text-center">
           <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Nos projets</h2>
-            <h3 className="display-4">Découvrez quelques-uns de nos projets géniaux avec des idées créatives et un design exceptionnel.</h3>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">
+              Nos projets
+            </h2>
+            <h3 className="display-4">
+              Découvrez quelques-uns de nos projets géniaux avec des idées
+              créatives et un design exceptionnel.
+            </h3>
           </div>
         </div>
 
@@ -20,13 +25,21 @@ export default function Portfolio8() {
               <div className="project item col-md-6 col-xl-4 product" key={id}>
                 <figure className="lift rounded mb-6">
                   <Link href="#">
-                    <Image src={image} alt={title} width={1300} height={1132} className="w-100 h-auto" />
+                    <Image
+                      src={image}
+                      alt={title}
+                      width={1300}
+                      height={1132}
+                      className="w-100 h-auto"
+                    />
                   </Link>
                 </figure>
 
                 <div className="project-details d-flex justify-content-center flex-column">
                   <div className="post-header">
-                    <div className={`post-category mb-2 text-${color}`}>{category}</div>
+                    <div className={`post-category mb-2 text-${color}`}>
+                      {category}
+                    </div>
                     <h2 className="post-title h3">{title}</h2>
                   </div>
                 </div>

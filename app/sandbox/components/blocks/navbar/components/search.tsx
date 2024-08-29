@@ -1,6 +1,10 @@
 export default function Search() {
   return (
-    <div className="offcanvas offcanvas-top bg-light" id="offcanvas-search" data-bs-scroll="true">
+    <div
+      className="offcanvas offcanvas-top bg-light"
+      id="offcanvas-search"
+      data-bs-scroll="true"
+    >
       <div className="container d-flex flex-row py-6">
         <form className="search-form w-100">
           <input

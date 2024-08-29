@@ -53,5 +53,5 @@ export {
   Testimonial24,
   Testimonial25,
   Testimonial26,
-  Testimonial27
+  Testimonial27,
 };

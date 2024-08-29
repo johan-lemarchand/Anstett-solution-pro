@@ -1,12 +1,15 @@
-import { Fragment } from "react";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { Fragment } from 'react';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import { slideInDownAnimate } from "@sandbox/utils/animation";
+import { slideInDownAnimate } from 'app/sandbox/utils/animation';
 
 export default function GoogleAppBtn() {
   return (
-    <div className="d-flex justify-content-center justify-content-lg-start" style={slideInDownAnimate("900ms")}>
-      <span style={slideInDownAnimate("1200ms")}>
+    <div
+      className="d-flex justify-content-center justify-content-lg-start"
+      style={slideInDownAnimate('900ms')}
+    >
+      <span style={slideInDownAnimate('1200ms')}>
         <NextLink
           href="#"
           className="btn btn-primary btn-icon btn-icon-start rounded me-2"
@@ -18,7 +21,7 @@ export default function GoogleAppBtn() {
         />
       </span>
 
-      <span style={slideInDownAnimate("1500ms")}>
+      <span style={slideInDownAnimate('1500ms')}>
         <NextLink
           href="#"
           className="btn btn-green btn-icon btn-icon-start rounded"

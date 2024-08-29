@@ -1,6 +1,6 @@
-import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
+import { ServiceCard3 } from 'app/sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { services } from "@sandbox/data/demo-8";
+import { services } from 'app/sandbox/data/demo-8';
 
 export default function Services11() {
   return (
@@ -8,19 +8,24 @@ export default function Services11() {
       <div className="col-md-8 col-lg-6 order-lg-2 position-relative">
         <div
           className="shape bg-soft-primary rounded-circle rellax w-20 h-20"
-          style={{ top: "-2rem", right: "-1.9rem" }}
+          style={{ top: '-2rem', right: '-1.9rem' }}
         />
 
         <figure className="rounded">
-          <img src="/img/photos/about11.jpg" srcSet="/img/photos/about11@2x.jpg 2x" alt="" />
+          <img
+            src="/img/photos/about11.jpg"
+            srcSet="/img/photos/about11@2x.jpg 2x"
+            alt=""
+          />
         </figure>
       </div>
 
       <div className="col-lg-6">
         <h2 className="display-4 mb-3">Que faisons-nous?</h2>
         <p className="lead fs-lg mb-8 pe-xxl-2">
-        Le service complet que nous offrons est <span className="underline">spécifiquement</span> conçu pour répondre à vos
-        besoins et projets d'entreprise.
+          Le service complet que nous offrons est{' '}
+          <span className="underline">spécifiquement</span> conçu pour répondre
+          à vos besoins et projets d'entreprise.
         </p>
 
         <div className="row gx-xl-10 gy-6">

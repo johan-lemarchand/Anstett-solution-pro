@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import Typewriter from "typewriter-effect";
+import Typewriter from 'typewriter-effect';
 // CUSTOM UTILS
-import { slideInDownAnimate } from "@sandbox/utils/animation";
+import { slideInDownAnimate } from 'app/sandbox/utils/animation';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "@sandbox/hooks/useLightBox";
+import useLightBox from 'app/sandbox/hooks/useLightBox';
 
 export default function Hero3() {
   // used for lightbox
@@ -15,14 +15,21 @@ export default function Hero3() {
       <div className="container pt-7 pt-md-11 pb-8">
         <div className="row gx-0 gy-10 align-items-center">
           <div className="col-lg-6">
-            <h1 className="display-1 text-white mb-4" style={slideInDownAnimate("600ms")}>
+            <h1
+              className="display-1 text-white mb-4"
+              style={slideInDownAnimate('600ms')}
+            >
               Anstett Solutions Pro se concentre sur <br />
               <span className="text-primary text-nowrap">
                 <Typewriter
                   options={{
                     loop: true,
                     autoStart: true,
-                    strings: ["la satisfaction client", "vos besoins professionnels", "des idées novatrices"]
+                    strings: [
+                      'la satisfaction client',
+                      'vos besoins professionnels',
+                      'des idées novatrices',
+                    ],
                   }}
                 />
               </span>
@@ -30,27 +37,42 @@ export default function Hero3() {
 
             <p
               className="lead fs-24 lh-sm text-white mb-7 pe-md-18 pe-lg-0 pe-xxl-15"
-              style={slideInDownAnimate("900ms")}>
-              Nous étudions attentivement nos solutions pour soutenir chaque étape de votre croissance.
+              style={slideInDownAnimate('900ms')}
+            >
+              Nous étudions attentivement nos solutions pour soutenir chaque
+              étape de votre croissance.
             </p>
 
-            <div style={slideInDownAnimate("1200ms")}>
+            <div style={slideInDownAnimate('1200ms')}>
               <a className="btn btn-lg btn-primary rounded">Commencer</a>
             </div>
           </div>
 
           <div className="col-lg-5 offset-lg-1 mb-n18" data-cues="slideInDown">
-            <div className="position-relative" style={slideInDownAnimate("0ms")}>
+            <div
+              className="position-relative"
+              style={slideInDownAnimate('0ms')}
+            >
               <a
                 data-glightbox
                 href="/media/movie.mp4"
                 className="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute"
-                style={{ top: "50%", left: "50%", transform: "translate(-50%,-50%)", zIndex: 3 }}>
+                style={{
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%,-50%)',
+                  zIndex: 3,
+                }}
+              >
                 <i className="icn-caret-right" />
               </a>
 
               <figure className="rounded shadow-lg">
-                <img src="/img/photos/about13.jpg" srcSet="/img/photos/about13@2x.jpg 2x" alt="hero" />
+                <img
+                  src="/img/photos/about13.jpg"
+                  srcSet="/img/photos/about13@2x.jpg 2x"
+                  alt="hero"
+                />
               </figure>
             </div>
           </div>

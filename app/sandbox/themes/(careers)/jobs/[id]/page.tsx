@@ -1,13 +1,13 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // CUSTOM DATA
-import ListColumn from "@sandbox/components/reuseable/ListColumn";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import { JobPostCard1 } from "@sandbox/components/reuseable/job-cards";
+import ListColumn from 'app/sandbox/components/reuseable/ListColumn';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import { JobPostCard1 } from 'app/sandbox/components/reuseable/job-cards';
 // CUSTOM DATA
-import data from "@sandbox/data/job-details-page";
+import data from 'app/sandbox/data/job-details-page';
 
 export async function generateStaticParams() {
-  return [1, 2, 3, 4, 5, 6].map((item) => ({ id: item.toString() }));
+  return [1, 2, 3, 4, 5, 6].map(item => ({ id: item.toString() }));
 }
 
 // ==============================================================
@@ -27,7 +27,9 @@ export default function JobDetails({ params }: Props) {
           <div className="row">
             <div className="col-md-10 col-xl-8 mx-auto">
               <div className="post-header">
-                <h1 className="display-1 mb-5">Artiste multimédia  &amp; Animateur 2D/3D</h1>
+                <h1 className="display-1 mb-5">
+                  Artiste multimédia &amp; Animateur 2D/3D
+                </h1>
                 <ul className="post-meta fs-17 mb-5">
                   {data.jobMeta.map(({ id, title, icon }) => (
                     <li key={id}>
@@ -51,38 +53,55 @@ export default function JobDetails({ params }: Props) {
                   <div className="card-body">
                     <h2 className="h1 mb-3">Description du poste</h2>
                     <p>
-                      Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                      sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis
-                      consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur
-                      blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                      Nullam quis risus eget porta ac consectetur vestibulum.
+                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                      condimentum nibh, ut fermentum massa justo sit amet.
+                      Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                      dolor auctor. Cras mattis consectetur purus sit amet
+                      fermentum. Aenean lacinia bibendum nulla sed consectetur.
+                      Curabitur blandit tempus porttitor. Vivamus sagittis lacus
+                      vel augue laoreet rutrum faucibus dolor auctor. Nullam
+                      quis risus eget porta ac consectetur vestibulum.
                     </p>
                     <p>
-                      Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis
-                      felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor
-                      ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius
-                      tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.
+                      Donec sed odio dui consectetur adipiscing elit. Etiam
+                      adipiscing tincidunt elit, eu convallis felis suscipit ut.
+                      Phasellus rhoncus tincidunt auctor. Nullam eu sagittis
+                      mauris. Donec non dolor ac elit aliquam tincidunt at at
+                      sapien. Aenean tortor libero, condimentum ac laoreet
+                      vitae, varius tempor nisi. Duis non arcu vel lectus urna
+                      mollis ornare vel eu leo.
                     </p>
 
                     <h3 className="h2 mb-3 mt-9">Responsabilités</h3>
                     <p>
-                      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo
-                      odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque
-                      nisl consectetur et.
+                      Cum sociis natoque penatibus et magnis dis parturient
+                      montes, nascetur ridiculus mus. Cras justo odio, dapibus
+                      ac facilisis in, egestas eget quam. Praesent commodo
+                      cursus magna, vel scelerisque nisl consectetur et.
                     </p>
 
-                    <ListColumn rowClass="gx-xl-8" list={data.responsiblities} />
+                    <ListColumn
+                      rowClass="gx-xl-8"
+                      list={data.responsiblities}
+                    />
 
                     <h3 className="h2 mb-3 mt-9">Conditions</h3>
                     <p>
-                      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo
-                      odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque
-                      nisl consectetur et.
+                      Cum sociis natoque penatibus et magnis dis parturient
+                      montes, nascetur ridiculus mus. Cras justo odio, dapibus
+                      ac facilisis in, egestas eget quam. Praesent commodo
+                      cursus magna, vel scelerisque nisl consectetur et.
                     </p>
 
-                    <ListColumn rowClass="gx-xl-8 mb-10" list={data.requirements} />
+                    <ListColumn
+                      rowClass="gx-xl-8 mb-10"
+                      list={data.requirements}
+                    />
 
-                    <a href="mailto:apply@email.com" className="btn btn-primary rounded-pill">
+                    <a
+                      href="mailto:apply@email.com"
+                      className="btn btn-primary rounded-pill"
+                    >
                       Postulez maintenant
                     </a>
                   </div>
@@ -102,12 +121,16 @@ export default function JobDetails({ params }: Props) {
             </div>
 
             <div className="col-md-4 col-lg-3 ms-md-auto text-md-end mt-5 mt-md-0">
-              <NextLink title="Explorer les offres" href="#" className="btn btn-primary rounded-pill mb-0" />
+              <NextLink
+                title="Explorer les offres"
+                href="#"
+                className="btn btn-primary rounded-pill mb-0"
+              />
             </div>
           </div>
 
           <div className="row gy-6">
-            {data.jobList.map((item) => (
+            {data.jobList.map(item => (
               <JobPostCard1 key={item.id} {...item} />
             ))}
           </div>

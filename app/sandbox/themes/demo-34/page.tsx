@@ -1,19 +1,19 @@
-"use client";
+'use client';
 
-import { Fragment } from "react";
-import Link from "next/link";
+import { Fragment } from 'react';
+import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { Hero34 } from "@sandbox/components/blocks/hero";
-import { Facts21 } from "@sandbox/components/blocks/facts";
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import CountUp from "@sandbox/components/reuseable/CountUp";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { Hero34 } from 'app/sandbox/components/blocks/hero';
+import { Facts21 } from 'app/sandbox/components/blocks/facts';
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import CountUp from 'app/sandbox/components/reuseable/CountUp';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "@sandbox/hooks/useIsotope";
-import useTooltip from "@sandbox/hooks/useTooltip";
+import useIsotope from 'app/sandbox/hooks/useIsotope';
+import useTooltip from 'app/sandbox/hooks/useTooltip';
 // CUSTOM DATA
-import { demos, filterList, innerPages } from "@sandbox/data/demo-34";
+import { demos, filterList, innerPages } from 'app/sandbox/data/demo-34';
 
 export default function Demo34() {
   // used for image tooltip
@@ -25,15 +25,20 @@ export default function Demo34() {
   return (
     <Fragment>
       {/* ========== topbar alert section ========== */}
-      <div className="alert bg-primary text-white fade show rounded-0 mb-1 text-center" role="alert">
+      <div
+        className="alert bg-primary text-white fade show rounded-0 mb-1 text-center"
+        role="alert"
+      >
         <div className="container">
           <div className="alert-inner d-flex justify-content-center align-items-center p-0">
             <p className="mb-0">
-            La version HTML d'Anstett Solutions Pro est disponible! Prenez une copie{" "}
+              La version HTML d'Anstett Solutions Pro est disponible! Prenez une
+              copie{' '}
               <a
                 href="#"
                 className="link-white hover d-inline-flex align-items-center"
-                target="_blank">
+                target="_blank"
+              >
                 ici <i className="uil uil-arrow-up-right" />
               </a>
             </p>
@@ -50,7 +55,8 @@ export default function Demo34() {
               href="#"
               className="btn btn-primary rounded-pill"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               Commander maintenant
             </a>
           }
@@ -71,7 +77,10 @@ export default function Demo34() {
                     <CountUp end={34} />
                   </h3>
                 </div>
-                <h2 className="display-3 mb-3 text-center mb-0">Démos fonctionnelles, impressionnantes et riches en contenu pour commencer</h2>
+                <h2 className="display-3 mb-3 text-center mb-0">
+                  Démos fonctionnelles, impressionnantes et riches en contenu
+                  pour commencer
+                </h2>
               </div>
             </div>
 
@@ -84,8 +93,15 @@ export default function Demo34() {
                         <div className="col-lg-7">
                           <div className="row gx-4 gx-md-7">
                             <div className="col-6">
-                              <figure className="itooltip itooltip-yellow mt-9" title="Click to see the demo">
-                                <a href={link[0]} target="_blank" rel="noreferrer">
+                              <figure
+                                className="itooltip itooltip-yellow mt-9"
+                                title="Click to see the demo"
+                              >
+                                <a
+                                  href={link[0]}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
                                   <img
                                     alt=""
                                     className="shadow-lg rounded-top"
@@ -97,8 +113,15 @@ export default function Demo34() {
                             </div>
 
                             <div className="col-6">
-                              <figure className="itooltip itooltip-yellow" title="Click to see the demo">
-                                <a href={link[1]} target="_blank" rel="noreferrer">
+                              <figure
+                                className="itooltip itooltip-yellow"
+                                title="Click to see the demo"
+                              >
+                                <a
+                                  href={link[1]}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
                                   <img
                                     alt=""
                                     className="shadow-lg rounded-bottom"
@@ -112,9 +135,13 @@ export default function Demo34() {
                         </div>
 
                         <div className="col-lg-5 d-none d-lg-block py-3">
-                          <h2 className="post-title fs-30 mb-4">Demo Layout {id}</h2>
-                          <ul className={`icon-list bullet-${color} row ms-0 gy-2`}>
-                            {features.map((item) => (
+                          <h2 className="post-title fs-30 mb-4">
+                            Demo Layout {id}
+                          </h2>
+                          <ul
+                            className={`icon-list bullet-${color} row ms-0 gy-2`}
+                          >
+                            {features.map(item => (
                               <li className="col-md-6" key={item}>
                                 <i className="uil uil-check" />
                                 <span>{item}</span>
@@ -126,7 +153,8 @@ export default function Demo34() {
                             href={link}
                             target="_blank"
                             rel="noreferrer"
-                            className={`btn btn-sm btn-${color} rounded-pill mt-1`}>
+                            className={`btn btn-sm btn-${color} rounded-pill mt-1`}
+                          >
                             Voir la démo
                           </a>
                         </div>
@@ -138,7 +166,11 @@ export default function Demo34() {
             </div>
 
             <div className="text-center mt-12">
-              <NextLink title="Voir toutes les démos" href="#" className="btn btn-primary rounded-pill btn-demo" />
+              <NextLink
+                title="Voir toutes les démos"
+                href="#"
+                className="btn btn-primary rounded-pill btn-demo"
+              />
             </div>
           </div>
 
@@ -166,11 +198,11 @@ export default function Demo34() {
                   className="shape rounded bg-soft-primary rellax d-block"
                   style={{
                     zIndex: 0,
-                    top: "50%",
-                    left: "50%",
-                    width: "50%",
-                    height: "60%",
-                    transform: "translate(-50%,-50%)"
+                    top: '50%',
+                    left: '50%',
+                    width: '50%',
+                    height: '60%',
+                    transform: 'translate(-50%,-50%)',
                   }}
                 />
 
@@ -216,9 +248,11 @@ export default function Demo34() {
                   </div>
 
                   <div>
-                    <h4 className="mb-1">Configurations modernes de portfolio</h4>
+                    <h4 className="mb-1">
+                      Configurations modernes de portfolio
+                    </h4>
                     <p className="mb-0">
-                        Créez un portfolio attrayant rapidement et sans effort.
+                      Créez un portfolio attrayant rapidement et sans effort.
                     </p>
                   </div>
                 </div>
@@ -233,7 +267,8 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">Designs utiles de Blog</h4>
                     <p className="mb-0">
-                    Créez un blog éblouissant pour raconter au monde vos histoires merveilleuses.
+                      Créez un blog éblouissant pour raconter au monde vos
+                      histoires merveilleuses.
                     </p>
                   </div>
                 </div>
@@ -248,7 +283,9 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">Options et éléments tendance</h4>
                     <p className="mb-0">
-                      Anstett Solutions Pro inclut des fonctionnalités et des éléments étonnants pour créer des pages riches et attrayantes.
+                      Anstett Solutions Pro inclut des fonctionnalités et des
+                      éléments étonnants pour créer des pages riches et
+                      attrayantes.
                     </p>
                   </div>
                 </div>
@@ -261,11 +298,11 @@ export default function Demo34() {
                   className="shape rounded bg-soft-primary rellax d-block"
                   style={{
                     zIndex: 0,
-                    top: "50%",
-                    left: "50%",
-                    width: "50%",
-                    height: "60%",
-                    transform: "translate(-50%,-50%)"
+                    top: '50%',
+                    left: '50%',
+                    width: '50%',
+                    height: '60%',
+                    transform: 'translate(-50%,-50%)',
                   }}
                 />
 
@@ -313,7 +350,8 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">13 Headers & 5 Footers</h4>
                     <p className="mb-0">
-                    Choisissez parmi divers styles de Headers et de Footers magnifiques pour vous servir au mieux pour vos besoins.
+                      Choisissez parmi divers styles de Headers et de Footers
+                      magnifiques pour vous servir au mieux pour vos besoins.
                     </p>
                   </div>
                 </div>
@@ -328,7 +366,8 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">Options de couleur et de police</h4>
                     <p className="mb-0">
-                      Vous pouvez utiliser les couleurs et polices incluses ou ajouter facilement vos propres choix.
+                      Vous pouvez utiliser les couleurs et polices incluses ou
+                      ajouter facilement vos propres choix.
                     </p>
                   </div>
                 </div>
@@ -342,7 +381,8 @@ export default function Demo34() {
                   <div>
                     <h4 className="mb-1">Mise en page entièrement réactive</h4>
                     <p className="mb-0">
-                      Anstett Solutions Pro s’adapte à différentes tailles d’écran, il est donc compatible avec tous les appareils.
+                      Anstett Solutions Pro s’adapte à différentes tailles
+                      d’écran, il est donc compatible avec tous les appareils.
                     </p>
                   </div>
                 </div>
@@ -378,35 +418,59 @@ export default function Demo34() {
                   src="/img/demos/de2.jpg"
                   srcSet="/img/demos/de2@2x.jpg 2x"
                   className="position-absolute rounded shadow-lg"
-                  style={{ top: "25%", right: "-12%", maxWidth: "30%", height: "auto" }}
+                  style={{
+                    top: '25%',
+                    right: '-12%',
+                    maxWidth: '30%',
+                    height: 'auto',
+                  }}
                 />
                 <img
                   alt=""
                   src="/img/demos/de3.jpg"
                   srcSet="/img/demos/de3@2x.jpg 2x"
                   className="position-absolute rounded shadow-lg"
-                  style={{ top: "15%", left: "-15%", maxWidth: "30%", height: "auto" }}
+                  style={{
+                    top: '15%',
+                    left: '-15%',
+                    maxWidth: '30%',
+                    height: 'auto',
+                  }}
                 />
                 <img
                   alt=""
                   src="/img/demos/de4.jpg"
                   srcSet="/img/demos/de4@2x.jpg 2x"
                   className="position-absolute rounded shadow-lg"
-                  style={{ bottom: "15%", left: "-13%", maxWidth: "30%", height: "auto" }}
+                  style={{
+                    bottom: '15%',
+                    left: '-13%',
+                    maxWidth: '30%',
+                    height: 'auto',
+                  }}
                 />
               </div>
             </div>
 
             <div className="row row-cols-2 row-cols-md-4 row-cols-lg-5 gx-md-8 gy-10 text-center justify-content-center">
               <div className="col">
-                <img className="mb-4" src="/img/svg/next.js-circle.svg" alt="" />
+                <img
+                  className="mb-4"
+                  src="/img/svg/next.js-circle.svg"
+                  alt=""
+                />
                 <h4>
                   Built with Next.js <br /> & React
                 </h4>
               </div>
 
               <div className="col">
-                <img className="mb-4" src="/img/demos/fi1.png" srcSet="/img/demos/fi1@2x.png 2x" alt="" />
+                <img
+                  className="mb-4"
+                  src="/img/demos/fi1.png"
+                  srcSet="/img/demos/fi1@2x.png 2x"
+                  alt=""
+                />
                 <h4>
                   Bootstrap 5 <br /> & Sass
                 </h4>
@@ -420,49 +484,84 @@ export default function Demo34() {
               </div>
 
               <div className="col">
-                <img className="mb-4" src="/img/demos/fi11.png" srcSet="/img/demos/fi11@2x.png 2x" alt="" />
+                <img
+                  className="mb-4"
+                  src="/img/demos/fi11.png"
+                  srcSet="/img/demos/fi11@2x.png 2x"
+                  alt=""
+                />
                 <h4>
                   Server side <br /> Rendered
                 </h4>
               </div>
 
               <div className="col">
-                <img className="mb-4" src="/img/demos/fi2.png" srcSet="/img/demos/fi2@2x.png 2x" alt="" />
+                <img
+                  className="mb-4"
+                  src="/img/demos/fi2.png"
+                  srcSet="/img/demos/fi2@2x.png 2x"
+                  alt=""
+                />
                 <h4>
                   SEO-friendly <br /> Coding
                 </h4>
               </div>
 
               <div className="col">
-                <img className="mb-4" src="/img/demos/fi4.png" srcSet="/img/demos/fi4@2x.png 2x" alt="" />
+                <img
+                  className="mb-4"
+                  src="/img/demos/fi4.png"
+                  srcSet="/img/demos/fi4@2x.png 2x"
+                  alt=""
+                />
                 <h4>
                   Retina-ready <br /> Graphics
                 </h4>
               </div>
 
               <div className="col">
-                <img className="mb-4" src="/img/demos/fi5.png" srcSet="/img/demos/fi5@2x.png 2x" alt="" />
+                <img
+                  className="mb-4"
+                  src="/img/demos/fi5.png"
+                  srcSet="/img/demos/fi5@2x.png 2x"
+                  alt=""
+                />
                 <h4>
                   One-page <br /> Layout Option
                 </h4>
               </div>
 
               <div className="col">
-                <img className="mb-4" src="/img/demos/fi6.png" srcSet="/img/demos/fi6@2x.png 2x" alt="" />
+                <img
+                  className="mb-4"
+                  src="/img/demos/fi6.png"
+                  srcSet="/img/demos/fi6@2x.png 2x"
+                  alt=""
+                />
                 <h4>
                   Isotope <br /> Filterable Gallery
                 </h4>
               </div>
 
               <div className="col">
-                <img className="mb-4" src="/img/demos/fi8.png" srcSet="/img/demos/fi8@2x.png 2x" alt="" />
+                <img
+                  className="mb-4"
+                  src="/img/demos/fi8.png"
+                  srcSet="/img/demos/fi8@2x.png 2x"
+                  alt=""
+                />
                 <h4>
                   Contact Form <br /> w/o Page Refresh
                 </h4>
               </div>
 
               <div className="col">
-                <img className="mb-4" src="/img/demos/fi10.png" srcSet="/img/demos/fi10@2x.png 2x" alt="" />
+                <img
+                  className="mb-4"
+                  src="/img/demos/fi10.png"
+                  srcSet="/img/demos/fi10@2x.png 2x"
+                  alt=""
+                />
                 <h4>
                   Top-Notch Support <br /> & Free Updates
                 </h4>
@@ -476,7 +575,9 @@ export default function Demo34() {
           <div className="container pb-10 pb-md-13">
             <div className="row mb-8 text-center">
               <div className="col-lg-8 col-xl-7 mx-auto">
-                <h2 className="fs-15 ls-xl text-uppercase text-muted">Inner Pages</h2>
+                <h2 className="fs-15 ls-xl text-uppercase text-muted">
+                  Inner Pages
+                </h2>
                 <h2 className="display-3 mt-3 mb-3 mb-0">
                   Pages faites à la main et soigneusement assemblées.
                 </h2>
@@ -491,7 +592,12 @@ export default function Demo34() {
                     <li key={id}>
                       <a
                         onClick={handleFilterKeyChange(value)}
-                        className={filterKey === value ? "filter-item active" : "filter-item"}>
+                        className={
+                          filterKey === value
+                            ? 'filter-item active'
+                            : 'filter-item'
+                        }
+                      >
                         {title}
                       </a>
                     </li>
@@ -502,10 +608,20 @@ export default function Demo34() {
               <div data-cue="fadeIn">
                 <div className="row gx-md-8 gx-xl-9 gy-8 gy-xl-9 isotope">
                   {innerPages.map(({ category, id, image, title }) => (
-                    <div className={`project item col-md-6 col-xl-4 ${category}`} key={id}>
-                      <figure className="itooltip itooltip-primary rounded shadow-lg" title={title}>
+                    <div
+                      className={`project item col-md-6 col-xl-4 ${category}`}
+                      key={id}
+                    >
+                      <figure
+                        className="itooltip itooltip-primary rounded shadow-lg"
+                        title={title}
+                      >
                         <Link href="#">
-                          <img src={`/img/demos/${image}.jpg`} srcSet={`/img/demos/${image}@2x.jpg 2x`} alt="" />
+                          <img
+                            src={`/img/demos/${image}.jpg`}
+                            srcSet={`/img/demos/${image}@2x.jpg 2x`}
+                            alt=""
+                          />
                         </Link>
                       </figure>
                     </div>
@@ -538,17 +654,23 @@ export default function Demo34() {
               src="/img/demos/devices.png"
               srcSet="/img/demos/devices@2x.png 2x"
               className="position-lg-absolute col-12 col-lg-12 mt-xxl-n3 mb-3 mb-md-10 mb-lg-0"
-              style={{ top: 0, left: "-23%" }}
+              style={{ top: 0, left: '-23%' }}
             />
 
             <div className="row gx-lg-8 gx-xl-12 mt-lg-n16 mt-xl-n12 mt-xxl-0 align-items-xxl-center">
               <div className="col-md-10 offset-md-1 col-lg-6 offset-lg-6 text-center text-lg-start">
                 <div className="ps-xl-1 ps-xxl-5 pe-xxl-10">
-                  <h2 className="fs-15 ls-xl text-uppercase text-muted mb-3">Entièrement réactifs</h2>
-                  <h3 className="display-3 mb-5">Images et textes réactifs, peu importe la taille de l’écran.</h3>
+                  <h2 className="fs-15 ls-xl text-uppercase text-muted mb-3">
+                    Entièrement réactifs
+                  </h2>
+                  <h3 className="display-3 mb-5">
+                    Images et textes réactifs, peu importe la taille de l’écran.
+                  </h3>
                   <p className="lead mb-8">
-                    Anstett Solutions Pro est réactif, donc la mise en page s’adaptera aux différentes tailles d’écran qui feront de votre site web
-                    Compatible avec tous les appareils tels que les smartphones, les tablettes et les ordinateurs.
+                    Anstett Solutions Pro est réactif, donc la mise en page
+                    s’adaptera aux différentes tailles d’écran qui feront de
+                    votre site web Compatible avec tous les appareils tels que
+                    les smartphones, les tablettes et les ordinateurs.
                   </p>
 
                   <img
@@ -568,26 +690,38 @@ export default function Demo34() {
           <div className="container pt-xl-10 text-center">
             <div className="row">
               <div className="col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-                <img src="/img/demos/icon.png" srcSet="/img/demos/icon@2x.png 2x" alt="" />
+                <img
+                  src="/img/demos/icon.png"
+                  srcSet="/img/demos/icon@2x.png 2x"
+                  alt=""
+                />
                 <h2 className="display-3 mt-3 mb-3 px-lg-8">
-                Pensez unique et soyez créatif. Faites la différence avec Anstett Solutions Pro.
+                  Pensez unique et soyez créatif. Faites la différence avec
+                  Anstett Solutions Pro.
                 </h2>
 
                 <p className="lead fs-lg mb-6">
-                Tout ce dont vous avez besoin pour créer votre prochain site web unique et professionnel, avec des
-                Blocs et pages prêts à l’emploi.
+                  Tout ce dont vous avez besoin pour créer votre prochain site
+                  web unique et professionnel, avec des Blocs et pages prêts à
+                  l’emploi.
                 </p>
                 <a
                   href="#"
                   target="_blank"
                   className="btn btn-lg btn-primary rounded-pill mb-10"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   Acheter Anstett Solutions Pro
                 </a>
               </div>
             </div>
 
-            <img className="img-fluid" src="/img/demos/f1.png" srcSet="/img/demos/f1@2x.png 2x" alt="" />
+            <img
+              className="img-fluid"
+              src="/img/demos/f1.png"
+              srcSet="/img/demos/f1@2x.png 2x"
+              alt=""
+            />
           </div>
         </section>
       </main>

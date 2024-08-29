@@ -1,21 +1,21 @@
-"use client";
+'use client';
 
-import CountUp from "@sandbox/components/reuseable/CountUp";
+import CountUp from 'app/sandbox/components/reuseable/CountUp';
 // GLOBAL CUSTOM COMPONENTS
-import { ProcessList2 } from "@sandbox/components/reuseable/process-list";
+import { ProcessList2 } from 'app/sandbox/components/reuseable/process-list';
 // GLOBAL CUSTOM HOOKS
-import useProgressbar from "@sandbox/hooks/useProgressbar";
+import useProgressbar from 'app/sandbox/hooks/useProgressbar';
 // CUSTOM DATA
-import { skill2 } from "@sandbox/data/skill";
-import { factList10 } from "@sandbox/data/facts";
-import { processList } from "@sandbox/data/demo-12";
+import { skill2 } from 'app/sandbox/data/skill';
+import { factList10 } from 'app/sandbox/data/facts';
+import { processList } from 'app/sandbox/data/demo-12';
 
 const list = [
-  "Aenean eu leo quam pellentesque.",
-  "Nullam quis risus eget urna mollis.",
-  "Donec id elit non mi porta gravida.",
-  "Fusce dapibus tellus ac commodo.",
-  "Cras justo odio dapibus ac facilisis in."
+  'Aenean eu leo quam pellentesque.',
+  'Nullam quis risus eget urna mollis.',
+  'Donec id elit non mi porta gravida.',
+  'Fusce dapibus tellus ac commodo.',
+  'Cras justo odio dapibus ac facilisis in.',
 ];
 
 export default function About24() {
@@ -28,19 +28,26 @@ export default function About24() {
         <div className="row gx-md-8 gx-xl-12 gy-6 align-items-center">
           <div className="col-md-8 col-lg-6 mx-auto">
             <div className="img-mask mask-1">
-              <img src="/img/photos/about29.jpg" srcSet="/img/photos/about29@2x.jpg 2x" alt="About" />
+              <img
+                src="/img/photos/about29.jpg"
+                srcSet="/img/photos/about29@2x.jpg 2x"
+                alt="About"
+              />
             </div>
           </div>
 
           <div className="col-lg-6">
             <h2 className="display-5 mb-5">
-            Bonjour, je m’appelle Julia, photographe de mariage et de couple travaillant actuellement à Londres.
+              Bonjour, je m’appelle Julia, photographe de mariage et de couple
+              travaillant actuellement à Londres.
             </h2>
             <p className="mb-6">
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl
-              consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio. Sed
-              posuere consectetur est at lobortis facilisis in.
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in,
+              egestas eget quam. Praesent commodo cursus magna, vel scelerisque
+              nisl consectetur et. Duis mollis, est non commodo luctus, nisi
+              erat porttitor ligula, eget lacinia odio. Sed posuere consectetur
+              est at lobortis facilisis in.
             </p>
 
             <div className="row counter-wrapper gy-6">
@@ -60,15 +67,18 @@ export default function About24() {
           <div className="col-lg-4">
             <h3>Mes talents</h3>
             <p>
-              Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna vel consectetur purus sit
-              amet fermentum.
+              Etiam porta sem malesuada magna mollis euismod. Praesent commodo
+              cursus magna vel consectetur purus sit amet fermentum.
             </p>
 
             <ul className="progress-list">
               {skill2.map(({ id, title, value }) => (
                 <li key={id}>
                   <p>{title}</p>
-                  <div className="progressbar line primary" data-value={value} />
+                  <div
+                    className="progressbar line primary"
+                    data-value={value}
+                  />
                 </li>
               ))}
             </ul>
@@ -77,13 +87,14 @@ export default function About24() {
           <div className="col-lg-4">
             <h3>Pourquoi me choisir?</h3>
             <p>
-              Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Donec
-              ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies. Cras mattis consectetur
-              purus amet fermentum.
+              Vestibulum id ligula porta felis euismod semper. Cras mattis
+              consectetur purus sit amet fermentum. Donec ullamcorper nulla non
+              metus auctor fringilla. Nullam id dolor id nibh ultricies. Cras
+              mattis consectetur purus amet fermentum.
             </p>
 
             <ul className="icon-list bullet-bg bullet-soft-primary">
-              {list.map((item) => (
+              {list.map(item => (
                 <li key={item}>
                   <i className="uil uil-check" />
                   {item}
@@ -95,7 +106,7 @@ export default function About24() {
           <div className="col-lg-4">
             <h3>Ma méthode</h3>
 
-            {processList.map((item) => (
+            {processList.map(item => (
               <ProcessList2
                 {...item}
                 key={item.no}

@@ -1,4 +1,4 @@
-import AccordionList from "@sandbox/components/common/AccordionList";
+import AccordionList from 'app/sandbox/components/common/AccordionList';
 
 export default function About22() {
   return (
@@ -17,8 +17,12 @@ export default function About22() {
           </div>
 
           <div className="col-lg-5">
-            <h2 className="fs-15 text-uppercase text-primary mb-3">Pourquoi nous choisir?</h2>
-            <h3 className="display-3 mb-7">Nous apportons des solutions pour vous faciliter la vie.</h3>
+            <h2 className="fs-15 text-uppercase text-primary mb-3">
+              Pourquoi nous choisir?
+            </h2>
+            <h3 className="display-3 mb-7">
+              Nous apportons des solutions pour vous faciliter la vie.
+            </h3>
             <AccordionList />
           </div>
         </div>

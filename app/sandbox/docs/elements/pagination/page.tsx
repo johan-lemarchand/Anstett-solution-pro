@@ -1,16 +1,20 @@
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import Pagination from "@sandbox/components/reuseable/Pagination";
-import Breadcrumb from "@sandbox/components/reuseable/Breadcrumb";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import Pagination from 'app/sandbox/components/reuseable/Pagination';
+import Breadcrumb from 'app/sandbox/components/reuseable/Breadcrumb';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 // MARKUPS
-import { defaultMarkup, alternativeMarkup, breadcrumbMarkup } from "@sandbox/themes/markups/elements/pagination";
+import {
+  defaultMarkup,
+  alternativeMarkup,
+  breadcrumbMarkup,
+} from 'app/sandbox/themes/markups/elements/pagination';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Default", url: "snippet-1" },
-  { title: "Alternative", url: "snippet-2" },
-  { title: "Breadcrumb", url: "snippet-3" },
-  { title: "Pagination Props", url: "snippet-4" },
-  { title: "Breadcrumb Props", url: "snippet-5" }
+  { title: 'Default', url: 'snippet-1' },
+  { title: 'Alternative', url: 'snippet-2' },
+  { title: 'Breadcrumb', url: 'snippet-3' },
+  { title: 'Pagination Props', url: 'snippet-4' },
+  { title: 'Breadcrumb Props', url: 'snippet-5' },
 ];
 
 export default function PaginationDoc() {
@@ -20,7 +24,8 @@ export default function PaginationDoc() {
       quickAccessLinks={quickAccess}
       descriptionClass="lead px-xxl-3"
       headingColClass="col-md-9 col-lg-7 col-xl-7 mx-auto"
-      description="Use our pagination and breadcrumb examples to show that a series of related content exists across multiple pages and navigational hierarchy.">
+      description="Use our pagination and breadcrumb examples to show that a series of related content exists across multiple pages and navigational hierarchy."
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Default</h2>
@@ -30,12 +35,19 @@ export default function PaginationDoc() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{defaultMarkup}</CodeHighlight>
@@ -54,15 +66,24 @@ export default function PaginationDoc() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
-                <CodeHighlight language="jsx">{alternativeMarkup}</CodeHighlight>
+                <CodeHighlight language="jsx">
+                  {alternativeMarkup}
+                </CodeHighlight>
               </div>
             </div>
           </div>
@@ -75,33 +96,40 @@ export default function PaginationDoc() {
         <div className="card">
           <div className="card-body">
             <div>
-              <Breadcrumb data={[{ id: 1, title: "Home", url: "#" }]} />
+              <Breadcrumb data={[{ id: 1, title: 'Home', url: '#' }]} />
             </div>
             <div>
               <Breadcrumb
                 data={[
-                  { id: 1, title: "Home", url: "#" },
-                  { id: 2, title: "Library", url: "#" }
+                  { id: 1, title: 'Home', url: '#' },
+                  { id: 2, title: 'Library', url: '#' },
                 ]}
               />
             </div>
             <Breadcrumb
               className="mb-0"
               data={[
-                { id: 1, title: "Home", url: "#" },
-                { id: 2, title: "Library", url: "#" },
-                { id: 3, title: "Data", url: "#" }
+                { id: 1, title: 'Home', url: '#' },
+                { id: 2, title: 'Library', url: '#' },
+                { id: 3, title: 'Data', url: '#' },
               ]}
             />
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{breadcrumbMarkup}</CodeHighlight>
@@ -145,7 +173,8 @@ export default function PaginationDoc() {
                   <td>false</td>
                   <td>boolean</td>
                   <td>
-                    When you pass <mark className="doc mt-n1">true</mark> then show alternative style
+                    When you pass <mark className="doc mt-n1">true</mark> then
+                    show alternative style
                   </td>
                 </tr>
               </tbody>

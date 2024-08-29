@@ -7,7 +7,12 @@ interface ProcessList2Props {
 }
 // ==============================================================
 
-export default function ProcessList2({ no, title, subtitle, className = "" }: ProcessList2Props) {
+export default function ProcessList2({
+  no,
+  title,
+  subtitle,
+  className = '',
+}: ProcessList2Props) {
   return (
     <div className="d-flex flex-row mb-6">
       <div>

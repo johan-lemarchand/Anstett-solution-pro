@@ -6,7 +6,11 @@ interface TestimonialCard6Props {
 }
 // =================================================
 
-export default function TestimonialCard6({ name, review, designation }: TestimonialCard6Props) {
+export default function TestimonialCard6({
+  name,
+  review,
+  designation,
+}: TestimonialCard6Props) {
   return (
     <div className="card shadow-lg card-border-bottom border-soft-primary">
       <div className="card-body">

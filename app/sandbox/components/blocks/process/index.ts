@@ -39,5 +39,5 @@ export {
   Process17,
   Process18,
   Process19,
-  Process20
+  Process20,
 };

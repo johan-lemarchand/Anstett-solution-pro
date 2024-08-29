@@ -1,17 +1,17 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import { FAQ6 } from "@sandbox/components/blocks/faq";
-import { Team4 } from "@sandbox/components/blocks/team";
-import { Hero21 } from "@sandbox/components/blocks/hero";
-import { About22 } from "@sandbox/components/blocks/about";
-import { Facts15 } from "@sandbox/components/blocks/facts";
-import { Footer13 } from "@sandbox/components/blocks/footer";
-import { Process14 } from "@sandbox/components/blocks/process";
-import { Services24 } from "@sandbox/components/blocks/services";
-import { Portfolio3 } from "@sandbox/components/blocks/portfolio";
-import { Testimonial17 } from "@sandbox/components/blocks/testimonial";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import { FAQ6 } from 'app/sandbox/components/blocks/faq';
+import { Team4 } from 'app/sandbox/components/blocks/team';
+import { Hero21 } from 'app/sandbox/components/blocks/hero';
+import { About22 } from 'app/sandbox/components/blocks/about';
+import { Facts15 } from 'app/sandbox/components/blocks/facts';
+import { Footer13 } from 'app/sandbox/components/blocks/footer';
+import { Process14 } from 'app/sandbox/components/blocks/process';
+import { Services24 } from 'app/sandbox/components/blocks/services';
+import { Portfolio3 } from 'app/sandbox/components/blocks/portfolio';
+import { Testimonial17 } from 'app/sandbox/components/blocks/testimonial';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function Demo21() {
   return (
@@ -21,7 +21,13 @@ export default function Demo21() {
         <Navbar
           navOtherClass="navbar-other ms-lg-4"
           navClassName="navbar navbar-expand-lg classic transparent navbar-light"
-          button={<NextLink href="#" title="Contact" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              href="#"
+              title="Contact"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 

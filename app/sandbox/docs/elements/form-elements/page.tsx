@@ -1,5 +1,5 @@
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 // MARKUPS
 import {
   inputMarkup,
@@ -7,16 +7,16 @@ import {
   radioMarkup,
   selectMarkup,
   disabledMarkup,
-  textareaMarkup
-} from "@sandbox/themes/markups/elements/from-elements";
+  textareaMarkup,
+} from 'app/sandbox/themes/markups/elements/from-elements';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Input", url: "snippet-1" },
-  { title: "Textarea", url: "snippet-2" },
-  { title: "Checks", url: "snippet-3" },
-  { title: "Radios", url: "snippet-4" },
-  { title: "Disabled", url: "snippet-5" },
-  { title: "Select", url: "snippet-6" }
+  { title: 'Input', url: 'snippet-1' },
+  { title: 'Textarea', url: 'snippet-2' },
+  { title: 'Checks', url: 'snippet-3' },
+  { title: 'Radios', url: 'snippet-4' },
+  { title: 'Disabled', url: 'snippet-5' },
+  { title: 'Select', url: 'snippet-6' },
 ];
 
 export default function FormElements() {
@@ -26,34 +26,49 @@ export default function FormElements() {
       quickAccessLinks={quickAccess}
       description={
         <>
-          Some examples for form control styles. For more detailed examples and guidelines please visit
+          Some examples for form control styles. For more detailed examples and
+          guidelines please visit
           <a
             href="https://getbootstrap.com/docs/5.2/forms/overview/"
             className="hover more"
             rel="noreferrer"
-            target="_blank">
+            target="_blank"
+          >
             Bootstrap docs
           </a>
         </>
-      }>
+      }
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Input</h2>
         <div className="card">
           <div className="card-body">
             <div className="form-floating">
-              <input id="textInputExample" type="text" className="form-control" placeholder="Text Input" />
+              <input
+                id="textInputExample"
+                type="text"
+                className="form-control"
+                placeholder="Text Input"
+              />
               <label htmlFor="textInputExample">Text Input</label>
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{inputMarkup}</CodeHighlight>
@@ -81,12 +96,19 @@ export default function FormElements() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{textareaMarkup}</CodeHighlight>
@@ -102,14 +124,23 @@ export default function FormElements() {
         <div className="card">
           <div className="card-body">
             <div className="form-check">
-              <input className="form-check-input" type="checkbox" id="flexCheckDefault" />
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="flexCheckDefault"
+              />
               <label className="form-check-label" htmlFor="flexCheckDefault">
                 Default checkbox
               </label>
             </div>
 
             <div className="form-check">
-              <input className="form-check-input" type="checkbox" id="flexCheckChecked" defaultChecked />
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="flexCheckChecked"
+                defaultChecked
+              />
               <label className="form-check-label" htmlFor="flexCheckChecked">
                 Checked checkbox
               </label>
@@ -117,12 +148,19 @@ export default function FormElements() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-3"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-3" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-3"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{checkMarkup}</CodeHighlight>
@@ -138,7 +176,12 @@ export default function FormElements() {
         <div className="card">
           <div className="card-body">
             <div className="form-check">
-              <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+              <input
+                className="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
               <label className="form-check-label" htmlFor="flexRadioDefault1">
                 Default radio
               </label>
@@ -159,12 +202,19 @@ export default function FormElements() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-4">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-4"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-4" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-4"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{radioMarkup}</CodeHighlight>
@@ -180,7 +230,12 @@ export default function FormElements() {
         <div className="card">
           <div className="card-body">
             <div className="form-check">
-              <input className="form-check-input" type="checkbox" id="flexCheckDisabled" disabled />
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="flexCheckDisabled"
+                disabled
+              />
               <label className="form-check-label" htmlFor="flexCheckDisabled">
                 Disabled checkbox
               </label>
@@ -201,12 +256,19 @@ export default function FormElements() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-5">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-5"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-5" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-5"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{disabledMarkup}</CodeHighlight>
@@ -222,7 +284,10 @@ export default function FormElements() {
         <div className="card">
           <div className="card-body">
             <div className="form-select-wrapper">
-              <select className="form-select" aria-label="Default select example">
+              <select
+                className="form-select"
+                aria-label="Default select example"
+              >
                 <option defaultChecked>Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -232,12 +297,19 @@ export default function FormElements() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-6">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-6"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-6" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-6"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{selectMarkup}</CodeHighlight>

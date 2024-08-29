@@ -43,4 +43,11 @@ const card6Markup = `import { TestimonialCard6 } from 'components/reuseable/test
 />
 `;
 
-export { card1Markup, card2Markup, card3Markup, card4Markup, card5Markup, card6Markup };
+export {
+  card1Markup,
+  card2Markup,
+  card3Markup,
+  card4Markup,
+  card5Markup,
+  card6Markup,
+};

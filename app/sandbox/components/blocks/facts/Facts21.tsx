@@ -1,6 +1,6 @@
-import CountUp from "@sandbox/components/reuseable/CountUp";
+import CountUp from 'app/sandbox/components/reuseable/CountUp';
 // CUSTOM DATA
-import { facts } from "@sandbox/data/demo-34";
+import { facts } from 'app/sandbox/data/demo-34';
 
 export default function Facts21() {
   return (
@@ -8,9 +8,14 @@ export default function Facts21() {
       <div className="container pt-7 pt-md-10 pb-14 pb-md-17">
         <div className="row mb-8 text-center">
           <div className="col-md-11 col-lg-10 col-xl-8 col-xxl-7 mx-auto">
-            <img src="/img/demos/icon.png" srcSet="/img/demos/icon@2x.png 2x" alt="" />
+            <img
+              src="/img/demos/icon.png"
+              srcSet="/img/demos/icon@2x.png 2x"
+              alt=""
+            />
             <h2 className="display-3 mt-3 mb-3 mb-0 px-lg-10 px-xl-0">
-            Économisez votre temps et votre argent en choisissant Anstett Solutions Pro pour votre site web.
+              Économisez votre temps et votre argent en choisissant Anstett
+              Solutions Pro pour votre site web.
             </h2>
           </div>
         </div>

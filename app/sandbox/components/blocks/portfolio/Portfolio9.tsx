@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 
 export default function Portfolio9() {
   return (
@@ -9,11 +9,18 @@ export default function Portfolio9() {
         <div className="row align-items-center mb-10">
           <div className="col-md-8 col-lg-9 col-xl-8 col-xxl-7 pe-xl-20">
             <h2 className="display-4 mb-3">Nouveaux projets</h2>
-            <p className="lead fs-20 mb-0">Découvrez quelques-uns de mes derniers projets avec des idées créatives.</p>
+            <p className="lead fs-20 mb-0">
+              Découvrez quelques-uns de mes derniers projets avec des idées
+              créatives.
+            </p>
           </div>
 
           <div className="col-md-4 col-lg-3 ms-md-auto text-md-end mt-5 mt-md-0">
-            <NextLink title="Voir tous les projets" href="#" className="btn btn-outline-primary rounded-pill mb-0" />
+            <NextLink
+              title="Voir tous les projets"
+              href="#"
+              className="btn btn-outline-primary rounded-pill mb-0"
+            />
           </div>
         </div>
 
@@ -24,16 +31,26 @@ export default function Portfolio9() {
                 <div className="post-category mb-3 text-violet">Web Design</div>
                 <h3 className="h1 post-title mb-3">Snowlake Theme</h3>
                 <p>
-                  Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta
-                  felis euismod semper. Fusce dapibus tellus cursus.
+                  Maecenas faucibus mollis interdum sed posuere consectetur est
+                  at lobortis. Scelerisque id ligula porta felis euismod semper.
+                  Fusce dapibus tellus cursus.
                 </p>
 
-                <NextLink title="Nouveaux projets" href="#" className="more hover link-violet" />
+                <NextLink
+                  title="Nouveaux projets"
+                  href="#"
+                  className="more hover link-violet"
+                />
               </div>
 
               <div className="col-lg-7 offset-lg-1 align-self-end">
                 <figure>
-                  <img className="img-fluid" src="/img/photos/f1.png" srcSet="/img/photos/f1@2x.png 2x" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="/img/photos/f1.png"
+                    srcSet="/img/photos/f1@2x.png 2x"
+                    alt=""
+                  />
                 </figure>
               </div>
             </div>
@@ -44,18 +61,30 @@ export default function Portfolio9() {
           <div className="card-body p-12">
             <div className="row gy-10 align-items-center">
               <div className="col-lg-4 order-lg-2 offset-lg-1">
-                <div className="post-category mb-3 text-blue">Mobile Design</div>
+                <div className="post-category mb-3 text-blue">
+                  Mobile Design
+                </div>
                 <h3 className="h1 post-title mb-3">Budget App</h3>
                 <p>
-                  Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta
-                  felis euismod semper. Fusce dapibus tellus cursus.
+                  Maecenas faucibus mollis interdum sed posuere consectetur est
+                  at lobortis. Scelerisque id ligula porta felis euismod semper.
+                  Fusce dapibus tellus cursus.
                 </p>
-                <NextLink title="Nouveaux projets" href="#" className="more hover link-blue" />
+                <NextLink
+                  title="Nouveaux projets"
+                  href="#"
+                  className="more hover link-blue"
+                />
               </div>
 
               <div className="col-lg-7">
                 <figure>
-                  <img className="img-fluid" src="/img/photos/f2.png" srcSet="/img/photos/f2@2x.png 2x" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="/img/photos/f2.png"
+                    srcSet="/img/photos/f2@2x.png 2x"
+                    alt=""
+                  />
                 </figure>
               </div>
             </div>
@@ -69,29 +98,50 @@ export default function Portfolio9() {
                 <div className="post-category mb-3 text-leaf">Web Design</div>
                 <h3 className="h1 post-title mb-3">Missio Theme</h3>
                 <p>
-                  Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque id
-                  ligula felis.
+                  Maecenas faucibus mollis interdum sed posuere porta
+                  consectetur cursus porta lobortis. Scelerisque id ligula
+                  felis.
                 </p>
-                <NextLink title="Nouveaux projets" href="#" className="more hover link-leaf mb-8" />
+                <NextLink
+                  title="Nouveaux projets"
+                  href="#"
+                  className="more hover link-leaf mb-8"
+                />
               </div>
 
-              <img className="card-img-bottom" src="/img/photos/f3.png" srcSet="/img/photos/f3@2x.png 2x" alt="" />
+              <img
+                className="card-img-bottom"
+                src="/img/photos/f3.png"
+                srcSet="/img/photos/f3@2x.png 2x"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="col-lg-6">
             <div className="card bg-soft-pink">
               <div className="card-body p-12 pb-0">
-                <div className="post-category mb-3 text-pink">Mobile Design</div>
+                <div className="post-category mb-3 text-pink">
+                  Mobile Design
+                </div>
                 <h3 className="h1 post-title mb-3">Storage App</h3>
                 <p>
-                  Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta
-                  felis euismod semper.
+                  Maecenas faucibus mollis interdum sed posuere consectetur est
+                  at lobortis. Scelerisque id ligula porta felis euismod semper.
                 </p>
-                <NextLink title="Nouveaux projets" href="#" className="more hover link-pink mb-8" />
+                <NextLink
+                  title="Nouveaux projets"
+                  href="#"
+                  className="more hover link-pink mb-8"
+                />
               </div>
 
-              <img className="card-img-bottom" src="/img/photos/f4.png" srcSet="/img/photos/f4@2x.png 2x" alt="" />
+              <img
+                className="card-img-bottom"
+                src="/img/photos/f4.png"
+                srcSet="/img/photos/f4@2x.png 2x"
+                alt=""
+              />
             </div>
           </div>
         </div>

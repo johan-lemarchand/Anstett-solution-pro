@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from 'react';
 
 declare global {
   interface Window {
@@ -15,11 +15,11 @@ export default function useProgressbar() {
     if (initialized.current) return;
 
     const initProgressBars = () => {
-      require("../plugins/waypoints");
-      const ProgressBar = require("../plugins/progressbar");
+      require('../plugins/waypoints');
+      const ProgressBar = require('../plugins/progressbar');
 
-      const pline = document.querySelectorAll(".progressbar.line");
-      const pcircle = document.querySelectorAll(".progressbar.semi-circle");
+      const pline = document.querySelectorAll('.progressbar.line');
+      const pcircle = document.querySelectorAll('.progressbar.semi-circle');
 
       const progressBarInstances: any[] = [];
       const waypoints: any[] = [];
@@ -31,35 +31,35 @@ export default function useProgressbar() {
           strokeWidth: 6,
           trailWidth: 6,
           duration: isCircle ? 2000 : 3000,
-          easing: "easeInOut",
+          easing: 'easeInOut',
           text: {
             style: {
-              color: "inherit",
-              position: "absolute",
-              right: isCircle ? "0" : "0",
-              top: isCircle ? "0" : "-30px",
+              color: 'inherit',
+              position: 'absolute',
+              right: isCircle ? '0' : '0',
+              top: isCircle ? '0' : '-30px',
               padding: 0,
               margin: 0,
-              transform: "none",
-              fontWeight: "500"
+              transform: 'none',
+              fontWeight: '500',
             },
-            autoStyleContainer: false
+            autoStyleContainer: false,
           },
           step: (state: any, bar: any) => {
             const value = Math.round(bar.value() * 100);
-            bar.setText(isCircle ? value : value + "%");
-          }
+            bar.setText(isCircle ? value : value + '%');
+          },
         };
 
-        const progressBar = isCircle 
+        const progressBar = isCircle
           ? new ProgressBar.SemiCircle(e, options)
           : new ProgressBar.Line(e, options);
 
-        const value = Number(e.getAttribute("data-value")) / 100;
+        const value = Number(e.getAttribute('data-value')) / 100;
         const waypoint = new window.Waypoint({
           element: e,
-          offset: "bottom-in-view",
-          handler: () => progressBar.animate(value)
+          offset: 'bottom-in-view',
+          handler: () => progressBar.animate(value),
         });
 
         progressBarInstances.push(progressBar);

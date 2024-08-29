@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "@sandbox/components/blocks/footer";
-import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
-import Pagination from "@sandbox/components/reuseable/Pagination";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
-import { ProjectCard2 } from "@sandbox/components/reuseable/project-cards";
+import { Footer8 } from 'app/sandbox/components/blocks/footer';
+import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import Pagination from 'app/sandbox/components/reuseable/Pagination';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import { ProjectCard2 } from 'app/sandbox/components/reuseable/project-cards';
 // CUSTOM DATA
-import { projectList } from "./data";
+import { projectList } from './data';
 
 export default function ProjectsTwo() {
   return (
@@ -17,7 +17,13 @@ export default function ProjectsTwo() {
       <header className="wrapper bg-light">
         <Navbar
           language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          button={
+            <NextLink
+              title="Contact"
+              href="#"
+              className="btn btn-sm btn-primary rounded-pill"
+            />
+          }
         />
       </header>
 
@@ -29,7 +35,8 @@ export default function ProjectsTwo() {
               <div className="col-md-8 col-lg-7 col-xl-6 col-xxl-5 mx-auto">
                 <h1 className="display-1 mb-3">Projects</h1>
                 <p className="lead fs-lg px-lg-10 px-xxl-8">
-                  Check out some of our awesome projects with creative ideas and great design.
+                  Check out some of our awesome projects with creative ideas and
+                  great design.
                 </p>
               </div>
             </div>
@@ -40,7 +47,7 @@ export default function ProjectsTwo() {
           <div className="container pt-9 pt-md-11 pb-14 pb-md-16">
             {/* ========== projects section ========== */}
             <div className="projects-overflow mt-md-10 mb-10 mb-lg-15">
-              {projectList.map((item) => (
+              {projectList.map(item => (
                 <ProjectCard2 {...item} key={item.id} />
               ))}
             </div>

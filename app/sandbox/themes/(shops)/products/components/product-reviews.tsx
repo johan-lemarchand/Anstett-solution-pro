@@ -1,9 +1,9 @@
 // GLOBAL CUSTOM COMPONENTS
-import Select from "@sandbox/components/reuseable/Select";
-import Pagination from "@sandbox/components/reuseable/Pagination";
-import ReviewCard from "@sandbox/components/reuseable/ReviewCard";
+import Select from 'app/sandbox/components/reuseable/Select';
+import Pagination from 'app/sandbox/components/reuseable/Pagination';
+import ReviewCard from 'app/sandbox/components/reuseable/ReviewCard';
 // CUSTOM DATA
-import data from "@sandbox/data/product-details-page";
+import data from 'app/sandbox/data/product-details-page';
 
 export default function ProductReviews() {
   return (
@@ -22,7 +22,7 @@ export default function ProductReviews() {
 
       <div id="comments">
         <ol id="singlecomments" className="commentlist">
-          {data.reviewList.map((item) => (
+          {data.reviewList.map(item => (
             <ReviewCard key={item.id} {...item} />
           ))}
         </ol>

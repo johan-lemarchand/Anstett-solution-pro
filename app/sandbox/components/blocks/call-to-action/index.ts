@@ -12,4 +12,18 @@ import CTA11 from './CTA11';
 import CTA12 from './CTA12';
 import CTA13 from './CTA13';
 
-export { CTA1, CTA2, CTA3, CTA4, CTA5, CTA6, CTA7, CTA8, CTA9, CTA10, CTA11, CTA12, CTA13 };
+export {
+  CTA1,
+  CTA2,
+  CTA3,
+  CTA4,
+  CTA5,
+  CTA6,
+  CTA7,
+  CTA8,
+  CTA9,
+  CTA10,
+  CTA11,
+  CTA12,
+  CTA13,
+};

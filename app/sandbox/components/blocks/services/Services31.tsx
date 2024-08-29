@@ -1,6 +1,6 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // CUSTOM DATA
-import { features } from "@sandbox/data/demo-29";
+import { features } from 'app/sandbox/data/demo-29';
 
 export default function Services31() {
   return (
@@ -10,19 +10,20 @@ export default function Services31() {
           <img
             src="/img/svg/doodle3.svg"
             className="h-11 position-absolute d-none d-lg-block"
-            style={{ top: "-45%", left: "23%" }}
+            style={{ top: '-45%', left: '23%' }}
             alt=""
           />
           <img
             src="/img/svg/doodle4.svg"
             className="h-8 position-absolute d-none d-lg-block"
-            style={{ top: "6%", right: "2%" }}
+            style={{ top: '6%', right: '2%' }}
             alt=""
           />
           <h2 className="fs-16 text-uppercase text-muted mb-3">App Features</h2>
           <h3 className="display-3 mb-11 px-lg-5 px-xl-0 px-xxl-6">
-            Anstett Solutions Pro permet de gérer les dépenses <span className="text-gradient gradient-7">sans stress</span> pour avoir
-            un contrôle parfait.
+            Anstett Solutions Pro permet de gérer les dépenses{' '}
+            <span className="text-gradient gradient-7">sans stress</span> pour
+            avoir un contrôle parfait.
           </h3>
         </div>
       </div>
@@ -32,7 +33,9 @@ export default function Services31() {
           <div className="row gx-md-8 gy-10 text-center">
             {features.map(({ Icon, title, color, id }) => (
               <div className="col-md-6 col-lg-3" key={id}>
-                <div className={`svg-bg svg-bg-lg bg-pale-${color} rounded-xl mb-4`}>
+                <div
+                  className={`svg-bg svg-bg-lg bg-pale-${color} rounded-xl mb-4`}
+                >
                   <Icon />
                 </div>
 

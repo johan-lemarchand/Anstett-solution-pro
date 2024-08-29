@@ -1,7 +1,7 @@
-import NextLink from "../links/NextLink";
+import NextLink from '../links/NextLink';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from "@sandbox/utils/currency";
-import ratingGenerate from "@sandbox/utils/ratings";
+import currency from 'app/sandbox/utils/currency';
+import ratingGenerate from 'app/sandbox/utils/ratings';
 
 // =========================================
 interface ProductCardProps {
@@ -18,13 +18,24 @@ interface ProductCardProps {
 // =========================================
 
 export default function ProductCard(props: ProductCardProps) {
-  const { image, title, new: newProduct, sale, category, salePrice, regularPrice, rating, className = "" } = props;
+  const {
+    image,
+    title,
+    new: newProduct,
+    sale,
+    category,
+    salePrice,
+    regularPrice,
+    rating,
+    className = '',
+  } = props;
 
   const badge = (title: string, color: string) => {
     return (
       <span
-        style={{ top: "1rem", left: "1rem" }}
-        className={`avatar ${color} text-white w-10 h-10 position-absolute text-uppercase fs-13`}>
+        style={{ top: '1rem', left: '1rem' }}
+        className={`avatar ${color} text-white w-10 h-10 position-absolute text-uppercase fs-13`}
+      >
         <span>{title}</span>
       </span>
     );
@@ -33,7 +44,11 @@ export default function ProductCard(props: ProductCardProps) {
   return (
     <div className={`project item ${className}`}>
       <figure className="rounded mb-6 position-relative overflow-hidden">
-        <img src={`/img/photos/${image}.jpg`} srcSet={`/img/photos/${image}@2x.jpg 2x`} alt="" />
+        <img
+          src={`/img/photos/${image}.jpg`}
+          srcSet={`/img/photos/${image}@2x.jpg 2x`}
+          alt=""
+        />
 
         <a
           href="#"
@@ -41,7 +56,8 @@ export default function ProductCard(props: ProductCardProps) {
           className="item-like"
           aria-label="Add to wishlist"
           data-bs-toggle="white-tooltip"
-          data-bs-original-title="Add to wishlist">
+          data-bs-original-title="Add to wishlist"
+        >
           <i className="uil uil-heart" />
         </a>
 
@@ -51,7 +67,8 @@ export default function ProductCard(props: ProductCardProps) {
           className="item-view"
           aria-label="Quick view"
           data-bs-toggle="white-tooltip"
-          data-bs-original-title="Quick view">
+          data-bs-original-title="Quick view"
+        >
           <i className="uil uil-eye" />
         </a>
 
@@ -59,8 +76,8 @@ export default function ProductCard(props: ProductCardProps) {
           <i className="uil uil-shopping-bag" /> Ajouter au panier
         </a>
 
-        {newProduct && badge("New!", "bg-aqua")}
-        {sale && badge("Promo!", "bg-pink")}
+        {newProduct && badge('New!', 'bg-aqua')}
+        {sale && badge('Promo!', 'bg-pink')}
       </figure>
 
       <div className="post-header">
@@ -78,7 +95,7 @@ export default function ProductCard(props: ProductCardProps) {
             <>
               <del>
                 <span className="amount">{currency(salePrice)}</span>
-              </del>{" "}
+              </del>{' '}
               <ins>
                 <span className="amount">{currency(regularPrice)}</span>
               </ins>

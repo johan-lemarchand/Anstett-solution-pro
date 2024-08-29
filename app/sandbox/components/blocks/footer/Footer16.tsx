@@ -1,9 +1,9 @@
-import Link from "next/link";
+import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { categories, tags } from "@sandbox/data/footer";
+import { categories, tags } from 'app/sandbox/data/footer';
 
 export default function Footer16() {
   return (
@@ -23,7 +23,11 @@ export default function Footer16() {
 
                 <div className="post-content">
                   <h6 className="mb-2">
-                    <NextLink title="Magna Mollis Ultricies" className="link-dark" href="#" />
+                    <NextLink
+                      title="Magna Mollis Ultricies"
+                      className="link-dark"
+                      href="#"
+                    />
                   </h6>
 
                   <ul className="post-meta">
@@ -44,7 +48,11 @@ export default function Footer16() {
 
                 <div className="post-content">
                   <h6 className="mb-2">
-                    <NextLink title="Ornare Nullam Risus" className="link-dark" href="#" />
+                    <NextLink
+                      title="Ornare Nullam Risus"
+                      className="link-dark"
+                      href="#"
+                    />
                   </h6>
 
                   <ul className="post-meta">
@@ -65,7 +73,11 @@ export default function Footer16() {
 
                 <div className="post-content">
                   <h6 className="mb-2">
-                    <NextLink title="Euismod Nullam Fusce" className="link-dark" href="#" />
+                    <NextLink
+                      title="Euismod Nullam Fusce"
+                      className="link-dark"
+                      href="#"
+                    />
                   </h6>
 
                   <ul className="post-meta">
@@ -85,7 +97,11 @@ export default function Footer16() {
               <ul className="list-unstyled tag-list">
                 {tags.map(({ id, title, url }) => (
                   <li key={id}>
-                    <NextLink title={title} href={url} className="btn btn-soft-ash text-white btn-sm rounded-pill" />
+                    <NextLink
+                      title={title}
+                      href={url}
+                      className="btn btn-soft-ash text-white btn-sm rounded-pill"
+                    />
                   </li>
                 ))}
               </ul>
@@ -106,7 +122,9 @@ export default function Footer16() {
           <div className="col-md-4 col-lg-3">
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Prendre contact</h4>
-              <address className="pe-xl-15 pe-xxl-17">26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder</address>
+              <address className="pe-xl-15 pe-xxl-17">
+                26E rue de Kaltenhouse 67240 Oberhoffen-Sur-Moder
+              </address>
               <a href="mailto:#">anstett.solutions.pro@gmail.com</a>
               <br /> 06 42 18 55 95
             </div>
@@ -152,7 +170,9 @@ export default function Footer16() {
           </div>
         </div>
 
-        <p className="mt-6 mb-0 text-center">© 2024 Anstett Solutions Pro. Tous droits réservés.</p>
+        <p className="mt-6 mb-0 text-center">
+          © 2024 Anstett Solutions Pro. Tous droits réservés.
+        </p>
       </div>
     </footer>
   );

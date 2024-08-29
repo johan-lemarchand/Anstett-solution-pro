@@ -1,9 +1,9 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "@sandbox/components/reuseable/Carousel";
-import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { portfolioList2 } from "@sandbox/data/portfolio";
+import { portfolioList2 } from 'app/sandbox/data/portfolio';
 
 export default function Portfolio3() {
   return (
@@ -11,9 +11,12 @@ export default function Portfolio3() {
       <div className="container pt-12 pt-lg-7 pb-14 pb-md-16">
         <div className="row">
           <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center">
-            <h2 className="fs-16 text-uppercase text-primary mb-3">Dernières réalisations</h2>
+            <h2 className="fs-16 text-uppercase text-primary mb-3">
+              Dernières réalisations
+            </h2>
             <h3 className="display-3 mb-10">
-              Découvrez quelques-uns de nos projets géniaux avec des idées créatives et un design exceptionnel.
+              Découvrez quelques-uns de nos projets géniaux avec des idées
+              créatives et un design exceptionnel.
             </h3>
           </div>
         </div>
@@ -24,17 +27,22 @@ export default function Portfolio3() {
             slidesPerView={2}
             pagination={false}
             className="overflow-visible"
-            breakpoints={{ 768: { slidesPerView: 2 }, 0: { slidesPerView: 1 } }}>
+            breakpoints={{ 768: { slidesPerView: 2 }, 0: { slidesPerView: 1 } }}
+          >
             {portfolioList2.map(({ id, url, image, category, title }) => (
               <Fragment key={id}>
                 <figure className="rounded mb-7">
-                  <img src={image["1x"]} srcSet={image["2x"]} alt="" />
+                  <img src={image['1x']} srcSet={image['2x']} alt="" />
                 </figure>
 
                 <div className="project-details d-flex justify-content-center flex-column">
                   <div className="post-header">
                     <h2 className="post-title h3">
-                      <NextLink title={title} className="link-dark" href={url} />
+                      <NextLink
+                        title={title}
+                        className="link-dark"
+                        href={url}
+                      />
                     </h2>
                     <div className="post-category text-ash">{category}</div>
                   </div>

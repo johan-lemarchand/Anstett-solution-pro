@@ -1,16 +1,19 @@
-"use client";
+'use client';
 
-import Typewriter from "typewriter-effect";
-import DocLayout from "@sandbox/components/layouts/DocLayout";
-import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import Typewriter from 'typewriter-effect';
+import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
 // GLOBAL CUSTOM HOOKS
-import useReplaceMe from "@sandbox/hooks/useReplaceMe";
+import useReplaceMe from 'app/sandbox/hooks/useReplaceMe';
 // MARKUPS
-import { typerMarkup, replaceMeMarkup } from "@sandbox/themes/markups/elements/text-animation";
+import {
+  typerMarkup,
+  replaceMeMarkup,
+} from 'app/sandbox/themes/markups/elements/text-animation';
 // CUSTOM DATA
 const quickAccess = [
-  { title: "Typer", url: "snippet-1" },
-  { title: "Rotator", url: "snippet-2" }
+  { title: 'Typer', url: 'snippet-1' },
+  { title: 'Rotator', url: 'snippet-2' },
 ];
 
 export default function TextAnimations() {
@@ -24,16 +27,28 @@ export default function TextAnimations() {
       descriptionClass="lead"
       description={
         <>
-          Ajouter des animations au texte facilement avec une interface HTML pure. Pour plus de documentation sur le plugin, veuillez visiter{" "}
-          <a href="https://github.com/tameemsafi/typewriterjs" target="_blank" className="hover more" rel="noreferrer">
+          Ajouter des animations au texte facilement avec une interface HTML
+          pure. Pour plus de documentation sur le plugin, veuillez visiter{' '}
+          <a
+            href="https://github.com/tameemsafi/typewriterjs"
+            target="_blank"
+            className="hover more"
+            rel="noreferrer"
+          >
             TypewriterJS docs
-          </a>{" "}
-          ou{" "}
-          <a href="https://adrianklimek.github.io/replaceme/" target="_blank" className="hover more" rel="noreferrer">
+          </a>{' '}
+          ou{' '}
+          <a
+            href="https://adrianklimek.github.io/replaceme/"
+            target="_blank"
+            className="hover more"
+            rel="noreferrer"
+          >
             ReplaceMe.js docs
           </a>
         </>
-      }>
+      }
+    >
       {/* ========== section 1 ========== */}
       <section id="snippet-1" className="wrapper pt-16">
         <h2 className="mb-5">Typer</h2>
@@ -48,7 +63,11 @@ export default function TextAnimations() {
                       options={{
                         loop: true,
                         autoStart: true,
-                        strings: ["easy usage", "fast transactions", "secure payments"]
+                        strings: [
+                          'easy usage',
+                          'fast transactions',
+                          'secure payments',
+                        ],
                       }}
                     />
                   </span>
@@ -58,12 +77,19 @@ export default function TextAnimations() {
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-1"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-1" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-1"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{typerMarkup}</CodeHighlight>
@@ -77,7 +103,9 @@ export default function TextAnimations() {
       <section id="snippet-2" className="wrapper pt-16">
         <h2 className="mb-5">Pills</h2>
         <p className="lead">
-          Note: At first you need to call the <code className="code">useReplaceMe()</code> hook for enable functionality
+          Note: At first you need to call the{' '}
+          <code className="code">useReplaceMe()</code> hook for enable
+          functionality
         </p>
 
         <div className="card">
@@ -85,20 +113,29 @@ export default function TextAnimations() {
             <div className="row">
               <div className="col-md-9">
                 <h2 className="display-1 mb-0">
-                  Sandbox is effortless and powerful with{" "}
-                  <span className="rotator-fade text-primary">easy usage,fast transactions,secure payments</span>
+                  Sandbox is effortless and powerful with{' '}
+                  <span className="rotator-fade text-primary">
+                    easy usage,fast transactions,secure payments
+                  </span>
                 </h2>
               </div>
             </div>
           </div>
 
           <div className="card-footer position-relative">
-            <a className="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">
+            <a
+              className="collapse-link collapsed stretched-link"
+              data-bs-toggle="collapse"
+              href="#collapse-2"
+            >
               View example's code
             </a>
           </div>
 
-          <div id="collapse-2" className="card-footer bg-dark p-0 accordion-collapse collapse">
+          <div
+            id="collapse-2"
+            className="card-footer bg-dark p-0 accordion-collapse collapse"
+          >
             <div className="code-wrapper">
               <div className="code-wrapper-inner">
                 <CodeHighlight language="jsx">{replaceMeMarkup}</CodeHighlight>

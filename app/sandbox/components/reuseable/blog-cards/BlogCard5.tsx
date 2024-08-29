@@ -1,7 +1,7 @@
-import Link from "next/link";
-import dayjs from "dayjs";
+import Link from 'next/link';
+import dayjs from 'dayjs';
 // LOCAL CUSTOM COMPONENTS
-import NextLink from "../links/NextLink";
+import NextLink from '../links/NextLink';
 
 // ======================================================
 interface BlogCard5Props {
@@ -25,7 +25,9 @@ export default function BlogCard5(props: BlogCard5Props) {
       </Link>
 
       <figcaption>
-        <span className="badge badge-lg bg-white text-uppercase mb-3">{category}</span>
+        <span className="badge badge-lg bg-white text-uppercase mb-3">
+          {category}
+        </span>
         <h2 className="post-title h3 mt-1 mb-3">
           <NextLink title={title} href="#" />
         </h2>
@@ -33,7 +35,7 @@ export default function BlogCard5(props: BlogCard5Props) {
         <ul className="post-meta text-white mb-0">
           <li className="post-date">
             <i className="uil uil-calendar-alt" />
-            <span>{dayjs(createdAt).format("DD MMM YYYY")}</span>
+            <span>{dayjs(createdAt).format('DD MMM YYYY')}</span>
           </li>
 
           <li className="post-author">
