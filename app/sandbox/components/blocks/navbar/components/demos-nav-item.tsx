@@ -30,14 +30,16 @@ export default function DemosNavItem() {
 
   useEffect(() => {
     if (forceOpen && dropdownRef.current) {
+      const currentDropdownRef = dropdownRef.current;
+
       const handleMouseLeave = () => {
         setForceOpen(false);
       };
 
-      dropdownRef.current.addEventListener('mouseleave', handleMouseLeave);
+      currentDropdownRef.addEventListener('mouseleave', handleMouseLeave);
 
       return () => {
-        dropdownRef.current?.removeEventListener('mouseleave', handleMouseLeave);
+        currentDropdownRef.removeEventListener('mouseleave', handleMouseLeave);
       };
     }
   }, [forceOpen]);

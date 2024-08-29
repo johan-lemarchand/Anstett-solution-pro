@@ -17,7 +17,6 @@ import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
 import BlogNavItem from "../components/blog-nav-item";
 import DemosNavItem from "../components/demos-nav-item";
-import DemosAspNavItem from "../components/demos-asp-nav-item";
 import PagesNavItem from "../components/pages-nav-item";
 import BlocksNavItem from "../components/blocks-nav-item";
 import ProjectsNavItem from "../components/projects-nav-item";
