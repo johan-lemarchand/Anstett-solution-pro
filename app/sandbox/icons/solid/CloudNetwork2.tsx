@@ -1,4 +1,4 @@
-import IconProps from '../../../types/icon';
+import { IconProps } from '../../../types/iconProps';
 
 const CloudNetwork2 = ({ className }: IconProps) => {
   return (

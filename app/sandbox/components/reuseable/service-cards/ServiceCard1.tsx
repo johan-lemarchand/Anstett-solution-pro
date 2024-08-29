@@ -1,6 +1,5 @@
 import NextLink from '../links/NextLink';
-
-import IconProps from '../../../../types/icon';
+import { IconProps } from '../../../../types/iconProps';
 import LinkType from '../../../../types/demo-1';
 
 // ===============================================================

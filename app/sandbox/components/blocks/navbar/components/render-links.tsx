@@ -1,5 +1,10 @@
 import ListItemLink from '@sandbox/components/reuseable/links/ListItemLink';
-import { LinkType } from '../../../../../types/link';
+
+export interface LinkType {
+  url: string;
+  title: string;
+  id: string | number;
+}
 
 export default function renderLinks(links: LinkType[]) {
   return links.map(item => (
