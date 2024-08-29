@@ -1,8 +1,8 @@
 "use client";
 
-import useIsotope from "app/sandbox/hooks/useIsotope";
+import useIsotope from "@sandbox/hooks/useIsotope";
 // CUSTOM DATA
-import { testimonials } from "app/sandbox/data/demo-33";
+import { testimonials } from "@sandbox/data/demo-33";
 
 export default function Testimonial27() {
   // used for masionry layout

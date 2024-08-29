@@ -1,6 +1,6 @@
 "use client";
 
-import useReplaceMe from "app/sandbox/hooks/useReplaceMe";
+import useReplaceMe from "@sandbox/hooks/useReplaceMe";
 
 export default function Hero20() {
   // enable the text rotator animation

@@ -1,8 +1,8 @@
 "use client";
 
-import useProgressbar from "app/sandbox/hooks/useProgressbar";
+import useProgressbar from "@sandbox/hooks/useProgressbar";
 // CUSTOM DATA
-import { factList9 } from "app/sandbox/data/facts";
+import { factList9 } from "@sandbox/data/facts";
 
 export default function Facts16() {
   // used for the animated line

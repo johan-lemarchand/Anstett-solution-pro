@@ -1,4 +1,4 @@
-import { fadeInAnimate } from "app/sandbox/utils/animation";
+import { fadeInAnimate } from "@sandbox/utils/animation";
 
 export default function Tiles7() {
   return (

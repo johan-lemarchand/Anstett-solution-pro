@@ -1,5 +1,5 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { ServiceCard5 } from "app/sandbox/components/reuseable/service-cards";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { ServiceCard5 } from "@sandbox/components/reuseable/service-cards";
 
 export default function Services10() {
   return (

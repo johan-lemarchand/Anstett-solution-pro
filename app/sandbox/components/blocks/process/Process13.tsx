@@ -1,9 +1,9 @@
 // GLOBAL CUSTOM COMPONENTS
-import VideoPlyr from "app/sandbox/components/reuseable/VideoPlyr";
+import VideoPlyr from "@sandbox/components/reuseable/VideoPlyr";
 // CUSTOM ICON COMPONENT
-import Hex from "app/sandbox/icons/Hex";
+import Hex from "@sandbox/icons/Hex";
 // CUSTOM DATA
-import { processList10 } from "app/sandbox/data/process";
+import { processList10 } from "@sandbox/data/process";
 
 export default function Process13() {
   return (

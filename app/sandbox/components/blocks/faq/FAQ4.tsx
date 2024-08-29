@@ -1,6 +1,6 @@
-import { Counter2 } from "app/sandbox/components/reuseable/counter";
+import { Counter2 } from "@sandbox/components/reuseable/counter";
 // CUSTOM DATA
-import { facts } from "app/sandbox/data/demo-11";
+import { facts } from "@sandbox/data/demo-11";
 
 export default function FAQ4() {
   return (

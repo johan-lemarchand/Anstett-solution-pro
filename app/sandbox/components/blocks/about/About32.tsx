@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import { Tiles11 } from "app/sandbox/components/elements/tiles";
-import { Counter4 } from "app/sandbox/components/reuseable/counter";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import { Tiles11 } from "@sandbox/components/elements/tiles";
+import { Counter4 } from "@sandbox/components/reuseable/counter";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
-import { abouts } from "app/sandbox/data/demo-32";
+import { abouts } from "@sandbox/data/demo-32";
 
 export default function About32() {
   return (

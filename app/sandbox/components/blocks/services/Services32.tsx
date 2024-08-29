@@ -1,6 +1,6 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
-import { services } from "app/sandbox/data/demo-30";
+import { services } from "@sandbox/data/demo-30";
 
 export default function Services32() {
   return (

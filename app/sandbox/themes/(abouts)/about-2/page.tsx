@@ -1,19 +1,19 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import { Team8 } from "app/sandbox/components/blocks/team";
-import { Clients1 } from "app/sandbox/components/blocks/clients";
-import { Process8 } from "app/sandbox/components/blocks/process";
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import ProgressList from "app/sandbox/components/common/ProgressList";
-import AccordionList from "app/sandbox/components/common/AccordionList";
-import { TestimonialCard2 } from "app/sandbox/components/reuseable/testimonial-cards";
+import { Team8 } from "@sandbox/components/blocks/team";
+import { Clients1 } from "@sandbox/components/blocks/clients";
+import { Process8 } from "@sandbox/components/blocks/process";
+import Carousel from "@sandbox/components/reuseable/Carousel";
+import ProgressList from "@sandbox/components/common/ProgressList";
+import AccordionList from "@sandbox/components/common/AccordionList";
+import { TestimonialCard2 } from "@sandbox/components/reuseable/testimonial-cards";
 // CUSTOM ICON COMPONENTS
-import Target from "app/sandbox/icons/lineal/Target";
-import BarChart from "app/sandbox/icons/lineal/BarChart";
-import Megaphone from "app/sandbox/icons/lineal/Megaphone";
-import SettingsThree from "app/sandbox/icons/lineal/SettingsThree";
+import Target from "@sandbox/icons/lineal/Target";
+import BarChart from "@sandbox/icons/lineal/BarChart";
+import Megaphone from "@sandbox/icons/lineal/Megaphone";
+import SettingsThree from "@sandbox/icons/lineal/SettingsThree";
 // CUSTOM DATA
-import { testimonialList2 } from "app/sandbox/data/testimonial-list";
+import { testimonialList2 } from "@sandbox/data/testimonial-list";
 const serviceList2 = [
   {
     id: 1,

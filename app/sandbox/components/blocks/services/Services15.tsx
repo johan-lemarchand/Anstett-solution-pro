@@ -1,6 +1,6 @@
-import ListColumn from "app/sandbox/components/reuseable/ListColumn";
+import ListColumn from "@sandbox/components/reuseable/ListColumn";
 // CUSTOM DATA
-import { list } from "app/sandbox/data/demo-11";
+import { list } from "@sandbox/data/demo-11";
 
 export default function Services15() {
   return (

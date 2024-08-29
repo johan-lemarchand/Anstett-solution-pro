@@ -1,11 +1,11 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import { About5 } from "app/sandbox/components/blocks/about";
-import { Facts4 } from "app/sandbox/components/blocks/facts";
-import { Pricing2 } from "app/sandbox/components/blocks/pricing";
-import { Process4 } from "app/sandbox/components/blocks/process";
-import { Services9 } from "app/sandbox/components/blocks/services";
-import ListColumn from "app/sandbox/components/reuseable/ListColumn";
+import { About5 } from "@sandbox/components/blocks/about";
+import { Facts4 } from "@sandbox/components/blocks/facts";
+import { Pricing2 } from "@sandbox/components/blocks/pricing";
+import { Process4 } from "@sandbox/components/blocks/process";
+import { Services9 } from "@sandbox/components/blocks/services";
+import ListColumn from "@sandbox/components/reuseable/ListColumn";
 
 // CUSTOM DATA
 const list = [

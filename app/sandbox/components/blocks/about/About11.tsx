@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import { Tiles10 } from "app/sandbox/components/elements/tiles";
-import ListColumn from "app/sandbox/components/reuseable/ListColumn";
+import { Tiles10 } from "@sandbox/components/elements/tiles";
+import ListColumn from "@sandbox/components/reuseable/ListColumn";
 // CUSTOM DATA
-import { aboutList3, aboutList1 } from "app/sandbox/data/about";
+import { aboutList3, aboutList1 } from "@sandbox/data/about";
 
 export default function About11() {
   return (

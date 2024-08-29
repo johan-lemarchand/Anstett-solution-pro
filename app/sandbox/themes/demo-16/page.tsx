@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 // CUSTOM DATA
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { Hero16 } from "app/sandbox/components/blocks/hero";
-import { Contact10 } from "app/sandbox/components/blocks/contact";
-import { Services18 } from "app/sandbox/components/blocks/services";
-import { Portfolio9 } from "app/sandbox/components/blocks/portfolio";
+import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
+import { Hero16 } from "@sandbox/components/blocks/hero";
+import { Contact10 } from "@sandbox/components/blocks/contact";
+import { Services18 } from "@sandbox/components/blocks/services";
+import { Portfolio9 } from "@sandbox/components/blocks/portfolio";
 
 export default function Demo16() {
   return (

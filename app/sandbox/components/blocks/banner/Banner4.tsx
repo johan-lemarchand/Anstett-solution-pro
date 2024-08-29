@@ -2,7 +2,7 @@
 
 import { Fragment } from "react";
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useLightBox from "@sandbox/hooks/useLightBox";
 
 // ======================================================
 interface Banner4Props {

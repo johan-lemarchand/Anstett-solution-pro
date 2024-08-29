@@ -1,5 +1,5 @@
 // CUSTOM DATA
-import { clientList } from "app/sandbox/data/client";
+import { clientList } from "@sandbox/data/client";
 
 export default function Clients1() {
   return (

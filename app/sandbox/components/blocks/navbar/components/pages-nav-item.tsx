@@ -1,10 +1,10 @@
 // GLOBAL CUSTOM COMPONENTS
-import ListItemLink from "app/sandbox/components/reuseable/links/ListItemLink";
-import DropdownToggleLink from "app/sandbox/components/reuseable/links/DropdownToggleLink";
+import ListItemLink from "@sandbox/components/reuseable/links/ListItemLink";
+import DropdownToggleLink from "@sandbox/components/reuseable/links/DropdownToggleLink";
 // LOCAL CUSTOM COMPONENTS
 import renderLinks from "./render-links";
 // CUSTOM DATA
-import { pages } from "app/sandbox/data/navigation";
+import { pages } from "@sandbox/data/navigation";
 
 export default function PagesNavItem() {
   return (

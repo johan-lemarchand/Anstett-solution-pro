@@ -1,12 +1,12 @@
 import { Fragment } from "react";
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from "@sandbox/components/reuseable/CountUp";
 // GLOBAL CUSTOM COMPONENTS
-import { Tiles1 } from "app/sandbox/components/elements/tiles";
-import ListColumn from "app/sandbox/components/reuseable/ListColumn";
-import { ServiceCard3 } from "app/sandbox/components/reuseable/service-cards";
+import { Tiles1 } from "@sandbox/components/elements/tiles";
+import ListColumn from "@sandbox/components/reuseable/ListColumn";
+import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
 // CUSTOM DATA
-import { aboutList1 } from "app/sandbox/data/about";
-import { serviceList4 } from "app/sandbox/data/service";
+import { aboutList1 } from "@sandbox/data/about";
+import { serviceList4 } from "@sandbox/data/service";
 
 export default function Services5() {
   return (

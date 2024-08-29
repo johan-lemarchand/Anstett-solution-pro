@@ -3,9 +3,9 @@
 import { Fragment, PropsWithChildren } from "react";
 import { usePathname } from "next/navigation";
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import { Footer8 } from "@sandbox/components/blocks/footer";
+import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 
 export default function AuthLayout({ children }: PropsWithChildren) {
   const pathname = usePathname();

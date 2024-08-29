@@ -1,5 +1,5 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUP
 import {
   darkMarkup,
@@ -10,7 +10,7 @@ import {
   patternMarkup,
   gradientMarkup,
   imageBackgroundMarkup
-} from "app/sandbox/themes/markups/elements/background";
+} from "@sandbox/themes/markups/elements/background";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Image", url: "snippet-0" },

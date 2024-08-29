@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import ProgressList from "app/sandbox/components/common/ProgressList";
+import ProgressList from "@sandbox/components/common/ProgressList";
 
 export default function About5() {
   return (

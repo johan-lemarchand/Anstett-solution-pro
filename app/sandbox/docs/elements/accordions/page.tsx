@@ -1,9 +1,9 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import Accordion from "app/sandbox/components/reuseable/accordion";
-import AccordionList from "app/sandbox/components/common/AccordionList";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import Accordion from "@sandbox/components/reuseable/accordion";
+import AccordionList from "@sandbox/components/common/AccordionList";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUP
-import { simpleMarkup, cardMarkup, shadowMarkup } from "app/sandbox/themes/markups/elements/accordions";
+import { simpleMarkup, cardMarkup, shadowMarkup } from "@sandbox/themes/markups/elements/accordions";
 // CUSTOM DATA
 import { accordions, quickAccess } from "./data";
 

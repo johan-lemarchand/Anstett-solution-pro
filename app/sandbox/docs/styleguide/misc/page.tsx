@@ -1,7 +1,7 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUP
-import { fontSizeMarkup, lineHeightMarkup, letterSpacingMarkup } from "app/sandbox/themes/markups/styleguide/misc";
+import { fontSizeMarkup, lineHeightMarkup, letterSpacingMarkup } from "@sandbox/themes/markups/styleguide/misc";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Spacing", url: "snippet-1" },

@@ -1,8 +1,8 @@
-import { Counter2 } from "app/sandbox/components/reuseable/counter";
+import { Counter2 } from "@sandbox/components/reuseable/counter";
 // CUSTOM DATA
-import { factList6 } from "app/sandbox/data/facts";
+import { factList6 } from "@sandbox/data/facts";
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import animation from "app/sandbox/utils/animation";
+import animation from "@sandbox/utils/animation";
 
 export default function Facts9() {
   return (

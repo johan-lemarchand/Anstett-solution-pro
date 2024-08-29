@@ -15,8 +15,8 @@
     "plugins": [{ "name": "next" }],
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["app/agency/components/*"],
-      "@utils/*": ["app/agency/utils/*"]
+      "@sandbox/*": ["./app/sandbox/*"],
+      "@agency/*": ["./app/agency/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

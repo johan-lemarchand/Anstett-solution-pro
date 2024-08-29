@@ -1,8 +1,8 @@
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import Carousel from "@sandbox/components/reuseable/Carousel";
 // CUSTOM UTILS
-import carouselBreakpoints from "app/sandbox/utils/carouselBreakpoints";
+import carouselBreakpoints from "@sandbox/utils/carouselBreakpoints";
 // CUSTOM DATA
-import { testimonialList7 } from "app/sandbox/data/testimonial-list";
+import { testimonialList7 } from "@sandbox/data/testimonial-list";
 
 export default function Testimonial19() {
   return (

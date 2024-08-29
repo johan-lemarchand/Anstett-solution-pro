@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import Carousel from "@sandbox/components/reuseable/Carousel";
 // CUSTOM DATA
-import { testimonials } from "app/sandbox/data/demo-32";
+import { testimonials } from "@sandbox/data/demo-32";
 
 export default function Testimonial26() {
   return (

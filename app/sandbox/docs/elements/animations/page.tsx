@@ -1,5 +1,5 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUP
 import {
   standardMarkup,
@@ -8,7 +8,7 @@ import {
   parentWrapMarkup,
   dataDurationMarkup,
   dataIntervalMarkup
-} from "app/sandbox/themes/markups/elements/animations";
+} from "@sandbox/themes/markups/elements/animations";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Standard Example", url: "snippet-1" },

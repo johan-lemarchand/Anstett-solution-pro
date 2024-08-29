@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import DropdownToggleLink from "app/sandbox/components/reuseable/links/DropdownToggleLink";
+import DropdownToggleLink from "@sandbox/components/reuseable/links/DropdownToggleLink";
 // CUSTOM DATA
-import { demos } from "app/sandbox/data/navigation";
+import { demos } from "@sandbox/data/navigation";
 
 export default function DemosNavItem() {
   const [forceOpen, setForceOpen] = useState(false);

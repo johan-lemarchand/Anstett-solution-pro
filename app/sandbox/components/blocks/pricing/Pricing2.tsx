@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import Switch from "app/sandbox/components/reuseable/Switch";
-import { PricingCard2 } from "app/sandbox/components/reuseable/pricing-cards";
+import Switch from "@sandbox/components/reuseable/Switch";
+import { PricingCard2 } from "@sandbox/components/reuseable/pricing-cards";
 // CUSTOM DATA
-import { pricingList2 } from "app/sandbox/data/pricing";
+import { pricingList2 } from "@sandbox/data/pricing";
 
 // =============================================================================
 type Pricing2Props = { className?: string };

@@ -1,4 +1,4 @@
-import { Counter1 } from "app/sandbox/components/reuseable/counter";
+import { Counter1 } from "@sandbox/components/reuseable/counter";
 
 export default function Facts1() {
   return (

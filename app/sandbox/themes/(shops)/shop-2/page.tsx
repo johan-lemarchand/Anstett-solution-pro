@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import Filter from "app/sandbox/components/common/Filter";
-import Select from "app/sandbox/components/reuseable/Select";
-import Pagination from "app/sandbox/components/reuseable/Pagination";
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import { ProductCard } from "app/sandbox/components/reuseable/product-cards";
+import Filter from "@sandbox/components/common/Filter";
+import Select from "@sandbox/components/reuseable/Select";
+import Pagination from "@sandbox/components/reuseable/Pagination";
+import Breadcrumb from "@sandbox/components/reuseable/Breadcrumb";
+import { ProductCard } from "@sandbox/components/reuseable/product-cards";
 // CUSTOM DATA
-import products from "app/sandbox/data/product-list";
+import products from "@sandbox/data/product-list";
 
 export default function ShopTwo() {
   // filter options

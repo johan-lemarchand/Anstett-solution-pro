@@ -1,12 +1,12 @@
 "use client";
 
 import Typewriter from "typewriter-effect";
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // GLOBAL CUSTOM HOOKS
-import useReplaceMe from "app/sandbox/hooks/useReplaceMe";
+import useReplaceMe from "@sandbox/hooks/useReplaceMe";
 // MARKUPS
-import { typerMarkup, replaceMeMarkup } from "app/sandbox/themes/markups/elements/text-animation";
+import { typerMarkup, replaceMeMarkup } from "@sandbox/themes/markups/elements/text-animation";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Typer", url: "snippet-1" },

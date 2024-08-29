@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 // CUSTOM ICON COMPONENT
-import Rocket from "app/sandbox/icons/lineal/Rocket";
-import Shield from "app/sandbox/icons/lineal/Shield";
-import Savings from "app/sandbox/icons/lineal/Savings";
+import Rocket from "@sandbox/icons/lineal/Rocket";
+import Shield from "@sandbox/icons/lineal/Shield";
+import Savings from "@sandbox/icons/lineal/Savings";
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 
 export default function Services12() {
   return (

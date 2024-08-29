@@ -2,7 +2,7 @@ import { Fragment } from "react";
 // LOCAL CUSTOM COMPONENTS
 import Block from "./block";
 // MARKUP
-import * as all from "app/sandbox/themes/markups/elements/navbar";
+import * as all from "@sandbox/themes/markups/elements/navbar";
 
 export default function Navbar() {
   return (

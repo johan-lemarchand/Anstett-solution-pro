@@ -1,7 +1,7 @@
-import ListColumn from "app/sandbox/components/reuseable/ListColumn";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import ListColumn from "@sandbox/components/reuseable/ListColumn";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
-import { aboutList1 } from "app/sandbox/data/about";
+import { aboutList1 } from "@sandbox/data/about";
 
 export default function Services17() {
   return (

@@ -1,9 +1,9 @@
 // GLOBAL CUSTOM COMPONENTS
-import DropdownToggleLink from "app/sandbox/components/reuseable/links/DropdownToggleLink";
+import DropdownToggleLink from "@sandbox/components/reuseable/links/DropdownToggleLink";
 // LOCAL CUSTOM COMPONENTS
 import renderLinks from "./render-links";
 // CUSTOM DATA
-import { projectsNavigation } from "app/sandbox/data/navigation";
+import { projectsNavigation } from "@sandbox/data/navigation";
 
 export default function ProjectsNavItem() {
   return (

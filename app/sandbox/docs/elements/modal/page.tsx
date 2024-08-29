@@ -1,9 +1,9 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
-import Signin from "app/sandbox/components/blocks/navbar/components/signin";
-import Signup from "app/sandbox/components/blocks/navbar/components/signup";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import Signin from "@sandbox/components/blocks/navbar/components/signin";
+import Signup from "@sandbox/components/blocks/navbar/components/signup";
 // MARKUPS
-import { cookieMarkup, subscriptionMarkup, signinMarkup, signupMarkup } from "app/sandbox/themes/markups/elements/modal";
+import { cookieMarkup, subscriptionMarkup, signinMarkup, signupMarkup } from "@sandbox/themes/markups/elements/modal";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Cookie", url: "snippet-1" },

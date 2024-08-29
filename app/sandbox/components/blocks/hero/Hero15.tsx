@@ -1,10 +1,10 @@
 "use client";
 
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import Carousel from "@sandbox/components/reuseable/Carousel";
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useLightBox from "@sandbox/hooks/useLightBox";
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 
 export default function Hero15() {
   // use video popup

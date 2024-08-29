@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import VideoPlyr from "app/sandbox/components/reuseable/VideoPlyr";
-import Pagination from "app/sandbox/components/reuseable/Pagination";
-import { BlogCard2, BlogCard3 } from "app/sandbox/components/reuseable/blog-cards";
+import Carousel from "@sandbox/components/reuseable/Carousel";
+import VideoPlyr from "@sandbox/components/reuseable/VideoPlyr";
+import Pagination from "@sandbox/components/reuseable/Pagination";
+import { BlogCard2, BlogCard3 } from "@sandbox/components/reuseable/blog-cards";
 // CUSTOM DATA
 const blogs = [
   {

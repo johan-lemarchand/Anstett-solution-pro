@@ -4,11 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import { Footer8 } from "@sandbox/components/blocks/footer";
+import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "app/sandbox/hooks/useIsotope";
+import useIsotope from "@sandbox/hooks/useIsotope";
 // CUSTOM DATA
 import { filterItems, projectList } from "./data";
 

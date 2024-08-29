@@ -1,7 +1,7 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { TestimonialCard1 } from "app/sandbox/components/reuseable/testimonial-cards";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { TestimonialCard1 } from "@sandbox/components/reuseable/testimonial-cards";
 // CUSTOM DATA
-import { testimonialList1 } from "app/sandbox/data/testimonial-list";
+import { testimonialList1 } from "@sandbox/data/testimonial-list";
 
 export default function Testimonial1() {
   return (

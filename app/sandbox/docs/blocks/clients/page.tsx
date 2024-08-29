@@ -2,7 +2,7 @@ import { Fragment } from "react";
 // LOCAL CUSTOM COMPONENTS
 import Block from "./block";
 // GLOBAL CUSTOM COMPONENTS
-import { Clients1, Clients2, Clients3, Clients4, Clients5 } from "app/sandbox/components/blocks/clients";
+import { Clients1, Clients2, Clients3, Clients4, Clients5 } from "@sandbox/components/blocks/clients";
 
 export default function Clients() {
   return (

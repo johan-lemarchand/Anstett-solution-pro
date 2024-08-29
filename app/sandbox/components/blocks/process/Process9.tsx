@@ -1,11 +1,11 @@
 "use client";
 
 import { Banner4 } from "../banner";
-import { ServiceCard3 } from "app/sandbox/components/reuseable/service-cards";
+import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useLightBox from "@sandbox/hooks/useLightBox";
 // CUSTOM DATA
-import { processList8 } from "app/sandbox/data/process";
+import { processList8 } from "@sandbox/data/process";
 
 export default function Process9() {
   // lighbox hook called

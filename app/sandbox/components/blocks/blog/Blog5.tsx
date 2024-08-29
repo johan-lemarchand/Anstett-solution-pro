@@ -1,12 +1,12 @@
 import dayjs from "dayjs";
 import Link from "next/link";
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import Carousel from "@sandbox/components/reuseable/Carousel";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM UTILS
-import carouselBreakpoints from "app/sandbox/utils/carouselBreakpoints";
+import carouselBreakpoints from "@sandbox/utils/carouselBreakpoints";
 // CUSTOM DATA
-import { blogList3 } from "app/sandbox/data/blog";
+import { blogList3 } from "@sandbox/data/blog";
 
 export default function Blog5() {
   return (

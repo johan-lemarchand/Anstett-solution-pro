@@ -2,9 +2,9 @@
 
 import Typewriter from "typewriter-effect";
 // CUSTOM UTILS
-import { slideInDownAnimate } from "app/sandbox/utils/animation";
+import { slideInDownAnimate } from "@sandbox/utils/animation";
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useLightBox from "@sandbox/hooks/useLightBox";
 
 export default function Hero3() {
   // used for lightbox

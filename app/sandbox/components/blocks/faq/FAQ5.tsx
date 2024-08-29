@@ -1,4 +1,4 @@
-import { faq } from "app/sandbox/data/demo-11";
+import { faq } from "@sandbox/data/demo-11";
 
 export default function FAQ5() {
   return (

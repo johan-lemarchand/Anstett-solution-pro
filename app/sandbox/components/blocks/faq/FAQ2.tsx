@@ -1,6 +1,6 @@
-import Accordion from "app/sandbox/components/reuseable/accordion";
+import Accordion from "@sandbox/components/reuseable/accordion";
 // CUSTOM DATA
-import { accordionList2 } from "app/sandbox/data/faq";
+import { accordionList2 } from "@sandbox/data/faq";
 
 // ============================================================
 type Faq2Props = { titleColor?: "primary" | "muted" };

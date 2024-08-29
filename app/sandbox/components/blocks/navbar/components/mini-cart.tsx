@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from "app/sandbox/utils/currency";
+import currency from "@sandbox/utils/currency";
 
 const cartItems = [
   {

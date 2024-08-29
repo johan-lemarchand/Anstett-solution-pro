@@ -1,11 +1,11 @@
 import Image from "next/image";
 // GLOBAL CUSTOM COMPONENTS
-import VideoPlyr from "app/sandbox/components/reuseable/VideoPlyr";
-import Pagination from "app/sandbox/components/reuseable/Pagination";
-import BlogSidebar from "app/sandbox/components/reuseable/BlogSidebar";
-import { BlogCard2, BlogCard3 } from "app/sandbox/components/reuseable/blog-cards";
+import VideoPlyr from "@sandbox/components/reuseable/VideoPlyr";
+import Pagination from "@sandbox/components/reuseable/Pagination";
+import BlogSidebar from "@sandbox/components/reuseable/BlogSidebar";
+import { BlogCard2, BlogCard3 } from "@sandbox/components/reuseable/blog-cards";
 // CUSTOM DATA
-import { blogList4 } from "app/sandbox/data/blog";
+import { blogList4 } from "@sandbox/data/blog";
 
 export default function Blog6() {
   return (

@@ -1,4 +1,4 @@
-import SocialLinks from "app/sandbox/components/reuseable/SocialLinks";
+import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
 
 export default function Footer15() {
   return (

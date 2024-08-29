@@ -1,7 +1,7 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUP
-import { simpleMarkup, dismissalMarkup } from "app/sandbox/themes/markups/elements/alerts";
+import { simpleMarkup, dismissalMarkup } from "@sandbox/themes/markups/elements/alerts";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Simple", url: "snippet-1" },

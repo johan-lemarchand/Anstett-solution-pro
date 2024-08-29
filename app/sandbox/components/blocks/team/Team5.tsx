@@ -1,6 +1,6 @@
-import { TeamCard3 } from "app/sandbox/components/reuseable/team-cards";
+import { TeamCard3 } from "@sandbox/components/reuseable/team-cards";
 // CUSTOM DATA
-import { teams } from "app/sandbox/data/demo-8";
+import { teams } from "@sandbox/data/demo-8";
 
 export default function Team5() {
   return (

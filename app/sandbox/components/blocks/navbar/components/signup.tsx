@@ -1,4 +1,4 @@
-import RegisterForm from "app/sandbox/components/elements/forms/RegisterForm";
+import RegisterForm from "@sandbox/components/elements/forms/RegisterForm";
 
 export default function Signup() {
   return (

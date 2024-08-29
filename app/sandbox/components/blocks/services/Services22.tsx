@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 // CUSTOM ICON COMPONENT
-import Bulb from "app/sandbox/icons/solid-mono/Bulb";
-import Compare from "app/sandbox/icons/solid-mono/Compare";
-import DeliveryBox from "app/sandbox/icons/solid-mono/DeliveryBox";
+import Bulb from "@sandbox/icons/solid-mono/Bulb";
+import Compare from "@sandbox/icons/solid-mono/Compare";
+import DeliveryBox from "@sandbox/icons/solid-mono/DeliveryBox";
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 
 export default function Services22() {
   return (

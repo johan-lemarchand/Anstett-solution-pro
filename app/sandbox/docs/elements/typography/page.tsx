@@ -1,6 +1,6 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUPS
 import {
   tinyMarkup,
@@ -11,7 +11,7 @@ import {
   headingMarkup,
   displayMarkup,
   dropcapMarkup
-} from "app/sandbox/themes/markups/elements/typography";
+} from "@sandbox/themes/markups/elements/typography";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Headings", url: "snippet-1" },

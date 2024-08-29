@@ -2,10 +2,10 @@
 
 import clsx from "clsx";
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "app/sandbox/hooks/useIsotope";
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useIsotope from "@sandbox/hooks/useIsotope";
+import useLightBox from "@sandbox/hooks/useLightBox";
 // CUSTOM DATA
-import { portfolioList4 } from "app/sandbox/data/portfolio";
+import { portfolioList4 } from "@sandbox/data/portfolio";
 
 export default function Portfolio5() {
   // lighbox hook called

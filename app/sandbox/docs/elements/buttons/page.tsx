@@ -1,7 +1,7 @@
 import Link from "next/link";
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUP
 import {
   iconMarkup,
@@ -14,7 +14,7 @@ import {
   socialMarkup,
   expandMarkup,
   gradientsMarkup
-} from "app/sandbox/themes/markups/elements/buttons";
+} from "@sandbox/themes/markups/elements/buttons";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Colors", url: "snippet-1" },

@@ -1,8 +1,8 @@
-import IconBox from "app/sandbox/components/reuseable/IconBox";
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
-import { ServiceCard3, ServiceCard4, ServiceCard5 } from "app/sandbox/components/reuseable/service-cards";
+import IconBox from "@sandbox/components/reuseable/IconBox";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import { ServiceCard3, ServiceCard4, ServiceCard5 } from "@sandbox/components/reuseable/service-cards";
 // MARKUPS
 import {
   card1Markup,
@@ -11,10 +11,10 @@ import {
   card4Markup,
   card5Markup,
   card6Markup
-} from "app/sandbox/themes/markups/others/service-cards";
+} from "@sandbox/themes/markups/others/service-cards";
 // CUSTOM DATA
-import data from "app/sandbox/data/career-page-1";
-import { serviceList1, serviceList2, serviceList7 } from "app/sandbox/data/service";
+import data from "@sandbox/data/career-page-1";
+import { serviceList1, serviceList2, serviceList7 } from "@sandbox/data/service";
 const quickAccess = [
   { title: "Service Card 1", url: "snippet-1" },
   { title: "Service Card 2", url: "snippet-2" },

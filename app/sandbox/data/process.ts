@@ -1,16 +1,16 @@
 // -------- icons -------- //
-import Bulb from "app/sandbox/icons/solid-mono/Bulb";
-import Shield from "app/sandbox/icons/lineal/Shield";
-import Rocket from "app/sandbox/icons/lineal/Rocket";
-import Design from "app/sandbox/icons/lineal/Design";
-import Loading from "app/sandbox/icons/lineal/Loading";
-import Compare from "app/sandbox/icons/solid-mono/Compare";
-import Savings from "app/sandbox/icons/lineal/Savings";
-import LightBulb from "app/sandbox/icons/lineal/LightBulb";
-import DeliveryBox from "app/sandbox/icons/solid-mono/DeliveryBox";
-import PieChartTwo from "app/sandbox/icons/lineal/PieChartTwo";
-import SmartphoneTwo from "app/sandbox/icons/lineal/SmartphoneTwo";
-import CloudComputing from "app/sandbox/icons/lineal/CloudComputing";
+import Bulb from "@sandbox/icons/solid-mono/Bulb";
+import Shield from "@sandbox/icons/lineal/Shield";
+import Rocket from "@sandbox/icons/lineal/Rocket";
+import Design from "@sandbox/icons/lineal/Design";
+import Loading from "@sandbox/icons/lineal/Loading";
+import Compare from "@sandbox/icons/solid-mono/Compare";
+import Savings from "@sandbox/icons/lineal/Savings";
+import LightBulb from "@sandbox/icons/lineal/LightBulb";
+import DeliveryBox from "@sandbox/icons/solid-mono/DeliveryBox";
+import PieChartTwo from "@sandbox/icons/lineal/PieChartTwo";
+import SmartphoneTwo from "@sandbox/icons/lineal/SmartphoneTwo";
+import CloudComputing from "@sandbox/icons/lineal/CloudComputing";
 
 // used in the process-1, process-7, process-14 block
 export const processList1 = [

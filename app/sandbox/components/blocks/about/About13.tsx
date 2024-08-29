@@ -1,11 +1,11 @@
 "use client";
 
 import { Banner4 } from "../banner";
-import ListColumn from "app/sandbox/components/reuseable/ListColumn";
+import ListColumn from "@sandbox/components/reuseable/ListColumn";
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useLightBox from "@sandbox/hooks/useLightBox";
 // CUSTOM DATA
-import { aboutList1 } from "app/sandbox/data/about";
+import { aboutList1 } from "@sandbox/data/about";
 
 export default function About13() {
   // lighbox hook called

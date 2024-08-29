@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from "@sandbox/components/reuseable/CountUp";
 
 // ====================================================
 interface CounterProps {

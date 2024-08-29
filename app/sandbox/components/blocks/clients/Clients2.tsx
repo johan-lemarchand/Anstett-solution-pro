@@ -1,4 +1,4 @@
-import { clients } from "app/sandbox/data/demo-8";
+import { clients } from "@sandbox/data/demo-8";
 
 export default function Clients2() {
   return (

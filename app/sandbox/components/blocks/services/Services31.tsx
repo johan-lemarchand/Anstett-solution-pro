@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 // CUSTOM DATA
-import { features } from "app/sandbox/data/demo-29";
+import { features } from "@sandbox/data/demo-29";
 
 export default function Services31() {
   return (

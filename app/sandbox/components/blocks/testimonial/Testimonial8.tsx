@@ -1,10 +1,10 @@
 "use client";
 
-import { TestimonialCard3 } from "app/sandbox/components/reuseable/testimonial-cards";
+import { TestimonialCard3 } from "@sandbox/components/reuseable/testimonial-cards";
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "app/sandbox/hooks/useIsotope";
+import useIsotope from "@sandbox/hooks/useIsotope";
 // CUSTOM DATA
-import { testimonialList } from "app/sandbox/data/demo-7";
+import { testimonialList } from "@sandbox/data/demo-7";
 
 export default function Testimonial8() {
   // used for masonry layout

@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from "app/sandbox/utils/currency";
+import currency from "@sandbox/utils/currency";
 // GLOBAL CUSTOM COMPONENTS
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import { ProductCard2 } from "app/sandbox/components/reuseable/product-cards";
-import { Checkbox, Input, Select } from "app/sandbox/components/elements/checkout-form";
+import Breadcrumb from "@sandbox/components/reuseable/Breadcrumb";
+import { ProductCard2 } from "@sandbox/components/reuseable/product-cards";
+import { Checkbox, Input, Select } from "@sandbox/components/elements/checkout-form";
 // CUSTOM DATA
-import { breadcrumb, orderProducts, orderSummeryRow } from "app/sandbox/data/checkout-page";
+import { breadcrumb, orderProducts, orderSummeryRow } from "@sandbox/data/checkout-page";
 
 export default function Checkout() {
   return (

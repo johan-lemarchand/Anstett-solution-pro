@@ -1,6 +1,6 @@
-import { ProcessList2 } from "app/sandbox/components/reuseable/process-list";
+import { ProcessList2 } from "@sandbox/components/reuseable/process-list";
 // CUSTOM DATA
-import { processList } from "app/sandbox/data/demo-12";
+import { processList } from "@sandbox/data/demo-12";
 
 export default function Process10() {
   return (

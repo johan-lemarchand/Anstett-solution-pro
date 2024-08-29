@@ -1,14 +1,14 @@
 import { Fragment } from "react";
 // -------- custom component -------- //
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { FAQ2 } from "app/sandbox/components/blocks/faq";
-import { Hero9 } from "app/sandbox/components/blocks/hero";
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import { Process9 } from "app/sandbox/components/blocks/process";
-import { Clients3 } from "app/sandbox/components/blocks/clients";
-import { Pricing6 } from "app/sandbox/components/blocks/pricing";
-import { Services12 } from "app/sandbox/components/blocks/services";
-import { Testimonial10 } from "app/sandbox/components/blocks/testimonial";
+import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
+import { FAQ2 } from "@sandbox/components/blocks/faq";
+import { Hero9 } from "@sandbox/components/blocks/hero";
+import { Footer8 } from "@sandbox/components/blocks/footer";
+import { Process9 } from "@sandbox/components/blocks/process";
+import { Clients3 } from "@sandbox/components/blocks/clients";
+import { Pricing6 } from "@sandbox/components/blocks/pricing";
+import { Services12 } from "@sandbox/components/blocks/services";
+import { Testimonial10 } from "@sandbox/components/blocks/testimonial";
 
 export default function Demo9() {
   return (

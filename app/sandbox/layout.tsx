@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import ScrollCue from "app/sandbox/scroll-cue";
-import ThemeProvider from "app/sandbox/theme/ThemeProvider";
-import PageProgress from "app/sandbox/components/common/PageProgress";
+import ScrollCue from "@sandbox/scroll-cue";
+import ThemeProvider from "@sandbox/theme/ThemeProvider";
+import PageProgress from "@sandbox/components/common/PageProgress";
 
 // animate css
 import "animate.css";
@@ -16,9 +16,9 @@ import "plyr-react/plyr.css";
 // glightbox css
 import "glightbox/dist/css/glightbox.css";
 // custom scrollcue css
-import "app/sandbox/plugins/scrollcue/scrollCue.css";
+import "@sandbox/plugins/scrollcue/scrollCue.css";
 // Bootstrap and custom scss
-import "app/sandbox/assets/scss/style.scss";
+import "@sandbox/assets/scss/style.scss";
 import React from "react";
 
 export const metadata: Metadata = {

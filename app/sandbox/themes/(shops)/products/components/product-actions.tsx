@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 // CUSTOM DATA
-import data from "app/sandbox/data/product-details-page";
+import data from "@sandbox/data/product-details-page";
 
 export default function ProductActions() {
   const [quantity, setQuantity] = useState(1);

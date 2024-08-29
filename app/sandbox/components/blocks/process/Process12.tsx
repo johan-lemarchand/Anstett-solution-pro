@@ -1,7 +1,7 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { ServiceCard3 } from "app/sandbox/components/reuseable/service-cards";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
 // CUSTOM DATA
-import { processList9 } from "app/sandbox/data/process";
+import { processList9 } from "@sandbox/data/process";
 
 export default function Process12() {
   return (

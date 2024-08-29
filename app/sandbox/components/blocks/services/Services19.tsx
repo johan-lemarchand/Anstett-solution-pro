@@ -1,8 +1,8 @@
 import { Fragment } from "react";
-import IconBox from "app/sandbox/components/reuseable/IconBox";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import IconBox from "@sandbox/components/reuseable/IconBox";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
-import { serviceList9 } from "app/sandbox/data/service";
+import { serviceList9 } from "@sandbox/data/service";
 
 export default function Services19() {
   return (

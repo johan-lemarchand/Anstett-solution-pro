@@ -1,9 +1,9 @@
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from "@sandbox/components/reuseable/CountUp";
 // GLOBAL CUSTOM COMPONENTS
-import IconBox from "app/sandbox/components/reuseable/IconBox";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import IconBox from "@sandbox/components/reuseable/IconBox";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM UTILS
-import animation, { fadeInAnimate, slideInDownAnimate } from "app/sandbox/utils/animation";
+import animation, { fadeInAnimate, slideInDownAnimate } from "@sandbox/utils/animation";
 
 export default function Hero8() {
   return (

@@ -2,7 +2,7 @@ import { Fragment } from "react";
 // LOCAL CUSTOM COMPONENTS
 import Block from "./block";
 // GLOBAL CUSTOM COMPONENTS
-import * as All from "app/sandbox/components/blocks/services";
+import * as All from "@sandbox/components/blocks/services";
 
 export default function Features() {
   return (

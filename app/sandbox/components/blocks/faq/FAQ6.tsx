@@ -1,7 +1,7 @@
-import Accordion from "app/sandbox/components/reuseable/accordion";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import Accordion from "@sandbox/components/reuseable/accordion";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
-import { accordionList3 } from "app/sandbox/data/faq";
+import { accordionList3 } from "@sandbox/data/faq";
 
 export default function FAQ6() {
   return (

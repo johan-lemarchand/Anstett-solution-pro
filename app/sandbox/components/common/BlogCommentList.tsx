@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 // GLOBAL CUSTOM COMPONENTS
 import FigureImage from "../reuseable/FigureImage";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
 const comments = [
   {

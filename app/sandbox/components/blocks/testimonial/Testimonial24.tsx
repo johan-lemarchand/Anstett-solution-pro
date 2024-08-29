@@ -1,6 +1,6 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // GLOBAL CUSTOM COMPONENTS
-import { testimonials } from "app/sandbox/data/demo-30";
+import { testimonials } from "@sandbox/data/demo-30";
 
 const style = {
   top: "50%",

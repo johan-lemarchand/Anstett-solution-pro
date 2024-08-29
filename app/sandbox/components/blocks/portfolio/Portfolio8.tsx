@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 // CUSTOM DATA
-import { portfolioList5 } from "app/sandbox/data/portfolio";
+import { portfolioList5 } from "@sandbox/data/portfolio";
 
 export default function Portfolio8() {
   return (

@@ -1,7 +1,7 @@
 import clsx from "clsx";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
-import data from "app/sandbox/data/demo-27";
+import data from "@sandbox/data/demo-27";
 
 export default function Pricing10() {
   return (

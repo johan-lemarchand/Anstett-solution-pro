@@ -1,13 +1,13 @@
 "use client";
 
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
-import { ProjectCard1, ProjectCard2, ProjectCard3 } from "app/sandbox/components/reuseable/project-cards";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
+import { ProjectCard1, ProjectCard2, ProjectCard3 } from "@sandbox/components/reuseable/project-cards";
 // MARKUPS
-import { card1Markup, card2Markup, card3Markup } from "app/sandbox/themes/markups/others/project-cards";
+import { card1Markup, card2Markup, card3Markup } from "@sandbox/themes/markups/others/project-cards";
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "app/sandbox/hooks/useIsotope";
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useIsotope from "@sandbox/hooks/useIsotope";
+import useLightBox from "@sandbox/hooks/useLightBox";
 
 // -------- data -------- //
 const projectList = [

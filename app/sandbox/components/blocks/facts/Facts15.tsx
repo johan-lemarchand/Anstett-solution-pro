@@ -1,7 +1,7 @@
-import IconBox from "app/sandbox/components/reuseable/IconBox";
-import { Counter3 } from "app/sandbox/components/reuseable/counter";
+import IconBox from "@sandbox/components/reuseable/IconBox";
+import { Counter3 } from "@sandbox/components/reuseable/counter";
 // CUSTOM DATA
-import { factList8 } from "app/sandbox/data/facts";
+import { factList8 } from "@sandbox/data/facts";
 
 export default function Facts15() {
   return (

@@ -1,7 +1,7 @@
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import { TestimonialCard2 } from "app/sandbox/components/reuseable/testimonial-cards";
+import Carousel from "@sandbox/components/reuseable/Carousel";
+import { TestimonialCard2 } from "@sandbox/components/reuseable/testimonial-cards";
 // CUSTOM DATA
-import { testimonialList2 } from "app/sandbox/data/testimonial-list";
+import { testimonialList2 } from "@sandbox/data/testimonial-list";
 
 export default function Testimonial5() {
   return (

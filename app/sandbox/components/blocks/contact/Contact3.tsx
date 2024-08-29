@@ -1,5 +1,5 @@
-import { Tiles3 } from "app/sandbox/components/elements/tiles";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import { Tiles3 } from "@sandbox/components/elements/tiles";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 
 export default function Contact3() {
   return (

@@ -1,6 +1,6 @@
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from "@sandbox/components/reuseable/CountUp";
 // CUSTOM DATA
-import { factList4 } from "app/sandbox/data/facts";
+import { factList4 } from "@sandbox/data/facts";
 
 export default function Facts5() {
   return (

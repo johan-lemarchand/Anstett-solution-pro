@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import * as All from "app/sandbox/components/blocks/team";
+import * as All from "@sandbox/components/blocks/team";
 // LOCAL CUSTOM COMPONENTS
 import Block from "./block";
 

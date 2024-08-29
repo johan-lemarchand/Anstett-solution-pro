@@ -1,11 +1,11 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import Select from "app/sandbox/components/reuseable/Select";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { JobPostCard2 } from "app/sandbox/components/reuseable/job-cards";
-import { ServiceCard3 } from "app/sandbox/components/reuseable/service-cards";
+import Select from "@sandbox/components/reuseable/Select";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { JobPostCard2 } from "@sandbox/components/reuseable/job-cards";
+import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
 // CUSTOM DATA
-import data from "app/sandbox/data/career-page-2";
+import data from "@sandbox/data/career-page-2";
 
 export default function CareerTwo() {
   return (

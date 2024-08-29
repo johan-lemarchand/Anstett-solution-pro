@@ -2,10 +2,10 @@
 
 import { Fragment } from "react";
 // -------- CUSTOM COMPONENTS -------- //
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import FigureImage from "app/sandbox/components/reuseable/FigureImage";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import { Footer8 } from "@sandbox/components/blocks/footer";
+import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
+import FigureImage from "@sandbox/components/reuseable/FigureImage";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 
 // ==============================================================
 interface Props {

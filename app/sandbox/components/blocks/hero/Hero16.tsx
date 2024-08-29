@@ -1,10 +1,10 @@
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from "@sandbox/components/reuseable/CountUp";
 // CUSTOM ICON COMPONENT
-import Check from "app/sandbox/icons/lineal/Check";
+import Check from "@sandbox/icons/lineal/Check";
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM UTILS
-import { slideInDownAnimate } from "app/sandbox/utils/animation";
+import { slideInDownAnimate } from "@sandbox/utils/animation";
 
 export default function Hero16() {
   return (

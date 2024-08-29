@@ -1,8 +1,8 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUPS
-import { dotMarkup, lineMarkup, solidMarkup } from "app/sandbox/themes/markups/elements/shapes";
+import { dotMarkup, lineMarkup, solidMarkup } from "@sandbox/themes/markups/elements/shapes";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Dot", url: "snippet-1" },

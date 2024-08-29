@@ -1,4 +1,4 @@
-import Puzzle from "app/sandbox/icons/lineal/Puzzle";
+import Puzzle from "@sandbox/icons/lineal/Puzzle";
 
 export default function CTA5() {
   return (

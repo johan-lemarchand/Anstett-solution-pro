@@ -1,6 +1,6 @@
-import { Counter2 } from "app/sandbox/components/reuseable/counter";
+import { Counter2 } from "@sandbox/components/reuseable/counter";
 // CUSTOM DATA
-import { factList2 } from "app/sandbox/data/facts";
+import { factList2 } from "@sandbox/data/facts";
 
 export default function Facts3() {
   return (

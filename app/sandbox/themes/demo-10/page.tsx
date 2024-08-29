@@ -1,17 +1,17 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { Hero10 } from "app/sandbox/components/blocks/hero";
-import { Facts7 } from "app/sandbox/components/blocks/facts";
-import { About11 } from "app/sandbox/components/blocks/about";
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import { Contact5 } from "app/sandbox/components/blocks/contact";
-import { Clients1 } from "app/sandbox/components/blocks/clients";
-import { Tiles8, Tiles9 } from "app/sandbox/components/elements/tiles";
-import { Services13, Services6 } from "app/sandbox/components/blocks/services";
-import { TestimonialCard4 } from "app/sandbox/components/reuseable/testimonial-cards";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import Topbar from "app/sandbox/components/elements/Topbar";
+import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
+import { Hero10 } from "@sandbox/components/blocks/hero";
+import { Facts7 } from "@sandbox/components/blocks/facts";
+import { About11 } from "@sandbox/components/blocks/about";
+import { Footer8 } from "@sandbox/components/blocks/footer";
+import { Contact5 } from "@sandbox/components/blocks/contact";
+import { Clients1 } from "@sandbox/components/blocks/clients";
+import { Tiles8, Tiles9 } from "@sandbox/components/elements/tiles";
+import { Services13, Services6 } from "@sandbox/components/blocks/services";
+import { TestimonialCard4 } from "@sandbox/components/reuseable/testimonial-cards";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import Topbar from "@sandbox/components/elements/Topbar";
 
 export default function Demo10() {
   return (

@@ -2,16 +2,16 @@
 
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { ProjectCard1 } from "app/sandbox/components/reuseable/project-cards";
+import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
+import { Footer8 } from "@sandbox/components/blocks/footer";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { ProjectCard1 } from "@sandbox/components/reuseable/project-cards";
 // GLOBAL CUSTOM HOOKS
-import useIsotope from "app/sandbox/hooks/useIsotope";
-import useTooltip from "app/sandbox/hooks/useTooltip";
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useIsotope from "@sandbox/hooks/useIsotope";
+import useTooltip from "@sandbox/hooks/useTooltip";
+import useLightBox from "@sandbox/hooks/useLightBox";
 // CUSTOM DATA
-import { projectList1 } from "app/sandbox/data/project";
+import { projectList1 } from "@sandbox/data/project";
 
 export default function Projects() {
   // used for masonry layout

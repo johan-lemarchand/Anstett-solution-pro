@@ -1,4 +1,4 @@
-import data from "app/sandbox/data/demo-26";
+import data from "@sandbox/data/demo-26";
 
 export default function About26() {
   return (

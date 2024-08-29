@@ -3,10 +3,10 @@
 import { Fragment } from "react";
 import { Element, Link as ScrollLink } from "react-scroll";
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { Footer8 } from "app/sandbox/components/blocks/footer";
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
+import { Footer8 } from "@sandbox/components/blocks/footer";
+import Breadcrumb from "@sandbox/components/reuseable/Breadcrumb";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
 const linkList = [
   { id: 1, title: "1. Terms & Conditions", to: "terms-conditions" },

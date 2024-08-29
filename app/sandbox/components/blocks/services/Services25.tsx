@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
-import { serviceList13 } from "app/sandbox/data/service";
+import { serviceList13 } from "@sandbox/data/service";
 
 export default function Services25() {
   return (

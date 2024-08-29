@@ -1,6 +1,6 @@
-import GoogleAppBtn from "app/sandbox/components/common/GoogleAppBtn";
+import GoogleAppBtn from "@sandbox/components/common/GoogleAppBtn";
 // CUSTOM UTILS
-import { fadeInAnimate, slideInDownAnimate } from "app/sandbox/utils/animation";
+import { fadeInAnimate, slideInDownAnimate } from "@sandbox/utils/animation";
 
 export default function Hero6() {
   return (

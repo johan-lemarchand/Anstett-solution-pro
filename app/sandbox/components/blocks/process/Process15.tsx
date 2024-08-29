@@ -1,4 +1,4 @@
-import { processList11 } from "app/sandbox/data/process";
+import { processList11 } from "@sandbox/data/process";
 
 export default function Process15() {
   return (

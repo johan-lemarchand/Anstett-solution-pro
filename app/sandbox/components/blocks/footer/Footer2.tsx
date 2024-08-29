@@ -1,5 +1,5 @@
 import { Contact2 } from "../contact";
-import SocialLinks from "app/sandbox/components/reuseable/SocialLinks";
+import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
 
 export default function Footer2() {
   return (

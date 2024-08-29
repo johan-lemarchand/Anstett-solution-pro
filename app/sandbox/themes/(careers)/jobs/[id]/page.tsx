@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 // CUSTOM DATA
-import ListColumn from "app/sandbox/components/reuseable/ListColumn";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
-import { JobPostCard1 } from "app/sandbox/components/reuseable/job-cards";
+import ListColumn from "@sandbox/components/reuseable/ListColumn";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
+import { JobPostCard1 } from "@sandbox/components/reuseable/job-cards";
 // CUSTOM DATA
-import data from "app/sandbox/data/job-details-page";
+import data from "@sandbox/data/job-details-page";
 
 export async function generateStaticParams() {
   return [1, 2, 3, 4, 5, 6].map((item) => ({ id: item.toString() }));

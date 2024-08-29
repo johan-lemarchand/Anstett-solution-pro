@@ -1,6 +1,6 @@
 "use client";
 
-import useProgressbar from "app/sandbox/hooks/useProgressbar";
+import useProgressbar from "@sandbox/hooks/useProgressbar";
 
 export default function Facts13() {
   // used for the animated line

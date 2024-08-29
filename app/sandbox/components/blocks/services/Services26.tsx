@@ -1,6 +1,6 @@
 import Link from "next/link";
 // CUSTOM DATA
-import { serviceList14 } from "app/sandbox/data/service";
+import { serviceList14 } from "@sandbox/data/service";
 
 export default function Services26() {
   return (

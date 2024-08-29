@@ -1,14 +1,14 @@
 "use client";
 
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from "@sandbox/components/reuseable/CountUp";
 // GLOBAL CUSTOM COMPONENTS
-import { ProcessList2 } from "app/sandbox/components/reuseable/process-list";
+import { ProcessList2 } from "@sandbox/components/reuseable/process-list";
 // GLOBAL CUSTOM HOOKS
-import useProgressbar from "app/sandbox/hooks/useProgressbar";
+import useProgressbar from "@sandbox/hooks/useProgressbar";
 // CUSTOM DATA
-import { skill2 } from "app/sandbox/data/skill";
-import { factList10 } from "app/sandbox/data/facts";
-import { processList } from "app/sandbox/data/demo-12";
+import { skill2 } from "@sandbox/data/skill";
+import { factList10 } from "@sandbox/data/facts";
+import { processList } from "@sandbox/data/demo-12";
 
 const list = [
   "Aenean eu leo quam pellentesque.",

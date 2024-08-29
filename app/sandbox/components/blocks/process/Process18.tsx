@@ -1,6 +1,6 @@
-import { ServiceCard3 } from "app/sandbox/components/reuseable/service-cards";
+import { ServiceCard3 } from "@sandbox/components/reuseable/service-cards";
 // CUSTOM DATA
-import { processList } from "app/sandbox/data/demo-28";
+import { processList } from "@sandbox/data/demo-28";
 
 export default function Process18() {
   return (

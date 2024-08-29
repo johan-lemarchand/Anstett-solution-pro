@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import { ProjectCard3 } from "app/sandbox/components/reuseable/project-cards";
+import Carousel from "@sandbox/components/reuseable/Carousel";
+import { ProjectCard3 } from "@sandbox/components/reuseable/project-cards";
 // CUSTOM UTILS
-import carouselBreakpoints from "app/sandbox/utils/carouselBreakpoints";
+import carouselBreakpoints from "@sandbox/utils/carouselBreakpoints";
 // CUSTOM DATA
-import { portfolioList6 } from "app/sandbox/data/portfolio";
+import { portfolioList6 } from "@sandbox/data/portfolio";
 
 export default function Portfolio10() {
   return (

@@ -1,11 +1,11 @@
 "use client";
 
-import { slideInDownAnimate } from "app/sandbox/utils/animation";
+import { slideInDownAnimate } from "@sandbox/utils/animation";
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import Carousel from "@sandbox/components/reuseable/Carousel";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useLightBox from "@sandbox/hooks/useLightBox";
 
 export default function Hero11() {
   // use video popup

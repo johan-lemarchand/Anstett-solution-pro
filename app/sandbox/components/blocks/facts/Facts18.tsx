@@ -1,8 +1,8 @@
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from "@sandbox/components/reuseable/CountUp";
 // CUSTOM ICON COMPONENTS
-import Medal from "app/sandbox/icons/solid-duo/Medal";
-import Target from "app/sandbox/icons/solid-mono/Target";
-import Employees from "app/sandbox/icons/solid-mono/Employees";
+import Medal from "@sandbox/icons/solid-duo/Medal";
+import Target from "@sandbox/icons/solid-mono/Target";
+import Employees from "@sandbox/icons/solid-mono/Employees";
 
 export default function Facts18() {
   return (

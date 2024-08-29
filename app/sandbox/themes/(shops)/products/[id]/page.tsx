@@ -1,17 +1,17 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import { ProductCard } from "app/sandbox/components/reuseable/product-cards";
-import ThumbsCarousel from "app/sandbox/components/reuseable/ThumbsCarousel";
+import Carousel from "@sandbox/components/reuseable/Carousel";
+import Breadcrumb from "@sandbox/components/reuseable/Breadcrumb";
+import { ProductCard } from "@sandbox/components/reuseable/product-cards";
+import ThumbsCarousel from "@sandbox/components/reuseable/ThumbsCarousel";
 // LOCAL CUSTOM COMPONENTS
 import ProductActions from "../components/product-actions";
 import ProductReviews from "../components/product-reviews";
 import ProductDescription from "../components/product-description";
 import ProductReviewAside from "../components/product-review-aside";
 // CUSTOM DATA
-import products from "app/sandbox/data/product-list";
-import data from "app/sandbox/data/product-details-page";
+import products from "@sandbox/data/product-list";
+import data from "@sandbox/data/product-details-page";
 
 export async function generateStaticParams() {
   return [1, 2, 3, 4, 5, 6].map((item) => ({ id: item.toString() }));

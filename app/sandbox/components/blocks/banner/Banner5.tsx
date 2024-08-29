@@ -1,4 +1,4 @@
-import VideoPlyr from "app/sandbox/components/reuseable/VideoPlyr";
+import VideoPlyr from "@sandbox/components/reuseable/VideoPlyr";
 
 export default function Banner5() {
   return (

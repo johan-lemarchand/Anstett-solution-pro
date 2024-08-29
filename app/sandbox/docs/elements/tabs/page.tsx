@@ -1,10 +1,10 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // CUSTOM ICON COMPONENT
-import Rocket from "app/sandbox/icons/lineal/Rocket";
-import Savings from "app/sandbox/icons/lineal/Savings";
+import Rocket from "@sandbox/icons/lineal/Rocket";
+import Savings from "@sandbox/icons/lineal/Savings";
 // MARKUPS
-import { basicMarkup, pillMarkup, justifiedMarkup } from "app/sandbox/themes/markups/elements/tabs";
+import { basicMarkup, pillMarkup, justifiedMarkup } from "@sandbox/themes/markups/elements/tabs";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Basic", url: "snippet-1" },

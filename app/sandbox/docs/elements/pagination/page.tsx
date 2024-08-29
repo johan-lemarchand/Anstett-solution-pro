@@ -1,9 +1,9 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import Pagination from "app/sandbox/components/reuseable/Pagination";
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import Pagination from "@sandbox/components/reuseable/Pagination";
+import Breadcrumb from "@sandbox/components/reuseable/Breadcrumb";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUPS
-import { defaultMarkup, alternativeMarkup, breadcrumbMarkup } from "app/sandbox/themes/markups/elements/pagination";
+import { defaultMarkup, alternativeMarkup, breadcrumbMarkup } from "@sandbox/themes/markups/elements/pagination";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Default", url: "snippet-1" },

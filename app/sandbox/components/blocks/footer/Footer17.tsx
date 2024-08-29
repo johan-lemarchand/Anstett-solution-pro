@@ -1,5 +1,5 @@
-import IconBox from "app/sandbox/components/reuseable/IconBox";
-import SocialLinks from "app/sandbox/components/reuseable/SocialLinks";
+import IconBox from "@sandbox/components/reuseable/IconBox";
+import SocialLinks from "@sandbox/components/reuseable/SocialLinks";
 
 export default function Footer17() {
   return (

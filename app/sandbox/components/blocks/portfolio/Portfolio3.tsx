@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from "app/sandbox/components/reuseable/Carousel";
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import Carousel from "@sandbox/components/reuseable/Carousel";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM DATA
-import { portfolioList2 } from "app/sandbox/data/portfolio";
+import { portfolioList2 } from "@sandbox/data/portfolio";
 
 export default function Portfolio3() {
   return (

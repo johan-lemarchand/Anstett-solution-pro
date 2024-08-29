@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import clsx from "clsx";
 // GLOBAL CUSTOM COMPONENTS
-import Breadcrumb from "app/sandbox/components/reuseable/Breadcrumb";
-import CartListItem from "app/sandbox/components/reuseable/CartListItem";
+import Breadcrumb from "@sandbox/components/reuseable/Breadcrumb";
+import CartListItem from "@sandbox/components/reuseable/CartListItem";
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from "app/sandbox/utils/currency";
+import currency from "@sandbox/utils/currency";
 // CUSTOM DATA
-import { breadcrumb, cartList, orderSummeryRow, tableHeading } from "app/sandbox/data/cart-page";
+import { breadcrumb, cartList, orderSummeryRow, tableHeading } from "@sandbox/data/cart-page";
 
 export default function Cart() {
   return (

@@ -1,8 +1,8 @@
 import { Fragment } from "react";
-import { Tiles11 } from "app/sandbox/components/elements/tiles";
-import ListColumn from "app/sandbox/components/reuseable/ListColumn";
+import { Tiles11 } from "@sandbox/components/elements/tiles";
+import ListColumn from "@sandbox/components/reuseable/ListColumn";
 // CUSTOM DATA
-import { aboutList2, aboutList3 } from "app/sandbox/data/about";
+import { aboutList2, aboutList3 } from "@sandbox/data/about";
 
 export default function About19() {
   return (

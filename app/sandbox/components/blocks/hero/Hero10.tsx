@@ -1,6 +1,6 @@
-import NextLink from "app/sandbox/components/reuseable/links/NextLink";
+import NextLink from "@sandbox/components/reuseable/links/NextLink";
 // CUSTOM UTILS
-import { slideInDownAnimate } from "app/sandbox/utils/animation";
+import { slideInDownAnimate } from "@sandbox/utils/animation";
 
 export default function Hero10() {
   return (

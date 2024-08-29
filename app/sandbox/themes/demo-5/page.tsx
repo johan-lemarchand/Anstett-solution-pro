@@ -1,15 +1,15 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "app/sandbox/components/blocks/navbar/navbar-1";
-import { Hero5 } from "app/sandbox/components/blocks/hero";
-import { Footer6 } from "app/sandbox/components/blocks/footer";
-import { Process4 } from "app/sandbox/components/blocks/process";
-import { Pricing4 } from "app/sandbox/components/blocks/pricing";
-import { Clients1 } from "app/sandbox/components/blocks/clients";
-import { Services6 } from "app/sandbox/components/blocks/services";
-import { CTA2 } from "app/sandbox/components/blocks/call-to-action";
-import { Testimonial7 } from "app/sandbox/components/blocks/testimonial";
-import { Tiles6, Tiles7, Tiles8, Tiles9 } from "app/sandbox/components/elements/tiles";
+import Navbar from "@sandbox/components/blocks/navbar/navbar-1";
+import { Hero5 } from "@sandbox/components/blocks/hero";
+import { Footer6 } from "@sandbox/components/blocks/footer";
+import { Process4 } from "@sandbox/components/blocks/process";
+import { Pricing4 } from "@sandbox/components/blocks/pricing";
+import { Clients1 } from "@sandbox/components/blocks/clients";
+import { Services6 } from "@sandbox/components/blocks/services";
+import { CTA2 } from "@sandbox/components/blocks/call-to-action";
+import { Testimonial7 } from "@sandbox/components/blocks/testimonial";
+import { Tiles6, Tiles7, Tiles8, Tiles9 } from "@sandbox/components/elements/tiles";
 
 export default function Demo5() {
   return (

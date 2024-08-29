@@ -1,7 +1,7 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUP
-import { textColorMarkup, bgColorMarkup } from "app/sandbox/themes/markups/styleguide/colors";
+import { textColorMarkup, bgColorMarkup } from "@sandbox/themes/markups/styleguide/colors";
 // CUSTOM DATA
 const quickAccess = [
   { title: "Changing Primary", url: "snippet-2" },

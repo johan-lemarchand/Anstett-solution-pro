@@ -7,7 +7,7 @@ import type Swiper from "swiper";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import { Swiper as SwiperCarousel, SwiperSlide } from "swiper/react";
 // -------- CUSTOM HOOK -------- //
-import useLightBox from "app/sandbox/hooks/useLightBox";
+import useLightBox from "@sandbox/hooks/useLightBox";
 
 export default function ThumbsCarousel() {
   // FOR FULL VIEW IMAGE

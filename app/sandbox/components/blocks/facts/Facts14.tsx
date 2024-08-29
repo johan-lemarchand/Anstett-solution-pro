@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import CountUp from "app/sandbox/components/reuseable/CountUp";
+import CountUp from "@sandbox/components/reuseable/CountUp";
 // CUSTOM DATA
-import { factList7 } from "app/sandbox/data/facts";
+import { factList7 } from "@sandbox/data/facts";
 
 export default function Facts14() {
   return (

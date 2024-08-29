@@ -1,11 +1,11 @@
-import DocLayout from "app/sandbox/components/layouts/DocLayout";
-import { JobPostCard2 } from "app/sandbox/components/reuseable/job-cards";
-import CodeHighlight from "app/sandbox/components/reuseable/CodeHighlight";
+import DocLayout from "@sandbox/components/layouts/DocLayout";
+import { JobPostCard2 } from "@sandbox/components/reuseable/job-cards";
+import CodeHighlight from "@sandbox/components/reuseable/CodeHighlight";
 // MARKUPS
-import { job1Markup, job2Markup } from "app/sandbox/themes/markups/others/job-cards";
+import { job1Markup, job2Markup } from "@sandbox/themes/markups/others/job-cards";
 // CUSTOM DATA
-import data from "app/sandbox/data/career-page-1";
-import dataTwo from "app/sandbox/data/career-page-2";
+import data from "@sandbox/data/career-page-1";
+import dataTwo from "@sandbox/data/career-page-2";
 
 const quickAccess = [
   { title: "Job Card 1", url: "snippet-1" },

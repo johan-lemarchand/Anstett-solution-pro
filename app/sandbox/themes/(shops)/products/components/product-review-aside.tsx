@@ -1,9 +1,9 @@
 "use client";
 
 // GLOBAL CUSTOM HOOKS
-import useProgressbar from "app/sandbox/hooks/useProgressbar";
+import useProgressbar from "@sandbox/hooks/useProgressbar";
 // CUSTOM DATA
-import data from "app/sandbox/data/product-details-page";
+import data from "@sandbox/data/product-details-page";
 
 export default function ProductReviewAside() {
   // USED FOR PROGRESS BAR ANIMATE

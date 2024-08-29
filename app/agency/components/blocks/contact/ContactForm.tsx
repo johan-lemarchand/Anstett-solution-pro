@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import GoogleRecaptcha, { GoogleRecaptchaRef } from '@components/recaptcha/google-recaptcha';
+import GoogleRecaptcha, { GoogleRecaptchaRef } from '@agency/components/recaptcha/google-recaptcha';
 import { useToast } from "@/components/ui/use-toast";
 
 export default function ContactForm() {

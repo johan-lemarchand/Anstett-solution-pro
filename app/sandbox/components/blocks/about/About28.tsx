@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 // CUSTOM DATA
-import data from "app/sandbox/data/demo-27";
+import data from "@sandbox/data/demo-27";
 
 export default function About28() {
   // reusable list item

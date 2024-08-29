@@ -1,6 +1,6 @@
-import Verify from "app/sandbox/icons/solid-mono/Verify";
-import PushCart from "app/sandbox/icons/solid-mono/PushCart";
-import Shipment from "app/sandbox/icons/solid-mono/Shipment";
+import Verify from "@sandbox/icons/solid-mono/Verify";
+import PushCart from "@sandbox/icons/solid-mono/PushCart";
+import Shipment from "@sandbox/icons/solid-mono/Shipment";
 
 // CUSTOM DATA
 const services = [

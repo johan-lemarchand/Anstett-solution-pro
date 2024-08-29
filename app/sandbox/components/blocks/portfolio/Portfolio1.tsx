@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import Carousel from "@sandbox/components/reuseable/Carousel";
 // CUSTOM DATA
-import { portfolioList1 } from "app/sandbox/data/portfolio";
+import { portfolioList1 } from "@sandbox/data/portfolio";
 
 export default function Portfolio1() {
   const carouselBreakpoints = {

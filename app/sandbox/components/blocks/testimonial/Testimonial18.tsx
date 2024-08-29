@@ -1,6 +1,6 @@
-import Carousel from "app/sandbox/components/reuseable/Carousel";
+import Carousel from "@sandbox/components/reuseable/Carousel";
 // CUSTOM DATA
-import { testimonialList6 } from "app/sandbox/data/testimonial-list";
+import { testimonialList6 } from "@sandbox/data/testimonial-list";
 
 export default function Testimonial18() {
   return (
