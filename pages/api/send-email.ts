@@ -1,7 +1,8 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import fetch from 'node-fetch';
-import { Resend } from 'resend';
+import AWS from 'aws-sdk';
 import ContactFormEmail from '../../emails/contactFormEmail';
+import { renderToStaticMarkup } from 'react-dom/server';
 
 interface ContactFormEmailProps {
   name: string;
@@ -16,6 +17,15 @@ interface RecaptchaResponse {
   hostname?: string;
   'error-codes'?: string[];
 }
+
+// Configure AWS SDK for SES
+AWS.config.update({
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  region: process.env.AWS_REGION
+});
+
+const ses = new AWS.SES({ apiVersion: '2010-12-01' });
 
 export default async function handler(
   req: NextApiRequest,
@@ -106,19 +116,35 @@ export default async function handler(
       });
     }
 
-    const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY_AGENCY);
-
-    await resend.emails.send({
-      from: 'anstett.solutions.pro@gmail.com',
-      to: 'anstett.solutions.pro@gmail.com',
-      subject: 'Formulaire de contact',
-      react: ContactFormEmail({
+    const emailHtml = renderToStaticMarkup(
+      ContactFormEmail({
         name,
         email,
         message,
         phone,
-      } as ContactFormEmailProps),
-    });
+      } as ContactFormEmailProps)
+    );
+
+    const params = {
+      Destination: {
+        ToAddresses: ['anstett.solutions.pro@gmail.com'],
+      },
+      Message: {
+        Body: {
+          Html: {
+            Charset: 'UTF-8',
+            Data: emailHtml,
+          },
+        },
+        Subject: {
+          Charset: 'UTF-8',
+          Data: 'Formulaire de contact',
+        },
+      },
+      Source: 'anstett.solutions.pro@gmail.com',
+    };
+
+    await ses.sendEmail(params).promise();
 
     return res.status(200).json({ error: null, success: true });
   } catch (error) {

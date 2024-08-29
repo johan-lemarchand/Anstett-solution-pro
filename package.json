@@ -12,11 +12,13 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@aws-sdk/client-ses": "^3.637.0",
     "@popperjs/core": "^2.11.8",
     "@radix-ui/react-toast": "^1.2.1",
     "@react-email/components": "^0.0.22",
     "@react-email/tailwind": "0.0.19",
     "animate.css": "^4.1.1",
+    "aws-sdk": "^2.1686.0",
     "bootstrap": "^5.3.3",
     "class-variance-authority": "^0.7.0",
     "clipboard": "^2.0.11",
@@ -26,6 +28,7 @@
     "glightbox": "^3.3.0",
     "isotope-layout": "^3.0.6",
     "itooltip": "^1.1.1",
+    "jsx-email": "^1.12.1",
     "lucide-react": "^0.428.0",
     "next": "14.2.5",
     "node-fetch": "^3.3.2",
