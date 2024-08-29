@@ -1,9 +1,9 @@
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import { BlogCard1 } from 'app/sandbox/components/reuseable/blog-cards';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import { BlogCard1 } from '@sandbox/components/reuseable/blog-cards';
 // CUSTOM UTILS
-import carouselBreakpoints from 'app/sandbox/utils/carouselBreakpoints';
+import carouselBreakpoints from '@sandbox/utils/carouselBreakpoints';
 // CUSTOM DATA
-import { blogList2 } from 'app/sandbox/data/blog';
+import { blogList2 } from '@sandbox/data/blog';
 
 export default function Blog7() {
   return (

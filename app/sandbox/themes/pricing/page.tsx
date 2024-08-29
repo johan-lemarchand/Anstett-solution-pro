@@ -1,18 +1,18 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from 'app/sandbox/components/blocks/footer';
-import { Pricing2 } from 'app/sandbox/components/blocks/pricing';
-import { CTA3 } from 'app/sandbox/components/blocks/call-to-action';
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import IconBox from 'app/sandbox/components/reuseable/IconBox';
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import Accordion from 'app/sandbox/components/reuseable/accordion';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { TestimonialCard3 } from 'app/sandbox/components/reuseable/testimonial-cards';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import { Pricing2 } from '@sandbox/components/blocks/pricing';
+import { CTA3 } from '@sandbox/components/blocks/call-to-action';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import IconBox from '@sandbox/components/reuseable/IconBox';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import Accordion from '@sandbox/components/reuseable/accordion';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { TestimonialCard3 } from '@sandbox/components/reuseable/testimonial-cards';
 // CUSTOM DATA
-import data from 'app/sandbox/data/pricing-page';
+import data from '@sandbox/data/pricing-page';
 // CUSTOM UTILS
-import carouselBreakpoints from 'app/sandbox/utils/carouselBreakpoints';
+import carouselBreakpoints from '@sandbox/utils/carouselBreakpoints';
 
 export default function Pricing() {
   return (

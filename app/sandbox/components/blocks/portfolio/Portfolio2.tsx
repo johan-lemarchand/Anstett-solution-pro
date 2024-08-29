@@ -1,9 +1,9 @@
 import Image from 'next/image';
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { carouselImages } from 'app/sandbox/data/demo-7';
+import { carouselImages } from '@sandbox/data/demo-7';
 
 export default function Portfolio2() {
   return (

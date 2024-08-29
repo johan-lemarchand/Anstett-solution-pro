@@ -1,6 +1,6 @@
 import Image from 'next/image';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // IMAGES
 import image from '../../../../../public/img/photos/bg12.jpg';
 

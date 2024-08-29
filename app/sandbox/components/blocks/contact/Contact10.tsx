@@ -1,5 +1,5 @@
-import Email from 'app/sandbox/icons/lineal/Email';
-import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
+import Email from '@sandbox/icons/lineal/Email';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
 
 export default function Contact10() {
   return (

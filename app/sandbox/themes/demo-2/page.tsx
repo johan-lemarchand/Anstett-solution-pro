@@ -1,17 +1,17 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { Team2 } from 'app/sandbox/components/blocks/team';
-import { Hero2 } from 'app/sandbox/components/blocks/hero';
-import { About2 } from 'app/sandbox/components/blocks/about';
-import { Footer4 } from 'app/sandbox/components/blocks/footer';
-import { Clients1 } from 'app/sandbox/components/blocks/clients';
-import { Process2 } from 'app/sandbox/components/blocks/process';
-import { Services3 } from 'app/sandbox/components/blocks/services';
-import { Portfolio1 } from 'app/sandbox/components/blocks/portfolio';
-import { Testimonial6 } from 'app/sandbox/components/blocks/testimonial';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import Topbar from 'app/sandbox/components/elements/Topbar';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Team2 } from '@sandbox/components/blocks/team';
+import { Hero2 } from '@sandbox/components/blocks/hero';
+import { About2 } from '@sandbox/components/blocks/about';
+import { Footer4 } from '@sandbox/components/blocks/footer';
+import { Clients1 } from '@sandbox/components/blocks/clients';
+import { Process2 } from '@sandbox/components/blocks/process';
+import { Services3 } from '@sandbox/components/blocks/services';
+import { Portfolio1 } from '@sandbox/components/blocks/portfolio';
+import { Testimonial6 } from '@sandbox/components/blocks/testimonial';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import Topbar from '@sandbox/components/elements/Topbar';
 
 export default function Demo2() {
   return (

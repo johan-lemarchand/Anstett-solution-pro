@@ -1,4 +1,4 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'Abstract', url: 'snippet-1' },

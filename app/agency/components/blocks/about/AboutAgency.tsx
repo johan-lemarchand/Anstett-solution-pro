@@ -1,6 +1,6 @@
-import { ServiceCard3 } from 'app/sandbox/components/reuseable/service-cards';
+import { ServiceCard3 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { aboutListAgency } from 'app/sandbox/data/about';
+import { aboutListAgency } from '@sandbox/data/about';
 
 export default function AboutAgency() {
   return (

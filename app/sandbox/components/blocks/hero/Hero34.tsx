@@ -2,7 +2,7 @@
 
 import Typewriter from 'typewriter-effect';
 // CUSTOM UTILS
-import { fadeInAnimate, slideInDownAnimate } from 'app/sandbox/utils/animation';
+import { fadeInAnimate, slideInDownAnimate } from '@sandbox/utils/animation';
 
 export default function Hero34() {
   return (

@@ -1,12 +1,12 @@
 import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUP
 import {
   themeColorMarkup,
   themeProviderMarkup,
-} from 'app/sandbox/themes/markups/styleguide/colors';
+} from '@sandbox/themes/markups/styleguide/colors';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'Core Styles', url: 'snippet-1' },

@@ -1,11 +1,11 @@
 import { Fragment } from 'react';
 // CUSTOM ICON COMPONENT
-import List from 'app/sandbox/icons/lineal/List';
+import List from '@sandbox/icons/lineal/List';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { ProcessList1 } from 'app/sandbox/components/reuseable/process-list';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { ProcessList1 } from '@sandbox/components/reuseable/process-list';
 // CUSTOM DATA
-import { processList1 } from 'app/sandbox/data/process';
+import { processList1 } from '@sandbox/data/process';
 
 export default function Process7() {
   return (

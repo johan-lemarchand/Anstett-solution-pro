@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
 
 export default function Blank() {
   return (

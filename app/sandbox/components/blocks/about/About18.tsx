@@ -1,10 +1,10 @@
 'use client';
 
-import CountUp from 'app/sandbox/components/reuseable/CountUp';
+import CountUp from '@sandbox/components/reuseable/CountUp';
 // GLOBAL CUSTOM HOOKS
-import useProgressbar from 'app/sandbox/hooks/useProgressbar';
+import useProgressbar from '@sandbox/hooks/useProgressbar';
 // CUSTOM ICON COMPONENT
-import CloudGroup from 'app/sandbox/icons/solid-duo/CloudGroup';
+import CloudGroup from '@sandbox/icons/solid-duo/CloudGroup';
 
 export default function About18() {
   // used for the animated line

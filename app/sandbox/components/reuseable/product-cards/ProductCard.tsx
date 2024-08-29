@@ -1,7 +1,7 @@
 import NextLink from '../links/NextLink';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from 'app/sandbox/utils/currency';
-import ratingGenerate from 'app/sandbox/utils/ratings';
+import currency from '@sandbox/utils/currency';
+import ratingGenerate from '@sandbox/utils/ratings';
 
 // =========================================
 interface ProductCardProps {

@@ -1,4 +1,4 @@
-import Carousel2 from 'app/sandbox/components/reuseable/Carousel2';
+import Carousel2 from '@sandbox/components/reuseable/Carousel2';
 
 export default function Hero23() {
   return (

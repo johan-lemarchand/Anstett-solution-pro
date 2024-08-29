@@ -1,5 +1,5 @@
-import Tiles2 from 'app/sandbox/components/elements/tiles/Tiles2';
-import AccordionList from 'app/sandbox/components/common/AccordionList';
+import Tiles2 from '@sandbox/components/elements/tiles/Tiles2';
+import AccordionList from '@sandbox/components/common/AccordionList';
 
 export default function About4() {
   return (

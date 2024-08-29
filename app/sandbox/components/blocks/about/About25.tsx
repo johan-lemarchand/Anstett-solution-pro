@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { ServiceCard3 } from 'app/sandbox/components/reuseable/service-cards';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { ServiceCard3 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { processList12 } from 'app/sandbox/data/process';
+import { processList12 } from '@sandbox/data/process';
 
 export default function About25() {
   return (

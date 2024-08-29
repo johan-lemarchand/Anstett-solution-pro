@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
-import { ServiceCard6 } from 'app/sandbox/components/reuseable/service-cards';
+import { ServiceCard6 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { serviceList2 } from 'app/sandbox/data/service';
+import { serviceList2 } from '@sandbox/data/service';
 
 export default function Services14() {
   return (

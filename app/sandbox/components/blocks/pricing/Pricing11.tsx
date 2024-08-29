@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Switch from 'app/sandbox/components/reuseable/Switch';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { PricingCard3 } from 'app/sandbox/components/reuseable/pricing-cards';
+import Switch from '@sandbox/components/reuseable/Switch';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { PricingCard3 } from '@sandbox/components/reuseable/pricing-cards';
 
 const style = {
   top: '55%',

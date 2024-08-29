@@ -1,8 +1,8 @@
 'use client';
 
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import Carousel from '@sandbox/components/reuseable/Carousel';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from 'app/sandbox/hooks/useLightBox';
+import useLightBox from '@sandbox/hooks/useLightBox';
 // CUSTOM DATA
 const images = [
   '/img/photos/cf1.jpg',

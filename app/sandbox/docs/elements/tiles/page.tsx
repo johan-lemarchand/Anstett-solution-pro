@@ -1,5 +1,5 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 import {
   Tiles1,
   Tiles11,
@@ -10,7 +10,7 @@ import {
   Tiles7,
   Tiles8,
   Tiles9,
-} from 'app/sandbox/components/elements/tiles';
+} from '@sandbox/components/elements/tiles';
 // MARKUPS
 import {
   markup1,
@@ -22,7 +22,7 @@ import {
   markup7,
   markup8,
   markup9,
-} from 'app/sandbox/themes/markups/elements/tiles';
+} from '@sandbox/themes/markups/elements/tiles';
 
 // CUSTOM DATA
 const quickAccess = [

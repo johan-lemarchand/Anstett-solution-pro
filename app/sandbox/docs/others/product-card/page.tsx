@@ -1,17 +1,17 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 import {
   ProductCard,
   ProductCard2,
-} from 'app/sandbox/components/reuseable/product-cards';
+} from '@sandbox/components/reuseable/product-cards';
 // MARKUPS
 import {
   card1Markup,
   card2Markup,
-} from 'app/sandbox/themes/markups/others/product-cards';
+} from '@sandbox/themes/markups/others/product-cards';
 // CUSTOM DATA
-import products from 'app/sandbox/data/product-list';
-import { orderProducts } from 'app/sandbox/data/checkout-page';
+import products from '@sandbox/data/product-list';
+import { orderProducts } from '@sandbox/data/checkout-page';
 
 const quickAccess = [
   { title: 'Product Card 1', url: 'snippet-1' },

@@ -1,9 +1,9 @@
 import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { categories, tags } from 'app/sandbox/data/footer';
+import { categories, tags } from '@sandbox/data/footer';
 
 export default function Footer16() {
   return (

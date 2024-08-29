@@ -1,6 +1,6 @@
-import { TestimonialCard5 } from 'app/sandbox/components/reuseable/testimonial-cards';
+import { TestimonialCard5 } from '@sandbox/components/reuseable/testimonial-cards';
 // CUSTOM DATA
-import { reviews } from 'app/sandbox/data/demo-12';
+import { reviews } from '@sandbox/data/demo-12';
 
 export default function Testimonial12() {
   return (

@@ -1,4 +1,4 @@
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 
 // =======================================================
 interface ProjectDetailsContentProps {

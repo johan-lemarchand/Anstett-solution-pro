@@ -2,15 +2,15 @@
 
 import { Fragment } from 'react';
 // GLOBAL CUSTOM HOOKS
-import useIsotope from 'app/sandbox/hooks/useIsotope';
+import useIsotope from '@sandbox/hooks/useIsotope';
 // GLOBAL CUSTOM COMPONENTS
-import { FAQ2 } from 'app/sandbox/components/blocks/faq';
-import { JobPostCard1 } from 'app/sandbox/components/reuseable/job-cards';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { ServiceCard3 } from 'app/sandbox/components/reuseable/service-cards';
-import { TestimonialCard3 } from 'app/sandbox/components/reuseable/testimonial-cards';
+import { FAQ2 } from '@sandbox/components/blocks/faq';
+import { JobPostCard1 } from '@sandbox/components/reuseable/job-cards';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { ServiceCard3 } from '@sandbox/components/reuseable/service-cards';
+import { TestimonialCard3 } from '@sandbox/components/reuseable/testimonial-cards';
 // CUSTOM DATA
-import data from 'app/sandbox/data/career-page-1';
+import data from '@sandbox/data/career-page-1';
 
 export default function Career() {
   // used for masonry layout design

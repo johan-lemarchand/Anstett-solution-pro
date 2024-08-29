@@ -1,9 +1,9 @@
-import Safe from 'app/sandbox/icons/solid/Safe';
-import Share from 'app/sandbox/icons/solid-mono/Share';
-import Puzzle from 'app/sandbox/icons/solid-mono/Puzzle';
-import PenTool from 'app/sandbox/icons/solid-duo/PenTool';
-import Devices from 'app/sandbox/icons/solid-mono/Devices';
-import GlobeTwo from 'app/sandbox/icons/solid-mono/GlobeTwo';
+import Safe from '@sandbox/icons/solid/Safe';
+import Share from '@sandbox/icons/solid-mono/Share';
+import Puzzle from '@sandbox/icons/solid-mono/Puzzle';
+import PenTool from '@sandbox/icons/solid-duo/PenTool';
+import Devices from '@sandbox/icons/solid-mono/Devices';
+import GlobeTwo from '@sandbox/icons/solid-mono/GlobeTwo';
 
 export default function About31() {
   return (

@@ -1,7 +1,7 @@
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import { BlogCard4 } from 'app/sandbox/components/reuseable/blog-cards';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import { BlogCard4 } from '@sandbox/components/reuseable/blog-cards';
 // CUSTOM DATA
-import { blogList } from 'app/sandbox/data/demo-11';
+import { blogList } from '@sandbox/data/demo-11';
 
 export default function Blog2() {
   const carouselBreakpoints = {

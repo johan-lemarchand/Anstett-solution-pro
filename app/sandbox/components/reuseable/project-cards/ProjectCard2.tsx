@@ -1,6 +1,6 @@
 import { CSSProperties } from 'react';
 import NextLink from '../links/NextLink';
-import FigureImage from 'app/sandbox/components/reuseable/FigureImage';
+import FigureImage from '@sandbox/components/reuseable/FigureImage';
 
 // ==============================================================================
 interface ProjectCard2Props {

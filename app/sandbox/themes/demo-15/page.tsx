@@ -1,15 +1,15 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { Process7 } from 'app/sandbox/components/blocks/process';
-import { Hero15 } from 'app/sandbox/components/blocks/hero';
-import { Team3 } from 'app/sandbox/components/blocks/team';
-import { About6 } from 'app/sandbox/components/blocks/about';
-import { Facts5 } from 'app/sandbox/components/blocks/facts';
-import { Footer9 } from 'app/sandbox/components/blocks/footer';
-import { Contact7 } from 'app/sandbox/components/blocks/contact';
-import { CTA5 } from 'app/sandbox/components/blocks/call-to-action';
-import { Testimonial5 } from 'app/sandbox/components/blocks/testimonial';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Process7 } from '@sandbox/components/blocks/process';
+import { Hero15 } from '@sandbox/components/blocks/hero';
+import { Team3 } from '@sandbox/components/blocks/team';
+import { About6 } from '@sandbox/components/blocks/about';
+import { Facts5 } from '@sandbox/components/blocks/facts';
+import { Footer9 } from '@sandbox/components/blocks/footer';
+import { Contact7 } from '@sandbox/components/blocks/contact';
+import { CTA5 } from '@sandbox/components/blocks/call-to-action';
+import { Testimonial5 } from '@sandbox/components/blocks/testimonial';
 
 export default function Demo15() {
   return (

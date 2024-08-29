@@ -1,18 +1,18 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 import {
   Counter1,
   Counter2,
   Counter3,
-} from 'app/sandbox/components/reuseable/counter';
+} from '@sandbox/components/reuseable/counter';
 // MARKUPS
 import {
   counter1Markup,
   counter2Markup,
   counter3Markup,
-} from 'app/sandbox/themes/markups/others/counters';
+} from '@sandbox/themes/markups/others/counters';
 // CUSTOM DATA
-import { factList1, factList2 } from 'app/sandbox/data/facts';
+import { factList1, factList2 } from '@sandbox/data/facts';
 
 const quickAccess = [
   { title: 'Counter 1', url: 'snippet-1' },

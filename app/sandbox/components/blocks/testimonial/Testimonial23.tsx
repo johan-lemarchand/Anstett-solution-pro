@@ -2,9 +2,9 @@
 
 import { Fragment } from 'react';
 // GLOBAL CUSTOM HOOKS
-import useIsotope from 'app/sandbox/hooks/useIsotope';
+import useIsotope from '@sandbox/hooks/useIsotope';
 // CUSTOM DATA
-import { testimonials } from 'app/sandbox/data/demo-29';
+import { testimonials } from '@sandbox/data/demo-29';
 
 export default function Testimonial23() {
   useIsotope();

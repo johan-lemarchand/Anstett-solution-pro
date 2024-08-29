@@ -1,5 +1,5 @@
-import IconBox from 'app/sandbox/components/reuseable/IconBox';
-import TeleMarketer from 'app/sandbox/icons/lineal/TeleMarketer';
+import IconBox from '@sandbox/components/reuseable/IconBox';
+import TeleMarketer from '@sandbox/icons/lineal/TeleMarketer';
 
 export default function Contact7() {
   return (

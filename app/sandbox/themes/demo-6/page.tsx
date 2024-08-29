@@ -1,16 +1,16 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { FAQ1 } from 'app/sandbox/components/blocks/faq';
-import { Hero6 } from 'app/sandbox/components/blocks/hero';
-import { Footer4 } from 'app/sandbox/components/blocks/footer';
-import { Banner1 } from 'app/sandbox/components/blocks/banner';
-import { Process5 } from 'app/sandbox/components/blocks/process';
-import { Services7 } from 'app/sandbox/components/blocks/services';
-import { Testimonial4 } from 'app/sandbox/components/blocks/testimonial';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { FAQ1 } from '@sandbox/components/blocks/faq';
+import { Hero6 } from '@sandbox/components/blocks/hero';
+import { Footer4 } from '@sandbox/components/blocks/footer';
+import { Banner1 } from '@sandbox/components/blocks/banner';
+import { Process5 } from '@sandbox/components/blocks/process';
+import { Services7 } from '@sandbox/components/blocks/services';
+import { Testimonial4 } from '@sandbox/components/blocks/testimonial';
 
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import Alert from 'app/sandbox/components/common/Alert';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import Alert from '@sandbox/components/common/Alert';
 import VideoBanner from './video-banner';
 
 export default function Demo6() {

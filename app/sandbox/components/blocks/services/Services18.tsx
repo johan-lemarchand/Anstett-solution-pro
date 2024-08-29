@@ -1,9 +1,9 @@
 'use client';
 
-import useProgressbar from 'app/sandbox/hooks/useProgressbar';
+import useProgressbar from '@sandbox/hooks/useProgressbar';
 // CUSTOM DATA
-import { skill1 } from 'app/sandbox/data/skill';
-import { serviceList8 } from 'app/sandbox/data/service';
+import { skill1 } from '@sandbox/data/skill';
+import { serviceList8 } from '@sandbox/data/service';
 
 export default function Services18() {
   // used for the animated line

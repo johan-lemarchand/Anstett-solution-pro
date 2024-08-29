@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
-import { Counter3 } from 'app/sandbox/components/reuseable/counter';
+import { Counter3 } from '@sandbox/components/reuseable/counter';
 // CUSTOM DATA
-import { factList1 } from 'app/sandbox/data/facts';
+import { factList1 } from '@sandbox/data/facts';
 
 // ===========================================================================
 interface Facts2Props {

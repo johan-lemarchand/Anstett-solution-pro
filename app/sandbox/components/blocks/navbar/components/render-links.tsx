@@ -1,4 +1,4 @@
-import ListItemLink from 'app/sandbox/components/reuseable/links/ListItemLink';
+import ListItemLink from '@sandbox/components/reuseable/links/ListItemLink';
 import { LinkType } from '../../../../../types/link';
 
 export default function renderLinks(links: LinkType[]) {

@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
 import FigureImage from './FigureImage';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
 // CUSTOM DATA
-import data from 'app/sandbox/data/blog-sidebar';
+import data from '@sandbox/data/blog-sidebar';
 
 // ========================================================
 type BlogSidebarProps = { thumbnail?: string };

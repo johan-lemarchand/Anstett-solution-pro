@@ -2,8 +2,8 @@
 
 import { Fragment, useRef } from 'react';
 // GLOBAL CUSTOM HOOKS
-import useSticky from 'app/sandbox/hooks/useSticky';
-import useNestedDropdown from 'app/sandbox/hooks/useNestedDropdown';
+import useSticky from '@sandbox/hooks/useSticky';
+import useNestedDropdown from '@sandbox/hooks/useNestedDropdown';
 // LOCAL CUSTOM COMPONENTS
 import Info from '../components/Info';
 import Language from '../components/language';
@@ -14,8 +14,8 @@ import BlocksNavItem from '../components/blocks-nav-item';
 import ProjectsNavItem from '../components/projects-nav-item';
 import DocumentationNavItem from '../components/documentation-nav-item';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
 
 // ===================================================================
 type Navbar2Props = { navClassName?: string };

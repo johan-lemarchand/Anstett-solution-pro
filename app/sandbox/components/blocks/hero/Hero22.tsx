@@ -1,8 +1,8 @@
 'use client';
 
-import useLightBox from 'app/sandbox/hooks/useLightBox';
+import useLightBox from '@sandbox/hooks/useLightBox';
 // CUSTOM UTILS
-import { zoomInAnimate } from 'app/sandbox/utils/animation';
+import { zoomInAnimate } from '@sandbox/utils/animation';
 
 export default function Hero22() {
   // lighbox hook called

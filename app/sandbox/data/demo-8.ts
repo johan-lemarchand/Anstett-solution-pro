@@ -1,8 +1,8 @@
-import Target from 'app/sandbox/icons/lineal/Target';
-import AwardTwo from 'app/sandbox/icons/lineal/AwardTwo';
-import BarChart from 'app/sandbox/icons/lineal/BarChart';
-import Megaphone from 'app/sandbox/icons/lineal/Megaphone';
-import SettingsThree from 'app/sandbox/icons/lineal/SettingsThree';
+import Target from '@sandbox/icons/lineal/Target';
+import AwardTwo from '@sandbox/icons/lineal/AwardTwo';
+import BarChart from '@sandbox/icons/lineal/BarChart';
+import Megaphone from '@sandbox/icons/lineal/Megaphone';
+import SettingsThree from '@sandbox/icons/lineal/SettingsThree';
 
 const clients = [
   { id: 1, image: '/img/brands/c1.png' },

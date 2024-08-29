@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 // CUSTOM DATA
-import { processList2 } from 'app/sandbox/data/process';
+import { processList2 } from '@sandbox/data/process';
 
 export default function Process6() {
   return (

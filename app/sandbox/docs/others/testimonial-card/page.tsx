@@ -1,5 +1,5 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 import {
   TestimonialCard1,
   TestimonialCard2,
@@ -7,7 +7,7 @@ import {
   TestimonialCard4,
   TestimonialCard5,
   TestimonialCard6,
-} from 'app/sandbox/components/reuseable/testimonial-cards';
+} from '@sandbox/components/reuseable/testimonial-cards';
 // MARKUPS
 import {
   card1Markup,
@@ -16,9 +16,9 @@ import {
   card4Markup,
   card5Markup,
   card6Markup,
-} from 'app/sandbox/themes/markups/others/testimonial-cards';
+} from '@sandbox/themes/markups/others/testimonial-cards';
 // CUSTOM DATA
-import { testimonialList2 } from 'app/sandbox/data/testimonial-list';
+import { testimonialList2 } from '@sandbox/data/testimonial-list';
 const quickAccess = [
   { title: 'Testimonial Card 1', url: 'snippet-1' },
   { title: 'Testimonial Card 2', url: 'snippet-2' },

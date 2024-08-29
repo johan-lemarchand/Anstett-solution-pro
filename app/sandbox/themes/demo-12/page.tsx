@@ -1,15 +1,15 @@
 import { Fragment } from 'react';
 // -------- custom component -------- //
-import Navbar2 from 'app/sandbox/components/blocks/navbar/navbar-2';
-import { Hero12 } from 'app/sandbox/components/blocks/hero';
-import { Facts8 } from 'app/sandbox/components/blocks/facts';
-import { About14 } from 'app/sandbox/components/blocks/about';
-import { Footer4 } from 'app/sandbox/components/blocks/footer';
-import { Contact6 } from 'app/sandbox/components/blocks/contact';
-import { Process10 } from 'app/sandbox/components/blocks/process';
-import { Services16 } from 'app/sandbox/components/blocks/services';
-import { Portfolio6 } from 'app/sandbox/components/blocks/portfolio';
-import { Testimonial12 } from 'app/sandbox/components/blocks/testimonial';
+import Navbar2 from '@sandbox/components/blocks/navbar/navbar-2';
+import { Hero12 } from '@sandbox/components/blocks/hero';
+import { Facts8 } from '@sandbox/components/blocks/facts';
+import { About14 } from '@sandbox/components/blocks/about';
+import { Footer4 } from '@sandbox/components/blocks/footer';
+import { Contact6 } from '@sandbox/components/blocks/contact';
+import { Process10 } from '@sandbox/components/blocks/process';
+import { Services16 } from '@sandbox/components/blocks/services';
+import { Portfolio6 } from '@sandbox/components/blocks/portfolio';
+import { Testimonial12 } from '@sandbox/components/blocks/testimonial';
 
 export default function Demo12() {
   return (

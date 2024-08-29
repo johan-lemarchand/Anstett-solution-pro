@@ -1,4 +1,4 @@
-import { slideInDownAnimate } from 'app/sandbox/utils/animation';
+import { slideInDownAnimate } from '@sandbox/utils/animation';
 
 export default function Hero19() {
   return (

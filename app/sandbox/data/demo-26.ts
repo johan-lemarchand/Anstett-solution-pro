@@ -1,11 +1,11 @@
-import Code from 'app/sandbox/icons/solid-mono/Code';
-import Team from 'app/sandbox/icons/solid-mono/Team';
-import Bulb from 'app/sandbox/icons/solid-mono/Bulb';
-import Lamp from 'app/sandbox/icons/solid-mono/Lamp';
-import Puzzle from 'app/sandbox/icons/solid-mono/Puzzle';
-import Devices from 'app/sandbox/icons/solid-mono/Devices';
-import GlobeTwo from 'app/sandbox/icons/solid-mono/GlobeTwo';
-import Headphone from 'app/sandbox/icons/solid-mono/Headphone';
+import Code from '@sandbox/icons/solid-mono/Code';
+import Team from '@sandbox/icons/solid-mono/Team';
+import Bulb from '@sandbox/icons/solid-mono/Bulb';
+import Lamp from '@sandbox/icons/solid-mono/Lamp';
+import Puzzle from '@sandbox/icons/solid-mono/Puzzle';
+import Devices from '@sandbox/icons/solid-mono/Devices';
+import GlobeTwo from '@sandbox/icons/solid-mono/GlobeTwo';
+import Headphone from '@sandbox/icons/solid-mono/Headphone';
 
 const serviceList = [
   {

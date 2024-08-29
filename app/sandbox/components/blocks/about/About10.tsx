@@ -2,10 +2,10 @@
 
 import { Banner4 } from '../banner';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from 'app/sandbox/hooks/useLightBox';
-import useProgressbar from 'app/sandbox/hooks/useProgressbar';
+import useLightBox from '@sandbox/hooks/useLightBox';
+import useProgressbar from '@sandbox/hooks/useProgressbar';
 // CUSTOM DATA
-import { progressList } from 'app/sandbox/data/demo-8';
+import { progressList } from '@sandbox/data/demo-8';
 
 export default function About10() {
   // lighbox hook called

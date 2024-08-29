@@ -1,8 +1,8 @@
 'use client';
 
-import useReplaceMe from 'app/sandbox/hooks/useReplaceMe';
+import useReplaceMe from '@sandbox/hooks/useReplaceMe';
 // CUSTOM DATA
-import { clientList } from 'app/sandbox/data/client';
+import { clientList } from '@sandbox/data/client';
 
 export default function Hero21() {
   // enable the text rotator animation

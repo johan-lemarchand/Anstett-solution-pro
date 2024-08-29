@@ -1,8 +1,8 @@
-import Team from 'app/sandbox/icons/lineal/Team';
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import { TeamCard1 } from 'app/sandbox/components/reuseable/team-cards';
+import Team from '@sandbox/icons/lineal/Team';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import { TeamCard1 } from '@sandbox/components/reuseable/team-cards';
 // CUSTOM DATA
-import teams from 'app/sandbox/data/team-list';
+import teams from '@sandbox/data/team-list';
 
 export default function Team3() {
   const carouselBreakpoints = {

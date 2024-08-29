@@ -1,15 +1,15 @@
 import { Fragment } from 'react';
 
 // GLOBAL CUSTOM COMPONENTS
-import Navbar4 from 'app/sandbox/components/blocks/navbar/navbar-4';
-import { Hero24 } from 'app/sandbox/components/blocks/hero';
-import { About25 } from 'app/sandbox/components/blocks/about';
-import { Banner2 } from 'app/sandbox/components/blocks/banner';
-import { Footer15 } from 'app/sandbox/components/blocks/footer';
-import { Contact12 } from 'app/sandbox/components/blocks/contact';
-import { Services27 } from 'app/sandbox/components/blocks/services';
-import { Portfolio5 } from 'app/sandbox/components/blocks/portfolio';
-import { Testimonial19 } from 'app/sandbox/components/blocks/testimonial';
+import Navbar4 from '@sandbox/components/blocks/navbar/navbar-4';
+import { Hero24 } from '@sandbox/components/blocks/hero';
+import { About25 } from '@sandbox/components/blocks/about';
+import { Banner2 } from '@sandbox/components/blocks/banner';
+import { Footer15 } from '@sandbox/components/blocks/footer';
+import { Contact12 } from '@sandbox/components/blocks/contact';
+import { Services27 } from '@sandbox/components/blocks/services';
+import { Portfolio5 } from '@sandbox/components/blocks/portfolio';
+import { Testimonial19 } from '@sandbox/components/blocks/testimonial';
 
 export default function Demo24() {
   return (

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 
 export default function Portfolio16() {
   return (

@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { Blog6 } from 'app/sandbox/components/blocks/blog';
-import { Hero25 } from 'app/sandbox/components/blocks/hero';
-import { About26 } from 'app/sandbox/components/blocks/about';
-import { Footer16 } from 'app/sandbox/components/blocks/footer';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Blog6 } from '@sandbox/components/blocks/blog';
+import { Hero25 } from '@sandbox/components/blocks/hero';
+import { About26 } from '@sandbox/components/blocks/about';
+import { Footer16 } from '@sandbox/components/blocks/footer';
 
 export default function Demo25() {
   return (

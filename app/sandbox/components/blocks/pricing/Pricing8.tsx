@@ -1,10 +1,10 @@
 import { Fragment, useState } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Switch from 'app/sandbox/components/reuseable/Switch';
-import { PricingCard1 } from 'app/sandbox/components/reuseable/pricing-cards';
+import Switch from '@sandbox/components/reuseable/Switch';
+import { PricingCard1 } from '@sandbox/components/reuseable/pricing-cards';
 import { FAQ5 } from '../faq';
 // CUSTOM DATA
-import { pricingList3 } from 'app/sandbox/data/pricing';
+import { pricingList3 } from '@sandbox/data/pricing';
 
 export default function Pricing8() {
   const [activeYearly, setActiveYearly] = useState(false);

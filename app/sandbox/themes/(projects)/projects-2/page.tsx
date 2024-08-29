@@ -2,11 +2,11 @@
 
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from 'app/sandbox/components/blocks/footer';
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import Pagination from 'app/sandbox/components/reuseable/Pagination';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { ProjectCard2 } from 'app/sandbox/components/reuseable/project-cards';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import Pagination from '@sandbox/components/reuseable/Pagination';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { ProjectCard2 } from '@sandbox/components/reuseable/project-cards';
 // CUSTOM DATA
 import { projectList } from './data';
 

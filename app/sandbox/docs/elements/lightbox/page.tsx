@@ -1,14 +1,14 @@
 'use client';
 
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from 'app/sandbox/hooks/useLightBox';
+import useLightBox from '@sandbox/hooks/useLightBox';
 // MARKUPS
 import {
   imageMarkup,
   videoMarkup,
-} from 'app/sandbox/themes/markups/elements/lightbox';
+} from '@sandbox/themes/markups/elements/lightbox';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'Instructions', url: 'snippet-1' },

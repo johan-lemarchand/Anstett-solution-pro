@@ -1,6 +1,6 @@
-import { BlogCard4 } from 'app/sandbox/components/reuseable/blog-cards';
+import { BlogCard4 } from '@sandbox/components/reuseable/blog-cards';
 // CUSTOM DATA
-import { blogs } from 'app/sandbox/data/demo-32';
+import { blogs } from '@sandbox/data/demo-32';
 
 export default function Blog8() {
   return (

@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
-import ListColumn from 'app/sandbox/components/reuseable/ListColumn';
+import ListColumn from '@sandbox/components/reuseable/ListColumn';
 // CUSTOM DATA
-import { serviceList5 } from 'app/sandbox/data/service';
+import { serviceList5 } from '@sandbox/data/service';
 
 // ============================================================
 interface Services6Props {

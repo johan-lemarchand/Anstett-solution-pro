@@ -5,8 +5,8 @@ import { Fragment, useRef } from 'react';
 import useSticky from 'app/agency/hooks/useSticky';
 import useNestedDropdown from 'app/agency/hooks/useNestedDropdown';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
 
 // ===================================================================
 interface Navbar3Props {

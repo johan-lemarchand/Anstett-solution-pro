@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from 'app/sandbox/components/blocks/footer';
-import { Contact2 } from 'app/sandbox/components/blocks/contact';
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import ContactForm from 'app/sandbox/components/common/ContactForm';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import { Contact2 } from '@sandbox/components/blocks/contact';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import ContactForm from '@sandbox/components/common/ContactForm';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 
 export default function ContactThree() {
   return (

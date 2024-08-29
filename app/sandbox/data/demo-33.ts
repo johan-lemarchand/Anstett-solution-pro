@@ -1,11 +1,11 @@
-import Puzzle from 'app/sandbox/icons/lineal/Puzzle';
-import Browser from 'app/sandbox/icons/lineal/Browser';
-import Pentool from 'app/sandbox/icons/lineal/Pentool';
-import SearchTwo from 'app/sandbox/icons/lineal/SearchTwo';
-import Smartphone from 'app/sandbox/icons/lineal/Smartphone';
-import VideoEditing from 'app/sandbox/icons/lineal/VideoEditing';
+import Puzzle from '@sandbox/icons/lineal/Puzzle';
+import Browser from '@sandbox/icons/lineal/Browser';
+import Pentool from '@sandbox/icons/lineal/Pentool';
+import SearchTwo from '@sandbox/icons/lineal/SearchTwo';
+import Smartphone from '@sandbox/icons/lineal/Smartphone';
+import VideoEditing from '@sandbox/icons/lineal/VideoEditing';
 
-import color from 'app/sandbox/utils/color';
+import color from '@sandbox/utils/color';
 
 export const services = [
   {

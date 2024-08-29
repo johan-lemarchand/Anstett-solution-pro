@@ -1,4 +1,4 @@
-import animation from 'app/sandbox/utils/animation';
+import animation from '@sandbox/utils/animation';
 
 export default function Tiles6() {
   return (

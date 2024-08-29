@@ -1,9 +1,9 @@
 import Link from 'next/link';
 // CUSTOM ICON COMPONENT
-import Edit from 'app/sandbox/icons/solid-mono/Edit';
-import Lamp from 'app/sandbox/icons/solid-mono/Lamp';
-import Team from 'app/sandbox/icons/solid-mono/Team';
-import DeliveryBox from 'app/sandbox/icons/solid-mono/DeliveryBox';
+import Edit from '@sandbox/icons/solid-mono/Edit';
+import Lamp from '@sandbox/icons/solid-mono/Lamp';
+import Team from '@sandbox/icons/solid-mono/Team';
+import DeliveryBox from '@sandbox/icons/solid-mono/DeliveryBox';
 
 export default function Services30() {
   return (

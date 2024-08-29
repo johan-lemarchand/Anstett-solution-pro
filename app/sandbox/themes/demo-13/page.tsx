@@ -2,17 +2,17 @@
 
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar3 from 'app/sandbox/components/blocks/navbar/navbar-3';
-import { Hero13 } from 'app/sandbox/components/blocks/hero';
-import { Facts9 } from 'app/sandbox/components/blocks/facts';
-import { Footer8 } from 'app/sandbox/components/blocks/footer';
-import { Process6 } from 'app/sandbox/components/blocks/process';
-import { Contact8 } from 'app/sandbox/components/blocks/contact';
-import { Clients4 } from 'app/sandbox/components/blocks/clients';
-import { Pricing7 } from 'app/sandbox/components/blocks/pricing';
-import { Services8 } from 'app/sandbox/components/blocks/services';
-import { Portfolio7 } from 'app/sandbox/components/blocks/portfolio';
-import { Testimonial13 } from 'app/sandbox/components/blocks/testimonial';
+import Navbar3 from '@sandbox/components/blocks/navbar/navbar-3';
+import { Hero13 } from '@sandbox/components/blocks/hero';
+import { Facts9 } from '@sandbox/components/blocks/facts';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import { Process6 } from '@sandbox/components/blocks/process';
+import { Contact8 } from '@sandbox/components/blocks/contact';
+import { Clients4 } from '@sandbox/components/blocks/clients';
+import { Pricing7 } from '@sandbox/components/blocks/pricing';
+import { Services8 } from '@sandbox/components/blocks/services';
+import { Portfolio7 } from '@sandbox/components/blocks/portfolio';
+import { Testimonial13 } from '@sandbox/components/blocks/testimonial';
 
 export default function Demo13() {
   return (

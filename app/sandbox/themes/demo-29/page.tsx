@@ -1,16 +1,16 @@
 import { Fragment } from 'react';
 
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { FAQ8 } from 'app/sandbox/components/blocks/faq';
-import { Hero29 } from 'app/sandbox/components/blocks/hero';
-import { About30 } from 'app/sandbox/components/blocks/about';
-import { Footer4 } from 'app/sandbox/components/blocks/footer';
-import { Process19 } from 'app/sandbox/components/blocks/process';
-import { Services31 } from 'app/sandbox/components/blocks/services';
-import { CTA11 } from 'app/sandbox/components/blocks/call-to-action';
-import { Testimonial23 } from 'app/sandbox/components/blocks/testimonial';
-import VideoPlyr from 'app/sandbox/components/reuseable/VideoPlyr';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { FAQ8 } from '@sandbox/components/blocks/faq';
+import { Hero29 } from '@sandbox/components/blocks/hero';
+import { About30 } from '@sandbox/components/blocks/about';
+import { Footer4 } from '@sandbox/components/blocks/footer';
+import { Process19 } from '@sandbox/components/blocks/process';
+import { Services31 } from '@sandbox/components/blocks/services';
+import { CTA11 } from '@sandbox/components/blocks/call-to-action';
+import { Testimonial23 } from '@sandbox/components/blocks/testimonial';
+import VideoPlyr from '@sandbox/components/reuseable/VideoPlyr';
 
 export default function Demo29() {
   return (

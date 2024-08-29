@@ -1,6 +1,6 @@
 'use client';
 
-import useProgressbar from 'app/sandbox/hooks/useProgressbar';
+import useProgressbar from '@sandbox/hooks/useProgressbar';
 // CUSTOM DATA
 const list = [
   { id: 1, percent: 100, title: 'Marketing', color: 'blue' },

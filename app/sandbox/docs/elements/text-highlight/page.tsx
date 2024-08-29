@@ -1,11 +1,11 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUPS
 import {
   underlineMarkup,
   underlineThreeMarkup,
   underlineTwoMarkup,
-} from 'app/sandbox/themes/markups/elements/text-highlight';
+} from '@sandbox/themes/markups/elements/text-highlight';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'Underline', url: 'snippet-1' },

@@ -1,5 +1,5 @@
 import { PropsWithChildren } from 'react';
-import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
 
 // ==============================================================
 interface WidgetProps extends PropsWithChildren {

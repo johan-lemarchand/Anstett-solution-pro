@@ -1,14 +1,14 @@
 'use client';
 
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // GLOBAL CUSTOM HOOKS
-import useProgressbar from 'app/sandbox/hooks/useProgressbar';
+import useProgressbar from '@sandbox/hooks/useProgressbar';
 // MARKUPS
 import {
   lineMarkup,
   circleMarkup,
-} from 'app/sandbox/themes/markups/elements/progressbar';
+} from '@sandbox/themes/markups/elements/progressbar';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'Line', url: 'snippet-1' },

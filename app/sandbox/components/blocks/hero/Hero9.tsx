@@ -2,9 +2,9 @@
 
 import Typewriter from 'typewriter-effect';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM UTILS
-import { slideInDownAnimate, zoomInAnimate } from 'app/sandbox/utils/animation';
+import { slideInDownAnimate, zoomInAnimate } from '@sandbox/utils/animation';
 
 export default function Hero9() {
   // typewriter options

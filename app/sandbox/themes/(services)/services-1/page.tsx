@@ -1,11 +1,11 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Facts3 } from 'app/sandbox/components/blocks/facts';
-import { Banner3 } from 'app/sandbox/components/blocks/banner';
-import { Pricing1 } from 'app/sandbox/components/blocks/pricing';
-import { Contact3 } from 'app/sandbox/components/blocks/contact';
-import { Process6 } from 'app/sandbox/components/blocks/process';
-import { Services8 } from 'app/sandbox/components/blocks/services';
+import { Facts3 } from '@sandbox/components/blocks/facts';
+import { Banner3 } from '@sandbox/components/blocks/banner';
+import { Pricing1 } from '@sandbox/components/blocks/pricing';
+import { Contact3 } from '@sandbox/components/blocks/contact';
+import { Process6 } from '@sandbox/components/blocks/process';
+import { Services8 } from '@sandbox/components/blocks/services';
 
 export default function Services() {
   return (

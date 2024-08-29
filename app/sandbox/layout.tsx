@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import ScrollCue from 'app/sandbox/scroll-cue';
-import ThemeProvider from 'app/sandbox/theme/ThemeProvider';
-import PageProgress from 'app/sandbox/components/common/PageProgress';
+import ScrollCue from '@sandbox/scroll-cue';
+import ThemeProvider from '@sandbox/theme/ThemeProvider';
+import PageProgress from '@sandbox/components/common/PageProgress';
 
 // animate css
 import 'animate.css';

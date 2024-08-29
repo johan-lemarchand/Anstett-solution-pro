@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { Footer8 } from 'app/sandbox/components/blocks/footer';
-import BlogTemplate from 'app/sandbox/components/common/BlogTemplate';
-import BlogSidebar from 'app/sandbox/components/reuseable/BlogSidebar';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import BlogTemplate from '@sandbox/components/common/BlogTemplate';
+import BlogSidebar from '@sandbox/components/reuseable/BlogSidebar';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 
 export default function BlogThree() {
   return (

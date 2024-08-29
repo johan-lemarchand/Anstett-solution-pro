@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import Carousel from '@sandbox/components/reuseable/Carousel';
 // CUSTOM DATA
-import { portfolioList3 } from 'app/sandbox/data/portfolio';
+import { portfolioList3 } from '@sandbox/data/portfolio';
 
 export default function Portfolio4() {
   return (

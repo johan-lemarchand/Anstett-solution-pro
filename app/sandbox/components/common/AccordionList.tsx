@@ -1,4 +1,4 @@
-import Accordion from 'app/sandbox/components/reuseable/accordion';
+import Accordion from '@sandbox/components/reuseable/accordion';
 
 // CUSTOM DATA
 const accordions = [

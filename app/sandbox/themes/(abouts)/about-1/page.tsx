@@ -1,12 +1,12 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Team3 } from 'app/sandbox/components/blocks/team';
-import { About6 } from 'app/sandbox/components/blocks/about';
-import { Facts5 } from 'app/sandbox/components/blocks/facts';
-import { Process7 } from 'app/sandbox/components/blocks/process';
-import { Contact7 } from 'app/sandbox/components/blocks/contact';
-import { Testimonial5 } from 'app/sandbox/components/blocks/testimonial';
-import FigureImage from 'app/sandbox/components/reuseable/FigureImage';
+import { Team3 } from '@sandbox/components/blocks/team';
+import { About6 } from '@sandbox/components/blocks/about';
+import { Facts5 } from '@sandbox/components/blocks/facts';
+import { Process7 } from '@sandbox/components/blocks/process';
+import { Contact7 } from '@sandbox/components/blocks/contact';
+import { Testimonial5 } from '@sandbox/components/blocks/testimonial';
+import FigureImage from '@sandbox/components/reuseable/FigureImage';
 
 export default function About() {
   return (

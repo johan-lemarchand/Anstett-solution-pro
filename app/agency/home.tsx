@@ -1,17 +1,17 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import HeroAgency from '@components/blocks/hero/HeroAgency';
-import FactsAgency from '@components/blocks/facts/FactsAgency';
-import AboutAgency from '@components/blocks/about/AboutAgency';
-import FooterAgency from '@components/blocks/footer/FooterAgency';
-import ContactAgency from '@components/blocks/contact/ContactAgency';
-import { Portfolio10 } from 'app/sandbox/components/blocks/portfolio';
-import { Testimonial16 } from 'app/sandbox/components/blocks/testimonial';
-import ServicesAgency2 from '@components/blocks/services/ServicesAgency2';
-import ServicesAgency from '@components/blocks/services/ServicesAgency';
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import HeroAgency from '@agency/components/blocks/hero/HeroAgency';
+import FactsAgency from '@agency/components/blocks/facts/FactsAgency';
+import AboutAgency from '@agency/components/blocks/about/AboutAgency';
+import FooterAgency from '@agency/components/blocks/footer/FooterAgency';
+import ContactAgency from '@agency/components/blocks/contact/ContactAgency';
+import { Portfolio10 } from '@sandbox/components/blocks/portfolio';
+import { Testimonial16 } from '@sandbox/components/blocks/testimonial';
+import ServicesAgency2 from '@agency/components/blocks/services/ServicesAgency2';
+import ServicesAgency from '@agency/components/blocks/services/ServicesAgency';
+import Carousel from '@sandbox/components/reuseable/Carousel';
 
 export default function homeAgency() {
   return (

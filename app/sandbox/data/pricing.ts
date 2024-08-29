@@ -1,7 +1,7 @@
 // -------- icons -------- //
-import Home from 'app/sandbox/icons/lineal/Home';
-import BriefcaseTwo from 'app/sandbox/icons/lineal/BriefcaseTwo';
-import ShoppingBasket from 'app/sandbox/icons/lineal/ShoppingBasket';
+import Home from '@sandbox/icons/lineal/Home';
+import BriefcaseTwo from '@sandbox/icons/lineal/BriefcaseTwo';
+import ShoppingBasket from '@sandbox/icons/lineal/ShoppingBasket';
 
 // used in the pricing-1, pricing-3 block
 export const pricingList1 = [

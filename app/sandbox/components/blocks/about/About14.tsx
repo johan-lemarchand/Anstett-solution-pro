@@ -1,4 +1,4 @@
-import AccordionList from 'app/sandbox/components/common/AccordionList';
+import AccordionList from '@sandbox/components/common/AccordionList';
 
 export default function About14() {
   return (

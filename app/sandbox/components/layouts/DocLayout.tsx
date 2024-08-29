@@ -5,11 +5,11 @@ import { usePathname } from 'next/navigation';
 import { Link as ScrollLink } from 'react-scroll';
 import clsx from 'clsx';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import PageProgress from 'app/sandbox/components/common/PageProgress';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import PageProgress from '@sandbox/components/common/PageProgress';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // GLOBAL CUSTOM HOOKS
-import useClipboard from 'app/sandbox/hooks/useClipboard';
+import useClipboard from '@sandbox/hooks/useClipboard';
 
 // CUSTOM DATA
 const navigations = [

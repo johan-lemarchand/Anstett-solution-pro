@@ -1,7 +1,7 @@
-import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import footerNav from 'app/sandbox/data/footer';
+import footerNav from '@sandbox/data/footer';
 
 export default function Footer1() {
   return (

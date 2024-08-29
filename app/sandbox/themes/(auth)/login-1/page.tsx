@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Breadcrumb from 'app/sandbox/components/reuseable/Breadcrumb';
-import LoginForm from 'app/sandbox/components/elements/forms/LoginForm';
+import Breadcrumb from '@sandbox/components/reuseable/Breadcrumb';
+import LoginForm from '@sandbox/components/elements/forms/LoginForm';
 // CUSTOM DATA
 const breadcrumb = [
   { id: 1, title: 'Home', url: '/' },

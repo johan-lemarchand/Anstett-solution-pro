@@ -1,18 +1,18 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { Hero3 } from 'app/sandbox/components/blocks/hero';
-import { Blog1 } from 'app/sandbox/components/blocks/blog';
-import { About3 } from 'app/sandbox/components/blocks/about';
-import { Facts1 } from 'app/sandbox/components/blocks/facts';
-import { Footer5 } from 'app/sandbox/components/blocks/footer';
-import { Process3 } from 'app/sandbox/components/blocks/process';
-import { Contact1 } from 'app/sandbox/components/blocks/contact';
-import { Pricing3 } from 'app/sandbox/components/blocks/pricing';
-import { Services4 } from 'app/sandbox/components/blocks/services';
-import { CTA4 } from 'app/sandbox/components/blocks/call-to-action';
-import { Testimonial2 } from 'app/sandbox/components/blocks/testimonial';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Hero3 } from '@sandbox/components/blocks/hero';
+import { Blog1 } from '@sandbox/components/blocks/blog';
+import { About3 } from '@sandbox/components/blocks/about';
+import { Facts1 } from '@sandbox/components/blocks/facts';
+import { Footer5 } from '@sandbox/components/blocks/footer';
+import { Process3 } from '@sandbox/components/blocks/process';
+import { Contact1 } from '@sandbox/components/blocks/contact';
+import { Pricing3 } from '@sandbox/components/blocks/pricing';
+import { Services4 } from '@sandbox/components/blocks/services';
+import { CTA4 } from '@sandbox/components/blocks/call-to-action';
+import { Testimonial2 } from '@sandbox/components/blocks/testimonial';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 
 export default function Demo3() {
   return (

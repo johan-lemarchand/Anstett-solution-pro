@@ -1,5 +1,5 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 
 export default function Shadows() {
   const markup = `<div className="shadow-none p-3 bg-gray rounded mb-6">No shadow</div>

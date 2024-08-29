@@ -3,21 +3,21 @@
 import { Fragment } from 'react';
 
 // GLOBAL CUSTOM HOOKS
-import useLightBox from 'app/sandbox/hooks/useLightBox';
-import useReplaceMe from 'app/sandbox/hooks/useReplaceMe';
+import useLightBox from '@sandbox/hooks/useLightBox';
+import useReplaceMe from '@sandbox/hooks/useReplaceMe';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import CountUp from 'app/sandbox/components/reuseable/CountUp';
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import CountUp from '@sandbox/components/reuseable/CountUp';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM ICON COMPONENT
-import Safe from 'app/sandbox/icons/solid/Safe';
-import Layers from 'app/sandbox/icons/solid/Layers';
-import Share from 'app/sandbox/icons/solid-mono/Share';
-import Puzzle from 'app/sandbox/icons/solid-mono/Puzzle';
-import PenTool from 'app/sandbox/icons/solid-duo/PenTool';
-import Devices from 'app/sandbox/icons/solid-mono/Devices';
-import GlobeTwo from 'app/sandbox/icons/solid-mono/GlobeTwo';
+import Safe from '@sandbox/icons/solid/Safe';
+import Layers from '@sandbox/icons/solid/Layers';
+import Share from '@sandbox/icons/solid-mono/Share';
+import Puzzle from '@sandbox/icons/solid-mono/Puzzle';
+import PenTool from '@sandbox/icons/solid-duo/PenTool';
+import Devices from '@sandbox/icons/solid-mono/Devices';
+import GlobeTwo from '@sandbox/icons/solid-mono/GlobeTwo';
 
 export default function SandboxHome() {
   // USED FOR HERO AREA TEXT CHANGE FREQUENTLY

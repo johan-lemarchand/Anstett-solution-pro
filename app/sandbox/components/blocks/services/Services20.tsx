@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 // CUSTOM DATA
-import { serviceList10 } from 'app/sandbox/data/service';
+import { serviceList10 } from '@sandbox/data/service';
 
 export default function Services20() {
   return (

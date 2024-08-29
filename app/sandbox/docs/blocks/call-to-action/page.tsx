@@ -13,7 +13,7 @@ import {
   CTA8,
   CTA9,
   CTA10,
-} from 'app/sandbox/components/blocks/call-to-action';
+} from '@sandbox/components/blocks/call-to-action';
 
 export default function CallToAction() {
   return (

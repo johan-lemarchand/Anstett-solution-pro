@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
-import Accordion from 'app/sandbox/components/reuseable/accordion';
+import Accordion from '@sandbox/components/reuseable/accordion';
 // CUSTOM DATA
-import { accordionList1 } from 'app/sandbox/data/faq';
+import { accordionList1 } from '@sandbox/data/faq';
 
 export default function FAQ1() {
   return (

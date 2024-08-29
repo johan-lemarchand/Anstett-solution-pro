@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
 // CUSTOM ICON COMPONENTS
-import Like from 'app/sandbox/icons/solid/Like';
-import BullHorn from 'app/sandbox/icons/solid/Bullhorn';
-import LayoutTwo from 'app/sandbox/icons/solid/LayoutTwo';
+import Like from '@sandbox/icons/solid/Like';
+import BullHorn from '@sandbox/icons/solid/Bullhorn';
+import LayoutTwo from '@sandbox/icons/solid/LayoutTwo';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 
 export default function Services33() {
   return (

@@ -1,6 +1,6 @@
 'use client';
 
-import useLightBox from 'app/sandbox/hooks/useLightBox';
+import useLightBox from '@sandbox/hooks/useLightBox';
 
 export default function VideoBanner() {
   // used for lightbox modal

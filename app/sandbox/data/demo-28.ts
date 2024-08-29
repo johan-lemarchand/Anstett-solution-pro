@@ -1,7 +1,7 @@
-import Lamp from 'app/sandbox/icons/solid-mono/Lamp';
-import Puzzle from 'app/sandbox/icons/solid-mono/Puzzle';
-import PenTool from 'app/sandbox/icons/solid-duo/PenTool';
-import DeliveryBox from 'app/sandbox/icons/solid-mono/DeliveryBox';
+import Lamp from '@sandbox/icons/solid-mono/Lamp';
+import Puzzle from '@sandbox/icons/solid-mono/Puzzle';
+import PenTool from '@sandbox/icons/solid-duo/PenTool';
+import DeliveryBox from '@sandbox/icons/solid-mono/DeliveryBox';
 
 export const projects = [
   {

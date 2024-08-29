@@ -1,4 +1,4 @@
-import CountUp from 'app/sandbox/components/reuseable/CountUp';
+import CountUp from '@sandbox/components/reuseable/CountUp';
 
 // ===================================================
 type Counter2Props = { amount: number; title: string };

@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
 import NextLink from './links/NextLink';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from 'app/sandbox/utils/currency';
+import currency from '@sandbox/utils/currency';
 
 // =============================================================
 interface CartListItemProps {

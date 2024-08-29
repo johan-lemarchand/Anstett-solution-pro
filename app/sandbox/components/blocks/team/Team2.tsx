@@ -1,11 +1,11 @@
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { TeamCard2 } from 'app/sandbox/components/reuseable/team-cards';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { TeamCard2 } from '@sandbox/components/reuseable/team-cards';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import carouselBreakpoints from 'app/sandbox/utils/carouselBreakpoints';
+import carouselBreakpoints from '@sandbox/utils/carouselBreakpoints';
 // CUSTOM DATA
-import teams from 'app/sandbox/data/team-list';
+import teams from '@sandbox/data/team-list';
 
 export default function Team2() {
   return (

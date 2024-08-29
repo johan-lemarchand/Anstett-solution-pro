@@ -3,13 +3,13 @@
 import Image from 'next/image';
 import { Fragment } from 'react';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from 'app/sandbox/hooks/useLightBox';
+import useLightBox from '@sandbox/hooks/useLightBox';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from 'app/sandbox/components/blocks/footer';
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import ProjectDetailsContent from 'app/sandbox/components/common/ProjectDetailsContent';
-import ProjectDetailsNavigation from 'app/sandbox/components/common/ProjectDetailsNavigation';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import ProjectDetailsContent from '@sandbox/components/common/ProjectDetailsContent';
+import ProjectDetailsNavigation from '@sandbox/components/common/ProjectDetailsNavigation';
 // CUSTOM DATA
 import { gallery1, gallery2 } from './data';
 

@@ -1,8 +1,8 @@
-import SeoTwo from 'app/sandbox/icons/solid/SeoTwo';
-import Server from 'app/sandbox/icons/solid/Server';
-import PenTool from 'app/sandbox/icons/solid-duo/PenTool';
-import ShoppingBusket from 'app/sandbox/icons/solid/ShoppingBusket';
-import color from 'app/sandbox/utils/color';
+import SeoTwo from '@sandbox/icons/solid/SeoTwo';
+import Server from '@sandbox/icons/solid/Server';
+import PenTool from '@sandbox/icons/solid-duo/PenTool';
+import ShoppingBusket from '@sandbox/icons/solid/ShoppingBusket';
+import color from '@sandbox/utils/color';
 
 export const services = [
   { id: 1, Icon: PenTool, title: 'Web Design' },

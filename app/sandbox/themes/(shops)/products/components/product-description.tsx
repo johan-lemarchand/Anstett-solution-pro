@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import clsx from 'clsx';
 // CUSTOM DATA
-import data from 'app/sandbox/data/product-details-page';
+import data from '@sandbox/data/product-details-page';
 
 export default function ProductDescription() {
   return (

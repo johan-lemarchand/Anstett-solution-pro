@@ -1,8 +1,8 @@
 import { Fragment, PropsWithChildren } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { Footer8 } from 'app/sandbox/components/blocks/footer';
-import ShopService from 'app/sandbox/components/common/ShopService';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import ShopService from '@sandbox/components/common/ShopService';
 
 export default function ShopLayout({ children }: PropsWithChildren) {
   return (

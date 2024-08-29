@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import clsx from 'clsx';
 // GLOBAL CUSTOM COMPONENTS
-import Switch from 'app/sandbox/components/reuseable/Switch';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { PricingCard1 } from 'app/sandbox/components/reuseable/pricing-cards';
+import Switch from '@sandbox/components/reuseable/Switch';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { PricingCard1 } from '@sandbox/components/reuseable/pricing-cards';
 // CUSTOM DATA
-import { pricingList1 } from 'app/sandbox/data/pricing';
+import { pricingList1 } from '@sandbox/data/pricing';
 
 export default function Pricing3() {
   const [activeYearly, setActiveYearly] = useState(false);

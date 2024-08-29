@@ -1,8 +1,8 @@
 import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import DropdownToggleLink from 'app/sandbox/components/reuseable/links/DropdownToggleLink';
+import DropdownToggleLink from '@sandbox/components/reuseable/links/DropdownToggleLink';
 // CUSTOM DATA
-import { blocksNavigation } from 'app/sandbox/data/navigation';
+import { blocksNavigation } from '@sandbox/data/navigation';
 
 export default function BlocksNavItem() {
   return (

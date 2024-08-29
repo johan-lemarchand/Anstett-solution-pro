@@ -1,8 +1,8 @@
-import animation from 'app/sandbox/utils/animation';
+import animation from '@sandbox/utils/animation';
 // GLOBAL CUSTOM COMPONENTS
-import VideoPlyr from 'app/sandbox/components/reuseable/VideoPlyr';
+import VideoPlyr from '@sandbox/components/reuseable/VideoPlyr';
 // CUSTOM DATA
-import { processList5 } from 'app/sandbox/data/process';
+import { processList5 } from '@sandbox/data/process';
 
 export default function Process4() {
   return (

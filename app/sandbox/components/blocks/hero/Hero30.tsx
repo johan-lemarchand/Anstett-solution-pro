@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 // GLOBAL CUSTOM HOOKS
-import useReplaceMe from 'app/sandbox/hooks/useReplaceMe';
+import useReplaceMe from '@sandbox/hooks/useReplaceMe';
 
 export default function Hero30() {
   useReplaceMe();

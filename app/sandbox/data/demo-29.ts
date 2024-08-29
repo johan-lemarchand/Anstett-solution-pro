@@ -1,19 +1,19 @@
-import BarChart from 'app/sandbox/icons/solid/BarChart';
-import CloudNetwork2 from 'app/sandbox/icons/solid/CloudNetwork2';
-import Controls from 'app/sandbox/icons/solid/Controls';
-import Lock from 'app/sandbox/icons/solid/Lock';
-import Rocket from 'app/sandbox/icons/solid/Rocket';
-import Safe from 'app/sandbox/icons/solid/Safe';
-import TouchScreen from 'app/sandbox/icons/solid/TouchScreen';
-import Checked from 'app/sandbox/icons/solid/Checked';
-import Calendar from 'app/sandbox/icons/solid/Calendar';
-import Compare from 'app/sandbox/icons/solid/Compare';
-import Currency from 'app/sandbox/icons/solid/Currency';
-import Devices from 'app/sandbox/icons/solid/Devices';
-import Search from 'app/sandbox/icons/solid/Search';
-import Server from 'app/sandbox/icons/solid/Server';
+import BarChart from '@sandbox/icons/solid/BarChart';
+import CloudNetwork2 from '@sandbox/icons/solid/CloudNetwork2';
+import Controls from '@sandbox/icons/solid/Controls';
+import Lock from '@sandbox/icons/solid/Lock';
+import Rocket from '@sandbox/icons/solid/Rocket';
+import Safe from '@sandbox/icons/solid/Safe';
+import TouchScreen from '@sandbox/icons/solid/TouchScreen';
+import Checked from '@sandbox/icons/solid/Checked';
+import Calendar from '@sandbox/icons/solid/Calendar';
+import Compare from '@sandbox/icons/solid/Compare';
+import Currency from '@sandbox/icons/solid/Currency';
+import Devices from '@sandbox/icons/solid/Devices';
+import Search from '@sandbox/icons/solid/Search';
+import Server from '@sandbox/icons/solid/Server';
 
-import color from 'app/sandbox/utils/color';
+import color from '@sandbox/utils/color';
 
 export const features = [
   { id: 1, color: color.yellow, Icon: CloudNetwork2, title: 'Toujours à jour' },

@@ -1,7 +1,7 @@
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import { BlogCard5 } from 'app/sandbox/components/reuseable/blog-cards';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import { BlogCard5 } from '@sandbox/components/reuseable/blog-cards';
 // CUSTOM DATA
-import { blogList5 } from 'app/sandbox/data/blog';
+import { blogList5 } from '@sandbox/data/blog';
 
 export default function Hero25() {
   const carouselBreakpoints = {

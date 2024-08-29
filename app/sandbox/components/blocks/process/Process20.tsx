@@ -1,6 +1,6 @@
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import { processList } from 'app/sandbox/data/demo-30';
+import { processList } from '@sandbox/data/demo-30';
 
 export default function Process20() {
   return (

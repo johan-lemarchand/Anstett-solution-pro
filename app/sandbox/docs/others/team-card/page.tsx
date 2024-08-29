@@ -1,19 +1,19 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 import {
   TeamCard1,
   TeamCard2,
   TeamCard3,
-} from 'app/sandbox/components/reuseable/team-cards';
+} from '@sandbox/components/reuseable/team-cards';
 // -------- markups -------- //
 import {
   card1Markup,
   card2Markup,
   card3Markup,
-} from 'app/sandbox/themes/markups/others/team-cards';
+} from '@sandbox/themes/markups/others/team-cards';
 // -------- data -------- //
-import teams from 'app/sandbox/data/team-list';
-import { teams as teams2 } from 'app/sandbox/data/demo-8';
+import teams from '@sandbox/data/team-list';
+import { teams as teams2 } from '@sandbox/data/demo-8';
 const quickAccess = [
   { title: 'Team Card 1', url: 'snippet-1' },
   { title: 'Team Card 2', url: 'snippet-2' },

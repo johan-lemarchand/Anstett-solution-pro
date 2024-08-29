@@ -1,9 +1,9 @@
 import dayjs from 'dayjs';
 // GLOBAL CUSTOM COMPONENTS
 import NextLink from './links/NextLink';
-import FigureImage from 'app/sandbox/components/reuseable/FigureImage';
+import FigureImage from '@sandbox/components/reuseable/FigureImage';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import ratingGenerate from 'app/sandbox/utils/ratings';
+import ratingGenerate from '@sandbox/utils/ratings';
 
 // ===================================================================
 type ReviewCardProps = {

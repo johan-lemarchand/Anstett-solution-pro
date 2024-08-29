@@ -1,4 +1,4 @@
-import LoginForm from 'app/sandbox/components/elements/forms/LoginForm';
+import LoginForm from '@sandbox/components/elements/forms/LoginForm';
 
 export default function Signin() {
   return (

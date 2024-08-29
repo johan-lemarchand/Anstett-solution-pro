@@ -1,17 +1,17 @@
 'use client';
 
 import Link from 'next/link';
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // GLOBAL CUSTOM HOOKS
-import useTooltip from 'app/sandbox/hooks/useTooltip';
+import useTooltip from '@sandbox/hooks/useTooltip';
 // MARKUPS
 import {
   tooltipMarkup,
   overlayMarkup,
   simpleMarkup,
   cursorMarkup,
-} from 'app/sandbox/themes/markups/elements/image-hover';
+} from '@sandbox/themes/markups/elements/image-hover';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'Tooltip', url: 'snippet-1' },

@@ -3,15 +3,15 @@
 import Link from 'next/link';
 import Image from 'next/image';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from 'app/sandbox/hooks/useLightBox';
+import useLightBox from '@sandbox/hooks/useLightBox';
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import ShareButton from 'app/sandbox/components/common/ShareButton';
-import FigureImage from 'app/sandbox/components/reuseable/FigureImage';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import SocialLinks from 'app/sandbox/components/reuseable/SocialLinks';
-import BlogCommentList from 'app/sandbox/components/common/BlogCommentList';
-import { BlogCard1 } from 'app/sandbox/components/reuseable/blog-cards';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import ShareButton from '@sandbox/components/common/ShareButton';
+import FigureImage from '@sandbox/components/reuseable/FigureImage';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import SocialLinks from '@sandbox/components/reuseable/SocialLinks';
+import BlogCommentList from '@sandbox/components/common/BlogCommentList';
+import { BlogCard1 } from '@sandbox/components/reuseable/blog-cards';
 // CUSTOM DATA
 const tags = [
   { id: 1, title: 'Still Life', url: '#' },

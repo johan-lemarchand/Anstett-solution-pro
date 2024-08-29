@@ -3,17 +3,17 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { Hero34 } from 'app/sandbox/components/blocks/hero';
-import { Facts21 } from 'app/sandbox/components/blocks/facts';
-import { Footer8 } from 'app/sandbox/components/blocks/footer';
-import CountUp from 'app/sandbox/components/reuseable/CountUp';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Hero34 } from '@sandbox/components/blocks/hero';
+import { Facts21 } from '@sandbox/components/blocks/facts';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import CountUp from '@sandbox/components/reuseable/CountUp';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 // GLOBAL CUSTOM HOOKS
-import useIsotope from 'app/sandbox/hooks/useIsotope';
-import useTooltip from 'app/sandbox/hooks/useTooltip';
+import useIsotope from '@sandbox/hooks/useIsotope';
+import useTooltip from '@sandbox/hooks/useTooltip';
 // CUSTOM DATA
-import { demos, filterList, innerPages } from 'app/sandbox/data/demo-34';
+import { demos, filterList, innerPages } from '@sandbox/data/demo-34';
 
 export default function Demo34() {
   // used for image tooltip

@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import Carousel from '@sandbox/components/reuseable/Carousel';
 
 export default function Clients6() {
   const carouselProps = {

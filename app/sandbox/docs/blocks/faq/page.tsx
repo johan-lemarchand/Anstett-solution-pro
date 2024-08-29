@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 // LOCAL CUSTOM COMPONENTS
 import Block from './block';
 // GLOBAL CUSTOM COMPONENTS
-import * as All from 'app/sandbox/components/blocks/faq';
+import * as All from '@sandbox/components/blocks/faq';
 
 export default function Faq() {
   return (

@@ -1,6 +1,6 @@
-import FigureImage from 'app/sandbox/components/reuseable/FigureImage';
+import FigureImage from '@sandbox/components/reuseable/FigureImage';
 // CUSTOM DATA
-import { clientList2 } from 'app/sandbox/data/client';
+import { clientList2 } from '@sandbox/data/client';
 
 export default function Clients4() {
   return (

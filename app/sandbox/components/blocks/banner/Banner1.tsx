@@ -1,4 +1,4 @@
-import GoogleAppBtn from 'app/sandbox/components/common/GoogleAppBtn';
+import GoogleAppBtn from '@sandbox/components/common/GoogleAppBtn';
 
 export default function Banner1() {
   return (

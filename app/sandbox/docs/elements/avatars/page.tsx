@@ -1,10 +1,10 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUP
 import {
   lettersMarkup,
   imagesMarkup,
-} from 'app/sandbox/themes/markups/elements/avatars';
+} from '@sandbox/themes/markups/elements/avatars';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'Letters', url: 'snippet-1' },

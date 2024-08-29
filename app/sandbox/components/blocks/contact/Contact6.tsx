@@ -1,4 +1,4 @@
-import IconBox from 'app/sandbox/components/reuseable/IconBox';
+import IconBox from '@sandbox/components/reuseable/IconBox';
 
 export default function Contact6() {
   return (

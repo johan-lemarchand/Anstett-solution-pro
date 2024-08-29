@@ -4,8 +4,8 @@ import { Fragment, PropsWithChildren } from 'react';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
 
 const filters = [
   { id: 1, title: 'About', url: '/sandbox/docs/blocks/about' },

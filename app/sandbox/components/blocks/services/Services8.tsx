@@ -1,8 +1,8 @@
-import { Tiles4 } from 'app/sandbox/components/elements/tiles';
-import IconBox from 'app/sandbox/components/reuseable/IconBox';
-import { ServiceCard3 } from 'app/sandbox/components/reuseable/service-cards';
+import { Tiles4 } from '@sandbox/components/elements/tiles';
+import IconBox from '@sandbox/components/reuseable/IconBox';
+import { ServiceCard3 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { serviceList2 } from 'app/sandbox/data/service';
+import { serviceList2 } from '@sandbox/data/service';
 
 export default function Services8() {
   return (

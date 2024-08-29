@@ -1,16 +1,13 @@
 import Image from 'next/image';
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import { Footer8 } from 'app/sandbox/components/blocks/footer';
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import VideoPlyr from 'app/sandbox/components/reuseable/VideoPlyr';
-import Pagination from 'app/sandbox/components/reuseable/Pagination';
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import {
-  BlogCard2,
-  BlogCard3,
-} from 'app/sandbox/components/reuseable/blog-cards';
+import { Footer8 } from '@sandbox/components/blocks/footer';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import VideoPlyr from '@sandbox/components/reuseable/VideoPlyr';
+import Pagination from '@sandbox/components/reuseable/Pagination';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { BlogCard2, BlogCard3 } from '@sandbox/components/reuseable/blog-cards';
 // CUSTOM DATA
 import { blogs } from './data';
 // IMPORT IMAGES

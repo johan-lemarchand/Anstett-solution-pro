@@ -1,6 +1,6 @@
 import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
+import Carousel from '@sandbox/components/reuseable/Carousel';
 
 export default function Portfolio14() {
   return (

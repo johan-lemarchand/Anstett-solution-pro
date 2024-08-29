@@ -1,16 +1,16 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import Navbar from 'app/sandbox/components/blocks/navbar/navbar-1';
-import { Blog2 } from 'app/sandbox/components/blocks/blog';
-import { Team6 } from 'app/sandbox/components/blocks/team';
-import { Hero11 } from 'app/sandbox/components/blocks/hero';
-import { FAQ4, FAQ5 } from 'app/sandbox/components/blocks/faq';
-import { Footer1 } from 'app/sandbox/components/blocks/footer';
-import { Pricing2 } from 'app/sandbox/components/blocks/pricing';
-import { About12, About13 } from 'app/sandbox/components/blocks/about';
-import { Testimonial11 } from 'app/sandbox/components/blocks/testimonial';
-import { Services14, Services15 } from 'app/sandbox/components/blocks/services';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import Navbar from '@sandbox/components/blocks/navbar/navbar-1';
+import { Blog2 } from '@sandbox/components/blocks/blog';
+import { Team6 } from '@sandbox/components/blocks/team';
+import { Hero11 } from '@sandbox/components/blocks/hero';
+import { FAQ4, FAQ5 } from '@sandbox/components/blocks/faq';
+import { Footer1 } from '@sandbox/components/blocks/footer';
+import { Pricing2 } from '@sandbox/components/blocks/pricing';
+import { About12, About13 } from '@sandbox/components/blocks/about';
+import { Testimonial11 } from '@sandbox/components/blocks/testimonial';
+import { Services14, Services15 } from '@sandbox/components/blocks/services';
 
 export default function Demo11() {
   return (

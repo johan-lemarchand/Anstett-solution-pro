@@ -8,7 +8,7 @@ import {
   Clients3,
   Clients4,
   Clients5,
-} from 'app/sandbox/components/blocks/clients';
+} from '@sandbox/components/blocks/clients';
 
 export default function Clients() {
   return (

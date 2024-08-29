@@ -1,4 +1,4 @@
-import { TestimonialCard4 } from 'app/sandbox/components/reuseable/testimonial-cards';
+import { TestimonialCard4 } from '@sandbox/components/reuseable/testimonial-cards';
 
 export default function Testimonial2() {
   return (

@@ -1,4 +1,4 @@
-import CountUp from 'app/sandbox/components/reuseable/CountUp';
+import CountUp from '@sandbox/components/reuseable/CountUp';
 
 export default function Facts19() {
   return (

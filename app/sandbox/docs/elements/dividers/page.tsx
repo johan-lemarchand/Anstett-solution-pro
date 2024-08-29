@@ -1,11 +1,11 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUP
 import {
   borderMarkup,
   anglesMarkup,
   wavesMarkup,
-} from 'app/sandbox/themes/markups/elements/dividers';
+} from '@sandbox/themes/markups/elements/dividers';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'Borders', url: 'snippet-1' },

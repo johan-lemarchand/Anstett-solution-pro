@@ -1,4 +1,4 @@
-import Collapse from 'app/sandbox/components/reuseable/Collapse';
+import Collapse from '@sandbox/components/reuseable/Collapse';
 // CUSTOM DATA
 const collapseList = [
   {

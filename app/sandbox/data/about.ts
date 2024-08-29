@@ -1,8 +1,8 @@
 // -------- icons -------- //
-import Lamp from 'app/sandbox/icons/solid-mono/Lamp';
-import Bulb from 'app/sandbox/icons/solid-mono/Bulb';
-import Puzzle from 'app/sandbox/icons/solid-mono/Puzzle';
-import Headphone from 'app/sandbox/icons/solid-mono/Headphone';
+import Lamp from '@sandbox/icons/solid-mono/Lamp';
+import Bulb from '@sandbox/icons/solid-mono/Bulb';
+import Puzzle from '@sandbox/icons/solid-mono/Puzzle';
+import Headphone from '@sandbox/icons/solid-mono/Headphone';
 
 // =========================================================================
 

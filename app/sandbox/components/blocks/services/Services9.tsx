@@ -1,7 +1,7 @@
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { ServiceCard4 } from 'app/sandbox/components/reuseable/service-cards';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { ServiceCard4 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { serviceList7 } from 'app/sandbox/data/service';
+import { serviceList7 } from '@sandbox/data/service';
 
 export default function Services9() {
   return (

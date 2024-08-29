@@ -1,8 +1,8 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import SwiperCarousel from 'app/sandbox/components/reuseable/Carousel';
-import carouselBreakpoints from 'app/sandbox/utils/carouselBreakpoints';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
-import ThumbsCarousel from 'app/sandbox/components/reuseable/ThumbsCarousel';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import SwiperCarousel from '@sandbox/components/reuseable/Carousel';
+import carouselBreakpoints from '@sandbox/utils/carouselBreakpoints';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
+import ThumbsCarousel from '@sandbox/components/reuseable/ThumbsCarousel';
 // MARKUP
 import {
   simpleMarkup,
@@ -10,7 +10,7 @@ import {
   textMarkup,
   imageMarkup,
   thumbnailMarkup,
-} from 'app/sandbox/themes/markups/elements/carousel';
+} from '@sandbox/themes/markups/elements/carousel';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'Simple Carousel', url: 'snippet-1' },

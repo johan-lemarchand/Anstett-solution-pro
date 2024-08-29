@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'react';
 // GLOBAL CUSTOM COMPONENTS
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 
 interface BlockProps extends PropsWithChildren {
   id: number;

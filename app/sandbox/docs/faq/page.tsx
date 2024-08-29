@@ -1,10 +1,10 @@
 'use client';
 
 // GLOBAL CUSTOM HOOKS
-import useClipboard from 'app/sandbox/hooks/useClipboard';
+import useClipboard from '@sandbox/hooks/useClipboard';
 // GLOBAL CUSTOM COMPONENTS
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 
 export default function FAQ() {
   // copy button for code copy

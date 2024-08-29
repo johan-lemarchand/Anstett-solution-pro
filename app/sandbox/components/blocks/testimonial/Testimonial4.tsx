@@ -1,10 +1,10 @@
 // GLOBAL CUSTOM COMPONENTS
-import Carousel from 'app/sandbox/components/reuseable/Carousel';
-import { TestimonialCard3 } from 'app/sandbox/components/reuseable/testimonial-cards';
+import Carousel from '@sandbox/components/reuseable/Carousel';
+import { TestimonialCard3 } from '@sandbox/components/reuseable/testimonial-cards';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import carouselBreakpoints from 'app/sandbox/utils/carouselBreakpoints';
+import carouselBreakpoints from '@sandbox/utils/carouselBreakpoints';
 // CUSTOM DATA
-import { testimonialList2 } from 'app/sandbox/data/testimonial-list';
+import { testimonialList2 } from '@sandbox/data/testimonial-list';
 
 export default function Testimonial4() {
   return (

@@ -1,6 +1,6 @@
-import Accordion from 'app/sandbox/components/reuseable/accordion';
+import Accordion from '@sandbox/components/reuseable/accordion';
 // CUSTOM DATA
-import { accordions } from 'app/sandbox/data/demo-8';
+import { accordions } from '@sandbox/data/demo-8';
 
 export default function FAQ3() {
   return (

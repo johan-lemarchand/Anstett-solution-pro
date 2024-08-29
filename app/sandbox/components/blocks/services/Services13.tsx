@@ -1,8 +1,8 @@
-import { ServiceCard2 } from 'app/sandbox/components/reuseable/service-cards';
+import { ServiceCard2 } from '@sandbox/components/reuseable/service-cards';
 // CUSTOM DATA
-import { serviceList2 } from 'app/sandbox/data/service';
+import { serviceList2 } from '@sandbox/data/service';
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import { slideInDownAnimate } from 'app/sandbox/utils/animation';
+import { slideInDownAnimate } from '@sandbox/utils/animation';
 
 export default function Services13() {
   return (

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 // CUSTOM DATA
-import { timelines } from 'app/sandbox/data/demo-33';
+import { timelines } from '@sandbox/data/demo-33';
 
 export default function About34() {
   return (

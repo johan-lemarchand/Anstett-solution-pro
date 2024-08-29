@@ -1,7 +1,7 @@
-import NextLink from 'app/sandbox/components/reuseable/links/NextLink';
-import { ProjectCard3 } from 'app/sandbox/components/reuseable/project-cards';
+import NextLink from '@sandbox/components/reuseable/links/NextLink';
+import { ProjectCard3 } from '@sandbox/components/reuseable/project-cards';
 // CUSTOM DATA
-import { portfolioList6 } from 'app/sandbox/data/portfolio';
+import { portfolioList6 } from '@sandbox/data/portfolio';
 
 export default function Portfolio11() {
   return (

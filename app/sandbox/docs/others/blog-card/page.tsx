@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 import {
   BlogCard1,
   BlogCard2,
   BlogCard3,
   BlogCard4,
   BlogCard5,
-} from 'app/sandbox/components/reuseable/blog-cards';
+} from '@sandbox/components/reuseable/blog-cards';
 // MARKUPS
 import {
   card1Markup,
@@ -15,10 +15,10 @@ import {
   card3Markup,
   card4Markup,
   card5Markup,
-} from 'app/sandbox/themes/markups/others/blog-cards';
+} from '@sandbox/themes/markups/others/blog-cards';
 // CUSTOM DATA
-import { blogList } from 'app/sandbox/data/demo-11';
-import { blogList1, blogList4, blogList5 } from 'app/sandbox/data/blog';
+import { blogList } from '@sandbox/data/demo-11';
+import { blogList1, blogList4, blogList5 } from '@sandbox/data/blog';
 
 const quickAccess = [
   { title: 'Blog Card 1', url: 'snippet-1' },

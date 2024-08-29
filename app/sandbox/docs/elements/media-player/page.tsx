@@ -1,13 +1,13 @@
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
-import VideoPlyr from 'app/sandbox/components/reuseable/VideoPlyr';
-import CodeHighlight from 'app/sandbox/components/reuseable/CodeHighlight';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
+import VideoPlyr from '@sandbox/components/reuseable/VideoPlyr';
+import CodeHighlight from '@sandbox/components/reuseable/CodeHighlight';
 // MARKUPS
 import {
   htmlMarkup,
   vimeoMarkup,
   youtubeMarkup,
   embededMarkup,
-} from 'app/sandbox/themes/markups/elements/media-player';
+} from '@sandbox/themes/markups/elements/media-player';
 // CUSTOM DATA
 const quickAccess = [
   { title: 'HTML5 Video - plyr', url: 'snippet-1' },

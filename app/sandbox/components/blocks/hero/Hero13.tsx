@@ -1,8 +1,8 @@
 'use client';
 
-import { zoomInAnimate } from 'app/sandbox/utils/animation';
+import { zoomInAnimate } from '@sandbox/utils/animation';
 // GLOBAL CUSTOM HOOKS
-import useLightBox from 'app/sandbox/hooks/useLightBox';
+import useLightBox from '@sandbox/hooks/useLightBox';
 
 export default function Hero13() {
   // use video popup

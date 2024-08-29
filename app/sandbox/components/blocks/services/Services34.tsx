@@ -1,4 +1,4 @@
-import { services } from 'app/sandbox/data/demo-32';
+import { services } from '@sandbox/data/demo-32';
 
 export default function Services34() {
   return (

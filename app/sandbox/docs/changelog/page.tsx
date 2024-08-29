@@ -1,6 +1,6 @@
 import Link from 'next/link';
 // GLOBAL CUSTOM COMPONENTS
-import DocLayout from 'app/sandbox/components/layouts/DocLayout';
+import DocLayout from '@sandbox/components/layouts/DocLayout';
 
 const v11 = [
   'pages/demo-26.tsx',

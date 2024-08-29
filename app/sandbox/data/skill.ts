@@ -1,4 +1,4 @@
-import color from 'app/sandbox/utils/color';
+import color from '@sandbox/utils/color';
 
 export const skill1 = [
   { id: 1, percent: 100, title: 'Web Design', color: color.violet },
