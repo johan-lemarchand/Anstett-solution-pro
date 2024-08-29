@@ -1,7 +1,7 @@
 import NextLink from '../links/NextLink';
 
-import { IconProps } from '../../../../types/icon';
-import { LinkType } from '../../../../types/demo-1';
+import IconProps from '../../../../types/icon';
+import { LinkType } from '../../../../types/link';
 
 // ===============================================================
 interface ServiceCard1Props {

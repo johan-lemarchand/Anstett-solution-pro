@@ -16,8 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@sandbox/*": ["./app/sandbox/*"],
-      "@agency/*": ["./app/agency/*"],
-      "@types/*": ["./app/types/*"]
+      "@agency/*": ["./app/agency/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
