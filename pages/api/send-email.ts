@@ -109,8 +109,8 @@ export default async function handler(
     const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY_AGENCY);
 
     await resend.emails.send({
-      from: 'delivered@resend.dev',
-      to: 'delivered@resend.dev',
+      from: 'anstett.solutions.pro@gmail.com',
+      to: 'anstett.solutions.pro@gmail.com',
       subject: 'Formulaire de contact',
       react: ContactFormEmail({
         name,
