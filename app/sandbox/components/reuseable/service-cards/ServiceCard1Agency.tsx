@@ -1,5 +1,5 @@
-import {IconProps} from '../../../../types/icon';
-import { LinkType } from "../../../../types/demo-1";
+import IconProps from '../../../../types/icon';
+import LinkType  from "../../../../types/demo-1";
 
 // ===============================================================
 interface ServiceCard1AgencyProps {

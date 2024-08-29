@@ -8,4 +8,4 @@ enum LinkType {
   fuchsia = 'fuchsia'
 }
 
-export { LinkType };
+export default LinkType;
