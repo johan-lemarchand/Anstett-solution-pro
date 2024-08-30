@@ -25,7 +25,7 @@ AWS.config.update({
   region: process.env.AWS_REGION,
 });
 
-const ses = new AWS.SES({ apiVersion: '2010-12-01' });
+const ses = new AWS.SES({ apiVersion: 'latest' });
 
 export default async function handler(
   req: NextApiRequest,
