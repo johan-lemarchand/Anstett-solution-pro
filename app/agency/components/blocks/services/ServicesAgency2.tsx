@@ -189,11 +189,11 @@ const List = ({ color, title }: ListProps) => {
           </p>
         </li>
       </ul>
-      <NextLink
+      {/* <NextLink
         title="En savoir plus"
         href="#"
         className={`btn btn-${color} mt-2`}
-      />
+      /> */}
     </div>
   );
 };
@@ -240,11 +240,11 @@ const List2 = ({ color, title }: ListProps) => {
         </li>
       </ul>
 
-      <NextLink
+      {/* <NextLink
         title="En savoir plus"
         href="#"
         className={`btn btn-${color} mt-2`}
-      />
+      /> */}
     </div>
   );
 };
@@ -287,11 +287,11 @@ const List3 = ({ color, title }: ListProps) => {
         </li>
       </ul>
 
-      <NextLink
+      {/* <NextLink
         title="En savoir plus"
         href="#"
         className={`btn btn-${color} mt-2`}
-      />
+      /> */}
     </div>
   );
 };

@@ -1,15 +1,48 @@
 // GLOBAL CUSTOM COMPONENTS
-import SocialLinks from '../../../../sandbox/components/reuseable/SocialLinks';
+'use client';
+//import SocialLinks from '../../../../sandbox/components/reuseable/SocialLinks';
+import SocialLinks from '../../reuseable/SocialLinks';
+
 import NextLink from '../../../../sandbox/components/reuseable/links/NextLink';
 // CUSTOM DATA
-import footerNav from '../../../../sandbox/data/footer';
+import footerNav from '../../../data/footer';
+
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+import { ScrollArea } from '@/components/ui/scroll-area';
+
+import { useEffect } from 'react';
+
+function getScrollbarWidth(): number {
+  return window.innerWidth - document.documentElement.clientWidth;
+}
+
+function useScrollbarEffect() {
+  useEffect(() => {
+    const scrollbarWidth = getScrollbarWidth();
+    document.documentElement.style.setProperty(
+      '--scrollbar-width',
+      `${scrollbarWidth}px`
+    );
+
+    return () => {
+      document.documentElement.style.removeProperty('--scrollbar-width');
+    };
+  }, []);
+}
 
 export default function FooterAgency() {
   return (
     <footer className="bg-light">
       <div className="container pb-13 pb-md-15">
         <div className="row gy-6 gy-lg-0">
-          <div className="col-md-4 col-lg-3">
+          <div className="col-md-4 col-lg-4">
             <div className="widget">
               <img
                 className="mb-4"
@@ -28,7 +61,7 @@ export default function FooterAgency() {
             </div>
           </div>
 
-          <div className="col-md-4 col-lg-3">
+          <div className="col-md-4 col-lg-4">
             <div className="widget">
               <h4 className="widget-title mb-3">Prendre contact</h4>
               <address className="pe-xl-15 pe-xxl-17">
@@ -43,20 +76,47 @@ export default function FooterAgency() {
             </div>
           </div>
 
-          <div className="col-md-4 col-lg-3">
+          <div className="col-md-4 col-lg-4">
             <div className="widget">
               <h4 className="widget-title mb-3">En savoir plus</h4>
               <ul className="list-unstyled text-reset mb-0">
-                {footerNav.map(({ title, url }) => (
+                {footerNav.map(({ title, url, content }) => (
                   <li key={title}>
-                    <NextLink title={title} href={url} />
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <NextLink
+                          title={title}
+                          href={url}
+                          //className={`more hover link-${linkType}`}
+                        />
+                      </DialogTrigger>
+                      <DialogContent className="Dialog sm:max-w-[425px]">
+                        <DialogHeader className="DialogHeader">
+                          <DialogTitle className="DialogTitle">
+                            {title}
+                          </DialogTitle>
+                        </DialogHeader>
+                        <ScrollArea className="ScrollArea h-[300px] w-full rounded-md border p-4">
+                          <DialogDescription
+                            asChild
+                            className="DialogDescription"
+                          >
+                            <div
+                              dangerouslySetInnerHTML={{ __html: content }}
+                            />
+                          </DialogDescription>
+                        </ScrollArea>
+                      </DialogContent>
+                    </Dialog>
+
+                    {/* <NextLink title={title} href={{title} /> */}
                   </li>
                 ))}
               </ul>
             </div>
           </div>
 
-          <div className="col-md-12 col-lg-3">
+          {/* <div className="col-md-12 col-lg-3">
             <div className="widget">
               <h4 className="widget-title mb-3">Notre newsletter</h4>
               <p className="mb-5">
@@ -124,7 +184,7 @@ export default function FooterAgency() {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </footer>

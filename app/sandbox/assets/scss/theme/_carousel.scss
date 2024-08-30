@@ -84,6 +84,9 @@
 }
 
 .swiper-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
   -webkit-user-select: none;
   position: relative;
   z-index: 10 !important;
@@ -348,6 +351,7 @@
 .swiper-container .swiper-slide [class*='animate__'] {
   animation-name: none;
   visibility: hidden;
+  
 }
 .swiper-container .swiper-slide.swiper-slide-active {
   [class*='animate__'] {
@@ -429,6 +433,7 @@
 //----------------------------------------------------------//
 //	TICKER MODE
 //----------------------------------------------------------//
+
 .swiper-wrapper.ticker {
   transition-timing-function: linear !important;
 }

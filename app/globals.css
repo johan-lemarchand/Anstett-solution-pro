@@ -67,3 +67,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.center-project .swiper-wrapper {
+  justify-content: center;
+}
+
