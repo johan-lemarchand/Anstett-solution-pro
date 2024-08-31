@@ -2,11 +2,11 @@
 export const portfolioList6 = [
   {
     id: 1,
-    category: 'Stationary',
-    link: '/single-project-1',
-    title: 'Cras Fermentum Sem',
-    image: '/img/photos/pd7.jpg',
-    fullImage: '/img/photos/pd7-full.jpg',
+    category: 'Landing Page',
+    link: 'https://www.kokoro-mediation-animale.fr',
+    title: 'Kokoro Médiation animale',
+    image: '/img/photos/kokoro.jpg',
+    fullImage: '/img/photos/kokoro-full.jpg',
   },
   // {
   //   id: 2,
